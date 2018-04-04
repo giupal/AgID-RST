@@ -34,7 +34,8 @@ c) *Collective Seller*: è l’AgID che mette a disposizione dei PSP che
 d) *Sub-Seller*: è l’Ente Creditore che, attraverso il Nodo dei
    Pagamenti-SPC, consente ai propri utenti di utilizzare il servizio
    MyBank proposto dal PSP dell’utente stesso.
-
+   
+.. _Relazioni tra i soggetti:
 Relazioni tra i soggetti
 ------------------------
 
@@ -87,6 +88,7 @@ servizio per lo svolgimento a titolo gratuito del ruolo di *Seller Bank*
 per gli Enti Creditori, ossia per le PA e/o i gestori di pubblici
 servizi che siano aderenti al Nodo dei Pagamenti-SPC.
 
+.. _Mandatory requirements:
 *Mandatory requirements* tipici del servizio MyBank
 ---------------------------------------------------
 
@@ -154,6 +156,7 @@ Ente Creditore si impegna a:
        parte degli Enti Creditori, ogni altra previsione stabilita nel
        documento *Mandatory requirements* del servizio MyBank.
 
+.. _Logotipo del servizio MyBank:
 Logotipo del servizio MyBank
 ----------------------------
 
@@ -195,6 +198,7 @@ tavolozza dei colori di MyBank si rimanda alla documentazione ufficiale
 di cui sopra, in particolare al documento “MyBank Style Guide for
 Businesses”.
 
+.. _Esposizione del logotipo MyBank sul portale degli Enti Creditori:
 Esposizione del logotipo MyBank sul portale degli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -210,6 +214,7 @@ Tale modalità è realizzata attraverso il servizio WISP (vedi §§ 2.1.3 e
 Pagamenti-SPC, rispettando quindi i *mandatory requirements* previsti da
 MyBank (vedi § 16.2).
 
+.. _Causale del pagamento:
 Causale del pagamento
 ---------------------
 
@@ -220,6 +225,7 @@ senza aggiungere o modificare nulla nel dato APP-SCT01-02-D13 del
 messaggio di *E-Authorisation Request* (pain.013) ricevuto attraverso il
 *Validation Service* MyBank.
 
+.. _Vincoli nell’utilizzo del servizio MyBank:
 Vincoli nell’utilizzo del servizio MyBank
 -----------------------------------------
 
@@ -234,6 +240,7 @@ transazione), gli Enti Creditori non potranno utilizzare le funzioni di
 Nodo previste per il pagamento multi beneficiario, ovvero il cosiddetto
 “carrello di RPT” (vedi § 4.4.2) con PSP che offrono il servizio MyBank.
 
+.. _Controlli effettuati dal Nodo dei Pagamenti-SPC:
 Controlli effettuati dal Nodo dei Pagamenti-SPC
 -----------------------------------------------
 
