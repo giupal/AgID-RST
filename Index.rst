@@ -857,7 +857,7 @@ digitale 240 <#_Toc508016361>`__
 250 </25-APPENDICE2/25-APPENDICE2.rst>`__
 
 `16. Il modello di funzionamento del servizio MyBank
-</26-Capitolo_16/26-Capitolo16.rst>`__
+</26-Capitolo_16/Capitolo16.rst>`__
 
 `16.1 Relazioni tra i soggetti </26-Capitolo_16/Capitolo16.rst#relazioni-tra-i-soggetti>`__
 
