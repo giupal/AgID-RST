@@ -908,6 +908,6 @@ digitale 240 <#_Toc508016361>`__
 
 FINE DOCUMENTO
 
-.. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
+.. |AGID_logo_carta_intestata-02.png| image:: ./media/heder.png
    :width: 5.90551in
    :height: 1.30277in
