@@ -878,12 +878,12 @@ digitale 240 <#_Toc508016361>`__
 
 .. toctree::
 
-   _docs/STATO_DEL_DOCUMENTO.rst
+   _AgID_/STATO_DEL_DOCUMENTO.rst
    _docs/DEFINIZIONI_E_ACRONIMI.rst
    _docs/INTRODUZIONE.rst
    _docs/PREMESSA_ALLA_VERSIONE_2.1.rst
    _docs/SEZIONE_I_-_REGOLE_E_FUNZIONAMENTO_DEL_SISTEMA.rst
-   _docs/Capitolo1.rst
+   _AgID-RST/06-Capitolo_1/Capitolo1.rst
    _docs/Capitolo2.rst
    _docs/Capitolo3.rst
    _docs/Capitolo4.rst
