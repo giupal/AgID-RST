@@ -271,6 +271,7 @@ componente Giornale degli Eventi del Nodo dei Pagamenti-SPC e resi
 disponibili attraverso il Servizio di Reporting del Nodo dei
 Pagamenti-SPC.
 
+.. _Indicatori SPC:
 Indicatori di qualità del Nodo dei Pagamenti-SPC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
