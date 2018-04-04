@@ -31,9 +31,8 @@ Creditori ovvero attraverso dispositivi e funzioni dei PSP.
 Si fa presente che, nella gestione di tali *workflow* occorre tenere in
 considerazione i cosiddetti *Timeout*, ovvero i tempi massimi necessari
 a definire che un processo di pagamento ha avuto termine con un esito
-negativo, per i quali si rimanda al Capitolo 4 del documento “” (si veda
-anche il § **Errore. L'origine riferimento non è stata trovata.** della
-Sezione IV).
+negativo, per i quali si rimanda al Capitolo 4 del documento “Indicatori di qualità per i Soggetti Aderenti” (si veda
+anche il `§ 12.6.1 </07-Capitolo_2/07-Capitolo_2.rst>`__ della Sezione IV).
 
 I *workflow* di seguito descritti sono parte integrante delle
 implementazioni previste nel Nodo dei Pagamenti-SPC (vedi anche Sezione
