@@ -32,7 +32,7 @@ Si fa presente che, nella gestione di tali *workflow* occorre tenere in
 considerazione i cosiddetti *Timeout*, ovvero i tempi massimi necessari
 a definire che un processo di pagamento ha avuto termine con un esito
 negativo, per i quali si rimanda al Capitolo 4 del documento “Indicatori di qualità per i Soggetti Aderenti” (si veda
-anche il `§ 12.6.1 </07-Capitolo_2/07-Capitolo_2.rst>`__ della Sezione IV).
+anche il `§ 12.6.1 </20-Capitolo_12/Capitolo12.rst#indicatori-di-qualità-del-nodo-dei-pagamenti-spc>`__ della Sezione IV).
 
 I *workflow* di seguito descritti sono parte integrante delle
 implementazioni previste nel Nodo dei Pagamenti-SPC (vedi anche Sezione
