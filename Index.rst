@@ -824,7 +824,7 @@ digitale 240 <#_Toc508016361>`__
 `14.2.6 WSDL NodoPerPSPChiediElencoAvvisiDigitali
 245 <#_Toc508016389>`__
 
-`15. Specifiche – XSD 246 </24-Capitolo_15/24-Capitolo_15.rst>`__
+`15. Specifiche – XSD 246 </24-Capitolo_15/Capitolo15.rst>`__
 
 `15.1 Oggetti scambiati per la gestione del processo di pagamento
 246 <#_Toc508016391>`__
@@ -854,7 +854,7 @@ digitale 240 <#_Toc508016361>`__
 `15.6 Acknowledgement Pagamenti Telematici 249 <#_Toc508016402>`__
 
 `Appendice 2 – Transazioni MyBank attraverso il Nodo dei Pagamenti-SPC
-250 </25-APPENDICE2/25-APPENDICE2.rst>`__
+</25-APPENDICE2/APPENDICE2.rst>`__
 
 `16. Il modello di funzionamento del servizio MyBank
 </26-Capitolo_16/Capitolo16.rst>`__
