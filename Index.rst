@@ -8,15 +8,13 @@
 
 Indice dei contenuti
 
-`Stato del documento 2 </00-STATO_DEL_DOCUMENTO/STATO_DEL_DOCUMENTO.rst>`__
+`Stato del documento </00-STATO_DEL_DOCUMENTO/STATO_DEL_DOCUMENTO.rst>`__
 
-`Indice dei contenuti 3 <#STATO>`__
+`Definizioni e Acronimi </02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst>`__
 
-`Definizioni e Acronimi 12 </02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst>`__
+`Premessa alla Versione 2.1 </04-PREMESSA_ALLA_VERSIONE_2.1/PREMESSA_ALLA_VERSIONE_2.1.rst>`__
 
-`Premessa alla Versione 2.1 18 </04-PREMESSA_ALLA_VERSIONE_2.1/04-PREMESSA_ALLA_VERSIONE_2.1.rst>`__
-
-`Sezione I - Regole e Funzionamento del sistema 19 </05-SEZIONE_I/05-SEZIONE_I.rst>`__
+`Sezione I - Regole e Funzionamento del sistema </05-SEZIONE_I/SEZIONE_I.rst>`__
 
 `1. Modello di funzionamento 20 </06-Capitolo_1/Capitolo1.rst>`__
 
@@ -60,7 +58,7 @@ Indice dei contenuti
 
 `1.7 Sicurezza e conservazione 28 <#_Toc508016067>`__
 
-`2. Modelli del processo di pagamento 28 </07-Capitolo_2/Capitolo_2.rst>`__
+`2. Modelli del processo di pagamento </07-Capitolo_2/Capitolo2.rst>`__
 
 `2.1 Processo di pagamento attivato presso l’Ente Creditore
 29 <#_Toc508016069>`__
