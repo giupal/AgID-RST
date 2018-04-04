@@ -169,6 +169,7 @@ Rimangono, comunque, inalterate le responsabilità di Ente Creditore e
 PSP nei confronti delle proprie controparti diverse dall’AgID e, in
 particolare, degli utilizzatori finali.
 
+.. _Dominio pagamenti:
 Dominio dei Pagamenti dell’Ente Creditore
 -----------------------------------------
 
@@ -219,6 +220,7 @@ Nel Dominio, le attività di pertinenza di ogni soggetto sono effettuate
 conformemente ai requisiti di riservatezza e di protezione da accessi
 non autorizzati.
 
+.. _Siti e portali EC:
 Siti e portali degli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -228,6 +230,7 @@ servizi devono essere autenticati con procedure di validazione avanzata
 (quali, ad esempi, certificati SSL con Extended Validation emessi da
 Autorità di Certificazione riconosciute).
 
+.. _Siti e portali amministrazioni:
 Siti e portali delle pubbliche amministrazioni
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -258,6 +261,7 @@ i servizi applicativi resi disponibili a tali utilizzatori finali.
 A Tal fine AgID rende disponibile SPID (Sistema Pubblico di Identità
 Digitale).
 
+.. _Governance:
 Governance del sistema
 ----------------------
 
@@ -284,6 +288,7 @@ pubblici, in particolare:
 
 -  l’adozione degli standard SEPA.
 
+.. _Ciclo di vita:
 Ciclo di vita del Pagamento
 ---------------------------
 
@@ -324,6 +329,7 @@ In questa descrizione del “ciclo di vita” di pagamento l'ordine delle
 fasi è puramente indicativo e può variare a seconda dello scenario e
 della tipologia di servizio al quale si riferisce il pagamento stesso.
 
+.. _Processo di pagamento:
 Processo di pagamento
 ---------------------
 
@@ -341,6 +347,7 @@ diversi *workflow* applicativi (vedi successivo capitolo 2) che però, in
 tutti i casi, prevedono lo scambio di oggetti contenenti le informazioni
 necessarie a garantire la corretta gestione dei processi.
 
+.. _Oggetti scambiati:
 Oggetti scambiati
 ~~~~~~~~~~~~~~~~~
 
@@ -383,6 +390,7 @@ previsti ulteriori oggetti applicativi scambiati, tra lo stesso NodoSPC
 ed i soggetti aderenti, che riguardano le Strutture dati di supporto ed
 i Servizi applicativi opzionali (vedi anche capitolo 4).
 
+.. _IUV:
 Identificativo Univoco di Versamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -405,6 +413,7 @@ Creditore riceve tutte le informazioni che caratterizzano il pagamento,
 permettendo di eseguire eventuali controlli e verifiche relativi e/o
 propedeutici all’erogazione del servizio.
 
+.. _Flusso processo:
 Flusso di processo
 ~~~~~~~~~~~~~~~~~~
 
@@ -433,6 +442,7 @@ L’effettiva esecuzione dei pagamenti, instradati da tale scambio
 informativo, è gestita utilizzando i circuiti di pagamento esistenti,
 esterni al Nodo dei Pagamenti-SPC.
 
+.. _Compiti EC:
 Compiti degli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -455,6 +465,7 @@ offerti direttamente o tramite intermediari:
    usufruendo delle funzionalità accessorie messe a disposizione dalla
    piattaforma.
 
+.. _Integrita RT:
 Integrità e non ripudiabilità della RT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -483,6 +494,7 @@ specifiche.**
 **Gli EC che adottano tale modalità dovranno predisporre un piano in
 vista della dismissione.**
 
+.. _Trasparenza:
 Trasparenza nei confronti degli utilizzatori finali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -518,6 +530,7 @@ del caso, le modalità con cui indicare utilizzatore finale l’importo
 della commissione specifica e/o di maggior favore praticata all’atto
 dell’esecuzione del singolo pagamento.
 
+.. _Funzioni accessorie:
 Funzioni accessorie di controllo e di verifica
 ----------------------------------------------
 
@@ -547,6 +560,7 @@ supporto definito dal soggetto che registra tali informazioni. Il Nodo
 dei Pagamenti-SPC fornisce tali informazioni su supporto cartaceo e file
 XML.
 
+.. _Sicurezza:
 Sicurezza e conservazione
 -------------------------
 
