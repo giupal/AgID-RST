@@ -8,15 +8,15 @@
 
 Indice dei contenuti
 
-`Stato del documento 2 <#_Toc508016044>`__
+`Stato del documento 2 </00-STATO_DEL_DOCUMENTO//00-STATO_DEL_DOCUMENTO.rst>`__
 
 `Indice dei contenuti 3 <#STATO>`__
 
-`Definizioni e Acronimi 12 <#_Toc508016046>`__
+`Definizioni e Acronimi 12 </02-DEFINIZIONI_E_ACRONIMI/02-DEFINIZIONI_E_ACRONIMI.rst>`__
 
-`Premessa alla Versione 2.1 18 <#_Toc508016047>`__
+`Premessa alla Versione 2.1 18 </04-PREMESSA_ALLA_VERSIONE_2.1/04-PREMESSA_ALLA_VERSIONE_2.1.rst>`__
 
-`Sezione I - Regole e Funzionamento del sistema 19 <#_Toc508016048>`__
+`Sezione I - Regole e Funzionamento del sistema 19 </05-SEZIONE_I/05-SEZIONE_I.rst>`__
 
 `1. Modello di funzionamento 20 </06-Capitolo_1/Capitolo1.rst>`__
 
@@ -27,7 +27,7 @@ Indice dei contenuti
 `1.1.2 Intermediari tecnologici e partner tecnologici
 22 <#_Toc508016052>`__
 
-`1.2 Dominio dei Pagamenti dell’Ente Creditore 22 </06-Capitolo_1/Capitolo1.rst#dominio-dei-pagamenti-dellente-creditore>`__
+`1.2 Dominio dei Pagamenti dell’Ente Creditore 22 <#_Toc508016053>`__
 
 `1.2.1 Siti e portali degli Enti Creditori 23 <#_Toc508016054>`__
 
@@ -60,7 +60,7 @@ Indice dei contenuti
 
 `1.7 Sicurezza e conservazione 28 <#_Toc508016067>`__
 
-`2. Modelli del processo di pagamento 28 <#_Toc508016068>`__
+`2. Modelli del processo di pagamento 28 </07-Capitolo_2/07-Capitolo_2.rst>`__
 
 `2.1 Processo di pagamento attivato presso l’Ente Creditore
 29 <#_Toc508016069>`__
@@ -171,7 +171,7 @@ pagamento 50 <#_Toc508016101>`__
 
 `2.10.2 Pagamento del dovuto 54 <#_Toc508016113>`__
 
-`3. Il Nodo dei Pagamenti-SPC 55 <#_Toc508016114>`__
+`3. Il Nodo dei Pagamenti-SPC 55 </08-Capitolo_3/08-Capitolo_3.rst>`__
 
 `3.1 Caratteristiche generali del Nodo dei Pagamenti-SPC
 55 <#_Toc508016115>`__
@@ -208,7 +208,7 @@ pagamento 50 <#_Toc508016101>`__
 
 `3.2.14 Sistema di Reporting 60 <#_Toc508016130>`__
 
-`4. Il sistema pagoPA e il Nodo dei Pagamenti-SPC 60 <#_Toc508016131>`__
+`4. Il sistema pagoPA e il Nodo dei Pagamenti-SPC 60 </09-Capitolo_4/09-Capitolo_4.rst>`__
 
 `4.1 Connessione al sistema pagoPA 60 <#_Toc508016132>`__
 
@@ -267,9 +267,9 @@ pagamento 50 <#_Toc508016101>`__
 `4.6.3.1 Report “Commissioni a carico PA” 66 <#_Toc508016157>`__
 
 `Sezione II - Composizione DELLE INFORMAZIONI ATTINENTI ALLO SCAMBIO DI
-DATI TRA Enti creditori E PSP 68 <#_Toc508016158>`__
+DATI TRA Enti creditori E PSP 68 </10-SEZIONE_II/10-SEZIONE_II.rst>`__
 
-`5. Messaggi e flussi informativi 68 <#_Toc508016159>`__
+`5. Messaggi e flussi informativi 68 </11-Capitolo_5/11-Capitolo_5.rst>`__
 
 `5.1 Formato dei messaggi 68 <#_Toc508016160>`__
 
@@ -333,9 +333,9 @@ Automobilistica 100 <#_Toc508016175>`__
 `5.4.4.4 Richiesta posizione debitoria presso un Ente Creditore
 106 <#_Toc508016186>`__
 
-`6. Giornale degli Eventi 107 <#_Toc508016187>`__
+`6. Giornale degli Eventi 107 </12-Capitolo_6/12-Capitolo_6.rst>`__
 
-`7. Identificazione del versamento 109 <#_Toc508016188>`__
+`7. Identificazione del versamento 109 </13-Capitolo_7/13-Capitolo_7.rst>`__
 
 `7.1 Identificativo Univoco Versamento 109 <#_Toc508016189>`__
 
@@ -366,12 +366,12 @@ Automobilistica 100 <#_Toc508016175>`__
 
 `7.4.5 Comunicazioni all'utilizzatore finale 113 <#_Toc508016199>`__
 
-`Sezione III - Specifiche di interconnessione 115 <#_Toc508016200>`__
+`Sezione III - Specifiche di interconnessione 115 </14-SEZIONE_III/14-SEZIONE_III.rst>`__
 
 `Identificazione degli oggetti scambiati nel sistema pagoPA
 116 <#_Toc508016201>`__
 
-`8. Interazione tra Ente Creditore e NodoSPC 117 <#_Toc508016202>`__
+`8. Interazione tra Ente Creditore e NodoSPC 117 </15-Capitolo_8/15-Capitolo_8.rst>`__
 
 `8.1 *Workflow* dei modelli di pagamento e dei processi accessori
 117 <#_Toc508016203>`__
@@ -540,7 +540,7 @@ Avviso Digitale 171 <#_Toc508016268>`__
 `8.5.2.2 Invio delle richieste di avviso da EC al Nodo dei Pagamenti-SPC
 172 <#_Toc508016270>`__
 
-`9. Interazione tra Nodo dei Pagamenti-SPC e PSP 172 <#_Toc508016271>`__
+`9. Interazione tra Nodo dei Pagamenti-SPC e PSP 172 </16-Capitolo_9/16-Capitolo_9.rst>`__
 
 `9.1 Workflow dei modelli di pagamento e dei processi accessori
 172 <#_Toc508016272>`__
@@ -715,7 +715,7 @@ Party* 222 <#_Toc508016332>`__
 
 `9.4.6 Glossario informazioni 229 <#_Toc508016343>`__
 
-`10. Gestione degli Errori 229 <#_Toc508016344>`__
+`10. Gestione degli Errori 229 </17-Capitolo_10/17-Capitolo_10.rst>`__
 
 `10.1 La struttura faultBean 229 <#_Toc508016345>`__
 
@@ -727,9 +727,9 @@ Party* 222 <#_Toc508016332>`__
 234 <#_Toc508016348>`__
 
 `Sezione IV – Ruoli e responsabilità degli Aderenti
-235 <#_Toc508016349>`__
+235 </18-SEZIONE_IV/18-SEZIONE_IV.rst>`__
 
-`11. Adesione al Nodo dei Pagamenti-SPC 235 <#_Toc508016350>`__
+`11. Adesione al Nodo dei Pagamenti-SPC 235 </18-Capitolo_11/18-Capitolo_11.rst>`__
 
 `11.1 Adesione di un Ente Creditore. 235 <#_Toc508016351>`__
 
@@ -745,7 +745,7 @@ Party* 222 <#_Toc508016332>`__
 `11.5 Utilizzo del marchio pagoPA 237 <#_Toc508016355>`__
 
 `12. Adempimenti durante l’erogazione del Servizio
-238 <#_Toc508016356>`__
+238 <19-Capitolo_12/19-Capitolo_12.rst>`__
 
 `12.1 Adempimenti dell’Ente Creditore 238 <#_Toc508016357>`__
 
@@ -782,16 +782,16 @@ digitale 240 <#_Toc508016361>`__
 `12.6.1 Indicatori di qualità del Nodo dei Pagamenti-SPC
 242 <#_Toc508016370>`__
 
-`13. Responsabilità 242 <#_Toc508016371>`__
+`13. Responsabilità 242 </21-Capitolo_13/21-Capitolo_13.rst>`__
 
 `13.1 Responsabilità dell’Ente Creditore 242 <#_Toc508016372>`__
 
 `13.2 Responsabilità del prestatore di servizi di pagamento
 242 <#_Toc508016373>`__
 
-`Appendice 1 – WSDL e XSD 244 <#_Toc508016374>`__
+`Appendice 1 – WSDL e XSD 244 </22-APPENDICE1/22-APPENDICE1.rst>`__
 
-`14. Specifiche – WSDL 244 <#_Toc508016375>`__
+`14. Specifiche – WSDL 244 </22-Capitolo_14/22-Capitolo_14.rst>`__
 
 `14.1 Interazione tra Amministrazione e Nodo dei Pagamenti-SPC
 244 <#_Toc508016376>`__
@@ -824,7 +824,7 @@ digitale 240 <#_Toc508016361>`__
 `14.2.6 WSDL NodoPerPSPChiediElencoAvvisiDigitali
 245 <#_Toc508016389>`__
 
-`15. Specifiche – XSD 246 <#_Toc508016390>`__
+`15. Specifiche – XSD 246 </24-Capitolo_15/24-Capitolo_15.rst>`__
 
 `15.1 Oggetti scambiati per la gestione del processo di pagamento
 246 <#_Toc508016391>`__
@@ -854,10 +854,10 @@ digitale 240 <#_Toc508016361>`__
 `15.6 Acknowledgement Pagamenti Telematici 249 <#_Toc508016402>`__
 
 `Appendice 2 – Transazioni MyBank attraverso il Nodo dei Pagamenti-SPC
-250 <#_Toc508016403>`__
+250 </25-APPENDICE2/25-APPENDICE2.rst>`__
 
 `16. Il modello di funzionamento del servizio MyBank
-250 <#_Toc508016404>`__
+250 </26-Capitolo_16/26-Capitolo_16.rst>`__
 
 `16.1 Relazioni tra i soggetti 251 <#_Toc508016405>`__
 
