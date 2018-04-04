@@ -857,24 +857,24 @@ digitale 240 <#_Toc508016361>`__
 250 </25-APPENDICE2/25-APPENDICE2.rst>`__
 
 `16. Il modello di funzionamento del servizio MyBank
-250 </26-Capitolo_16/26-Capitolo_16.rst>`__
+</26-Capitolo_16/26-Capitolo16.rst>`__
 
-`16.1 Relazioni tra i soggetti 251 <#_Toc508016405>`__
+`16.1 Relazioni tra i soggetti </26-Capitolo_16/Capitolo16.rst#relazioni-tra-i-soggetti>`__
 
 `16.2 *Mandatory requirements* tipici del servizio MyBank
-251 <#_Toc508016406>`__
+<26-Capitolo_16/Capitolo16.rst#mandatory-requirements-tipici-del-servizio-mybank>`__
 
-`16.3 Logotipo del servizio MyBank 252 <#_Toc508016407>`__
+`16.3 Logotipo del servizio MyBank <26-Capitolo_16/Capitolo16.rst#logotipo-del-servizio-mybank>`__
 
 `16.3.1 Esposizione del logotipo MyBank sul portale degli Enti Creditori
 253 <#_Toc508016408>`__
 
-`16.4 Causale del pagamento 253 <#_Toc508016409>`__
+`16.4 Causale del pagamento <26-Capitolo_16/Capitolo16.rst#esposizione-del-logotipo-mybank-sul-portale-degli-enti-creditori>`__
 
-`16.5 Vincoli nell’utilizzo del servizio MyBank 253 <#_Toc508016410>`__
+`16.5 Vincoli nell’utilizzo del servizio MyBank <26-Capitolo_16/Capitolo16.rst#vincoli-nellutilizzo-del-servizio-mybank>`__
 
 `16.6 Controlli effettuati dal Nodo dei Pagamenti-SPC
-253 <#_Toc508016411>`__
+<26-Capitolo_16/Capitolo16.rst#controlli-effettuati-dal-nodo-dei-pagamenti-spc>`__
 
 .. toctree::
 
