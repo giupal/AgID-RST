@@ -25,7 +25,7 @@ Indice dei contenuti
 `1.1.1 Istituto tesoriere dell’Ente Creditore 22 <#_Toc508016051>`__
 
 `1.1.2 Intermediari tecnologici e partner tecnologici
-22 <#_Toc508016052>`__
+</06-Capitolo_1/Capitolo1.rst#intermediari-tecnologici-e-partner-tecnologici>`__
 
 `1.2 Dominio dei Pagamenti dell’Ente Creditore 22 <#_Toc508016053>`__
 
