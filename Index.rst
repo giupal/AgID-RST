@@ -18,7 +18,7 @@ Indice dei contenuti
 
 `Sezione I - Regole e Funzionamento del sistema 19 <#_Toc508016048>`__
 
-`1. Modello di funzionamento 20 <#_Toc508016049>`__
+`1. Modello di funzionamento 20 </AgID-RST/06-Capitolo_1/Capitolo1.rst>`__
 
 `1.1 Attori e ruoli del Sistema pagoPA 21 <#_Toc508016050>`__
 
