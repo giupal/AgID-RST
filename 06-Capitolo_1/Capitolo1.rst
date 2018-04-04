@@ -6,6 +6,7 @@
 | **Capitolo 1. MODELLO DI FUNZIONAMENTO** |
 +------------------------------------------+
 
+.. _Modello di funzionamento:
 Modello di funzionamento
 ========================
 
@@ -30,6 +31,7 @@ Provvedimento Banca d’Italia del 5 luglio 2011 in materia di diritti e
 obblighi delle parti nei servizi di pagamento (cfr. articolo 2.1.2 di
 detto provvedimento).
 
+.. _Attori e ruoli:
 Attori e ruoli del Sistema pagoPA
 ---------------------------------
 
@@ -117,6 +119,7 @@ processo di pagamento e che svolgono i seguenti ruoli:
 Nell’ambito del modello sopra esposto assumono particolare rilevanza la
 figura dell’istituto tesoriere e quella di “intermediario tecnologico”.
 
+.. _Istituto tesoriere:
 Istituto tesoriere dell’Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
