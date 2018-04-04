@@ -25,7 +25,7 @@ Indice dei contenuti
 `1.1.2 Intermediari tecnologici e partner tecnologici
 22 <#_Toc508016052>`__
 
-`1.2 Dominio dei Pagamenti dell’Ente Creditore 22 <#_Toc508016053>`__
+`1.2 Dominio dei Pagamenti dell’Ente Creditore 22 </06-Capitolo_1/Capitolo1.rst#dominio-dei-pagamenti-dellente-creditore>`__
 
 `1.2.1 Siti e portali degli Enti Creditori 23 <#_Toc508016054>`__
 
