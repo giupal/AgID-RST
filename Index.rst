@@ -374,171 +374,171 @@ Automobilistica <#_Toc508016175>`__
 `8. Interazione tra Ente Creditore e NodoSPC </15-Capitolo_8/15-Capitolo_8.rst>`__
 
 `8.1 *Workflow* dei modelli di pagamento e dei processi accessori
-<#_Toc508016203>`__
+<15-Capitolo_8/Capitolo8.rst#workflow-dei-modelli-di-pagamento-e-dei-processi-accessori>`__
 
 `8.1.1 Pagamenti attivati presso l'Ente Creditore
-<#_Toc508016204>`__
+<15-Capitolo_8/Capitolo8.rst#pagamenti-attivati-presso-lente-creditore>`__
 
-`8.1.1.1 Workflow di Check-out e pagamento <#_Toc508016205>`__
+`8.1.1.1 Workflow di Check-out e pagamento <15-Capitolo_8/Capitolo8.rst#workflow-di-check-out-e-pagamento>`__
 
-`8.1.1.2 Invio carrello al PSP <#_Toc508016206>`__
+`8.1.1.2 Invio carrello al PSP <15-Capitolo_8/Capitolo8.rst#invio-carrello-al-psp>`__
 
 `8.1.1.3 Workflow di chiusura della transazione presso EC
-<#_Toc508016207>`__
+<15-Capitolo_8/Capitolo8.rst#workflow-di-chiusura-della-transazione-presso-ec>`__
 
 `8.1.1.4 Controllo circa lo stato di avanzamento di un pagamento
-<#_Toc508016208>`__
+<15-Capitolo_8/Capitolo8.rst#controllo-circa-lo-stato-di-avanzamento-di-un-pagamento>`__
 
 `8.1.1.5 Avvertenze per la predisposizione e l’invio delle Richieste di
-Pagamento Telematiche <#_Toc508016209>`__
+Pagamento Telematiche <15-Capitolo_8/Capitolo8.rst#avvertenze-per-la-predisposizione-e-linvio-delle-richieste-di-pagamento-telematiche>`__
 
 `8.1.1.6 Casi di errore e strategie di ripristino per l’Ente Creditore
-<#_Toc508016210>`__
+<15-Capitolo_8/Capitolo8.rst#casi-di-errore-e-strategie-di-ripristino-per-lente-creditore>`__
 
-`8.1.2 Pagamento attivato presso il PSP <#_Toc508016211>`__
+`8.1.2 Pagamento attivato presso il PSP <15-Capitolo_8/Capitolo8.rst#pagamento-attivato-presso-il-psp>`__
 
-`8.1.2.1 Pagamento spontaneo presso il PSP <#_Toc508016212>`__
+`8.1.2.1 Pagamento spontaneo presso il PSP <15-Capitolo_8/Capitolo8.rst#pagamento-spontaneo-presso-il-psp>`__
 
-`8.1.3 Processo di storno del pagamento eseguito <#_Toc508016213>`__
+`8.1.3 Processo di storno del pagamento eseguito <15-Capitolo_8/Capitolo8.rst#processo-di-storno-del-pagamento-eseguito>`__
 
 `8.1.4 Processo di revoca della Ricevuta Telematica
-<#_Toc508016214>`__
+<15-Capitolo_8/Capitolo8.rst#processo-di-revoca-della-ricevuta-telematica>`__
 
 `8.1.5 Processo di riconciliazione dei pagamenti eseguiti
-<#_Toc508016215>`__
+<15-Capitolo_8/Capitolo8.rst#processo-di-riconciliazione-dei-pagamenti-eseguiti>`__
 
 `8.1.6 Processo di avvisatura digitale *push* (su iniziativa dell'Ente
-Creditore) <#_Toc508016216>`__
+Creditore) <15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
-`8.1.6.1 Gestione del singolo avviso digitale <#_Toc508016217>`__
+`8.1.6.1 Gestione del singolo avviso digitale <15-Capitolo_8/Capitolo8.rst#gestione-del-singolo-avviso-digitale>`__
 
 `8.1.6.2 Processo di avvisatura in modalità File Transfer
-<#_Toc508016218>`__
+<15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-in-modalità-file-transfer>`__
 
 `8.1.6.3 Processo di avvisatura in modalità Web service
-<#_Toc508016219>`__
+<15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-in-modalità-web-service>`__
 
 `8.1.6.4 Casi di errore e strategie di ripristino
-<#_Toc508016220>`__
+<15-Capitolo_8/Capitolo8.rst#casi-di-errore-e-strategie-di-ripristino>`__
 
 `8.1.7 Processo di avvisatura digitale *pull* (verifica della posizione
-debitoria) <#_Toc508016221>`__
+debitoria) <15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
 `8.1.8 Processo di notifica di chiusura delle "operazioni pendenti"
-<#_Toc508016222>`__
+<15-Capitolo_8/Capitolo8.rst#processo-di-notifica-di-chiusura-delle-operazioni-pendenti>`__
 
 `8.2 Interfacce Web service e dettaglio azioni SOAP
-<#_Toc508016223>`__
+<15-Capitolo_8/Capitolo8.rst#interfacce-web-service-e-dettaglio-azioni-soap>`__
 
-`8.2.1 Invio e richiesta dello stato delle RPT <#_Toc508016224>`__
+`8.2.1 Invio e richiesta dello stato delle RPT <15-Capitolo_8/Capitolo8.rst#invio-e-richiesta-dello-stato-delle-rpt>`__
 
-`8.2.1.1 nodoInviaRPT <#_Toc508016225>`__
+`8.2.1.1 nodoInviaRPT <15-Capitolo_8/Capitolo8.rst#nodoinviarpt>`__
 
-`8.2.1.2 nodoInviaCarrelloRPT <#_Toc508016226>`__
+`8.2.1.2 nodoInviaCarrelloRPT <15-Capitolo_8/Capitolo8.rst#nodoinviacarrellorpt>`__
 
-`8.2.1.3 nodoChiediStatoRPT <#_Toc508016227>`__
+`8.2.1.3 nodoChiediStatoRPT <15-Capitolo_8/Capitolo8.rst#nodochiedistatorpt>`__
 
-`8.2.1.4 nodoChiediListaPendentiRPT <#_Toc508016228>`__
+`8.2.1.4 nodoChiediListaPendentiRPT <15-Capitolo_8/Capitolo8.rst#nodochiedilistapendentirpt>`__
 
-`8.2.1.5 nodoChiediSceltaWISP <#_Toc508016229>`__
+`8.2.1.5 nodoChiediSceltaWISP <15-Capitolo_8/Capitolo8.rst#nodochiedisceltawisp>`__
 
-`8.2.2 Ricezione delle RT e richiesta di copia <#_Toc508016230>`__
+`8.2.2 Ricezione delle RT e richiesta di copia <15-Capitolo_8/Capitolo8.rst#ricezione-delle-rt-e-richiesta-di-copia>`__
 
-`8.2.2.1 paaInviaRT <#_Toc508016231>`__
+`8.2.2.1 paaInviaRT <15-Capitolo_8/Capitolo8.rst#paainviart>`__
 
-`8.2.2.2 nodoChiediCopiaRT <#_Toc508016232>`__
+`8.2.2.2 nodoChiediCopiaRT <15-Capitolo_8/Capitolo8.rst#nodochiedicopiart>`__
 
 `8.2.3 Pagamenti in attesa e richiesta di generazione della RPT
-<#_Toc508016233>`__
+<15-Capitolo_8/Capitolo8.rst#pagamenti-in-attesa-e-richiesta-di-generazione-della-rpt>`__
 
-`8.2.3.1 paaVerificaRPT <#_Toc508016234>`__
+`8.2.3.1 paaVerificaRPT <15-Capitolo_8/Capitolo8.rst#paaverificarpt>`__
 
-`8.2.3.2 paaAttivaRPT <#_Toc508016235>`__
+`8.2.3.2 paaAttivaRPT <15-Capitolo_8/Capitolo8.rst#paaattivarpt>`__
 
-`8.2.3.3 paaAllegaRPT <#_Toc508016236>`__
+`8.2.3.3 paaAllegaRPT <15-Capitolo_8/Capitolo8.rst#paaallegarpt>`__
 
-`8.2.3.4 paaChiediNumeroAvviso <#_Toc508016237>`__
+`8.2.3.4 paaChiediNumeroAvviso <15-Capitolo_8/Capitolo8.rst#paachiedinumeroavviso>`__
 
-`8.2.4 Revoca della RT <#_Toc508016238>`__
+`8.2.4 Revoca della RT <15-Capitolo_8/Capitolo8.rst#revoca-della-rt>`__
 
-`8.2.4.1 paaInviaRichiestaRevoca <#_Toc508016239>`__
+`8.2.4.1 paaInviaRichiestaRevoca <15-Capitolo_8/Capitolo8.rst#paainviarichiestarevoca>`__
 
-`8.2.4.2 nodoInviaRispostaRevoca <#_Toc508016240>`__
+`8.2.4.2 nodoInviaRispostaRevoca <15-Capitolo_8/Capitolo8.rst#nodoinviarispostarevoca>`__
 
-`8.2.5 Storno del pagamento <#_Toc508016241>`__
+`8.2.5 Storno del pagamento <15-Capitolo_8/Capitolo8.rst#storno-del-pagamento>`__
 
-`8.2.5.1 nodoInviaRichiestaStorno <#_Toc508016242>`__
+`8.2.5.1 nodoInviaRichiestaStorno <15-Capitolo_8/Capitolo8.rst#nodoinviarichiestastorno>`__
 
-`8.2.5.2 paaInviaEsitoStorno <#_Toc508016243>`__
+`8.2.5.2 paaInviaEsitoStorno <15-Capitolo_8/Capitolo8.rst#paainviaesitostorno>`__
 
-`8.2.6 Ricezione del flusso di rendicontazione <#_Toc508016244>`__
+`8.2.6 Ricezione del flusso di rendicontazione <15-Capitolo_8/Capitolo8.rst#ricezione-del-flusso-di-rendicontazione>`__
 
-`8.2.6.1 nodoChiediElencoFlussiRendicontazione <#_Toc508016245>`__
+`8.2.6.1 nodoChiediElencoFlussiRendicontazione <15-Capitolo_8/Capitolo8.rst#nodochiedielencoflussirendicontazione>`__
 
-`8.2.6.2 nodoChiediFlussoRendicontazione <#_Toc508016246>`__
+`8.2.6.2 nodoChiediFlussoRendicontazione <15-Capitolo_8/Capitolo8.rst#nodochiediflussorendicontazione>`__
 
 `8.2.7 Avvisatura digitale *push* (su iniziativa dell'Ente Creditore)
-<#_Toc508016247>`__
+<15-Capitolo_8/Capitolo8.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
-`8.2.7.1 nodoInviaAvvisoDigitale <#_Toc508016248>`__
+`8.2.7.1 nodoInviaAvvisoDigitale <15-Capitolo_8/Capitolo8.rst#nodoinviaavvisodigitale>`__
 
 `8.2.8 Avvisatura digitale *pull* (verifica della posizione debitoria)
-<#_Toc508016249>`__
+<15-Capitolo_8/Capitolo8.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
-`8.2.8.1 paaChiediElencoAvvisiDigitali <#_Toc508016250>`__
+`8.2.8.1 paaChiediElencoAvvisiDigitali <15-Capitolo_8/Capitolo8.rst#paachiedielencoavvisidigitali>`__
 
 `8.2.9 Interrogazione delle basi dati del NodoSPC
-<#_Toc508016251>`__
+<15-Capitolo_8/Capitolo8.rst#interrogazione-delle-basi-dati-del-nodospc>`__
 
-`8.2.9.1 nodoChiediInformativaPSP <#_Toc508016252>`__
+`8.2.9.1 nodoChiediInformativaPSP <15-Capitolo_8/Capitolo8.rst#nodochiediinformativapsp>`__
 
-`8.2.10 Ricezione dei Totali di Traffico <#_Toc508016253>`__
+`8.2.10 Ricezione dei Totali di Traffico <15-Capitolo_8/Capitolo8.rst#ricezione-dei-totali-di-traffico>`__
 
-`8.2.10.1 nodoChiediElencoQuadraturePA <#_Toc508016254>`__
+`8.2.10.1 nodoChiediElencoQuadraturePA <15-Capitolo_8/Capitolo8.rst#nodochiedielencoquadraturepa>`__
 
-`8.2.10.2 nodoChiediQuadraturaPA <#_Toc508016255>`__
+`8.2.10.2 nodoChiediQuadraturaPA <15-Capitolo_8/Capitolo8.rst#nodochiediquadraturapa>`__
 
 `8.3 Interfacce HTTP di re-direzione per il pagamento immediato
-<#_Toc508016256>`__
+<15-Capitolo_8/Capitolo8.rst#interfacce-http-di-re-direzione-per-il-pagamento-immediato>`__
 
 `8.3.1 Re-direzion\ *e* dal Portale EC verso il Web-FESP
-<#_Toc508016257>`__
+<15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__
 
 `8.3.2 Re-direzione dal Web-FESP verso il Portale EC
-<#_Toc508016258>`__
+<15-Capitolo_8/Capitolo8.rst#re-direzione-dal-web-fesp-verso-il-portale-ec>`__
 
-`8.4 Interfacce HTTP per il servizio WISP <#_Toc508016259>`__
+`8.4 Interfacce HTTP per il servizio WISP <15-Capitolo_8/Capitolo8.rst#interfacce-http-per-il-servizio-wisp>`__
 
 `8.4.1 Re-direzione HTTP dal Portale dell'Ente Creditore verso la
-componente WISP <#_Toc508016260>`__
+componente WISP <15-Capitolo_8/Capitolo8.rst#re-direzione-http-dal-portale-dellente-creditore-verso-la-componente-wisp>`__
 
 `8.4.2 Re-direzione HTTP da WISP verso il Portale dell'Ente Creditore –
-urlBack <#_Toc508016261>`__
+urlBack <15-Capitolo_8/Capitolo8.rst#re-direzione-http-da-wisp-verso-il-portale-dellente-creditore--urlback>`__
 
 `8.4.3 Re-direzione HTTP da WISP verso il Portale dell'Ente Creditore -
-urlReturn <#_Toc508016262>`__
+urlReturn <15-Capitolo_8/Capitolo8.rst#re-direzione-http-da-wisp-verso-il-portale-dellente-creditore---urlreturn>`__
 
 `8.5 Interfacce per il servizio di File Transfer Sicuro
-<#_Toc508016263>`__
+<15-Capitolo_8/Capitolo8.rst#interfacce-per-il-servizio-di-file-transfer-sicuro>`__
 
 `8.5.1 Specifiche di interfaccia per il trasferimento dei flussi di
-rendicontazione <#_Toc508016264>`__
+rendicontazione <15-Capitolo_8/Capitolo8.rst#specifiche-di-interfaccia-per-il-trasferimento-dei-flussi-di-rendicontazione>`__
 
-`8.5.1.1 Dati tecnici <#_Toc508016265>`__
+`8.5.1.1 Dati tecnici <15-Capitolo_8/Capitolo8.rst#dati-tecnici>`__
 
 `8.5.1.2 Convenzioni dei nomi file e formato file
-<#_Toc508016266>`__
+<15-Capitolo_8/Capitolo8.rst#convenzioni-dei-nomi-file-e-formato-file>`__
 
-`8.5.1.3 Politica di ritrasmissione <#_Toc508016267>`__
+`8.5.1.3 Politica di ritrasmissione <15-Capitolo_8/Capitolo8.rst#politica-di-ritrasmissione>`__
 
 `8.5.2 Specifiche di interfaccia per il trasferimento delle richieste di
-Avviso Digitale <#_Toc508016268>`__
+Avviso Digitale <15-Capitolo_8/Capitolo8.rst#specifiche-di-interfaccia-per-il-trasferimento-delle-richieste-di-avviso-digitale>`__
 
 `8.5.2.1 Convenzioni di nomenclatura dei file scambiati
-<#_Toc508016269>`__
+<15-Capitolo_8/Capitolo8.rst#convenzioni-di-nomenclatura-dei-file-scambiati>`__
 
 `8.5.2.2 Invio delle richieste di avviso da EC al Nodo dei Pagamenti-SPC
-<#_Toc508016270>`__
+<15-Capitolo_8/Capitolo8.rst#invio-delle-richieste-di-avviso-da-ec-al-nodo-dei-pagamenti-spc>`__
 
 `9. Interazione tra Nodo dei Pagamenti-SPC e PSP </16-Capitolo_9/16-Capitolo_9.rst>`__
 
