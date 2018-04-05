@@ -333,7 +333,7 @@ Automobilistica <#_Toc508016175>`__
 `5.4.4.4 Richiesta posizione debitoria presso un Ente Creditore
 <#_Toc508016186>`__
 
-`6. Giornale degli Eventi </12-Capitolo_6/12-Capitolo_6.rst>`__
+`6. Giornale degli Eventi </12-Capitolo_6/Capitolo6.rst>`__
 
 `7. Identificazione del versamento </13-Capitolo_7/Capitolo7.rst>`__
 
