@@ -727,7 +727,7 @@ Party* <#_Toc508016332>`__
 <#_Toc508016348>`__
 
 `Sezione IV – Ruoli e responsabilità degli Aderenti
-</18-SEZIONE_IV/18-SEZIONE_IV.rst>`__
+</18-SEZIONE_IV/SEZIONE_IV_-_RUOLI_E_RESPONSABILITÀ_DEGLI_ADERENTI.rst>`__
 
 `11. Adesione al Nodo dei Pagamenti-SPC </18-Capitolo_11/18-Capitolo_11.rst>`__
 
