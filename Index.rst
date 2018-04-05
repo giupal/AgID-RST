@@ -60,7 +60,7 @@ Indice dei contenuti
 
 `1.7 Sicurezza e conservazione <#_Toc508016067>`__
 
-`2. Modelli del processo di pagamento </07-Capitolo_2/07-Capitolo_2.rst>`__
+`2. Modelli del processo di pagamento </07-Capitolo_2/07-Capitolo2.rst>`__
 
 `2.1 Processo di pagamento attivato presso l’Ente Creditore
 <#_Toc508016069>`__
@@ -171,7 +171,7 @@ pagamento <#_Toc508016101>`__
 
 `2.10.2 Pagamento del dovuto <#_Toc508016113>`__
 
-`3. Il Nodo dei Pagamenti-SPC </08-Capitolo_3/08-Capitolo_3.rst>`__
+`3. Il Nodo dei Pagamenti-SPC </08-Capitolo_3/08-Capitolo3.rst>`__
 
 `3.1 Caratteristiche generali del Nodo dei Pagamenti-SPC
 <#_Toc508016115>`__
@@ -208,7 +208,7 @@ pagamento <#_Toc508016101>`__
 
 `3.2.14 Sistema di Reporting <#_Toc508016130>`__
 
-`4. Il sistema pagoPA e il Nodo dei Pagamenti-SPC </09-Capitolo_4/09-Capitolo_4.rst>`__
+`4. Il sistema pagoPA e il Nodo dei Pagamenti-SPC </09-Capitolo_4/09-Capitolo4.rst>`__
 
 `4.1 Connessione al sistema pagoPA <#_Toc508016132>`__
 
@@ -269,7 +269,7 @@ pagamento <#_Toc508016101>`__
 `Sezione II - Composizione DELLE INFORMAZIONI ATTINENTI ALLO SCAMBIO DI
 DATI TRA Enti creditori E PSP </10-SEZIONE_II/10-SEZIONE_II.rst>`__
 
-`5. Messaggi e flussi informativi </11-Capitolo_5/11-Capitolo_5.rst>`__
+`5. Messaggi e flussi informativi </11-Capitolo_5/11-Capitolo5.rst>`__
 
 `5.1 Formato dei messaggi <#_Toc508016160>`__
 
@@ -368,7 +368,7 @@ Automobilistica <#_Toc508016175>`__
 
 `Sezione III - Specifiche di interconnessione <14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst>`__
 
-`8. Interazione tra Ente Creditore e NodoSPC </15-Capitolo_8/15-Capitolo_8.rst>`__
+`8. Interazione tra Ente Creditore e NodoSPC </15-Capitolo_8/15-Capitolo8.rst>`__
 
 `8.1 *Workflow* dei modelli di pagamento e dei processi accessori
 <15-Capitolo_8/Capitolo8.rst#workflow-dei-modelli-di-pagamento-e-dei-processi-accessori>`__
@@ -537,7 +537,7 @@ Avviso Digitale <15-Capitolo_8/Capitolo8.rst#specifiche-di-interfaccia-per-il-tr
 `8.5.2.2 Invio delle richieste di avviso da EC al Nodo dei Pagamenti-SPC
 <15-Capitolo_8/Capitolo8.rst#invio-delle-richieste-di-avviso-da-ec-al-nodo-dei-pagamenti-spc>`__
 
-`9. Interazione tra Nodo dei Pagamenti-SPC e PSP </16-Capitolo_9/16-Capitolo_9.rst>`__
+`9. Interazione tra Nodo dei Pagamenti-SPC e PSP </16-Capitolo_9/16-Capitolo9.rst>`__
 
 `9.1 Workflow dei modelli di pagamento e dei processi accessori
 <16-Capitolo_9/Capitolo9.rst#workflow-dei-modelli-di-pagamento-e-dei-processi-accessori>`__
@@ -712,7 +712,7 @@ Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-avvio-pagamento-v
 
 `9.4.6 Glossario informazioni <16-Capitolo_9/Capitolo9.rst#glossario-informazioni>`__
 
-`10. Gestione degli Errori </17-Capitolo_10/17-Capitolo_10.rst>`__
+`10. Gestione degli Errori </17-Capitolo_10/17-Capitolo10.rst>`__
 
 `10.1 La struttura faultBean <17-Capitolo_10/Capitolo10.rst#la-struttura-faultbean>`__
 
@@ -726,7 +726,7 @@ Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-avvio-pagamento-v
 `Sezione IV – Ruoli e responsabilità degli Aderenti
 </18-SEZIONE_IV/SEZIONE_IV_-_RUOLI_E_RESPONSABILITÀ_DEGLI_ADERENTI.rst>`__
 
-`11. Adesione al Nodo dei Pagamenti-SPC </18-Capitolo_11/18-Capitolo_11.rst>`__
+`11. Adesione al Nodo dei Pagamenti-SPC </18-Capitolo_11/18-Capitolo11.rst>`__
 
 `11.1 Adesione di un Ente Creditore. <19-Capitolo_11/Capitolo11.rst#adesione-di-un-ente-creditore>`__
 
@@ -742,7 +742,7 @@ Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-avvio-pagamento-v
 `11.5 Utilizzo del marchio pagoPA <19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`__
 
 `12. Adempimenti durante l’erogazione del Servizio
-<19-Capitolo_12/19-Capitolo_12.rst>`__
+<19-Capitolo_12/19-Capitolo12.rst>`__
 
 `12.1 Adempimenti dell’Ente Creditore <20-Capitolo_12/Capitolo12.rst#adempimenti-dellente-creditore>`__
 
@@ -779,7 +779,7 @@ digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-serviz
 `12.6.1 Indicatori di qualità del Nodo dei Pagamenti-SPC
 <20-Capitolo_12/Capitolo12.rst#indicatori-di-qualità-del-nodo-dei-pagamenti-spc>`__
 
-`13. Responsabilità </21-Capitolo_13/21-Capitolo_13.rst>`__
+`13. Responsabilità </21-Capitolo_13/21-Capitolo13.rst>`__
 
 `13.1 Responsabilità dell’Ente Creditore <21-Capitolo_13/Capitolo13.rst#responsabilità-dellente-creditore>`__
 
@@ -788,7 +788,7 @@ digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-serviz
 
 `Appendice 1 – WSDL e XSD </22-APPENDICE1/APPENDICE1–WSDLEXSD.rst>`__
 
-`14. Specifiche – WSDL </22-Capitolo_14/22-Capitolo_14.rst>`__
+`14. Specifiche – WSDL </22-Capitolo_14/22-Capitolo14.rst>`__
 
 `14.1 Interazione tra Amministrazione e Nodo dei Pagamenti-SPC
 <23-Capitolo_14/Capitolo14.rst#interazione-tra-amministrazione-e-nodo-dei-pagamenti-spc>`__
