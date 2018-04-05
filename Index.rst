@@ -789,7 +789,7 @@ digitale <#_Toc508016361>`__
 `13.2 Responsabilità del prestatore di servizi di pagamento
 <#_Toc508016373>`__
 
-`Appendice 1 – WSDL e XSD </22-APPENDICE1/22-APPENDICE1.rst>`__
+`Appendice 1 – WSDL e XSD </22-APPENDICE1/APPENDICE1–WSDLEXSD.rst>`__
 
 `14. Specifiche – WSDL </22-Capitolo_14/22-Capitolo_14.rst>`__
 
