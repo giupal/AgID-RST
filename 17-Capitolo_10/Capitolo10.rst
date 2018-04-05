@@ -506,10 +506,9 @@ faultCode emessi dai vari soggetti:
 | di avvisatura per un soggetto sconosciuto.                            |
 +-----------------------------------------------------------------------+
 
-+----------------------------------------------------------+--+
-| .. rubric:: Errori nella gestione del messaggio di ackRT |  |
-|    :name: errori-nella-gestione-del-messaggio-di-ackrt   |  |
-+----------------------------------------------------------+--+
+.. _Errori nella gestione del messaggio di ackRT:
+Errori nella gestione del messaggio di ackRT
+--------------------------------------------
 
 In Tabella 53 sono riportati i codici di errore utilizzati per la
 valorizzazione dell’elemento codiceErrore qualora, nel messaggio di
