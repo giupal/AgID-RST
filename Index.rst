@@ -60,7 +60,7 @@ Indice dei contenuti
 
 `1.7 Sicurezza e conservazione <#_Toc508016067>`__
 
-`2. Modelli del processo di pagamento </07-Capitolo_2/07-Capitolo2.rst>`__
+`2. Modelli del processo di pagamento </07-Capitolo_2/Capitolo2.rst>`__
 
 `2.1 Processo di pagamento attivato presso l’Ente Creditore
 <#_Toc508016069>`__
