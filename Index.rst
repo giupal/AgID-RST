@@ -726,7 +726,7 @@ Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-avvio-pagamento-v
 `Sezione IV – Ruoli e responsabilità degli Aderenti
 </18-SEZIONE_IV/SEZIONE_IV_-_RUOLI_E_RESPONSABILITÀ_DEGLI_ADERENTI.rst>`__
 
-`11. Adesione al Nodo dei Pagamenti-SPC </18-Capitolo_11/Capitolo11.rst>`__
+`11. Adesione al Nodo dei Pagamenti-SPC </19-Capitolo_11/Capitolo11.rst>`__
 
 `11.1 Adesione di un Ente Creditore. <19-Capitolo_11/Capitolo11.rst#adesione-di-un-ente-creditore>`__
 
@@ -742,7 +742,7 @@ Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-avvio-pagamento-v
 `11.5 Utilizzo del marchio pagoPA <19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`__
 
 `12. Adempimenti durante l’erogazione del Servizio
-<19-Capitolo_12/Capitolo12.rst>`__
+<20-Capitolo_12/Capitolo12.rst>`__
 
 `12.1 Adempimenti dell’Ente Creditore <20-Capitolo_12/Capitolo12.rst#adempimenti-dellente-creditore>`__
 
@@ -788,7 +788,7 @@ digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-serviz
 
 `Appendice 1 – WSDL e XSD </22-APPENDICE1/APPENDICE1–WSDLEXSD.rst>`__
 
-`14. Specifiche – WSDL </22-Capitolo_14/Capitolo14.rst>`__
+`14. Specifiche – WSDL </23-Capitolo_14/Capitolo14.rst>`__
 
 `14.1 Interazione tra Amministrazione e Nodo dei Pagamenti-SPC
 <23-Capitolo_14/Capitolo14.rst#interazione-tra-amministrazione-e-nodo-dei-pagamenti-spc>`__
