@@ -155,7 +155,7 @@ Ente Creditore si impegna a:
 7. rispettare, in quanto applicabile all’uso del servizio MyBank da
        parte degli Enti Creditori, ogni altra previsione stabilita nel
        documento *Mandatory requirements* del servizio MyBank.
-
+       
 .. _Logotipo del servizio MyBank:
 Logotipo del servizio MyBank
 ----------------------------
