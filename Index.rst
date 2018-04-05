@@ -366,7 +366,7 @@ Automobilistica <#_Toc508016175>`__
 
 `7.4.5 Comunicazioni all'utilizzatore finale <#_Toc508016199>`__
 
-`Sezione III - Specifiche di interconnessione </14-SEZIONE_III/14-SEZIONE_III.rst>`__
+`Sezione III - Specifiche di interconnessione <14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst>`__
 
 `Identificazione degli oggetti scambiati nel sistema pagoPA
 <#_Toc508016201>`__
