@@ -543,177 +543,177 @@ Avviso Digitale <#_Toc508016268>`__
 `9. Interazione tra Nodo dei Pagamenti-SPC e PSP </16-Capitolo_9/16-Capitolo_9.rst>`__
 
 `9.1 Workflow dei modelli di pagamento e dei processi accessori
-<#_Toc508016272>`__
+<16-Capitolo_9/Capitolo9.rst#workflow-dei-modelli-di-pagamento-e-dei-processi-accessori>`__
 
 `9.1.1 Pagamenti attivati presso l'Ente Creditore
-<#_Toc508016273>`__
+<16-Capitolo_9/Capitolo9.rst#pagamenti-attivati-presso-lente-creditore>`__
 
 `9.1.1.1 Generazione e invio della Ricevuta Telematica
-<#_Toc508016274>`__
+<16-Capitolo_9/Capitolo9.rst#generazione-e-invio-della-ricevuta-telematica>`__
 
 `9.1.1.2 Casi di errore e strategie di ripristino
-<#_Toc508016275>`__
+<16-Capitolo_9/Capitolo9.rst#casi-di-errore-e-strategie-di-ripristino>`__
 
-`9.1.2 Pagamenti attivati presso il PSP <#_Toc508016276>`__
+`9.1.2 Pagamenti attivati presso il PSP <16-Capitolo_9/Capitolo9.rst#pagamenti-attivati-presso-il-psp>`__
 
 `9.1.2.1 Presentazione dell'avviso e transcodifica dei dati per il
-pagamento <#_Toc508016277>`__
+pagamento <16-Capitolo_9/Capitolo9.rst#presentazione-dellavviso-e-transcodifica-dei-dati-per-il-pagamento>`__
 
-`9.1.2.2 Percorso "STANDARD" per il Modello 3 175 <#_Toc508016278>`__
+`9.1.2.2 Percorso "STANDARD" per il Modello 3 <16-Capitolo_9/Capitolo9.rst#percorso-standard-per-il-modello-3>`__
 
-`9.1.2.3 Percorso "ALTERNATIVO" per il Modello 3 <#_Toc508016279>`__
+`9.1.2.3 Percorso "ALTERNATIVO" per il Modello 3 <16-Capitolo_9/Capitolo9.rst#percorso-alternativo-per-il-modello-3>`__
 
 `9.1.2.4 Chiusura della transazione presso il PSP
-<#_Toc508016280>`__
+<16-Capitolo_9/Capitolo9.rst#chiusura-della-transazione-presso-il-psp>`__
 
-`9.1.2.5 Pagamento spontaneo presso il PSP <#_Toc508016281>`__
+`9.1.2.5 Pagamento spontaneo presso il PSP <16-Capitolo_9/Capitolo9.rst#pagamento-spontaneo-presso-il-psp>`__
 
-`9.1.2.6 Interazioni con l’utilizzatore finale <#_Toc508016282>`__
+`9.1.2.6 Interazioni con l’utilizzatore finale <16-Capitolo_9/Capitolo9.rst#interazioni-con-lutilizzatore-finale>`__
 
 `9.1.2.7 Casi di errore e strategie di ripristino
-<#_Toc508016283>`__
+<16-Capitolo_9/Capitolo9.rst#casi-di-errore-e-strategie-di-ripristino-1>`__
 
-`9.1.3 Processo di storno del pagamento eseguito <#_Toc508016284>`__
+`9.1.3 Processo di storno del pagamento eseguito <16-Capitolo_9/Capitolo9.rst#processo-di-storno-del-pagamento-eseguito>`__
 
 `9.1.4 Processo di revoca della Ricevuta Telematica
-<#_Toc508016285>`__
+<16-Capitolo_9/Capitolo9.rst#processo-di-revoca-della-ricevuta-telematica>`__
 
 `9.1.5 Processo di avvisatura digitale *push* (su iniziativa dell'Ente
-Creditore) <#_Toc508016286>`__
+Creditore) <16-Capitolo_9/Capitolo9.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
 `9.1.6 Processo di avvisatura digitale *pull* (verifica della posizione
-debitoria) <#_Toc508016287>`__
+debitoria) <16-Capitolo_9/Capitolo9.rst#processo-di-avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
 `9.1.7 Processo di notifica di chiusura delle operazioni pendenti
-<#_Toc508016288>`__
+<16-Capitolo_9/Capitolo9.rst#processo-di-notifica-di-chiusura-delle-operazioni-pendenti>`__
 
 `9.2 Interfacce Web service e dettaglio azioni SOAP
-<#_Toc508016289>`__
+<16-Capitolo_9/Capitolo9.rst#interfacce-web-service-e-dettaglio-azioni-soap>`__
 
-`9.2.1 Invio delle Richieste di pagamento al PSP <#_Toc508016290>`__
+`9.2.1 Invio delle Richieste di pagamento al PSP <16-Capitolo_9/Capitolo9.rst#invio-delle-richieste-di-pagamento-al-psp>`__
 
-`9.2.1.1 pspInviaRPT <#_Toc508016291>`__
+`9.2.1.1 pspInviaRPT <16-Capitolo_9/Capitolo9.rst#pspinviarpt>`__
 
-`9.2.1.2 pspInviaCarrelloRPT <#_Toc508016292>`__
+`9.2.1.2 pspInviaCarrelloRPT <16-Capitolo_9/Capitolo9.rst#pspinviacarrellorpt>`__
 
-`9.2.1.3 pspInviaCarrelloRPTCarte <#_Toc508016293>`__
+`9.2.1.3 pspInviaCarrelloRPTCarte <16-Capitolo_9/Capitolo9.rst#pspinviacarrellorptcarte>`__
 
-`9.2.1.4 pspChiediAvanzamentoRPT <#_Toc508016294>`__
+`9.2.1.4 pspChiediAvanzamentoRPT <16-Capitolo_9/Capitolo9.rst#pspchiediavanzamentorpt>`__
 
 `9.2.2 Generazione e inoltro delle RT al Nodo dei Pagamenti-SPC
-<#_Toc508016295>`__
+<16-Capitolo_9/Capitolo9.rst#generazione-e-inoltro-delle-rt-al-nodo-dei-pagamenti-spc>`__
 
-`9.2.2.1 nodoInviaRT <#_Toc508016296>`__
+`9.2.2.1 nodoInviaRT <16-Capitolo_9/Capitolo9.rst#nodoinviart>`__
 
-`9.2.2.2 pspChiediRT <#_Toc508016297>`__
+`9.2.2.2 pspChiediRT <16-Capitolo_9/Capitolo9.rst#pspchiedirt>`__
 
-`9.2.2.3 pspInviaAckRT <#_Toc508016298>`__
+`9.2.2.3 pspInviaAckRT <16-Capitolo_9/Capitolo9.rst#pspinviaackrt>`__
 
-`9.2.2.4 pspChiediListaRT <#_Toc508016299>`__
+`9.2.2.4 pspChiediListaRT <16-Capitolo_9/Capitolo9.rst#pspchiedilistart>`__
 
 `9.2.3 Pagamenti in attesa e richiesta di generazione della RPT
-<#_Toc508016300>`__
+<16-Capitolo_9/Capitolo9.rst#pagamenti-in-attesa-e-richiesta-di-generazione-della-rpt>`__
 
-`9.2.3.1 nodoVerificaRPT <#_Toc508016301>`__
+`9.2.3.1 nodoVerificaRPT <16-Capitolo_9/Capitolo9.rst#nodoverificarpt>`__
 
-`9.2.3.2 nodoAttivaRPT <#_Toc508016302>`__
+`9.2.3.2 nodoAttivaRPT <16-Capitolo_9/Capitolo9.rst#nodoattivarpt>`__
 
-`9.2.3.3 nodoAllegaRPT <#_Toc508016303>`__
+`9.2.3.3 nodoAllegaRPT <16-Capitolo_9/Capitolo9.rst#nodoallegarpt>`__
 
-`9.2.3.4 nodoChiediNumeroAvviso <#_Toc508016304>`__
+`9.2.3.4 nodoChiediNumeroAvviso <16-Capitolo_9/Capitolo9.rst#nodochiedinumeroavviso>`__
 
-`9.2.4 Revoca delle RT <#_Toc508016305>`__
+`9.2.4 Revoca delle RT <16-Capitolo_9/Capitolo9.rst#revoca-delle-rt>`__
 
-`9.2.4.1 nodoInviaRichiestaRevoca <#_Toc508016306>`__
+`9.2.4.1 nodoInviaRichiestaRevoca <16-Capitolo_9/Capitolo9.rst#nodoinviarichiestarevoca>`__
 
-`9.2.4.2 pspInviaRispostaRevoca <#_Toc508016307>`__
+`9.2.4.2 pspInviaRispostaRevoca <16-Capitolo_9/Capitolo9.rst#pspinviarispostarevoca>`__
 
-`9.2.5 Storno del pagamento <#_Toc508016308>`__
+`9.2.5 Storno del pagamento <16-Capitolo_9/Capitolo9.rst#storno-del-pagamento>`__
 
-`9.2.5.1 pspInviaRichiestaStorno <#_Toc508016309>`__
+`9.2.5.1 pspInviaRichiestaStorno <16-Capitolo_9/Capitolo9.rst#pspinviarichiestastorno>`__
 
-`9.2.5.2 nodoInviaEsitoStorno <#_Toc508016310>`__
+`9.2.5.2 nodoInviaEsitoStorno <16-Capitolo_9/Capitolo9.rst#nodoinviaesitostorno>`__
 
-`9.2.6 Invio flusso di rendicontazione <#_Toc508016311>`__
+`9.2.6 Invio flusso di rendicontazione <16-Capitolo_9/Capitolo9.rst#invio-flusso-di-rendicontazione>`__
 
-`9.2.6.1 nodoInviaFlussoRendicontazione <#_Toc508016312>`__
+`9.2.6.1 nodoInviaFlussoRendicontazione <16-Capitolo_9/Capitolo9.rst#nodoinviaflussorendicontazione>`__
 
 `9.2.7 Avvisatura digitale *push* (su iniziativa dell'Ente Creditore)
-<#_Toc508016313>`__
+<16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
-`9.2.7.1 pspInviaAvvisoDigitale <#_Toc508016314>`__
+`9.2.7.1 pspInviaAvvisoDigitale <16-Capitolo_9/Capitolo9.rst#pspinviaavvisodigitale>`__
 
-`9.2.7.2 nodoAggiornaIscrizioniAvvisatura 212 <#_Toc508016315>`__
+`9.2.7.2 nodoAggiornaIscrizioniAvvisatura <16-Capitolo_9/Capitolo9.rst#nodoaggiornaiscrizioniavvisatura>`__
 
 `9.2.8 Avvisatura digitale *pull* (verifica della posizione debitoria)
-<#_Toc508016316>`__
+<16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
-`9.2.8.1 nodoChiediElencoAvvisiDigitali <#_Toc508016317>`__
+`9.2.8.1 nodoChiediElencoAvvisiDigitali <16-Capitolo_9/Capitolo9.rst#nodochiedielencoavvisidigitali>`__
 
 `9.2.9 Notifica di chiusura delle operazioni pendenti
-<#_Toc508016318>`__
+<16-Capitolo_9/Capitolo9.rst#notifica-di-chiusura-delle-operazioni-pendenti>`__
 
-`9.2.9.1 pspNotificaCancellazioneRPT <#_Toc508016319>`__
+`9.2.9.1 pspNotificaCancellazioneRPT <16-Capitolo_9/Capitolo9.rst#pspnotificacancellazionerpt>`__
 
 `9.2.10 Interrogazione delle basi dati del NodoSPC
-<#_Toc508016320>`__
+<16-Capitolo_9/Capitolo9.rst#interrogazione-delle-basi-dati-del-nodospc>`__
 
-`9.2.10.1 nodoChiediInformativaPA <#_Toc508016321>`__
+`9.2.10.1 nodoChiediInformativaPA <16-Capitolo_9/Capitolo9.rst#nodochiediinformativapa>`__
 
-`9.2.10.2 nodoChiediTemplateInformativaPSP <#_Toc508016322>`__
+`9.2.10.2 nodoChiediTemplateInformativaPSP <16-Capitolo_9/Capitolo9.rst#nodochieditemplateinformativapsp>`__
 
-`9.2.10.3 nodoChiediCatalogoServizi <#_Toc508016323>`__
+`9.2.10.3 nodoChiediCatalogoServizi <16-Capitolo_9/Capitolo9.rst#nodochiedicatalogoservizi>`__
 
-`9.2.11 Ricezione Totali di Traffico <#_Toc508016324>`__
+`9.2.11 Ricezione Totali di Traffico <16-Capitolo_9/Capitolo9.rst#ricezione-totali-di-traffico>`__
 
-`9.2.11.1 nodoChiediElencoQuadraturePSP <#_Toc508016325>`__
+`9.2.11.1 nodoChiediElencoQuadraturePSP <16-Capitolo_9/Capitolo9.rst#nodochiedielencoquadraturepsp>`__
 
-`9.2.11.2 nodoChiediQuadraturaPSP <#_Toc508016326>`__
+`9.2.11.2 nodoChiediQuadraturaPSP <16-Capitolo_9/Capitolo9.rst#nodochiediquadraturapsp>`__
 
 `9.3 Interfacce HTTP di re-direzione per il pagamento immediato
-<#_Toc508016327>`__
+<16-Capitolo_9/Capitolo9.rst#interfacce-http-di-re-direzione-per-il-pagamento-immediato>`__
 
 `9.3.1 Re-direzione dal Web-FESP verso il Portale PSP
-<#_Toc508016328>`__
+<16-Capitolo_9/Capitolo9.rst#interfacce-http-di-re-direzione-per-il-pagamento-immediato>`__
 
 `9.3.2 Re-direzione dal Portale PSP verso il Web-FESP
-<#_Toc508016329>`__
+<16-Capitolo_9/Capitolo9.rst#re-direzione-dal-portale-psp-verso-il-web-fesp>`__
 
-`9.4 Interfacce per la componente Wrapper MyBank <#_Toc508016330>`__
+`9.4 Interfacce per la componente Wrapper MyBank <16-Capitolo_9/Capitolo9.rst#interfacce-per-la-componente-wrapper-mybank>`__
 
 `9.4.1 Colloquio con la componente “Wrapper MyBank”
-<#_Toc508016331>`__
+<16-Capitolo_9/Capitolo9.rst#colloquio-con-la-componente-wrapper-mybank>`__
 
 `9.4.2 Messaggio HTTP-redirect di avvio pagamento verso *Initiating
-Party* <#_Toc508016332>`__
+Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-avvio-pagamento-verso-initiating-party>`__
 
 `9.4.2.1 Stringhe URL utilizzate per la "redirect".
-<#_Toc508016333>`__
+<16-Capitolo_9/Capitolo9.rst#stringhe-url-utilizzate-per-la-redirect>`__
 
-`9.4.2.2 Identificativo per Validation Service <#_Toc508016334>`__
+`9.4.2.2 Identificativo per Validation Service <16-Capitolo_9/Capitolo9.rst#identificativo-per-validation-service>`__
 
 `9.4.3 Messaggio HTTP-redirect di esito pagamento da *Initiating Party*
-<#_Toc508016335>`__
+<16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-esito-pagamento-da-initiating-party>`__
 
-`9.4.3.1 Composizione dei messaggi di risposta <#_Toc508016336>`__
+`9.4.3.1 Composizione dei messaggi di risposta <16-Capitolo_9/Capitolo9.rst#composizione-dei-messaggi-di-risposta>`__
 
 `9.4.4 Messaggio HTTP di richiesta della situazione di un ordine verso
-*Initiating Party* <#_Toc508016337>`__
+*Initiating Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-di-richiesta-della-situazione-di-un-ordine-verso-initiating-party>`__
 
 `9.4.5 Calcolo e verifica del Message Authentication Code (MAC)
-<#_Toc508016338>`__
+<16-Capitolo_9/Capitolo9.rst#calcolo-e-verifica-del-message-authentication-code-mac>`__
 
-`9.4.5.1 MAC di richiesta pagamento <#_Toc508016339>`__
+`9.4.5.1 MAC di richiesta pagamento <16-Capitolo_9/Capitolo9.rst#mac-di-richiesta-pagamento>`__
 
-`9.4.5.2 MAC di conferma/esito pagamento <#_Toc508016340>`__
+`9.4.5.2 MAC di conferma/esito pagamento <16-Capitolo_9/Capitolo9.rst#mac-di-confermaesito-pagamento>`__
 
 `9.4.5.3 MAC di richiesta della situazione di un ordine
-<#_Toc508016341>`__
+<16-Capitolo_9/Capitolo9.rst#mac-di-richiesta-della-situazione-di-un-ordine>`__
 
 `9.4.5.4 MAC di risposta della situazione di un ordine
-<#_Toc508016342>`__
+<16-Capitolo_9/Capitolo9.rst#mac-di-risposta-della-situazione-di-un-ordine>`__
 
-`9.4.6 Glossario informazioni <#_Toc508016343>`__
+`9.4.6 Glossario informazioni <16-Capitolo_9/Capitolo9.rst#glossario-informazioni>`__
 
 `10. Gestione degli Errori </17-Capitolo_10/17-Capitolo_10.rst>`__
 
