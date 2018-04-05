@@ -784,10 +784,10 @@ digitale <#_Toc508016361>`__
 
 `13. Responsabilità </21-Capitolo_13/21-Capitolo_13.rst>`__
 
-`13.1 Responsabilità dell’Ente Creditore <#_Toc508016372>`__
+`13.1 Responsabilità dell’Ente Creditore <21-Capitolo_13/Capitolo13.rst#responsabilità-dellente-creditore>`__
 
 `13.2 Responsabilità del prestatore di servizi di pagamento
-<#_Toc508016373>`__
+<21-Capitolo_13/Capitolo13.rst#responsabilità-del-prestatore-di-servizi-di-pagamento>`__
 
 `Appendice 1 – WSDL e XSD </22-APPENDICE1/APPENDICE1–WSDLEXSD.rst>`__
 
