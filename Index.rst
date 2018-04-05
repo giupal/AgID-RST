@@ -766,92 +766,92 @@ digitale <#_Toc508016361>`__
 `12.3.1 Periodo di ritenzione delle RPT senza esito
 <#_Toc508016363>`__
 
-`12.4 Business continuity e Disaster Recovery 241 <#_Toc508016364>`__
+`12.4 Business continuity e Disaster Recovery <#_Toc508016364>`__
 
-`12.5 Disponibilità dei servizi 241 <#_Toc508016365>`__
+`12.5 Disponibilità dei servizi <#_Toc508016365>`__
 
-`12.5.1 Nodo dei Pagamenti-SPC 241 <#_Toc508016366>`__
+`12.5.1 Nodo dei Pagamenti-SPC <#_Toc508016366>`__
 
-`12.5.2 Enti Creditori 241 <#_Toc508016367>`__
+`12.5.2 Enti Creditori <#_Toc508016367>`__
 
 `12.5.3 Prestatori di servizi di pagamento aderenti
-241 <#_Toc508016368>`__
+<#_Toc508016368>`__
 
-`12.6 Livelli di Servizio 241 <#_Toc508016369>`__
+`12.6 Livelli di Servizio <#_Toc508016369>`__
 
 `12.6.1 Indicatori di qualità del Nodo dei Pagamenti-SPC
-242 <#_Toc508016370>`__
+<#_Toc508016370>`__
 
-`13. Responsabilità 242 </21-Capitolo_13/21-Capitolo_13.rst>`__
+`13. Responsabilità </21-Capitolo_13/21-Capitolo_13.rst>`__
 
-`13.1 Responsabilità dell’Ente Creditore 242 <#_Toc508016372>`__
+`13.1 Responsabilità dell’Ente Creditore <#_Toc508016372>`__
 
 `13.2 Responsabilità del prestatore di servizi di pagamento
-242 <#_Toc508016373>`__
+<#_Toc508016373>`__
 
-`Appendice 1 – WSDL e XSD 244 </22-APPENDICE1/22-APPENDICE1.rst>`__
+`Appendice 1 – WSDL e XSD </22-APPENDICE1/22-APPENDICE1.rst>`__
 
-`14. Specifiche – WSDL 244 </22-Capitolo_14/22-Capitolo_14.rst>`__
+`14. Specifiche – WSDL </22-Capitolo_14/22-Capitolo_14.rst>`__
 
 `14.1 Interazione tra Amministrazione e Nodo dei Pagamenti-SPC
-244 <#_Toc508016376>`__
+<#_Toc508016376>`__
 
-`14.1.1 WSDL NodoPerPa 244 <#_Toc508016377>`__
+`14.1.1 WSDL NodoPerPa <#_Toc508016377>`__
 
-`14.1.2 WSDL PaPerNodo 244 <#_Toc508016378>`__
+`14.1.2 WSDL PaPerNodo <#_Toc508016378>`__
 
-`14.1.3 WSDL PaPerNodoPagamentoPSP 244 <#_Toc508016379>`__
+`14.1.3 WSDL PaPerNodoPagamentoPSP <#_Toc508016379>`__
 
-`14.1.4 WSDL PaPerNodoRichiestaAvvisi 244 <#_Toc508016380>`__
+`14.1.4 WSDL PaPerNodoRichiestaAvvisi <#_Toc508016380>`__
 
-`14.1.5 WSDL NodoPerPaAvvisiDigitali 244 <#_Toc508016381>`__
+`14.1.5 WSDL NodoPerPaAvvisiDigitali <#_Toc508016381>`__
 
-`14.1.6 WSDL PaPerNodoChiediElencoAvvisiDigitali 245 <#_Toc508016382>`__
+`14.1.6 WSDL PaPerNodoChiediElencoAvvisiDigitali <#_Toc508016382>`__
 
 `14.2 *Web service* tra Nodo dei Pagamenti-SPC e PSP
-245 <#_Toc508016383>`__
+<#_Toc508016383>`__
 
-`14.2.1 WSDL PspPerNodo 245 <#_Toc508016384>`__
+`14.2.1 WSDL PspPerNodo <#_Toc508016384>`__
 
-`14.2.2 WSDL NodoPerPsp 245 <#_Toc508016385>`__
+`14.2.2 WSDL NodoPerPsp <#_Toc508016385>`__
 
-`14.2.3 WSDL NodoPerPspRichiestaAvvisi 245 <#_Toc508016386>`__
+`14.2.3 WSDL NodoPerPspRichiestaAvvisi <#_Toc508016386>`__
 
-`14.2.4 WSDL NodoPerPSPIscrizioniAvvisatura 245 <#_Toc508016387>`__
+`14.2.4 WSDL NodoPerPSPIscrizioniAvvisatura <#_Toc508016387>`__
 
-`14.2.5 WSDL PSPPerNodoAvvisiDigitali 245 <#_Toc508016388>`__
+`14.2.5 WSDL PSPPerNodoAvvisiDigitali <#_Toc508016388>`__
 
 `14.2.6 WSDL NodoPerPSPChiediElencoAvvisiDigitali
-245 <#_Toc508016389>`__
+<#_Toc508016389>`__
 
-`15. Specifiche – XSD 246 </24-Capitolo_15/Capitolo15.rst>`__
+`15. Specifiche – XSD </24-Capitolo_15/Capitolo15.rst>`__
 
 `15.1 Oggetti scambiati per la gestione del processo di pagamento
-246 <#_Toc508016391>`__
+<24-Capitolo_15/Capitolo15.rst#oggetti-scambiati-per-la-gestione-del-processo-di-pagamento>`__
 
-`15.2 Avvisatura digitale 246 <#_Toc508016392>`__
+`15.2 Avvisatura digitale <24-Capitolo_15/Capitolo15.rst#avvisatura-digitale>`__
 
-`15.3 Informazioni per gli aderenti al sistema 246 <#_Toc508016393>`__
+`15.3 Informazioni per gli aderenti al sistema <24-Capitolo_15/Capitolo15.rst#informazioni-per-gli-aderenti-al-sistema>`__
 
-`15.3.1 Informativa da Ente Creditore 246 <#_Toc508016394>`__
+`15.3.1 Informativa da Ente Creditore <24-Capitolo_15/Capitolo15.rst#informativa-da-ente-creditore>`__
 
-`15.3.2 Informativa fornita dal Nodo ai PSP 247 <#_Toc508016395>`__
+`15.3.2 Informativa fornita dal Nodo ai PSP <24-Capitolo_15/Capitolo15.rst#informativa-fornita-dal-nodo-ai-psp>`__
 
-`15.3.3 Catalogo Dati Informativi 247 <#_Toc508016396>`__
+`15.3.3 Catalogo Dati Informativi <24-Capitolo_15/Capitolo15.rst#catalogo-dati-informativi>`__
 
 `15.3.4 Informativa fornita dal Nodo all’Ente Creditore
-247 <#_Toc508016397>`__
+<24-Capitolo_15/Capitolo15.rst#informativa-fornita-dal-nodo-allente-creditore>`__
 
-`15.4 Totali dei flussi di traffico 247 <#_Toc508016398>`__
+`15.4 Totali dei flussi di traffico <24-Capitolo_15/Capitolo15.rst#totali-dei-flussi-di-traffico>`__
 
 `15.4.1 Flussi di traffico per gli Enti Creditori
-248 <#_Toc508016399>`__
+<24-Capitolo_15/Capitolo15.rst#flussi-di-traffico-per-gli-enti-creditori>`__
 
-`15.4.2 Flussi di traffico per PSP 248 <#_Toc508016400>`__
+`15.4.2 Flussi di traffico per PSP <24-Capitolo_15/Capitolo15.rst#flussi-di-traffico-per-psp>`__
 
-`15.5 Identificazione RPT in attesa 248 <#_Toc508016401>`__
+`15.5 Identificazione RPT in attesa <24-Capitolo_15/Capitolo15.rst#identificazione-rpt-in-attesa>`__
 
-`15.6 Acknowledgement Pagamenti Telematici 249 <#_Toc508016402>`__
+`15.6 Acknowledgement Pagamenti Telematici <24-Capitolo_15/Capitolo15.rst#acknowledgement-pagamenti-telematici>`__
 
 `Appendice 2 – Transazioni MyBank attraverso il Nodo dei Pagamenti-SPC
 </APPENDICE2–TRANSAZIONI_MYBANK_ATTRAVERSO_IL NODO_DEI_PAGAMENTI_-_SPC>`__
