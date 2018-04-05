@@ -731,7 +731,7 @@ Party* <#_Toc508016332>`__
 
 `11. Adesione al Nodo dei Pagamenti-SPC </18-Capitolo_11/18-Capitolo_11.rst>`__
 
-`11.1 Adesione di un Ente Creditore. <#_Toc508016351>`__
+`11.1 Adesione di un Ente Creditore. <19-Capitolo_11/Capitolo11.rst#adesione-di-un-ente-creditore>`__
 
 `11.2 Adesione di un Prestatore di Servizi di pagamento
 <#_Toc508016352>`__
