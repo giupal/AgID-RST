@@ -747,40 +747,40 @@ Party* <#_Toc508016332>`__
 `12. Adempimenti durante l’erogazione del Servizio
 <19-Capitolo_12/19-Capitolo_12.rst>`__
 
-`12.1 Adempimenti dell’Ente Creditore <#_Toc508016357>`__
+`12.1 Adempimenti dell’Ente Creditore <20-Capitolo_12/Capitolo12.rst#adempimenti-dellente-creditore>`__
 
 `12.1.1 Adempimenti specifici relativi al circuito MyBank
-<#_Toc508016358>`__
+<20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-circuito-mybank>`__
 
 `12.1.2 Caratteristiche e adempimenti specifici relativi al servizio di
-avvisatura digitale <#_Toc508016359>`__
+avvisatura digitale <20-Capitolo_12/Capitolo12.rst#caratteristiche-e-adempimenti-specifici-relativi-al-servizio-di-avvisatura-digitale>`__
 
 `12.2 Adempimenti del prestatore di servizi di pagamento
-<#_Toc508016360>`__
+<20-Capitolo_12/Capitolo12.rst#adempimenti-del-prestatore-di-servizi-di-pagamento>`__
 
 `12.2.1 Adempimenti specifici relativi al servizio di avvisatura
-digitale <#_Toc508016361>`__
+digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-servizio-di-avvisatura-digitale>`__
 
-`12.3 Archiviazione dei dati <#_Toc508016362>`__
+`12.3 Archiviazione dei dati <20-Capitolo_12/Capitolo12.rst#archiviazione-dei-dati>`__
 
 `12.3.1 Periodo di ritenzione delle RPT senza esito
-<#_Toc508016363>`__
+<20-Capitolo_12/Capitolo12.rst#periodo-di-ritenzione-delle-rpt-senza-esito>`__
 
-`12.4 Business continuity e Disaster Recovery <#_Toc508016364>`__
+`12.4 Business continuity e Disaster Recovery <20-Capitolo_12/Capitolo12.rst#business-continuity-e-disaster-recovery>`__
 
-`12.5 Disponibilità dei servizi <#_Toc508016365>`__
+`12.5 Disponibilità dei servizi <20-Capitolo_12/Capitolo12.rst#disponibilità-dei-servizi>`__
 
-`12.5.1 Nodo dei Pagamenti-SPC <#_Toc508016366>`__
+`12.5.1 Nodo dei Pagamenti-SPC <20-Capitolo_12/Capitolo12.rst#nodo-dei-pagamenti-spc>`__
 
-`12.5.2 Enti Creditori <#_Toc508016367>`__
+`12.5.2 Enti Creditori <20-Capitolo_12/Capitolo12.rst#enti-creditori>`__
 
 `12.5.3 Prestatori di servizi di pagamento aderenti
-<#_Toc508016368>`__
+<20-Capitolo_12/Capitolo12.rst#prestatori-di-servizi-di-pagamento-aderenti>`__
 
-`12.6 Livelli di Servizio <#_Toc508016369>`__
+`12.6 Livelli di Servizio <20-Capitolo_12/Capitolo12.rst#livelli-di-servizio>`__
 
 `12.6.1 Indicatori di qualità del Nodo dei Pagamenti-SPC
-<#_Toc508016370>`__
+<20-Capitolo_12/Capitolo12.rst#indicatori-di-qualità-del-nodo-dei-pagamenti-spc>`__
 
 `13. Responsabilità </21-Capitolo_13/21-Capitolo_13.rst>`__
 
