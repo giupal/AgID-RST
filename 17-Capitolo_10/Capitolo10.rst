@@ -12,6 +12,7 @@ Gestione degli Errori
 In questo capitolo sono fornite le specifiche necessarie per gestire gli
 errori all’interno del sistema pagoPA.
 
+.. _La struttura faultBean:
 La struttura faultBean
 ----------------------
 
@@ -138,6 +139,7 @@ struttura **faultBean** composta così come indicato in Tabella 51.
 | *Formato:* Numerico stringa.                                          |
 +-----------------------------------------------------------------------+
 
+.. _Codici di errore:
 Codici di errore
 ----------------
 
@@ -390,6 +392,7 @@ nella **Gestione degli errori** delle singole primitive.
 |                                   | scaduta.                          |
 +-----------------------------------+-----------------------------------+
 
+.. _Spiegazione di alcuni faultCode:
 Spiegazione di alcuni faultCode
 -------------------------------
 
