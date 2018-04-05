@@ -6,9 +6,8 @@
 | **APPENDICE 1 – WSDL E XSD** |
 +------------------------------+
 
-
-.. _Appendice 1 – WSDL e XSD:
 Appendice 1 – WSDL e XSD
+.. _Appendice 1 WSDL e XSD:
 
 FINE DOCUMENTO
 
