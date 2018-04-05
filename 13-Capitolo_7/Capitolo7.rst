@@ -14,6 +14,7 @@ quali deve essere gestito il codice che identifica in modo univoco, a
 livello di Ente Creditore, l’operazione di pagamento nell’ambito del
 “Sistema pagoPA”.
 
+.. _Identificativo Univoco Versamento:
 Identificativo Univoco Versamento
 ---------------------------------
 
@@ -28,6 +29,7 @@ Il codice IUV è generato dell’Ente Creditore ovvero da un soggetto terzo
 da questi autorizzato con le modalità indicate nella Sezione I del
 documento Allegato A alle Linee guida.
 
+.. _Causale di versamento:
 Causale di versamento
 ---------------------
 
@@ -38,10 +40,9 @@ l’identificativo del Flusso di Rendicontazione e deve esser conforme
 alle indicazioni riportate nella Sezione I delle Allegato A alle Linee
 guida.
 
-+---------------------------------------+--+
-| .. rubric:: Codice Contesto Pagamento |  |
-|    :name: codice-contesto-pagamento   |  |
-+---------------------------------------+--+
+.. _Codice Contesto Pagamento:
+Codice Contesto Pagamento
+-------------------------
 
 L’informazione denominata “codiceContestoPagamento” è un dato
 obbligatorio presente sia nella struttura dati della RPT, sia nella
@@ -49,6 +50,7 @@ struttura dati della RT (cfr. §§ 5.3.1 e 5.3.2) e serve a
 contestualizzare e rendere univoco lo specifico pagamento insieme ai
 dati Codice Fiscale dell’Ente Creditore e codice IUV.
 
+.. _Pagamenti attivati presso l’Ente Creditore:
 Pagamenti attivati presso l’Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -61,6 +63,7 @@ un avviso di pagamento si raccomanda di utilizzare il valore
 “\ **n/a**\ ” (già indicato nelle versioni precedenti delle presenti
 specifiche).
 
+.. _Pagamenti attivati presso le strutture del PSP:
 Pagamenti attivati presso le strutture del PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -83,6 +86,7 @@ possibile garantire l'identificazione corretta delle tre fasi del
 pagamento che saranno rintracciabili anche con l'ausilio del Giornale
 degli eventi (vedi capitolo 6).
 
+.. _Identificazione del versamento presso le strutture dei PSP:
 Identificazione del versamento presso le strutture dei PSP
 ----------------------------------------------------------
 
@@ -106,6 +110,7 @@ PSP l’automazione della lettura delle richiamate informazioni atte ad
 identificare l’avviso di pagamento per poi procedere
 all’inizializzazione della relativa operazione.
 
+.. _Il Numero Avviso e l’archivio dei pagamenti in attesa:
 Il Numero Avviso e l’archivio dei pagamenti in attesa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -158,6 +163,7 @@ meccanismi di configurazione del NodoSPC, che sarà in questo modo in
 grado di individuare il canale corretto di inoltro delle richieste di
 verifica e attivazione di pagamento (cfr. § 8.2.3 della Sezione III).
 
+.. _Automazione dell’avviso di pagamento analogico:
 Automazione dell’avviso di pagamento analogico
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -265,6 +271,7 @@ utilizza nell’invocazione delle primitive modello 3 (vedi §§ 9.2.3.1 e
 È compito dell’Ente Creditore recepire tale informazione e interagire di
 conseguenza con il proprio archivio dei pagamenti in attesa.
 
+.. _Utilizzo del QR code sull’avviso di pagamento:
 Utilizzo del QR code sull’avviso di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -400,6 +407,7 @@ essere applicate nella generazione del QRcode.
 | Character set  | UTF-8                         |
 +----------------+-------------------------------+
 
+.. _Utilizzo del codice a barre sull’avviso di pagamento:
 Utilizzo del codice a barre sull’avviso di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -426,10 +434,9 @@ Le modalità di predisposizione dei codici a barre sopra citati sono
 indicate nella Sezione II della monografia “\ *L’Avviso di pagamento
 analogico nel sistema pagoPA*\ ”, pubblicata sul sito AgID.
 
-+---------------------------------------------------+--+
-| .. rubric:: Comunicazioni all'utilizzatore finale |  |
-|    :name: comunicazioni-allutilizzatore-finale    |  |
-+---------------------------------------------------+--+
+.. _Comunicazioni all'utilizzatore finale:
+Comunicazioni all'utilizzatore finale
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nel *workflow* del processo di pagamento attivato presso le strutture
 del PSP è importante fornire all'utilizzatore finale informazioni circa
