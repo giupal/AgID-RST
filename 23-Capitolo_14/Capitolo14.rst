@@ -14,6 +14,7 @@ realizzare lo scambio dei flussi di pagamento descritto sopra. Tutti i
 file WSDL elencati nel seguito sono forniti in formato elettronico
 nell’apposita sezione del sito dell’Agenzia per l’Italia Digitale.
 
+.. _Interazione tra Amministrazione e Nodo dei Pagamenti-SPC:
 Interazione tra Amministrazione e Nodo dei Pagamenti-SPC
 --------------------------------------------------------
 
@@ -27,6 +28,7 @@ Pagamenti-SPC e i sistemi dell'amministrazione, consente di ridurre al
 minimo i tempi di trattamento dei messaggi e complessivamente i tempi di
 risposta.
 
+.. _WSDL NodoPerPa:
 WSDL NodoPerPa
 ~~~~~~~~~~~~~~
 
@@ -34,12 +36,14 @@ Questo WSDL definisce i metodi e i parametri di interfaccia del Nodo dei
 Pagamenti-SPC con cui gli Enti Creditori possono inviare le Richieste di
 Pagamento Telematico (RPT) e verificarne lo stato di avanzamento.
 
+.. _WSDL PaPerNodo:
 WSDL PaPerNodo
 ~~~~~~~~~~~~~~
 
 Questo WSDL definisce i metodi e i parametri di interfaccia che gli Enti
 Creditori devono implementare per ricevere le Ricevute Telematiche (RT).
 
+.. _WSDL PaPerNodoPagamentoPSP:
 WSDL PaPerNodoPagamentoPSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -48,6 +52,7 @@ Creditori devono implementare per gestire il modello di pagamento
 attivato presso il PSP e quindi per ricevere e trattare le richieste di
 verifica e attivazione delle Richieste di Pagamento in attesa.
 
+.. _WSDL PaPerNodoRichiestaAvvisi:
 WSDL PaPerNodoRichiestaAvvisi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -56,6 +61,7 @@ Creditori devono implementare per gestire il modello di pagamento
 spontaneo attivato presso il PSP (modello 4) e quindi per ricevere e
 trattare le richieste di generazione del codice avviso.
 
+.. _WSDL NodoPerPaAvvisiDigitali:
 WSDL NodoPerPaAvvisiDigitali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -64,6 +70,7 @@ Creditori devono implementare, nell’ambito del processo di Avvisatura
 digitale *push* (vedi § 2.9), per inviare al NodoSPC un avviso digitale
 da recapitare al PSP.
 
+.. _WSDL PaPerNodoChiediElencoAvvisiDigitali:
 WSDL PaPerNodoChiediElencoAvvisiDigitali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -72,6 +79,7 @@ Creditori devono implementare, nell’ambito del processo di Avvisatura
 digitale *pull* (vedi § 2.10), per ricevere dal NodoSPC una richiesta
 relativa alla posizione debitoria di un dato utilizzatore finale.
 
+.. _*Web service* tra Nodo dei Pagamenti-SPC e PSP:
 *Web service* tra Nodo dei Pagamenti-SPC e PSP
 ----------------------------------------------
 
@@ -85,6 +93,7 @@ Telematiche (RT), l’altro esposto dal Nodo dei Pagamenti-SPC per
 trattare i metodi specifici del modello di pagamento attivato presso il
 PSP.
 
+.. _WSDL PspPerNodo:
 WSDL PspPerNodo
 ~~~~~~~~~~~~~~~
 
@@ -94,6 +103,7 @@ Pagamento Telematico (RPT) e verificarne lo stato di avanzamento, nonché
 per richiedere le Ricevute Telematiche (RT) e trattare i segnali di
 conferma.
 
+.. _WSDL NodoPerPsp:
 WSDL NodoPerPsp
 ~~~~~~~~~~~~~~~
 
@@ -105,6 +115,7 @@ delle Richieste di Pagamento in attesa. Fornisce altresì il supporto per
 le funzioni ancillari di trasferimento flussi (Rendicontazione e Totali
 di traffico).
 
+.. _WSDL NodoPerPspRichiestaAvvisi:
 WSDL NodoPerPspRichiestaAvvisi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -113,6 +124,7 @@ dal Nodo dei Pagamenti-SPC per il trattamento delle richieste specifiche
 del modello di pagamento spontaneo attivato presso il PSP (modello 4) e
 quindi per inviare le richieste di generazione del codice avviso.
 
+.. _WSDL NodoPerPSPIscrizioniAvvisatura:
 WSDL NodoPerPSPIscrizioniAvvisatura
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -121,6 +133,7 @@ devono implementare per gestire, nell’ambito del processo di Avvisatura
 digitale *push* (vedi § 2.9), le operazioni di iscrizione e
 cancellazione di un loro cliente.
 
+.. _WSDL PSPPerNodoAvvisiDigitali:
 WSDL PSPPerNodoAvvisiDigitali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -129,6 +142,7 @@ devono implementare per gestire, nell’ambito del processo di Avvisatura
 digitale *push* (vedi § 2.9), il recapito di un avviso digitale al
 proprio cliente.
 
+.. _WSDL NodoPerPSPChiediElencoAvvisiDigitali:
 WSDL NodoPerPSPChiediElencoAvvisiDigitali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
