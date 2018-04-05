@@ -368,9 +368,6 @@ Automobilistica <#_Toc508016175>`__
 
 `Sezione III - Specifiche di interconnessione <14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst>`__
 
-`Identificazione degli oggetti scambiati nel sistema pagoPA
-<#_Toc508016201>`__
-
 `8. Interazione tra Ente Creditore e NodoSPC </15-Capitolo_8/15-Capitolo_8.rst>`__
 
 `8.1 *Workflow* dei modelli di pagamento e dei processi accessori
