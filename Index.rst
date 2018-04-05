@@ -8,13 +8,13 @@
 
 Indice dei contenuti
 
-`Stato del documento </00-STATO_DEL_DOCUMENTO//00-STATO_DEL_DOCUMENTO.rst>`__
+`Stato del documento </00-STATO_DEL_DOCUMENTO/STATO_DEL_DOCUMENTO.rst>`__
 
 `Indice dei contenuti <#STATO>`__
 
-`Definizioni e Acronimi </02-DEFINIZIONI_E_ACRONIMI/02-DEFINIZIONI_E_ACRONIMI.rst>`__
+`Definizioni e Acronimi </02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst>`__
 
-`Premessa alla Versione 2.1 </04-PREMESSA_ALLA_VERSIONE_2.1/04-PREMESSA_ALLA_VERSIONE_2.1.rst>`__
+`Premessa alla Versione 2.1 </04-PREMESSA_ALLA_VERSIONE_2.1/PREMESSA_ALLA_VERSIONE_2.1.rst>`__
 
 `Sezione I - Regole e Funzionamento del sistema </05-SEZIONE_I/SEZIONE_I_-_REGOLE_E_FUNZIONAMENTO_DEL_SISTEMA.rst>`__
 
