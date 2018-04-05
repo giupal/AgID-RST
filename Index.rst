@@ -734,15 +734,15 @@ Party* <#_Toc508016332>`__
 `11.1 Adesione di un Ente Creditore. <19-Capitolo_11/Capitolo11.rst#adesione-di-un-ente-creditore>`__
 
 `11.2 Adesione di un Prestatore di Servizi di pagamento
-<#_Toc508016352>`__
+<19-Capitolo_11/Capitolo11.rst#adesione-di-un-prestatore-di-servizi-di-pagamento>`__
 
 `11.3 Qualificazione di Intermediari e Partner tecnologici
-<#_Toc508016353>`__
+<19-Capitolo_11/Capitolo11.rst#qualificazione-di-intermediari-e-partner-tecnologici>`__
 
 `11.4 Completamento della procedura di avvio in esercizio.
-<#_Toc508016354>`__
+<19-Capitolo_11/Capitolo11.rst#completamento-della-procedura-di-avvio-in-esercizio>`__
 
-`11.5 Utilizzo del marchio pagoPA <#_Toc508016355>`__
+`11.5 Utilizzo del marchio pagoPA <19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`__
 
 `12. Adempimenti durante l’erogazione del Servizio
 <19-Capitolo_12/19-Capitolo_12.rst>`__
