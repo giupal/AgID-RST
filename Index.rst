@@ -717,14 +717,14 @@ Party* <#_Toc508016332>`__
 
 `10. Gestione degli Errori </17-Capitolo_10/17-Capitolo_10.rst>`__
 
-`10.1 La struttura faultBean <#_Toc508016345>`__
+`10.1 La struttura faultBean <17-Capitolo_10/Capitolo10.rst#la-struttura-faultbean>`__
 
-`10.2 Codici di errore <#_Toc508016346>`__
+`10.2 Codici di errore <17-Capitolo_10/Capitolo10.rst#codici-di-errore>`__
 
-`10.3 Spiegazione di alcuni faultCode <#_Toc508016347>`__
+`10.3 Spiegazione di alcuni faultCode <17-Capitolo_10/Capitolo10.rst#spiegazione-di-alcuni-faultcode>`__
 
 `10.4 Errori nella gestione del messaggio di ackRT
-<#_Toc508016348>`__
+</17-Capitolo_10/Capitolo10.rst#errori-nella-gestione-del-messaggio-di-ackrt>`__
 
 `Sezione IV – Ruoli e responsabilità degli Aderenti
 </18-SEZIONE_IV/SEZIONE_IV_-_RUOLI_E_RESPONSABILITÀ_DEGLI_ADERENTI.rst>`__
