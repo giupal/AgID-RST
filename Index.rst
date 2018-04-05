@@ -335,36 +335,36 @@ Automobilistica <#_Toc508016175>`__
 
 `6. Giornale degli Eventi </12-Capitolo_6/12-Capitolo_6.rst>`__
 
-`7. Identificazione del versamento </13-Capitolo_7/13-Capitolo_7.rst>`__
+`7. Identificazione del versamento </13-Capitolo_7/Capitolo7.rst>`__
 
-`7.1 Identificativo Univoco Versamento <#_Toc508016189>`__
+`7.1 Identificativo Univoco Versamento <13-Capitolo_7/Capitolo7.rst#identificativo-univoco-versamento>`__
 
-`7.2 Causale di versamento <#_Toc508016190>`__
+`7.2 Causale di versamento <13-Capitolo_7/Capitolo7.rst#causale-di-versamento>`__
 
-`7.3 Codice Contesto Pagamento <#_Toc508016191>`__
+`7.3 Codice Contesto Pagamento <13-Capitolo_7/Capitolo7.rst#codice-contesto-pagamento>`__
 
 `7.3.1 Pagamenti attivati presso l’Ente Creditore
-<#_Toc508016192>`__
+<13-Capitolo_7/Capitolo7.rst#pagamenti-attivati-presso-lente-creditore>`__
 
 `7.3.2 Pagamenti attivati presso le strutture del PSP
-<#_Toc508016193>`__
+<13-Capitolo_7/Capitolo7.rst#pagamenti-attivati-presso-le-strutture-del-psp>`__
 
 `7.4 Identificazione del versamento presso le strutture dei PSP
-<#_Toc508016194>`__
+<13-Capitolo_7/Capitolo7.rst#identificazione-del-versamento-presso-le-strutture-dei-psp>`__
 
 `7.4.1 Il Numero Avviso e l’archivio dei pagamenti in attesa
-<#_Toc508016195>`__
+<13-Capitolo_7/Capitolo7.rst#il-numero-avviso-e-larchivio-dei-pagamenti-in-attesa>`__
 
 `7.4.2 Automazione dell’avviso di pagamento analogico
-<#_Toc508016196>`__
+<13-Capitolo_7/Capitolo7.rst#automazione-dellavviso-di-pagamento-analogico>`__
 
 `7.4.3 Utilizzo del QR code sull’avviso di pagamento
-<#_Toc508016197>`__
+<13-Capitolo_7/Capitolo7.rst#utilizzo-del-qr-code-sullavviso-di-pagamento>`__
 
 `7.4.4 Utilizzo del codice a barre sull’avviso di pagamento
-<#_Toc508016198>`__
+<13-Capitolo_7/Capitolo7.rst#utilizzo-del-codice-a-barre-sullavviso-di-pagamento>`__
 
-`7.4.5 Comunicazioni all'utilizzatore finale <#_Toc508016199>`__
+`7.4.5 Comunicazioni all'utilizzatore finale <13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__
 
 `Sezione III - Specifiche di interconnessione <14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst>`__
 
