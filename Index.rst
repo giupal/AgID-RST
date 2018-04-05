@@ -794,35 +794,35 @@ digitale <#_Toc508016361>`__
 `14. Specifiche – WSDL </22-Capitolo_14/22-Capitolo_14.rst>`__
 
 `14.1 Interazione tra Amministrazione e Nodo dei Pagamenti-SPC
-<#_Toc508016376>`__
+<23-Capitolo_14/Capitolo14.rst#interazione-tra-amministrazione-e-nodo-dei-pagamenti-spc>`__
 
-`14.1.1 WSDL NodoPerPa <#_Toc508016377>`__
+`14.1.1 WSDL NodoPerPa <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpa>`__
 
-`14.1.2 WSDL PaPerNodo <#_Toc508016378>`__
+`14.1.2 WSDL PaPerNodo <23-Capitolo_14/Capitolo14.rst#wsdl-papernodo>`__
 
-`14.1.3 WSDL PaPerNodoPagamentoPSP <#_Toc508016379>`__
+`14.1.3 WSDL PaPerNodoPagamentoPSP <23-Capitolo_14/Capitolo14.rst#wsdl-papernodopagamentopsp>`__
 
-`14.1.4 WSDL PaPerNodoRichiestaAvvisi <#_Toc508016380>`__
+`14.1.4 WSDL PaPerNodoRichiestaAvvisi <23-Capitolo_14/Capitolo14.rst#wsdl-papernodorichiestaavvisi>`__
 
-`14.1.5 WSDL NodoPerPaAvvisiDigitali <#_Toc508016381>`__
+`14.1.5 WSDL NodoPerPaAvvisiDigitali <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpaavvisidigitali>`__
 
-`14.1.6 WSDL PaPerNodoChiediElencoAvvisiDigitali <#_Toc508016382>`__
+`14.1.6 WSDL PaPerNodoChiediElencoAvvisiDigitali <23-Capitolo_14/Capitolo14.rst#wsdl-papernodochiedielencoavvisidigitali>`__
 
 `14.2 *Web service* tra Nodo dei Pagamenti-SPC e PSP
-<#_Toc508016383>`__
+<23-Capitolo_14/Capitolo14.rst#web-service-tra-nodo-dei-pagamenti-spc-e-psp>`__
 
-`14.2.1 WSDL PspPerNodo <#_Toc508016384>`__
+`14.2.1 WSDL PspPerNodo <23-Capitolo_14/Capitolo14.rst#wsdl-psppernodo>`__
 
-`14.2.2 WSDL NodoPerPsp <#_Toc508016385>`__
+`14.2.2 WSDL NodoPerPsp <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpsp>`__
 
-`14.2.3 WSDL NodoPerPspRichiestaAvvisi <#_Toc508016386>`__
+`14.2.3 WSDL NodoPerPspRichiestaAvvisi <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpsprichiestaavvisi>`__
 
-`14.2.4 WSDL NodoPerPSPIscrizioniAvvisatura <#_Toc508016387>`__
+`14.2.4 WSDL NodoPerPSPIscrizioniAvvisatura <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpspiscrizioniavvisatura>`__
 
-`14.2.5 WSDL PSPPerNodoAvvisiDigitali <#_Toc508016388>`__
+`14.2.5 WSDL PSPPerNodoAvvisiDigitali <23-Capitolo_14/Capitolo14.rst#wsdl-psppernodoavvisidigitali>`__
 
 `14.2.6 WSDL NodoPerPSPChiediElencoAvvisiDigitali
-<#_Toc508016389>`__
+<23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpspchiedielencoavvisidigitali>`__
 
 `15. Specifiche – XSD </24-Capitolo_15/Capitolo15.rst>`__
 
