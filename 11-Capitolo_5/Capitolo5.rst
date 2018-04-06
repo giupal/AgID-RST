@@ -28,11 +28,11 @@ sono individuate come:
 Nel presente capitolo sono inoltre riportate le informazioni relative a
 "Tabella delle Controparti" (§ 4.2.1), "Catalogo Dati Informativi" (§
 5.3.7) e flussi inerenti i “Totali di Traffico” (§ 4.5.1).
-
+.. _Formato dei messaggi:
 Formato dei messaggi
 --------------------
 
-  I formati adottati devono possedere almeno i seguenti requisiti:
+I formati adottati devono possedere almeno i seguenti requisiti:
 
 -  consentire, nei diversi ambiti di applicazione e per le diverse
    tipologie di trattazione, l'archiviazione, la leggibilità,
@@ -63,7 +63,7 @@ l’interoperabilità.
 
 Per la visualizzazione dei messaggi, devono essere adottate soluzioni
 che presentino le informazioni in modo fedele alla struttura.
-
+.. _Soggetti:
 Soggetti
 --------
 
@@ -87,7 +87,7 @@ c. Ente Beneficiario: rappresenta la Pubblica Amministrazione
 d. Istituto Attestante: rappresenta il Prestatore di Servizi di
        Pagamento che effettua il pagamento richiesto e ne attesta la
        regolarità.
-
+.. _Formato dei dati:
 Formato dei dati
 ----------------
 
@@ -190,7 +190,7 @@ significati:
 |                 |                 | message         |                 |
 |                 |                 | (UNIFI).        |                 |
 +-----------------+-----------------+-----------------+-----------------+
-
+.. _Modello di funzionamento:
 Richiesta Pagamento Telematico (RPT)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -2042,7 +2042,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | Credito |
 |         |         |          |         |         |         | re.     |
 +---------+---------+----------+---------+---------+---------+---------+
-
+.. _Modello di funzionamento:
 Ricevuta Telematica (RT)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -3544,7 +3544,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | binary” |
 |         |         |         |         |         |         | .       |
 +---------+---------+---------+---------+---------+---------+---------+
-
+.. _Modello di funzionamento:
 Richiesta di Revoca (RR)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -4097,7 +4097,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | di      |
 |         |         |         |         |         |         | revoca. |
 +---------+---------+---------+---------+---------+---------+---------+
-
+.. _Modello di funzionamento:
 Esito della Revoca (ER)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -4585,7 +4585,7 @@ relativa allo “storno” di un pagamento\ *.*
 |         |         |         |         |         |         | re      |
 |         |         |         |         |         |         | .       |
 +---------+---------+---------+---------+---------+---------+---------+
-
+.. _Modello di funzionamento:
 Flusso di rendicontazione
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -4602,7 +4602,7 @@ Il dettaglio di dette informazioni è riportato nella Sezione II delle
 riversamento e rendicontazione*", allegato A alle “Linee guida per
 l'effettuazione dei pagamenti a favore delle pubbliche amministrazioni e
 dei gestori di pubblici servizi” alle quali si deve fare riferimento.
-
+.. _Modello di funzionamento:
 Tabella delle controparti
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -5304,12 +5304,9 @@ controparti*\ ”**
 |           |           |           |           |           | Tabella   |
 |           |           |           |           |           | 5.        |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
-+-------------------------------------------------------+--+
-| .. rubric:: Informazioni inviate dagli Enti Creditori |  |
-|    :name: informazioni-inviate-dagli-enti-creditori   |  |
-|    :class: Titolo4n                                   |  |
-+-------------------------------------------------------+--+
+.. _Modello di funzionamento:
+Informazioni inviate dagli Enti Creditori
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 La “\ *Tabella delle controparti*\ ” viene prodotta sulla base delle
 informazioni inviate dai singoli Enti Creditori all’Agenzia per l’Italia
@@ -5762,7 +5759,7 @@ in Tabella 8.
 |           |           |           |           |           | sul sito  |
 |           |           |           |           |           | AgID).    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 Catalogo Dati Informativi
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -6812,7 +6809,7 @@ Informativi*\ ”**
 |           |           |           |           |           | precedent |
 |           |           |           |           |           | e         |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 Flusso “Totali di Traffico” per gli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -7258,7 +7255,7 @@ richiedente.
 |           |           |           |           |           | aggregazi |
 |           |           |           |           |           | one       |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 Flusso “Totali di Traffico” per i prestatori di servizi di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -7707,7 +7704,7 @@ identificativoDominioMittente.
 Si noti che l'elemento identificativoIntermediarioPADestinatario,
 presente nella versione 1.6.1, è stato eliminato sostituito con
 l'elemento identificativoDominioDestinatario.
-
+.. _Modello di funzionamento:
 Messaggio di conferma ricezione della RT (ACK)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -7984,7 +7981,7 @@ gli elementi componenti il messaggio stesso, ora indicati nella Tabella
 |           |           |           |           |           | stato di  |
 |           |           |           |           |           | errore.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 Catalogo dei servizi
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -8183,7 +8180,7 @@ Il nome dello schema XSD che rappresenta i dati contenuti nel file XML
 che viene inviato all'Ente Creditore attraverso il NodoSPC è riportato
 nell'elemento xsdRiferimento del *Catalogo dei Servizi* (vedi Tabella 16
 a pagina 99).
-
+.. _Modello di funzionamento:
 Dati specifici del servizio nel caso d'uso della Tassa Automobilistica
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -8434,7 +8431,7 @@ I Prestatori di servizi di pagamento che implementano il servizio sono
 tenuti a sviluppare solo l'opzione, definita in Tabella 18, con la
 struttura veicoloConTarga, mentre possono non gestire l'opzione definita
 con la struttura veicoloConTelaio.
-
+.. _Modello di funzionamento:
 Avvisatura digitale
 -------------------
 
@@ -8450,7 +8447,7 @@ scambiate nell’ambito del processo di avvisatura digitale in modalità
 -  Segnalazione di presa in carico
 
 -  Parametri Web service
-
+.. _Modello di funzionamento:
 Avviso digitale
 ~~~~~~~~~~~~~~~
 
@@ -8968,7 +8965,7 @@ in formato digitale.
 |           |           |           |           |           | avviso    |
 |           |           |           |           |           | esistente |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 Esito inoltro di Avviso digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -9148,7 +9145,7 @@ di avviso di pagamento in formato digitale.
 |           |           |           |           |           | l’evento  |
 |           |           |           |           |           | stesso.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 File XML scambiati con l’Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -9160,7 +9157,7 @@ secondo lo schema di Tabella 12. Il file così predisposto deve essere
 compresso con algoritmo gzip e inviato via SFTP al Nodo dei
 Pagamenti-SPC il quale risponderà mediante i file di esito descritti in
 seguito.
-
+.. _Modello di funzionamento:
 File delle richieste di inoltro dell’avviso digitale e di esito
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -9289,7 +9286,7 @@ inoltro Avvisi digitali*\ ”**
 Si ricorda che, per problemi di gestibilità del servizio di avvisatura,
 il numero massimo delle occorrenze di esiti di avvisi digitali presenti
 in un flusso scambiato è fissato in 100.000.
-
+.. _Modello di funzionamento:
 File di segnalazione di presa in carico
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -9392,7 +9389,7 @@ carico*\ ” (File di ACK)**
 |           |           |           |           |           | diverso   |
 |           |           |           |           |           | da 0.**   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 Scambio informazioni via web service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -9414,12 +9411,9 @@ componenti i seguenti parametri:
 
 4) I-5 datiNotifica, *request* della primitiva
    ***nodoAggiornaIscrizioneAvvisatura***
-
-+---------------------------------------------------+--+
-| .. rubric:: Invio dell’avviso digitale al NodoSPC |  |
-|    :name: invio-dellavviso-digitale-al-nodospc    |  |
-|    :class: Titolo4n                               |  |
-+---------------------------------------------------+--+
+.. _Modello di funzionamento:
+Invio dell’avviso digitale al NodoSPC
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Le informazioni elencate di seguito (vedi Tabella 26) definiscono il
 parametro avvisoDigitaleWS presente nella *request* della primitiva
@@ -9479,12 +9473,9 @@ servizio.
 |           |           |           |           |           | 20 al §   |
 |           |           |           |           |           | 5.4.1.    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
-+--------------------------------------------------+--+
-| .. rubric:: Recapito dell’avviso digitale ai PSP |  |
-|    :name: recapito-dellavviso-digitale-ai-psp    |  |
-|    :class: Titolo4n                              |  |
-+--------------------------------------------------+--+
+.. _Modello di funzionamento:
+Recapito dell’avviso digitale ai PSP
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Le informazioni elencate di seguito (vedi Tabella 26) definiscono il
 parametro avvisoDigitale presente nella *request* della primitiva
@@ -9514,7 +9505,7 @@ all'interno del WSDL del servizio.
 |           |           |           |           |           | 19 al §   |
 |           |           |           |           |           | 5.4.1.    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 Notifica dell’iscrizione al servizio di avvisatura digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -9655,7 +9646,7 @@ formalmente all'interno del WSDL del servizio.
 |           |           |           |           |           | disattiva |
 |           |           |           |           |           | zione     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-
+.. _Modello di funzionamento:
 Richiesta posizione debitoria presso un Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
