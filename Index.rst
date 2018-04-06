@@ -170,39 +170,39 @@ pagamento <#_Toc508016101>`__
 `3. Il Nodo dei Pagamenti-SPC </08-Capitolo_3/Capitolo3.rst>`__
 
 `3.1 Caratteristiche generali del Nodo dei Pagamenti-SPC
-<#_Toc508016115>`__
+<08-Capitolo_3/Capitolo3.rst#caratteristiche-generali-del-nodo-dei-pagamenti-spc>`__
 
 `3.2 Architettura e contenuti del Nodo dei Pagamenti-SPC
-<#_Toc508016116>`__
+<08-Capitolo_3/Capitolo3.rst#architettura-e-contenuti-del-nodo-dei-pagamenti-spc>`__
 
-`3.2.1 Gestore del Workflow Applicativo <#_Toc508016117>`__
+`3.2.1 Gestore del Workflow Applicativo <08-Capitolo_3/Capitolo3.rst#gestore-del-workflow-applicativo>`__
 
-`3.2.2 Gestore della Porta di Dominio <#_Toc508016118>`__
+`3.2.2 Gestore della Porta di Dominio <08-Capitolo_3/Capitolo3.rst#gestore-della-porta-di-dominio>`__
 
-`3.2.3 Interfaccia di Canale <#_Toc508016119>`__
+`3.2.3 Interfaccia di Canale <08-Capitolo_3/Capitolo3.rst#interfaccia-di-canale>`__
 
-`3.2.4 Repository <#_Toc508016120>`__
+`3.2.4 Repository <08-Capitolo_3/Capitolo3.rst#repository>`__
 
-`3.2.5 Componente Web-FESP <#_Toc508016121>`__
+`3.2.5 Componente Web-FESP <08-Capitolo_3/Capitolo3.rst#componente-web-fesp>`__
 
-`3.2.6 Componente WISP <#_Toc508016122>`__
+`3.2.6 Componente WISP <08-Capitolo_3/Capitolo3.rst#componente-wisp>`__
 
-`3.2.7 Componente Wrapper MyBank <#_Toc508016123>`__
+`3.2.7 Componente Wrapper MyBank <08-Capitolo_3/Capitolo3.rst#componente-wrapper-mybank>`__
 
 `3.2.8 Gestione dell'avvisatura digitale in modalità *push*
-<#_Toc508016124>`__
+<08-Capitolo_3/Capitolo3.rst#gestione-dellavvisatura-digitale-in-modalità-push>`__
 
-`3.2.9 File Transfer sicuro <#_Toc508016125>`__
+`3.2.9 File Transfer sicuro <08-Capitolo_3/Capitolo3.rst#file-transfer-sicuro>`__
 
-`3.2.10 Giornale degli Eventi <#_Toc508016126>`__
+`3.2.10 Giornale degli Eventi <08-Capitolo_3/Capitolo3.rst#giornale-degli-eventi>`__
 
-`3.2.11 Componenti di utilità <#_Toc508016127>`__
+`3.2.11 Componenti di utilità <08-Capitolo_3/Capitolo3.rst#componenti-di-utilità>`__
 
-`3.2.12 Sistema di Monitoring <#_Toc508016128>`__
+`3.2.12 Sistema di Monitoring <08-Capitolo_3/Capitolo3.rst#sistema-di-monitoring>`__
 
-`3.2.13 Sistema di Gestione del Tavolo Operativo <#_Toc508016129>`__
+`3.2.13 Sistema di Gestione del Tavolo Operativo <08-Capitolo_3/Capitolo3.rst#sistema-di-gestione-del-tavolo-operativo>`__
 
-`3.2.14 Sistema di Reporting <#_Toc508016130>`__
+`3.2.14 Sistema di Reporting <08-Capitolo_3/Capitolo3.rst#sistema-di-reporting>`__
 
 `4. Il sistema pagoPA e il Nodo dei Pagamenti-SPC </09-Capitolo_4/Capitolo4.rst>`__
 
