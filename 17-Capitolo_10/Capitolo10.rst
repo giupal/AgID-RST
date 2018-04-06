@@ -12,9 +12,9 @@ Gestione degli Errori
 In questo capitolo sono fornite le specifiche necessarie per gestire gli
 errori all’interno del sistema pagoPA.
 
-.. _La struttura faultBean:
 La struttura faultBean
 ----------------------
+.. _La struttura faultBean:
 
 Per la **Gestione degli errori** all’interno dei messaggi scambiati tra
 i soggetti aderenti (EC e PSP) ed il NodoSPC viene utilizzata la
@@ -139,9 +139,9 @@ struttura **faultBean** composta così come indicato in Tabella 51.
 | *Formato:* Numerico stringa.                                          |
 +-----------------------------------------------------------------------+
 
-.. _Codici di errore:
 Codici di errore
 ----------------
+.. _Codici di errore:
 
 Questo paragrafo riporta nella Tabella 52 i codici di errore
 (**faultCode**) e la relativa **faultString**, restituiti dalle
@@ -392,9 +392,9 @@ nella **Gestione degli errori** delle singole primitive.
 |                                   | scaduta.                          |
 +-----------------------------------+-----------------------------------+
 
-.. _Spiegazione di alcuni faultCode:
 Spiegazione di alcuni faultCode
 -------------------------------
+.. _Spiegazione di alcuni faultCode:
 
 Ricordato che, nel caso di primitive sincrone, il NodoSPC provvede a far
 pervenire il codice di errore alla controparte interessata (Ente
@@ -506,9 +506,9 @@ faultCode emessi dai vari soggetti:
 | di avvisatura per un soggetto sconosciuto.                            |
 +-----------------------------------------------------------------------+
 
-.. _Errori nella gestione del messaggio di ackRT:
 Errori nella gestione del messaggio di ackRT
 --------------------------------------------
+.. _Errori nella gestione del messaggio di ackRT:
 
 In Tabella 53 sono riportati i codici di errore utilizzati per la
 valorizzazione dell’elemento codiceErrore qualora, nel messaggio di
