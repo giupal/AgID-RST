@@ -6,9 +6,9 @@
 | **Capitolo 1. MODELLO DI FUNZIONAMENTO** |
 +------------------------------------------+
 
-.. _Modello di funzionamento:
 Modello di funzionamento
 ========================
+.. _Modello di funzionamento:
 
 |image1|
 
@@ -31,9 +31,9 @@ Provvedimento Banca d’Italia del 5 luglio 2011 in materia di diritti e
 obblighi delle parti nei servizi di pagamento (cfr. articolo 2.1.2 di
 detto provvedimento).
 
-.. _Attori e ruoli:
 Attori e ruoli del Sistema pagoPA
 ---------------------------------
+.. _Attori e ruoli del Sistema pagoPA:
 
 Nello schema di Figura 1 sono evidenziati gli attori che partecipano al
 processo di pagamento e che svolgono i seguenti ruoli:
@@ -119,9 +119,9 @@ processo di pagamento e che svolgono i seguenti ruoli:
 Nell’ambito del modello sopra esposto assumono particolare rilevanza la
 figura dell’istituto tesoriere e quella di “intermediario tecnologico”.
 
-.. _Istituto tesoriere:
 Istituto tesoriere dell’Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Istituto tesoriere:
 
 È il PSP che, nel rispetto delle normative vigenti, svolge le proprie
 funzioni di Tesoreria o di Cassa nei confronti dell’Ente Creditore e può
@@ -131,9 +131,9 @@ L’utilizzo dell’infrastruttura del Nodo dei Pagamenti-SPC non altera in
 alcun modo i rapporti esistenti tra l’Ente Creditore ed il proprio
 istituto tesoriere.
 
-.. _Intermediari tecnologici:
 Intermediari tecnologici e partner tecnologici
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Intermediari tecnologici e partner tecnologici:
 
 Gli Enti Creditori possono offrire il servizio e accedere al Nodo dei
 Pagamenti-SPC anche attraverso un intermediario o un partner.
@@ -169,9 +169,9 @@ Rimangono, comunque, inalterate le responsabilità di Ente Creditore e
 PSP nei confronti delle proprie controparti diverse dall’AgID e, in
 particolare, degli utilizzatori finali.
 
-.. _Dominio pagamenti:
 Dominio dei Pagamenti dell’Ente Creditore
 -----------------------------------------
+.. _Dominio dei Pagamenti dell’Ente Creditore:
 
 Il sistema complessivo - formato dalla comunità di Enti Creditori, PSP
 ed eventuali gestori di pubblici servizi aderenti e dai loro
@@ -220,9 +220,9 @@ Nel Dominio, le attività di pertinenza di ogni soggetto sono effettuate
 conformemente ai requisiti di riservatezza e di protezione da accessi
 non autorizzati.
 
-.. _Siti e portali EC:
 Siti e portali degli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Siti e portali degli Enti Creditori:
 
 I siti ed i portali, attraverso i quali gli Enti Creditori mettono a
 disposizione le informazioni per effettuare i pagamenti ed i relativi
@@ -230,9 +230,9 @@ servizi devono essere autenticati con procedure di validazione avanzata
 (quali, ad esempi, certificati SSL con Extended Validation emessi da
 Autorità di Certificazione riconosciute).
 
-.. _Siti e portali amministrazioni:
 Siti e portali delle pubbliche amministrazioni
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Siti e portali delle pubbliche amministrazioni:
 
 Gli indirizzi internet dei servizi dedicati ai pagamenti devono essere
 inoltre pubblicati sull'Indice delle Pubbliche Amministrazioni
@@ -251,6 +251,7 @@ del sito dell’Agenzia per l'Italia Digitale.
 
 Utilizzatori finali
 ~~~~~~~~~~~~~~~~~~~
+.. _Utilizzatori finali:
 
 Gli utilizzatori finali non sono membri del Dominio: pertanto il loro
 riconoscimento e l’abilitazione ad effettuare attività che
@@ -261,9 +262,9 @@ i servizi applicativi resi disponibili a tali utilizzatori finali.
 A Tal fine AgID rende disponibile SPID (Sistema Pubblico di Identità
 Digitale).
 
-.. _Governance:
 Governance del sistema
 ----------------------
+.. _Governance del sistema:
 
 Stante la valenza infrastrutturale dell’iniziativa, la guida ed il
 controllo del sistema (*governance*) sono affidati ad organismi
@@ -288,9 +289,9 @@ pubblici, in particolare:
 
 -  l’adozione degli standard SEPA.
 
-.. _Ciclo di vita:
 Ciclo di vita del Pagamento
 ---------------------------
+.. _Ciclo di vita:
 
 Nell’ambito delle relazioni tra l’utilizzatore finale e gli Enti
 Creditori, la necessità di effettuare pagamenti a favore di questi
@@ -329,9 +330,9 @@ In questa descrizione del “ciclo di vita” di pagamento l'ordine delle
 fasi è puramente indicativo e può variare a seconda dello scenario e
 della tipologia di servizio al quale si riferisce il pagamento stesso.
 
-.. _Processo di pagamento:
 Processo di pagamento
 ---------------------
+.. _Processo di pagamento:
 
 L’esecuzione di pagamenti telematici prevede l’interazione e
 l’interoperabilità (realizzata tramite tecnologia *Web service*) tra i
@@ -347,9 +348,9 @@ diversi *workflow* applicativi (vedi successivo capitolo 2) che però, in
 tutti i casi, prevedono lo scambio di oggetti contenenti le informazioni
 necessarie a garantire la corretta gestione dei processi.
 
-.. _Oggetti scambiati:
 Oggetti scambiati
 ~~~~~~~~~~~~~~~~~
+.. _Oggetti scambiati:
 
 Nei ”\ *workflow*\ ” applicativi gestiti dal Nodo dei Pagamenti-SPC
 (vedi capitolo 2) è previsto lo scambio di oggetti applicativi
@@ -390,9 +391,9 @@ previsti ulteriori oggetti applicativi scambiati, tra lo stesso NodoSPC
 ed i soggetti aderenti, che riguardano le Strutture dati di supporto ed
 i Servizi applicativi opzionali (vedi anche capitolo 4).
 
-.. _IUV:
 Identificativo Univoco di Versamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Identificativo Univoco di Versamento:
 
 Il codice IUV è assegnato dall’Ente Creditore attraverso le regole di
 generazione previste nella Sezione I del documento allegato A alle .
@@ -413,9 +414,9 @@ Creditore riceve tutte le informazioni che caratterizzano il pagamento,
 permettendo di eseguire eventuali controlli e verifiche relativi e/o
 propedeutici all’erogazione del servizio.
 
-.. _Flusso processo:
 Flusso di processo
 ~~~~~~~~~~~~~~~~~~
+.. _Flusso di processo:
 
 L’utilizzatore finale dispone il pagamento per mezzo di una RPT, tramite
 sportelli fisici o telematici messi a disposizione dall’Ente Creditore,
@@ -442,9 +443,9 @@ L’effettiva esecuzione dei pagamenti, instradati da tale scambio
 informativo, è gestita utilizzando i circuiti di pagamento esistenti,
 esterni al Nodo dei Pagamenti-SPC.
 
-.. _Compiti EC:
 Compiti degli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Compiti degli Enti Creditori:
 
 Al fine di gestire nel modo migliore l’iter del processo di pagamento
 gli Enti Creditori hanno l’obbligo di rendere disponibili direttamente
@@ -465,9 +466,9 @@ offerti direttamente o tramite intermediari:
    usufruendo delle funzionalità accessorie messe a disposizione dalla
    piattaforma.
 
-.. _Integrita RT:
 Integrità e non ripudiabilità della RT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Integrità e non ripudiabilità della RT:
 
 Laddove il “\ *workflow* del procedimento amministrativo consenta
 all’Ente Creditore di ricevere il documento informatico RT dal
@@ -494,9 +495,9 @@ specifiche.**
 **Gli EC che adottano tale modalità dovranno predisporre un piano in
 vista della dismissione.**
 
-.. _Trasparenza:
 Trasparenza nei confronti degli utilizzatori finali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Trasparenza nei confronti degli utilizzatori finali:
 
 La trasparenza dell’operazione di pagamento deve essere garantita nei
 confronti dell’utilizzatore finale, pertanto l’Ente Creditore deve
@@ -530,9 +531,9 @@ del caso, le modalità con cui indicare utilizzatore finale l’importo
 della commissione specifica e/o di maggior favore praticata all’atto
 dell’esecuzione del singolo pagamento.
 
-.. _Funzioni accessorie:
 Funzioni accessorie di controllo e di verifica
 ----------------------------------------------
+.. _Funzioni accessorie di controllo e di verifica:
 
 Il Sistema prevede modalità di controllo focalizzate sulla verifica
 della corretta applicazione degli Standard di Servizio (p.e. norme di
@@ -560,9 +561,9 @@ supporto definito dal soggetto che registra tali informazioni. Il Nodo
 dei Pagamenti-SPC fornisce tali informazioni su supporto cartaceo e file
 XML.
 
-.. _Sicurezza:
 Sicurezza e conservazione
 -------------------------
+.. _Sicurezza e conservazione:
 
 Tutte le informazioni trattate nell’ambito del Sistema saranno gestite
 dai diversi attori che interagiscono con il Nodo dei Pagamenti-SPC,
