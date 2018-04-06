@@ -271,11 +271,11 @@ DATI TRA Enti creditori E PSP </10-SEZIONE_II/SEZIONE_II_-_COMPOSIZIONE_DELLE_IN
 
 `5. Messaggi e flussi informativi </11-Capitolo_5/Capitolo5.rst>`__
 
-`5.1 Formato dei messaggi <#_Toc508016160>`__
+`5.1 Formato dei messaggi <11-Capitolo_5/Capitolo5.rst#formato-dei-messaggi>`__
 
 `5.2 Soggetti <#_Toc508016161>`__
 
-`5.3 Formato dei dati <11-Capitolo_5/Capitolo5.rst#formato-dei-messaggi>`__
+`5.3 Formato dei dati <>`__
 
 `5.3.1 Richiesta Pagamento Telematico (RPT) <#_Toc508016163>`__
 
