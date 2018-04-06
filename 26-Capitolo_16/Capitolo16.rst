@@ -35,9 +35,9 @@ d) *Sub-Seller*: è l’Ente Creditore che, attraverso il Nodo dei
    Pagamenti-SPC, consente ai propri utenti di utilizzare il servizio
    MyBank proposto dal PSP dell’utente stesso.
    
-.. _Relazioni tra i soggetti:
 Relazioni tra i soggetti
 ------------------------
+.. _Relazioni tra i soggetti:
 
 Al fine di attivare il servizio di pagamento MyBank attraverso il Nodo
 dei Pagamenti-SPC è necessario che:
@@ -88,9 +88,9 @@ servizio per lo svolgimento a titolo gratuito del ruolo di *Seller Bank*
 per gli Enti Creditori, ossia per le PA e/o i gestori di pubblici
 servizi che siano aderenti al Nodo dei Pagamenti-SPC.
 
-.. _Mandatory requirements:
 *Mandatory requirements* tipici del servizio MyBank
 ---------------------------------------------------
+.. _Mandatory requirements:
 
 Ai fini dell’esecuzione dell’operazione di pagamento, di norma, il
 servizio MyBank prevede l’interazione di quattro soggetti, e
@@ -156,9 +156,9 @@ Ente Creditore si impegna a:
        parte degli Enti Creditori, ogni altra previsione stabilita nel
        documento *Mandatory requirements* del servizio MyBank.
        
-.. _Logotipo del servizio MyBank:
 Logotipo del servizio MyBank
 ----------------------------
+.. _Logotipo del servizio MyBank:
 
 Secondo quanto indicato al paragrafo precedente, l’utilizzo del servizio
 MyBank da parte degli Enti Creditori deve rispondere a determinati
@@ -198,9 +198,9 @@ tavolozza dei colori di MyBank si rimanda alla documentazione ufficiale
 di cui sopra, in particolare al documento “MyBank Style Guide for
 Businesses”.
 
-.. _Esposizione del logotipo MyBank sul portale degli Enti Creditori:
 Esposizione del logotipo MyBank sul portale degli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Esposizione del logotipo MyBank sul portale degli Enti Creditori:
 
 Il servizio MyBank offerto dai PSP aderenti al Nodo dei Pagamenti-SPC
 deve essere proposto all’utilizzatore finale assicurando a tutti i PSP
@@ -214,9 +214,9 @@ Tale modalità è realizzata attraverso il servizio WISP (vedi §§ 2.1.3 e
 Pagamenti-SPC, rispettando quindi i *mandatory requirements* previsti da
 MyBank (vedi § 16.2).
 
-.. _Causale del pagamento:
 Causale del pagamento
 ---------------------
+.. _Causale del pagamento:
 
 Al fine di consentire una riconciliazione automatica presso l'Ente
 Creditore, la *Buyer Bank* **deve** compilare l'attributo AT-05
@@ -225,9 +225,9 @@ senza aggiungere o modificare nulla nel dato APP-SCT01-02-D13 del
 messaggio di *E-Authorisation Request* (pain.013) ricevuto attraverso il
 *Validation Service* MyBank.
 
-.. _Vincoli nell’utilizzo del servizio MyBank:
 Vincoli nell’utilizzo del servizio MyBank
 -----------------------------------------
+.. _Vincoli nell’utilizzo del servizio MyBank:
 
 La soluzione MyBank è utilizzabile all’interno del processo di pagamento
 immediato e consente di gestire un solo pagamento all’interno della
@@ -240,9 +240,9 @@ transazione), gli Enti Creditori non potranno utilizzare le funzioni di
 Nodo previste per il pagamento multi beneficiario, ovvero il cosiddetto
 “carrello di RPT” (vedi § 4.4.2) con PSP che offrono il servizio MyBank.
 
-.. _Controlli effettuati dal Nodo dei Pagamenti-SPC:
 Controlli effettuati dal Nodo dei Pagamenti-SPC
 -----------------------------------------------
+.. _Controlli effettuati dal Nodo dei Pagamenti-SPC:
 
 Il servizio MyBank è individuato dal valore **OBEP** (*On-line banking
 e-payment*) relativo al dato tipoVersamento presente nella RPT (vedi §
