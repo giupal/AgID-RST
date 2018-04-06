@@ -6,9 +6,9 @@
 | **Capitolo 15. SPECIFICHE – XSD** |
 +-----------------------------------+
 
-.. _Specifiche – XSD:
 Specifiche – XSD
 ================
+.. _Specifiche – XSD:
 
 Di seguito si riportano gli schemi XML (XSD) descrittivi del contenuto
 dei file XML utilizzati per l’esecuzione dei pagamenti informatici.
@@ -16,9 +16,9 @@ Tutti i file XSD elencati nel seguito e la relativa documentazione di
 dettaglio sono forniti in formato elettronico nell’apposita sezione del
 sito dell’Agenzia per l’Italia Digitale.
 
-.. _Oggetti scambiati per la gestione del processo di pagamento:
 Oggetti scambiati per la gestione del processo di pagamento
 -----------------------------------------------------------
+.. _Oggetti scambiati per la gestione del processo di pagamento:
 
 La Richiesta di Pagamento Telematico (RPT) e la Ricevuta Telematica (RT)
 sono i documenti fondamentali del processo di pagamento (vedi anche §§
@@ -46,9 +46,9 @@ cui schema XSD è disponibile con il file
 
 **MarcaDaBollo\_ <versione>.xsd.**
 
-.. _Avvisatura digitale:
 Avvisatura digitale
 -------------------
+.. _Avvisatura digitale:
 
 Il processo di avvisatura digitale *push* prevede lo scambio di avvisi
 digitali sia tramite l’utilizzo di *web services* (vedi § 8.2.7), sia
@@ -66,9 +66,9 @@ Gli schemi XSD sopra indicati condividono con il WSDL
 
 **sac-common-types_<versione>.xsd.**
 
-.. _Informazioni per gli aderenti al sistema:
 Informazioni per gli aderenti al sistema
 ----------------------------------------
+.. _Informazioni per gli aderenti al sistema:
 
 Il Nodo dei Pagamenti-SPC assolve l'obbligo di raccogliere dagli enti
 aderenti al Nodo dei Pagamenti-SPC una serie di informazioni necessarie
@@ -79,9 +79,9 @@ Nella tabella delle controparti sono indicate le condizioni tecniche ed
 i livelli di servizio relativi previsti da parte degli Enti Creditori
 nei confronti dell’utilizzatore finale.
 
-.. _Informativa da Ente Creditore:
 Informativa da Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Informativa da Ente Creditore:
 
 Gli schemi appresso indicati definiscono la struttura che le gli Enti
 Creditori devono utilizzare per compilare il documento elettronico da
@@ -107,9 +107,9 @@ Lo schema XSD di tale oggetto è disponibile con il file
 
 **InformativaContoAccredito_<versione>.xsd.**
 
-.. _Informativa fornita dal Nodo ai PSP:
 Informativa fornita dal Nodo ai PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Informativa fornita dal Nodo ai PSP:
 
 Il Nodo dei Pagamenti-SPC rende disponibili ai PSP le informazioni
 fornite dagli Enti Creditori mediante il metodo
@@ -125,9 +125,9 @@ Lo schema XSD di tale oggetto è disponibile con il file
 
 **TabellaDelleContropartiEstesa_<versione>.xsd.**
 
-.. _Catalogo Dati Informativi:
 Catalogo Dati Informativi
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Catalogo Dati Informativi:
 
 Nel catalogo informativo è riportato l’elenco dei PSP aderenti e dei
 servizi che questi mettono a disposizione, corredato delle condizioni
@@ -153,9 +153,9 @@ Lo schema XSD di tale oggetto è disponibile con il file
 
 **CatalogoDatiInformativi \_<versione>.xsd.**
 
-.. _Informativa fornita dal Nodo all’Ente Creditore:
 Informativa fornita dal Nodo all’Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Informativa fornita dal Nodo all’Ente Creditore:
 
 Il Nodo dei Pagamenti-SPC ha il compito di raccogliere tutte le
 informazioni fornite dai PSP e renderle disponibili agli Enti Creditori
@@ -169,9 +169,9 @@ Lo schema XSD di tale oggetto è disponibile con il file
 
 **CatalogoDatiInformativi \_<versione>.xsd.**
 
-.. _Totali dei flussi di traffico:
 Totali dei flussi di traffico
 -----------------------------
+.. _Totali dei flussi di traffico:
 
 Il Nodo dei Pagamenti-SPC implementa il servizio di tracciatura delle
 operazioni di pagamento scambiate tra gli aderenti: sulla base di queste
@@ -186,9 +186,9 @@ Il file XML è fornito dal Nodo dei Pagamenti-SPC al richiedente mediante
 i metodi web service dell'interfaccia di riferimento del richiedente
 (Ente Creditore o PSP).
 
-.. _Flussi di traffico per gli Enti Creditori:
 Flussi di traffico per gli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Flussi di traffico per gli Enti Creditori:
 
 Questo schema XML rappresenta la struttura di informazioni utili alla
 quadratura da eseguire da parte degli Enti Creditori (vedi § 5.3.7), nel
@@ -207,9 +207,9 @@ Lo schema XSD di tale oggetto è disponibile con il file
 
 **QuadraturePA \_<versione>.xsd.**
 
-.. _Flussi di traffico per PSP:
 Flussi di traffico per PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Flussi di traffico per PSP:
 
 Questo schema XML rappresenta la struttura di informazioni utili alla
 quadratura da eseguire da parte del PSP (vedi § 5.3.9), nel quale sono
@@ -224,9 +224,9 @@ il Nodo dei Pagamenti-SPC mediante il metodo
 con il metodo ***nodoChiediQuadraturaPSP*** (vedi § 9.2.11), nell’ambito
 del WSDL **NodoPerPsp**.
 
-.. _Identificazione RPT in attesa:
 Identificazione RPT in attesa
 -----------------------------
+.. _Identificazione RPT in attesa:
 
 Il trattamento dei codici grafici (stampati sugli avvisi di pagamento)
 presso le strutture collegate al PSP avviene attraverso l'invocazione di
@@ -303,9 +303,9 @@ input. Si precisa che Il Nodo dei Pagamenti-SPC gestisce in maniera
 automatica detti codici convertendoli sempre nel corretto dato
 codiceIdentificativoEnte dello specifico Ente Creditore.
 
-.. _Acknowledgement Pagamenti Telematici:
 Acknowledgement Pagamenti Telematici
 ------------------------------------
+.. _Acknowledgement Pagamenti Telematici:
 
 I metodi di interfaccia che prevedono un esito esteso utilizzano questo
 schema XML per rappresentare le informazioni in forma strutturata (vedi
