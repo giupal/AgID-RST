@@ -13,9 +13,9 @@ Di seguito si riportano gli adempimenti ai quali devono ottemperare gli
 aderenti al Nodo dei Pagamenti-SPC una volta che sia stato attivato il
 servizio a regime.
 
-.. _Adempimenti dell’Ente Creditore:
 Adempimenti dell’Ente Creditore
 -------------------------------
+.. _Adempimenti dell’Ente Creditore:
 
 Eseguiti i test sulla funzionalità e la capacità di erogare i servizi,
 nonché sull’idoneità a ricevere i relativi incassi, l’Ente Creditore,
@@ -66,18 +66,18 @@ Dominio deve inoltre:
        gestione delle emergenze, ecc.) e provvedere ad aggiornare
        l’Agenzia per l’Italia Digitale in caso di loro avvicendamento.
 
-.. _Adempimenti specifici relativi al circuito MyBank:
 Adempimenti specifici relativi al circuito MyBank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Adempimenti specifici relativi al circuito MyBank:
 
 L’Ente Creditore che consente ai propri utenti di effettuare i
 pagamenti tramite il servizio MyBank si impegna a rispettare i
 *Mandatory Requirements* tipici del circuito, di cui al § 16.2
 dell’Appendice 2.
 
-.. _Caratteristiche e adempimenti specifici relativi al servizio di avvisatura digitale:
 Caratteristiche e adempimenti specifici relativi al servizio di avvisatura digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Caratteristiche e adempimenti specifici relativi al servizio di avvisatura digitale:
 
 Con riferimento al servizio di avvisatura digitale su iniziativa
 dell'Ente Creditore, illustrato al § 2.9, si precisa che:
@@ -110,9 +110,9 @@ portali e/o siti web, avendo cura di gestire le informazioni ai sensi
 del D.lgs. del 30 giugno 2003, n. 196 recante "*Codice in materia di
 protezione dei dati personali*".
 
-.. _Adempimenti del prestatore di servizi di pagamento:
 Adempimenti del prestatore di servizi di pagamento
 --------------------------------------------------
+.. _Adempimenti del prestatore di servizi di pagamento:
 
 Durante l’erogazione del Servizio, il prestatore di servizi di pagamento
 censito nel Dominio deve:
@@ -149,9 +149,9 @@ pagamento attivato presso il PSP) dovranno comunicare agli utilizzatori
 finali tale possibilità, esponendo in loco l’apposito “Logo” registrato
 dall’Agenzia per l’Italia Digitale.
 
-.. _Adempimenti specifici relativi al servizio di avvisatura digitale:
 Adempimenti specifici relativi al servizio di avvisatura digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Adempimenti specifici relativi al servizio di avvisatura digitale:
 
 Con riferimento al servizio di avvisatura digitale su iniziativa
 dell'Ente Creditore, illustrato al § 2.9 e al servizio di verifica della
@@ -171,9 +171,9 @@ informando l'utilizzatore finale:
    cui tale eventualità si verifichi e sia segnalata al PSP dal sistema
    pagoPA.
 
-.. _Archiviazione dei dati:
 Archiviazione dei dati
 ----------------------
+.. _Archiviazione dei dati:
 
 Fatti salvi gli obblighi di legge in tema di tenuta e conservazione
 della documentazione attinente alle attività svolte per l’erogazione del
@@ -187,9 +187,9 @@ Per il Nodo dei Pagamenti-SPC il periodo di archiviazione, ai fini
 gestionali, di tutti i dati scambiati è fissato in 6 mesi, salvo periodi
 di maggior durata per disposizioni di legge.
 
-.. _Periodo di ritenzione delle RPT senza esito:
 Periodo di ritenzione delle RPT senza esito
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Periodo di ritenzione delle RPT senza esito:
 
 Con riferimento al processo di chiusura delle RPT inviate al PSP e
 che non hanno ancora ricevuto un esito (negativo o positivo), per le
@@ -198,9 +198,9 @@ quali si applica la chiusura forzata delle operazioni (vedi §
 fissato in 90 giorni, trascorsi i quali si applica il processo sopra
 indicato.
 
-.. _Business continuity e Disaster Recovery:
 Business continuity e Disaster Recovery
 ---------------------------------------
+.. _Business continuity e Disaster Recovery:
 
 Ogni soggetto appartenente al Dominio è tenuto a predisporre ed
 implementare soluzioni tecniche ed organizzative opportune atte a
@@ -212,18 +212,18 @@ presso il quale si verifichi l’evento di prendere immediati
 provvedimenti, nonché darne tempestiva comunicazione all’Agenzia per
 l’Italia Digitale ed ai Tavoli Operativi delle controparti interessate.
 
-.. _Disponibilità dei servizi:
 Disponibilità dei servizi
 -------------------------
+.. _Disponibilità dei servizi:
 
 Ogni soggetto appartenente al Dominio è tenuto a rendere disponibili
 le soluzioni tecniche ed organizzative secondo le indicazioni
 riportate nel documento “” pubblicato sul sito dell’Agenzia per
 l’Italia Digitale.
 
-.. _Nodo dei Pagamenti-SPC:
 Nodo dei Pagamenti-SPC
 ~~~~~~~~~~~~~~~~~~~~~~
+.. _Nodo dei Pagamenti-SPC:
 
 Il Servizio è operativo 24 ore per 7 giorni/settimana, in
 particolare, i Servizi di Nodo garantiscono le seguenti
@@ -247,9 +247,9 @@ giorni lavorativi del calendario bancario italiano.
 L’assistenza di secondo livello oltre l’orario d’ufficio è garantita
 dalla reperibilità specialistica.
 
-.. _Enti Creditori:
 Enti Creditori
 ~~~~~~~~~~~~~~
+.. _Enti Creditori:
 
 La disponibilità dei servizi erogati dagli Enti Creditori è
 dettagliata nel citato documento “” pubblicato sul sito dell’Agenzia
@@ -258,9 +258,9 @@ per l’Italia Digitale.
 In ogni caso gli Enti Creditori indicano esplicitamente sul proprio
 sito e sugli avvisi di pagamento la disponibilità di detti servizi.
 
-.. _Prestatori di servizi di pagamento aderenti:
 Prestatori di servizi di pagamento aderenti
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Prestatori di servizi di pagamento aderenti:
 
 La disponibilità dei servizi erogati dai prestatori di servizi di
 pagamento aderenti è dettagliata nel citato documento “” pubblicato
@@ -269,9 +269,9 @@ sul sito dell’Agenzia per l’Italia Digitale.
 La disponibilità del Tavolo Operativo è correlata alla disponibilità
 dei servizi erogati.
 
-.. _Livelli di Servizio:
 Livelli di Servizio
 -------------------
+.. _Livelli di Servizio:
 
 I livelli di servizio - intesi come tempi massimi entro cui deve
 essere fornita la risposta applicativa ad una richiesta di servizio
@@ -284,9 +284,9 @@ componente Giornale degli Eventi del Nodo dei Pagamenti-SPC e resi
 disponibili attraverso il Servizio di Reporting del Nodo dei
 Pagamenti-SPC.
 
-.. _Indicatori di qualità del Nodo dei Pagamenti-SPC:
 Indicatori di qualità del Nodo dei Pagamenti-SPC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Indicatori di qualità del Nodo dei Pagamenti-SPC:
 
 Gli indicatori di qualità inerenti i servizi erogati dal Nodo dei
 Pagamenti-SPC ai soggetti aderenti sono valutati sulla base di
