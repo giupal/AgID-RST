@@ -273,65 +273,65 @@ DATI TRA Enti creditori E PSP </10-SEZIONE_II/SEZIONE_II_-_COMPOSIZIONE_DELLE_IN
 
 `5.1 Formato dei messaggi <11-Capitolo_5/Capitolo5.rst#formato-dei-messaggi>`__
 
-`5.2 Soggetti <#_Toc508016161>`__
+`5.2 Soggetti <11-Capitolo_5/Capitolo5.rst#soggetti>`__
 
-`5.3 Formato dei dati <>`__
+`5.3 Formato dei dati <11-Capitolo_5/Capitolo5.rst#formato-dei-dati>`__
 
-`5.3.1 Richiesta Pagamento Telematico (RPT) <#_Toc508016163>`__
+`5.3.1 Richiesta Pagamento Telematico (RPT) <11-Capitolo_5/Capitolo5.rst#richiesta-pagamento-telematico-rpt>`__
 
-`5.3.2 Ricevuta Telematica (RT) <#_Toc508016164>`__
+`5.3.2 Ricevuta Telematica (RT) <11-Capitolo_5/Capitolo5.rst#ricevuta-telematica-rt>`__
 
-`5.3.3 Richiesta di Revoca (RR) <#_Toc508016165>`__
+`5.3.3 Richiesta di Revoca (RR) <11-Capitolo_5/Capitolo5.rst#richiesta-di-revoca-rr>`__
 
-`5.3.4 Esito della Revoca (ER) <#_Toc508016166>`__
+`5.3.4 Esito della Revoca (ER) <11-Capitolo_5/Capitolo5.rst#esito-della-revoca-er>`__
 
-`5.3.5 Flusso di rendicontazione <#_Toc508016167>`__
+`5.3.5 Flusso di rendicontazione <11-Capitolo_5/Capitolo5.rst#flusso-di-rendicontazione>`__
 
-`5.3.6 Tabella delle controparti <#_Toc508016168>`__
+`5.3.6 Tabella delle controparti <11-Capitolo_5/Capitolo5.rst#tabella-delle-controparti>`__
 
 `5.3.6.1 Informazioni inviate dagli Enti Creditori
-<#_Toc508016169>`__
+<11-Capitolo_5/Capitolo5.rst#informazioni-inviate-dagli-enti-creditori>`__
 
-`5.3.7 Catalogo Dati Informativi <#_Toc508016170>`__
+`5.3.7 Catalogo Dati Informativi <11-Capitolo_5/Capitolo5.rst#catalogo-dati-informativi>`__
 
 `5.3.8 Flusso “Totali di Traffico” per gli Enti Creditori
-<#_Toc508016171>`__
+<11-Capitolo_5/Capitolo5.rst#flusso-totali-di-traffico-per-gli-enti-creditori>`__
 
 `5.3.9 Flusso “Totali di Traffico” per i prestatori di servizi di
-pagamento <#_Toc508016172>`__
+pagamento <11-Capitolo_5/Capitolo5.rst#flusso-totali-di-traffico-per-i-prestatori-di-servizi-di-pagamento>`__
 
 `5.3.10 Messaggio di conferma ricezione della RT (ACK)
-<#_Toc508016173>`__
+<11-Capitolo_5/Capitolo5.rst#messaggio-di-conferma-ricezione-della-rt-ack>`__
 
-`5.3.11 Catalogo dei servizi <#_Toc508016174>`__
+`5.3.11 Catalogo dei servizi <11-Capitolo_5/Capitolo5.rst#catalogo-dei-servizi>`__
 
 `5.3.11.1 Dati specifici del servizio nel caso d'uso della Tassa
-Automobilistica <#_Toc508016175>`__
+Automobilistica <11-Capitolo_5/Capitolo5.rst#dati-specifici-del-servizio-nel-caso-duso-della-tassa-automobilistica>`__
 
-`5.4 Avvisatura digitale <#_Toc508016176>`__
+`5.4 Avvisatura digitale <11-Capitolo_5/Capitolo5.rst#avvisatura-digitale>`__
 
-`5.4.1 Avviso digitale <#_Toc508016177>`__
+`5.4.1 Avviso digitale <11-Capitolo_5/Capitolo5.rst#avviso-digitale>`__
 
-`5.4.2 Esito inoltro di Avviso digitale <#_Toc508016178>`__
+`5.4.2 Esito inoltro di Avviso digitale <11-Capitolo_5/Capitolo5.rst#esito-inoltro-di-avviso-digitale>`__
 
-`5.4.3 File XML scambiati con l’Ente Creditore <#_Toc508016179>`__
+`5.4.3 File XML scambiati con l’Ente Creditore <11-Capitolo_5/Capitolo5.rst#file-xml-scambiati-con-lente-creditore>`__
 
 `5.4.3.1 File delle richieste di inoltro dell’avviso digitale e di esito
-<#_Toc508016180>`__
+<11-Capitolo_5/Capitolo5.rst#file-delle-richieste-di-inoltro-dellavviso-digitale-e-di-esito>`__
 
-`5.4.3.2 File di segnalazione di presa in carico <#_Toc508016181>`__
+`5.4.3.2 File di segnalazione di presa in carico <11-Capitolo_5/Capitolo5.rst#file-di-segnalazione-di-presa-in-carico>`__
 
-`5.4.4 Scambio informazioni via web service <#_Toc508016182>`__
+`5.4.4 Scambio informazioni via web service <11-Capitolo_5/Capitolo5.rst#scambio-informazioni-via-web-service>`__
 
-`5.4.4.1 Invio dell’avviso digitale al NodoSPC <#_Toc508016183>`__
+`5.4.4.1 Invio dell’avviso digitale al NodoSPC <11-Capitolo_5/Capitolo5.rst#invio-dellavviso-digitale-al-nodospc>`__
 
-`5.4.4.2 Recapito dell’avviso digitale ai PSP <#_Toc508016184>`__
+`5.4.4.2 Recapito dell’avviso digitale ai PSP <11-Capitolo_5/Capitolo5.rst#recapito-dellavviso-digitale-ai-psp>`__
 
 `5.4.4.3 Notifica dell’iscrizione al servizio di avvisatura digitale
-<#_Toc508016185>`__
+<11-Capitolo_5/Capitolo5.rst#notifica-delliscrizione-al-servizio-di-avvisatura-digitale>`__
 
 `5.4.4.4 Richiesta posizione debitoria presso un Ente Creditore
-<#_Toc508016186>`__
+<11-Capitolo_5/Capitolo5.rst#richiesta-posizione-debitoria-presso-un-ente-creditore>`__
 
 `6. Giornale degli Eventi </12-Capitolo_6/Capitolo6.rst>`__
 
