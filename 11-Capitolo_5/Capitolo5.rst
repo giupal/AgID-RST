@@ -28,6 +28,7 @@ sono individuate come:
 Nel presente capitolo sono inoltre riportate le informazioni relative a
 "Tabella delle Controparti" (§ 4.2.1), "Catalogo Dati Informativi" (§
 5.3.7) e flussi inerenti i “Totali di Traffico” (§ 4.5.1).
+
 .. _Formato dei messaggi:
 Formato dei messaggi
 --------------------
@@ -62,7 +63,8 @@ rispetto dello standard minimo è indispensabile per garantire
 l’interoperabilità.
 
 Per la visualizzazione dei messaggi, devono essere adottate soluzioni
-che presentino le informazioni in modo fedele alla struttura.
+che presentino le informazioni in modo fedele alla struttura. 
+
 .. _Soggetti:
 Soggetti
 --------
