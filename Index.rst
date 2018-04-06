@@ -59,113 +59,113 @@
 `2. Modelli del processo di pagamento </07-Capitolo_2/Capitolo2.rst>`__
 
 `2.1 Processo di pagamento attivato presso l’Ente Creditore
-<#_Toc508016069>`__
+<07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-lente-creditore>`__
 
 `2.1.1 Processo di pagamento con re indirizzamento on-line
-<#_Toc508016070>`__
+<07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-re-indirizzamento-on-line>`__
 
-`2.1.1.1 Pagamenti tramite il circuito MyBank <#_Toc508016071>`__
+`2.1.1.1 Pagamenti tramite il circuito MyBank <07-Capitolo_2/Capitolo2.rst#pagamenti-tramite-il-circuito-mybank>`__
 
 `2.1.2 Processo di pagamento con autorizzazione gestita dal PSP
-<#_Toc508016072>`__
+<07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`__
 
 `2.1.3 Scelta del servizio di pagamento da parte dell'utilizzatore
-finale <#_Toc508016073>`__
+finale <07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`__
 
 `2.1.3.1 Servizio di scelta e memorizzazione del pagamento
-<#_Toc508016074>`__
+<07-Capitolo_2/Capitolo2.rst#servizio-di-scelta-e-memorizzazione-del-pagamento>`__
 
 `2.1.3.2 Individuazione del PSP in caso di pagamento con carta
-<#_Toc508016075>`__
+<07-Capitolo_2/Capitolo2.rst#individuazione-del-psp-in-caso-di-pagamento-con-carta>`__
 
 `2.1.3.3 Pacchetto di sviluppo per applicazioni “mobile” (SDK pagoPA
-Evolution) <#_Toc508016076>`__
+Evolution) <07-Capitolo_2/Capitolo2.rst#pacchetto-di-sviluppo-per-applicazioni-mobile-sdk-pagopa-evolution>`__
 
-`2.1.4 Storno del pagamento <#_Toc508016077>`__
+`2.1.4 Storno del pagamento <07-Capitolo_2/Capitolo2.rst#storno-del-pagamento>`__
 
-`2.2 Processo di pagamento attivato presso il PSP <#_Toc508016078>`__
+`2.2 Processo di pagamento attivato presso il PSP <07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`__
 
-`2.2.1 Verifica del pagamento in attesa <#_Toc508016079>`__
+`2.2.1 Verifica del pagamento in attesa <07-Capitolo_2/Capitolo2.rst#verifica-del-pagamento-in-attesa>`__
 
-`2.2.2 Attivazione della richiesta di pagamento <#_Toc508016080>`__
+`2.2.2 Attivazione della richiesta di pagamento <07-Capitolo_2/Capitolo2.rst#attivazione-della-richiesta-di-pagamento>`__
 
-`2.2.3 Pagamento spontaneo presso i PSP <#_Toc508016081>`__
+`2.2.3 Pagamento spontaneo presso i PSP <07-Capitolo_2/Capitolo2.rst#pagamento-spontaneo-presso-i-psp>`__
 
-`2.3 Revoca della Ricevuta Telematica <#_Toc508016082>`__
+`2.3 Revoca della Ricevuta Telematica <07-Capitolo_2/Capitolo2.rst#revoca-della-ricevuta-telematica>`__
 
-`2.3.1 Annullo tecnico <#_Toc508016083>`__
+`2.3.1 Annullo tecnico <07-Capitolo_2/Capitolo2.rst#annullo-tecnico>`__
 
-`2.4 Avviso di pagamento <#_Toc508016084>`__
+`2.4 Avviso di pagamento <07-Capitolo_2/Capitolo2.rst#avviso-di-pagamento>`__
 
-`2.4.1 Avviso analogico <#_Toc508016085>`__
+`2.4.1 Avviso analogico <07-Capitolo_2/Capitolo2.rst#avviso-analogico>`__
 
-`2.4.1.1 Automazione dell’Avviso analogico <#_Toc508016086>`__
+`2.4.1.1 Automazione dell’Avviso analogico <07-Capitolo_2/Capitolo2.rst#automazione-dellavviso-analogico>`__
 
-`2.4.2 Avviso digitale <#_Toc508016087>`__
+`2.4.2 Avviso digitale <07-Capitolo_2/Capitolo2.rst#avviso-digitale>`__
 
-`2.5 Attestazione del pagamento <#_Toc508016088>`__
+`2.5 Attestazione del pagamento <07-Capitolo_2/Capitolo2.rst#attestazione-del-pagamento>`__
 
-`2.6 Identificazione dell’utilizzatore finale <#_Toc508016089>`__
+`2.6 Identificazione dell’utilizzatore finale <07-Capitolo_2/Capitolo2.rst#identificazione-dellutilizzatore-finale>`__
 
-`2.7 Riconciliazione dei pagamenti <#_Toc508016090>`__
+`2.7 Riconciliazione dei pagamenti <07-Capitolo_2/Capitolo2.rst#riconciliazione-dei-pagamenti>`__
 
-`2.7.1 Riconciliazione in modalità singola <#_Toc508016091>`__
+`2.7.1 Riconciliazione in modalità singola <07-Capitolo_2/Capitolo2.rst#riconciliazione-in-modalità-singola>`__
 
-`2.7.2 Riconciliazione in modalità multipla <#_Toc508016092>`__
+`2.7.2 Riconciliazione in modalità multipla <07-Capitolo_2/Capitolo2.rst#riconciliazione-in-modalità-multipla>`__
 
-`2.7.3 Pagamento contenente più accrediti <#_Toc508016093>`__
+`2.7.3 Pagamento contenente più accrediti <07-Capitolo_2/Capitolo2.rst#pagamento-contenente-più-accrediti>`__
 
-`2.8 Acquisto della marca da bollo digitale <#_Toc508016094>`__
+`2.8 Acquisto della marca da bollo digitale <07-Capitolo_2/Capitolo2.rst#acquisto-della-marca-da-bollo-digitale>`__
 
 `2.8.1 Workflow di acquisto della marca da bollo digitale
-<#_Toc508016095>`__
+<07-Capitolo_2/Capitolo2.rst#workflow-di-acquisto-della-marca-da-bollo-digitale>`__
 
-`2.8.2 Riconciliazione delle Ricevute Telematiche <#_Toc508016096>`__
+`2.8.2 Riconciliazione delle Ricevute Telematiche <07-Capitolo_2/Capitolo2.rst#riconciliazione-delle-ricevute-telematiche>`__
 
 `2.9 Avvisatura digitale *push* (su iniziativa dell’Ente Creditore)
-<#_Toc508016097>`__
+<07-Capitolo_2/Capitolo2.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
-`2.9.1 Iscrizione al servizio (*enrolment*) <#_Toc508016098>`__
+`2.9.1 Iscrizione al servizio (*enrolment*) <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-enrolment>`__
 
-`2.9.1.1 Iscrizione al servizio presso pagoPA <#_Toc508016099>`__
+`2.9.1.1 Iscrizione al servizio presso pagoPA <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-pagopa>`__
 
 `2.9.1.2 Iscrizione al servizio presso il portale di un Ente Creditore
-<#_Toc508016100>`__
+<07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-il-portale-di-un-ente-creditore>`__
 
 `2.9.1.3 Iscrizione al servizio presso un Prestatore di servizi di
-pagamento <#_Toc508016101>`__
+pagamento <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-un-prestatore-di-servizi-di-pagamento>`__
 
 `2.9.1.4 Iscrizioni presso più Prestatori di servizi di pagamento
-<#_Toc508016102>`__
+<07-Capitolo_2/Capitolo2.rst#iscrizioni-presso-più-prestatori-di-servizi-di-pagamento>`__
 
 `2.9.1.5 Revoca di iscrizione al servizio di avvisatura
-<#_Toc508016103>`__
+<07-Capitolo_2/Capitolo2.rst#revoca-di-iscrizione-al-servizio-di-avvisatura>`__
 
-`2.9.2 Inoltro degli avvisi al debitore 51 <#_Toc508016104>`__
+`2.9.2 Inoltro degli avvisi al debitore 51 <07-Capitolo_2/Capitolo2.rst#inoltro-degli-avvisi-al-debitore>`__
 
 `2.9.2.1 Invio degli avvisi in modalità File Transfer
-<#_Toc508016105>`__
+<07-Capitolo_2/Capitolo2.rst#invio-degli-avvisi-in-modalità-file-transfer>`__
 
 `2.9.2.2 Invio degli avvisi in modalità Web service
-<#_Toc508016106>`__
+<07-Capitolo_2/Capitolo2.rst#invio-degli-avvisi-in-modalità-web-service>`__
 
-`2.9.2.3 Recapito dell'avviso al debitore 52 <#_Toc508016107>`__
+`2.9.2.3 Recapito dell'avviso al debitore 52 <07-Capitolo_2/Capitolo2.rst#recapito-dellavviso-al-debitore>`__
 
 `2.9.2.4 Comunicazione dell'esito del recapito all'Ente creditore
-<#_Toc508016108>`__
+<07-Capitolo_2/Capitolo2.rst#comunicazione-dellesito-del-recapito-allente-creditore>`__
 
-`2.9.3 Pagamento del dovuto <#_Toc508016109>`__
+`2.9.3 Pagamento del dovuto <07-Capitolo_2/Capitolo2.rst#pagamento-del-dovuto>`__
 
 `2.9.4 Modifica e annullamento degli avvisi digitali
-<#_Toc508016110>`__
+<07-Capitolo_2/Capitolo2.rst#modifica-e-annullamento-degli-avvisi-digitali>`__
 
 `2.10 Avvisatura digitale *pull* (verifica della posizione debitoria)
-<#_Toc508016111>`__
+<07-Capitolo_2/Capitolo2.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
 `2.10.1 Limitazioni all'utilizzo dell'avvisatura *pull*
-<#_Toc508016112>`__
+<07-Capitolo_2/Capitolo2.rst#limitazioni-allutilizzo-dellavvisatura-pull>`__
 
-`2.10.2 Pagamento del dovuto <#_Toc508016113>`__
+`2.10.2 Pagamento del dovuto <07-Capitolo_2/Capitolo2.rst#pagamento-del-dovuto-1>`__
 
 `3. Il Nodo dei Pagamenti-SPC </08-Capitolo_3/Capitolo3.rst>`__
 
