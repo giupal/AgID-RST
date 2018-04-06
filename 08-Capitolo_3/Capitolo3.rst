@@ -39,6 +39,7 @@ servizi di pagamento.
 
 Caratteristiche generali del Nodo dei Pagamenti-SPC
 ---------------------------------------------------
+.. _Caratteristiche generali del Nodo dei Pagamenti-SPC:
 
 Il Nodo dei Pagamenti-SPC è strutturato per rispondere alle necessità
 di:
@@ -101,12 +102,14 @@ dei flussi finanziari:
 
 Architettura e contenuti del Nodo dei Pagamenti-SPC
 ---------------------------------------------------
+.. _Architettura e contenuti del Nodo dei Pagamenti-SPC:
 
 La piattaforma del Nodo dei Pagamenti-SPC si basa sulle componenti
 appresso indicate.
 
 Gestore del Workflow Applicativo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Gestore del Workflow Applicativo:
 
 È la macro-componente principale mediante la quale istanzia i modelli di
 pagamento di cui al capitolo 2. Ha lo scopo di coordinare l’esecuzione
@@ -142,6 +145,7 @@ permettono:
 
 Gestore della Porta di Dominio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Gestore della Porta di Dominio:
 
 Questa componente, mantenuta per retro compatibilità, si occupa dello
 scambio dei messaggi da e verso SPC per il colloquio con l’Ente
@@ -178,6 +182,7 @@ titolo esemplificativo:
 
 Interfaccia di Canale
 ~~~~~~~~~~~~~~~~~~~~~
+.. _Interfaccia di Canale:
 
 Le attività svolte da questa componente sono analoghe a quelle svolte
 dal gestore della Porta di Dominio per gli Enti Creditori, ma istanziate
@@ -214,6 +219,7 @@ Di seguito le principali attività svolte dalla componente:
 
 Repository
 ~~~~~~~~~~
+.. _Repository:
 
 Il *Repository* costituisce l’archivio in cui sono memorizzate tutte le
 Ricevute Telematiche processate dal NodoSPC e non ancora consegnate,
@@ -224,6 +230,7 @@ dei flussi di pagamento del Nodo dei Pagamenti-SPC.
 
 Componente Web-FESP
 ~~~~~~~~~~~~~~~~~~~
+.. _Componente Web-FESP:
 
 La componente “Web-FESP” permette di effettuare il pagamento
 reindirizzando l’utente verso una *landing page* messa a disposizione
@@ -241,6 +248,7 @@ In questo caso:
 
 Componente WISP
 ~~~~~~~~~~~~~~~
+.. _Componente WISP:
 
 La componente “WISP” (*Wizard* Interattivo di Scelta del PSP) consente
 all'utilizzatore finale di effettuare la scelta del PSP in modalità
@@ -259,6 +267,7 @@ effettuare una nuova ricerca nelle occasioni successive.
 
 Componente Wrapper MyBank
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Componente Wrapper MyBank:
 
 Nell'ambito del collegamento tra il Nodo dei pagamenti-SPC ed il
 circuito *e-commerce* MyBank (vedi Capitolo 16 in Appendice 2), la
@@ -275,6 +284,7 @@ componente “Wrapper MyBank”.
 
 Gestione dell'avvisatura digitale in modalità *push*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Gestione dell'avvisatura digitale in modalità *push*:
 
 La gestione dell'avvisatura digitale in modalità *push* avviene
 attraverso l'utilizzo di componenti del NodoSPC che consentono:
@@ -298,6 +308,7 @@ attraverso l'utilizzo di componenti del NodoSPC che consentono:
 
 File Transfer sicuro
 ~~~~~~~~~~~~~~~~~~~~
+.. _File Transfer sicuro:
 
 Il Nodo dei Pagamenti-SPC mette a disposizione dei soggetti aderenti una
 piattaforma *client-server* per il trasferimento sicuro dei dati in
@@ -308,6 +319,7 @@ rendicontazione, i totali di traffico, ecc.).
 
 Giornale degli Eventi
 ~~~~~~~~~~~~~~~~~~~~~
+.. _Giornale degli Eventi:
 
 È la componente che evidenzia tutte le informazioni attinenti ad ogni
 singola operazione sintetizzando le registrazioni effettuate dalle
@@ -343,6 +355,7 @@ Le principali attività svolte dalla componente riguardano:
 
 Componenti di utilità
 ~~~~~~~~~~~~~~~~~~~~~
+.. _Componenti di utilità:
 
 Le Componenti di utilità rappresentano un insieme di componenti “di
 servizio” invocate, in base alle necessità, dal *Workflow* Applicativo
@@ -363,6 +376,7 @@ con il gestore del *Workflow* Applicativo.
 
 Sistema di Monitoring
 ~~~~~~~~~~~~~~~~~~~~~
+.. _Sistema di Monitoring:
 
 Il sistema di Monitoring svolge attività di controllo complessivo per
 quanto attiene alle tematiche di monitoraggio. tale componente deve
@@ -383,6 +397,7 @@ dell’Agenzia per l’Italia Digitale.
 
 Sistema di Gestione del Tavolo Operativo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Sistema di Gestione del Tavolo Operati:
 
 Il sistema ha lo scopo di fornire il supporto necessario alle attività
 del Tavolo Operativo, monitorando le altre componenti applicative e
@@ -396,6 +411,7 @@ Interattiva) per istradare le chiamate vocali, integrato a un sistema di
 
 Sistema di Reporting
 ~~~~~~~~~~~~~~~~~~~~
+.. _Sistema di Reporting:
 
 Il sistema assicura la produzione e pubblicazione di informazioni a
 carattere statistico, attraverso un sito all’uopo dedicato e attraverso
