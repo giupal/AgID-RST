@@ -90,9 +90,9 @@ d. Istituto Attestante: rappresenta il Prestatore di Servizi di
        Pagamento che effettua il pagamento richiesto e ne attesta la
        regolarità.
        
-.. _Formato dei dati:
 Formato dei dati
 ----------------
+.. _Formato dei dati:
 
 Le colonne *Liv,* *Genere,* *Occ*, *Len* e *UNIFI* assumono i seguenti
 significati:
@@ -194,9 +194,9 @@ significati:
 |                 |                 | (UNIFI).        |                 |
 +-----------------+-----------------+-----------------+-----------------+
 
-.. _Modello di funzionamento:
 Richiesta Pagamento Telematico (RPT)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Richiesta Pagamento Telematico (RPT):
 
 È il documento informatico predisposto da un Ente Creditore o da un suo
 intermediario per consentire all'utilizzatore finale di richiedere, al
@@ -2046,9 +2046,10 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | Credito |
 |         |         |          |         |         |         | re.     |
 +---------+---------+----------+---------+---------+---------+---------+
-.. _Modello di funzionamento:
+
 Ricevuta Telematica (RT)
 ~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Ricevuta Telematica (RT):
 
 È il documento informatico rilasciato a cura dell’organizzazione che
 effettua l’operazione di pagamento di somme nei confronti di enti
@@ -3548,9 +3549,10 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | binary” |
 |         |         |         |         |         |         | .       |
 +---------+---------+---------+---------+---------+---------+---------+
-.. _Modello di funzionamento:
+
 Richiesta di Revoca (RR)
 ~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Richiesta di Revoca (RR):
 
 È il documento informatico inviato dal prestatore di servizi di
 pagamento all’Ente Creditore per richiedere la revoca di un pagamento
@@ -4101,9 +4103,10 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | di      |
 |         |         |         |         |         |         | revoca. |
 +---------+---------+---------+---------+---------+---------+---------+
-.. _Modello di funzionamento:
+
 Esito della Revoca (ER)
 ~~~~~~~~~~~~~~~~~~~~~~~
+.. _Esito della Revoca (ER):
 
 È il documento informatico inviato dall’Ente Creditore al prestatore di
 servizi di pagamento per indicare l’esito di una richiesta di revoca di
@@ -4589,9 +4592,10 @@ relativa allo “storno” di un pagamento\ *.*
 |         |         |         |         |         |         | re      |
 |         |         |         |         |         |         | .       |
 +---------+---------+---------+---------+---------+---------+---------+
-.. _Modello di funzionamento:
+
 Flusso di rendicontazione
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Flusso di rendicontazione:
 
 È il flusso informatico inviato dal prestatore di servizi di pagamento o
 dal suo intermediario al Nodo dei Pagamenti-SPC e che quest’ultimo invia
@@ -4606,9 +4610,10 @@ Il dettaglio di dette informazioni è riportato nella Sezione II delle
 riversamento e rendicontazione*", allegato A alle “Linee guida per
 l'effettuazione dei pagamenti a favore delle pubbliche amministrazioni e
 dei gestori di pubblici servizi” alle quali si deve fare riferimento.
-.. _Modello di funzionamento:
+
 Tabella delle controparti
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Tabella delle controparti:
 
 La “\ *Tabella delle controparti*\ ” è il documento informatico che
 contiene l’elenco degli Enti Creditori aderenti al Nodo dei
@@ -5308,9 +5313,10 @@ controparti*\ ”**
 |           |           |           |           |           | Tabella   |
 |           |           |           |           |           | 5.        |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Informazioni inviate dagli Enti Creditori
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Informazioni inviate dagli Enti Creditori:
 
 La “\ *Tabella delle controparti*\ ” viene prodotta sulla base delle
 informazioni inviate dai singoli Enti Creditori all’Agenzia per l’Italia
@@ -5763,9 +5769,10 @@ in Tabella 8.
 |           |           |           |           |           | sul sito  |
 |           |           |           |           |           | AgID).    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Catalogo Dati Informativi
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Catalogo Dati Informativi:
 
 Il catalogo dei dati informativi è lo strumento con il quale il PSP
 comunica ai propri potenziali clienti, utilizzatori del sistema pagoPA,
@@ -6813,9 +6820,10 @@ Informativi*\ ”**
 |           |           |           |           |           | precedent |
 |           |           |           |           |           | e         |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Flusso “Totali di Traffico” per gli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Flusso “Totali di Traffico” per gli Enti Creditori:
 
 È il flusso informatico inviato dal Nodo dei Pagamenti-SPC all’Ente
 Creditore o al suo intermediario e contenente tutte le interazioni (RPT
@@ -7259,9 +7267,10 @@ richiedente.
 |           |           |           |           |           | aggregazi |
 |           |           |           |           |           | one       |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Flusso “Totali di Traffico” per i prestatori di servizi di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Flusso “Totali di Traffico” per i prestatori di servizi di pagamento:
 
 È il flusso informatico inviato dal Nodo dei Pagamenti-SPC al prestatore
 di servizi di pagamento o al suo intermediario contenente tutte le
@@ -7708,9 +7717,10 @@ identificativoDominioMittente.
 Si noti che l'elemento identificativoIntermediarioPADestinatario,
 presente nella versione 1.6.1, è stato eliminato sostituito con
 l'elemento identificativoDominioDestinatario.
-.. _Modello di funzionamento:
+
 Messaggio di conferma ricezione della RT (ACK)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Messaggio di conferma ricezione della RT (ACK):
 
 È il documento informatico con il quale il Nodo dei Pagamenti-SPC
 conferma al prestatore di servizi di pagamento la ricezione della RT
@@ -7985,9 +7995,10 @@ gli elementi componenti il messaggio stesso, ora indicati nella Tabella
 |           |           |           |           |           | stato di  |
 |           |           |           |           |           | errore.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Catalogo dei servizi
 ~~~~~~~~~~~~~~~~~~~~
+.. _Catalogo dei servizi:
 
 Il “\ *Catalogo dei Servizi*\ ” è il documento informatico che contiene
 l’elenco dei servizi, attivati dagli Enti Creditori, utilizzabili
@@ -8184,9 +8195,10 @@ Il nome dello schema XSD che rappresenta i dati contenuti nel file XML
 che viene inviato all'Ente Creditore attraverso il NodoSPC è riportato
 nell'elemento xsdRiferimento del *Catalogo dei Servizi* (vedi Tabella 16
 a pagina 99).
-.. _Modello di funzionamento:
+
 Dati specifici del servizio nel caso d'uso della Tassa Automobilistica
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Dati specifici del servizio nel caso d'uso della Tassa Automobilistica:
 
 Nella Tabella 18 sono specificate le informazioni che il PSP deve
 fornire per il pagamento della Tassa Automobilistica e che devono essere
@@ -8435,9 +8447,10 @@ I Prestatori di servizi di pagamento che implementano il servizio sono
 tenuti a sviluppare solo l'opzione, definita in Tabella 18, con la
 struttura veicoloConTarga, mentre possono non gestire l'opzione definita
 con la struttura veicoloConTelaio.
-.. _Modello di funzionamento:
+
 Avvisatura digitale
 -------------------
+.. _Avvisatura digitale:
 
 Di seguito sono descritti gli oggetti che costituiscono la
 rappresentazione telematica delle informazioni che dovranno essere
@@ -8451,9 +8464,10 @@ scambiate nell’ambito del processo di avvisatura digitale in modalità
 -  Segnalazione di presa in carico
 
 -  Parametri Web service
-.. _Modello di funzionamento:
+
 Avviso digitale
 ~~~~~~~~~~~~~~~
+.. _Avviso digitale:
 
 È un oggetto informatico, predisposto da un Ente Creditore o da un suo
 intermediario, per consentire l’invio al Nodo dei Pagamenti-SPC delle
@@ -8969,9 +8983,10 @@ in formato digitale.
 |           |           |           |           |           | avviso    |
 |           |           |           |           |           | esistente |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Esito inoltro di Avviso digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Esito inoltro di Avviso digitale:
 
 È un oggetto informatico, predisposto dal Nodo dei Pagamenti-SPC, per
 consentire l’invio all’Ente Creditore o al suo intermediario delle
@@ -9149,9 +9164,10 @@ di avviso di pagamento in formato digitale.
 |           |           |           |           |           | l’evento  |
 |           |           |           |           |           | stesso.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 File XML scambiati con l’Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _File XML scambiati con l’Ente Creditore:
 
 La comunicazione delle richieste via file transfer di avviso digitale
 tra Ente Creditore e Nodo dei Pagamenti-SPC è prevista mediante scambio
@@ -9161,9 +9177,10 @@ secondo lo schema di Tabella 12. Il file così predisposto deve essere
 compresso con algoritmo gzip e inviato via SFTP al Nodo dei
 Pagamenti-SPC il quale risponderà mediante i file di esito descritti in
 seguito.
-.. _Modello di funzionamento:
+
 File delle richieste di inoltro dell’avviso digitale e di esito
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _File delle richieste di inoltro dell’avviso digitale e di esito:
 
 Lo schema di Tabella 19 definisce la struttura XML che l’Ente Creditore
 deve utilizzare per comporre il file contenente le richieste di inoltro
@@ -9290,9 +9307,10 @@ inoltro Avvisi digitali*\ ”**
 Si ricorda che, per problemi di gestibilità del servizio di avvisatura,
 il numero massimo delle occorrenze di esiti di avvisi digitali presenti
 in un flusso scambiato è fissato in 100.000.
-.. _Modello di funzionamento:
+
 File di segnalazione di presa in carico
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _MFile di segnalazione di presa in carico:
 
 Lo schema di Tabella 23 rappresenta il file, predisposto da un Ente
 Creditore o dal Nodo dei Pagamenti-SPC, per segnalare alla controparte
@@ -9393,9 +9411,10 @@ carico*\ ” (File di ACK)**
 |           |           |           |           |           | diverso   |
 |           |           |           |           |           | da 0.**   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Scambio informazioni via web service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Scambio informazioni via web service:
 
 Lo scambio delle informazioni relative all'avvisatura digitale tra Nodo
 dei Pagamenti-SPC, Ente Creditore e PSP avviene, come indicato nei
@@ -9415,9 +9434,10 @@ componenti i seguenti parametri:
 
 4) I-5 datiNotifica, *request* della primitiva
    ***nodoAggiornaIscrizioneAvvisatura***
-.. _Modello di funzionamento:
+
 Invio dell’avviso digitale al NodoSPC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Invio dell’avviso digitale al NodoSPC:
 
 Le informazioni elencate di seguito (vedi Tabella 26) definiscono il
 parametro avvisoDigitaleWS presente nella *request* della primitiva
@@ -9477,9 +9497,10 @@ servizio.
 |           |           |           |           |           | 20 al §   |
 |           |           |           |           |           | 5.4.1.    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Recapito dell’avviso digitale ai PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Recapito dell’avviso digitale ai PSP:
 
 Le informazioni elencate di seguito (vedi Tabella 26) definiscono il
 parametro avvisoDigitale presente nella *request* della primitiva
@@ -9509,9 +9530,10 @@ all'interno del WSDL del servizio.
 |           |           |           |           |           | 19 al §   |
 |           |           |           |           |           | 5.4.1.    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Notifica dell’iscrizione al servizio di avvisatura digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Notifica dell’iscrizione al servizio di avvisatura digitale:
 
 Le informazioni elencate di seguito definiscono la componente
 "datiNotifica" (parametro I-5) presente nella *request* della primitiva
@@ -9650,9 +9672,10 @@ formalmente all'interno del WSDL del servizio.
 |           |           |           |           |           | disattiva |
 |           |           |           |           |           | zione     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-.. _Modello di funzionamento:
+
 Richiesta posizione debitoria presso un Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Richiesta posizione debitoria presso un Ente Creditore:
 
 Le informazioni elencate in Tabella 28 definiscono il parametro O-2
 elencoAvvisiDigitali presente nella *response* della primitiva
