@@ -29,9 +29,9 @@ Nel presente capitolo sono inoltre riportate le informazioni relative a
 "Tabella delle Controparti" (§ 4.2.1), "Catalogo Dati Informativi" (§
 5.3.7) e flussi inerenti i “Totali di Traffico” (§ 4.5.1).
 
-.. _Formato dei messaggi:
 Formato dei messaggi
 --------------------
+.. _Formato dei messaggi:
 
 I formati adottati devono possedere almeno i seguenti requisiti:
 
@@ -63,11 +63,11 @@ rispetto dello standard minimo è indispensabile per garantire
 l’interoperabilità.
 
 Per la visualizzazione dei messaggi, devono essere adottate soluzioni
-che presentino le informazioni in modo fedele alla struttura. 
+che presentino le informazioni in modo fedele alla struttura.
 
-.. _Soggetti:
 Soggetti
 --------
+.. _Soggetti:
 
 Sono di seguito elencati i soggetti coinvolti nel processo di pagamento:
 
@@ -89,6 +89,7 @@ c. Ente Beneficiario: rappresenta la Pubblica Amministrazione
 d. Istituto Attestante: rappresenta il Prestatore di Servizi di
        Pagamento che effettua il pagamento richiesto e ne attesta la
        regolarità.
+       
 .. _Formato dei dati:
 Formato dei dati
 ----------------
@@ -192,6 +193,7 @@ significati:
 |                 |                 | message         |                 |
 |                 |                 | (UNIFI).        |                 |
 +-----------------+-----------------+-----------------+-----------------+
+
 .. _Modello di funzionamento:
 Richiesta Pagamento Telematico (RPT)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
