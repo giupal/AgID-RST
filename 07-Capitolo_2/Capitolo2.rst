@@ -6,9 +6,9 @@
 | **Capitolo 2. MODELLI DEL PROCESSO DI PAGAMENTO** |
 +---------------------------------------------------+
 
-.. _Modelli di pagamento:
 Modelli del processo di pagamento
 =================================
+.. _Modelli del processo di pagamento:
 
 Gli incassi che un Ente Creditore deve gestire posso essere distinti
 secondo due tipiche categorie:
@@ -38,9 +38,9 @@ I *workflow* di seguito descritti sono parte integrante delle
 implementazioni previste nel Nodo dei Pagamenti-SPC (vedi anche Sezione
 III).
 
-.. _Pagamento EC:
 Processo di pagamento attivato presso l’Ente Creditore
 ------------------------------------------------------
+.. _Processo di pagamento attivato presso l’Ente Creditore:
 
 Rientrano in questa categoria di pagamenti quelli richiesti
 dall’utilizzatore finale attraverso i siti web o *mobile app* degli Enti
@@ -54,9 +54,9 @@ termini organizzativi, che informatici); le procedure di pagamento
 potranno essere più o meno strettamente integrate con i servizi cui
 fanno riferimento.
 
-.. _Pagamento online:
 Processo di pagamento con re indirizzamento on-line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Processo di pagamento con re indirizzamento on-line:
 
 Il *workflow* descritto, già denominato “Processo di pagamento con
 esecuzione immediata” nelle precedenti versioni di questo documento,
@@ -163,9 +163,9 @@ Il regolamento dei pagamenti effettuati con questo tipo di *workflow*
 viene effettuato attraverso il bonifico bancario (SCT - SEPA *Credit
 Transfer*) ed il bollettino di conto corrente postale.
 
-.. _Pagamenti MyBank:
 Pagamenti tramite il circuito MyBank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Pagamenti tramite il circuito MyBank:
 
 Nel caso che venga utilizzato il circuito e-commerce MyBank, che adotta
 gli schemi OBeP (*On-line Banking ePayment*), si riproduce un caso
@@ -178,9 +178,9 @@ Si segnala comunque che questa modalità di pagamento è soggetta a
 restrizioni e può non essere sempre disponibile per tutte le tipologie
 di pagamento.
 
-.. _Pagamento PSP:
 Processo di pagamento con autorizzazione gestita dal PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Processo di pagamento con autorizzazione gestita dal PSP:
 
 Questo *workflow*, già denominato “Processo di pagamento con esecuzione
 differita” nelle precedenti versioni del presente documento, prevede che
@@ -263,9 +263,9 @@ Il regolamento dei pagamenti effettuati con questo tipo di *workflow*
 viene effettuato attraverso il bonifico bancario (SCT - SEPA Credit
 Transfer) ed il bollettino di conto corrente postale.
 
-.. _Scelta servizio utilizzatore finale:
 Scelta del servizio di pagamento da parte dell'utilizzatore finale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Scelta del servizio di pagamento da parte dell'utilizzatore finale:
 
 |image5|
 
@@ -327,9 +327,9 @@ Si noti, che, qualora l'utilizzatore finale non effettui alcuna scelta,
 oppure si verifichi un timeout di sessione, il NodoSPC genererà una o
 più RT negative, così come indicato nei precedenti paragrafi.
 
-.. _Servizio memorizzazione pagamento:
 Servizio di scelta e memorizzazione del pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Servizio di scelta e memorizzazione del pagamento:
 
 Le funzionalità del WISP mettono a disposizione del cittadino utente di
 pagoPA ulteriori funzioni di supporto che consentono di memorizzare le
@@ -426,9 +426,9 @@ AgID venisse in possesso di dati che la legge definisce come
 quanto irrilevanti ai fini dell’erogazione dei servizi di cui alle
 lettere [a], [b] e [c] che precedono.
 
-.. _Individuazione PSP con carta:
 Individuazione del PSP in caso di pagamento con carta
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Individuazione del PSP in caso di pagamento con carta:
 
 Nel caso di pagamento con carta di credito o di debito, la componente
 WISP del NodoSPC, individuerà il PSP con cui operare in base ad un
@@ -450,9 +450,9 @@ b. inviare all’Agenzia, con le modalità da questa di volta in volta
    indicate, le informazioni necessarie ad eseguire i pagamenti
    attraverso le proprie carte.
 
-.. _Pacchetto mobile:
 Pacchetto di sviluppo per applicazioni “mobile” (SDK pagoPA Evolution)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Pacchetto di sviluppo per applicazioni “mobile” (SDK pagoPA Evolution):
 
 Al fine di consentire una rapida realizzazione di una funzionalità di
 pagamento mobile da fornire ai propri cittadini, l’Agenzia per l’Italia
@@ -466,9 +466,9 @@ Lo SDK è disponibile in download, previa sottoscrizione di un apposito
 fornito in modalità nativa per le due principali tecnologie presenti sul
 mercato: IOS e Android.
 
-.. _Storno pagamento:
 Storno del pagamento
 ~~~~~~~~~~~~~~~~~~~~
+.. _Storno del pagamento:
 
 Qualora l’utilizzatore finale chieda a vario titolo l’annullamento
 (storno) di un pagamento all’Ente Creditore presso il quale questo è
@@ -495,9 +495,9 @@ flussi economici.
 
 **Figura** **9 – Modello di processo di storno di un pagamento**
 
-.. _Processo attivato presso PSP:
 Processo di pagamento attivato presso il PSP
 --------------------------------------------
+.. _Processo di pagamento attivato presso il PSP:
 
 Questo *workflow* prevede che l’esecuzione del pagamento avvenga presso
 le infrastrutture messe a disposizione dal PSP quali, ad esempio,
@@ -610,9 +610,9 @@ mancata ricezione della RPT; mentre se attende il tempo [B] per
 consentire il pagamento, deve inviare una RT negativa in caso mancata
 esecuzione dello stesso.
 
-.. _Verifica pagamento attesa:
 Verifica del pagamento in attesa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Verifica del pagamento in attesa:
 
 In questa fase l'Ente Creditore può comunicare all'utilizzatore finale
 informazioni legate al pagamento ed al suo stato, nonché possibili
@@ -626,9 +626,9 @@ Per comunicare al PSP tali variazioni o ulteriori informazioni legate al
 pagamento, utili per informare l'utilizzatore finale, l'Ente Creditore
 deve utilizzare le modalità indicate al § 7.4.5 della Sezione II.
 
-.. _Attivazione richiesta pagamento:
 Attivazione della richiesta di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Attivazione della richiesta di pagamento:
 
 Il Nodo dei Pagamenti-SPC non controlla la sequenza operativa delle fasi
 del processo descritte in precedenza: pertanto, un PSP potrebbe
@@ -647,9 +647,9 @@ debito a condizione che la Ricevuta Telematica sia congruente con le
 informazioni presenti sulla relativa RPT e quindi sull'archivio dei
 pagamenti in attesa.
 
-.. _Pagamento spontaneo:
 Pagamento spontaneo presso i PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Pagamento spontaneo presso i PSP:
 
 Nel modello di pagamento attivato presso il PSP, l'utilizzatore finale,
 se sprovvisto del Numero Avviso (che contiene il codice IUV), non
@@ -689,9 +689,9 @@ finale che consentono di identificare univocamente il pagamento presso
 l'Ente Creditore, quali, ad esempio, la targa del veicolo per il
 pagamento della tassa automobilistica.
 
-.. _Revoca RT:
 Revoca della Ricevuta Telematica
 --------------------------------
+.. _Revoca della Ricevuta Telematica:
 
 Qualora l’utilizzatore finale - ai sensi degli articoli 13 e 14 del
 decreto legislativo 27 gennaio 2010, n. 11, ovvero per richieste
@@ -737,9 +737,9 @@ procedure amministrative di back-office al fine di gestire, nel rispetto
 della normativa vigente, i flussi relativi a reclami, rimborsi e revoche
 sia dal punto di vista amministrativo, sia dal punto di vista contabile.
 
-.. _Annullo tecnico:
 Annullo tecnico
 ~~~~~~~~~~~~~~~
+.. _Annullo tecnico:
 
 L’annullo tecnico è una casistica dell’invio di una richiesta di revoca
 che il PSP può invocare unicamente ricorra uno dei seguenti casi:
@@ -757,9 +757,9 @@ b) Invio di una Ricevuta Telematica (RT) con esito **negativo**,
 Al di fuori delle circostanze sopra descritte l’utilizzo dell’annullo
 tecnico non è ammesso.
 
-.. _Avviso pagamento:
 Avviso di pagamento
 -------------------
+.. _Avviso di pagamento:
 
 Come previsto dal capitolo 7 delle Linee guida, tutti i modelli di
 processo di pagamento analizzati prevedono che l’Ente Creditore, a
@@ -782,9 +782,9 @@ b) **digitale**, che viene inviato al Nodo dei Pagamenti SPC per essere
 i PSP, questo deve essere sempre generato in modalità digitale ed in via
 accessoria in modalità analogica.**
 
-.. _Avviso analogico:
 Avviso analogico
 ~~~~~~~~~~~~~~~~
+.. _Avviso analogico:
 
 Per i pagamenti per i quali sono prodotti avvisi di pagamento analogici,
 oltre al logotipo del sistema pagoPA (cfr. § **Errore. L'origine
@@ -827,9 +827,9 @@ pagoPA*\ ”, pubblicata sul sito AgID, regole alle quali è necessario
 attenersi rigorosamente al fine di consentire il corretto svolgersi del
 processo di pagamento.
 
-.. _Automazione Avviso analogico:
 Automazione dell’Avviso analogico
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Automazione dell’Avviso analogico:
 
 Inoltre, la peculiarità di alcune postazioni messe a disposizione dai
 PSP (quali ad esempio le casse della GDO, gli uffici postali, le
@@ -842,9 +842,9 @@ sopra riportati, anche da un insieme di elementi grafici facilmente
 leggibili e decodificabili da apposite apparecchiature (vedi anche il §
 **Errore. L'origine riferimento non è stata trovata.**).
 
-.. _Avviso digitale:
 Avviso digitale
 ~~~~~~~~~~~~~~~
+.. _Avviso digitale:
 
 Per i pagamenti per i quali sono messi a disposizione dell'utilizzatore
 finale avvisi di pagamento analogici, l’Ente Creditore deve generare
@@ -853,9 +853,9 @@ corrispondenti avvisi digitali secondo il formato indicato al §
 NodoSPC con le modalità indicate al § **Errore. L'origine riferimento
 non è stata trovata.**.
 
-.. _Attestazione pagamento:
 Attestazione del pagamento
 --------------------------
+.. _Attestazione del pagamento:
 
 L’attestazione di avvenuto pagamento è rappresentata dal documento
 informatico RT.XML (Ricevuta Telematica) che l’Ente Creditore riceve dal
@@ -901,9 +901,9 @@ rendere disponibile, anche attraverso la stampa di un pre-scontrino, le
 indicazioni di dettaglio del pagamento previste dal § **Errore.
 L'origine riferimento non è stata trovata.**.
 
-.. _Identificazione utilizzatore finale:
 Identificazione dell’utilizzatore finale
 ----------------------------------------
+.. _Identificazione dell’utilizzatore finale:
 
 Nello schema di Figura 12 è rappresentato il circuito di “trust” che si
 viene a stabilire tra utilizzatore finale e PSP nel caso sia utilizzato
@@ -937,9 +937,9 @@ dell’effettivo pagamento, quindi tale modello è applicabile anche ad
 altre modalità di identificazione che non richiedano l’utilizzo della
 CIE/CNS.
 
-.. _Riconciliazione pagamenti:
 Riconciliazione dei pagamenti
 -----------------------------
+.. _Riconciliazione dei pagamenti:
 
 Con rifermento al “Ciclo di vita del pagamento” (vedi paragrafo
 **Errore. L'origine riferimento non è stata trovata.**), una volta
@@ -964,9 +964,9 @@ stata trovata. della Sezione II, per quanto riguarda la Ricevuta
 Telematica (RT) e nella Sezione II dell’Allegato A alle Linee guida per
 ciò che riguarda i dati del Flusso di rendicontazione.
 
-.. _Riconciliazione singola:
 Riconciliazione in modalità singola
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Riconciliazione in modalità singola:
 
 Qualora, a fronte di ogni singolo set di informazioni
 datiSingoloVersamento contenuti in una richiesta di pagamento, il PSP
@@ -1001,9 +1001,9 @@ Reference) oppure con il dato *End To End Id* (attributo AT-41
 Originator’s Reference to the Credit Transfer) della disposizione di
 accredito inviata dal PSP all’Ente Creditore.
 
-.. _Riconciliazione multipla:
 Riconciliazione in modalità multipla
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Riconciliazione in modalità multipla:
 
 Qualora il PSP effettui un’unica disposizione di pagamento nei confronti
 dell’Ente Creditore per regolare contabilmente i pagamenti relativi agli
@@ -1054,9 +1054,9 @@ Creditori (vedi § **Errore. L'origine riferimento non è stata
 trovata.**), con le quali i primi possono inviare il Flusso di
 rendicontazione e gli altri ricevere i dati ivi contenuti.
 
-.. _Pagamento accrediti:
 Pagamento contenente più accrediti
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Pagamento contenente più accrediti:
 
 Qualora l’utilizzatore finale presenti al PSP una RPT contenente più
 pagamenti ovvero presenti un “carrello” di RPT aventi più beneficiari,
@@ -1065,9 +1065,9 @@ quale il PSP può attribuire lo stesso identificativoUnivocoRiscossione:
 pertanto l’Ente Creditore dovrà opportunamente tenerne conto nelle
 proprie procedure applicative di riconciliazione.
 
-.. _Marca bollo digitale:
 Acquisto della marca da bollo digitale
 --------------------------------------
+.. _Acquisto della marca da bollo digitale:
 
 L'Agenzia delle Entrate ha realizzato il servizio @e.bollo che permette
 ai cittadini ed imprese di acquistare la marca da bollo digitale ed
@@ -1104,9 +1104,9 @@ cittadino, veicolando verso il PSP convenzionato con l’Agenzia delle
 entrate, selezionato dal cittadino stesso fra quelli disponibili, le
 informazioni necessarie alla produzione della marca da bollo digitale.
 
-.. _Workflow bollo digitale:
 Workflow di acquisto della marca da bollo digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Workflow di acquisto della marca da bollo digitale:
 
 Il processo descritto di seguito è un esempio di come una PA possa
 integrare l’acquisto della marca da bollo digitale per la presentazione
@@ -1164,9 +1164,9 @@ strettamente connesso all’effettuazione del pagamento, si dovrà
 necessariamente fare riferimento alla documentazione emessa dalla stessa
 Agenzia delle Entrate.
 
-.. _Riconciliazione RT:
 Riconciliazione delle Ricevute Telematiche
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Riconciliazione delle Ricevute Telematiche:
 
 Nel processo di acquisto in parola la Ricevuta Telematica (RT) svolge
 unicamente il ruolo di vettore della marca da bollo digitale acquistata
@@ -1174,9 +1174,9 @@ dal cittadino. In mancanza di un corrispondente flusso finanziario verso
 la PA, questa tipologia di Ricevute Telematiche (RT) non è soggetta a
 riconciliazione, limitatamente agli importi riguardanti il MBD.
 
-.. _Avvisatura push:
 Avvisatura digitale *push* (su iniziativa dell’Ente Creditore)
 --------------------------------------------------------------
+.. _Avvisatura digitale *push* (su iniziativa dell’Ente Creditore):
 
 La funzione di avvisatura digitale in modalità *push* è un servizio
 messo a disposizione dal sistema pagoPA attraverso il Nodo dei
@@ -1241,9 +1241,9 @@ costituiscono il processo di avvisatura digitale vero e proprio.
 Creditori che generano un avviso pagabile presso i PSP dovranno
 obbligatoriamente sviluppare tale funzionalità.**
 
-.. _Iscrizione servizio:
 Iscrizione al servizio (*enrolment*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Iscrizione al servizio (*enrolment*):
 
 L'iscrizione al servizio di avvisatura *push* può essere effettuata
 dall'utilizzatore finale, sia sul sistema pagoPA, identificandosi
@@ -1254,16 +1254,16 @@ servizi di pagamento.
 Inoltre l’\ *enrolment* al servizio potrà avvenire attraverso il portale
 dell'Ente Creditore.
 
-.. _Iscrizione presso pagoPA:
 Iscrizione al servizio presso pagoPA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Iscrizione al servizio presso pagoPA:
 
 Gli utenti registrati a pagoPA riceveranno gli avvisi digitali emessi da
 parte di tutti gli EC.
 
-.. _Iscrizione presso EC:
 Iscrizione al servizio presso il portale di un Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Iscrizione al servizio presso il portale di un Ente Creditore:
 
 L'iscrizione al servizio di avvisatura effettuata dall'utilizzatore
 finale sul portale di un Ente Creditore avrà efficacia esclusivamente
@@ -1275,9 +1275,9 @@ dell’Ente Creditore.
 L’utente potrà recuperare gli avvisi ricevuti in modalità digitale e
 pagarli presso il PSP oppure sul portale dello stesso EC.
 
-.. _Iscrizione presso PSP:
 Iscrizione al servizio presso un Prestatore di servizi di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Iscrizione al servizio presso un Prestatore di servizi di pagamento:
 
 L'iscrizione al servizio di avvisatura può essere effettuata
 dall'utilizzatore finale aderendo ad uno dei servizi messi a
@@ -1300,18 +1300,18 @@ Il protocollo di colloquio tra NodoSPC e i PSP, previsto per la fase di
 di inoltro *push*, è descritto nel § **Errore. L'origine riferimento non
 è stata trovata.** della Sezione III.
 
-.. _Iscrizioni vari PSP:
 Iscrizioni presso più Prestatori di servizi di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Iscrizioni presso più Prestatori di servizi di pagamento:
 
 L'utente finale può iscriversi al servizio di avvisatura presso più PSP:
 in questo caso, in fase di iscrizione presso un altro PSP dovrà ricevere
 una segnalazione di iscrizione "multipla" da parte del Prestatore di
 servizi di pagamento che sta trattando l'operazione.
 
-.. _Revoca servizio avvisatura:
 Revoca di iscrizione al servizio di avvisatura
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Revoca di iscrizione al servizio di avvisatura:
 
 La revoca dell’iscrizione al servizio di avvisatura deve essere
 richiesta al soggetto al quale è stata chiesta l'iscrizione (Ente
@@ -1347,18 +1347,18 @@ Il processo di invio degli avvisi è ampiamente dettagliato nel §
 **Errore. L'origine riferimento non è stata trovata.** della Sezione
 III.
 
-.. _Inoltro avvisi debitore:
 Inoltro degli avvisi al debitore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Inoltro degli avvisi al debitore:
 
 |image17|
 
 **Figura** 19** - Invio degli avvisi - sotto fasi del processo di avvisatura**
 *push*
 
-.. _Invio avvisi FT:
 Invio degli avvisi in modalità File Transfer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Invio degli avvisi in modalità File Transfer:
 
 L'Ente Creditore invia al Nodo dei Pagamenti-SPC un flusso informativo
 contenente gli avvisi digitali che intende far recapitare ai propri
@@ -1372,9 +1372,9 @@ l'esito, il NodoSPC predispone un flusso contenente l'esito del recapito
 dei singoli avvisi di pagamento effettuato nella fase precedente e lo
 invia all'Ente Creditore emittente l'avviso.
 
-.. _Invio avvisi web service:
 Invio degli avvisi in modalità Web service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Invio degli avvisi in modalità Web service:
 
 L'Ente Creditore invia al NodoSPC il singolo avviso digitale che intende
 far recapitare al proprio utente attraverso un apposito *Web service*
@@ -1382,9 +1382,9 @@ utilizzando il formato dati previsto dalle specifiche riportate nel §
 **Errore. L'origine riferimento non è stata trovata.**, segnalando
 all'ente eventuali difformità rispetto agli standard previsti.
 
-.. _Recapito avviso debitore:
 Recapito dell'avviso al debitore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Recapito dell'avviso al debitore:
 
 Il recapito al debitore registrato su pagoPA avviene con le modalità da
 questi indicate in fase di iscrizione al servizio, pertanto
@@ -1418,9 +1418,9 @@ più volte: cioè, uno per ogni *app* di ricezione degli avvisi attivata
 dall’utilizzatore finale e presente sul/sui dispositivo/i indicati al
 PSP.
 
-.. _Comunicazione esito EC:
 Comunicazione dell'esito del recapito all'Ente creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Comunicazione dell'esito del recapito all'Ente creditore:
 
 Una volta completata la fase precedente, il NodoSPC comunica all’Ente
 Creditore l’esito del recapito dell’avviso in funzione della modalità di
@@ -1431,9 +1431,9 @@ a. invio di un flusso di esiti in modalità file transfer sicuro (SFTP);
 b. esito del singolo avviso digitale nella *response* del *web service*
    SOAP.
 
-.. _Pagamento del dovuto:
 Pagamento del dovuto
 ~~~~~~~~~~~~~~~~~~~~
+.. _Pagamento del dovuto:
 
 Per quanto riguarda la fase del pagamento del dovuto, si ricorda che
 l'operazione potrà essere effettuato in modalità integrata:
@@ -1451,9 +1451,9 @@ dispositivi mobili ovvero altri servizi che consentono di ricevere i
 dati del dovuto e di effettuarne il pagamento contestualmente oppure
 conservare l’avviso per utilizzarlo in tempo successivo.
 
-.. _Modifica e annullamento avvisi:
 Modifica e annullamento degli avvisi digitali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Modifica e annullamento degli avvisi digitali:
 
 Nel caso in cui l’Ente Creditore modifichi uno dei dati obbligatori
 dell’avviso (ad esempio: l’importo), dovrà inviare al NodoSPC una nuova
@@ -1474,9 +1474,9 @@ da quelli a disposizione dell’utilizzatore finale, in caso contrario
 l’eventuale fase di pagamento attivata successivamente all’annullo
 fornirà un errore generato dall’Ente Creditore.
 
-.. _Avvisatura pull:
 Avvisatura digitale *pull* (verifica della posizione debitoria)
 ---------------------------------------------------------------
+.. _Avvisatura digitale *pull* (verifica della posizione debitoria):
 
 L'utilizzatore finale ha il diritto di conoscere l'elenco dei pagamenti
 che è tenuto ad effettuare nei confronti degli enti pubblici: tale
@@ -1531,9 +1531,9 @@ di restituire solo una parte dei documenti che interessano quel
 particolare utilizzatore finale: tale situazione dovrà essere indicata
 nella risposta fornita al NodoSPC.
 
-.. _Limitazioni pull:
 Limitazioni all'utilizzo dell'avvisatura *pull*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _Limitazioni all'utilizzo dell'avvisatura *pull*:
 
 Al momento, il sistema non consente l'utilizzo del servizio di
 avvisatura in modalità *pull* agli Enti Creditori che si avvalgono di
@@ -1546,11 +1546,9 @@ interrogato più volte nell'unità di tempo. Le regole di *throttling*
 sono indicate nel documento “” pubblicato sul sito istituzionale
 dell’Agenzia per l’Italia Digitale.
 
-.. _pagamento-del-dovuto-1:
-
-.. _Pagamento del dovuto:
 Pagamento del dovuto
 ~~~~~~~~~~~~~~~~~~~~
+.. _Pagamento del dovuto-1:
 
 Per quanto riguarda la fase del pagamento del dovuto, si ricorda che
 l'operazione potrà essere effettuato in modalità integrata con le
