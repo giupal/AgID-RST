@@ -267,7 +267,7 @@ pagamento <#_Toc508016101>`__
 `4.6.3.1 Report “Commissioni a carico PA” <#_Toc508016157>`__
 
 `Sezione II - Composizione DELLE INFORMAZIONI ATTINENTI ALLO SCAMBIO DI
-DATI TRA Enti creditori E PSP </10-SEZIONE_II/10-SEZIONE_II.rst>`__
+DATI TRA Enti creditori E PSP </10-SEZIONE_II/SEZIONE_II_-_COMPOSIZIONE_DELLE_INFORMAZIONI_ATTINENTI_ALLO_SCAMBIO_DI_DATI_TRA_ENTI_CREDITORI_E_PSP.rst>`__
 
 `5. Messaggi e flussi informativi </11-Capitolo_5/Capitolo5.rst>`__
 
