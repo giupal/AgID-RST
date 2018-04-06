@@ -29,9 +29,9 @@ intermediario. La procedura di adesione:
        pagamento dei dati necessari alla fruizione del servizio, come
        specificati nell’accordo di servizio.
        
-.. _Adesione di un Ente Creditore.:
 Adesione di un Ente Creditore.
 ------------------------------
+.. _Adesione di un Ente Creditore.:
 
 Per la fruizione del servizio, l’Ente Creditore, sia esso una Pubblica
 Amministrazione, una società a controllo pubblico o un soggetto gestore
@@ -59,9 +59,9 @@ Le istruzioni operative necessarie per completare la fase di adesione
 sono contenute nel Manuale Utente scaricabile dal sito dell’Agenzia o
 del Portale delle Adesioni.
 
-.. _Adesione di un Prestatore di Servizi di pagamento:
 Adesione di un Prestatore di Servizi di pagamento
 -------------------------------------------------
+.. _Adesione di un Prestatore di Servizi di pagamento:
 
 Per la fruizione del Servizio, il prestatore di servizi di pagamento
 aderisce al sistema attraverso la compilazione e la sottoscrizione con
@@ -141,9 +141,9 @@ dovrà:
       delle componenti progettuali e dell’esecuzione dei successivi test
       di accettazione.
 
-.. _Qualificazione di Intermediari e Partner tecnologici:
 Qualificazione di Intermediari e Partner tecnologici
 ----------------------------------------------------
+.. _Qualificazione di Intermediari e Partner tecnologici:
 
 Come previsto dal modello di funzionamento, gli aderenti possono
 servirsi di Intermediari e/o Partner tecnologici per
@@ -173,9 +173,9 @@ autocertificazione e previa nomina da parte dell’Intermediario o del
 Partner tecnologico del proprio Referente Tecnico, provvede a
 pubblicare sul proprio sito istituzionale l’elenco di tali soggetti.
 
-.. _Completamento della procedura di avvio in esercizio.:
 Completamento della procedura di avvio in esercizio.
 ----------------------------------------------------
+.. _Completamento della procedura di avvio in esercizio.:
 
 Una volta sottoscritto il documento di adesione (lettera di
 adesione/accordo di servizio) l’Agenzia concorda con il soggetto
@@ -197,9 +197,9 @@ o sostituzione in forza dell’avvenuta delega delle attività tecniche.
 Maggiori informazioni circa la procedura in parola saranno rese
 disponibili sul sito AgID.
 
-.. _Utilizzo del marchio pagoPA:
 Utilizzo del marchio pagoPA
 ---------------------------
+.. _Utilizzo del marchio pagoPA:
 
 L’Agenzia per l’Italia Digitale ha realizzato e registrato il marchio
 pagoPA attraverso la definizione di un logotipo atto a individuare i
