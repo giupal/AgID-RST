@@ -599,7 +599,8 @@ FINE DOCUMENTO
 
 .. [3]
 --------
-* Vedi il paragrafo “Definizioni e Acronimi” ad inizio documento ` [3] <https://github.com/attiliogesualdi/AgID-RST/blob/master/02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst> ` _
+* Vedi il paragrafo “Definizioni e Acronimi” ad inizio documento 
+` [3] <02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst> ` _
 
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
