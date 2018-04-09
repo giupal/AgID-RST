@@ -599,7 +599,6 @@ FINE DOCUMENTO
 
 .. [3] 
    Vedi il paragrafo “Definizioni e Acronimi” ad inizio documento
-  =================================================================
    .. _06-Capitolo_1/Capitolo1.rst#attori-e-ruoli-del-sistema-pagopa:
    
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
