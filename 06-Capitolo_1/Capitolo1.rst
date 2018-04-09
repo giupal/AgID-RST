@@ -277,7 +277,7 @@ pubblici, in particolare:
        dell’infrastruttura;
 
 -  **il Comitato interministeriale di coordinamento**, evoluzione del
-       comitato SIPA [3]_, al quale partecipano, oltre all’Agenzia per
+       comitato SIPA [3], al quale partecipano, oltre all’Agenzia per
        l’Italia Digitale, il Ministero dell’economia e delle finanze e
        la Banca d’Italia, verifica:
 
@@ -597,7 +597,7 @@ FINE DOCUMENTO
    l'accessibilità agli strumenti informatici»" pubblicato in GU Serie
    Generale n.217 del 16-9-2013
 
-[3]
+.. [3]
 --------
 * Vedi il paragrafo “Definizioni e Acronimi” ad inizio documento ` [3] <https://github.com/attiliogesualdi/AgID-RST/blob/master/02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst> ` _
 
