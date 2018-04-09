@@ -599,6 +599,7 @@ FINE DOCUMENTO
 
 .. [3]
 --------
+
 * Vedi il paragrafo “Definizioni e Acronimi” ad inizio documento 
 ` [3] <02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst> ` _
 
