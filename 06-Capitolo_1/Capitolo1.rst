@@ -599,7 +599,7 @@ FINE DOCUMENTO
 
 [3]
 --------
-* ` [3] <https://github.com/attiliogesualdi/AgID-RST/blob/master/02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst> ` _
+.. * ` [3] <https://github.com/attiliogesualdi/AgID-RST/blob/master/02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst> ` _
    Vedi il paragrafo “Definizioni e Acronimi” ad inizio documento
    .. _06-Capitolo_1/Capitolo1.rst#attori-e-ruoli-del-sistema-pagopa:
    
