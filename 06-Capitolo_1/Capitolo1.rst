@@ -277,7 +277,7 @@ pubblici, in particolare:
        dell’infrastruttura;
 
 -  **il Comitato interministeriale di coordinamento**, evoluzione del
-       comitato SIPA [3], al quale partecipano, oltre all’Agenzia per
+       comitato SIPA [3]_, al quale partecipano, oltre all’Agenzia per
        l’Italia Digitale, il Ministero dell’economia e delle finanze e
        la Banca d’Italia, verifica:
 
