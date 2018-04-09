@@ -597,11 +597,9 @@ FINE DOCUMENTO
    l'accessibilità agli strumenti informatici»" pubblicato in GU Serie
    Generale n.217 del 16-9-2013
 
-.. 3
+.. [3]
 Vedi il paragrafo “Definizioni e Acronimi” ad inizio documento
-.. |3|rst:: ./02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst
    
-
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
    :height: 1.30277in
