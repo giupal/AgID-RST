@@ -4413,25 +4413,18 @@ FINE DOCUMENTO
    la storia di tutti i messaggi inviati.
 
 .. [8]
-   Nei casi in cui "Riuso IUV" è valorizzato a SI, è possibile eseguire
-   una *nodoInviaRPT* con lo stesso IUV. In questo caso il campo “stato”
-   relativo alla RPT, restituisce lo stato dell’ultima RPT ricevuta dal
-   NodoSPC con i parametri chiave forniti; il dato storicoLista fornisce
-   la storia di tutti i messaggi inviati.
-
-.. [9]
    L’Ente Creditore genera una RPT, identificata dall'elemento
    identificativoUnivocoVersamento e dall'elemento
    codiceContestoPagamento (CCP) generato dal PSP, e la registra nei
    propri archivi. In tal modo, l’Ente Creditore è in grado anche di
    verificare l'univocità, in particolare per la componente CCP.
 
-.. [10]
+.. [9]
    Si ricorda che un singolo avviso potrebbe dare luogo all'inoltro di
    più avvisi digitali in funzione delle sottoscrizioni effettuate
    dall'utilizzatore finale sia presso le PA o presso più PSP.
 
-.. [11]
+.. [10]
    In modo da gestire i casi in cui l’invio giornaliero superi la
    massima numerosità consentita, al momento prevista in 100 mila avvisi
    digitali.
