@@ -4599,7 +4599,7 @@ FINE DOCUMENTO
    veda il § 7.4.5 <../13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__
 
 .. [3]
-   Vedi Nota 28 a pagina 174.
+   Vedi Nota 1.
 
 .. [4]
    dato codiceEsitoPagamento impostato a 3 o 4.
