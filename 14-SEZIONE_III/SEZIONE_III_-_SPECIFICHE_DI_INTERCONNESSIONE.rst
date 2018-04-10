@@ -2,7 +2,7 @@
 | |AGID_logo_carta_intestata-02.png|                                    |
 +-----------------------------------------------------------------------+
 
-Sezione III - Specifiche di interconnessione
+**Sezione III - Specifiche di interconnessione**
 
 La presente sezione descrive le interfacce di cooperazione applicativa
 del software che implementa i servizi del Nodo dei Pagamenti SPC. I
