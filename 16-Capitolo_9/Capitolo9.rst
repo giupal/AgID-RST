@@ -1165,7 +1165,7 @@ Parametri di input
 | b. parametriProfiloPagamento (opzionale): *query string* contenente   |
 |    parametri ricavati dal NodoSPC su informazioni fornite dall’Ente   |
 |    Creditore e che consentono al PSP di individuare il profilo di     |
-|    pagamento da utilizzare [7]_                                       |
+|    pagamento da utilizzare [6]_                                       |
 +-----------------------------------------------------------------------+
 | c. tipoFirma (opzionale): parametro deprecato                         |
 +-----------------------------------------------------------------------+
@@ -1181,7 +1181,7 @@ Parametri di output
 
 3. parametriPagamentoImmediato: *query string* contenente parametri
    specifici del PSP a supporto della re-direzione, nel caso di
-   pagamento online immediato [8]_
+   pagamento online immediato [7]_
 
 4. listaErroriRPT: lista costituita da elementi faultBean, dove può
    essere presente il dato opzionale serial (obbligatorio quando la
@@ -1403,7 +1403,7 @@ Parametri di input
 1. Value: Valore descrittivo dello stato della lavorazione della RPT
    presso il PSP, secondo le specifiche caratteristiche di processo
    attuate presso il PSP stesso, al solo scopo di tracciatura degli
-   eventi [9]_.
+   eventi [8]_.
 
 La valorizzazione di questo campo e l’assenza della struttura
 FaultBean indica che la RPT è in carico al PSP ed è in corso di
@@ -3773,7 +3773,7 @@ Stringhe URL utilizzate per la "redirect".
 
 Si fa presente che in questa fase il contenuto dei campi URLDONE,
 URLBACK ed URLMS sono predisposti direttamente a cura dell'Ente
-Creditore [10]_.
+Creditore [9]_.
 
 Nel caso in cui le stringhe che rappresentano le URL inviate dalla
 componente “Wrapper MyBank” contengano parametri o caratteri
@@ -3968,7 +3968,7 @@ informazioni di Tabella 44.
 | 07                                | Ordine duplicato                  |
 +-----------------------------------+-----------------------------------+
 
-Il campo MAC è calcolato secondo quanto indicato al § 9.4.5.2 [11]_. Il
+Il campo MAC è calcolato secondo quanto indicato al § 9.4.5.2 [10]_. Il
 dato viene valorizzato con la stringa costante "*NULL*" nel caso in cui
 l'esito della transazione sia negativo.
 
