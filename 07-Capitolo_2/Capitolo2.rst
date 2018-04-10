@@ -1577,7 +1577,7 @@ FINE DOCUMENTO
    `vedi § 5.3.1 <../11-Capitolo_5/Capitolo5.rst#richiesta-pagamento-telematico-rpt>`__
 
 .. [4]
-   vedi fase 2a della Figura 19 a pagina 48 <../07-Capitolo_2/Capitolo2.rst#inoltro-degli-avvisi-al-debitore>`_
+   vedi fase 2a della Figura 19 a pagina 48 <../Capitolo2.rst#inoltro-degli-avvisi-al-debitore>`_
 
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
