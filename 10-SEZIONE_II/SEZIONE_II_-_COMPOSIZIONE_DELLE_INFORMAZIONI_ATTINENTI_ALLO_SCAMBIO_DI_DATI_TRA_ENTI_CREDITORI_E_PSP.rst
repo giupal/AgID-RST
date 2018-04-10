@@ -2,8 +2,8 @@
 | |AGID_logo_carta_intestata-02.png|                                    |
 +-----------------------------------------------------------------------+
 
-Sezione II - Composizione DELLE INFORMAZIONI ATTINENTI ALLO SCAMBIO DI
-DATI TRA Enti creditori E PSP
+**Sezione II - Composizione DELLE INFORMAZIONI ATTINENTI ALLO SCAMBIO DI
+DATI TRA Enti creditori E PSP**
 
 Nella presente sezione sono date specifiche indicazioni circa lo scambio
 di dati tra Enti Creditori, Nodo dei Pagamenti-SPC e Prestatori di
