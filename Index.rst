@@ -141,7 +141,7 @@ pagamento <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-un-prestato
 `2.9.1.5 Revoca di iscrizione al servizio di avvisatura
 <07-Capitolo_2/Capitolo2.rst#revoca-di-iscrizione-al-servizio-di-avvisatura>`__
 
-`2.9.2 Inoltro degli avvisi al debitore 51 <07-Capitolo_2/Capitolo2.rst#inoltro-degli-avvisi-al-debitore>`__
+`2.9.2 Inoltro degli avvisi al debitore <07-Capitolo_2/Capitolo2.rst#inoltro-degli-avvisi-al-debitore>`__
 
 `2.9.2.1 Invio degli avvisi in modalità File Transfer
 <07-Capitolo_2/Capitolo2.rst#invio-degli-avvisi-in-modalità-file-transfer>`__
@@ -149,7 +149,7 @@ pagamento <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-un-prestato
 `2.9.2.2 Invio degli avvisi in modalità Web service
 <07-Capitolo_2/Capitolo2.rst#invio-degli-avvisi-in-modalità-web-service>`__
 
-`2.9.2.3 Recapito dell'avviso al debitore 52 <07-Capitolo_2/Capitolo2.rst#recapito-dellavviso-al-debitore>`__
+`2.9.2.3 Recapito dell'avviso al debitore <07-Capitolo_2/Capitolo2.rst#recapito-dellavviso-al-debitore>`__
 
 `2.9.2.4 Comunicazione dell'esito del recapito all'Ente creditore
 <07-Capitolo_2/Capitolo2.rst#comunicazione-dellesito-del-recapito-allente-creditore>`__
