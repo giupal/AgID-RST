@@ -130,7 +130,7 @@ Come indicato nel capitolo 2 dell’Allegato A alle Linee guida, il
 formato del **Numero Avviso** è il seguente:
 
 +-----------------------------------+-----------------------------------+
-| <aux digit (1n)>[<application     | (A) [3]_                          |
+| <aux digit (1n)>[<application     | (A) [2]_                          |
 | code> (2n)]<codice IUV (15|17n)>  |                                   |
 +===================================+===================================+
 | **aux digit**                     | Valore numerico che definisce la  |
@@ -572,17 +572,6 @@ FINE DOCUMENTO
    stesso, prevista in 35 caratteri.
 
 .. [2]
-   Si noti come, nella rappresentazione dello schema (A), il componente
-   all'interno delle parentesi quadre (<**application code>**) potrebbe
-   non essere presente nel Numero Avviso.
-
-   La previsione del carattere di controllo dello IUV non comporta per
-   il PSP l’obbligo bensì la facoltà di verifica, consentendo al PSP
-   stesso di controllare il Numero Avviso, con evidente efficientamento
-   del processo di pagamento in quanto evita preventivamente la
-   ricezione di risposte negative inviate dall’Ente Creditor
-
-.. [3]
    Si noti come, nella rappresentazione dello schema (A), il componente
    all'interno delle parentesi quadre (<**application code>**) potrebbe
    non essere presente nel Numero Avviso.
