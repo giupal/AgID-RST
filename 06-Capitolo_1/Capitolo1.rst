@@ -598,7 +598,7 @@ FINE DOCUMENTO
    Generale n.217 del 16-9-2013
 
 .. [3]
-   `Definizioni e Acronimi <../02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst>`__
+   `Vedi il paragrafo Definizioni e Acronimi <../02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst>`__
    
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
