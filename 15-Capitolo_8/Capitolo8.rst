@@ -1681,7 +1681,7 @@ Di seguito i possibili valori del dato faultBean.faultCode:
 +-----------------+-----------------+-----------------+-----------------+
 | **Stato**       | **Descrizione   | **Tipologia     | **Riuso**       |
 |                 | Stato**         | stato RPT**     |                 |
-|                 |                 |                 | **IUV**\  [8]_  |
+|                 |                 |                 | **IUV**\  [7]_  |
 +=================+=================+=================+=================+
 | *RPT_RICEVUTA_N | RPT ricevuta    | Oper. aperta    | NO              |
 | ODO*            | dal Nodo e in   |                 |                 |
@@ -2270,7 +2270,7 @@ richiesta è restituito nella risposta del metodo al NodoSPC, che a sua
 volta la restituisce al PSP.
 
 In caso di esito positivo della verifica, l’Ente Creditore genera la
-RPT [9]_ e contestualmente la invia al NodoSPC con il metodo
+RPT [8]_ e contestualmente la invia al NodoSPC con il metodo
 *nodoInviaRPT*.
 
 Si noti che la primitiva può essere, a parità di parametri e con lo
@@ -3027,7 +3027,7 @@ nodoInviaAvvisoDigitale
 La primitiva ***nodoInviaAvvisoDigitale*** è esposta dal Nodo dei
 Pagamenti-SPC, è utilizzata in modalità sincrona e prevede che il
 NodoSPC riceva l'avviso digitale, lo inoltro sui canali scelti
-dall'utilizzatore finale e restituisca gli esiti [10]_ dell'inoltro
+dall'utilizzatore finale e restituisca gli esiti [9]_ dell'inoltro
 dell'avviso all'Ente Creditore.
 
 Parametri header
@@ -4334,7 +4334,7 @@ c) idSessioneTrasmissione: è la data di invio del flusso, nel formato
 
 d) progressivoFile: è un numero di due cifre rappresentativo del file
    inviato nell’ambito della stessa sessione:‘00’ per il primo, ‘01’ per
-   il secondo, ecc. [11]_;
+   il secondo, ecc. [10]_;
 
 e) tipoFlusso: può assumere uno dei seguenti valori:
 
