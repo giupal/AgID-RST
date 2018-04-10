@@ -607,7 +607,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         | \|      | pagator |
 |         |         |          |         |         |         | e”      |
 |         |         |          |         |         | Debtor  | che     |
-|         |         |          |         |         | [3]_    | rappres |
+|         |         |          |         |         | [1]_    | rappres |
 |         |         |          |         |         |         | enta    |
 |         |         |          |         |         |         | **il    |
 |         |         |          |         |         |         | soggett |
@@ -9884,7 +9884,6 @@ FINE DOCUMENTO
    Vedi nota 1.
 
 .. [4]
-   Vedi
    Vedi nota 1.
 
 .. [5]
