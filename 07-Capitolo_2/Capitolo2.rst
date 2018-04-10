@@ -1574,7 +1574,7 @@ FINE DOCUMENTO
 
 .. [3]
    Dato autenticazioneSoggetto della struttura DatiVersamento della RPT
-   (vedi § 5.3.1).
+   `vedi § 5.3.1 <../11-Capitolo_5/Capitolo5.rst#richiesta-pagamento-telematico-rpt>`__
 
 .. [4]
    vedi sotto fase 2a della Figura 19 a pagina 48
