@@ -9881,32 +9881,22 @@ FINE DOCUMENTO
    `https://www.w3.org/TR/xmlenc-core/#sec-SHA256 <https://www.w3.org/TR/xmlenc-core/#sec-SHA256>`__
 
 .. [3]
-   Ai fini della corrispondenza UNIFI, il soggetto pagatore è associato
-   al Message Element *Ultimate Debtor* nel caso sia presente il
-   soggetto versante, mentre nel caso contrario è associato al Message
-   Element *Debtor*.
+   Vedi nota 1.
 
 .. [4]
    Vedi
-   `https://www.w3.org/TR/xmlenc-core/#sec-SHA256 <https://www.w3.org/TR/xmlenc-core/#sec-SHA256>`__
+   Vedi nota 1.
 
 .. [5]
-   Vedi nota 9 a pagina 69.
+   Vedi nota 1.
 
 .. [6]
-   Vedi nota 9 a pagina 69.
+   ad esempio: il GUID (Globally Unique IDentifier, identificatore unico globale) nelle forme compatibili con la lunghezza massima del    dato stesso, prevista in 35 caratteri.
 
 .. [7]
-   Vedi nota 9 a pagina 69.
+   Si noti come, nella rappresentazione dello schema (A), il componente all'interno delle parentesi quadre (<application code>)            potrebbe non essere presente nel Numero Avviso.
+   La previsione del carattere di controllo dello IUV non comporta per il PSP l’obbligo bensì la facoltà di verifica, consentendo al      PSP stesso di controllare il Numero Avviso, con evidente efficientamento del processo di pagamento in quanto evita preventivamente      la ricezione di risposte negative inviate dall’Ente Creditor
 
-.. [8]
-   Vedi nota 9 a pagina 69.
-
-.. [9]
-   Vedi nota 9 a pagina 69.
-
-.. [10]
-   Vedi nota 9 a pagina 69.
 
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
