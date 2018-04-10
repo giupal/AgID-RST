@@ -3773,7 +3773,7 @@ Stringhe URL utilizzate per la "redirect".
 
 Si fa presente che in questa fase il contenuto dei campi URLDONE,
 URLBACK ed URLMS sono predisposti direttamente a cura dell'Ente
-Creditore [12]_.
+Creditore [10]_.
 
 Nel caso in cui le stringhe che rappresentano le URL inviate dalla
 componente “Wrapper MyBank” contengano parametri o caratteri
@@ -3968,7 +3968,7 @@ informazioni di Tabella 44.
 | 07                                | Ordine duplicato                  |
 +-----------------------------------+-----------------------------------+
 
-Il campo MAC è calcolato secondo quanto indicato al § 9.4.5.2 [13]_. Il
+Il campo MAC è calcolato secondo quanto indicato al § 9.4.5.2 [11]_. Il
 dato viene valorizzato con la stringa costante "*NULL*" nel caso in cui
 l'esito della transazione sia negativo.
 
@@ -4620,16 +4620,10 @@ FINE DOCUMENTO
    concordato tra NodoSPC e PSP.
 
 .. [7]
-   Poiché tali parametri possono essere diversi da PSP a PSP, non è
-   possibile darne una modellazione dettagliata valida per tutti i casi.
-   Si preferisce pertanto rappresentarli come stringa di formato
-   concordato tra NodoSPC e PSP.
-
-.. [8]
    Per alcuni PSP può contenere, ad esempio, la stringa
    “idBruciatura=<codiceBruciatura>”
 
-.. [9]
+.. [8]
    Per fornire un’indicazione immediata dello stato di avanzamento
    relativo dell’operazione, l’inizio della stringa può essere
    valorizzato con: *“(numero passo attuale – numero totale passi del
@@ -4640,26 +4634,21 @@ FINE DOCUMENTO
 
    (1-2): CONFERMATO_[consegnato ACK positivo da FESP PSP]
 
-   ..
-
    (2-2): CONSEGNATO_PSP_[conferma di trasmissione al PSP]
 
    (1-1): SCARTATO_[consegnato ACK negativo da FESP PSP]
 
+.. [9]
+   Viene applicata la regular expression [a-zA-Z0-9\-_].
+
 .. [10]
-   Viene applicata la regular expression [a-zA-Z0-9\-_].
-
-.. [11]
-   Viene applicata la regular expression [a-zA-Z0-9\-_].
-
-.. [12]
    Per quanto riguarda URLDONE ed URLMS, si tenga presente che la
    componente *Initiating Party*, nel predisporre il messaggio HTTP di
    esisto del pagamento, dovrà concatenare i dati identificativi
    dell’ordine al termine di queste due stringhe, secondo il formato
    indicato al successivo § 9.4.3.
 
-.. [13]
+.. [11]
    La componente “Wrapper MyBank” che riceve il messaggio ricalcola il
    MAC utilizzando la stringa segreta “chiave B” in suo possesso per
    verificare che esso coincida con quello inserito nel messaggio
