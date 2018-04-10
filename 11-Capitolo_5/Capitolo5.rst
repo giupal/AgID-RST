@@ -2006,7 +2006,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ito     |
 |         |         |          |         |         |         | in      |
 |         |         |          |         |         |         | base64**|
-|         |         |          |         |         |         | \  [4]_.|
+|         |         |          |         |         |         | \  [2]_.|
 +---------+---------+----------+---------+---------+---------+---------+
 | pro     | 4       | an       | 1..1    | 2       | Proprie | Sigla   |
 | vinciaR |         |          |         |         | tary    | automob |
@@ -2682,7 +2682,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         | \|      | zioni   |
 |         |         |         |         |         |         | present |
 |         |         |         |         |         | Debtor  | i       |
-|         |         |         |         |         | [6]_    | nel     |
+|         |         |         |         |         | [3]_    | nel     |
 |         |         |         |         |         |         | blocco  |
 |         |         |         |         |         |         | “sogget |
 |         |         |         |         |         |         | toPagat |
@@ -3735,7 +3735,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         | \|      | zioni   |
 |         |         |         |         |         |         | present |
 |         |         |         |         |         | Debtor  | i       |
-|         |         |         |         |         | [8]_    | nel     |
+|         |         |         |         |         | [4]_    | nel     |
 |         |         |         |         |         |         | blocco  |
 |         |         |         |         |         |         | “sogget |
 |         |         |         |         |         |         | toPagat |
@@ -4333,7 +4333,7 @@ relativa allo “storno” di un pagamento\ *.*
 |         |         |         |         |         | \|      | zioni   |
 |         |         |         |         |         |         | present |
 |         |         |         |         |         | Debtor  | i       |
-|         |         |         |         |         | [10]_   | nel     |
+|         |         |         |         |         | [5]_    | nel     |
 |         |         |         |         |         |         | blocco  |
 |         |         |         |         |         |         | “sogget |
 |         |         |         |         |         |         | toPagat |
