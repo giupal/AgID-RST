@@ -4595,8 +4595,8 @@ FINE DOCUMENTO
    ***nodoAttivaRPT*** e ***nodoAllegaRPT*** nei successivi paragrafi.
 
 .. [2]
-   Ad esempio: importo variato, interessi di mora, ecc. Allo scopo si
-   veda il § 7.4.5.
+   Ad esempio: importo variato, interessi di mora, ecc. Allo scopo `si
+   veda il § 7.4.5 <../13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__
 
 .. [3]
    Vedi Nota 28 a pagina 174.
