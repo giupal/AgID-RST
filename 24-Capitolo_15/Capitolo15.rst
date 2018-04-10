@@ -267,7 +267,7 @@ da utilizzare**
 |                       | aPSP**                |                       |
 +=======================+=======================+=======================+
 | QR-Code o input da    | QR-CODE               | IdRPT_QR_Code_<versio |
-| terminale [2]_        |                       | ne>.xsd               |
+| terminale [1]_        |                       | ne>.xsd               |
 +-----------------------+-----------------------+-----------------------+
 | Barcode GS1-128       | BARCODE-GS1-128       | IdRPT_GS1_128_<versio |
 |                       |                       | ne>.xsd               |
@@ -321,11 +321,6 @@ Lo schema XSD di tale oggetto è disponibile con il file
 FINE DOCUMENTO
 
 .. [1]
-   Il terminale può essere un ATM, quello dell'operatore del PSP ovvero
-   quell'utilizzatore finale che utilizza le funzioni di home banking
-   messe disposizione dal PSP.
-
-.. [2]
    Il terminale può essere un ATM, quello dell'operatore del PSP ovvero
    quell'utilizzatore finale che utilizza le funzioni di home banking
    messe disposizione dal PSP.
