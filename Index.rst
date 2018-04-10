@@ -49,7 +49,7 @@
 `1.5.5 Integrità e non ripudiabilità della RT <06-Capitolo_1/Capitolo1.rst#integrità-e-non-ripudiabilità-della-rt>`__
 
 `1.5.6 Trasparenza nei confronti degli utilizzatori finali
-<06-Capitolo_1/Capitolo1.rst#trasparenza-nei-confronti-degli-utilizzatori-final>`__
+<06-Capitolo_1/Capitolo1.rst#trasparenza-nei-confronti-degli-utilizzatori-finali>`__
 
 `1.6 Funzioni accessorie di controllo e di verifica
 <06-Capitolo_1/Capitolo1.rst#funzioni-accessorie-di-controllo-e-di-verifica>`__
