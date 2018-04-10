@@ -4400,7 +4400,7 @@ FINE DOCUMENTO
 .. [5]
    Si ricorda che detto data base è popolato con le informazioni inviate
    con la notifica di iscrizione al servizio da parte del PSP, tra cui
-   questi dati sono presenti (cfr. Tabella 27 a pagina 19).
+   questi dati sono presenti (`cfr. Tabella 27 <../11-Capitolo_5/Capitolo5.rst#notifica-delliscrizione-al-servizio-di-avvisatura-digitale>`__
 
 .. [6]
    Elementi tipoIdentificativoUnivoco e identificativoUnivocoPagatore.
