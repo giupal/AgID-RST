@@ -9888,14 +9888,6 @@ FINE DOCUMENTO
 .. [5]
    Vedi nota 1.
 
-.. [6]
-   ad esempio: il GUID (Globally Unique IDentifier, identificatore unico globale) nelle forme compatibili con la lunghezza massima del    dato stesso, prevista in 35 caratteri.
-
-.. [7]
-   Si noti come, nella rappresentazione dello schema (A), il componente all'interno delle parentesi quadre (<application code>)            potrebbe non essere presente nel Numero Avviso.
-   La previsione del carattere di controllo dello IUV non comporta per il PSP l’obbligo bensì la facoltà di verifica, consentendo al      PSP stesso di controllare il Numero Avviso, con evidente efficientamento del processo di pagamento in quanto evita preventivamente      la ricezione di risposte negative inviate dall’Ente Creditor
-
-
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
    :height: 1.30277in
