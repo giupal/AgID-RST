@@ -10,7 +10,7 @@
 
 `Definizioni e Acronimi </02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst>`__
 
-`Definizioni e Acronimi </03-INTRODUZIONE/INTRODUZIONE.rst>`__
+`Introduzione </03-INTRODUZIONE/INTRODUZIONE.rst>`__
 
 `Premessa alla Versione 2.1 </04-PREMESSA_ALLA_VERSIONE_2.1/PREMESSA_ALLA_VERSIONE_2.1.rst>`__
 
