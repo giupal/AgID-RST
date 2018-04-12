@@ -87,8 +87,8 @@ processo di pagamento e che svolgono i seguenti ruoli:
 |                                   | tecnologico nei confronti         |
 |                                   | dell’Ente Creditore .             |
 +-----------------------------------+-----------------------------------+
-| **Prestatore di Servizi di        | È il soggetto, abilitato dalle    |
-| Pagamento**                       | norme vigenti in materia, ad      |
+| **Prestatore di Servizi di**      | È il soggetto, abilitato dalle    |
+| **Pagamento**                     | norme vigenti in materia, ad      |
 |                                   | eseguire le richieste di          |
 | **(Debtor e Creditor Bank)**      | pagamento in via elettronica ed a |
 |                                   | restituire la ricevuta            |
@@ -176,7 +176,7 @@ Dominio dei Pagamenti dell’Ente Creditore
 Il sistema complessivo - formato dalla comunità di Enti Creditori, PSP
 ed eventuali gestori di pubblici servizi aderenti e dai loro
 intermediari tecnologici, che possono accedere ed utilizzare il Servizio
-- costituisce il “\ **Dominio dei Pagamenti dell’Ente Creditore**\ ”
+- costituisce il “**Dominio dei Pagamenti dell’Ente Creditore**”
 (più brevemente Dominio). Implicitamente con il termine di Dominio ci si
 riferisce anche alle componenti tecnico-organizzative di tali attori.
 
@@ -352,7 +352,7 @@ Oggetti scambiati
 ~~~~~~~~~~~~~~~~~
 .. _Oggetti scambiati:
 
-Nei ”\ *workflow*\ ” applicativi gestiti dal Nodo dei Pagamenti-SPC
+Nei ”*workflow*” applicativi gestiti dal Nodo dei Pagamenti-SPC
 (vedi capitolo 2) è previsto lo scambio di oggetti applicativi
 costituiti da documenti informatici, in formato di file XML, le cui
 specifiche di dettaglio sono riportate nel Capitolo 5 del presente
@@ -470,7 +470,7 @@ Integrità e non ripudiabilità della RT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. _Integrità e non ripudiabilità della RT:
 
-Laddove il “\ *workflow* del procedimento amministrativo consenta
+Laddove il “*workflow* del procedimento amministrativo consenta
 all’Ente Creditore di ricevere il documento informatico RT dal
 prestatore di servizi di pagamento direttamente per il tramite del Nodo
 dei Pagamenti-SPC, si evidenzia, sin da ora, agli Enti Creditori che non
@@ -492,8 +492,8 @@ Telematica, indicando tale vincolo in un apposito elemento della RPT.
 Creditori aderenti al sistema pagoPA durante la vigenza delle presenti
 specifiche.**
 
-**Gli EC che adottano tale modalità dovranno predisporre un piano in
-vista della dismissione.**
+**Gli EC che adottano tale modalità dovranno predisporre un piano in**
+**vista della dismissione.**
 
 Trasparenza nei confronti degli utilizzatori finali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -599,7 +599,7 @@ dettaglio su tali oggetti si veda il Capitolo 2).
 
 .. [3]
    `Vedi il paragrafo Definizioni e Acronimi <../02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst>`__
-   
+
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
    :height: 1.30277in
