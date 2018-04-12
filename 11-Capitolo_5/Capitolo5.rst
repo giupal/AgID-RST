@@ -206,8 +206,8 @@ a favore dello stesso Ente Creditore.
 **Tabella** **1 - Elementi componenti la RPT**
 
 +---------+---------+----------+---------+---------+---------+---------+
-| **Dato**| **Liv** |**Genere**| **Occ** | **Len** |**UNIFI**| **Conte |
-|         |         |          |         |         |         | nuto**  |
+| **Dato**| **Liv** |**Genere**| **Occ** | **Len** |**UNIFI**|**Conte**|
+|         |         |          |         |         |         |**nuto** |
 +=========+=========+==========+=========+=========+=========+=========+
 | versione| 1       | an       | 1..1    | 1..16   | Version | Version |
 | Oggetto |         |          |         |         | Number  | e       |
@@ -360,11 +360,11 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ISO     |
 |         |         |          |         |         |         | 8601    |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **[YYYY |
+|         |         |          |         |         |         | [YYYY   |
 |         |         |          |         |         |         | ]-[MM]- |
 |         |         |          |         |         |         | [DD]T[h |
 |         |         |          |         |         |         | h]:[mm] |
-|         |         |          |         |         |         | :[ss]** |
+|         |         |          |         |         |         | :[ss]   |
 +---------+---------+----------+---------+---------+---------+---------+
 | aut     | 1       | an       | 1..1    | 4       | Proprie | Contien |
 | enticaz |         |          |         |         | tary    | e       |
@@ -389,23 +389,23 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | pagamen |
 |         |         |          |         |         |         | to      |
 |         |         |          |         |         |         | -       |
-|         |         |          |         |         |         | **‘CN   |
-|         |         |          |         |         |         | S’**\   |
+|         |         |          |         |         |         | ‘CN     |
+|         |         |          |         |         |         | S’  \   |
 |         |         |          |         |         |         | =CIE/CNS|
 |         |         |          |         |         |         | -       |
-|         |         |          |         |         |         | **‘US   |
-|         |         |          |         |         |         | R’**\   |
+|         |         |          |         |         |         |   ‘US   |
+|         |         |          |         |         |         | R’\     |
 |         |         |          |         |         |         | =       |
 |         |         |          |         |         |         | Userid  |
 |         |         |          |         |         |         | e       |
 |         |         |          |         |         |         | passwor |
 |         |         |          |         |         |         | d       |
-|         |         |          |         |         |         | -  **‘O |
-|         |         |          |         |         |         | TH’**\  |
+|         |         |          |         |         |         | -  ‘O   |
+|         |         |          |         |         |         | TH’  \  |
 |         |         |          |         |         |         | =       |
 |         |         |          |         |         |         | Altro   |
-|         |         |          |         |         |         | -  **‘N |
-|         |         |          |         |         |         | /A’**\  |
+|         |         |          |         |         |         | -    ‘N |
+|         |         |          |         |         |         | /A’  \  |
 |         |         |          |         |         |         | =       |
 |         |         |          |         |         |         | Non     |
 |         |         |          |         |         |         | applica |
@@ -473,12 +473,12 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | seguent |
 |         |         |          |         |         |         | i       |
 |         |         |          |         |         |         | valori: |
-|         |         |          |         |         |         | -  **‘F |
-|         |         |          |         |         |         | ’**\ =  |
+|         |         |          |         |         |         | -    ‘F |
+|         |         |          |         |         |         | ’  \ =  |
 |         |         |          |         |         |         | Persona |
 |         |         |          |         |         |         | fisica  |
-|         |         |          |         |         |         | -  **‘G |
-|         |         |          |         |         |         | ’**\ =  |
+|         |         |          |         |         |         | -    ‘G |
+|         |         |          |         |         |         | ’  \ =  |
 |         |         |          |         |         |         | Persona |
 |         |         |          |         |         |         | Giuridi |
 |         |         |          |         |         |         | ca.     |
@@ -524,8 +524,8 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ato     |
 |         |         |          |         |         |         | il      |
 |         |         |          |         |         |         | valore  |
-|         |         |          |         |         |         | “\ **AN |
-|         |         |          |         |         |         | ONIMO** |
+|         |         |          |         |         |         | “\   AN |
+|         |         |          |         |         |         | ONIMO   |
 |         |         |          |         |         |         | \ ”     |
 +---------+---------+----------+---------+---------+---------+---------+
 | ana     | 2       | an       | 1..1    | 1..70   | Name    | Indica  |
@@ -609,9 +609,9 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         | Debtor  | che     |
 |         |         |          |         |         | [1]_    | rappres |
 |         |         |          |         |         |         | enta    |
-|         |         |          |         |         |         | **il    |
+|         |         |          |         |         |         |   il    |
 |         |         |          |         |         |         | soggett |
-|         |         |          |         |         |         | o**     |
+|         |         |          |         |         |         | o       |
 |         |         |          |         |         |         | (Person |
 |         |         |          |         |         |         | a       |
 |         |         |          |         |         |         | Fisica  |
@@ -668,12 +668,12 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | seguent |
 |         |         |          |         |         |         | i       |
 |         |         |          |         |         |         | valori: |
-|         |         |          |         |         |         | -  **‘F |
-|         |         |          |         |         |         | ’**\ =  |
+|         |         |          |         |         |         | -    ‘F |
+|         |         |          |         |         |         | ’  \ =  |
 |         |         |          |         |         |         | Persona |
 |         |         |          |         |         |         | fisica  |
-|         |         |          |         |         |         | -  **‘G |
-|         |         |          |         |         |         | ’**\ =  |
+|         |         |          |         |         |         | -    ‘G |
+|         |         |          |         |         |         | ’  \ =  |
 |         |         |          |         |         |         | Persona |
 |         |         |          |         |         |         | Giuridi |
 |         |         |          |         |         |         | ca.     |
@@ -717,8 +717,8 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ato     |
 |         |         |          |         |         |         | il      |
 |         |         |          |         |         |         | valore  |
-|         |         |          |         |         |         | “\ **AN |
-|         |         |          |         |         |         | ONIMO** |
+|         |         |          |         |         |         | “\   AN |
+|         |         |          |         |         |         | ONIMO   |
 |         |         |          |         |         |         | \ ”     |
 +---------+---------+----------+---------+---------+---------+---------+
 | ana     | 2       | an       | 1..1    | 1..70   | Name    | Indica  |
@@ -856,7 +856,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | e       |
 |         |         |          |         |         |         | il      |
 |         |         |          |         |         |         | valore  |
-|         |         |          |         |         |         | \**G**\,|
+|         |         |          |         |         |         | **G**,  |
 |         |         |          |         |         |         |         |
 |         |         |          |         |         |         | Identif |
 |         |         |          |         |         |         | icativo |
@@ -1065,11 +1065,11 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ISO     |
 |         |         |          |         |         |         | 8601    |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **[YYYY |
+|         |         |          |         |         |         | [YYYY   |
 |         |         |          |         |         |         | ]-[MM]- |
-|         |         |          |         |         |         | [DD].** |
+|         |         |          |         |         |         | [DD].   |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **Non   |
+|         |         |          |         |         |         |   Non   |
 |         |         |          |         |         |         | può     |
 |         |         |          |         |         |         | essere  |
 |         |         |          |         |         |         | anterio |
@@ -1089,7 +1089,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | o       |
 |         |         |          |         |         |         | alla    |
 |         |         |          |         |         |         | stessa  |
-|         |         |          |         |         |         | data.** |
+|         |         |          |         |         |         | data.   |
 +---------+---------+----------+---------+---------+---------+---------+
 | imp     | 2       | an       | 1..1    | 3..12   | Amount  | Campo   |
 | ortoTot |         |          |         |         |         | numeric |
@@ -1147,7 +1147,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | samento |
 |         |         |          |         |         |         | .       |
 +---------+---------+----------+---------+---------+---------+---------+
-| tip     | 2       | an       | 1..1    | 4       | Proprie | *Forma  |
+| tip     | 2       | an       | 1..1    | 4       | Proprie | Forma   |
 | oVersam |         |          |         |         | tary    | tecnica |
 | ento    |         |          |         |         | Code    | di      |
 |         |         |          |         |         |         | pagamen |
@@ -1164,7 +1164,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ta      |
 |         |         |          |         |         |         | presso  |
 |         |         |          |         |         |         | il      |
-|         |         |          |         |         |         | PSP.*   |
+|         |         |          |         |         |         | PSP.    |
 |         |         |          |         |         |         | Può     |
 |         |         |          |         |         |         | assumer |
 |         |         |          |         |         |         | e       |
@@ -1314,21 +1314,21 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ISO     |
 |         |         |          |         |         |         | 13616.  |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **Il    |
+|         |         |          |         |         |         | Il      |
 |         |         |          |         |         |         | dato è  |
 |         |         |          |         |         |         | obbliga |
 |         |         |          |         |         |         | torio   |
 |         |         |          |         |         |         | qualora |
 |         |         |          |         |         |         | l’infor |
 |         |         |          |         |         |         | mazione |
-|         |         |          |         |         |         | **      |
-|         |         |          |         |         |         | **tipoP |
+|         |         |          |         |         |         |         |
+|         |         |          |         |         |         |tipoP    |
 |         |         |          |         |         |         | agament |
 |         |         |          |         |         |         | o       |
 |         |         |          |         |         |         | assuma  |
 |         |         |          |         |         |         | il      |
 |         |         |          |         |         |         | valore  |
-|         |         |          |         |         |         | “AD”.** |
+|         |         |          |         |         |         | “AD”.   |
 +---------+---------+----------+---------+---------+---------+---------+
 | bic     | 2       | an       | 0..1    | 8  | 11 | Debtor  | Bank    |
 | Addebit |         |          |         |         | Agent   | Identif |
@@ -1401,7 +1401,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | **3** = |
 |         |         |          |         |         |         | XaDes   |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **La    |
+|         |         |          |         |         |         | La      |
 |         |         |          |         |         |         | possibi |
 |         |         |          |         |         |         | lità    |
 |         |         |          |         |         |         | per     |
@@ -1424,7 +1424,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | per     |
 |         |         |          |         |         |         | retro   |
 |         |         |          |         |         |         | compati |
-|         |         |          |         |         |         | bilità**|
+|         |         |          |         |         |         | bilità  |
 |         |         |          |         |         |         |         |
 +---------+---------+----------+---------+---------+---------+---------+
 | dat     | 2       | S        | 1..5    |         |         | Aggrega |
@@ -1455,7 +1455,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | Versame |
 |         |         |          |         |         |         | nto.    |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **Si    |
+|         |         |          |         |         |         | Si      |
 |         |         |          |         |         |         | precisa |
 |         |         |          |         |         |         | che     |
 |         |         |          |         |         |         | nell’ag |
@@ -1482,7 +1482,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | stesso  |
 |         |         |          |         |         |         | ordine  |
 |         |         |          |         |         |         | della   |
-|         |         |          |         |         |         | RPT.**  |
+|         |         |          |         |         |         | RPT.    |
 +---------+---------+----------+---------+---------+---------+---------+
 | imp     | 3       | an       | 1..1    | 3..12   | Amount  | Campo   |
 | ortoSin |         |          |         |         |         | numeric |
@@ -1519,11 +1519,11 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | versame |
 |         |         |          |         |         |         | nto.    |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **Deve  |
+|         |         |          |         |         |         | Deve    |
 |         |         |          |         |         |         | essere  |
 |         |         |          |         |         |         | diverso |
 |         |         |          |         |         |         | da      |
-|         |         |          |         |         |         | “0.00”**|
+|         |         |          |         |         |         | “0.00”  |
 |         |         |          |         |         |         |         |
 +---------+---------+----------+---------+---------+---------+---------+
 | com     | 3       | an       | 0..1    | 3..12   | Charges | Campo   |
@@ -1592,15 +1592,15 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | Credito |
 |         |         |          |         |         |         | ri.     |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **Se    |
+|         |         |          |         |         |         | Se      |
 |         |         |          |         |         |         | present |
 |         |         |          |         |         |         | e       |
 |         |         |          |         |         |         | deve    |
 |         |         |          |         |         |         | essere  |
 |         |         |          |         |         |         | diverso |
 |         |         |          |         |         |         | da      |
-|         |         |          |         |         |         | “0.00** |
-|         |         |          |         |         |         | \ ”.    |
+|         |         |          |         |         |         | “0.00”. |
+|         |         |          |         |         |         |         |
 +---------+---------+----------+---------+---------+---------+---------+
 | iba     | 3       | an       | 0..1    | 1..35   | Credito | Identif |
 | nAccred |         |          |         |         | r       | ica     |
@@ -1636,7 +1636,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | Credito |
 |         |         |          |         |         |         | re.     |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **Non   |
+|         |         |          |         |         |         | Non     |
 |         |         |          |         |         |         | deve    |
 |         |         |          |         |         |         | essere  |
 |         |         |          |         |         |         | present |
@@ -1652,15 +1652,15 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | datiMar |
 |         |         |          |         |         |         | caBollo |
 |         |         |          |         |         |         | Digital |
-|         |         |          |         |         |         | e.**    |
+|         |         |          |         |         |         | e.      |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **In    |
+|         |         |          |         |         |         | In      |
 |         |         |          |         |         |         | tutti   |
 |         |         |          |         |         |         | gli     |
 |         |         |          |         |         |         | alti    |
 |         |         |          |         |         |         | casi è  |
 |         |         |          |         |         |         | obbliga |
-|         |         |          |         |         |         | torio.**|
+|         |         |          |         |         |         | torio.  |
 |         |         |          |         |         |         |         |
 +---------+---------+----------+---------+---------+---------+---------+
 | bic     | 3       | an       | 0..1    | 8  | 11 | Credito | Bank    |
@@ -1833,13 +1833,13 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | articol |
 |         |         |          |         |         |         | ato:    |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **<tipo |
+|         |         |          |         |         |         | <tipo   |
 |         |         |          |         |         |         | contabi |
 |         |         |          |         |         |         | lità>”  |
 |         |         |          |         |         |         | /”      |
 |         |         |          |         |         |         | <codice |
 |         |         |          |         |         |         | contabi |
-|         |         |          |         |         |         | lità>** |
+|         |         |          |         |         |         | lità>   |
 |         |         |          |         |         |         |         |
 |         |         |          |         |         |         | Dove    |
 |         |         |          |         |         |         | <tipo   |
@@ -1907,7 +1907,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | digital |
 |         |         |          |         |         |         | e.      |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **La    |
+|         |         |          |         |         |         | La      |
 |         |         |          |         |         |         | struttu |
 |         |         |          |         |         |         | ra      |
 |         |         |          |         |         |         | è       |
@@ -1920,9 +1920,9 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | redito  |
 |         |         |          |         |         |         | non sia |
 |         |         |          |         |         |         | present |
-|         |         |          |         |         |         | e.**    |
+|         |         |          |         |         |         | e.      |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **In    |
+|         |         |          |         |         |         | In      |
 |         |         |          |         |         |         | tutti   |
 |         |         |          |         |         |         | gli     |
 |         |         |          |         |         |         | altri   |
@@ -1931,7 +1931,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | deve    |
 |         |         |          |         |         |         | essere  |
 |         |         |          |         |         |         | popolat |
-|         |         |          |         |         |         | a.**    |
+|         |         |          |         |         |         | a.      |
 +---------+---------+----------+---------+---------+---------+---------+
 | tip     | 4       | an       | 1..1    | 2       | Proprie | Contien |
 | oBollo  |         |          |         |         | tary    | e       |
@@ -1950,10 +1950,10 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | i       |
 |         |         |          |         |         |         | valori: |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **01    |
+|         |         |          |         |         |         | 01      |
 |         |         |          |         |         |         | Imposta |
 |         |         |          |         |         |         | di      |
-|         |         |          |         |         |         | bollo** |
+|         |         |          |         |         |         | bollo   |
 +---------+---------+----------+---------+---------+---------+---------+
 | has     | 4       | an       | 1..1    | 70      |         | Contien |
 | hDocume |         |          |         |         |         | e       |
@@ -1961,8 +1961,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | nta     |
 |         |         |          |         |         |         | informa |
 |         |         |          |         |         |         | tica    |
-|         |         |          |         |         |         | (*diges |
-|         |         |          |         |         |         | t*)     |
+|         |         |          |         |         |         | (digest)|
 |         |         |          |         |         |         | del     |
 |         |         |          |         |         |         | documen |
 |         |         |          |         |         |         | to      |
@@ -1989,7 +1988,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | SHA-256 |
 |         |         |          |         |         |         | .       |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         | **La    |
+|         |         |          |         |         |         | La      |
 |         |         |          |         |         |         | stringa |
 |         |         |          |         |         |         | di 256  |
 |         |         |          |         |         |         | bit (32 |
@@ -2005,8 +2004,8 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | convert |
 |         |         |          |         |         |         | ito     |
 |         |         |          |         |         |         | in      |
-|         |         |          |         |         |         | base64**|
-|         |         |          |         |         |         | \  [2]_.|
+|         |         |          |         |         |         | base64  |
+|         |         |          |         |         |         |   [2]_. |
 +---------+---------+----------+---------+---------+---------+---------+
 | pro     | 4       | an       | 1..1    | 2       | Proprie | Sigla   |
 | vinciaR |         |          |         |         | tary    | automob |
@@ -2057,8 +2056,8 @@ pubblici su ordine dell'utilizzatore finale.
 **Tabella** **2 - Elementi componenti la RT**
 
 +---------+---------+---------+---------+---------+---------+---------+
-| **Dato**| **Liv** | **Gener | **Occ** | **Len** |**UNIFI**| **Conte |
-|         |         | e**     |         |         |         | nuto**  |
+| **Dato**| **Liv** |**Gener**| **Occ** | **Len** |**UNIFI**|**Conte**|
+|         |         |**e**    |         |         |         |**nuto** |
 +=========+=========+=========+=========+=========+=========+=========+
 | ver     | 1       | an      | 1..1    | 1..16   | Version | Riporta |
 | sioneOg |         |         |         |         | Number  | la      |
@@ -2080,8 +2079,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**)    |
+|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | Dom     | 1       | s       | 1..1    |         | Initiat | Riporta |
 | inio    |         |         |         |         | ing     | le      |
@@ -2102,8 +2101,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**)    |
+|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | ide     | 1       | an      | 1..1    | 1..35   | Message | Identif |
 | ntifica |         |         |         |         | Identif | icativo |
@@ -2133,7 +2132,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | dataOra |
 |         |         |         |         |         |         | Messagg |
 |         |         |         |         |         |         | ioRicev |
-|         |         |         |         |         |         | uta\.   |
+|         |         |         |         |         |         | uta.    |
 |         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | dat     | 1       | an      | 1..1    | 19      | Creatio | Indica  |
@@ -2151,11 +2150,11 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | ISO     |
 |         |         |         |         |         |         | 8601    |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **[YYYY |
+|         |         |         |         |         |         | [YYYY   |
 |         |         |         |         |         |         | ]-[MM]- |
 |         |         |         |         |         |         | [DD]T[h |
 |         |         |         |         |         |         | h]:[mm] |
-|         |         |         |         |         |         | :[ss]** |
+|         |         |         |         |         |         | :[ss]   |
 +---------+---------+---------+---------+---------+---------+---------+
 | rif     | 1       | an      | 1..1    | 1..35   | Origina | Con     |
 | eriment |         |         |         |         | l       | riferim |
@@ -2192,8 +2191,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**).   |
+|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | rif     | 1       | an      | 1..1    | 10      | Origina | Indica  |
 | eriment |         |         |         |         | l       | la data |
@@ -2202,9 +2201,9 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         | Date    | formato |
 |         |         |         |         |         | Time    | ISO     |
 |         |         |         |         |         |         | 8601    |
-|         |         |         |         |         |         | **[YYYY |
+|         |         |         |         |         |         | [YYYY   |
 |         |         |         |         |         |         | ]-[MM]- |
-|         |         |         |         |         |         | [DD]**  |
+|         |         |         |         |         |         | [DD]    |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -2393,11 +2392,11 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | Tabella |
 |         |         |         |         |         |         | 9).     |
 +---------+---------+---------+---------+---------+---------+---------+
-| cod     | 3       | an      | 1..1    | 1..35   | BIC \|  | Campo   |
+| cod     | 3       | an      | 1..1    | 1..35   | BIC |   | Campo   |
 | iceIden |         |         |         |         |         | alfanum |
 | tificat |         |         |         |         | Proprie | erico   |
 | ivoUniv |         |         |         |         | tary    | che può |
-| oco     |         |         |         |         | \|      | contene |
+| oco     |         |         |         |         |  |      | contene |
 |         |         |         |         |         |         | re      |
 |         |         |         |         |         | Tax     | il      |
 |         |         |         |         |         | Identif | codice  |
@@ -2627,8 +2626,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**)    |
+|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         |         |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -2661,8 +2660,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**)    |
+|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         |         |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -2679,7 +2678,7 @@ pubblici su ordine dell'utilizzatore finale.
 | gettoPa |         |         |         |         | e       | le      |
 | gatore  |         |         |         |         | Debtor  | stesse  |
 |         |         |         |         |         |         | informa |
-|         |         |         |         |         | \|      | zioni   |
+|         |         |         |         |         | |       | zioni   |
 |         |         |         |         |         |         | present |
 |         |         |         |         |         | Debtor  | i       |
 |         |         |         |         |         | [3]_    | nel     |
@@ -2828,7 +2827,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | samento |
 |         |         |         |         |         |         | .       |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Se    |
+|         |         |         |         |         |         | Se      |
 |         |         |         |         |         |         | il      |
 |         |         |         |         |         |         | pagamen |
 |         |         |         |         |         |         | to      |
@@ -2836,10 +2835,10 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | stato   |
 |         |         |         |         |         |         | eseguit |
 |         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | (*\ cod |
+|         |         |         |         |         |         | (cod    |
 |         |         |         |         |         |         | iceEsit |
 |         |         |         |         |         |         | oPagame |
-|         |         |         |         |         |         | nto\ *= |
+|         |         |         |         |         |         | nto=    |
 |         |         |         |         |         |         | 1),     |
 |         |         |         |         |         |         | l’impor |
 |         |         |         |         |         |         | to      |
@@ -2848,10 +2847,10 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | imposta |
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | 0.00*.**|
+|         |         |         |         |         |         | 0.00    |
 |         |         |         |         |         |         |         |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Se la |
+|         |         |         |         |         |         | Se la   |
 |         |         |         |         |         |         | RT      |
 |         |         |         |         |         |         | viene   |
 |         |         |         |         |         |         | generat |
@@ -2891,7 +2890,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | l’esito |
 |         |         |         |         |         |         | del     |
 |         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.**   |
+|         |         |         |         |         |         | to.     |
 +---------+---------+---------+---------+---------+---------+---------+
 | ide     | 2       | an      | 1..1    | 1..35   | Credito | Il dato |
 | ntifica |         |         |         |         | r       | deve    |
@@ -2921,8 +2920,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**)    |
+|         |         |         |         |         |         |(**RPT**)|
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -2963,8 +2961,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**)    |
+|         |         |         |         |         |         |(**RPT**)|
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3003,7 +3000,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | Versame |
 |         |         |         |         |         |         | nto.    |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Le    |
+|         |         |         |         |         |         | Le      |
 |         |         |         |         |         |         | occorre |
 |         |         |         |         |         |         | nze     |
 |         |         |         |         |         |         | di      |
@@ -3021,9 +3018,9 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | o       |
 |         |         |         |         |         |         | messagg |
 |         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | RPT.**  |
+|         |         |         |         |         |         | RPT.    |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Obbli |
+|         |         |         |         |         |         | Obbli   |
 |         |         |         |         |         |         | gatorio |
 |         |         |         |         |         |         | nel     |
 |         |         |         |         |         |         | caso in |
@@ -3037,7 +3034,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | il      |
 |         |         |         |         |         |         | valore  |
 |         |         |         |         |         |         | 0, 2 o  |
-|         |         |         |         |         |         | 4**     |
+|         |         |         |         |         |         | 4       |
 +---------+---------+---------+---------+---------+---------+---------+
 | sin     | 3       | an      | 1..1    | 3..12   | Amount  | Campo   |
 | goloImp |         |         |         |         |         | numeric |
@@ -3067,7 +3064,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | somma   |
 |         |         |         |         |         |         | pagata. |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Se il |
+|         |         |         |         |         |         | Se il   |
 |         |         |         |         |         |         | singolo |
 |         |         |         |         |         |         | pagamen |
 |         |         |         |         |         |         | to      |
@@ -3082,9 +3079,9 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | imposta |
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | 0.00.** |
+|         |         |         |         |         |         | 0.00.   |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Se la |
+|         |         |         |         |         |         | Se la   |
 |         |         |         |         |         |         | RT      |
 |         |         |         |         |         |         | viene   |
 |         |         |         |         |         |         | generat |
@@ -3119,7 +3116,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | l’esito |
 |         |         |         |         |         |         | del     |
 |         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.**   |
+|         |         |         |         |         |         | to.     |
 +---------+---------+---------+---------+---------+---------+---------+
 | esi     | 3       | an      | 0..1    | 1..35   | Status  | Contien |
 | toSingo |         |         |         |         | Reason  | e       |
@@ -3136,7 +3133,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | pagamen |
 |         |         |         |         |         |         | to.     |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Obbli |
+|         |         |         |         |         |         | Obbli   |
 |         |         |         |         |         |         | gatorio |
 |         |         |         |         |         |         | nel     |
 |         |         |         |         |         |         | caso    |
@@ -3148,7 +3145,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | oPagato |
 |         |         |         |         |         |         | *       |
 |         |         |         |         |         |         | sia     |
-|         |         |         |         |         |         | 0.00**  |
+|         |         |         |         |         |         | 0.00    |
 +---------+---------+---------+---------+---------+---------+---------+
 | dat     | 3       | an      | 1..1    | 10      | Accepta | Indica  |
 | aEsitoS |         |         |         |         | nce     | la data |
@@ -3252,7 +3249,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | Versame |
 |         |         |         |         |         |         | nto.    |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Deve  |
+|         |         |         |         |         |         | Deve    |
 |         |         |         |         |         |         | coincid |
 |         |         |         |         |         |         | ere     |
 |         |         |         |         |         |         | con lo  |
@@ -3270,9 +3267,9 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | Capitol |
 |         |         |         |         |         |         | o       |
 |         |         |         |         |         |         | 7 delle |
-|         |         |         |         |         |         | SACI)** |
+|         |         |         |         |         |         | SACI)   |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Se il |
+|         |         |         |         |         |         | Se il   |
 |         |         |         |         |         |         | singolo |
 |         |         |         |         |         |         | pagamen |
 |         |         |         |         |         |         | to      |
@@ -3286,7 +3283,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | imposta |
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | “n/a”.**|
+|         |         |         |         |         |         | “n/a”.  |
 |         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | cau     | 3       | an      | 1..1    | 1..140  | Unstruc | Il dato |
@@ -3317,8 +3314,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**)    |
+|         |         |         |         |         |         |(**RPT**)|
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3359,8 +3355,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RP   |
-|         |         |         |         |         |         | T**)    |
+|         |         |         |         |         |         |(**RPT**)|
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3561,8 +3556,8 @@ di pagamento per richiedere lo “storno” di un pagamento.
 **Tabella** **3 - Elementi componenti la RR**
 
 +---------+---------+---------+---------+---------+---------+---------+
-| **Dato**| **Liv** | **Gener | **Occ** | **Len** |**UNIFI**| **Conte |
-|         |         | e**     |         |         |         | nuto**  |
+| **Dato**| **Liv** |**Gener**| **Occ** | **Len** |**UNIFI**|**Conte**|
+|         |         |**e**    |         |         |         | **nuto**  |
 +=========+=========+=========+=========+=========+=========+=========+
 | ver     | 1       | an      | o       | 1..16   | Version | Riporta |
 | sioneOg |         |         |         |         | Number  | la      |
@@ -3581,8 +3576,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT** |
-|         |         |         |         |         |         | ).      |
+|         |         |         |         |         |         |(**RT**) |
 +---------+---------+---------+---------+---------+---------+---------+
 | Dom     | 1       | s       | 1..1    |         | Initiat | Riporta |
 | inio    |         |         |         |         | ing     | le      |
@@ -3600,8 +3594,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT** |
-|         |         |         |         |         |         | ).      |
+|         |         |         |         |         |         | (**RT**)|
 +---------+---------+---------+---------+---------+---------+---------+
 | ide     | 1       | an      | 1..1    | 1..35   | Message | Identif |
 | ntifica |         |         |         |         | Identif | icativo |
@@ -3647,11 +3640,11 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | ISO     |
 |         |         |         |         |         |         | 8601    |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **[YYYY |
+|         |         |         |         |         |         | [YYYY   |
 |         |         |         |         |         |         | ]-[MM]- |
 |         |         |         |         |         |         | [DD]T[h |
 |         |         |         |         |         |         | h]:[mm] |
-|         |         |         |         |         |         | :[ss]** |
+|         |         |         |         |         |         | :[ss]   |
 +---------+---------+---------+---------+---------+---------+---------+
 | ist     | 1       | s       | 1..1    |         | Debtor  | Aggrega |
 | itutoAt |         |         |         |         | Agent   | zione   |
@@ -3682,8 +3675,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT** |
-|         |         |         |         |         |         | )       |
+|         |         |         |         |         |         | (**RT**)|
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3713,8 +3705,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT** |
-|         |         |         |         |         |         | )       |
+|         |         |         |         |         |         | (**RT**)|
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3732,7 +3723,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 | gettoPa |         |         |         |         | e       | le      |
 | gatore  |         |         |         |         | Debtor  | stesse  |
 |         |         |         |         |         |         | informa |
-|         |         |         |         |         | \|      | zioni   |
+|         |         |         |         |         |  |      | zioni   |
 |         |         |         |         |         |         | present |
 |         |         |         |         |         | Debtor  | i       |
 |         |         |         |         |         | [4]_    | nel     |
@@ -3745,8 +3736,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT** |
-|         |         |         |         |         |         | )       |
+|         |         |         |         |         |         | (**RT**)|
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3916,8 +3906,8 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         |         |
 |         |         |         |         |         |         | Il dato |
 |         |         |         |         |         |         | è       |
-|         |         |         |         |         |         | **Obblig|
-|         |         |         |         |         |         | atorio**|
+|         |         |         |         |         |         | Obblig  |
+|         |         |         |         |         |         | atorio  |
 |         |         |         |         |         |         | in caso |
 |         |         |         |         |         |         | di      |
 |         |         |         |         |         |         | utilizz |
@@ -3965,11 +3955,11 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | back*   |
 |         |         |         |         |         |         |         |
 |         |         |         |         |         |         | Il dato |
-|         |         |         |         |         |         | **non   |
+|         |         |         |         |         |         | non     |
 |         |         |         |         |         |         | deve    |
 |         |         |         |         |         |         | essere  |
 |         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e**     |
+|         |         |         |         |         |         | e       |
 |         |         |         |         |         |         | in caso |
 |         |         |         |         |         |         | di      |
 |         |         |         |         |         |         | utilizz |
@@ -4111,13 +4101,13 @@ Esito della Revoca (ER)
 servizi di pagamento per indicare l’esito di una richiesta di revoca di
 un pagamento, ovvero inviato dal prestatore di servizi di pagamento
 all’Ente Creditore per indicare l’esito di una richiesta di revoca
-relativa allo “storno” di un pagamento\ *.*
+relativa allo “storno” di un pagamento.
 
 **Tabella** **4 - Elementi componenti la ER**
 
 +---------+---------+---------+---------+---------+---------+---------+
-| **Dato**| **Liv** | **Gener | **Occ** | **Len** |**UNIFI**| **Conte |
-|         |         | e**     |         |         |         | nuto**  |
+| **Dato**| **Liv** |**Gener**| **Occ** | **Len** |**UNIFI**|**Conte**|
+|         |         |**e**    |         |         |         |**nuto** |
 +=========+=========+=========+=========+=========+=========+=========+
 | ver     | 1       | an      | 1..1    | 1..16   | Version | Riporta |
 | sioneOg |         |         |         |         | Number  | la      |
@@ -4203,11 +4193,11 @@ relativa allo “storno” di un pagamento\ *.*
 |         |         |         |         |         |         | ISO     |
 |         |         |         |         |         |         | 8601    |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **[YYYY |
+|         |         |         |         |         |         | [YYYY   |
 |         |         |         |         |         |         | ]-[MM]- |
 |         |         |         |         |         |         | [DD]T[h |
 |         |         |         |         |         |         | h]:[mm] |
-|         |         |         |         |         |         | :[ss]** |
+|         |         |         |         |         |         | :[ss]   |
 +---------+---------+---------+---------+---------+---------+---------+
 | rif     | 1       | an      | 1..1    | 1..35   | Origina | Con     |
 | eriment |         |         |         |         | l       | riferim |
@@ -4249,9 +4239,9 @@ relativa allo “storno” di un pagamento\ *.*
 |         |         |         |         |         | Date    | formato |
 |         |         |         |         |         | Time    | ISO     |
 |         |         |         |         |         |         | 8601    |
-|         |         |         |         |         |         | **[YYYY |
+|         |         |         |         |         |         | [YYYY   |
 |         |         |         |         |         |         | ]-[MM]- |
-|         |         |         |         |         |         | [DD]**  |
+|         |         |         |         |         |         | [DD]    |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -4530,7 +4520,7 @@ relativa allo “storno” di un pagamento\ *.*
 |         |         |         |         |         |         | revocat |
 |         |         |         |         |         |         | a.      |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **Se la |
+|         |         |         |         |         |         | Se la   |
 |         |         |         |         |         |         | richies |
 |         |         |         |         |         |         | ta      |
 |         |         |         |         |         |         | non è   |
@@ -4541,7 +4531,7 @@ relativa allo “storno” di un pagamento\ *.*
 |         |         |         |         |         |         | imposta |
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | 0.00.** |
+|         |         |         |         |         |         | 0.00.   |
 +---------+---------+---------+---------+---------+---------+---------+
 | ide     | 3       | an      | 1..1    | 1..35   | Transac | Riporta |
 | ntifica |         |         |         |         | tion    | la      |
@@ -4614,7 +4604,7 @@ Tabella delle controparti
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 .. _Tabella delle controparti:
 
-La “\ *Tabella delle controparti*\ ” è il documento informatico che
+La “*Tabella delle controparti*” è il documento informatico che
 contiene l’elenco degli Enti Creditori aderenti al Nodo dei
 Pagamenti-SPC. Tale elenco ha valenza giornaliera: dalle ore 0 alle ore
 24. Nella Tabella 5 sono specificate le informazioni che il Nodo dei
@@ -4623,8 +4613,8 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 **Tabella** **5 - Elementi componenti la “Tabella delle controparti”**
 
 +---------+---------+---------+---------+---------+---------+---------+
-| **Dato**| **Liv** | **Gener | **c**   | **Len** | **Conte |         |
-|         |         | e**     |         |         | nuto**  |         |
+| **Dato**| **Liv** |**Gener**| **c**   | **Len** |**Conte**|         |
+|         |         | **e**   |         |         |**nuto** |         |
 +=========+=========+=========+=========+=========+=========+=========+
 | inf     | 1       | s       | 1..n    |         | Struttu |         |
 | ormativ |         |         |         |         | ra      |         |
@@ -4687,9 +4677,9 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | formato |         |
 |         |         |         |         |         | ISO     |         |
 |         |         |         |         |         | 8601:   |         |
-|         |         |         |         |         | **[YYYY |         |
+|         |         |         |         |         | [YYYY   |         |
 |         |         |         |         |         | ]-[MM]- |         |
-|         |         |         |         |         | [DD]**  |         |
+|         |         |         |         |         | [DD]    |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | pag     | 2       | n       | 1..1    | 1       | Indica  |         |
 | amentiP |         |         |         |         | se      |         |
@@ -4860,9 +4850,9 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | formato |         |
 |         |         |         |         |         | ISO     |         |
 |         |         |         |         |         | 8601:   |         |
-|         |         |         |         |         | **[YYYY |         |
+|         |         |         |         |         | [YYYY   |         |
 |         |         |         |         |         | ]-[MM]- |         |
-|         |         |         |         |         | [DD]**  |         |
+|         |         |         |         |         | [DD]    |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | avv     | 2       | n       | 0..1    | 1       | Indica  |         |
 | isatura |         |         |         |         | che     |         |
@@ -4927,7 +4917,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | Credito |         |
 |         |         |         |         |         | re.     |         |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         | **L’inf |         |
+|         |         |         |         |         | L’inf   |         |
 |         |         |         |         |         | ormazio |         |
 |         |         |         |         |         | ne      |         |
 |         |         |         |         |         | è       |         |
@@ -4943,7 +4933,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | assuma  |         |
 |         |         |         |         |         | il      |         |
 |         |         |         |         |         | valore  |         |
-|         |         |         |         |         | 1.**    |         |
+|         |         |         |         |         | 1.      |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | dis     | 3       | s       | 1..n    |         | Aggrega |         |
 | ponibil |         |         |         |         | zione   |         |
@@ -5023,25 +5013,25 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | tipoPer |         |
 |         |         |         |         |         | iodo.   |         |
 +---------+---------+---------+---------+---------+---------+---------+
-|         |         |         |         |         | **giorn | il campo|
-|         |         |         |         |         | aliera**| viene   |
-|         |         |         |         |         | :       | omesso  |
+|         |         |         |         |         | giorn   | il campo|
+|         |         |         |         |         | aliera: | viene   |
+|         |         |         |         |         |         | omesso  |
 |         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
-|         |         |         |         |         | **setti |"lunedi",|
-|         |         |         |         |         | manale**| oppure  |
-|         |         |         |         |         | :       |"martedi"|
+|         |         |         |         |         | setti   |"lunedi",|
+|         |         |         |         |         | manale: | oppure  |
+|         |         |         |         |         |         |"martedi"|
 |         |         |         |         |         |         | ...     |
 +---------+---------+---------+---------+---------+---------+---------+
-|         |         |         |         |         | **mensi | giorno  |
-|         |         |         |         |         | le**:   | singolo |
+|         |         |         |         |         | mensile:| giorno  |
+|         |         |         |         |         |         | singolo |
 |         |         |         |         |         |         | di calen|
 |         |         |         |         |         |         | dario   |
 |         |         |         |         |         |         | es. “25”|
 |         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
-|         |         |         |         |         | **annua | giorno  |
-|         |         |         |         |         | le**:   | singolo |
+|         |         |         |         |         | annuale:| giorno  |
+|         |         |         |         |         |         | singolo |
 |         |         |         |         |         |         | nella   |
 |         |         |         |         |         |         | forma   |
 |         |         |         |         |         |         | “gg-mm” |
@@ -5079,9 +5069,9 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | giorno  |         |
 |         |         |         |         |         | nel     |         |
 |         |         |         |         |         | formato |         |
-|         |         |         |         |         | **[hh]: |         |
+|         |         |         |         |         | [hh]:   |         |
 |         |         |         |         |         | [mm]:[s |         |
-|         |         |         |         |         | s].**   |         |
+|         |         |         |         |         | s].     |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | fascia  | 5       | an      | 0..1    | 8       | Orario  |         |
 | OrariaA |         |         |         |         | di fine |         |
@@ -5093,9 +5083,9 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | giorno  |         |
 |         |         |         |         |         | nel     |         |
 |         |         |         |         |         | formato |         |
-|         |         |         |         |         | **[hh]: |         |
+|         |         |         |         |         | [hh]:   |         |
 |         |         |         |         |         | [mm]:[s |         |
-|         |         |         |         |         | s].**   |         |
+|         |         |         |         |         | s].     |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | ind     | 3       | s       | 0..n    |         | Aggrega |         |
 | isponib |         |         |         |         | zione   |         |
@@ -5139,9 +5129,9 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | della   |         |
 |         |         |         |         |         | struttu |         |
 |         |         |         |         |         | ra      |         |
-|         |         |         |         |         | “**di   |         |
+|         |         |         |         |         | “di     |         |
 |         |         |         |         |         | sponibi |         |
-|         |         |         |         |         | lita**” |         |
+|         |         |         |         |         | lita”   |         |
 |         |         |         |         |         | con il  |         |
 |         |         |         |         |         | cato    |         |
 |         |         |         |         |         | signifi |         |
@@ -5200,9 +5190,9 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 | Bank    |         |         |         |         | icativo |         |
 |         |         |         |         |         | MyBank  |         |
 |         |         |         |         |         | della   |         |
-|         |         |         |         |         | *Seller |         |
+|         |         |         |         |         | Seller  |         |
 |         |         |         |         |         | prescel |         |
-|         |         |         |         |         | Bank*   |         |
+|         |         |         |         |         | Bank    |         |
 |         |         |         |         |         | ta      |         |
 |         |         |         |         |         | dall'En |         |
 |         |         |         |         |         | te      |         |
@@ -5228,16 +5218,15 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | colloqu |         |
 |         |         |         |         |         | io      |         |
 |         |         |         |         |         | tra     |         |
-|         |         |         |         |         | *Wrappe |         |
-|         |         |         |         |         | r*      |         |
+|         |         |         |         |         |*Wrapper*|         |
 |         |         |         |         |         | MyBank  |         |
-|         |         |         |         |         | *ed     |         |
+|         |         |         |         |         | ed      |         |
 |         |         |         |         |         | Initiat |         |
 |         |         |         |         |         | ing     |         |
-|         |         |         |         |         | Party*  |         |
+|         |         |         |         |         | Party   |         |
 |         |         |         |         |         | della   |         |
-|         |         |         |         |         | *Seller |         |
-|         |         |         |         |         | Bank*.  |         |
+|         |         |         |         |         | Seller  |         |
+|         |         |         |         |         | Bank.   |         |
 |         |         |         |         |         |         |         |
 |         |         |         |         |         | Il dato |         |
 |         |         |         |         |         | può     |         |
@@ -5264,8 +5253,8 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | tra     |         |
 |         |         |         |         |         | ata     |         |
 |         |         |         |         |         | AgID e  |         |
-|         |         |         |         |         | *Seller |         |
-|         |         |         |         |         | Bank*). |         |
+|         |         |         |         |         | Seller  |         |
+|         |         |         |         |         | Bank).  |         |
 +---------+---------+---------+---------+---------+---------+---------+
 
 Le informazioni sono codificate in un file XML secondo il tracciato di
@@ -5276,8 +5265,8 @@ disposizione (vedi § 9.2.10 della Sezione III).
 **Tabella** **6 - Formato file XML della “Tabella delle controparti”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | lista     | 1         | s         | 1..1      |           | Lista     |
 | Informati |           |           |           |           | delle     |
@@ -5327,8 +5316,8 @@ in Tabella 7.
 **Tabella** **7 - Tracciato XML per comunicazione "Erogazione servizi EC"**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | infor     | 1         | s         | 1..n      |           | Struttura |
 | mativaCon |           |           |           |           | che       |
@@ -5418,10 +5407,10 @@ in Tabella 7.
 |           |           |           |           |           | Flusso    |
 |           |           |           |           |           | corrente. |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 |           |           |           |           |           |           |
 |           |           |           |           |           | Dev’esser |
 |           |           |           |           |           | e         |
@@ -5453,10 +5442,10 @@ in Tabella 7.
 |           |           |           |           |           | nel       |
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601: |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | pagam     | 2         | n         | 1..1      | 1         | Indica se |
 | entiPress |           |           |           |           | l’Ente    |
@@ -5501,7 +5490,7 @@ in Tabella 7.
 |           |           |           |           |           | Creditore |
 |           |           |           |           |           | .         |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **L’infor |
+|           |           |           |           |           | L’infor   |
 |           |           |           |           |           | mazione   |
 |           |           |           |           |           | è         |
 |           |           |           |           |           | obbligato |
@@ -5511,7 +5500,7 @@ in Tabella 7.
 |           |           |           |           |           | dato      |
 |           |           |           |           |           | pagamenti |
 |           |           |           |           |           | PressoPSP |
-|           |           |           |           |           | sia 1.**  |
+|           |           |           |           |           | sia 1.    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
 Per ciò che attiene alla comunicazione le informazioni relative ai conti
@@ -5521,8 +5510,8 @@ in Tabella 8.
 **Tabella** **8 - Tracciato XML per comunicazione "IBAN di accredito"**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | infor     | 1         | s         | 1..1      |           | Informati |
 | mativaCon |           |           |           |           | va        |
@@ -5604,10 +5593,10 @@ in Tabella 8.
 |           |           |           |           |           | Flusso    |
 |           |           |           |           |           | corrente. |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 |           |           |           |           |           |           |
 |           |           |           |           |           | Dev’esser |
 |           |           |           |           |           | e         |
@@ -5648,10 +5637,10 @@ in Tabella 8.
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601: |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 |           |           |           |           |           |           |
 |           |           |           |           |           | Dev’esser |
 |           |           |           |           |           | e         |
@@ -5715,17 +5704,16 @@ in Tabella 8.
 |           |           |           |           |           | ,         |
 |           |           |           |           |           | di norma  |
 |           |           |           |           |           | la Banca  |
-|           |           |           |           |           | Tesoriera |
-|           |           |           |           |           | .         |
+|           |           |           |           |           | Tesoriera.|
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Oppure, |                                                           |
+| Oppure,   |                                                           |
 | in        |                                                           |
 | alternati |                                                           |
 | va,       |                                                           |
 | la        |                                                           |
 | struttura |                                                           |
 | sotto     |                                                           |
-| indicata**|                                                           |
+| indicata  |                                                           |
 |           |                                                           |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | infoC     | 3         | s         | 0..1      |           | Aggregazi |
@@ -5789,8 +5777,8 @@ catalogo:
 **Tabella** **9 - Elementi componenti il “Catalogo Dati Informativi”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | informati | 1         | s         | 1..1      |           | Informati |
 | vaPSP     |           |           |           |           | va        |
@@ -6491,8 +6479,8 @@ disposizione dal PSP.
 
 **servizioAlleImprese (++++):**
 
-**Il dato è stato inserito per usi futuri. Può non essere
-valorizzato**. Indica che lo specifico servizio erogato dal PSP è
+**Il dato è stato inserito per usi futuri. Può non essere valorizzato**.
+Indica che lo specifico servizio erogato dal PSP è
 destinato ad un utilizzo solo da parte delle imprese.
 
 *Valori Ammessi:*
@@ -6573,8 +6561,8 @@ cui al dato codiceLingua.
 
 **limitazioniServizio (+++++):**
 
-**Il dato è stato inserito per usi futuri. Può non essere
-valorizzato**. Informazioni in formato testo che riportano
+**Il dato è stato inserito per usi futuri. Può non essere valorizzato**.
+Informazioni in formato testo che riportano
 eventuali limitazioni poste dal PSP nell'erogazione del servizio,
 nella lingua di cui al dato codiceLingua (esempio: Il servizio è
 dedicato ad una particolare categoria di professionisti o
@@ -6660,8 +6648,8 @@ numero dei pagamenti) allora:
 
 **tipoCommissione (++++):**
 
-**Il dato è stato inserito per usi futuri. Allo stato è ammesso
-solo il valore 0.** Tipo di commissione da utilizzare per il
+**Il dato è stato inserito per usi futuri. Allo stato è ammesso solo il valore 0.**
+Tipo di commissione da utilizzare per il
 calcolo del costo da applicare alla transazione.
 
 *Valori Ammessi:*
@@ -6676,8 +6664,8 @@ calcolo del costo da applicare alla transazione.
 
 **tipoCanaleServizio (++++):**
 
-**Il dato è definito, ma non utilizzato nella corrente versione
-del Catalogo dati Informati.**
+**Il dato è definito, ma non utilizzato nella corrente versione**
+**del Catalogo dati Informati.**
 
 Modalità attraverso il quale è erogato il servizio.
 
@@ -6695,8 +6683,8 @@ Modalità attraverso il quale è erogato il servizio.
 
 **plateaErogazioneServizio (++++):**
 
-**Il dato è definito, ma non utilizzato nella corrente versione
-del Catalogo dati Informativi.**
+**Il dato è definito, ma non utilizzato nella corrente versione**
+**del Catalogo dati Informativi.**
 
 Tipologia di clientela verso la quale viene erogato il servizio.
 
@@ -6784,8 +6772,8 @@ Digitale.
 
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | lista     | 1         | s         | 1..1      |           | Lista     |
 | Informati |           |           |           |           | delle     |
@@ -6828,8 +6816,8 @@ richiedente.
 **Tabella** **13 - Tracciato XML del flusso "Totali di Traffico - EC"**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | versi     | 1         | an        | 1..1      | 1..16     | Versione  |
 | oneOggett |           |           |           |           | che       |
@@ -6860,10 +6848,10 @@ richiedente.
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | sogge     | 1         | s         | 1..1      | 1..35     | Elemento  |
 | ttoRichie |           |           |           |           | che       |
@@ -6922,10 +6910,10 @@ richiedente.
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | dataF     | 1         | an        | 1..1      | 19        | Data di   |
 | inePeriod |           |           |           |           | fine      |
@@ -6943,10 +6931,10 @@ richiedente.
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]  - |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | uadr      | 1         | s         | 1..1      |           | Aggregazi |
 | aturaRPT  |           |           |           |           | one       |
@@ -7275,8 +7263,8 @@ di stretta pertinenza del singolo richiedente.
 **Tabella** **14 - Tracciato XML del flusso "Totali di Traffico - PSP"**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | versi     | 1         | an        | 1..1      | 1..16     | Versione  |
 | oneOggett |           |           |           |           | che       |
@@ -7377,10 +7365,10 @@ di stretta pertinenza del singolo richiedente.
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | dataF     | 1         | an        | 1..1      | 19        | Data di   |
 | inePeriod |           |           |           |           | fine      |
@@ -7398,10 +7386,10 @@ di stretta pertinenza del singolo richiedente.
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | quadr     | 1         | s         | 1..1      |           | Aggregazi |
 | aturaRPT  |           |           |           |           | one       |
@@ -7729,8 +7717,8 @@ gli elementi componenti il messaggio stesso, ora indicati nella Tabella
 **Tabella** **15 - Elementi componenti il Messaggio di ACK**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | ident     | 1         | an        | 1..1      | 35        | Identific |
 | ificativo |           |           |           |           | ativo     |
@@ -8007,8 +7995,8 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 **Tabella** **16 - Elementi componenti il “Catalogo dei Servizi”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | idSer     | 1         | an        | 1..1      | 5         | Codice    |
 | vizio     |           |           |           |           | numerico  |
@@ -8087,9 +8075,9 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |           |           |           |           |           | nel       |
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601: |
-|           |           |           |           |           | **[YYYY]  |
+|           |           |           |           |           | [YYYY]    |
 |           |           |           |           |           | - [MM] -  |
-|           |           |           |           |           | [DD]**    |
+|           |           |           |           |           | [DD]      |
 |           |           |           |           |           |           |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | xsdRi     | 1         | an        | 1.1       | 35        | Nome      |
@@ -8142,8 +8130,8 @@ Digitale.
 **Tabella** **17 - Tracciato XML per comunicazione “Catalogo dei Servizi”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | lista     | 1         | s         | 1..1      |           | Lista     |
 | CatalogoS |           |           |           |           | delle     |
@@ -8166,8 +8154,8 @@ Digitale.
 |           |           |           |           |           | e         |
 |           |           |           |           |           | della     |
 |           |           |           |           |           | struttura |
-|           |           |           |           |           | **catalog |
-|           |           |           |           |           | oServizi**|
+|           |           |           |           |           | catalog   |
+|           |           |           |           |           | oServizi  |
 |           |           |           |           |           | definita  |
 |           |           |           |           |           | nella     |
 |           |           |           |           |           | precedent |
@@ -8471,8 +8459,8 @@ in formato digitale.
 **Tabella** **19 - Elementi componenti l’Avviso digitale**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | avviso    | 1         | s         | 1..1      |           | Struttura |
 | Digitale  |           |           |           |           | che       |
@@ -8736,9 +8724,9 @@ in formato digitale.
 |           |           |           |           |           | il        |
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | .**       |
+|           |           |           |           |           |           |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | dataS     | 2         | an        | 1..1      | 10        | Indica la |
 | cadenzaAv |           |           |           |           | data,     |
@@ -8759,9 +8747,9 @@ in formato digitale.
 |           |           |           |           |           | il        |
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | .**       |
+|           |           |           |           |           |           |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | impor     | 2         | an        | 1..1      | 3..12     | Campo     |
 | toAvviso  |           |           |           |           | numerico  |
@@ -8784,11 +8772,11 @@ in formato digitale.
 |           |           |           |           |           | somma da  |
 |           |           |           |           |           | versare.  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **Deve    |
+|           |           |           |           |           | Deve      |
 |           |           |           |           |           | essere    |
 |           |           |           |           |           | maggiore  |
 |           |           |           |           |           | di        |
-|           |           |           |           |           | “0.10”.** |
+|           |           |           |           |           | “0.10”.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | eMail     | 2         | an        | 0..1      | 1..256    | Indirizzo |
 | Soggetto  |           |           |           |           | di posta  |
@@ -8823,9 +8811,9 @@ in formato digitale.
 |           |           |           |           |           | Nel       |
 |           |           |           |           |           | formato:  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **+NN     |
+|           |           |           |           |           | +NN       |
 |           |           |           |           |           | NNN-NNNNN |
-|           |           |           |           |           | NN**      |
+|           |           |           |           |           | NN        |
 |           |           |           |           |           |           |
 |           |           |           |           |           | Se        |
 |           |           |           |           |           | presente, |
@@ -8990,8 +8978,8 @@ di avviso di pagamento in formato digitale.
 **Tabella** **20 - Elementi componenti l’Esito Avviso digitale**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | esito     | 1         | s         | 1..1      |           | Struttura |
 | AvvisoDig |           |           |           |           | che       |
@@ -9082,7 +9070,7 @@ di avviso di pagamento in formato digitale.
 |           |           |           |           |           | dell’avvi |
 |           |           |           |           |           | satura.   |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **Deve    |
+|           |           |           |           |           | Deve      |
 |           |           |           |           |           | essere    |
 |           |           |           |           |           | presente  |
 |           |           |           |           |           | e         |
@@ -9094,7 +9082,7 @@ di avviso di pagamento in formato digitale.
 |           |           |           |           |           | eEsito    |
 |           |           |           |           |           | = 2       |
 |           |           |           |           |           | oppure    |
-|           |           |           |           |           | 4**       |
+|           |           |           |           |           | 4         |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | dataEsito | 3         | an        | 1..1      | 10        | Data di   |
 |           |           |           |           |           | produzion |
@@ -9114,9 +9102,9 @@ di avviso di pagamento in formato digitale.
 |           |           |           |           |           | il        |
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | .**       |
+|           |           |           |           |           |           |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | codice    | 3         | n         | 1..1      | 5         | Esito     |
 | Esito     |           |           |           |           | dell'invi |
@@ -9183,8 +9171,8 @@ degli avvisi.
 **Tabella** **21 - Tracciato XML per comunicazione “Lista Avvisi digitali”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | lista     | 1         | s         | 1..1      |           | Lista     |
 | AvvisiDig |           |           |           |           | degli     |
@@ -9239,8 +9227,8 @@ Creditore con il flusso di cui sopra è indicata in Tabella 22.
 **Tabella** **22 - Tracciato XML per comunicazione “Lista esito inoltro Avvisi digitali”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | lista     | 1         | s         | 1..1      |           | Lista     |
 | EsitoAvvi |           |           |           |           | degli     |
@@ -9312,8 +9300,8 @@ del loro esito.
 **Tabella** **23 - Tracciato XML per la segnalazione di “Presa in carico” (File di ACK)**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | esito     | 1         | s         | 1..1      |           | Struttura |
 | PresaInCa |           |           |           |           | che       |
@@ -9395,12 +9383,12 @@ del loro esito.
 |           |           |           |           |           | re        |
 |           |           |           |           |           | rilevato. |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **Obbliga |
+|           |           |           |           |           | Obbliga   |
 |           |           |           |           |           | torio     |
 |           |           |           |           |           | se        |
 |           |           |           |           |           | l'esito è |
 |           |           |           |           |           | diverso   |
-|           |           |           |           |           | da 0.**   |
+|           |           |           |           |           | da 0.     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
 Scambio informazioni via web service
@@ -9439,8 +9427,8 @@ servizio.
 **Tabella** **24 - Componenti del parametro avvisoDigitaleWS**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | avvis     | 2         | s         | 1..1      |           | Contiene  |
 | oDigitale |           |           |           |           | le stesse |
@@ -9468,8 +9456,8 @@ servizio.
 **Tabella** **25 - Componenti del parametro esitoAvvisoDigitaleWS**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | esito     | 2         | s         | 1..1      |           | Contiene  |
 | AvvisoDig |           |           |           |           | le stesse |
@@ -9502,8 +9490,8 @@ all'interno del WSDL del servizio.
 **Tabella** **26 - Componenti del parametro avvisoDigitale**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | avviso    | 2         | s         | 1..1      |           | Contiene  |
 | Digitale  |           |           |           |           | le stesse |
@@ -9535,8 +9523,8 @@ formalmente all'interno del WSDL del servizio.
 **Tabella** **27 - Componenti del parametro datiNotifica**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | dataOra   | 2         | an        | 1..1      | 1..19     | Indica la |
 | Richiesta |           |           |           |           | data e    |
@@ -9561,10 +9549,10 @@ formalmente all'interno del WSDL del servizio.
 |           |           |           |           |           | al GMT.   |
 |           |           |           |           |           | Formato   |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]**  |
+|           |           |           |           |           | ]:[ss]    |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | ident     | 2         | an        | 1..1      | 1..20     | Identific |
 | ificativo |           |           |           |           | ativo     |
@@ -9680,8 +9668,8 @@ all'interno del WSDL del servizio.
 **Tabella** **28 - Componenti del parametro elencoAvvisiDigitali**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | ident     | 2         | an        | 1..1      | 1..35     | Campo     |
 | ificativo |           |           |           |           | alfanumer |
@@ -9749,16 +9737,16 @@ all'interno del WSDL del servizio.
 |           |           |           |           |           | La        |
 |           |           |           |           |           | struttura |
 |           |           |           |           |           | è         |
-|           |           |           |           |           | **obbliga |
-|           |           |           |           |           | toria**   |
+|           |           |           |           |           | obbliga   |
+|           |           |           |           |           | toria     |
 |           |           |           |           |           | se        |
 |           |           |           |           |           | l'element |
 |           |           |           |           |           | o         |
-|           |           |           |           |           | **numeroA |
+|           |           |           |           |           | numeroA   |
 |           |           |           |           |           | vvisi     |
 |           |           |           |           |           | e         |
 |           |           |           |           |           | maggiore  |
-|           |           |           |           |           | di 0**.   |
+|           |           |           |           |           | di 0.     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | codice    | 3         | an        | 1..1      | 18        | Codice    |
 | Avviso    |           |           |           |           | dell’avvi |
@@ -9812,9 +9800,9 @@ all'interno del WSDL del servizio.
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | ISO 8601  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY   |
+|           |           |           |           |           | [YYYY     |
 |           |           |           |           |           | ]-[MM]-[  |
-|           |           |           |           |           | DD]**     |
+|           |           |           |           |           | DD]       |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | importo   | 3         | an        | 1..1      | 3..12     | Campo     |
 | Avviso    |           |           |           |           | numerico  |
@@ -9837,11 +9825,11 @@ all'interno del WSDL del servizio.
 |           |           |           |           |           | somma da  |
 |           |           |           |           |           | versare.  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **Deve    |
+|           |           |           |           |           | Deve      |
 |           |           |           |           |           | essere    |
 |           |           |           |           |           | maggiore  |
 |           |           |           |           |           | di        |
-|           |           |           |           |           | “0.10”.** |
+|           |           |           |           |           | “0.10”.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | descr     | 3         | an        | 1..1      | 1..249    | Testo     |
 | izionePag |           |           |           |           | libero a  |
