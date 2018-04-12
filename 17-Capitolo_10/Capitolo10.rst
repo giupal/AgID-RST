@@ -109,7 +109,7 @@ struttura **faultBean** composta così come indicato in Tabella 51.
 +-----------------------------------------------------------------------+
 | Posizione dell’elemento nella lista a cui fa riferimento. Utile       |
 | quando si fornisce un parametro in forma di vettore (ad esempio,      |
-| nella primitiva ***nodoInviaCarrelloRPT***).                          |
+| nella primitiva **nodoInviaCarrelloRPT**).                            |
 |                                                                       |
 | Nel caso in cui l'errore sia generato dall'EC o dal PSP, il dato      |
 | riporta il valore del dato faultBean.serial impostato dall'EC o       |
@@ -190,9 +190,9 @@ nella **Gestione degli errori** delle singole primitive.
 +-----------------------------------+-----------------------------------+
 | *CANALE_RPT_SCONOSCIUTA*          | RPT sconosciuta.                  |
 +-----------------------------------+-----------------------------------+
-| *CANALE_RT_NON_DISPONIBILE*       | *Vedi §* *9.2.2.2 **pspChiediRT   |
-|                                   | e** §* *9.2.2.4                   |
-|                                   | **pspChiediListaRT***             |
+| *CANALE_RT_NON_DISPONIBILE*       | *Vedi § 9.2.2.2 * *pspChiediRT e* |
+|                                   | *§**9.2.2.4*                      |
+|                                   | **pspChiediListaRT**              |
 +-----------------------------------+-----------------------------------+
 | *CANALE_RT_SCONOSCIUTA*           | RT sconosciuta.                   |
 +-----------------------------------+-----------------------------------+
@@ -358,14 +358,14 @@ nella **Gestione degli errori** delle singole primitive.
 | *PPT_STAZIONE_INT_PA_DISABILITATA*| Stazione disabilitata.            |
 |                                   |                                   |
 +-----------------------------------+-----------------------------------+
-| *PPT_STAZIONE_INT_PA_IRRAGGIUNGIB | Errore di connessione verso la    |
-| ILE*                              | Stazione                          |
+| *PPT_STAZIONE_INT_PA_IRRAGGIUNGIB*| Errore di connessione verso la    |
+| *ILE*                             | Stazione                          |
 +-----------------------------------+-----------------------------------+
 | *PPT_STAZIONE_INT_PA_SCONOSCIUTA* | IdentificativoStazioneRichiedente |
 |                                   | sconosciuto.                      |
 +-----------------------------------+-----------------------------------+
-| *PPT_STAZIONE_INT_PA_SERVIZIO_NON | Il Servizio Applicativo della     |
-| ATTIVO*                           | Stazione non è attivo             |
+| *PPT_STAZIONE_INT_PA_SERVIZIO_NON*| Il Servizio Applicativo della     |
+| *ATTIVO*                          | Stazione non è attivo             |
 +-----------------------------------+-----------------------------------+
 | *PPT_SUPERAMENTOSOGLIA*           | Una qualche soglia fissata per    |
 |                                   | PPT è temporaneamente superata e  |
@@ -402,7 +402,7 @@ Creditore o PSP), di seguito sono date maggiori indicazioni circa alcuni
 faultCode emessi dai vari soggetti:
 
 +-----------------------------------------------------------------------+
-| ***<erogatore>_SEMANTICA*** significa che il soggetto erogatore,      |
+| **<erogatore>_SEMANTICA** significa che il soggetto erogatore,        |
 | superate le fasi di validazione sintattica delle buste SOAP in        |
 | input e degli oggetti XML eventualmente trasportati, è incorso in     |
 | un errore di validazione semantica e funzionale dei parametri in      |
@@ -413,40 +413,40 @@ faultCode emessi dai vari soggetti:
 | negativo.                                                             |
 |                                                                       |
 | Ad esempio, nel caso di una RPT ricevuta dal NodoSPC mediante         |
-| ***nodoInviaRPT*** che contiene più versamenti singoli che,           |
+| **nodoInviaRPT** che contiene più versamenti singoli che,             |
 | sommati tra loro, non corrispondono all’importo totale indicato       |
 | nella RPT.                                                            |
 |                                                                       |
 | Oppure nel caso in cui il codiceContestoPagamento indicato non        |
 | sia conforme al tipo di versamento specificato nella RPT, ecc.        |
 +=======================================================================+
-| ***<erogatore>_SINTASSI_EXTRAXSD*** significa che il soggetto         |
+| **<erogatore>_SINTASSI_EXTRAXSD** significa che il soggetto           |
 | erogatore è incorso in un errore di validazione delle buste SOAP      |
 | rappresentative di request applicative alle primitive che lo          |
 | stesso espone alle controparti.                                       |
 +-----------------------------------------------------------------------+
-| ***<erogatore>_SINTASSI_XSD*** significa che il soggetto              |
+| **<erogatore>_SINTASSI_XSD** significa che il soggetto                |
 | erogatore è incorso in un errore di validazione degli oggetti XML     |
 | trasportati in-line all’interno di specifici campi delle buste        |
 | SOAP (RPT, RT, flussi di rendicontazione, ecc.)                       |
 +-----------------------------------------------------------------------+
-| ***PPT_*_DISABILITATO/A*** significano che il NodoSPC ha              |
+| PPT_*_DISABILITATO/A significano che il NodoSPC ha                   |
 | individuato, nei suoi archivi di configurazione interna, gli          |
 | elementi topologici associati a tali identificativi, ma che tali      |
 | elementi si trovano in stato "disabilitato" (sia essa momentanea      |
 | o definitiva).                                                        |
 +-----------------------------------------------------------------------+
-| ***PPT_*_SCONOSCIUTO/A*** significano che il NodoSPC non ha           |
+| PPT_*_SCONOSCIUTO/A significano che il NodoSPC non ha                 |
 | individuato, nei suoi archivi di configurazione interna, gli          |
 | elementi topologici associati a tali identificativi.                  |
 +-----------------------------------------------------------------------+
-| ***PPT_AUTENTICAZIONE*** significa che il NodoSPC non trova           |
+| **PPT_AUTENTICAZIONE** significa che il NodoSPC non trova             |
 | corrispondenza tra la password indicata dalla controparte nella       |
 | *Request* della primitiva e la password presente nei suoi archivi     |
 | per la stazioneIntermediarioPA (primitive PA -> NodoSPC) o il         |
 | CANALE (primitive PSP -> NodoSPC) indicato.                           |
 +-----------------------------------------------------------------------+
-| ***PPT_AUTORIZZAZIONE*** significa che il NodoSPC ha verificato       |
+| **PPT_AUTORIZZAZIONE** significa che il NodoSPC ha verificato         |
 | l’effettiva presenza nei suoi archivi dei singoli elementi            |
 | topologici indicati nella *Request*, ma che non esiste in             |
 | configurazione una relazione valida ed abilitata tra gli stessi.      |
@@ -459,19 +459,19 @@ faultCode emessi dai vari soggetti:
 | identificativoStazioneIntermediarioPA ma non riesce ad                |
 | individuare una relazione topologica tra gli stessi.                  |
 +-----------------------------------------------------------------------+
-| ***PPT_CANALE_ERRORE*** è il codice standard usato dal PSP per        |
+| **PPT_CANALE_ERRORE** è il codice standard usato dal PSP per          |
 | segnalare un errore sollevato dai suoi sistemi, durante               |
 | l’elaborazione della richiesta.                                       |
 +-----------------------------------------------------------------------+
-| ***PPT_CANALE_ERRORE_RESPONSE*** significa che il NodoSPC ha          |
+| **PPT_CANALE_ERRORE_RESPONSE** significa che il NodoSPC ha            |
 | ricevuto dal PSP una *response* non corretta o non                    |
 | interpretabile.                                                       |
 +-----------------------------------------------------------------------+
-| ***PPT_CANALE_TIMEOUT*** significa che è scaduto il timeout           |
+| **PPT_CANALE_TIMEOUT** significa che è scaduto il timeout             |
 | sull’attesa della *response* a livello web service.                   |
 +-----------------------------------------------------------------------+
-| ***PPT_STAZIONE_INT_PA_IRRAGGIUNGIBILE*** ed il suo duale             |
-| ***PPT_CANALE_IRRAGGIUNGIBILE*** stanno a significare che il          |
+| **PPT_STAZIONE_INT_PA_IRRAGGIUNGIBILE** ed il suo duale               |
+| **PPT_CANALE_IRRAGGIUNGIBILE** stanno a significare che il            |
 | NodoSPC, nella sua azione di invocazione *client* di una              |
 | primitiva esposta da una controparte, non è stato in grado di         |
 | raggiungere telematicamente l’\ *endpoint* a cui, secondo             |
@@ -480,8 +480,8 @@ faultCode emessi dai vari soggetti:
 | A livello tecnico, tale situazione si presenta quando la              |
 | controparte non è fisicamente raggiungibile.                          |
 +-----------------------------------------------------------------------+
-| ***PPT_STAZIONE_INT_PA_SERVIZIO_NONATTIVO*** ed il suo duale          |
-| ***PPT_CANALE_SERVIZIO_NONATTIVO*** stanno a significare che il       |
+| **PPT_STAZIONE_INT_PA_SERVIZIO_NONATTIVO** ed il suo duale            |
+| **PPT_CANALE_SERVIZIO_NONATTIVO** stanno a significare che il         |
 | NodoSPC, nella sua azione di invocazione *client* di una              |
 | primitiva esposta da una controparte, ha ricevuto una risposta        |
 | che indica che il servizio non risulta attivo.                        |
@@ -516,11 +516,10 @@ conferma di ricezione della RT al PSP, l'elemento
 statoMessaggioReferenziato assuma il valore **RJCT** (vedi §§ 5.3.10 e
 9.2.2.3).
 
-**Tabella** **53 - Valori dei codici di errore da utilizzare nella
-struttura XML ackRT**
+**Tabella** **53 - Valori dei codici di errore da utilizzare nella struttura XML ackRT**
 
 +-----------------------------------+-----------------------------------+
-| **codiceErrore**                  | ***Spiegazione***                 |
+| **codiceErrore**                  | **Spiegazione**                   |
 +===================================+===================================+
 | *VALXSD*                          | Il contenuto non è conforme allo  |
 |                                   | schema XSD.                       |
