@@ -28,7 +28,7 @@ intermediario. La procedura di adesione:
 -  prevede la comunicazione da parte del prestatore di servizi di
        pagamento dei dati necessari alla fruizione del servizio, come
        specificati nell’accordo di servizio.
-       
+
 Adesione di un Ente Creditore.
 ------------------------------
 .. _Adesione di un Ente Creditore.:
