@@ -96,7 +96,7 @@ dello stesso obiettivo precedentemente dichiarato.
 
 |image2|
 
-**Figura** **4 – *Sequence diagram* del processo di pagamento con re
+**Figura** **4 – Sequence diagram del processo di pagamento con re
 indirizzamento on-line**
 
 Con riferimento allo schema di Figura 1 a pagina 2 ed al *Sequence
