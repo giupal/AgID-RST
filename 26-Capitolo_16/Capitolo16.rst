@@ -34,7 +34,7 @@ c) *Collective Seller*: è l’AgID che mette a disposizione dei PSP che
 d) *Sub-Seller*: è l’Ente Creditore che, attraverso il Nodo dei
    Pagamenti-SPC, consente ai propri utenti di utilizzare il servizio
    MyBank proposto dal PSP dell’utente stesso.
-   
+
 Relazioni tra i soggetti
 ------------------------
 .. _Relazioni tra i soggetti:
@@ -59,11 +59,11 @@ dei Pagamenti-SPC è necessario che:
        l’utilizzatore finale ha scelto di eseguire con l’uso del servizio
        MyBank.
 
-       Le ***Seller Bank*** sono tenute ad utilizzare le specifiche di
+       Le **Seller Bank** sono tenute ad utilizzare le specifiche di
        interfacciamento della componente “Wrapper MyBank” indicate al § 9.4
        della Sezione III.
 
-3. AgID assuma il ruolo di “\ *Collective Seller*\ ” per consentire un
+3. AgID assuma il ruolo di “*Collective Seller*” per consentire un
        più facile e regolare funzionamento del servizio. In tale veste
        AgID si occupa dell’integrazione del circuito di pagamento MyBank
        con il sistema dei pagamenti elettronici attraverso il Nodo dei
@@ -76,7 +76,7 @@ dei Pagamenti-SPC è necessario che:
        l’utilizzatore finale ha scelto di eseguire con l’uso del
        servizio MyBank;
 
-5. l’Ente Creditore assumendo il ruolo di “\ *Sub Seller*\ ”, si impegna
+5. l’Ente Creditore assumendo il ruolo di “*Sub Seller*”, si impegna
    in sede di adesione al Nodo dei Pagamenti-SPC a rispettare
    integralmente le Linee guida, ivi inclusi i *Mandatory requirements*
    tipici del servizio MyBank, come meglio elencati e descritti al
@@ -94,8 +94,8 @@ servizi che siano aderenti al Nodo dei Pagamenti-SPC.
 
 Ai fini dell’esecuzione dell’operazione di pagamento, di norma, il
 servizio MyBank prevede l’interazione di quattro soggetti, e
-precisamente: del pagatore (*buyer*), del PSP del pagatore (*Buyer
-Bank*), del PSP del venditore (*Seller Bank*) e del venditore
+precisamente: del pagatore (*buyer*), del PSP del pagatore (*BuyerBank*),
+del PSP del venditore (*Seller Bank*) e del venditore
 (*Seller*). I quattro soggetti appena citati, nessuno escluso, sono
 chiamati a rispettare specifiche disposizioni che rappresentano le
 regole e gli impegni propri del servizio MyBank che integrano il quadro
@@ -155,7 +155,7 @@ Ente Creditore si impegna a:
 7. rispettare, in quanto applicabile all’uso del servizio MyBank da
        parte degli Enti Creditori, ogni altra previsione stabilita nel
        documento *Mandatory requirements* del servizio MyBank.
-       
+
 Logotipo del servizio MyBank
 ----------------------------
 .. _Logotipo del servizio MyBank:
@@ -251,7 +251,7 @@ e-payment*) relativo al dato tipoVersamento presente nella RPT (vedi §
 Oltre ai controlli effettuati per verificare il rispetto dei vincoli di
 cui al paragrafo 16.5, il Nodo dei Pagamenti-SPC controllerà, per ogni
 RPT il cui dato tipoVersamento contenga il valore **OBEP**, la
-congruenza della “\ *Seller Bank*\ ” indicata dall’Ente Creditore (cfr.
+congruenza della “*Seller Bank*” indicata dall’Ente Creditore (cfr.
 punto 4 del § 16.1) con il dato ibanAccredito presente nella struttura
 datiSingoloVersamento (vedi § 5.3.1).
 
