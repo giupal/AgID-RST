@@ -96,8 +96,7 @@ dello stesso obiettivo precedentemente dichiarato.
 
 |image2|
 
-**Figura** **4 – Sequence diagram del processo di pagamento con re
-indirizzamento on-line**
+**Figura** **4 – Sequence diagram del processo di pagamento con re indirizzamento on-line**
 
 Con riferimento allo schema di Figura 1 a pagina 2 ed al *Sequence
 diagram* di Figura 2, si descrivono i passi del processo di pagamento
@@ -137,7 +136,7 @@ b. negli altri casi, il NodoSPC:
 c. nel caso di non scelta dell'utente o di timeout sul WISP, il NodoSPC
    genera una o più RT negative e chiude il workflow;
 
-5. l'utilizzatore finale è re-diretto su una “\ *Thank You page*\ ” e
+5. l'utilizzatore finale è re-diretto su una “*Thank You page*” e
    conosce l’esito della transazione;
 
 6. il PSP predispone la Ricevuta Telematica (RT ovvero il carrello di
@@ -214,13 +213,11 @@ all’utilizzatore finale di usufruire dei servizi per cui ha pagato.
 
 |image3|
 
-**Figura** **5 – Processo di pagamento con autorizzazione gestita dal
-PSP**
+**Figura** **5 – Processo di pagamento con autorizzazione gestita dal PSP**
 
 |image4|
 
-**Figura** **6 - *Sequence diagram* del processo di pagamento con
-autorizzazione gestita dal PSP**
+**Figura** **6 - Sequence diagram del processo di pagamento con autorizzazione gestita dal PSP**
 
 Lo schema di Figura 3 ed il *Sequence diagram* di Figura 4 illustrano
 l’esempio della modalità di incasso “spontaneo”, cioè quella che nasce
@@ -269,15 +266,14 @@ Scelta del servizio di pagamento da parte dell'utilizzatore finale
 
 |image5|
 
-**Figura** **7 – Check-out nel processo di pagamento attivato presso
-l’Ente Creditore**
+**Figura** **7 – Check-out nel processo di pagamento attivato presso l’Ente Creditore**
 
 Dall'analisi del flusso dei processi di pagamento sino qui illustrati, è
 possibile sintetizzare nello schema di Figura 5 le varie fasi che
 portano l'utilizzatore finale, una volta definito il servizio o il
 pagamento di proprio interesse, a completare l'iter del procedimento:
 quello che nel lessico *e-commerce* è definito come fase di
-“\ *check-out*\ ”, cioè il momento di scelta delle modalità di pagamento
+“*check-out*”, cioè il momento di scelta delle modalità di pagamento
 e di esecuzione vera e propria della transazione finanziaria. Il
 processo di scelta è attuato per mezzo della componente centralizzata -
 di seguito indicata con l’acronimo WISP (*Wizard* Interattivo di Scelta
@@ -304,8 +300,7 @@ PSP prescelto.
 
 |image6|
 
-**Figura** **8 – Percorso di scelta del PSP e del servizio di
-pagamento**
+**Figura** **8 – Percorso di scelta del PSP e del servizio di pagamento**
 
 Per i pagamenti con carta (di credito o di debito) il *workflow* è reso
 maggiormente performante perché sarà la componente WISP a selezionare,
@@ -442,8 +437,8 @@ consapevole.
 
 Per questi motivi, i PSP che offrono tale servizio devono:
 
-a. indicare attraverso il *Catalogo Dati Informativi* (vedi § **Errore.
-   L'origine riferimento non è stata trovata.**) informazioni
+a. indicare attraverso il *Catalogo Dati Informativi*
+   (vedi § **Errore. L'origine riferimento non è stata trovata.**) informazioni
    diversificate per i pagamenti *on us* e i pagamenti *not* *on us*;
 
 b. inviare all’Agenzia, con le modalità da questa di volta in volta
@@ -475,8 +470,7 @@ Qualora l’utilizzatore finale chieda a vario titolo l’annullamento
 stato disposto, il sistema mette a disposizione dell’Ente Creditore e
 del PSP idonee funzionalità del Nodo dei Pagamenti-SPC per gestire detta
 operazione utilizzando la richiesta di una revoca della RT inviata in
-precedenza (vedi paragrafo **Errore. L'origine riferimento non è stata
-trovata.**).
+precedenza (vedi paragrafo **Errore. L'origine riferimento non è stata trovata.**).
 
 Come indicato dal modello esposto in Figura 7, lo “storno” del pagamento
 si esplica nell’invio di una richiesta di revoca (RR) da parte dell’Ente
@@ -545,13 +539,11 @@ ultimo, comunicato tramite avviso digitale.
 
 |image8|
 
-**Figura** **10 – Modello di processo di pagamento attivato presso il
-PSP**
+**Figura** **10 – Modello di processo di pagamento attivato presso il PSP**
 
 |image9|
 
-**Figura** **11 – *Sequence diagram* del processo di pagamento attivato
-presso il PSP**
+**Figura** **11 – Sequence diagram del processo di pagamento attivato presso il PSP**
 
 Come si evince dal diagramma di Figura 9, il processo di pagamento si
 compone dei seguenti passi:
@@ -564,8 +556,8 @@ compone dei seguenti passi:
        della congruità del pagamento presso l’Ente Creditore
        (interrogando l’Archivio dei Pagamenti in Attesa). In questa fase
        l’Ente Creditore può comunicare all’utilizzatore finale
-       informazioni aggiuntive sul pagamento stesso (vedi § **Errore.
-       L'origine riferimento non è stata trovata.**, Sezione II);
+       informazioni aggiuntive sul pagamento stesso
+       (vedi § **Errore.L'origine riferimento non è stata trovata.**, Sezione II);
 
 3. l’utilizzatore finale autorizza il pagamento presso le strutture
        messe a disposizione dal PSP;
@@ -667,21 +659,20 @@ stesso servizio attraverso altri canali più tradizionali.
 Al fine di superare tali limitazioni è stato attivato il modello di
 pagamento illustrato dal *Sequence diagram* di Figura 10,
 sostanzialmente simile al processo presentato in queste pagine, con la
-sostituzione della iniziale richiesta di “\ *verifica del pagamento in
-attesa*\ ” con la richiesta del “\ *numero dell'avviso*\ ”.
+sostituzione della iniziale richiesta di “*verifica del pagamento in attesa*”
+con la richiesta del “*numero dell'avviso*”.
 
 Il NodoSPC riceve la richiesta del numero di avviso dal PSP, controlla
-sul Catalogo dei servizi (vedi §§ **Errore. L'origine riferimento non è
-stata trovata.** e **Errore. L'origine riferimento non è stata
-trovata.**), la congruità della richiesta e la inoltra all'Ente
+sul Catalogo dei servizi (vedi §§ **Errore. L'origine riferimento non è stata trovata.**
+e **Errore. L'origine riferimento non è stata trovata.**),
+la congruità della richiesta e la inoltra all'Ente
 Creditore che, accedendo ai propri archivi, assegna alla richiesta il
 corretto numero avviso. Da questo momento in poi, il processo di
 pagamento avviene con le stesse modalità indicate al precedente § 1.2.
 
 |image10|
 
-**Figura** **12 – *Sequence diagram* del processo di pagamento spontaneo
-presso il PSP**
+**Figura** **12 – Sequence diagram del processo di pagamento spontaneo presso il PSP**
 
 L'applicazione di tale *workflow* è limitata a specifici servizi
 caratterizzati da un insieme di dati in possesso dell'utilizzatore
@@ -700,8 +691,7 @@ procedura di *charge back*) chieda al proprio prestatore di servizi di
 pagamento il rimborso di un pagamento già completato oppure in caso di
 annullo tecnico (vedi § 1.3.1), il sistema pagoPA mette a disposizione
 di PSP e Enti Creditori idonee funzionalità per gestire la revoca della
-RT inviata in precedenza (vedi paragrafo **Errore. L'origine riferimento
-non è stata trovata.**).
+RT inviata in precedenza (vedi paragrafo **Errore. L'origine riferimento non è stata trovata.**).
 
 |image11|
 
@@ -778,18 +768,17 @@ b) **digitale**, che viene inviato al Nodo dei Pagamenti SPC per essere
    successivamente recapitato all’utilizzatore finale che ha richiesto
    il servizio.
 
-**Nel caso in cui l’Ente Creditore predisponga un avviso pagabile presso
-i PSP, questo deve essere sempre generato in modalità digitale ed in via
-accessoria in modalità analogica.**
+**Nel caso in cui l’Ente Creditore predisponga un avviso pagabile presso**
+**i PSP, questo deve essere sempre generato in modalità digitale ed in via**
+**accessoria in modalità analogica.**
 
 Avviso analogico
 ~~~~~~~~~~~~~~~~
 .. _Avviso analogico:
 
 Per i pagamenti per i quali sono prodotti avvisi di pagamento analogici,
-oltre al logotipo del sistema pagoPA (cfr. § **Errore. L'origine
-riferimento non è stata trovata.**), risultano indispensabili per
-l'esecuzione del pagamento stesso le seguenti informazioni:
+oltre al logotipo del sistema pagoPA (cfr. § **Errore. L'origine riferimento non è stata trovata.**),
+risultano indispensabili per l'esecuzione del pagamento stesso le seguenti informazioni:
 
 a) Codice fiscale dell’Ente Creditore;
 
@@ -822,8 +811,8 @@ g) Il codice di conto corrente postale per il pagamento presso gli
    uffici postali.
 
 Le modalità di predisposizione dell’avviso analogico sono stabilite
-nella monografia “\ *L’Avviso di pagamento analogico nel sistema
-pagoPA*\ ”, pubblicata sul sito AgID, regole alle quali è necessario
+nella monografia “*L’Avviso di pagamento analogico nel sistema pagoPA*”,
+pubblicata sul sito AgID, regole alle quali è necessario
 attenersi rigorosamente al fine di consentire il corretto svolgersi del
 processo di pagamento.
 
@@ -850,8 +839,7 @@ Per i pagamenti per i quali sono messi a disposizione dell'utilizzatore
 finale avvisi di pagamento analogici, l’Ente Creditore deve generare
 corrispondenti avvisi digitali secondo il formato indicato al §
 **Errore. L'origine riferimento non è stata trovata.** e inviarli al
-NodoSPC con le modalità indicate al § **Errore. L'origine riferimento
-non è stata trovata.**.
+NodoSPC con le modalità indicate al § **Errore. L'origine riferimento non è stata trovata.**.
 
 Attestazione del pagamento
 --------------------------
@@ -898,8 +886,8 @@ g) Causale del versamento indicata nella RPT.
 
 Nel caso del pagamento effettuato presso il PSP, quest’ultimo deve
 rendere disponibile, anche attraverso la stampa di un pre-scontrino, le
-indicazioni di dettaglio del pagamento previste dal § **Errore.
-L'origine riferimento non è stata trovata.**.
+indicazioni di dettaglio del pagamento previste dal
+§ **Errore. L'origine riferimento non è stata trovata.**.
 
 Identificazione dell’utilizzatore finale
 ----------------------------------------
@@ -919,8 +907,7 @@ indicando tale informazione in un apposito elemento della RPT [3]_.
 
 |image12|
 
-**Figura** **14 – Circuito di “Trust” nei pagamenti attivati presso
-l’Ente Creditore**
+**Figura** **14 – Circuito di “Trust” nei pagamenti attivati presso l’Ente Creditore**
 
 Nel caso in cui l’identificazione sul portale avvenga secondo il dettato
 dell’art. 64, comma 1 del CAD (cioè attraverso CIE o CNS, SPID) il PSP
@@ -1080,7 +1067,7 @@ rimanda al provvedimento del Direttore dell’Agenzia delle Entrate
 “Modalità di pagamento in via telematica dell'imposta di bollo dovuta
 per le istanze e per i relativi atti e provvedimenti trasmessi in via
 telematica ai sensi dell’art. 1, comma 596, della legge 27 dicembre
-2013, n. 147 - servizio *@e.bollo*\ ” e altra documentazione collegata
+2013, n. 147 - servizio *@e.bollo*” e altra documentazione collegata
 emessa dalla stessa Agenzia.
 
 Il servizio di vendita al cittadino è reso esclusivamente da rivenditori
@@ -1124,7 +1111,7 @@ acquisto consta dei seguenti passi:
    compila un *form* on line immettendo i dati richiesti;
 
 2. il sistema, utilizzando i dati in input, predispone l’istanza in
-   forma di documento digitale e ne determina l'\ *hash* associato;
+   forma di documento digitale e ne determina l'*hash* associato;
 
 3. il sistema della PA presenta al cittadino una pagina di checkout, con
    un messaggio che evidenzia la necessità di pagare il bollo per il
@@ -1156,8 +1143,7 @@ acquisto consta dei seguenti passi:
 
 |image15|
 
-**Figura** **17 - *Sequence diagram* del processo di acquisto della
-marca da bollo digitale**.
+**Figura** **17 - Sequence diagram del processo di acquisto della marca da bollo digitale**.
 
 Per l’approfondimento di ogni aspetto o tematica che non sia
 strettamente connesso all’effettuazione del pagamento, si dovrà
@@ -1237,9 +1223,9 @@ c. pagamento del dovuto parte dell'utilizzatore finale.
 Le fasi di *enrolment* e di inoltro dell'avviso al debitore
 costituiscono il processo di avvisatura digitale vero e proprio.
 
-**L'adesione al servizio da parte dei PSP è facoltativa, mentre gli Enti
-Creditori che generano un avviso pagabile presso i PSP dovranno
-obbligatoriamente sviluppare tale funzionalità.**
+**L'adesione al servizio da parte dei PSP è facoltativa, mentre gli Enti**
+**Creditori che generano un avviso pagabile presso i PSP dovranno**
+**obbligatoriamente sviluppare tale funzionalità.**
 
 Iscrizione al servizio (*enrolment*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1251,7 +1237,7 @@ attraverso il Sistema Pubblico di Identità Digitale (SPID), sia aderendo
 ad uno dei servizi messi a disposizione da parte dei Prestatori di
 servizi di pagamento.
 
-Inoltre l’\ *enrolment* al servizio potrà avvenire attraverso il portale
+Inoltre l’*enrolment* al servizio potrà avvenire attraverso il portale
 dell'Ente Creditore.
 
 Iscrizione al servizio presso pagoPA
@@ -1297,8 +1283,8 @@ servizio di avvisatura in modalità *push*.
 
 Il protocollo di colloquio tra NodoSPC e i PSP, previsto per la fase di
 *enrolment* presso i PSP e da utilizzare esclusivamente per la modalità
-di inoltro *push*, è descritto nel § **Errore. L'origine riferimento non
-è stata trovata.** della Sezione III.
+di inoltro *push*, è descritto nel § **Errore. L'origine riferimento non**
+**è stata trovata.** della Sezione III.
 
 Iscrizioni presso più Prestatori di servizi di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1353,8 +1339,7 @@ Inoltro degli avvisi al debitore
 
 |image17|
 
-**Figura** 19** - Invio degli avvisi - sotto fasi del processo di avvisatura**
-*push*
+**Figura** **19- Invio degli avvisi - sotto fasi del processo di avvisatura** *push*
 
 Invio degli avvisi in modalità File Transfer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1402,8 +1387,8 @@ a) **sulla base delle informazioni inviate dall’Ente Creditore**
    ii. *via e-mail:* se sull’avviso è presente l’indirizzo fornito
            dell’utilizzatore finale;
 
-b) **in funzione del codice fiscale del debitore memorizzato
-   nell’archivio delle iscrizioni** al servizio di avvisatura (modalità
+b) **in funzione del codice fiscale del debitore memorizzato**
+   **nell’archivio delle iscrizioni** al servizio di avvisatura (modalità
    *push*) effettuate presso i PSP in fase di *enrolment*, inviando
    l'avviso digitale al dispositivo indicato dall'utilizzatore finale.
 
@@ -1522,8 +1507,7 @@ posizione debitoria.
 
 |image18|
 
-**Figura** 20** - Processo di gestione della posizione debitoria avvisatura
-*pull*
+**Figura** **20 - Processo di gestione della posizione debitoria avvisatura** *pull*
 
 Nel comporre l'elenco contenente gli avvisi digitali, l'Ente Creditore,
 a seconda della complessità della posizione del debitore, potrà decidere
