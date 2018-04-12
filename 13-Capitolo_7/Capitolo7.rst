@@ -447,8 +447,8 @@ pagamento).
 
 Per tale comunicazione l'Ente Creditore deve utilizzare l'apposito
 parametro causaleVersamento previsto come output dalla primitiva
-***paaVerificaRPT*** (vedi § 8.2.3.1, parametro O-2), dato che sarà
-fornito al PSP come risposta alla primitiva ***nodoVerificaRPT*** (vedi
+**paaVerificaRPT** (vedi § 8.2.3.1, parametro O-2), dato che sarà
+fornito al PSP come risposta alla primitiva **nodoVerificaRPT** (vedi
 § 9.2.3.1, parametro O-2-f).
 
 Al fine di automatizzare anche la fase di comunicazioni con
