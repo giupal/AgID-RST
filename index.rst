@@ -901,8 +901,6 @@ digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-serviz
    _docs/26-Capitolo_16/Capitolo16.rst
 
 
-FINE DOCUMENTO
-
 .. |AGID_logo_carta_intestata-02.png| image:: ./media/heder.png
    :width: 5.90551in
    :height: 1.30277in
