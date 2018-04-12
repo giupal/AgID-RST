@@ -54,7 +54,7 @@ prevede una rappresentazione in formato XML.
 
 Dovranno essere definite strutture che ne consentano la validazione sia
 presso l’Ente Creditore che presso il Prestatori di servizi di
-pagamento\ *,* relativamente alle fasi di generazione e di verifica
+pagamento, relativamente alle fasi di generazione e di verifica
 formale dei messaggi.
 
 Le strutture rappresentano lo standard minimo a cui gli Enti Creditori e
@@ -84,12 +84,12 @@ b. Soggetto Versante: rappresenta il soggetto delegato che effettua per
 
 c. Ente Beneficiario: rappresenta la Pubblica Amministrazione
        creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto
-       Pagatore*\ **;**
+       Pagatore*;
 
 d. Istituto Attestante: rappresenta il Prestatore di Servizi di
        Pagamento che effettua il pagamento richiesto e ne attesta la
        regolarità.
-       
+
 Formato dei dati
 ----------------
 .. _Formato dei dati:
@@ -143,7 +143,7 @@ significati:
 |                 |                 | “occorrenze”    |                 |
 |                 |                 | del dato nel    |                 |
 |                 |                 | formato         |                 |
-|                 |                 | ***min..max***. |                 |
+|                 |                 | **min..max**.   |                 |
 +-----------------+-----------------+-----------------+-----------------+
 |                 |                 | L’eventuale     |                 |
 |                 |                 | obbligatorietà  |                 |
@@ -178,7 +178,7 @@ significati:
 |                 |                 | lunghezze fisse |                 |
 |                 |                 | in alternativa  |                 |
 |                 |                 | la notazione    |                 |
-|                 |                 | sarà *len1* \|  |                 |
+|                 |                 | sarà *len1*  |  |                 |
 |                 |                 | *len2*.         |                 |
 +-----------------+-----------------+-----------------+-----------------+
 | **colonna**     | *UNIFI*         | indica la       |                 |
@@ -604,7 +604,7 @@ a favore dello stesso Ente Creditore.
 | gettoPa |         |          |         |         | e       | zione   |
 | gatore  |         |          |         |         | Debtor  | “sogget |
 |         |         |          |         |         |         | to      |
-|         |         |          |         |         | \|      | pagator |
+|         |         |          |         |         |  |      | pagator |
 |         |         |          |         |         |         | e”      |
 |         |         |          |         |         | Debtor  | che     |
 |         |         |          |         |         | [1]_    | rappres |
@@ -1330,7 +1330,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | valore  |
 |         |         |          |         |         |         | “AD”.** |
 +---------+---------+----------+---------+---------+---------+---------+
-| bic     | 2       | an       | 0..1    | 8 \| 11 | Debtor  | Bank    |
+| bic     | 2       | an       | 0..1    | 8  | 11 | Debtor  | Bank    |
 | Addebit |         |          |         |         | Agent   | Identif |
 | o       |         |          |         |         | .BIC    | ier     |
 |         |         |          |         |         |         | Code    |
@@ -1663,7 +1663,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | torio.**|
 |         |         |          |         |         |         |         |
 +---------+---------+----------+---------+---------+---------+---------+
-| bic     | 3       | an       | 0..1    | 8 \| 11 | Credito | Bank    |
+| bic     | 3       | an       | 0..1    | 8  | 11 | Credito | Bank    |
 | Accredi |         |          |         |         | r       | Identif |
 | to      |         |          |         |         | Agent   | ier     |
 |         |         |          |         |         | BIC     | Code    |
@@ -2828,7 +2828,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | samento |
 |         |         |         |         |         |         | .       |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | ***Se   |
+|         |         |         |         |         |         | **Se    |
 |         |         |         |         |         |         | il      |
 |         |         |         |         |         |         | pagamen |
 |         |         |         |         |         |         | to      |
@@ -3630,8 +3630,8 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         |         |
 |         |         |         |         |         |         | dataMes |
 |         |         |         |         |         |         | saggioR |
-|         |         |         |         |         |         | evoca\  |
-|         |         |         |         |         |         | *.*     |
+|         |         |         |         |         |         | evoca.  |
+|         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | dat     | 1       | an      | 1..1    | 19      | Creatio | Indica  |
 | aOraMes |         |         |         |         | n       | la data |
@@ -4240,7 +4240,7 @@ relativa allo “storno” di un pagamento\ *.*
 |         |         |         |         |         |         | di      |
 |         |         |         |         |         |         | Revoca  |
 |         |         |         |         |         |         | (**RR** |
-|         |         |         |         |         |         | )\ *.*  |
+|         |         |         |         |         |         | ).      |
 +---------+---------+---------+---------+---------+---------+---------+
 | rif     | 1       | an      | 1..1    | 10      | Origina | Indica  |
 | eriment |         |         |         |         | l       | la data |
@@ -4620,8 +4620,7 @@ Pagamenti-SPC. Tale elenco ha valenza giornaliera: dalle ore 0 alle ore
 24. Nella Tabella 5 sono specificate le informazioni che il Nodo dei
 Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 
-**Tabella** **5 - Elementi componenti la “\ *Tabella delle
-controparti*\ ”**
+**Tabella** **5 - Elementi componenti la “Tabella delle controparti”**
 
 +---------+---------+---------+---------+---------+---------+---------+
 | **Dato**| **Liv** | **Gener | **c**   | **Len** | **Conte |         |
@@ -5140,9 +5139,9 @@ controparti*\ ”**
 |         |         |         |         |         | della   |         |
 |         |         |         |         |         | struttu |         |
 |         |         |         |         |         | ra      |         |
-|         |         |         |         |         | “\ **di |         |
+|         |         |         |         |         | “**di   |         |
 |         |         |         |         |         | sponibi |         |
-|         |         |         |         |         | lita**\”|         |
+|         |         |         |         |         | lita**” |         |
 |         |         |         |         |         | con il  |         |
 |         |         |         |         |         | cato    |         |
 |         |         |         |         |         | signifi |         |
@@ -5274,8 +5273,7 @@ Tabella 6 e devono essere richieste dai singoli prestatori di servizi di
 pagamento al NodoSPC utilizzando le apposite funzioni allo scopo messe a
 disposizione (vedi § 9.2.10 della Sezione III).
 
-**Tabella** **6 - Formato file XML della “\ *Tabella delle
-controparti*\ ”**
+**Tabella** **6 - Formato file XML della “Tabella delle controparti”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -5317,7 +5315,7 @@ Informazioni inviate dagli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. _Informazioni inviate dagli Enti Creditori:
 
-La “\ *Tabella delle controparti*\ ” viene prodotta sulla base delle
+La “*Tabella delle controparti*” viene prodotta sulla base delle
 informazioni inviate dai singoli Enti Creditori all’Agenzia per l’Italia
 Digitale via PEC, codificate in uno o più file XML.
 
@@ -5326,8 +5324,7 @@ relative alla erogazione dei servizi e riporta il seguente tracciato,
 che ricalca in parte quello indicato al paragrafo precedente e riportato
 in Tabella 7.
 
-**Tabella** **7 - Tracciato XML per comunicazione "Erogazione servizi
-EC"**
+**Tabella** **7 - Tracciato XML per comunicazione "Erogazione servizi EC"**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -5789,8 +5786,7 @@ disponibili dalla data di validità specificata, purché non inferiore al
 giorno successivo all’invio. In tabella 9 è riportata la struttura del
 catalogo:
 
-**Tabella** **9 - Elementi componenti il “\ *Catalogo Dati
-Informativi*\ ”**
+**Tabella** **9 - Elementi componenti il “Catalogo Dati Informativi”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -6311,7 +6307,7 @@ Informativi*" è riportata di seguito, specificando inoltre il formato
 del dato, i valori ammessi, nonché i controlli applicabili. I segni ‘+’
 tra le parentesi dopo il nome del dato (la barra verticale ‘|’ segnala
 il valore 5) indicano il livello d’indentazione dello stesso all’interno
-della struttura del “\ *Catalogo Dati Informativi*\ ”.
+della struttura del “*Catalogo Dati Informativi*”.
 
 
 **identificativoFlusso (++):**
@@ -6774,7 +6770,7 @@ composta da una RPT con più pagamenti oppure da un insieme di RPT
 separatore dei centesimi è il punto “.”).
 
 
-Il “\ *Catalogo Dati Informativi*\ ” è quindi il documento informatico,
+Il “*Catalogo Dati Informativi*” è quindi il documento informatico,
 inviato dal Nodo SPC ad ogni Ente Creditore, che contiene l’elenco dei
 prestatori di servizi di pagamento aderenti al sistema pagoPA. Tale
 elenco ha valenza giornaliera dalle ore 0 alle ore 24.
@@ -6784,8 +6780,8 @@ Tabella 12 e devono essere inviate al Nodo dei Pagamenti-SPC via PEC dal
 PSP, con le modalità indicate sul sito dell’Agenzia. per l’Italia
 Digitale.
 
-**Tabella** **12 - Tracciato XML per comunicazione “\ *Catalogo Dati
-Informativi*\ ”**
+**Tabella** **12 - Tracciato XML per comunicazione “Catalogo Dati Informativi”**
+
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -7723,7 +7719,7 @@ Messaggio di conferma ricezione della RT (ACK)
 
 È il documento informatico con il quale il Nodo dei Pagamenti-SPC
 conferma al prestatore di servizi di pagamento la ricezione della RT
-richiesta con l'apposita primitiva ***pspInviaAckRT*** (vedi § 9.2.2.3).
+richiesta con l'apposita primitiva **pspInviaAckRT** (vedi § 9.2.2.3).
 
 Si precisa che il messaggio era già presente nelle versioni precedenti
 delle specifiche attuative, ma non erano stati formalmente specificati
@@ -7999,7 +7995,7 @@ Catalogo dei servizi
 ~~~~~~~~~~~~~~~~~~~~
 .. _Catalogo dei servizi:
 
-Il “\ *Catalogo dei Servizi*\ ” è il documento informatico che contiene
+Il “*Catalogo dei Servizi*” è il documento informatico che contiene
 l’elenco dei servizi, attivati dagli Enti Creditori, utilizzabili
 attraverso il modello di pagamento attivato presso i PSP in modalità
 spontanea (vedi § 2.2.3). Tale elenco ha valenza giornaliera: dalle ore
@@ -8008,7 +8004,7 @@ spontanea (vedi § 2.2.3). Tale elenco ha valenza giornaliera: dalle ore
 Nella Tabella 16 sono specificate le informazioni che il Nodo dei
 Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 
-**Tabella** **16 - Elementi componenti il *“Catalogo dei Servizi”***
+**Tabella** **16 - Elementi componenti il “Catalogo dei Servizi”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
@@ -8132,7 +8128,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |           |           |           |           |           | c/o PSP.  |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
-Le informazioni del “\ *Catalogo dei Servizi*\ ” sono codificate in un
+Le informazioni del “*Catalogo dei Servizi*” sono codificate in un
 file XML secondo il tracciato di Tabella 17 e devono essere richieste
 dai singoli prestatori di servizi di pagamento al NodoSPC utilizzando
 l'apposita primitiva allo scopo messa a disposizione dal NodoSPC (vedi §
@@ -8143,8 +8139,7 @@ Tabella 12 e devono essere inviate al Nodo dei Pagamenti-SPC via PEC dal
 PSP, con le modalità indicate sul sito dell’Agenzia. per l’Italia
 Digitale.
 
-**Tabella** **17 - Tracciato XML per comunicazione “\ *Catalogo dei
-Servizi*\ ”**
+**Tabella** **17 - Tracciato XML per comunicazione “Catalogo dei Servizi”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -8204,8 +8199,8 @@ fornire per il pagamento della Tassa Automobilistica e che devono essere
 codificate nel file XML da inviare all'Ente Creditore tramite NodoSPC
 nel parametro datiSpecificiServizio (cfr. §§ 8.3.3.4 e 9.2.3.4).
 
-**Tabella** **18 - Struttura dati pagamento spontaneo nel caso d'uso
-Tassa Automobilistica**
+**Tabella** **18 - Struttura dati pagamento spontaneo nel caso d'uso Tassa Automobilistica**
+
 
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
 |**Da |**Li |**Gen|**Oc |**Le |**Con|     |     |     |     |     |
@@ -9185,8 +9180,7 @@ Lo schema di Tabella 19 definisce la struttura XML che l’Ente Creditore
 deve utilizzare per comporre il file contenente le richieste di inoltro
 degli avvisi.
 
-**Tabella** **21 - Tracciato XML per comunicazione “\ *Lista Avvisi
-digitali*\ ”**
+**Tabella** **21 - Tracciato XML per comunicazione “Lista Avvisi digitali”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -9242,8 +9236,7 @@ La struttura utilizzata dal Nodo dei Pagamenti-SPC per comunicare gli
 esiti relativi all'inoltro degli avvisi digitali richiesti dall’Ente
 Creditore con il flusso di cui sopra è indicata in Tabella 22.
 
-**Tabella** **22 - Tracciato XML per comunicazione “\ *Lista esito
-inoltro Avvisi digitali*\ ”**
+**Tabella** **22 - Tracciato XML per comunicazione “Lista esito inoltro Avvisi digitali”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -9316,8 +9309,7 @@ Creditore o dal Nodo dei Pagamenti-SPC, per segnalare alla controparte
 la presa in carico di un file relativo allo scambio di avvisi digitali o
 del loro esito.
 
-**Tabella** **23 - Tracciato XML per la segnalazione di “\ *Presa in
-carico*\ ” (File di ACK)**
+**Tabella** **23 - Tracciato XML per la segnalazione di “Presa in carico” (File di ACK)**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
@@ -9423,16 +9415,16 @@ colloquio. In particolare saranno descritti nel dettaglio gli elementi
 componenti i seguenti parametri:
 
 1) I-4 avvisoDigitaleWS, *request* della primitiva
-   ***nodoInviaAvvisoDigitale***
+   **nodoInviaAvvisoDigitale**
 
 2) O-2 esitoAvvisoDigitaleWS, *response* della primitiva
-   ***nodoInviaAvvisoDigitale***,
+   **nodoInviaAvvisoDigitale**,
 
 3) I-4 avvisoDigitale, *request* della primitiva
-   ***pspInviaAvvisoDigitale***
+   **pspInviaAvvisoDigitale**
 
 4) I-5 datiNotifica, *request* della primitiva
-   ***nodoAggiornaIscrizioneAvvisatura***
+   **nodoAggiornaIscrizioneAvvisatura**
 
 Invio dell’avviso digitale al NodoSPC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -9440,7 +9432,7 @@ Invio dell’avviso digitale al NodoSPC
 
 Le informazioni elencate di seguito (vedi Tabella 26) definiscono il
 parametro avvisoDigitaleWS presente nella *request* della primitiva
-***nodoInviaAvvisoDigitale***; il livello della struttura così definita
+**nodoInviaAvvisoDigitale**; il livello della struttura così definita
 inizia da 2 in quanto descritta formalmente all'interno del WSDL del
 servizio.
 
@@ -9469,7 +9461,7 @@ servizio.
 
 In Tabella 25 sono elencate le informazioni che definiscono il parametro
 esitoAvvisoDigitaleWS presente nella *response* della primitiva
-***nodoInviaAvvisoDigitale***; il livello della struttura così definita
+**nodoInviaAvvisoDigitale**; il livello della struttura così definita
 inizia da 2 in quanto descritta formalmente all'interno del WSDL del
 servizio.
 
@@ -9503,7 +9495,7 @@ Recapito dell’avviso digitale ai PSP
 
 Le informazioni elencate di seguito (vedi Tabella 26) definiscono il
 parametro avvisoDigitale presente nella *request* della primitiva
-***pspInviaAvvisoDigitale*** (cfr. § 9.2.7.1); il livello della
+**pspInviaAvvisoDigitale** (cfr. § 9.2.7.1); il livello della
 struttura così definita inizia da 2 in quanto descritta formalmente
 all'interno del WSDL del servizio.
 
@@ -9536,7 +9528,7 @@ Notifica dell’iscrizione al servizio di avvisatura digitale
 
 Le informazioni elencate di seguito definiscono la componente
 "datiNotifica" (parametro I-5) presente nella *request* della primitiva
-***nodoAggiornaIscrizioneAvvisatura*** (cfr. § 9.2.7.2); il livello
+**nodoAggiornaIscrizioneAvvisatura** (cfr. § 9.2.7.2); il livello
 della struttura così definita inizia da 2 in quanto descritta
 formalmente all'interno del WSDL del servizio.
 
@@ -9678,9 +9670,9 @@ Richiesta posizione debitoria presso un Ente Creditore
 
 Le informazioni elencate in Tabella 28 definiscono il parametro O-2
 elencoAvvisiDigitali presente nella *response* della primitiva
-***nodoChiediElencoAvvisiDigitali*** disponibile per i PSP che erogano
+**nodoChiediElencoAvvisiDigitali** disponibile per i PSP che erogano
 il servizio di invio degli avvisi su iniziativa del PSP (modalità pull)
-e della correlata primitiva ***paaChiediElencoAvvisiDigitali*** (cfr. §
+e della correlata primitiva **paaChiediElencoAvvisiDigitali** (cfr. §
 8.2.8.1) messa a disposizione dall'Ente Creditore; il livello della
 struttura così definita inizia da 2 in quanto descritta formalmente
 all'interno del WSDL del servizio.
