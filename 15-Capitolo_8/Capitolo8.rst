@@ -49,7 +49,7 @@ pagamento indicati nel Capitolo 2 della Sezione I, focalizzando però
 l'attenzione sulle attività di pertinenza degli Enti Creditori.
 
 Pertanto, in questo paragrafo e nei successivi saranno analizzati nel
-dettaglio i *workflow* dei processi che sono attivati presso gli Enti
+dettaglio i ** *workflow* ** dei processi che sono attivati presso gli Enti
 Creditori. Sono, peraltro, qui descritti con meno dettagli anche i
 *workflow* dei processi che coinvolgono il Nodo dei Pagamenti-SPC.
 
