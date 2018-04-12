@@ -1132,7 +1132,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | DatiSin |
 |         |         |          |         |         |         | goloVer |
 |         |         |          |         |         |         | samento.|
- +---------+---------+----------+---------+---------+---------+---------+
++---------+---------+----------+---------+---------+---------+---------+
 | tip     | 2       | an       | 1..1    | 4       | Proprie | *Forma  |
 | oVersam |         |          |         |         | tary    | tecnica |
 | ento    |         |          |         |         | Code    | di      |
