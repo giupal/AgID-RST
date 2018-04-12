@@ -9,7 +9,7 @@ Nella presente sezione sono date specifiche indicazioni circa lo scambio
 di dati tra Enti Creditori, Nodo dei Pagamenti-SPC e Prestatori di
 servizi di pagamento.
 
-FINE DOCUMENTO
+`Torna all'indice <../index.rst>`__
 
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
