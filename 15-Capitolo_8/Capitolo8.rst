@@ -191,7 +191,7 @@ b) avvalersi della funzione di “emulazione” messa a disposizione dal
 
 |image2|
 
-.. align : center
+.. centered::
        **Figura** **24 - *Sequence diagram* del workflow di check-out e pagamento**
 
 Nello schema di Figura 24 è riportato il workflow relativo consigliato
