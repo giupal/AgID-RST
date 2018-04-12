@@ -585,7 +585,7 @@ conservare a norma sia la Ricevuta Telematica, sia la Richiesta di
 Pagamento Telematico e non anche il Flusso di Rendicontazione (per il
 dettaglio su tali oggetti si veda il Capitolo 2).
 
-FINE DOCUMENTO
+`Torna all'indice <../index.rst>`__
 
 .. [1]
    Vedi http://www.indicepa.gov.it/
