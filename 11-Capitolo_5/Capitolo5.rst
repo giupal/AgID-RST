@@ -4100,7 +4100,7 @@ relativa allo “storno” di un pagamento\ *.*
 **Tabella** **4 - Elementi componenti la ER**
 
 +---------+---------+---------+---------+---------+---------+---------+
-| **Dato**| **Liv** |**Genere | **Occ** | **Len** |**UNIFI**| **Conte |
+| **Dato**| **Liv** |**Gener  | **Occ** | **Len** |**UNIFI**| **Conte |
 |         |         | e**     |         |         |         | nuto**  |
 +=========+=========+=========+=========+=========+=========+=========+
 | ver     | 1       | an      | 1..1    | 1..16   | Version | Riporta |
