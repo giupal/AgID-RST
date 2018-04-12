@@ -4100,7 +4100,7 @@ relativa allo “storno” di un pagamento\ *.*
 **Tabella** **4 - Elementi componenti la ER**
 
 +---------+---------+---------+---------+---------+---------+---------+
-| **Dato**| **Liv** | **Gener | **Occ** | **Len** |**UNIFI**| **Conte |
+| **Dato**| **Liv** |**Genere | **Occ** | **Len** |**UNIFI**| **Conte |
 |         |         | e**     |         |         |         | nuto**  |
 +=========+=========+=========+=========+=========+=========+=========+
 | ver     | 1       | an      | 1..1    | 1..16   | Version | Riporta |
@@ -4607,8 +4607,8 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 **Tabella** **5 - Elementi componenti la Tabella delle controparti**
 
 +---------+---------+----------+---------+---------+---------+---------+
-| **Dato**| **Liv** |**Genere**| **c**   | **Len** | **Contenuto**     |
-|         |         |          |         |         |                   |
+| **Dato**| **Liv** |**Genere**| **c**   | **Len** | **Conte |         |
+|         |         |          |         |         | nuto**  |         |
 +=========+=========+==========+=========+=========+=========+=========+
 | inf     | 1       | s        | 1..n    |         | Struttu |         |
 | ormativ |         |          |         |         | ra      |         |
