@@ -38,13 +38,13 @@ il Nodo dei Pagamenti-SPC.
 
 Lo schema XSD di tali oggetti è disponibile con il file
 
-**RR_ER\_ <versione>.xsd.**
+**RR_ER_ <versione>.xsd.**
 
 Per il pagamento della marca da bollo digitale (vedi § 2.8) la RT
 trasporta la marca da bollo, richiesta tramite la RPT, come allegato, il
 cui schema XSD è disponibile con il file
 
-**MarcaDaBollo\_ <versione>.xsd.**
+**MarcaDaBollo_ <versione>.xsd.**
 
 Avvisatura digitale
 -------------------
@@ -58,8 +58,7 @@ attraverso un apposito flusso
 
 Gli schemi schema XSD di tali oggetti sono disponibili con i file
 
-**avvisi-digitali_<versione>.xsd** e **presa-in-carico_1.0
-\_<versione>.xsd**.
+**avvisi-digitali_<versione>.xsd** e **presa-in-carico_1.0_<versione>.xsd**.
 
 Gli schemi XSD sopra indicati condividono con il WSDL
 **NodoPerPaAvvisiDigitali** alcune definizioni attraverso il file
@@ -113,7 +112,7 @@ Informativa fornita dal Nodo ai PSP
 
 Il Nodo dei Pagamenti-SPC rende disponibili ai PSP le informazioni
 fornite dagli Enti Creditori mediante il metodo
-***nodoChiediInformativaPA*** (vedi § 9.2.10.1) dell'interfaccia
+**nodoChiediInformativaPA** (vedi § 9.2.10.1) dell'interfaccia
 **NodoPerPsp**.
 
 In particolare viene restituita al PSP un’aggregazione di nome
@@ -143,7 +142,7 @@ completare con le informazioni richieste in sede di prima attivazione,
 ovvero quando si devono apportare modifiche.
 
 Il PSP può richiedere il *template* mediate il metodo
-***nodoChiediTemplateInformativaPSP*** (vedi § 9.2.10.2) del WSDL
+**nodoChiediTemplateInformativaPSP** (vedi § 9.2.10.2) del WSDL
 **NodoPerPsp**.
 
 Il *template* è referenziato nello schema XSD di cui alla Tabella 12 del
@@ -151,7 +150,7 @@ Il *template* è referenziato nello schema XSD di cui alla Tabella 12 del
 
 Lo schema XSD di tale oggetto è disponibile con il file
 
-**CatalogoDatiInformativi \_<versione>.xsd.**
+**CatalogoDatiInformativi_<versione>.xsd.**
 
 Informativa fornita dal Nodo all’Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -159,7 +158,7 @@ Informativa fornita dal Nodo all’Ente Creditore
 
 Il Nodo dei Pagamenti-SPC ha il compito di raccogliere tutte le
 informazioni fornite dai PSP e renderle disponibili agli Enti Creditori
-mediante il metodo ***nodoChiediInformativaPSP*** (vedi §§ 8.2.6 e
+mediante il metodo **nodoChiediInformativaPSP** (vedi §§ 8.2.6 e
 8.5.1) dell'interfaccia **NodoPerPa**.
 
 In particolare viene restituita all'Ente creditore un file XML
@@ -167,7 +166,7 @@ referenziato nello schema XSD di cui alla Tabella 12 del § 5.3.7.
 
 Lo schema XSD di tale oggetto è disponibile con il file
 
-**CatalogoDatiInformativi \_<versione>.xsd.**
+**CatalogoDatiInformativi_<versione>.xsd.**
 
 Totali dei flussi di traffico
 -----------------------------
@@ -199,13 +198,13 @@ Telematiche (RT) ricevute dall’Ente Creditore richiedente.
 
 Gli Enti Creditori possono richiedere l'elenco dei flussi di totali
 disponibili presso il Nodo dei Pagamenti-SPC mediante il metodo
-***nodoChiediElencoQuadraturePA*** e ottenere il singolo file di totali
-di traffico con il metodo ***nodoChiediQuadraturaPA*** (vedi § 8.2.10),
+**nodoChiediElencoQuadraturePA** e ottenere il singolo file di totali
+di traffico con il metodo **nodoChiediQuadraturaPA** (vedi § 8.2.10),
 nell’ambito del WSDL **NodoPerPa**.
 
 Lo schema XSD di tale oggetto è disponibile con il file
 
-**QuadraturePA \_<versione>.xsd.**
+**QuadraturePA_<versione>.xsd.**
 
 Flussi di traffico per PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -220,8 +219,8 @@ Telematiche (RT) trasmesse dal PSP richiedente.
 
 Il PSP può richiedere l'elenco dei flussi di totali disponibili presso
 il Nodo dei Pagamenti-SPC mediante il metodo
-***nodoChiediElencoQuadraturePSP*** e ottenere il singolo file di totali
-con il metodo ***nodoChiediQuadraturaPSP*** (vedi § 9.2.11), nell’ambito
+**nodoChiediElencoQuadraturePSP** e ottenere il singolo file di totali
+con il metodo **nodoChiediQuadraturaPSP** (vedi § 9.2.11), nell’ambito
 del WSDL **NodoPerPsp**.
 
 Identificazione RPT in attesa
@@ -251,20 +250,20 @@ Tali dati servono per costruire il parametro di input codiceIdRPT.
 
 Lo XSD specifico che il PSP deve utilizzare per codificare il parametro
 di input codiceIdRPT (parametro I-7 della primitiva
-***nodoVerificaRPT*** e parametro I-9 della primitiva
-***nodoAttivaRPT***) deve essere indicato al Nodo dei Pagamenti-SPC
+**nodoVerificaRPT** e parametro I-9 della primitiva
+**nodoAttivaRPT**) deve essere indicato al Nodo dei Pagamenti-SPC
 mediante il parametro codificaInfrastrutturaPSP (parametro I-6 della
-primitiva ***nodoVerificaRPT*** e parametro I-8 della primitiva
-***nodoAttivaRPT***); tale dato, in funzione della tipologia del
+primitiva **nodoVerificaRPT** e parametro I-8 della primitiva
+**nodoAttivaRPT**); tale dato, in funzione della tipologia del
 supporto di input, può assumere i valori indicati in Tabella 54.
 
-**Tabella** **54 - Valori del parametro codificaInfrastrutturaPSP e XSD
-da utilizzare**
+**Tabella** **54 - Valori del parametro codificaInfrastrutturaPSP e XSD da utilizzare**
+
 
 +-----------------------+-----------------------+-----------------------+
-| **supporto in input** | **Parametro           | **Schema XSD da       |
-|                       | codificaInfrastruttur | utilizzare**          |
-|                       | aPSP**                |                       |
+| **supporto in input** |**Parametro**          | **Schema XSD da**     |
+|                       |**codificaInfrastruttur| utilizzare**          |
+|                       |**aPSP**               |                       |
 +=======================+=======================+=======================+
 | QR-Code o input da    | QR-CODE               | IdRPT_QR_Code_<versio |
 | terminale [1]_        |                       | ne>.xsd               |
@@ -285,8 +284,8 @@ CodStazPA ed il terzo corrisponde a CodIUV .
 **Tabella** **55 - Codifica dell'Ente Creditore da utilizzare**
 
 +-----------------------+-----------------------+-----------------------+
-| **supporto in input** | **Codifica dell'Ente  | **Element Name**      |
-|                       | Creditore**           |                       |
+| **supporto in input** | **Codifica dell'Ente**| **Element Name**      |
+|                       | **Creditore**         |                       |
 +=======================+=======================+=======================+
 | QR-Code o input da    | Codice Fiscale        | CF                    |
 | terminale             |                       |                       |
@@ -297,7 +296,7 @@ CodStazPA ed il terzo corrisponde a CodIUV .
 | USS-128 tipo C        |                       |                       |
 +-----------------------+-----------------------+-----------------------+
 
-In Tabella 55 è indicato l'\ *element name* da utilizzare per la
+In Tabella 55 è indicato l'*element name* da utilizzare per la
 codifica dell'Ente Creditore in funzione della tipologia del supporto di
 input. Si precisa che Il Nodo dei Pagamenti-SPC gestisce in maniera
 automatica detti codici convertendoli sempre nel corretto dato
