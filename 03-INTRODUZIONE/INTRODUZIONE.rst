@@ -71,9 +71,9 @@ attraverso la piattaforma dei pagamenti pagoPA possono essere eseguiti i
 versamenti spontanei delle entrate tributarie dei comuni e degli altri
 enti locali.
 
-Il presente documento denominato “\ *INTRODUZIONE*\ ” rappresenta
-l’\ **Allegato B** alle (di seguito, Linee guida) e deve essere
-utilizzato in combinazione con il documento (**Allegato A)**, nonché con
+Il presente documento denominato “*INTRODUZIONE*” rappresenta
+l’**Allegato B** alle (di seguito, Linee guida) e deve essere
+utilizzato in combinazione con il documento (**Allegato A**), nonché con
 le stesse Linee guida; documenti ai quali si rimanda per tutte le voci e
 gli argomenti non specificatamente qui indicati.
 
