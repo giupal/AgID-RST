@@ -258,7 +258,7 @@ datiSingoloVersamento (vedi § 5.3.1).
 Le Richieste di Pagamento Telematiche non conformi saranno rifiutate
 all’Ente Creditore.
 
-FINE DOCUMENTO
+`Torna all'indice <../index.rst>`__
 
 .. [1]
    vedi capitolo 4 delle Allegato A alle Linee guida.
