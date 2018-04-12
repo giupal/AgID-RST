@@ -31,7 +31,7 @@ Connessione al sistema pagoPA
 .. _Connessione al sistema pagoPA:
 
 In Figura 21 è rappresentato lo schema architetturale del sistema
-pagoPA, dove il Nodo dei Pagamenti-SPC costituisce l’\ *Hub*
+pagoPA, dove il Nodo dei Pagamenti-SPC costituisce l’*Hub*
 (piattaforma) attraverso la quale Enti Creditori e prestatori di servizi
 di pagamento colloquiano per consentire agli utilizzatori finali di
 effettuare i pagamenti all'interno del sistema.
@@ -386,8 +386,8 @@ massivi di informazioni, che oggi avviene attraverso modalità SOAP
 sincrona (ad esempio: flussi di rendicontazione, totali di traffico,
 ecc.), in modalità file transfer sicuro (SFTP).
 
-**La funzione è al momento attiva solo per la ricezione dei flussi di
-rendicontazione (vedi §** **5.3.5) da parte degli Enti Creditori.**
+**La funzione è al momento attiva solo per la ricezione dei flussi di**
+**rendicontazione (vedi §** **5.3.5) da parte degli Enti Creditori.**
 
 Servizi applicativi opzionali
 -----------------------------
