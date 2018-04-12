@@ -191,8 +191,8 @@ b) avvalersi della funzione di “emulazione” messa a disposizione dal
 
 |image2|
 
-**Figura** **24 - *Sequence diagram* del workflow di check-out e
-pagamento**
+.. align : center
+       **Figura** **24 - *Sequence diagram* del workflow di check-out e pagamento**
 
 Nello schema di Figura 24 è riportato il workflow relativo consigliato
 per questa fase del pagamento, che si compone dei seguenti passi:
