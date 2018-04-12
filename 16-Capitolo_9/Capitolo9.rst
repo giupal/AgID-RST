@@ -1130,7 +1130,7 @@ d. *pspChiediAvanzamentoRPT*, con il quale il Nodo dei Pagamenti-SPC
 
 Questa interfaccia *Web service* definisce i meccanismi di comunicazione
 tra il Nodo dei Pagamenti-SPC e i PSP, pone l'onere di avviare le
-opera\ **z**\ ioni sul Nodo dei Pagamenti-SPC che trasmette le RPT al
+opera **z** ioni sul Nodo dei Pagamenti-SPC che trasmette le RPT al
 PSP di riferimento, i PSP rispondono alle richieste.
 
 pspInviaRPT
