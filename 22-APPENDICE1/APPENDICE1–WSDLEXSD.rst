@@ -8,7 +8,7 @@
 
 Appendice 1 – WSDL e XSD
 
-FINE DOCUMENTO
+`Torna all'indice <../index.rst>`__
 
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
