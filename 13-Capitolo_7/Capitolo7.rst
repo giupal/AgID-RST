@@ -564,7 +564,7 @@ response delle primitive SOAP**
 L'Ente Creditore può scegliere quale tipo di formato utilizzare; il PSP
 rende disponibili tali informazioni all'utilizzatore finale.
 
-FINE DOCUMENTO
+`Torna all'indice <../index.rst>`__
 
 .. [1]
    ad esempio: il GUID (Globally Unique IDentifier, identificatore unico
