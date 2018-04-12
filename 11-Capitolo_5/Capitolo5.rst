@@ -845,8 +845,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | e       |
 |         |         |          |         |         |         | il      |
 |         |         |          |         |         |         | valore  |
-|         |         |          |         |         |         | \**G    |
-|         |         |          |         |         |         | **\,    |
+|         |         |          |         |         |         | \**G**\,|
 |         |         |          |         |         |         | Identif |
 |         |         |          |         |         |         | icativo |
 |         |         |          |         |         |         | fiscale |
