@@ -49,7 +49,7 @@ pagamento indicati nel Capitolo 2 della Sezione I, focalizzando però
 l'attenzione sulle attività di pertinenza degli Enti Creditori.
 
 Pertanto, in questo paragrafo e nei successivi saranno analizzati nel
-dettaglio i ***workflow*** dei processi che sono attivati presso gli Enti
+dettaglio i **workflow** dei processi che sono attivati presso gli Enti
 Creditori. Sono, peraltro, qui descritti con meno dettagli anche i
 *workflow* dei processi che coinvolgono il Nodo dei Pagamenti-SPC.
 
@@ -59,8 +59,7 @@ Pagamenti attivati presso l'Ente Creditore
 
 |image1|
 
-**Figura** **23 - *Activity Diagram* del pagamento attivato presso
-l'Ente Creditore**
+**Figura** **23 - Activity Diagram del pagamento attivato presso l'Ente Creditore**
 
 Si tenga presente che, in questo paragrafo e nei successivi, in alcuni
 casi la componente di *Back-end* del NodoSPC sarà indicata come
@@ -93,7 +92,7 @@ diagram* di Figura 23 a pagina 118, contempla i seguenti passi:
        deprecato per i nuovi sviluppi.
        Con l’invio del carrello al Nodo dei Pagamenti-SPC termina la fase
        di inizializzazione del pagamento a carico dell’EC. L’utilizzo della
-       primitiva ***nodoInviaRPT***, pur effettuabile, è deprecato per tale
+       primitiva **nodoInviaRPT**, pur effettuabile, è deprecato per tale
        processo.
 
        Per maggiori informazioni si veda il *workflow* di dettaglio al
@@ -146,12 +145,12 @@ diagram* di Figura 23 a pagina 118, contempla i seguenti passi:
       carrello e dei dati presenti sulla RPT;
 
 8)  *Invio RT al NodoSPC*: il PSP invia le RT generate dal carrello
-      utilizzando la primitiva ***nodoInviaRT***. La primitiva
-      ***pspChiediListaRT*** sarà utilizzata solo per indirizzare la
+      utilizzando la primitiva **nodoInviaRT**. La primitiva
+      **pspChiediListaRT** sarà utilizzata solo per indirizzare la
       gestione delle eccezioni;
 
 9)  *Chiusura della transazione*: la componente FESP del Nodo SPC attiva
-      la primitiva ***paaInviaRT*** presso l’Ente Creditore
+      la primitiva **paaInviaRT** presso l’Ente Creditore
       concludendo il processo di pagamento. Per maggiori informazioni
       si veda il workflow di dettaglio al paragrafo 8.1.1.3;
 
@@ -181,7 +180,7 @@ interni del NodoSPC modificano i *workflow* esistenti, senza peraltro
 comportare importanti modifiche nei confronti degli Enti Creditori che
 possono utilizzare un duplice approccio:
 
-a) utilizzare direttamente la primitiva ***nodoInviaCarrelloRPT*** e
+a) utilizzare direttamente la primitiva **nodoInviaCarrelloRPT** e
    dati fissi per l'indicazione del PSP verso quale richiedere il
    pagamento (vedi Figura 24);
 
@@ -192,14 +191,14 @@ b) avvalersi della funzione di “emulazione” messa a disposizione dal
 |image2|
 
 .. centered::
-       **Figura** **24 - *Sequence diagram* del workflow di check-out e pagamento**
+       **Figura** **24 - Sequence diagram del workflow di check-out e pagamento**
 
 Nello schema di Figura 24 è riportato il workflow relativo consigliato
 per questa fase del pagamento, che si compone dei seguenti passi:
 
 1. l'utilizzatore finale esegue il check-out;
 
-2. il Portale EC invoca la primitiva ***nodoInviaCarrelloRPT*** per
+2. il Portale EC invoca la primitiva **nodoInviaCarrelloRPT** per
    trasmettere alla componente FESP del NodoSPC il carrello di RPT
    (per l'indicazione del PSP verso il quale richiedere il pagamento
    sono utilizzati dati fissi, vedi § 8.1.1.5);
@@ -244,8 +243,7 @@ della funzione di emulazione).
 
 |image3|
 
-**Figura** **25 - *Sequence diagram* del workflow di check-out e
-pagamento con emulazione**
+**Figura** **25 - Sequence diagram del workflow di check-out e pagamento con emulazione**
 
 Nello schema di Figura 25 è riportato il workflow relativo all'approccio
 con emulazione, che si compone dei seguenti passi:
@@ -267,7 +265,7 @@ con emulazione, che si compone dei seguenti passi:
 
 5. il Portale EC riceve i parametri e, dal suo back-end, procede
    all’invocazione in contesto sicuro (SPCoop) della primitiva
-   ***nodoChiediSceltaWISP***;
+   **nodoChiediSceltaWISP**;
 
 6. la componente FESP del NodoSPC restituisce nella *response* dati PSP
    fittizi (vedi § 8.1.1.5), mantenuti unicamente per retro
@@ -275,8 +273,8 @@ con emulazione, che si compone dei seguenti passi:
 
 *Fine delle azioni della componente “Emulatore”*
 
-7. il Portale EC invoca la primitiva ***nodoInviaRPT*** o
-   ***nodoInviaCarrelloRPT*** per trasmettere alla componente FESP
+7. il Portale EC invoca la primitiva **nodoInviaRPT** o
+   **nodoInviaCarrelloRPT** per trasmettere alla componente FESP
    del NodoSPC la RPT ovvero il carrello di RPT.
 
 Da questo punto in poi, l'approccio in esame utilizza gli stessi passi
@@ -288,8 +286,7 @@ Invio carrello al PSP
 
 |image4|
 
-**Figura** **26 - *Sequence diagram* degli scenari di "Invio carrello al
-PSP"**
+**Figura** **26 - Sequence diagram degli scenari di "Invio carrello al PSP"**
 
 Questo passo del workflow complessivo si attiva una volta che
 l'utilizzatore finale ha operato le sue scelte sulla componente WISP 2.0
@@ -320,7 +317,7 @@ pagamento)*
 1. la componente FESP del NodoSPC invia alla componente di *Back-end*
    del PSP la RPT o il carrello di RPT ricevuto in precedenza (vedi
    passo 2 del *sequence diagram* di Figura 24 a pagina 120) per mezzo
-   della primitiva ***pspInviaCarrelloRPTCarte***, avente tra i
+   della primitiva **pspInviaCarrelloRPTCarte**, avente tra i
    parametri le informazioni relative all'identificativo della
    transazione (RRN) e al suo costo. Dette commissioni sono quelle che
    il PSP ha comunicato ad AgID attraverso il Catalogo Dati Informativi
@@ -335,7 +332,7 @@ pagamento)*
 
 3. la componente FESP del NodoSPC invia alla componente di *Back-end*
    del PSP il carrello di RPT ricevuto in precedenza per mezzo della
-   primitiva ***pspInviaCarrelloRPT***;
+   primitiva **pspInviaCarrelloRPT**;
 
 4. la componente di *Back-end* del PSP prende in carico la RPT o il
    carrello di RPT, invia la relativa *response* (contiene il dato
@@ -361,13 +358,13 @@ eseguire)*
 
 9. la componente FESP del NodoSPC invia alla componente di *Back-end*
    del PSP il carrello di RPT ricevuto in precedenza per mezzo della
-   primitiva ***pspInviaCarrelloRPT***;
+   primitiva **pspInviaCarrelloRPT**;
 
 10. la componente di *Back-end* del PSP invia la relativa *response* e
     prende in carico la RPT o il carrello di RPT per avviare la
     procedura di pagamento.
 
-L'utilizzo della primitiva ***pspInviaRPT*** è deprecato e mantenuto per
+L'utilizzo della primitiva **pspInviaRPT** è deprecato e mantenuto per
 retro compatibilità in quanto un carrello di pagamenti può essere
 costituito da un'unica e sola RPT.
 
@@ -378,7 +375,7 @@ Workflow di chiusura della transazione presso EC
 Come già accaduto per il paragrafo precedente, le attività in esame
 (conclusione del pagamento) si differenziano in funzione della scelta
 effettuata dall'utilizzatore finale attraverso la componente WISP 2.0
-del NodoSPC (vedi punto 3 dell'\ *activity diagram* di Figura 23 a
+del NodoSPC (vedi punto 3 dell'*activity diagram* di Figura 23 a
 pagina 118). Tale scelta era riferita a 3 diverse alternative di
 pagamento:
 
@@ -402,11 +399,10 @@ di un carrello composto da una sola RPT.
 
 |image5|
 
-**Figura** **27 - *Sequence diagram* dello scenario "Pagamento con
-carta"**
+**Figura** **27 - Sequence diagram dello scenario "Pagamento con carta"**
 
 Lo schema di Figura 27 a pagina 124, che definisce le attività nello
-scenario di "pagamento con carta", prevede i seguenti passi\ *:*
+scenario di "pagamento con carta", prevede i seguenti passi:
 
 **in caso di pagamento eseguito:**
 
@@ -422,24 +418,24 @@ scenario di "pagamento con carta", prevede i seguenti passi\ *:*
    interni e genera la RT da inviare all'Ente Creditore;
 
 3. la componente di *Back-end* del PSP invia la RT alla componente FESP
-   del NodoSPC utilizzando la primitiva ***nodoInviaRT*** (vedi §
+   del NodoSPC utilizzando la primitiva **nodoInviaRT** (vedi §
    9.2.2.1);
 
 4. la componente FESP del NodoSPC invia al Portale dell'Ente Creditore
-   la RT pervenuta dal PSP utilizzando la primitiva ***paaInviaRT***
+   la RT pervenuta dal PSP utilizzando la primitiva **paaInviaRT**
    (vedi § 8.2.2.1);
 
-5. il Portale EC invia la *response* della ***paaInviaRT*** alla
+5. il Portale EC invia la *response* della **paaInviaRT** alla
    componente di FESP del NodoSPC;
 
 6. la componente FESP del NodoSPC invia la *response* della
-   ***nodoInviaRT*** alla componente di FESP del NodoSPC (si noti che la
-   primitiva ***nodoInviaRT*** è sincrona);
+   **nodoInviaRT** alla componente di FESP del NodoSPC (si noti che la
+   primitiva **nodoInviaRT** è sincrona);
 
 7. la componente FESP del NodoSPC comunica alla componente WISP 2.0
    l’esito della RT ricevuta dal PSP, la stessa componente completa la
    transazione e-commerce iniziata in precedenza (vedi punto 4.1
-   dell’\ *activity diagram* di Figura 23 a pagina 118):
+   dell’*activity diagram* di Figura 23 a pagina 118):
 
    a. conferma l’acquisto se l’esito della RT è positivo;
 
@@ -460,7 +456,7 @@ scenario di "pagamento con carta", prevede i seguenti passi\ *:*
     il motivo (timeout o abbandono) nell'apposito campo;
 
 11. la componente FESP del NodoSPC invia al Portale dell'Ente Creditore
-    la RT NEGATIVA utilizzando la primitiva ***paaInviaRT*** (vedi §
+    la RT NEGATIVA utilizzando la primitiva **paaInviaRT** (vedi §
     8.2.2.1);
 
 12. vedi precedente punto 5.
@@ -469,8 +465,7 @@ scenario di "pagamento con carta", prevede i seguenti passi\ *:*
 
 |image6|
 
-**Figura** **28 - *Sequence diagram* dello scenario "Pagamento modello
-1"**
+**Figura** **28 - Sequence diagram dello scenario "Pagamento modello 1"**
 
 Lo schema di Figura 28 a pagina 125, che definisce le attività nello
 scenario di "pagamento con re indirizzamento on-line", prevede i
@@ -513,8 +508,7 @@ fare riferimento allo** *Scenario a) - Pagamento con carta.*
 
 |image7|
 
-**Figura** **29 - *Sequence diagram* dello scenario "Pagamento modello
-2"**
+**Figura** **29 - Sequence diagram dello scenario "Pagamento modello 2"**
 
 Il workflow legato a questo contesto (si veda lo schema di Figura 29 a
 pagina 126) prevede i seguenti passi:
@@ -546,8 +540,8 @@ pagina 126) prevede i seguenti passi:
 
 37. vedi precedente punto 6.
 
-**In caso di timeout o abbandono sulla componente WISP 2.0 del NodoSPC,
-fare riferimento allo** *Scenario a) - Pagamento con carta.*
+In caso di timeout o abbandono sulla componente WISP 2.0 del NodoSPC,
+fare riferimento allo Scenario a) - Pagamento con carta.
 
 Controllo circa lo stato di avanzamento di un pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -562,8 +556,7 @@ che consente di avere tale informazione.
 
 |image8|
 
-**Figura** **30 - *Sequence diagram* del controllo dello stato di un
-pagamento**
+**Figura** **30 - Sequence diagram del controllo dello stato di un pagamento**
 
 Il *workflow* del processo prevede i seguenti passi, indicati in Figura
 30 a pagina 127:
@@ -576,7 +569,7 @@ Il *workflow* del processo prevede i seguenti passi, indicati in Figura
     propria componente di *Back-end*;
 
 3)  la componente di *Back-end* dell’Ente Creditore si attiva verso il
-    NodoSPC tramite la primitiva ***nodoChiediStatoRPT***;
+    NodoSPC tramite la primitiva **nodoChiediStatoRPT**;
 
 4)  il NodoSPC verifica la richiesta di storno;
 
@@ -589,7 +582,7 @@ Il *workflow* del processo prevede i seguenti passi, indicati in Figura
 7)  altrimenti, se la RPT è già stata inviata al PSP, il Nodo dei
     Pagamenti-SPC si attiva per richiedere informazioni alla componente
     di *Back-end* del PSP di competenza, per mezzo della primitiva
-    ***pspChiediAvanzamentoRPT***;
+    **pspChiediAvanzamentoRPT**;
 
 8)  la componente di *Back-end* del PSP predispone la risposta per il
     NodoSPC;
@@ -601,7 +594,7 @@ Il *workflow* del processo prevede i seguenti passi, indicati in Figura
 
 11) il NodoSPC invia la *response* alla componente di *Back-end*
     dell'Ente Creditore, contenente la risposta alla primitiva
-    ***nodoChiediStatoRPT***;
+    **nodoChiediStatoRPT**;
 
 12) la componente di *Back-end* dell'Ente Creditore inoltra la risposta
     al proprio *Front-office*;
@@ -657,10 +650,10 @@ proprio software non sia *compliant* con la versione 1.3 del WISP, lo
 stesso ente dovrà:
 
 a) codificare nell’elemento tipoVersamento della struttura
-   datiVersamento della RPT il valore fisso **BBT**\  [2]_
+   datiVersamento della RPT il valore fisso **BBT**  [2]_
 
-b) usare la primitiva ***nodoInviaCarrelloRPT*** (in una prima fase è
-   ammessa anche la primitiva deprecata ***nodoInviaRPT***) ed
+b) usare la primitiva **nodoInviaCarrelloRPT** (in una prima fase è
+   ammessa anche la primitiva deprecata **nodoInviaRPT**) ed
    impostare con i valori appresso indicati i seguenti parametri
    fissi:
 
@@ -744,7 +737,7 @@ a) dell'archivio dei pagamenti in attesa (APA), contenente tutte le
    informazioni, associate ad un identificativo univoco, necessarie
    per effettuare il pagamento;
 
-b) di un’applicazione “\ *server*\ ” dedicata necessaria per trattare le
+b) di un’applicazione “*server*” dedicata necessaria per trattare le
    richieste provenienti dai PSP, come meglio dettagliato nel §
    8.2.3;
 
@@ -792,8 +785,7 @@ Processo di storno del pagamento eseguito
 
 |image9|
 
-**Figura** **31 - *Sequence diagram* del processo di Storno di un
-pagamento**
+**Figura** **31 - Sequence diagram del processo di Storno di un pagamento**
 
 Qualora l’utilizzatore finale, a vario titolo, chieda all’Ente Creditore
 la cancellazione di un pagamento presso il quale questo è stato disposto
@@ -815,7 +807,7 @@ riportato in Figura 31 a pagina 130, si evidenziano i seguenti passi:
 
 3) la componente di *Back-end* dell’Ente Creditore richiede lo storno di
    un pagamento inviando al NodoSPC la Richiesta Revoca (RR) tramite la
-   primitiva ***nodoInviaRichiestaStorno***;
+   primitiva **nodoInviaRichiestaStorno**;
 
 4) il NodoSPC verifica la richiesta di storno;
 
@@ -824,7 +816,7 @@ riportato in Figura 31 a pagina 130, si evidenziano i seguenti passi:
 
 6) se la richiesta è valida, il Nodo dei Pagamenti-SPC la inoltra alla
    componente di *Back-end* del PSP di competenza per mezzo della
-   primitiva ***pspInviaRichiestaStorno***;
+   primitiva **pspInviaRichiestaStorno**;
 
 7) la componente di *Back-end* del PSP conferma al NodoSPC la ricezione
    della RR;
@@ -840,7 +832,7 @@ se accettarla o rifiutarla,
 
 9)  la componente di *Back-end* del PSP invia il messaggio di Esito
     Revoca (ER) al NodoSPC utilizzando l'apposita primitiva
-    ***nodoInviaEsitoStorno***;
+    **nodoInviaEsitoStorno**;
 
 10) il NodoSPC verifica l'esito dell'esito di storno (ER);
 
@@ -849,7 +841,7 @@ se accettarla o rifiutarla,
 
 12) se la richiesta è valida, il NodoSPC la inoltra alla componente di
     *Back-end* dell’Ente Creditore richiedente per mezzo della primitiva
-    ***paaInviaEsitoStorno***;
+    **paaInviaEsitoStorno**;
 
 13) la componente di *Back-end* dell’Ente Creditore conferma al NodoSPC
     la corretta ricezione del messaggio ER;
@@ -865,7 +857,7 @@ se accettarla o rifiutarla,
 
 Il NodoSPC effettua unicamente un controllo di correttezza sintattica
 degli oggetti XML scambiato; nel caso della primitiva
-***nodoInviaRichiestaStorno***, viene verificato che la RPT oggetto
+**nodoInviaRichiestaStorno**, viene verificato che la RPT oggetto
 della richiesta di storno sia stata accettata dal NodoSPC e dal PSP,
 altrimenti restituisce un errore specifico.
 
@@ -912,7 +904,7 @@ passi:
 
 3) la componente di *Back-end* del PSP invia al NodoSPC il flusso di
    rendicontazione creato in precedenza tramite la primitiva
-   ***nodoInviaFlussoRendicontazione***;
+   **nodoInviaFlussoRendicontazione**;
 
 4) se l'invio del flusso è valido, il NodoSPC memorizza il flusso
    ricevuto in un’apposita base dati che ha come chiavi quelle che
@@ -922,8 +914,7 @@ passi:
 
 |image10|
 
-**Figura** **32 – *Sequence diagram* del processo di riconciliazione dei
-pagamenti**
+**Figura** **32 – Sequence diagram del processo di riconciliazione dei pagamenti**
 
 L’invio del flusso di Rendicontazione avviene in modalità *pull*: è cioè
 compito dell'Ente Creditore prelevare le informazioni relative ai flussi
@@ -932,7 +923,7 @@ flusso prosegue su iniziativa dell'Ente Creditore:
 
 6) la componente di *Back-end* dell’Ente Creditore richiede al Nodo SPC
    l'elenco dei flussi di propria competenza tramite la primitiva
-   ***nodoChiediElencoFlussiRendicontazione***;
+   **nodoChiediElencoFlussiRendicontazione**;
 
 7) se la richiesta è valida, il Nodo SPC invia nella *response* l'elenco
    completo dei flussi dell'ente presenti sulla piattaforma al momento
@@ -941,7 +932,7 @@ flusso prosegue su iniziativa dell'Ente Creditore:
 
 8) la componente di *Back-end* dell’Ente Creditore determina
    l'identificativo flusso da ottenere [3]_ e lo richiede al NodoSPC per
-   mezzo della primitiva ***nodoChiedFlussoRendicontazione***;
+   mezzo della primitiva **nodoChiedFlussoRendicontazione**;
 
 in funzione della configurazione dell'Ente Creditore:
 
@@ -1011,7 +1002,7 @@ b. Canale **CELLULARE (SMS)**: l’avviso sarà inviato in presenza di un
    numero di cellulare valido nel campo cellulareSoggetto (cfr.
    Tabella 19 a pagina 100);
 
-c. Canale **MOBILE PAYMENT**\  [4]_: l’avviso sarà inviato in presenza
+c. Canale **MOBILE PAYMENT**  [4]_: l’avviso sarà inviato in presenza
    del soggetto corrispondente al destinatario dell'avviso nel
    database anagrafico [5]_ (DB Iscrizioni, vedi Figura 18 al §
    2.9), così come indicato nella struttura soggettoPagatore [6]_.
@@ -1057,8 +1048,7 @@ Il *workflow* del processo si compone dei seguenti passi:
 
 |image11|
 
-**Figura** **33 – *Sequence diagram* del processo di avvisatura via File
-Transfer**
+**Figura** **33 – Sequence diagram del processo di avvisatura via File Transfer**
 
 Ciclo per elaborare gli avvisi digitali ricevuti all'interno di un
 flusso, sulla base dei criteri indicati al precedente paragrafo 8.1.6.1
@@ -1066,7 +1056,7 @@ per la gestione del singolo avviso:
 
 6)  push nel caso di soddisfacimento del criterio (a), la componente di
     avvisatura del NodoSPC invia, attraverso la primitiva
-    ***pspInviaAvvisoDigitale***, l’avviso digitale alla componente di
+    **pspInviaAvvisoDigitale**, l’avviso digitale alla componente di
     gestione *mobile* *Back-end* del PSP;
 
 7)  la componente di gestione *mobile* *Back-end* del PSP prende in
@@ -1114,7 +1104,7 @@ dell’Ente Creditore.
 
 Le specifiche di interfaccia via File Transfer e le relative convenzioni
 di nomenclatura dei file scambiati sono indicate nel successivo
-paragrafo 8.5.2\ **.**
+paragrafo 8.5.2
 
 Il protocollo di colloquio *Web service* con il sistemaMobile del PSP è
 specificato nel § 9.2.7, mentre per il colloquio via e-mail e sms
@@ -1140,13 +1130,13 @@ Il *workflow* del processo si compone dei seguenti passi:
 
 1) la componente di *Back-end* dell’Ente Creditore invia al NodoSPC una
    richiesta di avviso digitale (vedi Tabella 19 a pagina 100)
-   attraverso la primitiva ***nodoInviaAvvisoDigitale***;
+   attraverso la primitiva **nodoInviaAvvisoDigitale**;
 
 2) la componente di avvisatura del NodoSPC verifica la correttezza
    sintattica dell’avviso;
 
 3) in caso di errori, la componente di avvisatura del NodoSPC invia una
-   *response* negativa per la primitiva ***nodoInviaAvvisoDigitale*** e
+   *response* negativa per la primitiva **nodoInviaAvvisoDigitale** e
    chiude la transazione;
 
 4) in caso di correttezza formale, la componente di avvisatura del
@@ -1168,7 +1158,7 @@ Ciclo per elaborare tutti i canali mobile dei PSP che soddisfano il
 criterio (a) indicato al precedente paragrafo 8.1.6.1:
 
 8)  la componente di avvisatura del NodoSPC invia, attraverso la
-    primitiva ***pspInviaAvvisoDigitale***, l’avviso digitale alla
+    primitiva **pspInviaAvvisoDigitale**, l’avviso digitale alla
     componente di gestione *mobile* *Back-end* del PSP;
 
 9)  la componente di gestione *mobile* *Back-end* del PSP prende in
@@ -1182,12 +1172,11 @@ Al termine dell'elaborazione del ciclo:
 
 11) la componente di avvisatura del NodoSPC invia una *response*
     positiva contenente gli esiti dell'inoltro dell'avviso (vedi Tabella
-    20 a pagina 102) per la primitiva ***nodoInviaAvvisoDigitale***.
+    20 a pagina 102) per la primitiva **nodoInviaAvvisoDigitale**.
 
 |image12|
 
-**Figura** **34 – *Sequence diagram* del processo di avvisatura via *Web
-service***
+**Figura** **34 – Sequence diagram del processo di avvisatura via Web service**
 
 Il protocollo di colloquio *Web service* con la componente di *Back-end*
 dell’Ente Creditore è specificato nel § 8.2.7, quello con la componente
@@ -1287,12 +1276,12 @@ all'invio delle RPT e al funzionamento delle funzioni ancillari, il Nodo
 dei Pagamenti-SPC rende disponibili i seguenti metodi SOAP,
 rappresentati nel diagramma di Figura 35:
 
-a. ***nodoInviaRPT***, con la quale viene sottomessa a Nodo dei
+a. **nodoInviaRPT**, con la quale viene sottomessa a Nodo dei
    Pagamenti-SPC una specifica RPT; l'esito fornisce ulteriori
    indicazioni agli Enti Creditori aderenti per la gestione del
    proprio *workflow*;
 
-b. ***nodoInviaCarrelloRPT***, con la quale viene sottomesso al NodoSPC
+b. **nodoInviaCarrelloRPT**, con la quale viene sottomesso al NodoSPC
    un vettore di RPT, detto in gergo “carrello”, nel quale le varie
    RPT possono avere beneficiari tra loro differenti.
    Gli Enti Creditori beneficiari dei pagamenti presenti nel “carrello”
@@ -1303,20 +1292,19 @@ b. ***nodoInviaCarrelloRPT***, con la quale viene sottomesso al NodoSPC
    L'esito della primitiva fornisce ulteriori indicazioni al mittente
    per la gestione del proprio *workflow*.
 
-c. ***nodoChiediStatoRPT***, restituisce una struttura descrittiva dello
+c. **nodoChiediStatoRPT**, restituisce una struttura descrittiva dello
    stato di una specifica RPT e dei suoi pagamenti.
 
-d. ***nodoChiediListaPendentiRPT***, restituisce l’insieme di
+d. **nodoChiediListaPendentiRPT**, restituisce l’insieme di
    riferimenti a tutte le RPT per le quali non è ancora pervenuta al
    NodoSPC la relativa RT;
 
-e. ***nodoChiediSceltaWISP***, restituisce l’insieme dei parametri
+e. **nodoChiediSceltaWISP**, restituisce l’insieme dei parametri
    relativi al PSP scelto per mezzo della componente WISP.
 
 |image14|
 
-**Figura** **35 – NodoSPC/EC: Metodi di invio delle RPT e funzioni
-ancillari**
+**Figura** **35 – NodoSPC/EC: Metodi di invio delle RPT e funzioni ancillari**
 
 nodoInviaRPT
 ~~~~~~~~~~~~~~~~~~~~~
@@ -1328,7 +1316,7 @@ con errore. Quando la transazione riguarda il processo di pagamento con
 esecuzione immediata, la *response* contiene lo URL di re-direzione per
 il pagamento online.
 
-L'utilizzo della primitiva ***pspInviaRPT*** è deprecato e mantenuto per
+L'utilizzo della primitiva **pspInviaRPT** è deprecato e mantenuto per
 retro compatibilità in quanto un carrello di pagamenti può essere
 costituito da un'unica e sola RPT.
 
@@ -1588,9 +1576,9 @@ La primitiva restituisce lo stato di una specifica RPT e dei suoi
 pagamenti, consentendo all’applicazione dell'Ente Creditore di
 realizzare funzionalità di monitoraggio verso l’utilizzatore finale.
 Poiché la *response* contiene le informazioni di *redirect* allo stesso
-modo della primitiva ***nodoInviaRPT***, questa primitiva consente di
+modo della primitiva **nodoInviaRPT**, questa primitiva consente di
 recuperare, se necessario, il caso in cui la *response* di una
-precedente ***nodoInviaRPT*** sia stata perduta.
+precedente **nodoInviaRPT** sia stata perduta.
 
 Parametri di input
 
@@ -1608,7 +1596,7 @@ Parametri di input
 
 Parametri di output
 
-1. Redirect: valori ammessi 0 \| 1; specifica se il pagamento prescelto
+1. Redirect: valori ammessi 0 | 1; specifica se il pagamento prescelto
    dall'utente prevede la re-direzione dell’utilizzatore finale
 
 2. URL: a cui re-dirigere il browser dell’utilizzatore finale,
@@ -1679,71 +1667,71 @@ Di seguito i possibili valori del dato faultBean.faultCode:
 **Tabella** **35 - Possibili "stati" di una RPT**
 
 +-----------------+-----------------+-----------------+-----------------+
-| **Stato**       | **Descrizione   | **Tipologia     | **Riuso**       |
-|                 | Stato**         | stato RPT**     |                 |
-|                 |                 |                 | **IUV**\  [7]_  |
+| **Stato**       | **Descrizione** | **Tipologia**   | **Riuso**       |
+|                 | **Stato**       | **stato RPT**   |                 |
+|                 |                 |                 | **IUV**   [7]_  |
 +=================+=================+=================+=================+
-| *RPT_RICEVUTA_N | RPT ricevuta    | Oper. aperta    | NO              |
-| ODO*            | dal Nodo e in   |                 |                 |
+| RPT_RICEVUTA_N  | RPT ricevuta    | Oper. aperta    | NO              |
+| ODO             | dal Nodo e in   |                 |                 |
 |                 | attesa di       |                 |                 |
 |                 | essere          |                 |                 |
 |                 | processata      |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RPT_RIFIUTATA_ | RPT rifiutata   | Oper. conclusa  | SI              |
-| NODO*           | dal Nodo per    | (KO)            |                 |
+| RPT_RIFIUTATA_  | RPT rifiutata   | Oper. conclusa  | SI              |
+| NODO            | dal Nodo per    | (KO)            |                 |
 |                 | sintassi o      |                 |                 |
 |                 | semantica       |                 |                 |
 |                 | errata          |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RPT_ACCETTATA_ | RPT accettata   | Oper. aperta    | NO              |
-| NODO*           | dal Nodo come   |                 |                 |
+| RPT_ACCETTATA_  | RPT accettata   | Oper. aperta    | NO              |
+| NODO            | dal Nodo come   |                 |                 |
 |                 | valida          |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RPT_RIFIUTATA_ | RPT rifiutata   | Oper. conclusa  | NO              |
-| PSP*            | dall'Intermedia | (KO)            |                 |
+| RPT_RIFIUTATA_  | RPT rifiutata   | Oper. conclusa  | NO              |
+| PSP             | dall'Intermedia | (KO)            |                 |
 |                 | rio             |                 |                 |
 |                 | PSP per         |                 |                 |
 |                 | sintassi o      |                 |                 |
 |                 | semantica       |                 |                 |
 |                 | errata          |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RPT_ERRORE_INV | RPT inviata     | Oper. conclusa  | SI              |
-| IO_A_PSP*       | all'Intermediar | (KO)            |                 |
+| RPT_ERRORE_INV  | RPT inviata     | Oper. conclusa  | SI              |
+| IO_A_PSP        | all'Intermediar | (KO)            |                 |
 |                 | io              |                 |                 |
 |                 | PSP -           |                 |                 |
 |                 | indisponibilità |                 |                 |
 |                 | del ricevente   |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RPT_INVIATA_A_ | RPT inviata     | Oper. aperta    | NO              |
-| PSP*            | all'Intermediar |                 |                 |
+| RPT_INVIATA_A_  | RPT inviata     | Oper. aperta    | NO              |
+| PSP             | all'Intermediar |                 |                 |
 |                 | io              |                 |                 |
 |                 | PSP - azione in |                 |                 |
 |                 | attesa di       |                 |                 |
 |                 | risposta        |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RPT_ACCETTATA_ | RPT ricevuta ed | Oper. aperta    | NO              |
-| PSP*            | accettata       |                 |                 |
+| RPT_ACCETTATA_  | RPT ricevuta ed | Oper. aperta    | NO              |
+| PSP             | accettata       |                 |                 |
 |                 | dall'Intermedia |                 |                 |
 |                 | rio             |                 |                 |
 |                 | PSP come valida |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RPT_DECORSI_TE | RPT ha superato | Oper. conclusa  | SI              |
-| RMINI*          | il periodo di   | (KO)            |                 |
+| RPT_DECORSI_TE  | RPT ha superato | Oper. conclusa  | SI              |
+| RMINI           | il periodo di   | (KO)            |                 |
 |                 | decorrenza      |                 |                 |
 |                 | termini nel     |                 |                 |
 |                 | Nodo            |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RT_RICEVUTA_NO | RT ricevuta dal | Oper. aperta    | NO              |
-| DO*             | Nodo            |                 |                 |
+| RT_RICEVUTA_NO  | RT ricevuta dal | Oper. aperta    | NO              |
+| DO              | Nodo            |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RT_RIFIUTATA_N | RT rifiutata    | Oper. aperta    | NO              |
-| ODO*            | dal Nodo per    |                 |                 |
+| RT_RIFIUTATA_N  | RT rifiutata    | Oper. aperta    | NO              |
+| ODO             | dal Nodo per    |                 |                 |
 |                 | sintassi o      |                 |                 |
 |                 | semantica       |                 |                 |
 |                 | errata          |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RT_ACCETTATA_N | RT accettata    | Oper. aperta    | NO              |
-| ODO*            | dal Nodo come   |                 |                 |
+| RT_ACCETTATA_N  | RT accettata    | Oper. aperta    | NO              |
+| ODO             | dal Nodo come   |                 |                 |
 |                 | valida ed in    |                 |                 |
 |                 | corso di invio  |                 |                 |
 |                 | all'Intermediar |                 |                 |
@@ -1751,22 +1739,22 @@ Di seguito i possibili valori del dato faultBean.faultCode:
 |                 | dell’Ente       |                 |                 |
 |                 | Creditore       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RT_ACCETTATA_P | RT ricevuta     | Oper. conclusa  | NO              |
-| A*              | dall'Intermedia | (OK)            |                 |
+| RT_ACCETTATA_P  | RT ricevuta     | Oper. conclusa  | NO              |
+| A               | dall'Intermedia | (OK)            |                 |
 |                 | rio             |                 |                 |
 |                 | dell’Ente       |                 |                 |
 |                 | Creditore ed    |                 |                 |
 |                 | accettata       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RT_RIFIUTATA_P | RT ricevuta     | Oper. aperta    | NO              |
-| A*              | dall'Intermedia |                 |                 |
+| RT_RIFIUTATA_P  | RT ricevuta     | Oper. aperta    | NO              |
+| A               | dall'Intermedia |                 |                 |
 |                 | rio             |                 |                 |
 |                 | dell’Ente       |                 |                 |
 |                 | Creditore e     |                 |                 |
 |                 | rifiutata       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| *RT_ESITO_SCONO | Esito           | Oper. aperta    | NO              |
-| SCIUTO_PA*      | dell'accettazio |                 |                 |
+| RT_ESITO_SCONO  | Esito           | Oper. aperta    | NO              |
+| SCIUTO_PA       | dell'accettazio |                 |                 |
 |                 | ne              |                 |                 |
 |                 | RT              |                 |                 |
 |                 | dell'Intermedia |                 |                 |
@@ -1853,7 +1841,7 @@ nodoChiediSceltaWISP
 
 Per l'utilizzo del servizio WISP 1.3 in emulazione, il cui processo di
 dettaglio è stato indicato al paragrafo 8.1.1.1, il NodoSPC rende
-disponibili il metodo SOAP ***nodoChiediSceltaWISP***.
+disponibili il metodo SOAP **nodoChiediSceltaWISP**.
 
 La primitiva deve essere invocata dall'Ente Creditore allo scopo di
 recuperare i parametri relativi alla scelta del PSP effettuata
@@ -1867,8 +1855,7 @@ re-direzione verso urlReturn (vedi anche § 8.3).
 In caso di necessità, l'invocazione della primitiva può essere ripetuta
 all'interno di tale periodo.
 
-**L’utilizzo della primitiva è deprecato e mantenuto per retro
-compatibilità.**
+**L’utilizzo della primitiva è deprecato e mantenuto per retro compatibilità.**
 
 Parametri di input
 
@@ -1897,25 +1884,25 @@ Parametri di output
    idDominio+keyPA+keyWISP corrisponde ad una scelta effettuata e non
    ancora scaduta (rispetto al parametro <timeout recupero scelta
    WISP>). I valori ammissibili del parametro sono:
-   "**SI**\ ”, l'utilizzatore finale ha scelto un servizio offerto da
+   "**SI**”, l'utilizzatore finale ha scelto un servizio offerto da
    un PSP
-   "**PO**\ ”, l'utilizzatore finale ha chiesto di stampare l'avviso di
+   "**PO**”, l'utilizzatore finale ha chiesto di stampare l'avviso di
    pagamento
 
 2. identificativoPSP: (opzionale) valorizzato se il parametro
-   effettuazioneScelta è uguale a “\ **SI**\ ”; contiene il valore
+   effettuazioneScelta è uguale a “**SI**”; contiene il valore
    dell'identificativo del PSP scelto
 
 3. identificativoIntermediarioPSP: (opzionale) valorizzato se il
-   parametro effettuazioneScelta è uguale a “\ **SI**\ ”; contiene il
+   parametro effettuazioneScelta è uguale a “**SI**”; contiene il
    valore dell'identificativo dell’intermediario del PSP scelto
 
 4. identificativoCanale: (opzionale) valorizzato se il parametro
-   effettuazioneScelta è uguale a “\ **SI**\ ”; contiene il valore del
+   effettuazioneScelta è uguale a “**SI**”; contiene il valore del
    identificativo del canale scelto
 
 5. tipoVersamento: (opzionale) valorizzato se il parametro
-   effettuazioneScelta è uguale a “\ **SI**\ ”; contiene il valore
+   effettuazioneScelta è uguale a “**SI**”; contiene il valore
    identificativo del tipo di versamento scelto
 
 Per le specifiche relative ai parametri opzionali si faccia riferimento
@@ -1963,14 +1950,14 @@ da parte dell'Ente Creditore, il Nodo dei Pagamenti-SPC rende
 disponibili i seguenti metodi SOAP, rappresentati nel diagramma di
 Figura 36:
 
-f. ***paaInviaRT***, con la quale viene sottomessa (da parte di Nodo dei
+f. **paaInviaRT**, con la quale viene sottomessa (da parte di Nodo dei
    Pagamenti-SPC) una RT. Questo significa che la RT è veicolata in
    modalità push da parte di Nodo dei Pagamenti-SPC verso gli Enti
    Creditori aderenti. Si noti che l’Ente Creditore aderente è comunque
    in grado di richiedere di propria iniziativa una RT tramite la
-   primitiva ***nodoChiediCopiaRT***, in modalità *pull*.
+   primitiva **nodoChiediCopiaRT**, in modalità *pull*.
 
-g. ***nodoChiediCopiaRT***, con la quale gli Enti Creditori aderenti
+g. **nodoChiediCopiaRT**, con la quale gli Enti Creditori aderenti
    possono richiedere la copia di una ricevuta telematica
    precedentemente inviata dal Nodo dei Pagamenti-SPC.
 
@@ -2120,23 +2107,23 @@ generazione della RPT per i pagamenti in attesa, il Nodo dei
 Pagamenti-SPC rende disponibili i metodi SOAP descritti nel seguito ed
 indicati nel diagramma di Figura 37 a pagina 148:
 
-h. ***paaVerificaRPT***, con la quale viene richiesta da parte del Nodo
+h. **paaVerificaRPT**, con la quale viene richiesta da parte del Nodo
    dei Pagamenti-SPC la verifica dello stato di un pagamento in attesa
    presso l’Ente Creditore; la richiesta è attivata su analoga
    iniziativa del PSP nei confronti del Nodo dei Pagamenti-SPC stesso;
 
-i. ***paaAttivaRPT***, con la quale vengono richiesti da parte del
+i. **paaAttivaRPT**, con la quale vengono richiesti da parte del
    NodoSPC la generazione e l’invio della RPT; la richiesta è attivata
    su analoga iniziativa del PSP nei confronti del NodoSPC stesso;
 
-j. ***paaAllegaRPT***, con la quale vengono richiesti da parte del
+j. **paaAllegaRPT**, con la quale vengono richiesti da parte del
    NodoSPC la generazione e l’invio della RPT, che viene allegata
    dall’Ente Creditore direttamente nella risposta al NodoSPC; la
    richiesta è attivata su analoga iniziativa del PSP nei confronti del
    NodoSPC stesso (AgID si riserva di comunicare la data di attivazione
    di tale primitiva);
 
-k. ***paaChiediNumeroAvviso***, con la quale vengono richiesti da parte
+k. **paaChiediNumeroAvviso**, con la quale vengono richiesti da parte
    del NodoSPC il Numero Avviso di un pagamento in attesa presso l’Ente
    Creditore relativo ad un particolare servizio (ad esempio: il
    pagamento della tassa automobilistica); la richiesta è attivata su
@@ -2146,10 +2133,10 @@ k. ***paaChiediNumeroAvviso***, con la quale vengono richiesti da parte
    da ciò può dipendere l’attesa dell’utilizzatore finale presso le
    postazioni utilizzate dai PSP.
 
-**Si tenga presente che l’attivazione sul sistema pagoPA del *workflow*
-definito per la primitiva** *nodoAllegaRPT* **è al momento sospesa.
-L’avvio dell’operatività sarà comunicato con un congruo anticipo,
-compatibile con le regole del sistema.**
+**Si tenga presente che l’attivazione sul sistema pagoPA del workflow**
+**definito per la primitiva nodoAllegaRPT è al momento sospesa.**
+**L’avvio dell’operatività sarà comunicato con un congruo anticipo,**
+**compatibile con le regole del sistema.**
 
 |image16|
 
@@ -2157,8 +2144,8 @@ compatibile con le regole del sistema.**
 attivati presso il PSP**
 
 L’Ente Creditore deve curare di impostare il parametro causaleVersamento
-presente nelle varie *response* (O-2.f di ***paaVerificaRPT*** e
-***paaAttivaRPT*** , O-2.c della primitiva ***paaAllegaRPT***) nel modo
+presente nelle varie *response* (O-2.f di **paaVerificaRPT** e
+**paaAttivaRPT** , O-2.c della primitiva **paaAllegaRPT**) nel modo
 più accurato possibile in quanto tale informazione consente al PSP di
 dare indicazioni all'utilizzatore finale circa la natura e i dettagli
 del pagamento, ad esempio: specificare eventuali interessi di mora su un
@@ -2252,7 +2239,7 @@ paaAttivaRPT
 .. _paaAttivaRPT:
 
 I parametri della primitiva sono sostanzialmente gli stessi della
-primitiva ***paaVerificaRPT***, con l’aggiunta dei dati di pagamento
+primitiva **paaVerificaRPT**, con l’aggiunta dei dati di pagamento
 predisposti dal PSP, in particolare, nella richiesta di attivazione
 della RPT, oltre all'identificativoUnivocoVersamento e
 all'identificativoDominio, sono presenti altre informazioni provenienti
@@ -2265,7 +2252,7 @@ dal PSP, tra cui:
    RPT al PSP.
 
 Prima della eventuale generazione della RPT, l’Ente Creditore effettua
-le stesse verifiche della primitiva ***paaVerificaRPT***: l'esito della
+le stesse verifiche della primitiva **paaVerificaRPT**: l'esito della
 richiesta è restituito nella risposta del metodo al NodoSPC, che a sua
 volta la restituisce al PSP.
 
@@ -2318,11 +2305,11 @@ Parametri di input
 +-----------------------------------------------------------------------+
 | 3. identificativoIntermediarioPSP: contiene l'identificativo dello    |
 |    specifico intermediario del PSP che deve essere utilizzato nella   |
-|    primitiva ***nodoInviaRPT***, parametro I-7                        |
+|    primitiva **nodoInviaRPT**, parametro I-7                        |
 |                                                                       |
 | 4. identificativoCanalePSP: contiene l'identificativo dello specifico |
 |    canale del PSP che deve essere utilizzato nella primitiva          |
-|    ***nodoInviaRPT***, parametro I-8                                  |
+|    **nodoInviaRPT**, parametro I-8                                  |
 +-----------------------------------------------------------------------+
 
 Parametri di output
@@ -2335,7 +2322,7 @@ Parametri di output
 
    b. ibanAccredito: contiene l’IBAN del conto da accreditare
           (obbligatorio), deve essere lo stesso utilizzato nella
-          *response* della primitiva ***paaVerificaRPT*** (parametro
+          *response* della primitiva **paaVerificaRPT** (parametro
           O-2, b)
 
    c. bicAccredito (opzionale)
@@ -2572,11 +2559,11 @@ Con riferimento al processo di revoca definito al § 8.1.4, per la
 gestione dei meccanismi di revoca delle RT sono stati ha definiti i
 seguenti metodi SOAP, rappresentati nel diagramma di Figura 38:
 
-l. ***paaInviaRichiestaRevoca***, con la quale il NodoSPC comunica
+l. **paaInviaRichiestaRevoca**, con la quale il NodoSPC comunica
    all’Ente Creditore la richiesta di Revoca di una specifica RT
    precedentemente inviata allo stesso Ente Creditore;
 
-m. ***nodoInviaRispostaRevoca***, con la quale il NodoSPC riceve
+m. **nodoInviaRispostaRevoca**, con la quale il NodoSPC riceve
    dall’Ente Creditore l’esito del processo di revoca richiesto con la
    primitiva precedente.
 
@@ -2689,18 +2676,17 @@ Storno del pagamento
 
 |image18|
 
-**Figura** **39 – NodoSPC/EC: Metodi di gestione dello Storno del
-pagamento**
+**Figura** **39 – NodoSPC/EC: Metodi di gestione dello Storno del pagamento**
 
 Con riferimento al processo di storno del pagamento (vedi § 8.1.3) e per
 la gestione dei meccanismi di richiesta e di esito dello storno, il Nodo
 dei Pagamenti-SPC rende disponibili i metodi SOAP descritti nel seguito
 ed indicati nel diagramma di Figura 39 a pagina 155:
 
-n. ***nodoInviaRichiestaStorno***, con la quale l’Ente Creditore
+n. **nodoInviaRichiestaStorno**, con la quale l’Ente Creditore
    comunica al NodoSPC la richiesta di storno da inoltrare al PSP
 
-o. ***paaInviaEsitoStorno***, con la quale il NodoSPC invia all’Ente
+o. **paaInviaEsitoStorno**, con la quale il NodoSPC invia all’Ente
    Creditore l’esito del processo di storno presso il PSP, richiesto con
    la primitiva precedente.
 
@@ -2711,7 +2697,7 @@ rispetto alle primitive di risposta (vedi *sequence* *diagram* di Figura
 
 Il NodoSPC effettua unicamente un controllo di correttezza sintattica
 degli oggetti XML scambiati; nel caso della primitiva
-***nodoInviaRichiestaStorno***, viene verificato che la RPT oggetto
+**nodoInviaRichiestaStorno**, viene verificato che la RPT oggetto
 della richiesta di storno sia stata accettata dal NodoSPC e dal PSP,
 altrimenti restituisce un errore specifico.
 
@@ -2835,25 +2821,24 @@ essere scaricato dal sistema sia in modalità File Transfer, sia tramite
 dell’Ente Creditore per la gestione dei flussi di rendicontazione,
 riportati in Figura 40, sono i seguenti:
 
-n. ***nodoChiediElencoFlussiRendicontazione***, con la quale l’Ente
+n. **nodoChiediElencoFlussiRendicontazione**, con la quale l’Ente
    Creditore richiede al NodoSPC l’elenco dei flussi di rendicontazione
    di sua competenza memorizzati presso la piattaforma. Si noti che il
    sistema fornisce l'elenco completo dei flussi dell'ente presenti sul
    NodoSPC al momento della richiesta;
 
-o. ***nodoChiedFlussoRendicontazione***, con la quale l’Ente Creditore
+o. **nodoChiedFlussoRendicontazione**, con la quale l’Ente Creditore
    richiede al NodoSPC uno specifico flusso di rendicontazione presente
    nell'elenco scaricato con la primitiva di cui al punto precedente.
 
 Come già indicato, il NodoSPC non tiene traccia dei singoli flussi di
 rendicontazione richiesti dall’Ente Creditore con la primitiva
-***nodoChiedFlussoRendicontazione***, pertanto è compito di quest'ultimo
+**nodoChiedFlussoRendicontazione**, pertanto è compito di quest'ultimo
 tenere conto dei singoli flussi già richiesti al NodoSPC.
 
 |image19|
 
-**Figura** **40 – NodoSPC/EC: Metodi per la richiesta dei flussi di
-rendicontazione**
+**Figura** **40 – NodoSPC/EC: Metodi per la richiesta dei flussi di rendicontazione**
 
 nodoChiediElencoFlussiRendicontazione
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2919,7 +2904,7 @@ nodoChiediFlussoRendicontazione
 Con questa primitiva l’Ente Creditore richiede al NodoSPC un file XML
 relativo ad uno specifico flusso di rendicontazione presente nell'elenco
 scaricato con la primitiva indicata al paragrafo precedente
-***nodoChiediElencoFlussiRendicontazione.***
+**nodoChiediElencoFlussiRendicontazione.**
 
 Si fa presente che l'utilizzo di questa primitiva è gestito dal NodoSPC
 in fase di configurazione dell'Ente Creditore, che deve comunicare se
@@ -3006,15 +2991,15 @@ Avvisatura digitale *push* (su iniziativa dell'Ente Creditore)
 
 |image20|
 
-**Figura** **41 – NodoSPC/EC: Metodi di interfaccia per l'avvisatura
-digitale lato Ente Creditore**
+**Figura** **41 – NodoSPC/EC: Metodi di interfaccia per l'avvisatura**
+**digitale lato Ente Creditore**
 
 Per la gestione del processo di inoltro da parte dell’ente Creditore
 degli avvisi digitali da inviare agli utilizzatori finali (vedi §
 8.1.6), il NodoSPC rende disponibile la seguente interfaccia *Web
 service*, riportata in Figura 41:
 
-p. ***nodoInviaAvvisoDigitale*,** con la quale viene sottomessa (da
+p. **nodoInviaAvvisoDigitale*,** con la quale viene sottomessa (da
    parte dell’Ente Creditore) una richiesta di invio di un singolo
    avviso di pagamento digitale. Questo significa che la richiesta è
    veicolata in modalità *push* da parte di Nodo dei Pagamenti-SPC verso
@@ -3024,7 +3009,7 @@ nodoInviaAvvisoDigitale
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. _nodoInviaAvvisoDigitale:
 
-La primitiva ***nodoInviaAvvisoDigitale*** è esposta dal Nodo dei
+La primitiva **nodoInviaAvvisoDigitale** è esposta dal Nodo dei
 Pagamenti-SPC, è utilizzata in modalità sincrona e prevede che il
 NodoSPC riceva l'avviso digitale, lo inoltro sui canali scelti
 dall'utilizzatore finale e restituisca gli esiti [9]_ dell'inoltro
@@ -3096,7 +3081,7 @@ Per la gestione dei meccanismi di consultazione degli avvisi presenti
 presso l'Ente Creditore, il NodoSPC rende disponibile la seguente
 interfaccia *Web service*, riportata in Figura 42:
 
-q. ***paaChiediElencoAvvisiDigitali*,** con la quale viene sottomessa
+q. **paaChiediElencoAvvisiDigitali*,** con la quale viene sottomessa
    (da parte del NodoSPC) una richiesta di verifica di avvisi di
    pagamento presenti presso l’Ente Creditore. Questo significa che la
    richiesta è veicolata in modalità *pull* da parte di Nodo dei
@@ -3104,8 +3089,8 @@ q. ***paaChiediElencoAvvisiDigitali*,** con la quale viene sottomessa
 
 |image21|
 
-**Figura** **42 – NodoSPC/EC: Metodi di interfaccia per l'avvisatura
-digitale lato Ente Creditore**
+**Figura** **42 – NodoSPC/EC: Metodi di interfaccia per l'avvisatura**
+**digitale lato Ente Creditore**
 
 paaChiediElencoAvvisiDigitali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3196,13 +3181,13 @@ corrente (00-24).
 
 |image22|
 
-**Figura** **43 – NodoSPC/EC: Metodo per l'interrogazione del Catalogo
-Dati Informativi**
+**Figura** **43 – NodoSPC/EC: Metodo per l'interrogazione del Catalogo**
+**Dati Informativi**
 
 Per l'interrogazione del "*Catalogo Dati Informativ*\ i" il NodoSPC
 rende disponibile il metodo rappresentato nel diagramma di Figura 43:
 
-r. ***nodoChiediInformativaPSP***, con la quale viene sottomessa a Nodo
+r. **nodoChiediInformativaPSP**, con la quale viene sottomessa a Nodo
    dei Pagamenti-SPC una richiesta di invio del catalogo dei dati
    informativi. Questo significa che l’invio del catalogo, informative
    dei vari PSP comprese, avviene in modalità pull, a seguito di una
@@ -3274,13 +3259,13 @@ Per la gestione dei meccanismi di ricezione dei flussi relativi ai
 disponibili i metodi SOAP descritti nel seguito e rappresentati nel
 diagramma di Figura 44 a pagina 163:
 
-s. ***nodoChiediElencoQuadraturePA***, con la quale l’Ente Creditore
+s. **nodoChiediElencoQuadraturePA**, con la quale l’Ente Creditore
    richiede al NodoSPC l’elenco dei flussi contenenti i "Totali di
    Traffico" di sua competenza memorizzati presso la piattaforma. Si
    noti che il sistema fornisce l'elenco completo dei flussi dell'ente
    presenti sul NodoSPC al momento della richiesta;
 
-t. ***nodoChiediQuadraturaPA***, con la quale l’Ente Creditore richiede
+t. **nodoChiediQuadraturaPA**, con la quale l’Ente Creditore richiede
    al NodoSPC uno specifico flusso, contenente i "Totali di Traffico",
    presente nell'elenco scaricato con la primitiva indicata al punto
    precedente.
@@ -3299,7 +3284,7 @@ contenente quadratura di interesse.
 
 Il Nodo dei Pagamenti-SPC non tiene traccia dei singoli flussi
 contenenti i "Totali di Traffico" richiesti dal PSP con la primitiva
-***nodoChiediElencoQuadraturePA***, pertanto è compito di ogni PSP
+**nodoChiediElencoQuadraturePA**, pertanto è compito di ogni PSP
 tenere conto dei singoli flussi già richiesti al NodoSPC.
 
 nodoChiediElencoQuadraturePA
@@ -3423,9 +3408,9 @@ esecuzione immediata (vedi § 8.1.1).
 Tali indicazioni sono valide anche per la gestione del cosiddetto
 "carrello multi beneficiario".
 
-Re-direzion\ *e* dal Portale EC verso il Web-FESP
+Re-direzione dal Portale EC verso il Web-FESP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. _Re-direzion\ *e* dal Portale EC verso il Web-FESP:
+.. _Re-direzione dal Portale EC verso il Web-FESP:
 
 La sintassi dello URL che il Portale dell'Ente Creditore deve utilizzare
 per re-indirizzare il browser dell’utilizzatore finale verso il Web-FESP
@@ -3466,11 +3451,11 @@ Tabella 36:
 |                       |                       | re-indirizzamento     |
 |                       |                       | relativa alla RPT     |
 |                       |                       | della primitiva       |
-|                       |                       | ***nodoInviaRPT***,   |
+|                       |                       | **nodoInviaRPT**,     |
 |                       |                       | nel caso alla         |
 |                       |                       | primitiva             |
-|                       |                       | ***nodoInviaCarrelloR |
-|                       |                       | PT***                 |
+|                       |                       | **nodoInviaCarrelloR**|
+|                       |                       | **PT**                |
 |                       |                       | può essere trascurato |
 +-----------------------+-----------------------+-----------------------+
 | **lang** (opzionale)  | specifica il          |                       |
@@ -3494,8 +3479,7 @@ dove i parametri (tra parentesi quelli opzionali) sono indicati nella
 <urlPortalePA>?[idDominio=<identificativoDominio>]
 &idSession=<idSession>& esito=<esito>[&<URLesitoPSP>]
 
-**Tabella** **37 - Parametri di re-direzione verso il portale dell'Ente
-Creditore**
+**Tabella** **37 - Parametri di re-direzione verso il portale dell'Ente Creditore**
 
 +-----------------------+-----------------------+-----------------------+
 | **Parametri**         |     **Descrizione**   |                       |
@@ -3536,7 +3520,7 @@ Creditore**
 |                       | il pagamento          |                       |
 |                       | associato alla RPT    |                       |
 |                       | della                 |                       |
-|                       | ***nodoInviaRPT***    |                       |
+|                       | **nodoInviaRPT**    |                       |
 |                       | (vedi § 8.3.1).       |                       |
 +-----------------------+-----------------------+-----------------------+
 | **esito**             | corrisponde alla      |                       |
@@ -3854,10 +3838,10 @@ alcune precisazioni sui dati presenti da utilizzare:
 +======================================================================+
 | Identificativo del soggetto che sta richiedendo l’accesso al         |
 | portale WISP. Nel caso in cui il parametro primitiva assuma il       |
-| valore ***nodoInviaRPT***, va indicato il valore del dato            |
+| valore **nodoInviaRPT**, va indicato il valore del dato            |
 | idDominio presente nella RPT che deve essere inviata; invece, nel    |
 | caso in cui il parametro primitiva assuma il valore                  |
-| ***nodoInviaCarrelloRPT***, va indicato il valore del dato           |
+| **nodoInviaCarrelloRPT**, va indicato il valore del dato           |
 | idDominio presente nella prima RPT che compone il “carrello” di      |
 | RPT.                                                                 |
 +----------------------------------------------------------------------+
@@ -3865,10 +3849,10 @@ alcune precisazioni sui dati presenti da utilizzare:
 +----------------------------------------------------------------------+
 | Stringa alfanumerica contenente la denominazione del soggetto che    |
 | sta richiedendo l’accesso al portale WISP. nel caso in cui il        |
-| parametro primitiva assuma il valore ***nodoInviaRPT***, va          |
+| parametro primitiva assuma il valore **nodoInviaRPT**, va          |
 | indicato la denominazione dell’Ente Creditore che invia la RPT,      |
 | invece, nel caso in cui il parametro primitiva assuma il valore      |
-| ***nodoInviaCarrelloRPT***, va indicata la denominazione della       |
+| **nodoInviaCarrelloRPT**, va indicata la denominazione della       |
 | piattaforma che compone il “carrello” di RPT (ad esempio: quello     |
 | della piattaforma regionale).                                        |
 +----------------------------------------------------------------------+
@@ -3896,12 +3880,12 @@ alcune precisazioni sui dati presenti da utilizzare:
 |                                                                      |
 |*Valori ammessi:*                                                     |
 |                                                                      |
-|-  ***nodoInviaRPT***                                                 |
+|-  **nodoInviaRPT**                                                 |
 |                                                                      |
-|-  ***nodoInviaCarrelloRPT***                                         |
+|-  **nodoInviaCarrelloRPT**                                         |
 |                                                                      |
 |*Filtri attivati*: Nel caso in cui sia impostato il valore            |
-|***nodoInviaCarrello***, saranno selezionati solo i servizi di        |
+|**nodoInviaCarrello**, saranno selezionati solo i servizi di        |
 |pagamento dei PSP in grado di gestire tale primitiva e di             |
 |trattare più di un versamento nella stessa richiesta: pertanto, i     |
 |servizi di pagamento MyBank non saranno visualizzati.                 |
@@ -3909,10 +3893,10 @@ alcune precisazioni sui dati presenti da utilizzare:
 |**numPagamentiRPT:**                                                  |
 +----------------------------------------------------------------------+
 | Numero dei pagamenti presenti nella singola RPT nel caso in cui      |
-| il parametro primitiva assuma il valore ***nodoInviaRPT*** oppure    |
+| il parametro primitiva assuma il valore **nodoInviaRPT** oppure    |
 | numero complessivo dei pagamenti presenti in tutte le RPT            |
 | costituenti il “carrello” nel caso in cui il parametro primitiva     |
-| assuma il valore ***nodoInviaCarrelloRPT***.                         |
+| assuma il valore **nodoInviaCarrelloRPT**.                         |
 |                                                                      |
 | *Valori ammessi:* maggiore o uguale a 1.                             |
 +----------------------------------------------------------------------+
@@ -3956,14 +3940,14 @@ alcune precisazioni sui dati presenti da utilizzare:
 | Identificativo del PSP, eventualmente selezionato dall'utente in     |
 | sessioni precedenti e memorizzato a cura dell'Ente Creditore.        |
 | Corrisponde al parametro O-2 della primitiva                         |
-| ***nodoChiediSceltaWISP*** (vedi § 8.2.1.5).                         |
+| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                         |
 +----------------------------------------------------------------------+
 |**tipoVersamento**                                                    |
 +----------------------------------------------------------------------+
 | Identificativo del tipo di versamento eventualmente selezionato      |
 | dall'utente in sessioni precedenti e memorizzato a cura dell'Ente    |
 | Creditore. Corrisponde al parametro O-5 della primitiva              |
-| ***nodoChiediSceltaWISP*** (vedi § 8.2.1.5).                         |
+| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                         |
 |                                                                      |
 | *Controlli*: Può assumere gli stessi valori dell’omologo campo       |
 | della RPT (vedi § 5.3.1).                                            |
@@ -4000,7 +3984,7 @@ alcune precisazioni sui dati presenti da utilizzare:
 | quale sarà effettuato il pagamento.                                  |
 |                                                                      |
 | *Controlli*: Se il parametro primitiva è impostato a                 |
-| ***'nodoInviaCarrelloRPT*** ' oppure il parametro numPagamentiRPT    |
+| **'nodoInviaCarrelloRPT** ' oppure il parametro numPagamentiRPT    |
 | è maggiore di 1, il parametro viene ignorato.                        |
 +----------------------------------------------------------------------+
 |**contoPoste**                                                        |
@@ -4020,7 +4004,7 @@ alcune precisazioni sui dati presenti da utilizzare:
 | cui il campo ibanAccredito non sia valorizzato\ *.*                  |
 |                                                                      |
 | Nel caso in cui il parametro primitiva (vedi sopra) assuma il        |
-| valore ***nodoInviaCarrelloRPT*** (“carrello” di RPT), per           |
+| valore **nodoInviaCarrelloRPT** (“carrello” di RPT), per             |
 | impostare a **SI** il parametro contoPoste **è necessario che        |
 | tutti** gli Enti Creditori beneficiari dei pagamenti presenti nel    |
 | "carrello" dispongano di almeno un c/c postale censito nella         |
@@ -4070,7 +4054,7 @@ fase di attivazione nel parametro urlBack. Il messaggio di chiusura del
 processo di selezione del PSP viene trasferito in POST e contiene i dati
 indicati in **Tabella 39**.
 
-**Tabella** **39 - Dati forniti nella *re-direct* su urlBack**
+**Tabella** **39 - Dati forniti nella re-direct su urlBack**
 
 +-------------+-------------+-------------+-------------+-------------+
 | **Dato**    | **Genere**  | **Occ**     | **Len**     |**Contenuto**|
@@ -4164,7 +4148,7 @@ dell'Ente Creditore indicato, in fase di attivazione, nel parametro
 urlReturn. Il messaggio di chiusura del processo di selezione del PSP
 viene trasferito in POST e contiene i dati indicati in Tabella 40.
 
-**Tabella** **40 - Dati forniti nella *re-direct* su urlReturn**
+**Tabella** **40 - Dati forniti nella re-direct su urlReturn**
 
 +-------------+-------------+-------------+-------------+-------------+
 | **Dato**    | **Genere**  | **Occ**     | **Len**     |**Contenuto**|
@@ -4231,7 +4215,7 @@ indicato al § 8.1.5 (vedi anche Figura 32 a pagina 132).
 L’effettiva operazione di trasmissione del file di rendicontazione dal
 NodoSPC all’EC avverrà secondo questa modalità: l’EC riceverà il flusso
 richiesto direttamente sulle proprie macchine, per cui agirà da
-***server***; sarà il NodoSPC a svolgere il ruolo di ***client***
+**server**; sarà il NodoSPC a svolgere il ruolo di **client**
 **SFTP**.
 
 Dati tecnici
@@ -4263,7 +4247,7 @@ file deve essere controllata dall’applicazione ricevente.
 
 Il nome del file completo nella cartella di destinazione è uguale al
 nome logico del flusso di rendicontazione (parametro I-6 della primitiva
-***nodoChiediFlussoRendicontazione***, vedi § 8.2.6.2) con un suffisso
+**nodoChiediFlussoRendicontazione**, vedi § 8.2.6.2) con un suffisso
 “.XML.ZIP”.
 
 **Nome del file**:
@@ -4281,7 +4265,7 @@ di ritrasmissione.
 
 Per ottenere una ritrasmissione di un file non integro oppure completo,
 l’applicazione EC può richiedere nuovamente il trasferimento con la
-primitiva ***nodoChiediFlussoRendicontazione***.
+primitiva **nodoChiediFlussoRendicontazione**.
 
 Specifiche di interfaccia per il trasferimento delle richieste di Avviso Digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4390,7 +4374,7 @@ b) il numero di file strettamente necessari a contenere tutte le
 .. [3]
    Il Nodo dei Pagamenti-SPC non tiene traccia dei singoli flussi di
    rendicontazione richiesti dall’Ente Creditore con la primitiva
-   ***nodoChiedFlussoRendicontazione***, pertanto è compito di
+   **nodoChiedFlussoRendicontazione**, pertanto è compito di
    quest'ultimo richiedere i flussi di proprio interesse.
 
 .. [4]
