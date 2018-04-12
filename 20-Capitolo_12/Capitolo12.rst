@@ -231,7 +231,7 @@ disponibilità:
 
 -  **Servizi Base**: sono resi in modalità on-line;
 
--  **Servizio *Repository***: è reso in modalità on-line;
+-  **Servizio Repository**: è reso in modalità on-line;
 
 -  **Servizio Ricezione totali di traffico**: è reso sulla base della
        periodicità da definire con il fruitore;
