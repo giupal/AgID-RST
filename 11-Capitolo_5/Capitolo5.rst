@@ -78,7 +78,7 @@ Sono di seguito elencati i soggetti coinvolti nel processo di pagamento:
 **c. Ente Beneficiario**: rappresenta la Pubblica Amministrazione creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto Pagatore*;
 
 **d. Istituto Attestante**: rappresenta il Prestatore di Servizi di Pagamento che effettua il pagamento richiesto e ne attesta la regolarità.
-       
+
 Formato dei dati
 ----------------
 .. _Formato dei dati:
