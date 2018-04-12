@@ -54,7 +54,7 @@ prevede una rappresentazione in formato XML.
 
 Dovranno essere definite strutture che ne consentano la validazione sia
 presso l’Ente Creditore che presso il Prestatori di servizi di
-pagamento, relativamente alle fasi di generazione e di verifica
+pagamento\ *,* relativamente alle fasi di generazione e di verifica
 formale dei messaggi.
 
 Le strutture rappresentano lo standard minimo a cui gli Enti Creditori e
@@ -71,14 +71,25 @@ Soggetti
 
 Sono di seguito elencati i soggetti coinvolti nel processo di pagamento:
 
-**a. Soggetto Pagatore**: rappresenta il soggetto (Persona Fisica o Giuridica) debitore di somme di denaro nei confronti della        Pubblica Amministrazione. L’Ente Creditore è responsabile della corretta identificazione del Soggetto Pagatore;
+a. Soggetto Pagatore: rappresenta il soggetto (Persona Fisica o
+       Giuridica) debitore di somme di denaro nei confronti della
+       Pubblica Amministrazione. L’Ente Creditore è responsabile della
+       corretta identificazione del Soggetto Pagatore;
 
-**b. Soggetto Versante**: rappresenta il soggetto delegato che effettua per conto del soggetto pagatore il versamento delle somme dovute. Il Soggetto Versante è identificato dalla componente WISP del Nodo (per i pagamenti disposti presso l’EC) o dal PSP, se necessario, negli altri casi;
+b. Soggetto Versante: rappresenta il soggetto delegato che effettua per
+       conto del soggetto pagatore il versamento delle somme dovute. Il
+       Soggetto Versante è identificato dalla componente WISP del Nodo
+       (per i pagamenti disposti presso l’EC) o dal PSP, se necessario,
+       negli altri casi;
 
-**c. Ente Beneficiario**: rappresenta la Pubblica Amministrazione creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto Pagatore*;
+c. Ente Beneficiario: rappresenta la Pubblica Amministrazione
+       creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto
+       Pagatore*\ **;**
 
-**d. Istituto Attestante**: rappresenta il Prestatore di Servizi di Pagamento che effettua il pagamento richiesto e ne attesta la regolarità.
-
+d. Istituto Attestante: rappresenta il Prestatore di Servizi di
+       Pagamento che effettua il pagamento richiesto e ne attesta la
+       regolarità.
+       
 Formato dei dati
 ----------------
 .. _Formato dei dati:
@@ -132,7 +143,7 @@ significati:
 |                 |                 | “occorrenze”    |                 |
 |                 |                 | del dato nel    |                 |
 |                 |                 | formato         |                 |
-|                 |                 | **min..max**.   |                 |
+|                 |                 | ***min..max***. |                 |
 +-----------------+-----------------+-----------------+-----------------+
 |                 |                 | L’eventuale     |                 |
 |                 |                 | obbligatorietà  |                 |
@@ -195,8 +206,8 @@ a favore dello stesso Ente Creditore.
 **Tabella** **1 - Elementi componenti la RPT**
 
 +---------+---------+----------+---------+---------+---------+---------+
-| **Dato**| **Liv** |**Genere**| **Occ** | **Len** |**UNIFI**|**Conte  |
-|         |         |          |         |         |         |nuto**   |
+| **Dato**| **Liv** |**Genere**| **Occ** | **Len** |**UNIFI**| **Conte |
+|         |         |          |         |         |         | nuto**  |
 +=========+=========+==========+=========+=========+=========+=========+
 | versione| 1       | an       | 1..1    | 1..16   | Version | Version |
 | Oggetto |         |          |         |         | Number  | e       |
@@ -755,7 +766,8 @@ a favore dello stesso Ente Creditore.
 | agatore |         |          |         |         | sion    | provinc |
 |         |         |          |         |         |         | ia      |
 |         |         |          |         |         |         | del     |
-|         |         |          |         |         |         | pagatore|
+|         |         |          |         |         |         | pagator |
+|         |         |          |         |         |         | e       |
 +---------+---------+----------+---------+---------+---------+---------+
 | naz     | 2       | an       | 0..1    | 2       | Country | Indica  |
 | ionePag |         |          |         |         |         | il      |
@@ -844,8 +856,8 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | e       |
 |         |         |          |         |         |         | il      |
 |         |         |          |         |         |         | valore  |
-|         |         |          |         |         |         | -  **‘G |
-|         |         |          |         |         |         | ’**\    |
+|         |         |          |         |         |         | \**G**\,|
+|         |         |          |         |         |         |         |
 |         |         |          |         |         |         | Identif |
 |         |         |          |         |         |         | icativo |
 |         |         |          |         |         |         | fiscale |
@@ -1106,7 +1118,8 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | alla    |
 |         |         |          |         |         |         | somma   |
 |         |         |          |         |         |         | da      |
-|         |         |          |         |         |         | versare.|
+|         |         |          |         |         |         | versare |
+|         |         |          |         |         |         | .       |
 |         |         |          |         |         |         |         |
 |         |         |          |         |         |         | Deve    |
 |         |         |          |         |         |         | essere  |
@@ -1131,8 +1144,9 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ra      |
 |         |         |          |         |         |         | DatiSin |
 |         |         |          |         |         |         | goloVer |
-|         |         |          |         |         |         | samento.|
- +---------+---------+----------+---------+---------+---------+---------+
+|         |         |          |         |         |         | samento |
+|         |         |          |         |         |         | .       |
++---------+---------+----------+---------+---------+---------+---------+
 | tip     | 2       | an       | 1..1    | 4       | Proprie | *Forma  |
 | oVersam |         |          |         |         | tary    | tecnica |
 | ento    |         |          |         |         | Code    | di      |
@@ -1721,6 +1735,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | paragra |
 |         |         |          |         |         |         | fo      |
 |         |         |          |         |         |         | 8.1.1.5 |
+|         |         |          |         |         |         | .       |
 +---------+---------+----------+---------+---------+---------+---------+
 | bic     | 3       | an       | 0..1    | 8 \| 11 | Credito | Bank    |
 | Appoggi |         |          |         |         | r       | Identif |
@@ -2119,6 +2134,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | Messagg |
 |         |         |         |         |         |         | ioRicev |
 |         |         |         |         |         |         | uta\.   |
+|         |         |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
 | dat     | 1       | an      | 1..1    | 19      | Creatio | Indica  |
 | aOraMes |         |         |         |         | n       | la data |
@@ -4604,660 +4620,662 @@ Pagamenti-SPC. Tale elenco ha valenza giornaliera: dalle ore 0 alle ore
 24. Nella Tabella 5 sono specificate le informazioni che il Nodo dei
 Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 
-**Tabella** **5 - Elementi componenti la Tabella delle controparti**
+**Tabella** **5 - Elementi componenti la “\ *Tabella delle
+controparti*\ ”**
 
-+---------+---------+----------+---------+---------+---------+---------+
-| **Dato**| **Liv** |**Genere**| **c**   | **Len** | **Contenuto**     |
-|         |         |          |         |         |                   |
-+=========+=========+==========+=========+=========+=========+=========+
-| inf     | 1       | s        | 1..n    |         | Struttu |         |
-| ormativ |         |          |         |         | ra      |         |
-| aContro |         |          |         |         | che     |         |
-| parte   |         |          |         |         | raggrup |         |
-|         |         |          |         |         | pa      |         |
-|         |         |          |         |         | le      |         |
-|         |         |          |         |         | informa |         |
-|         |         |          |         |         | zioni   |         |
-|         |         |          |         |         | inviate |         |
-|         |         |          |         |         | dall’En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | al Nodo |         |
-|         |         |          |         |         | dei     |         |
-|         |         |          |         |         | Pagamen |         |
-|         |         |          |         |         | ti-SPC  |         |
-|         |         |          |         |         | e rese  |         |
-|         |         |          |         |         | disponi |         |
-|         |         |          |         |         | bili    |         |
-|         |         |          |         |         | ai PSP. |         |
-+---------+---------+--------- +---------+---------+---------+---------+
-| ide     | 2       | an       | 1..1    | 35      | identif |         |
-| ntifica |         |          |         |         | icativo |         |
-| tivoDom |         |          |         |         | Dominio |         |
-| inio    |         |          |         |         | dell’En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | (codice |         |
-|         |         |          |         |         | utilizz |         |
-|         |         |          |         |         | ato     |         |
-|         |         |          |         |         | nella   |         |
-|         |         |          |         |         | RPT).   |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| rag     | 2       | an       | 1..1    | 70      | Ragione |         |
-| ioneSoc |         |          |         |         | sociale |         |
-| iale    |         |          |         |         | dell’En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re.     |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| dat     | 2       | an       | 1..1    | 10      | Data in |         |
-| aInizio |         |          |         |         | cui     |         |
-| Validit |         |          |         |         | inizia  |         |
-| a       |         |          |         |         | la      |         |
-|         |         |          |         |         | validit |         |
-|         |         |          |         |         | à       |         |
-|         |         |          |         |         | delle   |         |
-|         |         |          |         |         | informa |         |
-|         |         |          |         |         | zioni   |         |
-|         |         |          |         |         | relativ |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | all’Ent |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | nel     |         |
-|         |         |          |         |         | formato |         |
-|         |         |          |         |         | ISO     |         |
-|         |         |          |         |         | 8601:   |         |
-|         |         |          |         |         | **[YYYY |         |
-|         |         |          |         |         | ]-[MM]- |         |
-|         |         |          |         |         | [DD]**  |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| pag     | 2       | n        | 1..1    | 1       | Indica  |         |
-| amentiP |         |          |         |         | se      |         |
-| ressoPS |         |          |         |         | l’Ente  |         |
-| P       |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | consent |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         | pagamen |         |
-|         |         |          |         |         | ti      |         |
-|         |         |          |         |         | presso  |         |
-|         |         |          |         |         | i PSP   |         |
-|         |         |          |         |         | (vedi § |         |
-|         |         |          |         |         | 2.2);   |         |
-|         |         |          |         |         | può     |         |
-|         |         |          |         |         | assumer |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         | seguent |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         | valori: |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | 1. NON  |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | consent |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | pagamen |         |
-|         |         |          |         |         | ti      |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | c/o     |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | PSP     |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | 2. CONS |         |
-|         |         |          |         |         | ENTE    |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | pagamen |         |
-|         |         |          |         |         | ti      |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | c/o     |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | PSP     |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| con     | 2       | an       | 1..1    | 255     | Recapit |         |
-| tactCen |         |          |         |         | i       |         |
-| terEnte |         |          |         |         | dell'En |         |
-| Credito |         |          |         |         | te      |         |
-| re      |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | (Numero |         |
-|         |         |          |         |         | telefon |         |
-|         |         |          |         |         | ico     |         |
-|         |         |          |         |         | e/o     |         |
-|         |         |          |         |         | indiriz |         |
-|         |         |          |         |         | zo      |         |
-|         |         |          |         |         | e-mail) |         |
-|         |         |          |         |         | presso  |         |
-|         |         |          |         |         | il      |         |
-|         |         |          |         |         | quale   |         |
-|         |         |          |         |         | l'utili |         |
-|         |         |          |         |         | zzatore |         |
-|         |         |          |         |         | finale  |         |
-|         |         |          |         |         | e il    |         |
-|         |         |          |         |         | PSP     |         |
-|         |         |          |         |         | possono |         |
-|         |         |          |         |         | rivolge |         |
-|         |         |          |         |         | rsi     |         |
-|         |         |          |         |         | per     |         |
-|         |         |          |         |         | ottener |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | informa |         |
-|         |         |          |         |         | zioni.  |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| mod     | 2       | s        | 0..1    |         | Struttu |         |
-| Spontan |         |          |         |         | che, se |         |
-| elloTre |         |          |         |         | ra      |         |
-| eo      |         |          |         |         | present |         |
-|         |         |          |         |         | e,      |         |
-|         |         |          |         |         | indica  |         |
-|         |         |          |         |         | che     |         |
-|         |         |          |         |         | l’Ente  |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | consent |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | ai      |         |
-|         |         |          |         |         | propri  |         |
-|         |         |          |         |         | utenti  |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | effettu |         |
-|         |         |          |         |         | are     |         |
-|         |         |          |         |         | pagamen |         |
-|         |         |          |         |         | ti      |         |
-|         |         |          |         |         | spontan |         |
-|         |         |          |         |         | ei      |         |
-|         |         |          |         |         | presso  |         |
-|         |         |          |         |         | i PSP   |         |
-|         |         |          |         |         | (vedi § |         |
-|         |         |          |         |         | 2.2.3   |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| ser     | 3       | s        | 0..n    |         | Struttu |         |
-| viziMod |         |          |         |         | ra      |         |
-| elloTre |         |          |         |         | contene |         |
-| Spontan |         |          |         |         | nte     |         |
-| eo      |         |          |         |         | l'elenc |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | dei     |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | che     |         |
-|         |         |          |         |         | possono |         |
-|         |         |          |         |         | essere  |         |
-|         |         |          |         |         | pagati  |         |
-|         |         |          |         |         | in      |         |
-|         |         |          |         |         | modalit |         |
-|         |         |          |         |         | à       |         |
-|         |         |          |         |         | spontan |         |
-|         |         |          |         |         | ea      |         |
-|         |         |          |         |         | i PSP.  |         |
-|         |         |          |         |         | presso  |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| idS     | 4       | an       | 1..1    | 5       | Codice  |         |
-| ervizio |         |          |         |         | numeric |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | che     |         |
-|         |         |          |         |         | identif |         |
-|         |         |          |         |         | ica     |         |
-|         |         |          |         |         | il      |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | che può |         |
-|         |         |          |         |         | essere  |         |
-|         |         |          |         |         | pagato  |         |
-|         |         |          |         |         | in      |         |
-|         |         |          |         |         | à       |         |
-|         |         |          |         |         | modalit |         |
-|         |         |          |         |         | spontan |         |
-|         |         |          |         |         | ea      |         |
-|         |         |          |         |         | presso  |         |
-|         |         |          |         |         | i PSP.  |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| dat     | 4       | an       | 1..1    | 10      | Data da |         |
-| aInizio |         |          |         |         | cui è   |         |
-| Attivaz |         |          |         |         | attiva  |         |
-|         |         |          |         |         | zione   |         |
-| ione    |         |          |         |         | l'eroga |         |
-|         |         |          |         |         | dello   |         |
-|         |         |          |         |         | specifi |         |
-|         |         |          |         |         | co      |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | da      |         |
-|         |         |          |         |         | parte   |         |
-|         |         |          |         |         | dell’En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | nel     |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | formato |         |
-|         |         |          |         |         | ISO     |         |
-|         |         |          |         |         | 8601:   |         |
-|         |         |          |         |         | **[YYYY |         |
-|         |         |          |         |         | ]-[MM]- |         |
-|         |         |          |         |         | [DD]**  |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| avv     | 2       | n        | 0..1    | 1       | Indica  |         |
-| isatura |         |          |         |         | che     |         |
-| Pull    |         |          |         |         | l’Ente  |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | consent |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | attivar |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | le      |         |
-|         |         |          |         |         | funzion |         |
-|         |         |          |         |         | alità   |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | avvisat |         |
-|         |         |          |         |         | ura     |         |
-|         |         |          |         |         | digital |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | *pull*  |         |
-|         |         |          |         |         | (vedi § |         |
-|         |         |          |         |         | 2.10);  |         |
-|         |         |          |         |         | può     |         |
-|         |         |          |         |         | assumer |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         | seguent |         |
-|         |         |          |         |         | valori: |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | 1. NON  |         |
-|         |         |          |         |         | consente|         |
-|         |         |          |         |         | avvi    |         |
-|         |         |          |         |         | satura  |         |
-|         |         |          |         |         | *pul*   |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | 2. CONS |         |
-|         |         |          |         |         | ENTE    |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | avvisat |         |
-|         |         |          |         |         | ura     |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | *pull*  |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| ero     | 2       | s        | 0..1    |         | Aggrega |         |
-| gazione |         |          |         |         | zione   |         |
-| Servizi |         |          |         |         | relativ |         |
-| o       |         |          |         |         | a       |         |
-|         |         |          |         |         | alle    |         |
-|         |         |          |         |         | fasce   |         |
-|         |         |          |         |         | orarie  |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | erogazi |         |
-|         |         |          |         |         | one     |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | da      |         |
-|         |         |          |         |         | parte   |         |
-|         |         |          |         |         | dell’En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re.     |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | **L’inf |         |
-|         |         |          |         |         | ormazio |         |
-|         |         |          |         |         | ne      |         |
-|         |         |          |         |         | è       |         |
-|         |         |          |         |         | obbliga |         |
-|         |         |          |         |         | toria   |         |
-|         |         |          |         |         | nel     |         |
-|         |         |          |         |         | caso in |         |
-|         |         |          |         |         | cui il  |         |
-|         |         |          |         |         | dato    |         |
-|         |         |          |         |         | pagamen |         |
-|         |         |          |         |         | tiPress |         |
-|         |         |          |         |         | oPSP    |         |
-|         |         |          |         |         | assuma  |         |
-|         |         |          |         |         | il      |         |
-|         |         |          |         |         | valore  |         |
-|         |         |          |         |         | 1.**    |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| dis     | 3       | s        | 1..n    |         | Aggrega |         |
-| ponibil |         |          |         |         | zione   |         |
-| ita     |         |          |         |         | relativ |         |
-|         |         |          |         |         | a       |         |
-|         |         |          |         |         | al      |         |
-|         |         |          |         |         | giorno  |         |
-|         |         |          |         |         | della   |         |
-|         |         |          |         |         | settima |         |
-|         |         |          |         |         | na,     |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | mese o  |         |
-|         |         |          |         |         | dell’an |         |
-|         |         |          |         |         | no      |         |
-|         |         |          |         |         | contene |         |
-|         |         |          |         |         | nte     |         |
-|         |         |          |         |         | le      |         |
-|         |         |          |         |         | fasce   |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | orarie  |         |
-|         |         |          |         |         | disponi |         |
-|         |         |          |         |         | bilità  |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | dell’En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re.     |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| tipo    | 4       | an       | 0..1    | 7..11   | La      |         |
-| Periodo |         |          |         |         | periodi |         |
-|         |         |          |         |         | cità    |         |
-|         |         |          |         |         | con il  |         |
-|         |         |          |         |         | quale   |         |
-|         |         |          |         |         | il      |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | è reso  |         |
-|         |         |          |         |         | disponi |         |
-|         |         |          |         |         | bile;   |         |
-|         |         |          |         |         | può     |         |
-|         |         |          |         |         | assumer |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         | seguent |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         | valori: |         |
-|         |         |          |         |         | - gior  |         |
-|         |         |          |         |         | naliera |         |
-|         |         |          |         |         | - setti |         |
-|         |         |          |         |         | manale  |         |
-|         |         |          |         |         | - mensi |         |
-|         |         |          |         |         | ile     |         |
-|         |         |          |         |         | - annua |         |
-|         |         |          |         |         | le      |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| giorno  | 4       | an       | 0..1    | 35      | Descriz |         |
-|         |         |          |         |         | ione    |         |
-|         |         |          |         |         | in      |         |
-|         |         |          |         |         | formato |         |
-|         |         |          |         |         | testo   |         |
-|         |         |          |         |         | delle   |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | giornat |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | disponi |         |
-|         |         |          |         |         | bilità. |         |
-|         |         |          |         |         | Assume  |         |
-|         |         |          |         |         | valori  |         |
-|         |         |          |         |         | differe |         |
-|         |         |          |         |         | nti     |         |
-|         |         |          |         |         | in      |         |
-|         |         |          |         |         | relazio |         |
-|         |         |          |         |         | ne      |         |
-|         |         |          |         |         | al      |         |
-|         |         |          |         |         | tipoPer |         |
-|         |         |          |         |         | iodo.   |         |
-+---------+---------+----------+---------+---------+---------+---------+
-|         |         |          |         |         | **giorn | il campo|
-|         |         |          |         |         | aliera**| viene   |
-|         |         |          |         |         | :       | omesso  |
-|         |         |          |         |         |         |         |
-+---------+---------+----------+---------+---------+---------+---------+
-|         |         |          |         |         | **setti |"lunedi",|
-|         |         |          |         |         | manale**| oppure  |
-|         |         |          |         |         | :       |"martedi"|
-|         |         |          |         |         |         | ...     |
-+---------+---------+----------+---------+---------+---------+---------+
-|         |         |          |         |         | **mensi | giorno  |
-|         |         |          |         |         | le**:   | singolo |
-|         |         |          |         |         |         | di calen|
-|         |         |          |         |         |         | dario   |
-|         |         |          |         |         |         | es. “25”|
-|         |         |          |         |         |         |         |
-+---------+---------+----------+---------+---------+---------+---------+
-|         |         |          |         |         | **annua | giorno  |
-|         |         |          |         |         | le**:   | singolo |
-|         |         |          |         |         |         | nella   |
-|         |         |          |         |         |         | forma   |
-|         |         |          |         |         |         | “gg-mm” |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         |         | es.     |
-|         |         |          |         |         |         | “01-05” |
-|         |         |          |         |         |         |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| fascia  | 4       | s        | 0..n    |         | Aggrega |         |
-| Oraria  |         |          |         |         | zione   |         |
-|         |         |          |         |         | relativ |         |
-|         |         |          |         |         | a       |         |
-|         |         |          |         |         | alla    |         |
-|         |         |          |         |         | fascia  |         |
-|         |         |          |         |         | oraria  |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | disponi |         |
-|         |         |          |         |         | bilità  |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | dall’En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re.     |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| fascia  | 5       | an       | 0..1    | 8       | Orario  |         |
-| OrariaDa|         |          |         |         | di      |         |
-|         |         |          |         |         | inizio  |         |
-|         |         |          |         |         | disponi |         |
-|         |         |          |         |         | bilità  |         |
-|         |         |          |         |         | nell’am |         |
-|         |         |          |         |         | bito    |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | giorno  |         |
-|         |         |          |         |         | nel     |         |
-|         |         |          |         |         | formato |         |
-|         |         |          |         |         | **[hh]: |         |
-|         |         |          |         |         | [mm]:[s |         |
-|         |         |          |         |         | s].**   |         |
-+---------+---------+--------- +---------+---------+---------+---------+
-| fascia  | 5       | an       | 0..1    | 8       | Orario  |         |
-| OrariaA |         |          |         |         | di fine |         |
-|         |         |          |         |         | disponi |         |
-|         |         |          |         |         | bilità  |         |
-|         |         |          |         |         | nell’am |         |
-|         |         |          |         |         | bito    |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | giorno  |         |
-|         |         |          |         |         | nel     |         |
-|         |         |          |         |         | formato |         |
-|         |         |          |         |         | **[hh]: |         |
-|         |         |          |         |         | [mm]:[s |         |
-|         |         |          |         |         | s].**   |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| ind     | 3       | s        | 0..n    |         | Aggrega |         |
-| isponib |         |          |         |         | zione   |         |
-| ilita   |         |          |         |         | relativ |         |
-|         |         |          |         |         | a       |         |
-|         |         |          |         |         | al      |         |
-|         |         |          |         |         | giorno  |         |
-|         |         |          |         |         | della   |         |
-|         |         |          |         |         | settima |         |
-|         |         |          |         |         | na,     |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | mese o  |         |
-|         |         |          |         |         | dell’an |         |
-|         |         |          |         |         | no,     |         |
-|         |         |          |         |         | contene |         |
-|         |         |          |         |         | nte     |         |
-|         |         |          |         |         | le      |         |
-|         |         |          |         |         | fasce   |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | orarie  |         |
-|         |         |          |         |         | indispo |         |
-|         |         |          |         |         | nibilit |         |
-|         |         |          |         |         | à       |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | dell’En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | La      |         |
-|         |         |          |         |         | struttu |         |
-|         |         |          |         |         | ra      |         |
-|         |         |          |         |         | contien |         |
-|         |         |          |         |         | e       |         |
-|         |         |          |         |         | le      |         |
-|         |         |          |         |         | stesse  |         |
-|         |         |          |         |         | informa |         |
-|         |         |          |         |         | zioni   |         |
-|         |         |          |         |         | della   |         |
-|         |         |          |         |         | struttu |         |
-|         |         |          |         |         | ra      |         |
-|         |         |          |         |         | “\ **di |         |
-|         |         |          |         |         | sponibi |         |
-|         |         |          |         |         | lita**\”|         |
-|         |         |          |         |         | con il  |         |
-|         |         |          |         |         | cato    |         |
-|         |         |          |         |         | signifi |         |
-|         |         |          |         |         | attribu |         |
-|         |         |          |         |         | ito     |         |
-|         |         |          |         |         | all’ind |         |
-|         |         |          |         |         | isponib |         |
-|         |         |          |         |         | ilità   |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | servizi |         |
-|         |         |          |         |         | o.      |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| inf     | 2       | s        | 0..n    |         | Elenco  |         |
-| ormativ |         |          |         |         | dei     |         |
-| aContoA |         |          |         |         | conti   |         |
-| ccredit |         |          |         |         | di      |         |
-| o       |         |          |         |         | accredi |         |
-|         |         |          |         |         | to      |         |
-|         |         |          |         |         | attivi  |         |
-|         |         |          |         |         | per     |         |
-|         |         |          |         |         | quell'E |         |
-|         |         |          |         |         | nte     |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re.     |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| dat     | 3       | an       | 1..1    | 10      | Indica  |         |
-| aAttiva |         |          |         |         | la data |         |
-| zioneIb |         |          |         |         | di      |         |
-| an      |         |          |         |         | attivaz |         |
-|         |         |          |         |         | ione    |         |
-|         |         |          |         |         | dello   |         |
-|         |         |          |         |         | specifi |         |
-|         |         |          |         |         | co      |         |
-|         |         |          |         |         | IBAN di |         |
-|         |         |          |         |         | accredi |         |
-|         |         |          |         |         | to.     |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| iban    | 3       | an       | 1..1    | 35      | Identif |         |
-| Accred  |         |          |         |         | ica     |         |
-| ito     |         |          |         |         | l’Inter |         |
-|         |         |          |         |         | nationa |         |
-|         |         |          |         |         | l       |         |
-|         |         |          |         |         | Bank    |         |
-|         |         |          |         |         | Account |         |
-|         |         |          |         |         | Number, |         |
-|         |         |          |         |         | definit |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | secondo |         |
-|         |         |          |         |         | lo      |         |
-|         |         |          |         |         | standar |         |
-|         |         |          |         |         | d       |         |
-|         |         |          |         |         | ISO     |         |
-|         |         |          |         |         | 13616.  |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| Seller  | 3       | an       | 1..1    | 50      | Identif |         |
-| Bank    |         |          |         |         | icativo |         |
-|         |         |          |         |         | MyBank  |         |
-|         |         |          |         |         | della   |         |
-|         |         |          |         |         | *Seller |         |
-|         |         |          |         |         | prescel |         |
-|         |         |          |         |         | Bank*   |         |
-|         |         |          |         |         | ta      |         |
-|         |         |          |         |         | dall'En |         |
-|         |         |          |         |         | te      |         |
-|         |         |          |         |         | Credito |         |
-|         |         |          |         |         | re      |         |
-|         |         |          |         |         | (vedi   |         |
-|         |         |          |         |         | Elenco  |         |
-|         |         |          |         |         | dei PSP |         |
-|         |         |          |         |         | aderent |         |
-|         |         |          |         |         | i       |         |
-|         |         |          |         |         | pubblic |         |
-|         |         |          |         |         | ato     |         |
-|         |         |          |         |         | sul     |         |
-|         |         |          |         |         | sito    |         |
-|         |         |          |         |         | AgID).  |         |
-+---------+---------+----------+---------+---------+---------+---------+
-| idNe    | 3       | an       | 0..1    | 15      | Identif |         |
-| gozio   |         |          |         |         | icativo |         |
-|         |         |          |         |         | da      |         |
-|         |         |          |         |         | utilizz |         |
-|         |         |          |         |         | are     |         |
-|         |         |          |         |         | nel     |         |
-|         |         |          |         |         | colloqu |         |
-|         |         |          |         |         | io      |         |
-|         |         |          |         |         | tra     |         |
-|         |         |          |         |         | *Wrappe |         |
-|         |         |          |         |         | r*      |         |
-|         |         |          |         |         | MyBank  |         |
-|         |         |          |         |         | *ed     |         |
-|         |         |          |         |         | Initiat |         |
-|         |         |          |         |         | ing     |         |
-|         |         |          |         |         | Party*  |         |
-|         |         |          |         |         | della   |         |
-|         |         |          |         |         | *Seller |         |
-|         |         |          |         |         | Bank*.  |         |
-|         |         |          |         |         |         |         |
-|         |         |          |         |         | Il dato |         |
-|         |         |          |         |         | può     |         |
-|         |         |          |         |         | essere  |         |
-|         |         |          |         |         | valoriz |         |
-|         |         |          |         |         | zato    |         |
-|         |         |          |         |         | o meno, |         |
-|         |         |          |         |         | a       |         |
-|         |         |          |         |         | seconda |         |
-|         |         |          |         |         | del     |         |
-|         |         |          |         |         | tipo di |         |
-|         |         |          |         |         | modalit |         |
-|         |         |          |         |         | à       |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | attribu |         |
-|         |         |          |         |         | zione   |         |
-|         |         |          |         |         | di      |         |
-|         |         |          |         |         | detto   |         |
-|         |         |          |         |         | codice  |         |
-|         |         |          |         |         | (Standa |         |
-|         |         |          |         |         | rd      |         |
-|         |         |          |         |         | o       |         |
-|         |         |          |         |         | concord |         |
-|         |         |          |         |         | tra     |         |
-|         |         |          |         |         | ata     |         |
-|         |         |          |         |         | AgID e  |         |
-|         |         |          |         |         | *Seller |         |
-|         |         |          |         |         | Bank*). |         |
-+---------+---------+----------+---------+---------+---------+---------+
++---------+---------+---------+---------+---------+---------+---------+
+| **Dato**| **Liv** | **Gener | **c**   | **Len** | **Conte |         |
+|         |         | e**     |         |         | nuto**  |         |
++=========+=========+=========+=========+=========+=========+=========+
+| inf     | 1       | s       | 1..n    |         | Struttu |         |
+| ormativ |         |         |         |         | ra      |         |
+| aContro |         |         |         |         | che     |         |
+| parte   |         |         |         |         | raggrup |         |
+|         |         |         |         |         | pa      |         |
+|         |         |         |         |         | le      |         |
+|         |         |         |         |         | informa |         |
+|         |         |         |         |         | zioni   |         |
+|         |         |         |         |         | inviate |         |
+|         |         |         |         |         | dall’En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | al Nodo |         |
+|         |         |         |         |         | dei     |         |
+|         |         |         |         |         | Pagamen |         |
+|         |         |         |         |         | ti-SPC  |         |
+|         |         |         |         |         | e rese  |         |
+|         |         |         |         |         | disponi |         |
+|         |         |         |         |         | bili    |         |
+|         |         |         |         |         | ai PSP. |         |
++---------+---------+---------+---------+---------+---------+---------+
+| ide     | 2       | an      | 1..1    | 35      | identif |         |
+| ntifica |         |         |         |         | icativo |         |
+| tivoDom |         |         |         |         | Dominio |         |
+| inio    |         |         |         |         | dell’En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | (codice |         |
+|         |         |         |         |         | utilizz |         |
+|         |         |         |         |         | ato     |         |
+|         |         |         |         |         | nella   |         |
+|         |         |         |         |         | RPT).   |         |
++---------+---------+---------+---------+---------+---------+---------+
+| rag     | 2       | an      | 1..1    | 70      | Ragione |         |
+| ioneSoc |         |         |         |         | sociale |         |
+| iale    |         |         |         |         | dell’En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re.     |         |
++---------+---------+---------+---------+---------+---------+---------+
+| dat     | 2       | an      | 1..1    | 10      | Data in |         |
+| aInizio |         |         |         |         | cui     |         |
+| Validit |         |         |         |         | inizia  |         |
+| a       |         |         |         |         | la      |         |
+|         |         |         |         |         | validit |         |
+|         |         |         |         |         | à       |         |
+|         |         |         |         |         | delle   |         |
+|         |         |         |         |         | informa |         |
+|         |         |         |         |         | zioni   |         |
+|         |         |         |         |         | relativ |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | all’Ent |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | nel     |         |
+|         |         |         |         |         | formato |         |
+|         |         |         |         |         | ISO     |         |
+|         |         |         |         |         | 8601:   |         |
+|         |         |         |         |         | **[YYYY |         |
+|         |         |         |         |         | ]-[MM]- |         |
+|         |         |         |         |         | [DD]**  |         |
++---------+---------+---------+---------+---------+---------+---------+
+| pag     | 2       | n       | 1..1    | 1       | Indica  |         |
+| amentiP |         |         |         |         | se      |         |
+| ressoPS |         |         |         |         | l’Ente  |         |
+| P       |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | consent |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         | pagamen |         |
+|         |         |         |         |         | ti      |         |
+|         |         |         |         |         | presso  |         |
+|         |         |         |         |         | i PSP   |         |
+|         |         |         |         |         | (vedi § |         |
+|         |         |         |         |         | 2.2);   |         |
+|         |         |         |         |         | può     |         |
+|         |         |         |         |         | assumer |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         | seguent |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         | valori: |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | 1. NON  |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | consent |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | pagamen |         |
+|         |         |         |         |         | ti      |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | c/o     |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | PSP     |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | 2. CONS |         |
+|         |         |         |         |         | ENTE    |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | pagamen |         |
+|         |         |         |         |         | ti      |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | c/o     |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | PSP     |         |
++---------+---------+---------+---------+---------+---------+---------+
+| con     | 2       | an      | 1..1    | 255     | Recapit |         |
+| tactCen |         |         |         |         | i       |         |
+| terEnte |         |         |         |         | dell'En |         |
+| Credito |         |         |         |         | te      |         |
+| re      |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | (Numero |         |
+|         |         |         |         |         | telefon |         |
+|         |         |         |         |         | ico     |         |
+|         |         |         |         |         | e/o     |         |
+|         |         |         |         |         | indiriz |         |
+|         |         |         |         |         | zo      |         |
+|         |         |         |         |         | e-mail) |         |
+|         |         |         |         |         | presso  |         |
+|         |         |         |         |         | il      |         |
+|         |         |         |         |         | quale   |         |
+|         |         |         |         |         | l'utili |         |
+|         |         |         |         |         | zzatore |         |
+|         |         |         |         |         | finale  |         |
+|         |         |         |         |         | e il    |         |
+|         |         |         |         |         | PSP     |         |
+|         |         |         |         |         | possono |         |
+|         |         |         |         |         | rivolge |         |
+|         |         |         |         |         | rsi     |         |
+|         |         |         |         |         | per     |         |
+|         |         |         |         |         | ottener |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | informa |         |
+|         |         |         |         |         | zioni.  |         |
++---------+---------+---------+---------+---------+---------+---------+
+| mod     | 2       | s       | 0..1    |         | Struttu |         |
+| Spontan |         |         |         |         | che, se |         |
+| elloTre |         |         |         |         | ra      |         |
+| eo      |         |         |         |         | present |         |
+|         |         |         |         |         | e,      |         |
+|         |         |         |         |         | indica  |         |
+|         |         |         |         |         | che     |         |
+|         |         |         |         |         | l’Ente  |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | consent |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | ai      |         |
+|         |         |         |         |         | propri  |         |
+|         |         |         |         |         | utenti  |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | effettu |         |
+|         |         |         |         |         | are     |         |
+|         |         |         |         |         | pagamen |         |
+|         |         |         |         |         | ti      |         |
+|         |         |         |         |         | spontan |         |
+|         |         |         |         |         | ei      |         |
+|         |         |         |         |         | presso  |         |
+|         |         |         |         |         | i PSP   |         |
+|         |         |         |         |         | (vedi § |         |
+|         |         |         |         |         | 2.2.3   |         |
++---------+---------+---------+---------+---------+---------+---------+
+| ser     | 3       | s       | 0..n    |         | Struttu |         |
+| viziMod |         |         |         |         | ra      |         |
+| elloTre |         |         |         |         | contene |         |
+| Spontan |         |         |         |         | nte     |         |
+| eo      |         |         |         |         | l'elenc |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | dei     |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | che     |         |
+|         |         |         |         |         | possono |         |
+|         |         |         |         |         | essere  |         |
+|         |         |         |         |         | pagati  |         |
+|         |         |         |         |         | in      |         |
+|         |         |         |         |         | modalit |         |
+|         |         |         |         |         | à       |         |
+|         |         |         |         |         | spontan |         |
+|         |         |         |         |         | ea      |         |
+|         |         |         |         |         | i PSP.  |         |
+|         |         |         |         |         | presso  |         |
++---------+---------+---------+---------+---------+---------+---------+
+| idS     | 4       | an      | 1..1    | 5       | Codice  |         |
+| ervizio |         |         |         |         | numeric |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | che     |         |
+|         |         |         |         |         | identif |         |
+|         |         |         |         |         | ica     |         |
+|         |         |         |         |         | il      |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | che può |         |
+|         |         |         |         |         | essere  |         |
+|         |         |         |         |         | pagato  |         |
+|         |         |         |         |         | in      |         |
+|         |         |         |         |         | à       |         |
+|         |         |         |         |         | modalit |         |
+|         |         |         |         |         | spontan |         |
+|         |         |         |         |         | ea      |         |
+|         |         |         |         |         | presso  |         |
+|         |         |         |         |         | i PSP.  |         |
++---------+---------+---------+---------+---------+---------+---------+
+| dat     | 4       | an      | 1..1    | 10      | Data da |         |
+| aInizio |         |         |         |         | cui è   |         |
+| Attivaz |         |         |         |         | attiva  |         |
+|         |         |         |         |         | zione   |         |
+| ione    |         |         |         |         | l'eroga |         |
+|         |         |         |         |         | dello   |         |
+|         |         |         |         |         | specifi |         |
+|         |         |         |         |         | co      |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | da      |         |
+|         |         |         |         |         | parte   |         |
+|         |         |         |         |         | dell’En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | nel     |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | formato |         |
+|         |         |         |         |         | ISO     |         |
+|         |         |         |         |         | 8601:   |         |
+|         |         |         |         |         | **[YYYY |         |
+|         |         |         |         |         | ]-[MM]- |         |
+|         |         |         |         |         | [DD]**  |         |
++---------+---------+---------+---------+---------+---------+---------+
+| avv     | 2       | n       | 0..1    | 1       | Indica  |         |
+| isatura |         |         |         |         | che     |         |
+| Pull    |         |         |         |         | l’Ente  |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | consent |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | attivar |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | le      |         |
+|         |         |         |         |         | funzion |         |
+|         |         |         |         |         | alità   |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | avvisat |         |
+|         |         |         |         |         | ura     |         |
+|         |         |         |         |         | digital |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | *pull*  |         |
+|         |         |         |         |         | (vedi § |         |
+|         |         |         |         |         | 2.10);  |         |
+|         |         |         |         |         | può     |         |
+|         |         |         |         |         | assumer |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         | seguent |         |
+|         |         |         |         |         | valori: |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | 1. NON  |         |
+|         |         |         |         |         | consente|         |
+|         |         |         |         |         | avvi    |         |
+|         |         |         |         |         | satura  |         |
+|         |         |         |         |         | *pul*   |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | 2. CONS |         |
+|         |         |         |         |         | ENTE    |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | avvisat |         |
+|         |         |         |         |         | ura     |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | *pull*  |         |
++---------+---------+---------+---------+---------+---------+---------+
+| ero     | 2       | s       | 0..1    |         | Aggrega |         |
+| gazione |         |         |         |         | zione   |         |
+| Servizi |         |         |         |         | relativ |         |
+| o       |         |         |         |         | a       |         |
+|         |         |         |         |         | alle    |         |
+|         |         |         |         |         | fasce   |         |
+|         |         |         |         |         | orarie  |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | erogazi |         |
+|         |         |         |         |         | one     |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | da      |         |
+|         |         |         |         |         | parte   |         |
+|         |         |         |         |         | dell’En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re.     |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | **L’inf |         |
+|         |         |         |         |         | ormazio |         |
+|         |         |         |         |         | ne      |         |
+|         |         |         |         |         | è       |         |
+|         |         |         |         |         | obbliga |         |
+|         |         |         |         |         | toria   |         |
+|         |         |         |         |         | nel     |         |
+|         |         |         |         |         | caso in |         |
+|         |         |         |         |         | cui il  |         |
+|         |         |         |         |         | dato    |         |
+|         |         |         |         |         | pagamen |         |
+|         |         |         |         |         | tiPress |         |
+|         |         |         |         |         | oPSP    |         |
+|         |         |         |         |         | assuma  |         |
+|         |         |         |         |         | il      |         |
+|         |         |         |         |         | valore  |         |
+|         |         |         |         |         | 1.**    |         |
++---------+---------+---------+---------+---------+---------+---------+
+| dis     | 3       | s       | 1..n    |         | Aggrega |         |
+| ponibil |         |         |         |         | zione   |         |
+| ita     |         |         |         |         | relativ |         |
+|         |         |         |         |         | a       |         |
+|         |         |         |         |         | al      |         |
+|         |         |         |         |         | giorno  |         |
+|         |         |         |         |         | della   |         |
+|         |         |         |         |         | settima |         |
+|         |         |         |         |         | na,     |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | mese o  |         |
+|         |         |         |         |         | dell’an |         |
+|         |         |         |         |         | no      |         |
+|         |         |         |         |         | contene |         |
+|         |         |         |         |         | nte     |         |
+|         |         |         |         |         | le      |         |
+|         |         |         |         |         | fasce   |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | orarie  |         |
+|         |         |         |         |         | disponi |         |
+|         |         |         |         |         | bilità  |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | dell’En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re.     |         |
++---------+---------+---------+---------+---------+---------+---------+
+| tipo    | 4       | an      | 0..1    | 7..11   | La      |         |
+| Periodo |         |         |         |         | periodi |         |
+|         |         |         |         |         | cità    |         |
+|         |         |         |         |         | con il  |         |
+|         |         |         |         |         | quale   |         |
+|         |         |         |         |         | il      |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | è reso  |         |
+|         |         |         |         |         | disponi |         |
+|         |         |         |         |         | bile;   |         |
+|         |         |         |         |         | può     |         |
+|         |         |         |         |         | assumer |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         | seguent |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         | valori: |         |
+|         |         |         |         |         | - gior  |         |
+|         |         |         |         |         | naliera |         |
+|         |         |         |         |         | - setti |         |
+|         |         |         |         |         | manale  |         |
+|         |         |         |         |         | - mensi |         |
+|         |         |         |         |         | ile     |         |
+|         |         |         |         |         | - annua |         |
+|         |         |         |         |         | le      |         |
++---------+---------+---------+---------+---------+---------+---------+
+| giorno  | 4       | an      | 0..1    | 35      | Descriz |         |
+|         |         |         |         |         | ione    |         |
+|         |         |         |         |         | in      |         |
+|         |         |         |         |         | formato |         |
+|         |         |         |         |         | testo   |         |
+|         |         |         |         |         | delle   |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | giornat |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | disponi |         |
+|         |         |         |         |         | bilità. |         |
+|         |         |         |         |         | Assume  |         |
+|         |         |         |         |         | valori  |         |
+|         |         |         |         |         | differe |         |
+|         |         |         |         |         | nti     |         |
+|         |         |         |         |         | in      |         |
+|         |         |         |         |         | relazio |         |
+|         |         |         |         |         | ne      |         |
+|         |         |         |         |         | al      |         |
+|         |         |         |         |         | tipoPer |         |
+|         |         |         |         |         | iodo.   |         |
++---------+---------+---------+---------+---------+---------+---------+
+|         |         |         |         |         | **giorn | il campo|
+|         |         |         |         |         | aliera**| viene   |
+|         |         |         |         |         | :       | omesso  |
+|         |         |         |         |         |         |         |
++---------+---------+---------+---------+---------+---------+---------+
+|         |         |         |         |         | **setti |"lunedi",|
+|         |         |         |         |         | manale**| oppure  |
+|         |         |         |         |         | :       |"martedi"|
+|         |         |         |         |         |         | ...     |
++---------+---------+---------+---------+---------+---------+---------+
+|         |         |         |         |         | **mensi | giorno  |
+|         |         |         |         |         | le**:   | singolo |
+|         |         |         |         |         |         | di calen|
+|         |         |         |         |         |         | dario   |
+|         |         |         |         |         |         | es. “25”|
+|         |         |         |         |         |         |         |
++---------+---------+---------+---------+---------+---------+---------+
+|         |         |         |         |         | **annua | giorno  |
+|         |         |         |         |         | le**:   | singolo |
+|         |         |         |         |         |         | nella   |
+|         |         |         |         |         |         | forma   |
+|         |         |         |         |         |         | “gg-mm” |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         |         | es.     |
+|         |         |         |         |         |         | “01-05” |
+|         |         |         |         |         |         |         |
++---------+---------+---------+---------+---------+---------+---------+
+| fascia  | 4       | s       | 0..n    |         | Aggrega |         |
+| Oraria  |         |         |         |         | zione   |         |
+|         |         |         |         |         | relativ |         |
+|         |         |         |         |         | a       |         |
+|         |         |         |         |         | alla    |         |
+|         |         |         |         |         | fascia  |         |
+|         |         |         |         |         | oraria  |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | disponi |         |
+|         |         |         |         |         | bilità  |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | dall’En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re.     |         |
++---------+---------+---------+---------+---------+---------+---------+
+| fascia  | 5       | an      | 0..1    | 8       | Orario  |         |
+| OrariaDa|         |         |         |         | di      |         |
+|         |         |         |         |         | inizio  |         |
+|         |         |         |         |         | disponi |         |
+|         |         |         |         |         | bilità  |         |
+|         |         |         |         |         | nell’am |         |
+|         |         |         |         |         | bito    |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | giorno  |         |
+|         |         |         |         |         | nel     |         |
+|         |         |         |         |         | formato |         |
+|         |         |         |         |         | **[hh]: |         |
+|         |         |         |         |         | [mm]:[s |         |
+|         |         |         |         |         | s].**   |         |
++---------+---------+---------+---------+---------+---------+---------+
+| fascia  | 5       | an      | 0..1    | 8       | Orario  |         |
+| OrariaA |         |         |         |         | di fine |         |
+|         |         |         |         |         | disponi |         |
+|         |         |         |         |         | bilità  |         |
+|         |         |         |         |         | nell’am |         |
+|         |         |         |         |         | bito    |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | giorno  |         |
+|         |         |         |         |         | nel     |         |
+|         |         |         |         |         | formato |         |
+|         |         |         |         |         | **[hh]: |         |
+|         |         |         |         |         | [mm]:[s |         |
+|         |         |         |         |         | s].**   |         |
++---------+---------+---------+---------+---------+---------+---------+
+| ind     | 3       | s       | 0..n    |         | Aggrega |         |
+| isponib |         |         |         |         | zione   |         |
+| ilita   |         |         |         |         | relativ |         |
+|         |         |         |         |         | a       |         |
+|         |         |         |         |         | al      |         |
+|         |         |         |         |         | giorno  |         |
+|         |         |         |         |         | della   |         |
+|         |         |         |         |         | settima |         |
+|         |         |         |         |         | na,     |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | mese o  |         |
+|         |         |         |         |         | dell’an |         |
+|         |         |         |         |         | no,     |         |
+|         |         |         |         |         | contene |         |
+|         |         |         |         |         | nte     |         |
+|         |         |         |         |         | le      |         |
+|         |         |         |         |         | fasce   |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | orarie  |         |
+|         |         |         |         |         | indispo |         |
+|         |         |         |         |         | nibilit |         |
+|         |         |         |         |         | à       |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | dell’En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | La      |         |
+|         |         |         |         |         | struttu |         |
+|         |         |         |         |         | ra      |         |
+|         |         |         |         |         | contien |         |
+|         |         |         |         |         | e       |         |
+|         |         |         |         |         | le      |         |
+|         |         |         |         |         | stesse  |         |
+|         |         |         |         |         | informa |         |
+|         |         |         |         |         | zioni   |         |
+|         |         |         |         |         | della   |         |
+|         |         |         |         |         | struttu |         |
+|         |         |         |         |         | ra      |         |
+|         |         |         |         |         | “\ **di |         |
+|         |         |         |         |         | sponibi |         |
+|         |         |         |         |         | lita**\”|         |
+|         |         |         |         |         | con il  |         |
+|         |         |         |         |         | cato    |         |
+|         |         |         |         |         | signifi |         |
+|         |         |         |         |         | attribu |         |
+|         |         |         |         |         | ito     |         |
+|         |         |         |         |         | all’ind |         |
+|         |         |         |         |         | isponib |         |
+|         |         |         |         |         | ilità   |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | servizi |         |
+|         |         |         |         |         | o.      |         |
++---------+---------+---------+---------+---------+---------+---------+
+| inf     | 2       | s       | 0..n    |         | Elenco  |         |
+| ormativ |         |         |         |         | dei     |         |
+| aContoA |         |         |         |         | conti   |         |
+| ccredit |         |         |         |         | di      |         |
+| o       |         |         |         |         | accredi |         |
+|         |         |         |         |         | to      |         |
+|         |         |         |         |         | attivi  |         |
+|         |         |         |         |         | per     |         |
+|         |         |         |         |         | quell'E |         |
+|         |         |         |         |         | nte     |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re.     |         |
++---------+---------+---------+---------+---------+---------+---------+
+| dat     | 3       | an      | 1..1    | 10      | Indica  |         |
+| aAttiva |         |         |         |         | la data |         |
+| zioneIb |         |         |         |         | di      |         |
+| an      |         |         |         |         | attivaz |         |
+|         |         |         |         |         | ione    |         |
+|         |         |         |         |         | dello   |         |
+|         |         |         |         |         | specifi |         |
+|         |         |         |         |         | co      |         |
+|         |         |         |         |         | IBAN di |         |
+|         |         |         |         |         | accredi |         |
+|         |         |         |         |         | to.     |         |
++---------+---------+---------+---------+---------+---------+---------+
+| iban    | 3       | an      | 1..1    | 35      | Identif |         |
+| Accred  |         |         |         |         | ica     |         |
+| ito     |         |         |         |         | l’Inter |         |
+|         |         |         |         |         | nationa |         |
+|         |         |         |         |         | l       |         |
+|         |         |         |         |         | Bank    |         |
+|         |         |         |         |         | Account |         |
+|         |         |         |         |         | Number, |         |
+|         |         |         |         |         | definit |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | secondo |         |
+|         |         |         |         |         | lo      |         |
+|         |         |         |         |         | standar |         |
+|         |         |         |         |         | d       |         |
+|         |         |         |         |         | ISO     |         |
+|         |         |         |         |         | 13616.  |         |
++---------+---------+---------+---------+---------+---------+---------+
+| Seller  | 3       | an      | 1..1    | 50      | Identif |         |
+| Bank    |         |         |         |         | icativo |         |
+|         |         |         |         |         | MyBank  |         |
+|         |         |         |         |         | della   |         |
+|         |         |         |         |         | *Seller |         |
+|         |         |         |         |         | prescel |         |
+|         |         |         |         |         | Bank*   |         |
+|         |         |         |         |         | ta      |         |
+|         |         |         |         |         | dall'En |         |
+|         |         |         |         |         | te      |         |
+|         |         |         |         |         | Credito |         |
+|         |         |         |         |         | re      |         |
+|         |         |         |         |         | (vedi   |         |
+|         |         |         |         |         | Elenco  |         |
+|         |         |         |         |         | dei PSP |         |
+|         |         |         |         |         | aderent |         |
+|         |         |         |         |         | i       |         |
+|         |         |         |         |         | pubblic |         |
+|         |         |         |         |         | ato     |         |
+|         |         |         |         |         | sul     |         |
+|         |         |         |         |         | sito    |         |
+|         |         |         |         |         | AgID).  |         |
++---------+---------+---------+---------+---------+---------+---------+
+| idNe    | 3       | an      | 0..1    | 15      | Identif |         |
+| gozio   |         |         |         |         | icativo |         |
+|         |         |         |         |         | da      |         |
+|         |         |         |         |         | utilizz |         |
+|         |         |         |         |         | are     |         |
+|         |         |         |         |         | nel     |         |
+|         |         |         |         |         | colloqu |         |
+|         |         |         |         |         | io      |         |
+|         |         |         |         |         | tra     |         |
+|         |         |         |         |         | *Wrappe |         |
+|         |         |         |         |         | r*      |         |
+|         |         |         |         |         | MyBank  |         |
+|         |         |         |         |         | *ed     |         |
+|         |         |         |         |         | Initiat |         |
+|         |         |         |         |         | ing     |         |
+|         |         |         |         |         | Party*  |         |
+|         |         |         |         |         | della   |         |
+|         |         |         |         |         | *Seller |         |
+|         |         |         |         |         | Bank*.  |         |
+|         |         |         |         |         |         |         |
+|         |         |         |         |         | Il dato |         |
+|         |         |         |         |         | può     |         |
+|         |         |         |         |         | essere  |         |
+|         |         |         |         |         | valoriz |         |
+|         |         |         |         |         | zato    |         |
+|         |         |         |         |         | o meno, |         |
+|         |         |         |         |         | a       |         |
+|         |         |         |         |         | seconda |         |
+|         |         |         |         |         | del     |         |
+|         |         |         |         |         | tipo di |         |
+|         |         |         |         |         | modalit |         |
+|         |         |         |         |         | à       |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | attribu |         |
+|         |         |         |         |         | zione   |         |
+|         |         |         |         |         | di      |         |
+|         |         |         |         |         | detto   |         |
+|         |         |         |         |         | codice  |         |
+|         |         |         |         |         | (Standa |         |
+|         |         |         |         |         | rd      |         |
+|         |         |         |         |         | o       |         |
+|         |         |         |         |         | concord |         |
+|         |         |         |         |         | tra     |         |
+|         |         |         |         |         | ata     |         |
+|         |         |         |         |         | AgID e  |         |
+|         |         |         |         |         | *Seller |         |
+|         |         |         |         |         | Bank*). |         |
++---------+---------+---------+---------+---------+---------+---------+
 
 Le informazioni sono codificate in un file XML secondo il tracciato di
 Tabella 6 e devono essere richieste dai singoli prestatori di servizi di
 pagamento al NodoSPC utilizzando le apposite funzioni allo scopo messe a
 disposizione (vedi § 9.2.10 della Sezione III).
 
-**Tabella** **6 - Formato file XML della “Tabella delle controparti”**
+**Tabella** **6 - Formato file XML della “\ *Tabella delle
+controparti*\ ”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -5308,7 +5326,8 @@ relative alla erogazione dei servizi e riporta il seguente tracciato,
 che ricalca in parte quello indicato al paragrafo precedente e riportato
 in Tabella 7.
 
-**Tabella** **7 - Tracciato XML per comunicazione "Erogazione servizi EC"**
+**Tabella** **7 - Tracciato XML per comunicazione "Erogazione servizi
+EC"**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -5369,6 +5388,7 @@ in Tabella 7.
 | neSociale |           |           |           |           | sociale   |
 |           |           |           |           |           | dell’Ente |
 |           |           |           |           |           | Creditore |
+|           |           |           |           |           | .         |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | dataP     | 2         | an        | 1..1      | 19        | Data e    |
 | ubblicazi |           |           |           |           | ora di    |
@@ -5769,7 +5789,8 @@ disponibili dalla data di validità specificata, purché non inferiore al
 giorno successivo all’invio. In tabella 9 è riportata la struttura del
 catalogo:
 
-**Tabella** **9 - Elementi componenti il “Catalogo Dati Informativi”**
+**Tabella** **9 - Elementi componenti il “\ *Catalogo Dati
+Informativi*\ ”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -6290,7 +6311,7 @@ Informativi*" è riportata di seguito, specificando inoltre il formato
 del dato, i valori ammessi, nonché i controlli applicabili. I segni ‘+’
 tra le parentesi dopo il nome del dato (la barra verticale ‘|’ segnala
 il valore 5) indicano il livello d’indentazione dello stesso all’interno
-della struttura del “*/Catalogo Dati Informativi/*”.
+della struttura del “\ *Catalogo Dati Informativi*\ ”.
 
 
 **identificativoFlusso (++):**
@@ -7987,7 +8008,7 @@ spontanea (vedi § 2.2.3). Tale elenco ha valenza giornaliera: dalle ore
 Nella Tabella 16 sono specificate le informazioni che il Nodo dei
 Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 
-**Tabella** **16 - Elementi componenti il “Catalogo dei Servizi”**
+**Tabella** **16 - Elementi componenti il *“Catalogo dei Servizi”***
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
@@ -8122,7 +8143,8 @@ Tabella 12 e devono essere inviate al Nodo dei Pagamenti-SPC via PEC dal
 PSP, con le modalità indicate sul sito dell’Agenzia. per l’Italia
 Digitale.
 
-**Tabella** **17 - Tracciato XML per comunicazione “\ Catalogo dei Servizi\ ”**
+**Tabella** **17 - Tracciato XML per comunicazione “\ *Catalogo dei
+Servizi*\ ”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
