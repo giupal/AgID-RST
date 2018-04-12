@@ -71,13 +71,13 @@ Soggetti
 
 Sono di seguito elencati i soggetti coinvolti nel processo di pagamento:
 
-a. Soggetto Pagatore: rappresenta il soggetto (Persona Fisica o Giuridica) debitore di somme di denaro nei confronti della        Pubblica Amministrazione. L’Ente Creditore è responsabile della corretta identificazione del Soggetto Pagatore;
+a. **Soggetto Pagatore**: rappresenta il soggetto (Persona Fisica o Giuridica) debitore di somme di denaro nei confronti della        Pubblica Amministrazione. L’Ente Creditore è responsabile della corretta identificazione del Soggetto Pagatore;
 
-b. Soggetto Versante: rappresenta il soggetto delegato che effettua per conto del soggetto pagatore il versamento delle somme dovute. Il Soggetto Versante è identificato dalla componente WISP del Nodo (per i pagamenti disposti presso l’EC) o dal PSP, se necessario,     negli altri casi;
+b. **Soggetto Versante**: rappresenta il soggetto delegato che effettua per conto del soggetto pagatore il versamento delle somme dovute. Il Soggetto Versante è identificato dalla componente WISP del Nodo (per i pagamenti disposti presso l’EC) o dal PSP, se necessario,     negli altri casi;
 
-c. Ente Beneficiario: rappresenta la Pubblica Amministrazione creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto Pagatore*\ ;
+c. **Ente Beneficiario**: rappresenta la Pubblica Amministrazione creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto Pagatore*;
 
-d. Istituto Attestante: rappresenta il Prestatore di Servizi di Pagamento che effettua il pagamento richiesto e ne attesta la regolarità.
+d. **Istituto Attestante**: rappresenta il Prestatore di Servizi di Pagamento che effettua il pagamento richiesto e ne attesta la regolarità.
        
 Formato dei dati
 ----------------
