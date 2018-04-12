@@ -11,3 +11,5 @@ https://help.github.com/articles/basic-writing-and-formatting-syntax/
 Guida 2
 https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
 
+See :download:`this example script <../example.py>`.
+
