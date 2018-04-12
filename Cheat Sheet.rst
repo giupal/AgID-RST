@@ -9,5 +9,8 @@ Guida 1
 https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 Guida 2
-https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
-
+https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatshee
++-------------------+---------+----------+---------+---------+---------+--------------------------------------------------------------- --+
+| **Dato**          | **Liv** |**Genere**| **Occ** | **Len** |**UNIFI**| **Contenuto**                                                     |
++=========+=========+==========+=========+=========+=========+=========+==================================================================+
+| versione oggetto  | 1       | an       | 1..1    | 1..16   | Versione | Versione che identifica l'oggetto scambiato. Aggrega gli atomi   |
