@@ -88,7 +88,7 @@ l’interazione tra il Nodo dei Pagamenti-SPC ed i soggetti aderenti (Enti
 Creditori e prestatori di servizi di pagamento). Il documento si
 completa con la Sezione IV .
 
-FINE DOCUMENTO
+`Torna all'indice <../index.rst>`__
 
 .. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
    :width: 5.90551in
