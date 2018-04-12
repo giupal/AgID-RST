@@ -1,2 +1,3 @@
 Grassetto e corsivo
-**This text is _ extremely _ important**
+
+**This text is _extremely_ important**
