@@ -4604,8 +4604,7 @@ Pagamenti-SPC. Tale elenco ha valenza giornaliera: dalle ore 0 alle ore
 24. Nella Tabella 5 sono specificate le informazioni che il Nodo dei
 Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 
-**Tabella** **5 - Elementi componenti la “Tabella delle
-controparti”**
+**Tabella** **5 - Elementi componenti la Tabella delle controparti**
 
 +---------+---------+----------+---------+---------+---------+---------+
 | **Dato**| **Liv** |**Genere**| **c**   | **Len** | **Contenuto**     |
@@ -5258,8 +5257,7 @@ Tabella 6 e devono essere richieste dai singoli prestatori di servizi di
 pagamento al NodoSPC utilizzando le apposite funzioni allo scopo messe a
 disposizione (vedi § 9.2.10 della Sezione III).
 
-**Tabella** **6 - Formato file XML della “Tabella delle
-controparti”**
+**Tabella** **6 - Formato file XML della “Tabella delle controparti”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -5310,8 +5308,7 @@ relative alla erogazione dei servizi e riporta il seguente tracciato,
 che ricalca in parte quello indicato al paragrafo precedente e riportato
 in Tabella 7.
 
-**Tabella** **7 - Tracciato XML per comunicazione "Erogazione servizi
-EC"**
+**Tabella** **7 - Tracciato XML per comunicazione "Erogazione servizi EC"**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -5772,8 +5769,7 @@ disponibili dalla data di validità specificata, purché non inferiore al
 giorno successivo all’invio. In tabella 9 è riportata la struttura del
 catalogo:
 
-**Tabella** **9 - Elementi componenti il “\ *Catalogo Dati
-Informativi*\ ”**
+**Tabella** **9 - Elementi componenti il “Catalogo Dati Informativi”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
@@ -6294,7 +6290,7 @@ Informativi*" è riportata di seguito, specificando inoltre il formato
 del dato, i valori ammessi, nonché i controlli applicabili. I segni ‘+’
 tra le parentesi dopo il nome del dato (la barra verticale ‘|’ segnala
 il valore 5) indicano il livello d’indentazione dello stesso all’interno
-della struttura del “\ *Catalogo Dati Informativi*\ ”.
+della struttura del “*/Catalogo Dati Informativi/*”.
 
 
 **identificativoFlusso (++):**
@@ -7991,7 +7987,7 @@ spontanea (vedi § 2.2.3). Tale elenco ha valenza giornaliera: dalle ore
 Nella Tabella 16 sono specificate le informazioni che il Nodo dei
 Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 
-**Tabella** **16 - Elementi componenti il *“Catalogo dei Servizi”***
+**Tabella** **16 - Elementi componenti il “Catalogo dei Servizi”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
@@ -8126,8 +8122,7 @@ Tabella 12 e devono essere inviate al Nodo dei Pagamenti-SPC via PEC dal
 PSP, con le modalità indicate sul sito dell’Agenzia. per l’Italia
 Digitale.
 
-**Tabella** **17 - Tracciato XML per comunicazione “\ *Catalogo dei
-Servizi*\ ”**
+**Tabella** **17 - Tracciato XML per comunicazione “\ Catalogo dei Servizi\ ”**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   | **Contenu |
