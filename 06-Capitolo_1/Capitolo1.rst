@@ -12,7 +12,7 @@ Modello di funzionamento
 
 |image1|
 
-**Figura** **1 – EPC *Four Corners model***
+**Figura** **1 – EPC Four Corners model**
 
 Il modello di funzionamento del Sistema fa riferimento ai principi del
 *Four Corners* *model* definito dall’European Payment Council ed è
