@@ -9867,7 +9867,7 @@ all'interno del WSDL del servizio.
 |           |           |           |           |           | .         |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
-FINE DOCUMENTO
+`Torna all'indice <../index.rst>`__
 
 .. [1]
    Ai fini della corrispondenza UNIFI, il soggetto pagatore è associato
