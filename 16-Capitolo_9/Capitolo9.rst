@@ -4588,7 +4588,7 @@ an online SEPA Credit Transfer* ".
 | IDVS                              | ParticipantID                     |
 +-----------------------------------+-----------------------------------+
 
-FINE DOCUMENTO
+`Torna all'indice <../index.rst>`__
 
 .. [1]
    Si vedano i parametri delle primitive ***nodoVerificaRPT***,
