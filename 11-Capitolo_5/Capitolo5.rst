@@ -54,7 +54,7 @@ prevede una rappresentazione in formato XML.
 
 Dovranno essere definite strutture che ne consentano la validazione sia
 presso l’Ente Creditore che presso il Prestatori di servizi di
-pagamento\ *,* relativamente alle fasi di generazione e di verifica
+pagamento, relativamente alle fasi di generazione e di verifica
 formale dei messaggi.
 
 Le strutture rappresentano lo standard minimo a cui gli Enti Creditori e
@@ -132,7 +132,7 @@ significati:
 |                 |                 | “occorrenze”    |                 |
 |                 |                 | del dato nel    |                 |
 |                 |                 | formato         |                 |
-|                 |                 | ***min..max***. |                 |
+|                 |                 | **min..max**.   |                 |
 +-----------------+-----------------+-----------------+-----------------+
 |                 |                 | L’eventuale     |                 |
 |                 |                 | obbligatorietà  |                 |
