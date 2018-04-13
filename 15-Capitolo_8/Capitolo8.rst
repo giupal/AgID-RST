@@ -1674,18 +1674,18 @@ Di seguito i possibili valori del dato faultBean.faultCode:
 |                 | essere          |                 |                 |
 |                 | processata      |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| RPT_RIFIUTATA_  | RPT rifiutata   | Oper. conclusa  | SI              |
-| NODO            | dal Nodo per    | (KO)            |                 |
+| RPT_RIFIUTATA_N | RPT rifiutata   | Oper. conclusa  | SI              |
+| ODO             | dal Nodo per    | (KO)            |                 |
 |                 | sintassi o      |                 |                 |
 |                 | semantica       |                 |                 |
 |                 | errata          |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| RPT_ACCETTATA_  | RPT accettata   | Oper. aperta    | NO              |
-| NODO            | dal Nodo come   |                 |                 |
+| RPT_ACCETTATA_N | RPT accettata   | Oper. aperta    | NO              |
+| ODO             | dal Nodo come   |                 |                 |
 |                 | valida          |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| RPT_RIFIUTATA_  | RPT rifiutata   | Oper. conclusa  | NO              |
-| PSP             | dall'Intermedia | (KO)            |                 |
+| RPT_RIFIUTATA_P | RPT rifiutata   | Oper. conclusa  | NO              |
+| SP              | dall'Intermedia | (KO)            |                 |
 |                 | rio             |                 |                 |
 |                 | PSP per         |                 |                 |
 |                 | sintassi o      |                 |                 |
@@ -1699,15 +1699,15 @@ Di seguito i possibili valori del dato faultBean.faultCode:
 |                 | indisponibilità |                 |                 |
 |                 | del ricevente   |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| RPT_INVIATA_A_  | RPT inviata     | Oper. aperta    | NO              |
-| PSP             | all'Intermediar |                 |                 |
+| RPT_INVIATA_A_P | RPT inviata     | Oper. aperta    | NO              |
+| SP              | all'Intermediar |                 |                 |
 |                 | io              |                 |                 |
 |                 | PSP - azione in |                 |                 |
 |                 | attesa di       |                 |                 |
 |                 | risposta        |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| RPT_ACCETTATA_  | RPT ricevuta ed | Oper. aperta    | NO              |
-| PSP             | accettata       |                 |                 |
+| RPT_ACCETTATA_P | RPT ricevuta ed | Oper. aperta    | NO              |
+| SP              | accettata       |                 |                 |
 |                 | dall'Intermedia |                 |                 |
 |                 | rio             |                 |                 |
 |                 | PSP come valida |                 |                 |
