@@ -257,7 +257,7 @@ codici grafici (mono o bidimensionali) sono quelle indicate in Tabella
 |           |           |           |           |           | essere    |
 |           |           |           |           |           | diverso   |
 |           |           |           |           |           | da        |
-|           |           |           |           |           |**“0.00”.**|
+|           |           |           |           |           | **“0.00”**|
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
 Qualora l’importo del pagamento non sia conosciuto al momento della
