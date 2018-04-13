@@ -2,9 +2,9 @@
 | |AGID_logo_carta_intestata-02.png|                                    |
 +-----------------------------------------------------------------------+
 
-+--------------------------------------------+
-| Capitolo 7. IDENTIFICAZIONE DEL VERSAMENTO |
-+--------------------------------------------+
++------------------------------------------------+
+| **Capitolo 7. IDENTIFICAZIONE DEL VERSAMENTO** |
++------------------------------------------------+
 
 Identificazione del versamento
 ==============================
@@ -60,7 +60,7 @@ dall’Ente Creditore stesso.
 
 Per tutte le tipologie di pagamenti che non prevedono la generazione di
 un avviso di pagamento si raccomanda di utilizzare il valore
-“\ **n/a**\ ” (già indicato nelle versioni precedenti delle presenti
+“**n/a**” (già indicato nelle versioni precedenti delle presenti
 specifiche).
 
 Pagamenti attivati presso le strutture del PSP
@@ -174,8 +174,8 @@ verrà utilizzato presso le strutture dei vari PSP e formattare in modo
 adeguato le codifiche previste (ad esempio: aggiungere eventuali codici
 di controllo quando richiesti per l’elaborazione del pagamento).
 
-Come indicato nella monografia “\ *L’Avviso di pagamento analogico nel
-sistema pagoPA*\ ”, pubblicata sul sito AgID, l’Ente Creditore deve
+Come indicato nella monografia “*L’Avviso di pagamento analogico nel*
+*sistema pagoPA*”, pubblicata sul sito AgID, l’Ente Creditore deve
 stampare sull’avviso di pagamento uno o più codici grafici mono o
 bidimensionali che contengono le informazioni necessarie per
 identificare in modo automatico il pagamento (vedi anche i paragrafi 0 e
@@ -188,8 +188,8 @@ codici grafici (mono o bidimensionali) sono quelle indicate in Tabella
 **Tabella** **30 - Dati per automazione dell'avviso di pagamento**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | codic     | 1         | n         | 1..1      | 11..13    | Identific |
 | eIdentifi |           |           |           |           | ativo     |
@@ -253,11 +253,11 @@ codici grafici (mono o bidimensionali) sono quelle indicate in Tabella
 |           |           |           |           |           | somma da  |
 |           |           |           |           |           | versare.  |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **Deve    |
+|           |           |           |           |           | Deve      |
 |           |           |           |           |           | essere    |
 |           |           |           |           |           | diverso   |
 |           |           |           |           |           | da        |
-|           |           |           |           |           | “0.00”.** |
+|           |           |           |           |           |**“0.00”.**|
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
 Qualora l’importo del pagamento non sia conosciuto al momento della
@@ -276,21 +276,20 @@ Utilizzo del QR code sull’avviso di pagamento
 .. _Utilizzo del QR code sull’avviso di pagamento:
 
 Il Codice QR (in inglese QR Code) è un codice a barre bidimensionale
-adottato da ISO (*ISO/IEC 18004:2015 Information technology - Automatic
-identification and data capture techniques - QR Code bar code symbology
-specification*) ed impiegato per memorizzare informazioni generalmente
+adottato da ISO (*ISO/IEC 18004:2015 Information technology - Automatic*
+*identification and data capture techniques - QR Code bar code symbology*
+*specification*) ed impiegato per memorizzare informazioni generalmente
 destinate ad essere lette tramite diversi dispositivi, tra cui anche
 smartphone, tablet, ATM, ecc.
 
 La stringa dati codificata all'interno del QRcode è quella riportata in
 Tabella 31.
 
-**Tabella** **31 - Dati per la stringa da inserire all’interno del
-QRcode**
+**Tabella** **31 - Dati per la stringa da inserire all’interno del QRcode**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | Codice    | 1         | an        | 1..1      | 6         | Assume il |
 | identifi  |           |           |           |           | valore    |
@@ -379,8 +378,8 @@ QRcode**
 | assumere la configurazione        |                                   |
 | seguente:                         |                                   |
 |                                   |                                   |
-| **PAGOPA|002|123456789012345678|1 |                                   |
-| 2345678901|1234567801**           |                                   |
+| **PAGOPA|002|123456789012345678|**|                                   |
+| **12345678901|1234567801**        |                                   |
 |                                   |                                   |
 | (si tenga presente che la stringa |                                   |
 | sopra riportata presuppone        |                                   |
@@ -431,8 +430,8 @@ Il Nodo dei Pagamenti-SPC si fa carico di gestire, con apposite
 funzioni, le varie codifiche supportate (cfr. § 9.1.2).
 
 Le modalità di predisposizione dei codici a barre sopra citati sono
-indicate nella Sezione II della monografia “\ *L’Avviso di pagamento
-analogico nel sistema pagoPA*\ ”, pubblicata sul sito AgID.
+indicate nella Sezione II della monografia “*L’Avviso di pagamento*
+*analogico nel sistema pagoPA*”, pubblicata sul sito AgID.
 
 Comunicazioni all'utilizzatore finale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -456,14 +455,14 @@ l'utilizzatore finale presso il PSP, è stato definito uno standard di
 formattazione per il dato causaleVersamento che può assumere i formati
 indicati in Tabella 33.
 
-**Tabella** **33 - Formati previsti per il dato causaleVersamento nella
-response delle primitive SOAP**
+**Tabella** **33 - Formati previsti per il dato causaleVersamento nella**
+**response delle primitive SOAP**
 
 **Formato A**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | causa     | 1         | an        | 1..1      | 140       | Testo     |
 | leVersame |           |           |           |           | libero a  |
@@ -484,8 +483,8 @@ response delle primitive SOAP**
 **Formato B**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | spezz     | 1         | s         | 1..1      |           | Struttura |
 | oniCausal |           |           |           |           | a         |
@@ -510,7 +509,7 @@ response delle primitive SOAP**
 | eVersamen |           |           |           |           | libero.   |
 | to        |           |           |           |           |           |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Oppure, |                                                           |
+| Oppure,   |                                                           |
 | in        |                                                           |
 | alternati |                                                           |
 | va        |                                                           |
@@ -521,7 +520,7 @@ response delle primitive SOAP**
 | la        |                                                           |
 | struttura |                                                           |
 | sotto     |                                                           |
-| indicata**|                                                           |
+| indicata  |                                                           |
 |           |                                                           |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | spezz     | 2         | s         | 1..6      |           | Spezzone  |
