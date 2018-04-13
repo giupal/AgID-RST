@@ -98,8 +98,8 @@ dello stesso obiettivo precedentemente dichiarato.
 
 **Figura** **4 – Sequence diagram del processo di pagamento con re indirizzamento on-line**
 
-Con riferimento allo schema di Figura 1 a pagina 2 ed al *Sequence
-diagram* di Figura 2, si descrivono i passi del processo di pagamento
+Con riferimento allo schema di Figura 1 a pagina 2 ed al *Sequence diagram*
+di Figura 2, si descrivono i passi del processo di pagamento
 (si tenga conto che con il termine RPT si intende includere anche il
 carrello di RPT). Per illustrare il processo di pagamento in esame
 utilizzeremo l’esempio specifico della modalità di incasso su iniziativa
@@ -159,8 +159,8 @@ Il modello di pagamento in esame consente di gestire anche la modalità
 di incasso cosiddetto “spontaneo”.
 
 Il regolamento dei pagamenti effettuati con questo tipo di *workflow*
-viene effettuato attraverso il bonifico bancario (SCT - SEPA *Credit
-Transfer*) ed il bollettino di conto corrente postale.
+viene effettuato attraverso il bonifico bancario (SCT - SEPA *Credit Transfer*)
+ed il bollettino di conto corrente postale.
 
 Pagamenti tramite il circuito MyBank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1037,8 +1037,8 @@ rendicontazione.
 
 Il Nodo dei Pagamenti-SPC fornisce apposite funzioni centralizzate a
 disposizione dei prestatori di servizi di pagamento e degli Enti
-Creditori (vedi § **Errore. L'origine riferimento non è stata
-trovata.**), con le quali i primi possono inviare il Flusso di
+Creditori (vedi § **Errore. L'origine riferimento non è stata trovata.**),
+con le quali i primi possono inviare il Flusso di
 rendicontazione e gli altri ricevere i dati ivi contenuti.
 
 Pagamento contenente più accrediti
@@ -1451,8 +1451,8 @@ inviare al NodoSPC una nuova copia dell’avviso digitale indicando il
 valore “D” nel dato tipoOperazione.
 
 In entrambe i casi il nuovo avviso, per il quale potranno essere
-utilizzate sia la modalità *file transfer* sia la modalità *web
-services*, andrà a sostituire integralmente l’avviso già inviato.
+utilizzate sia la modalità *file transfer* sia la modalità *web services*,
+andrà a sostituire integralmente l’avviso già inviato.
 
 In caso di annullamento dell’avviso, il PSP potrà eliminare tale avviso
 da quelli a disposizione dell’utilizzatore finale, in caso contrario
