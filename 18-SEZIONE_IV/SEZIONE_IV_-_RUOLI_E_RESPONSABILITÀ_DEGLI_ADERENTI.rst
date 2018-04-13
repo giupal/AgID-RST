@@ -2,7 +2,7 @@
 | |AGID_logo_carta_intestata-02.png|                                    |
 +-----------------------------------------------------------------------+
 
-Sezione IV – Ruoli e responsabilità degli Aderenti
+**Sezione IV – Ruoli e responsabilità degli Aderenti**
 
 `Torna all'indice <../index.rst>`__
 
