@@ -107,8 +107,8 @@ cellulare per l'inoltro via SMS, nonché l'indirizzo di e-mail.
 
 Gli Enti creditori trattano la fase di iscrizione al servizio sui propri
 portali e/o siti web, avendo cura di gestire le informazioni ai sensi
-del D.lgs. del 30 giugno 2003, n. 196 recante "*Codice in materia di
-protezione dei dati personali*".
+del D.lgs. del 30 giugno 2003, n. 196 recante "*Codice in materia di*
+*protezione dei dati personali*".
 
 Adempimenti del prestatore di servizi di pagamento
 --------------------------------------------------
