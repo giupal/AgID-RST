@@ -3831,10 +3831,10 @@ alcune precisazioni sui dati presenti da utilizzare:
 +======================================================================+
 | Identificativo del soggetto che sta richiedendo l’accesso al         |
 | portale WISP. Nel caso in cui il parametro primitiva assuma il       |
-| valore **nodoInviaRPT**, va indicato il valore del dato            |
+| valore **nodoInviaRPT**, va indicato il valore del dato              |
 | idDominio presente nella RPT che deve essere inviata; invece, nel    |
 | caso in cui il parametro primitiva assuma il valore                  |
-| **nodoInviaCarrelloRPT**, va indicato il valore del dato           |
+| **nodoInviaCarrelloRPT**, va indicato il valore del dato             |
 | idDominio presente nella prima RPT che compone il “carrello” di      |
 | RPT.                                                                 |
 +----------------------------------------------------------------------+
@@ -3842,10 +3842,10 @@ alcune precisazioni sui dati presenti da utilizzare:
 +----------------------------------------------------------------------+
 | Stringa alfanumerica contenente la denominazione del soggetto che    |
 | sta richiedendo l’accesso al portale WISP. nel caso in cui il        |
-| parametro primitiva assuma il valore **nodoInviaRPT**, va          |
+| parametro primitiva assuma il valore **nodoInviaRPT**, va            |
 | indicato la denominazione dell’Ente Creditore che invia la RPT,      |
 | invece, nel caso in cui il parametro primitiva assuma il valore      |
-| **nodoInviaCarrelloRPT**, va indicata la denominazione della       |
+| **nodoInviaCarrelloRPT**, va indicata la denominazione della         |
 | piattaforma che compone il “carrello” di RPT (ad esempio: quello     |
 | della piattaforma regionale).                                        |
 +----------------------------------------------------------------------+
@@ -3873,12 +3873,12 @@ alcune precisazioni sui dati presenti da utilizzare:
 |                                                                      |
 |*Valori ammessi:*                                                     |
 |                                                                      |
-|-  **nodoInviaRPT**                                                 |
+|-  **nodoInviaRPT**                                                   |
 |                                                                      |
-|-  **nodoInviaCarrelloRPT**                                         |
+|-  **nodoInviaCarrelloRPT**                                           |
 |                                                                      |
 |*Filtri attivati*: Nel caso in cui sia impostato il valore            |
-|**nodoInviaCarrello**, saranno selezionati solo i servizi di        |
+|**nodoInviaCarrello**, saranno selezionati solo i servizi di          |
 |pagamento dei PSP in grado di gestire tale primitiva e di             |
 |trattare più di un versamento nella stessa richiesta: pertanto, i     |
 |servizi di pagamento MyBank non saranno visualizzati.                 |
@@ -3886,10 +3886,10 @@ alcune precisazioni sui dati presenti da utilizzare:
 |**numPagamentiRPT:**                                                  |
 +----------------------------------------------------------------------+
 | Numero dei pagamenti presenti nella singola RPT nel caso in cui      |
-| il parametro primitiva assuma il valore **nodoInviaRPT** oppure    |
+| il parametro primitiva assuma il valore **nodoInviaRPT** oppure      |
 | numero complessivo dei pagamenti presenti in tutte le RPT            |
 | costituenti il “carrello” nel caso in cui il parametro primitiva     |
-| assuma il valore **nodoInviaCarrelloRPT**.                         |
+| assuma il valore **nodoInviaCarrelloRPT**.                           |
 |                                                                      |
 | *Valori ammessi:* maggiore o uguale a 1.                             |
 +----------------------------------------------------------------------+
@@ -3933,14 +3933,14 @@ alcune precisazioni sui dati presenti da utilizzare:
 | Identificativo del PSP, eventualmente selezionato dall'utente in     |
 | sessioni precedenti e memorizzato a cura dell'Ente Creditore.        |
 | Corrisponde al parametro O-2 della primitiva                         |
-| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                         |
+| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                           |
 +----------------------------------------------------------------------+
 |**tipoVersamento**                                                    |
 +----------------------------------------------------------------------+
 | Identificativo del tipo di versamento eventualmente selezionato      |
 | dall'utente in sessioni precedenti e memorizzato a cura dell'Ente    |
 | Creditore. Corrisponde al parametro O-5 della primitiva              |
-| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                         |
+| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                           |
 |                                                                      |
 | *Controlli*: Può assumere gli stessi valori dell’omologo campo       |
 | della RPT (vedi § 5.3.1).                                            |
@@ -3977,7 +3977,7 @@ alcune precisazioni sui dati presenti da utilizzare:
 | quale sarà effettuato il pagamento.                                  |
 |                                                                      |
 | *Controlli*: Se il parametro primitiva è impostato a                 |
-| **'nodoInviaCarrelloRPT** ' oppure il parametro numPagamentiRPT    |
+| **'nodoInviaCarrelloRPT** ' oppure il parametro numPagamentiRPT      |
 | è maggiore di 1, il parametro viene ignorato.                        |
 +----------------------------------------------------------------------+
 |**contoPoste**                                                        |
