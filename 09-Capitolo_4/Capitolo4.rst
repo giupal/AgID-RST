@@ -439,8 +439,8 @@ quale:
    proveniente dai citati soggetti utenti del Servizio, dal proprio
    sistema di monitoraggio o dal proprio personale aziendale;
 
--  registra e classifica le richieste/segnalazioni mediante *Trouble
-   Ticketing* e dà inizio, per ognuna di queste, a tutte le attività
+-  registra e classifica le richieste/segnalazioni mediante *Trouble Ticketing*
+   e dà inizio, per ognuna di queste, a tutte le attività
    necessarie all’identificazione della soluzione.
 
 Qualora il primo livello operativo non sia in grado di fornire una
