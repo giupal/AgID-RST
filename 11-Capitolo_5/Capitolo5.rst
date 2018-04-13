@@ -3556,7 +3556,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 
 +---------+---------+---------+---------+---------+---------+---------+
 | **Dato**| **Liv** |**Gener**| **Occ** | **Len** |**UNIFI**|**Conte**|
-|         |         |**e**    |         |         |         | **nuto**  |
+|         |         |**e**    |         |         |         | **nuto**|
 +=========+=========+=========+=========+=========+=========+=========+
 | ver     | 1       | an      | o       | 1..16   | Version | Riporta |
 | sioneOg |         |         |         |         | Number  | la      |
@@ -4174,8 +4174,7 @@ relativa allo “storno” di un pagamento.
 |         |         |         |         |         |         |         |
 |         |         |         |         |         |         | dataMes |
 |         |         |         |         |         |         | saggioR |
-|         |         |         |         |         |         | evoca\  |
-|         |         |         |         |         |         | *.*     |
+|         |         |         |         |         |         | evoca.  |
 +---------+---------+---------+---------+---------+---------+---------+
 | dat     | 1       | an      | 1..1    | 19      | Creatio | Indica  |
 | aOraMes |         |         |         |         | n       | la data |
@@ -4589,13 +4588,13 @@ Flusso di rendicontazione
 dal suo intermediario al Nodo dei Pagamenti-SPC e che quest’ultimo invia
 all’Ente Creditore accreditato; tale documento è rappresentato da un
 insieme omogeneo di dati contenente tutte le informazioni che devono
-essere registrate «\ *in apposito sistema informatico, a disposizione
-dell'amministrazione*\ », ai sensi dell’articolo 5, comma 1, lettera b)
+essere registrate «*in apposito sistema informatico, a disposizione*
+*dell'amministrazione*», ai sensi dell’articolo 5, comma 1, lettera b)
 del CAD.
 
 Il dettaglio di dette informazioni è riportato nella Sezione II delle
-*"Specifiche attuative dei codici identificativi di versamento,
-riversamento e rendicontazione*", allegato A alle “Linee guida per
+*"Specifiche attuative dei codici identificativi di versamento,*
+*riversamento e rendicontazione*", allegato A alle “Linee guida per
 l'effettuazione dei pagamenti a favore delle pubbliche amministrazioni e
 dei gestori di pubblici servizi” alle quali si deve fare riferimento.
 
