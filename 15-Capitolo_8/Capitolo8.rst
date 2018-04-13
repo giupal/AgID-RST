@@ -65,7 +65,7 @@ Si tenga presente che, in questo paragrafo e nei successivi, in alcuni
 casi la componente di *Back-end* del NodoSPC sarà indicata come
 componente FESP (per mantenere una terminologia già conosciuta);
 parimenti, per non complicare troppo i *workflow* esposti, in alcuni
-casi la componente "PortaleEC" comprende sia la parte di Fr\ *ont-end*,
+casi la componente "PortaleEC" comprende sia la parte di *Front-end*,
 sia quella di *Back-end* presso l'Ente Creditore.
 
 Le caratteristiche del Nodo dei Pagamenti-SPC consentono agli Enti
@@ -76,10 +76,10 @@ viceversa.
 
 La versione attuale delle Specifiche Attuative prevede importanti
 cambiamenti ai processi interni del Nodo dei Pagamenti-SPC. Tali
-modifiche, che apportano fondamentali miglioramenti alla *user
-experience* dell’utilizzatore finale, avranno un impatto minimale nei
-confronti degli EC. Il flusso principale delle attività, vedi *activity
-diagram* di Figura 23 a pagina 118, contempla i seguenti passi:
+modifiche, che apportano fondamentali miglioramenti alla *user experience*
+dell’utilizzatore finale, avranno un impatto minimale nei confronti degli EC.
+Il flusso principale delle attività, vedi *activity diagram*
+di Figura 23 a pagina 118, contempla i seguenti passi:
 
 1) *Check-out e pagamento*: a completamento dei processi interni
        all’Ente Creditore e sulla base delle proprie scelte,
@@ -126,7 +126,7 @@ diagram* di Figura 23 a pagina 118, contempla i seguenti passi:
 
 5)  *Invio carrello a PSP*: la componente FESP del NodoSPC invia il
       carrello di RPT al PSP in modalità diverse in funzione della
-      scelta effettuata dall'utilizzatore finale\ *.* Per maggiori
+      scelta effettuata dall'utilizzatore finale. Per maggiori
       informazioni si veda il *workflow* di dettaglio al § 8.1.1.2;
 
 6)  *Gestione RPT*: il PSP gestisce le RPT pervenute raccogliendo le
@@ -190,8 +190,7 @@ b) avvalersi della funzione di “emulazione” messa a disposizione dal
 
 |image2|
 
-.. centered::
-       **Figura** **24 - Sequence diagram del workflow di check-out e pagamento**
+**Figura** **24 - Sequence diagram del workflow di check-out e pagamento**
 
 Nello schema di Figura 24 è riportato il workflow relativo consigliato
 per questa fase del pagamento, che si compone dei seguenti passi:
