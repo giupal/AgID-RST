@@ -244,9 +244,9 @@ Controlli effettuati dal Nodo dei Pagamenti-SPC
 -----------------------------------------------
 .. _Controlli effettuati dal Nodo dei Pagamenti-SPC:
 
-Il servizio MyBank è individuato dal valore **OBEP** (*On-line banking
-e-payment*) relativo al dato tipoVersamento presente nella RPT (vedi §
-5.3.1).
+Il servizio MyBank è individuato dal valore **OBEP**
+(*On-line banking e-payment*) relativo al dato tipoVersamento presente nella RPT
+(vedi § 5.3.1).
 
 Oltre ai controlli effettuati per verificare il rispetto dei vincoli di
 cui al paragrafo 16.5, il Nodo dei Pagamenti-SPC controllerà, per ogni
