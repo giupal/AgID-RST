@@ -83,8 +83,8 @@ b. Soggetto Versante: rappresenta il soggetto delegato che effettua per
        negli altri casi;
 
 c. Ente Beneficiario: rappresenta la Pubblica Amministrazione
-       creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto
-       Pagatore*;
+      creditrice, a qualsiasi titolo, di somme dovute dal
+      *Soggetto Pagatore*;
 
 d. Istituto Attestante: rappresenta il Prestatore di Servizi di
        Pagamento che effettua il pagamento richiesto e ne attesta la
