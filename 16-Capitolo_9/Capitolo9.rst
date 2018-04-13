@@ -53,8 +53,8 @@ Per la generazione delle RT non è previsto dal Nodo dei Pagamenti-SPC
 alcuno specifico metodo, pertanto il PSP, una volta completato il
 pagamento con uno dei modelli previsti, è tenuto a generare
 immediatamente la RT con le modalità previste dalle presenti specifiche
-e rispettando le indicazioni presenti nel documento "*Indicatori di
-qualità per i Soggetti Aderenti*", pubblicato sul sito dell'Agenzia.
+e rispettando le indicazioni presenti nel documento "*Indicatori di*
+*qualità per i Soggetti Aderenti*", pubblicato sul sito dell'Agenzia.
 
 Per i pagamenti eseguiti presso l'Ente Creditore, l'invio delle Ricevute
 Telematiche è consentito esclusivamente in modalità *push* (primitiva
@@ -103,7 +103,7 @@ a) l'archivio dei pagamenti in attesa (APA), contenente tutte le
    informazioni, associate ad un identificativo univoco, necessarie per
    effettuare il pagamento;
 
-b) un’applicazione “\ *server*\ ” dedicata necessaria per trattare le
+b) un’applicazione “*server*” dedicata necessaria per trattare le
        richieste provenienti dai PSP;
 
 Il *workflow* di questo modello di pagamento è dettagliatamente
@@ -138,7 +138,7 @@ articola nei seguenti passi:
        pagamento o abbandonare la transazione;
 
 4) *Stampa dell'attestato: il Front-end* del PSP stampa l'attestato di
-       pagamento (vedi § 2.5) da consegnare all'utilizzatore finale\ *;*
+       pagamento (vedi § 2.5) da consegnare all'utilizzatore finale;
 
 5) *Attivazione del pagamento*: il *Back-end* del PSP, attraverso il
        NodoSPC, invia al *Back-end* dell'Ente Creditore la richiesta di
@@ -158,7 +158,7 @@ prevede, invece, i passi appresso indicati:
        caso di abbandono si predispone per generare una RT negativa;
 
 4) *Stampa dell'attestato: il Front-end* del PSP stampa l'attestato di
-       pagamento (vedi § 2.5) da consegnare all'utilizzatore finale\ *;*
+       pagamento (vedi § 2.5) da consegnare all'utilizzatore finale;
 
 Nel seguito i due percorsi saranno analizzati separatamente.
 
@@ -403,7 +403,7 @@ rappresentato nel diagramma di Figura 48 a pagina 180, prevede i
 seguenti *step*:
 
 1) Vedi *step* 1 del Passo 2 (Verifica avviso) nel percorso
-       STANDARD\ *;*
+       STANDARD;
 
 2) la componente di *Back-end* del PSP invoca la primitiva
        **nodoAllegaRPT** (vedi § 9.2.3.3), componendo i dati richiesti
@@ -467,8 +467,7 @@ seguenti *step*:
         positiva alla componente FESP del NodoSPC per la primitiva
         **paaInviaRT**. Il flusso termina;
 
-**Nel caso in cui la RPT sia formalmente corretta, il flusso
-prosegue al punto 15**
+**Nel caso in cui la RPT sia formalmente corretta, il flusso prosegue al punto 15**
 
 **Caso in cui lo stato del pagamento non sia OK**
 
@@ -594,12 +593,12 @@ dalle seguenti attività:
 14) la componente di *Back-end* del PSP predispone la *response* alla
         primitiva **pspInviaAckRT**.
 
-**Questo meccanismo non può essere usato per tutti i pagamenti attivati
+Questo meccanismo non può essere usato per tutti i pagamenti attivati
 presso l'Ente Creditore, per i quali deve essere tassativamente usato il
-meccanismo "RT *push*" (vedi §** **8.1.1.3).**
+meccanismo "RT *push*" (vedi § **8.1.1.3).**
 
-**Il meccanismo "RT *pull*" è deprecato e mantenuto per retro
-compatibilità; in futuro sarà sostituito dal meccanismo "RT *push*".**
+Il meccanismo "RT *pull*" è deprecato e mantenuto per retro
+compatibilità; in futuro sarà sostituito dal meccanismo "RT *push*".
 
 Pagamento spontaneo presso il PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -632,8 +631,8 @@ del percorso "STANDARD" del modello 3 e prevede i seguenti passi:
    facilmente disponibili (ad esempio: la targa del proprio veicolo, il
    proprio codice fiscale, ecc.) utilizza il *Front-End* del PSP
    rappresentato dalle sue strutture sul territorio (sportelli fisici,
-   punti di presenza, ATM, ecc.) oppure dalle applicazioni di *home
-   banking* o *mobile app*;
+   punti di presenza, ATM, ecc.) oppure dalle applicazioni di
+   *home banking* o *mobile app*;
 
 2) *Richiesta del Numero Avviso*: il *Back-end* del PSP, attraverso il
    NodoSPC, invia al *Back-end* dell'Ente Creditore la richiesta di
@@ -645,7 +644,7 @@ del percorso "STANDARD" del modello 3 e prevede i seguenti passi:
    pagamento o abbandonare la transazione;
 
 4) *Stampa dell'attestato: il Front-end* del PSP stampa l'attestato di
-   pagamento (vedi § 2.5) da consegnare all'utilizzatore finale\ *;*
+   pagamento (vedi § 2.5) da consegnare all'utilizzatore finale;
 
 5) *Attivazione del pagamento*: il *Back-end* del PSP, attraverso il
    NodoSPC, invia al *Back-end* dell'Ente Creditore la richiesta di
@@ -728,8 +727,8 @@ essere inizializzato da capo. In caso contrario, sarà avviata la seconda
 fase del processo che prevede la stampa dell'attestato di pagamento
 (Passo 4) ed il contemporaneo l'innesco del Passo 5 (Attiva pagamento).
 
-Come ultimo *step* del processo, sarà attivata la fase di "*Chiusura
-della transazione*" (vedi § 9.1.2.4), fornendo l'indicazione di generare
+Come ultimo *step* del processo, sarà attivata la fase di
+"*Chiusura della transazione*" (vedi § 9.1.2.4), fornendo l'indicazione di generare
 e inviare all'EC una RT positiva.
 
 Interazioni con l’utilizzatore finale
@@ -917,8 +916,8 @@ debitoria" di un soggetto pagatore presso un singolo Ente Creditore
 possa essere interrogata dall'utilizzatore finale attraverso le funzioni
 messe a disposizione dai PSP aderenti all'iniziativa (vedi § 2.10).
 
-Tenuto conto delle limitazioni definite al § 2.10.1, il *Sequence
-diagram* del processo di avvisatura digitale *pull* è riportato in
+Tenuto conto delle limitazioni definite al § 2.10.1, il *Sequence diagram*
+del processo di avvisatura digitale *pull* è riportato in
 Figura 54 a pagina 188, per il quale sono previsti i seguenti passi:
 
 1) attraverso il *Front-end* del PSP, l'utilizzatore finale richiede di
@@ -1362,8 +1361,7 @@ presente la struttura **listaErroriRPT** costituita da elementi
 faultBean, dove può essere presente l'elemento opzionale serial
 (obbligatorio quando la lista contiene più di un elemento).
 
-Il **faultBean** è emesso dal **PSP** (faultBean.id =< identificativoPSP
->).
+Il **faultBean** è emesso dal **PSP** (faultBean.id =< identificativoPSP >).
 
 Di seguito i possibili valori del dato **faultBean**.faultCode:
 
@@ -1420,20 +1418,20 @@ A. RPT non trovata per la chiave indicata dai parametri di Input (I-1,
 
 faultCode: *CANALE_RPT_SCONOSCIUTA*
 
-Fault String: *Richiesta RPT: non trovata per la chiave
-identificativoDominio = <identificativoDominio>,
-identificativoUnivocoVersamento= <identificativoUnivocoVersamento>,
-codiceContestoPagamento= <codiceContestoPagamento> specificata*
+Fault String: *Richiesta RPT: non trovata per la chiave*
+*identificativoDominio = <identificativoDominio>,*
+*identificativoUnivocoVersamento= <identificativoUnivocoVersamento>,*
+*codiceContestoPagamento= <codiceContestoPagamento> specificata*
 
 B. RPT ricevuta per la chiave indicata dai parametri di Input (I-1, I-2,
    I-3), ma rifiutata dal PSP:
 
 faultCode: *CANALE_RPT_RIFIUTATA*
 
-Fault String: *Richiesta RPT: rifiutata per la chiave
-identificativoDominio = <identificativoDominio>,
-identificativoUnivocoVersamento= <identificativoUnivocoVersamento>,
-codiceContestoPagamento= <codiceContestoPagamento> specificata*
+Fault String: *Richiesta RPT: rifiutata per la chiave*
+*identificativoDominio = <identificativoDominio>,*
+*identificativoUnivocoVersamento= <identificativoUnivocoVersamento>,*
+*codiceContestoPagamento= <codiceContestoPagamento> specificata*
 
 Generazione e inoltro delle RT al Nodo dei Pagamenti-SPC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1446,8 +1444,7 @@ Generazione e inoltro delle RT al Nodo dei Pagamenti-SPC
 Come già anticipato e tranne alcuni casi particolari in cui le RT sono
 generate dal NodoSPC, il PSP è tenuto a generare la Ricevute Telematiche
 con le modalità previste dalle presenti specifiche e con i tempi
-indicati nel documento "*Indicatori di qualità per i Soggetti
-Aderenti*".
+indicati nel documento "*Indicatori di qualità per i Soggetti Aderenti*".
 
 Per ciò che attiene al protocollo di gestione dei flussi di invio delle
 Ricevute Telematiche al Nodo dei Pagamenti-SPC, sono previsti due tipi
@@ -1462,14 +1459,14 @@ I metodi realizzati per le interazioni tra i PSP e il NodoSPC
 relativamente alla ricezione delle RT sono rappresentati nel diagramma
 di Figura 56:
 
-**Meccanismo in modalità "*push*", cioè su iniziativa del PSP:**
+**Meccanismo in modalità "push", cioè su iniziativa del PSP:**
 
 e. *nodoInviaRT*, con la quale la componente di *Back-end* del PSP invia
    al NodoSPC la RT che ha generato a fronte dell’esecuzione di una RPT
    ricevuta in precedenza (per il processo adottato vedi § 8.1.1.3).
 
-**Meccanismo in modalità "pull", cioè su iniziativa del Nodo dei
-pagamenti-SPC** (per il processo adottato vedi § 9.1.2.4)\ **:**
+**Meccanismo in modalità "pull", cioè su iniziativa del Nodo dei**
+**pagamenti-SPC** (per il processo adottato vedi § 9.1.2.4):
 
 f. *pspChiediRT*, con il quale il Nodo dei Pagamenti-SPC chiede al PSP
    la RT generata a fronte dell’esecuzione di una RPT inviata in
@@ -1608,19 +1605,19 @@ A. RPT non trovata per la chiave indicata dai parametri di Input (I-1,
 I-2, I-3):
 
 faultCode: *CANALE_RPT_SCONOSCIUTA*
-Fault String: *Richiesta RPT: non trovata per la chiave
-identificativoDominio = <identificativoDominio>,
-identificativoUnivocoVersamento= <identificativoUnivocoVersamento>,
-codiceContestoPagamento= <codiceContestoPagamento> specificata*
+Fault String: *Richiesta RPT: non trovata per la chiave*
+*identificativoDominio = <identificativoDominio>,*
+*identificativoUnivocoVersamento= <identificativoUnivocoVersamento>,*
+*codiceContestoPagamento= <codiceContestoPagamento> specificata*
 
 B. RPT trovata per la chiave indicata dai parametri di Input (I-1, I-2,
 I-3), ma RT non ancora disponibile
 
 faultCode: *CANALE_RT_NON_DISPONIBILE*
-Fault String: *Richiesta RPT: RT non disponibile per la chiave
-identificativoDominio = <identificativoDominio>,
-identificativoUnivocoVersamento= <identificativoUnivocoVersamento>,
-codiceContestoPagamento= <codiceContestoPagamento> specificata*
+Fault String: *Richiesta RPT: RT non disponibile per la chiave*
+*identificativoDominio = <identificativoDominio>,*
+*identificativoUnivocoVersamento= <identificativoUnivocoVersamento>,*
+*codiceContestoPagamento= <codiceContestoPagamento> specificata*
 
 pspInviaAckRT
 ~~~~~~~~~~~~~
@@ -1765,10 +1762,10 @@ l. *nodoChiediNumeroAvviso*, con la quale il PSP richiede al Nodo dei
    l’Ente Creditore, relativo ad un servizio generalizzato, sulla base
    di informazioni diverse dal Numero avviso (vedi § 9.1.2.5).
 
-**Si tenga presente che l’attivazione sul sistema pagoPA del *workflow*
-definito per la primitiva** *nodoAllegaRPT* **è al momento sospesa.
-L’avvio dell’operatività sarà comunicato con un congruo anticipo,
-compatibile con le regole del sistema.**
+**Si tenga presente che l’attivazione sul sistema pagoPA del** *workflow*
+**definito per la primitiva** *nodoAllegaRPT* **è al momento sospesa.**
+**L’avvio dell’operatività sarà comunicato con un congruo anticipo,**
+**compatibile con le regole del sistema.**
 
 |image15|
 
@@ -2783,8 +2780,8 @@ t. *nodoChiediElencoAvvisiDigitali*, metodo utilizzato dal PSP per
 Il metodo utilizza la modalità sincrona del paradigma SOAP e il
 protocollo *https* per il trasporto.
 
-**Per l'utilizzo di questo web service si tenga conto delle limitazioni
-definite al §** **2.10.1.**
+**Per l'utilizzo di questo web service si tenga conto delle limitazioni**
+**definite al § 2.10.1.**
 
 nodoChiediElencoAvvisiDigitali
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3026,16 +3023,16 @@ nodoChiediTemplateInformativaPSP
 .. _nodoChiediTemplateInformativaPSP:
 
 Con questa primitiva il PSP può scaricare dagli archivi del NodoSPC
-(Esercizio o Collaudo) l'ultima versione del *"Catalogo Dati
-Informativi"* di propria competenza.
+(Esercizio o Collaudo) l'ultima versione del *"Catalogo Dati Informativi"*
+di propria competenza.
 
 Il *template* è costituito da un documento XML, compilato in tutte le
 parti relative alla configurazione del PSP stesso, tranne che nelle
 parti che descrivono le condizioni economiche e le priorità di scelta in
 caso di mancata indicazione del canale (vedi anche §§ 4.2.2 e 5.3.7).
 
-Qualora non sia presente una versione corrente del "*Catalogo Dati
-Informativi*" per l'ambiente indicato, il NodoSPC restituirà un
+Qualora non sia presente una versione corrente del "*Catalogo Dati Informativi*"
+per l'ambiente indicato, il NodoSPC restituirà un
 *template* vuoto.
 
 Parametri di input
@@ -3430,18 +3427,18 @@ Tabella 42.
 |                       | bbligatorio nel       |                       |
 |                       | caso di utilizzo      |                       |
 |                       | della primitiva       |                       |
-|                       | **nodoInviaRPT**,   |                       |
+|                       | **nodoInviaRPT**,     |                       |
 |                       |                       |                       |
 |                       | mentre non deve       |                       |
 |                       | essere presente       |                       |
 |                       | nel caso di           |                       |
 |                       | utilizzo della        |                       |
 |                       | primitiva             |                       |
-|                       | **nodoInviaCarre     |                       |
-|                       | lloRPT**.            |                       |
+|                       | **nodoInviaCarre**    |                       |
+|                       | **lloRPT**.           |                       |
 +-----------------------+-----------------------+-----------------------+
-| **parametriPagamentoI | *Query string*        |                       |
-| mmediato**            | fornita dal PSP       |                       |
+|**parametriPagamento** | *Query string*        |                       |
+|**Immediato**          | fornita dal PSP       |                       |
 |                       | mediante la           |                       |
 |                       | *Response* della      |                       |
 |                       | primitiva invocata in |                       |
@@ -3449,13 +3446,13 @@ Tabella 42.
 |                       |                       |                       |
 |                       | -  parametro **O-3**  |                       |
 |                       |    per                |                       |
-|                       |    **pspInviaRPT**  |                       |
+|                       |    **pspInviaRPT**    |                       |
 |                       |    (vedi §9.2.1.1)    |                       |
 |                       |                       |                       |
 |                       | -  parametro **O-3**  |                       |
 |                       |    per                |                       |
-|                       |    **pspInviaCar     |                       |
-|                       |    relloRPT**        |                       |
+|                       |    **pspInviaCar**    |                       |
+|                       |    **relloRPT**       |                       |
 |                       |    (vedi §9.2.1.2).   |                       |
 +-----------------------+-----------------------+-----------------------+
 | **idCarrello**        | parametro opzionale,  |                       |
@@ -3468,12 +3465,12 @@ Tabella 42.
 |                       |                       |                       |
 |                       | -  parametro **O-2**  |                       |
 |                       |    per                |                       |
-|                       |    **pspInviaRPT**  |                       |
+|                       |    **pspInviaRPT**    |                       |
 |                       |    (vedi §9.2.1.1)    |                       |
 |                       | -  parametro **O-2**  |                       |
 |                       |    per                |                       |
-|                       |    **pspInviaCar     |                       |
-|                       |    relloRPT**        |                       |
+|                       |    **pspInviaCar**    |                       |
+|                       |    **relloRPT**       |                       |
 |                       |    (vedi §9.2.1.2).   |                       |
 +-----------------------+-----------------------+-----------------------+
 | **codiceRitornoPSP**  | stringa contenente un |                       |
@@ -3549,10 +3546,10 @@ l’invio di *form* con campi nascosti con metodo HTTP POST) per i
 seguenti due tipi di messaggi:
 
 -  messaggio HTTP-redirect di avvio pagamento verso *Initiating Party*
-       (vedi § 9.4.2)\ *;*
+       (vedi § 9.4.2);
 
 -  messaggio HTTP-redirect di esito pagamento da *Initiating Party*
-       (vedi § 9.4.3)\ *.*
+       (vedi § 9.4.3).
 
 Il colloquio prevede inoltre l’utilizzo di un ulteriore messaggio HTTP
 nei confronti di *Initiating Party* attivato tramite HTTP GET, usato per
@@ -3577,8 +3574,8 @@ informazioni indicate in Tabella 43.
 **Tabella** **43 - Parametri di re-direct verso Initiating Party**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | IMPORTO   | 1         | n         | 1..1      | 2..8      | Importo   |
 |           |           |           |           |           | espresso  |
@@ -3627,13 +3624,12 @@ informazioni indicate in Tabella 43.
 |           |           |           |           |           | del       |
 |           |           |           |           |           | negozio   |
 |           |           |           |           |           | del       |
-|           |           |           |           |           | *merchant |
-|           |           |           |           |           | *         |
+|           |           |           |           |           | *merchant*|
 |           |           |           |           |           | da        |
 |           |           |           |           |           | fornire   |
-|           |           |           |           |           | all’\ *In |
-|           |           |           |           |           | itiating  |
-|           |           |           |           |           | Party* a  |
+|           |           |           |           |           | all’*In*  |
+|           |           |           |           |           | *itiating*|
+|           |           |           |           |           | *Party* a |
 |           |           |           |           |           | cura del  |
 |           |           |           |           |           | Wrapper   |
 |           |           |           |           |           | MyBank.   |
@@ -3647,8 +3643,8 @@ informazioni indicate in Tabella 43.
 |           |           |           |           |           | concordat |
 |           |           |           |           |           | o         |
 |           |           |           |           |           | tra AgID  |
-|           |           |           |           |           | e *Seller |
-|           |           |           |           |           | Bank*.    |
+|           |           |           |           |           | e *Seller*|
+|           |           |           |           |           | *Bank*.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | URLBACK   | 1         | an        | 1..1      | 1..254    | URL       |
 |           |           |           |           |           | completa  |
@@ -3690,14 +3686,13 @@ informazioni indicate in Tabella 43.
 |           |           |           |           |           | successo. |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | URLMS     | 1         | an        | 1..1      | 1..400    | URL del   |
-|           |           |           |           |           | *merchant |
-|           |           |           |           |           | *         |
+|           |           |           |           |           | *merchant*|
 |           |           |           |           |           | *system*  |
 |           |           |           |           |           | verso la  |
 |           |           |           |           |           | quale     |
-|           |           |           |           |           | l’\ *Init |
-|           |           |           |           |           | iating    |
-|           |           |           |           |           | Party*    |
+|           |           |           |           |           | l’*Init*  |
+|           |           |           |           |           | *iating*  |
+|           |           |           |           |           | *Party*   |
 |           |           |           |           |           | effettua  |
 |           |           |           |           |           | la GET o  |
 |           |           |           |           |           | POST di   |
@@ -3715,10 +3710,10 @@ informazioni indicate in Tabella 43.
 |           |           |           |           |           | o         |
 |           |           |           |           |           | negativa. |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| MAC       | 1         | an        | 1..1      | 40        | *Message  |
-|           |           |           |           |           | Authentic |
-|           |           |           |           |           | ation     |
-|           |           |           |           |           | Code*:    |
+| MAC       | 1         | an        | 1..1      | 40        | *Message* |
+|           |           |           |           |           |*Authentic*|
+|           |           |           |           |           | *ation*   |
+|           |           |           |           |           | *Code*:   |
 |           |           |           |           |           | rende     |
 |           |           |           |           |           | immodific |
 |           |           |           |           |           | abile     |
@@ -3747,9 +3742,9 @@ informazioni indicate in Tabella 43.
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | IDVS      | 1         | n         | 1..1      | 1..35     | Identific |
 |           |           |           |           |           | ativo     |
-|           |           |           |           |           | *validati |
-|           |           |           |           |           | on        |
-|           |           |           |           |           | service*: |
+|           |           |           |           |           | *validati*|
+|           |           |           |           |           | *on*      |
+|           |           |           |           |           | *service*:|
 |           |           |           |           |           | corrispon |
 |           |           |           |           |           | de        |
 |           |           |           |           |           | al codice |
@@ -3818,8 +3813,8 @@ informazioni di Tabella 44.
 **Tabella** **44 - Parametri del messaggio di esito pagamento da Initiating Party**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | NUMORD    | 1         | an        | 1..1      | 1..50     | Deve      |
 |           |           |           |           |           | contenere |
@@ -3905,10 +3900,10 @@ informazioni di Tabella 44.
 |           |           |           |           |           | dal       |
 |           |           |           |           |           | sistema.  |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| MAC       | 1         | an        | 1..1      | 40        | *Message  |
-|           |           |           |           |           | Authentic |
-|           |           |           |           |           | ation     |
-|           |           |           |           |           | Code*:    |
+| MAC       | 1         | an        | 1..1      | 40        |*Message*  |
+|           |           |           |           |           |*Authentic*|
+|           |           |           |           |           |*ation*    |
+|           |           |           |           |           |*Code*:    |
 |           |           |           |           |           | rende     |
 |           |           |           |           |           | immodific |
 |           |           |           |           |           | abile     |
@@ -3991,8 +3986,7 @@ autorizzazione ad esso legate.
 |           |           |           |           |           | "SITUAZIO |
 |           |           |           |           |           | NEORDINE" |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| TIMESTAMP | 1         | n         | 1..1      | 23        | *Timestam |
-|           |           |           |           |           | p*        |
+| TIMESTAMP | 1         | n         | 1..1      | 23        |*Timestamp*|
 |           |           |           |           |           | locale.   |
 |           |           |           |           |           |           |
 |           |           |           |           |           | Formato   |
@@ -4005,8 +3999,7 @@ autorizzazione ad esso legate.
 |           |           |           |           |           | del       |
 |           |           |           |           |           | negozio   |
 |           |           |           |           |           | del       |
-|           |           |           |           |           | *mercha   |
-|           |           |           |           |           | nt*.      |
+|           |           |           |           |           |*merchant*.|
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | OPERATORE | 1         | an        | 1..1      | 8         | Indica    |
 |           |           |           |           |           | chi ha    |
@@ -4019,9 +4012,9 @@ autorizzazione ad esso legate.
 |           |           |           |           |           | ID di un  |
 |           |           |           |           |           | operatore |
 |           |           |           |           |           | assegnato |
-|           |           |           |           |           | dall’\ *I |
-|           |           |           |           |           | nitiating |
-|           |           |           |           |           | Party*.   |
+|           |           |           |           |           | dall’*Ini*|
+|           |           |           |           |           | *tiating* |
+|           |           |           |           |           | *Party*.  |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | REQREFNUM | 1         | n         | 1..1      | 32        | Identific |
 |           |           |           |           |           | ativo     |
@@ -4054,7 +4047,7 @@ autorizzazione ad esso legate.
 |           |           |           |           |           | mancata   |
 |           |           |           |           |           | risposta. |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **I primi |
+|           |           |           |           |           | I primi   |
 |           |           |           |           |           | 8         |
 |           |           |           |           |           | caratteri |
 |           |           |           |           |           | contengon |
@@ -4065,7 +4058,7 @@ autorizzazione ad esso legate.
 |           |           |           |           |           | nel       |
 |           |           |           |           |           | formato   |
 |           |           |           |           |           | yyyyMM    |
-|           |           |           |           |           | dd.**     |
+|           |           |           |           |           | dd.       |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | NUMORD    | 1         | an        | 1..1      | 1..50     | Codice    |
 |           |           |           |           |           | identific |
@@ -4074,10 +4067,10 @@ autorizzazione ad esso legate.
 |           |           |           |           |           | dell’ordi |
 |           |           |           |           |           | ne.       |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| MAC       | 1         | an        | 1..1      | 40        | *Message  |
-|           |           |           |           |           | Authentic |
-|           |           |           |           |           | ation     |
-|           |           |           |           |           | Code*:    |
+| MAC       | 1         | an        | 1..1      | 40        |*Message*  |
+|           |           |           |           |           |*Authentic*|
+|           |           |           |           |           |*ation*    |
+|           |           |           |           |           |*Code*:    |
 |           |           |           |           |           | rende     |
 |           |           |           |           |           | immodific |
 |           |           |           |           |           | abile     |
@@ -4104,13 +4097,13 @@ caratteristiche riportate in Tabella 47.
 | **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
 |           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
-| BPWXm     | 1         | s         | 1..1      |           | *root     |
-| lRisposta |           |           |           |           | element*  |
+| BPWXm     | 1         | s         | 1..1      |           | *root*    |
+| lRisposta |           |           |           |           | *element* |
 |           |           |           |           |           | del       |
 |           |           |           |           |           | messaggio |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| Times     | 2         | an        | 1..1      | 23        | *Timestam |
-| tamp      |           |           |           |           | p*        |
+| Times     | 2         | an        | 1..1      | 23        |*Timestamp*|
+| tamp      |           |           |           |           |           |
 |           |           |           |           |           | locale    |
 |           |           |           |           |           | relativo  |
 |           |           |           |           |           | alla data |
@@ -4138,10 +4131,10 @@ caratteristiche riportate in Tabella 47.
 |           |           |           |           |           | Tabella   |
 |           |           |           |           |           | 48.       |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| MAC       | 2         | an        | 1..1      | 40        | *Message  |
-|           |           |           |           |           | Authentic |
-|           |           |           |           |           | ation     |
-|           |           |           |           |           | Code*:    |
+| MAC       | 2         | an        | 1..1      | 40        |*Message*  |
+|           |           |           |           |           |*Authentic*|
+|           |           |           |           |           |*ation*    |
+|           |           |           |           |           |*Code*:    |
 |           |           |           |           |           | rende     |
 |           |           |           |           |           | immodific |
 |           |           |           |           |           | abile     |
@@ -4284,8 +4277,8 @@ caratteristiche riportate in Tabella 47.
 |           |           |           |           |           | all’ordin |
 |           |           |           |           |           | e.        |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| Times     | 4         | An        | 1..1      | 23        | *Timestam |
-| tamp      |           |           |           |           | p*        |
+| Times     | 4         | An        | 1..1      | 23        |*Timestamp*|
+| tamp      |           |           |           |           |           |
 |           |           |           |           |           | locale    |
 |           |           |           |           |           | relativo  |
 |           |           |           |           |           | alla data |
@@ -4385,8 +4378,8 @@ Calcolo e verifica del Message Authentication Code (MAC)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. _Calcolo e verifica del Message Authentication Code (MAC):
 
-Al fine di rendere sicuro il colloquio tra le componenti *Initiating
-Party* e “Wrapper MyBank”, le stesse si scambiano le seguenti due
+Al fine di rendere sicuro il colloquio tra le componenti *Initiating Party*
+e “Wrapper MyBank”, le stesse si scambiano le seguenti due
 stringhe (chiavi) segrete da utilizzare per la generazione e la verifica
 del MAC:
 
@@ -4399,8 +4392,8 @@ del MAC:
    utilizza a sua volta per verificarne l’autenticità.
 
 Tali chiavi segrete, della lunghezza di 50 caratteri, vengono scambiate
-in maniera sicura tra il gestore del Nodo dei Pagamenti-SPC e la *Seller
-Bank* al momento dell’attivazione del servizio.
+in maniera sicura tra il gestore del Nodo dei Pagamenti-SPC e la
+*Seller Bank* al momento dell’attivazione del servizio.
 
 La generazione del MAC segue lo stesso metodo per tutti e tre i
 messaggi: alla stringa risultante dal concatenamento dei parametri
@@ -4411,8 +4404,8 @@ alternativa la funzione di *hash* MD5.
 Il MAC, essendo il risultato di una funzione di *hash*, per essere
 trasmesso in HTTP deve essere codificato opportunamente. A tale scopo si
 deve utilizzare una conversione in esadecimale, il cui risultato sarà
-una stringa di 40 caratteri. Dal momento che il MAC non è *case
-sensitive,* lettere maiuscole e minuscole possono essere utilizzate
+una stringa di 40 caratteri. Dal momento che il MAC non è
+*case sensitive,* lettere maiuscole e minuscole possono essere utilizzate
 indistintamente.
 
 MAC di richiesta pagamento
@@ -4448,8 +4441,8 @@ stringa da sottoporre alla funzione di *hash* contiene i seguenti campi:
 
 Il MAC sarà pertanto così composto:
 
-**MAC=Hash(URLMS=<urlms>&URLDONE=<urldone>&NUMORD=<idoper>&IDNEGOZIO=<idnegozio>&IMPORTO=<importo>&VALUTA=978&TCONTAB=I&TAUTOR=I&OPTIONS=O&LOCKCARD=96&DESCRORD=<descrord>&IDVS=<idvs>&<Chiave
-A>)**
+**MAC=Hash(URLMS=<urlms>&URLDONE=<urldone>&NUMORD=<idoper>&IDNEGOZIO=<idnegozio>&IMPORTO**
+**=<importo>&VALUTA=978&TCONTAB=I&TAUTOR=I&OPTIONS=O&LOCKCARD=96&DESCRORD=<descrord>&IDVS=<idvs>&<Chiave A>)**
 
 dove le scritte fra < > indicano i valori dei campi e l’ordine con il
 quale appaiono all'interno della stringa che compone il MAC è ovviamente
@@ -4486,9 +4479,9 @@ campi:
 
 Il MAC sarà pertanto così composto:
 
-**MAC = Hash(NUMORD =<numero d’ordine>&IDNEGOZIO=<idnegozio>&AUT=<numero
-autor>&IMPORTO=<importo>&VALUTA=978&IDTRANS=<id.transazione>&TCONTAB=I&TAUTOR=I&ESITO=<esito>&BPW_TIPO_TRANSAZIONE=TT01&<
-Chiave B>)**
+**MAC = Hash(NUMORD =<numero d’ordine>&IDNEGOZIO=<idnegozio>&AUT=<numero**
+**autor>&IMPORTO=<importo>&VALUTA=978&IDTRANS=<id.transazione>&TCONTAB=I&TAUTOR=**
+**I&ESITO=<esito>&BPW_TIPO_TRANSAZIONE=TT01&< Chiave B>)**
 
 dove le scritte fra < > indicano i valori dei campi e l’ordine con il
 quale appaiono all'interno della stringa che compone il MAC è ovviamente
@@ -4519,8 +4512,8 @@ seguenti campi:
 
 Il MAC sarà pertanto così composto:
 
-**MAC=Hash(OPERAZIONE=SITUAZIONEORDINE&TIMESTAMP=<timestamp>&IDNEGOZIO=<idnegozio>&OPERATORE=<operatore>&REQREFNUM=<numero
-richiesta>&NUMORD=<numord>&<Chiave B>)**
+**MAC=Hash(OPERAZIONE=SITUAZIONEORDINE&TIMESTAMP=<timestamp>&IDNEGOZIO=<idnegozio>**
+**&OPERATORE=<operatore>&REQREFNUM=<numerorichiesta>&NUMORD=<numord>&<Chiave B>)**
 
 Dove le scritte fra < > indicano i valori dei campi e l’ordine con il
 quale appaiono all'interno della stringa che compone il MAC è ovviamente
@@ -4553,9 +4546,9 @@ Glossario informazioni
 Al fine di facilitare la comprensione del testo, nella Tabella 50 è
 riportata la corrispondenza tra le informazioni utilizzate dal Nodo dei
 Pagamenti-SPC, così come indicate nel presente documento, e quelle
-relative al dominio MyBank così come richiamate nel documento "*MyBank
+relative al dominio MyBank così come richiamate nel documento
 SCT01 Application Specification - E-authorisation for the execution of
-an online SEPA Credit Transfer* ".
+"*MyBank an online SEPA Credit Transfer*".
 
 **Tabella** **50 - Glossario informazioni**
 
