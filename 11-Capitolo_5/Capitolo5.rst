@@ -83,7 +83,8 @@ b. Soggetto Versante: rappresenta il soggetto delegato che effettua per
        negli altri casi;
 
 c. Ente Beneficiario: rappresenta la Pubblica Amministrazione
-       creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto  Pagatore*;
+       creditrice, a qualsiasi titolo, di somme dovute dal *Soggetto
+       Pagatore*;
 
 d. Istituto Attestante: rappresenta il Prestatore di Servizi di
        Pagamento che effettua il pagamento richiesto e ne attesta la
@@ -2331,14 +2332,17 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | seguent |
 |         |         |         |         |         |         | i       |
 |         |         |         |         |         |         | valori: |
-|         |         |         |         |         |         | -**G**= |
+|         |         |         |         |         |         | - **‘G  |
+|         |         |         |         |         |         | ’**\ =  |
 |         |         |         |         |         |         | persona |
 |         |         |         |         |         |         | giuridi |
 |         |         |         |         |         |         | ca      |
-|         |         |         |         |         |         | -**A**= |
+|         |         |         |         |         |         | - **‘A  |
+|         |         |         |         |         |         | ’**\ =  |
 |         |         |         |         |         |         | Codice  |
 |         |         |         |         |         |         | ABI     |
-|         |         |         |         |         |         | -**B**= |
+|         |         |         |         |         |         | - **‘B  |
+|         |         |         |         |         |         | ’**\ =  |
 |         |         |         |         |         |         | Codice  |
 |         |         |         |         |         |         | BIC     |
 |         |         |         |         |         |         | (standa |
@@ -2379,10 +2383,11 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | icativo |
 |         |         |         |         |         |         | PSP     |
 |         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | Catalogo|
+|         |         |         |         |         |         | *Catalo |
+|         |         |         |         |         |         | go      |
 |         |         |         |         |         |         | Dati    |
 |         |         |         |         |         |         | Informa |
-|         |         |         |         |         |         | tivi    |
+|         |         |         |         |         |         | tivi*   |
 |         |         |         |         |         |         | (vedi   |
 |         |         |         |         |         |         | Tabella |
 |         |         |         |         |         |         | 9).     |
@@ -3135,11 +3140,12 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | che     |
 |         |         |         |         |         |         | l’eleme |
 |         |         |         |         |         |         | nto     |
-|         |         |         |         |         |         |*singolo*|
-|         |         |         |         |         |         |*Importo*|
-|         |         |         |         |         |         |*Pagato* |
+|         |         |         |         |         |         | *singol |
+|         |         |         |         |         |         | oImport |
+|         |         |         |         |         |         | oPagato |
+|         |         |         |         |         |         | *       |
 |         |         |         |         |         |         | sia     |
-|         |         |         |         |         |         | **0.00**|
+|         |         |         |         |         |         | 0.00    |
 +---------+---------+---------+---------+---------+---------+---------+
 | dat     | 3       | an      | 1..1    | 10      | Accepta | Indica  |
 | aEsitoS |         |         |         |         | nce     | la data |
@@ -3551,7 +3557,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 
 +---------+---------+---------+---------+---------+---------+---------+
 | **Dato**| **Liv** |**Gener**| **Occ** | **Len** |**UNIFI**|**Conte**|
-|         |         |**e**    |         |         |         | **nuto**|
+|         |         |**e**    |         |         |         | **nuto**  |
 +=========+=========+=========+=========+=========+=========+=========+
 | ver     | 1       | an      | o       | 1..16   | Version | Riporta |
 | sioneOg |         |         |         |         | Number  | la      |
@@ -3945,8 +3951,8 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         |         |
 |         |         |         |         |         |         | di      |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | *charge*|
-|         |         |         |         |         |         | *back*  |
+|         |         |         |         |         |         | *charge |
+|         |         |         |         |         |         | back*   |
 |         |         |         |         |         |         |         |
 |         |         |         |         |         |         | Il dato |
 |         |         |         |         |         |         | non     |
@@ -4169,7 +4175,8 @@ relativa allo “storno” di un pagamento.
 |         |         |         |         |         |         |         |
 |         |         |         |         |         |         | dataMes |
 |         |         |         |         |         |         | saggioR |
-|         |         |         |         |         |         | evoca.  |
+|         |         |         |         |         |         | evoca\  |
+|         |         |         |         |         |         | *.*     |
 +---------+---------+---------+---------+---------+---------+---------+
 | dat     | 1       | an      | 1..1    | 19      | Creatio | Indica  |
 | aOraMes |         |         |         |         | n       | la data |
@@ -4583,13 +4590,13 @@ Flusso di rendicontazione
 dal suo intermediario al Nodo dei Pagamenti-SPC e che quest’ultimo invia
 all’Ente Creditore accreditato; tale documento è rappresentato da un
 insieme omogeneo di dati contenente tutte le informazioni che devono
-essere registrate «*in apposito sistema informatico, a disposizione*
-*dell'amministrazione*», ai sensi dell’articolo 5, comma 1, lettera b)
+essere registrate «\ *in apposito sistema informatico, a disposizione
+dell'amministrazione*\ », ai sensi dell’articolo 5, comma 1, lettera b)
 del CAD.
 
 Il dettaglio di dette informazioni è riportato nella Sezione II delle
-*"Specifiche attuative dei codici identificativi di versamento,*
-*riversamento e rendicontazione*", allegato A alle “Linee guida per
+*"Specifiche attuative dei codici identificativi di versamento,
+riversamento e rendicontazione*", allegato A alle “Linee guida per
 l'effettuazione dei pagamenti a favore delle pubbliche amministrazioni e
 dei gestori di pubblici servizi” alle quali si deve fare riferimento.
 
@@ -5731,8 +5738,8 @@ in Tabella 8.
 | idBan     | 4         | an        | 1..1      | 50        | Identific |
 | caSeller  |           |           |           |           | ativo     |
 |           |           |           |           |           | della     |
-|           |           |           |           |           | *Seller*  |
-|           |           |           |           |           | *Bank*    |
+|           |           |           |           |           | *Seller   |
+|           |           |           |           |           | Bank*     |
 |           |           |           |           |           | secondo   |
 |           |           |           |           |           | la        |
 |           |           |           |           |           | codifica  |
@@ -5808,10 +5815,11 @@ catalogo:
 |           |           |           |           |           | component |
 |           |           |           |           |           | i         |
 |           |           |           |           |           | il        |
-|           |           |           |           |           |"*Catalogo*|
-|           |           |           |           |           | *Dati*    |
-|           |           |           |           |           |*Informati*|
-|           |           |           |           |           | *vi*".    |
+|           |           |           |           |           | "*Catalog |
+|           |           |           |           |           | o         |
+|           |           |           |           |           | Dati      |
+|           |           |           |           |           | Informati |
+|           |           |           |           |           | vi*".     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | ragio     | 2         | an        | 1..1      | 70        | Ragione   |
 | neSociale |           |           |           |           | sociale   |
@@ -6282,8 +6290,8 @@ catalogo:
 |           |           |           |           |           | ne.       |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
-La semantica dei dati che devono essere forniti con il
-"C*atalogo Dati Informativi*" è riportata di seguito, specificando inoltre il formato
+La semantica dei dati che devono essere forniti con il "C*atalogo Dati
+Informativi*" è riportata di seguito, specificando inoltre il formato
 del dato, i valori ammessi, nonché i controlli applicabili. I segni ‘+’
 tra le parentesi dopo il nome del dato (la barra verticale ‘|’ segnala
 il valore 5) indicano il livello d’indentazione dello stesso all’interno
@@ -6610,8 +6618,8 @@ il costo del servizio erogato dal PSP.
 
 **tipoCostoTransazione (++++):**
 
-**Il dato è stato inserito per usi futuri. Allo stato è ammesso**
-**solo il valore 1.** Modalità di calcolo del costo nel caso in cui
+**Il dato è stato inserito per usi futuri. Allo stato è ammesso
+solo il valore 1.** Modalità di calcolo del costo nel caso in cui
 siano presenti più pagamenti in una singola transazione, sia che
 si tratti di una RPT con più pagamenti, sia che si tratti di un
 carrello di RPT.
@@ -6724,7 +6732,8 @@ fascia precedente aumentato di 1. Per la prima fascia tale valore
 è zero.
 
 *Filtri*: importo della transazione (vedi § 2.1 del documento
-"*Wizard Interattivo di Scelta del PSP - Evoluzione della user experience*").
+"*Wizard Interattivo di Scelta del PSP - Evoluzione della user
+experience*").
 
 **costoFisso (++++++):**
 
@@ -8182,8 +8191,9 @@ nel parametro datiSpecificiServizio (cfr. §§ 8.3.3.4 e 9.2.3.4).
 
 
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
-|**Da | Liv | Gen | Occ | Len |Conte| **  |     |     |     |     |
-|**to |     | ere |     |     |nuto | **  |     |     |     |     |
+|**Da |**Li |**Gen|**Oc |**Le |**Con|     |     |     |     |     |
+|to** |v**  |ere**|c**  |n**  |tenut|     |     |     |     |     |
+|     |     |     |     |     |o**  |     |     |     |     |     |
 |     |     |     |     |     |     |     |     |     |     |     |
 +=====+=====+=====+=====+=====+=====+=====+=====+=====+=====+=====+
 |tassa| 1   | s   | 1.1 |     | Str |     |     |     |     |     |
@@ -8308,7 +8318,7 @@ nel parametro datiSpecificiServizio (cfr. §§ 8.3.3.4 e 9.2.3.4).
 |     |     |     |     |     | col |     |     |     |     |     |
 |     |     |     |     |     | o.  |     |     |     |     |     |
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
-|opp  |     |     |     |     |     |     |     |     |     |     |
+|**opp|     |     |     |     |     |     |     |     |     |     |
 |ure, |     |     |     |     |     |     |     |     |     |     |
 |in al|     |     |     |     |     |     |     |     |     |     |
 |terna|     |     |     |     |     |     |     |     |     |     |
@@ -8317,7 +8327,7 @@ nel parametro datiSpecificiServizio (cfr. §§ 8.3.3.4 e 9.2.3.4).
 |veico|     |     |     |     |     |     |     |     |     |     |
 |loCon|     |     |     |     |     |     |     |     |     |     |
 |Tar  |     |     |     |     |     |     |     |     |     |     |
-|ga   |     |     |     |     |     |     |     |     |     |     |
+|ga** |     |     |     |     |     |     |     |     |     |     |
 |     |     |     |     |     |     |     |     |     |     |     |
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
 |veico| 2   | s   | 1.1 |     | Str |     |     |     |     |     |
@@ -8675,12 +8685,12 @@ in formato digitale.
 |           |           |           |           |           | seguenti  |
 |           |           |           |           |           | valori:   |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **‘F’** = |
+|           |           |           |           |           | **‘F’**\ =|
 |           |           |           |           |           |           |
 |           |           |           |           |           | Persona   |
 |           |           |           |           |           | fisica    |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **‘G’** = |
+|           |           |           |           |           | **‘G’**\ =|
 |           |           |           |           |           |           |
 |           |           |           |           |           | Persona   |
 |           |           |           |           |           | Giuridica.|
@@ -8942,13 +8952,13 @@ in formato digitale.
 |           |           |           |           |           | nuovo     |
 |           |           |           |           |           | avviso    |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **‘U’** = |
+|           |           |           |           |           | **‘U’**\ =|
 |           |           |           |           |           | Modifica  |
 |           |           |           |           |           | di un     |
 |           |           |           |           |           | avviso    |
 |           |           |           |           |           | esistente |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **‘D’** = |
+|           |           |           |           |           | **‘D’**\ =|
 |           |           |           |           |           | Cance     |
 |           |           |           |           |           | llazione  |
 |           |           |           |           |           | di un     |
@@ -9603,11 +9613,11 @@ formalmente all'interno del WSDL del servizio.
 |           |           |           |           |           | seguenti  |
 |           |           |           |           |           | valori:   |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **‘F’** = |
+|           |           |           |           |           | **‘F’**\ =|
 |           |           |           |           |           | Persona   |
 |           |           |           |           |           | fisica    |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **‘G’** = |
+|           |           |           |           |           | **‘G’**\ =|
 |           |           |           |           |           | Persona   |
 |           |           |           |           |           | Giuridica.|
 +-----------+-----------+-----------+-----------+-----------+-----------+
@@ -9633,11 +9643,11 @@ formalmente all'interno del WSDL del servizio.
 |           |           |           |           |           | richiesto |
 |           |           |           |           |           | :         |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **‘A’** = |
+|           |           |           |           |           | **‘A’**\ =|
 |           |           |           |           |           | Attivazio |
 |           |           |           |           |           | ne        |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **‘D’** = |
+|           |           |           |           |           | **‘D’**\ =|
 |           |           |           |           |           | disattiva |
 |           |           |           |           |           | zione     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
