@@ -3767,7 +3767,7 @@ componente “Wrapper MyBank” contengano parametri o caratteri
 particolari, dette stringhe saranno trasferite in formato MIME
 application/x-www-form-urlencoded, secondo la codifica detta “Percent
 Encoding” (vedasi link:
-`*https*://tools.ietf.org/html/rfc3986 <https://tools.ietf.org/html/rfc3986>`__).
+`https://tools.ietf.org/html/rfc3986 <https://tools.ietf.org/html/rfc3986>`__).
 
 Identificativo per Validation Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
