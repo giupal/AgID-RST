@@ -368,7 +368,7 @@ Automobilistica <11-Capitolo_5/Capitolo5.rst#dati-specifici-del-servizio-nel-cas
 
 `8. Interazione tra Ente Creditore e NodoSPC </15-Capitolo_8/Capitolo8.rst>`__
 
-`8.1 *Workflow* dei modelli di pagamento e dei processi accessori
+`8.1 Workflow dei modelli di pagamento e dei processi accessori
 <15-Capitolo_8/Capitolo8.rst#workflow-dei-modelli-di-pagamento-e-dei-processi-accessori>`__
 
 `8.1.1 Pagamenti attivati presso l'Ente Creditore
