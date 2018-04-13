@@ -89,8 +89,7 @@ e che potrebbero interrompere il corretto svolgimento del pagamento.
 
 |image2|
 
-**Figura** **22 - Diagramma complessivo delle operazioni gestite dal
-NodoSPC**
+**Figura** **22 - Diagramma complessivo delle operazioni gestite dal NodoSPC**
 
 Al fine di focalizzare l'attenzione di ciascun tipo di aderente sul
 proprio ambito di interazione con il Nodo dei Pagamenti-SPC, la presente
@@ -134,11 +133,11 @@ aderenti.
 **Tabella** **34 - Identificazione degli oggetti scambiati**
 
 +-----------------------+-----------------------+-----------------------+
-| **Dato**              | **Pagamenti attivati  | **Pagamenti attivati  |
-|                       | presso EC**           | presso PSP**          |
+| **Dato**              | **Pagamenti attivati**| **Pagamenti attivati**|
+|                       | **presso EC**         | **presso PSP**        |
 |                       |                       |                       |
-|                       | **(modello 1 e        | **(modello 3 e        |
-|                       | modello 2)**          | modello 4)**          |
+|                       | **(modello 1 e**      | **(modello 3 e**      |
+|                       | **modello 2)**        | **modello 4)**        |
 +=======================+=======================+=======================+
 | identificativoDominio | Campo alfanumerico    |                       |
 |                       | contenente il codice  |                       |
