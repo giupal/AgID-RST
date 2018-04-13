@@ -290,8 +290,8 @@ La gestione dell'avvisatura digitale in modalità *push* avviene
 attraverso l'utilizzo di componenti del NodoSPC che consentono:
 
 -  agli Enti Creditori l'invio degli avvisi sia in modalità SFTP (File
-       transfer sicuro), sia attraverso l'utilizzo di appositi *web
-       service* (vedi rispettivamente §§ 8.5 e 8.1.6);
+       transfer sicuro), sia attraverso l'utilizzo di appositi *web service*
+       (vedi rispettivamente §§ 8.5 e 8.1.6);
 
 -  ai PSP di inviare via *web service* al NodoSPC le richieste di
        iscrizione al servizio (vedi § 9.2.7 della Sezione III);
@@ -391,8 +391,8 @@ cui possa conseguire il verificarsi di disservizi generali. Tale
 funzionalità viene innescata automaticamente nel caso in cui un Ente
 Creditore tenti di avviare, nell’unità di tempo, un numero di operazioni
 di pagamento superiori ai fabbisogni da esso stesso dichiarati. Le
-regole di *throttling* sono indicate nel documento “\ *Indicatori di
-qualità per i Soggetti Aderenti*\ ” pubblicato sul sito istituzionale
+regole di *throttling* sono indicate nel documento
+“*Indicatori di qualità per i Soggetti Aderenti*” pubblicato sul sito istituzionale
 dell’Agenzia per l’Italia Digitale.
 
 Sistema di Gestione del Tavolo Operativo
