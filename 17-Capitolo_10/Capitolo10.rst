@@ -190,8 +190,8 @@ nella **Gestione degli errori** delle singole primitive.
 +-----------------------------------+-----------------------------------+
 | *CANALE_RPT_SCONOSCIUTA*          | RPT sconosciuta.                  |
 +-----------------------------------+-----------------------------------+
-| *CANALE_RT_NON_DISPONIBILE*       | *Vedi § 9.2.2.2 * *pspChiediRT e* |
-|                                   | *§**9.2.2.4*                      |
+| *CANALE_RT_NON_DISPONIBILE*       | Vedi § 9.2.2.2  **pspChiediRT** e |
+|                                   | § 9.2.2.4                         |
 |                                   | **pspChiediListaRT**              |
 +-----------------------------------+-----------------------------------+
 | *CANALE_RT_SCONOSCIUTA*           | RT sconosciuta.                   |
