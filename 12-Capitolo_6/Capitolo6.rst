@@ -45,12 +45,11 @@ che scambiano le informazioni (Enti Creditori, PSP, Intermediari
 tecnologici, Nodo dei Pagamenti-SPC) e devono essere accessibili a
 richiesta, nei formati che saranno concordati.
 
-**Tabella** **29 - Informazioni "minime" da archiviare nel "Giornale
-degli Eventi "**
+**Tabella** **29 - Informazioni "minime" da archiviare nel "Giornale degli Eventi "**
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   | **Contenu |
-|           |           |           |           |           | to**      |
+| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
+|           |           |           |           |           |**to**     |
 +===========+===========+===========+===========+===========+===========+
 | dataOra   | 1         | an        | 1..1      | 19        | Indica la |
 | Evento    |           |           |           |           | data e    |
@@ -72,11 +71,11 @@ degli Eventi "**
 |           |           |           |           |           | al GMT.   |
 |           |           |           |           |           | Formato   |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **[YYYY]- |
+|           |           |           |           |           | [YYYY]-   |
 |           |           |           |           |           | [MM]-[DD] |
 |           |           |           |           |           | T[hh]:[mm |
 |           |           |           |           |           | ]:[ss.sss |
-|           |           |           |           |           | ]**       |
+|           |           |           |           |           | ]         |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | ident     | 1         | an        | 1..1      | 1..35     | Campo     |
 | ificativo |           |           |           |           | alfanumer |
@@ -230,8 +229,7 @@ degli Eventi "**
 |           |           |           |           |           | SOAP      |
 |           |           |           |           |           | Request e |
 |           |           |           |           |           | SOAP      |
-|           |           |           |           |           | *Respon   |
-|           |           |           |           |           | se*.      |
+|           |           |           |           |           | *Response*|
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | ident     | 1         | an        | 1..1      | 1..35     | Nel caso  |
 | ificativo |           |           |           |           | di eventi |
@@ -262,8 +260,8 @@ degli Eventi "**
 |           |           |           |           |           | A         |
 |           |           |           |           |           | nel caso  |
 |           |           |           |           |           | della     |
-|           |           |           |           |           | *nodoInvi |
-|           |           |           |           |           | aRPT*)    |
+|           |           |           |           |           | *nodoInvi*|
+|           |           |           |           |           | *aRPT*)   |
 |           |           |           |           |           |           |
 |           |           |           |           |           | Nel caso  |
 |           |           |           |           |           | di eventi |
@@ -310,8 +308,8 @@ degli Eventi "**
 |           |           |           |           |           | PC”       |
 |           |           |           |           |           | nel caso  |
 |           |           |           |           |           | della     |
-|           |           |           |           |           | *nodoInvi |
-|           |           |           |           |           | aRPT*)    |
+|           |           |           |           |           | *nodoInvi*|
+|           |           |           |           |           | *aRPT*)   |
 |           |           |           |           |           |           |
 |           |           |           |           |           | Nel caso  |
 |           |           |           |           |           | di eventi |
@@ -339,10 +337,10 @@ degli Eventi "**
 |           |           |           |           |           | coincider |
 |           |           |           |           |           | e         |
 |           |           |           |           |           | con       |
-|           |           |           |           |           | l’\ *iden |
+|           |           |           |           |           | l’iden    |
 |           |           |           |           |           | tificativ |
 |           |           |           |           |           | oFruito   |
-|           |           |           |           |           | re*,      |
+|           |           |           |           |           | re,       |
 |           |           |           |           |           | qualora   |
 |           |           |           |           |           | non vi    |
 |           |           |           |           |           | sia un    |
@@ -424,12 +422,12 @@ degli Eventi "**
 |           |           |           |           |           | dell’even |
 |           |           |           |           |           | to.       |
 |           |           |           |           |           |           |
-|           |           |           |           |           | **Obbliga |
+|           |           |           |           |           | Obbliga   |
 |           |           |           |           |           | torio     |
 |           |           |           |           |           | nel caso  |
 |           |           |           |           |           | di        |
 |           |           |           |           |           | richieste |
-|           |           |           |           |           | SOAP.**   |
+|           |           |           |           |           | SOAP.     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
 Si precisa per i PSP che deve essere sempre registrato, all’interno del
