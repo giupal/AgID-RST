@@ -5813,11 +5813,11 @@ catalogo:
 |           |           |           |           |           | component |
 |           |           |           |           |           | i         |
 |           |           |           |           |           | il        |
-|           |           |           |           |           | "*Catalog |
+|           |           |           |           |           | "Catalog  |
 |           |           |           |           |           | o         |
 |           |           |           |           |           | Dati      |
 |           |           |           |           |           | Informati |
-|           |           |           |           |           | vi*".     |
+|           |           |           |           |           | vi".      |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | ragio     | 2         | an        | 1..1      | 70        | Ragione   |
 | neSociale |           |           |           |           | sociale   |
@@ -6288,8 +6288,8 @@ catalogo:
 |           |           |           |           |           | ne.       |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
-La semantica dei dati che devono essere forniti con il "C*atalogo Dati
-Informativi*" è riportata di seguito, specificando inoltre il formato
+La semantica dei dati che devono essere forniti con il "*Catalogo Dati*
+*Informativi*" è riportata di seguito, specificando inoltre il formato
 del dato, i valori ammessi, nonché i controlli applicabili. I segni ‘+’
 tra le parentesi dopo il nome del dato (la barra verticale ‘|’ segnala
 il valore 5) indicano il livello d’indentazione dello stesso all’interno
