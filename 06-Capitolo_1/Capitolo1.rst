@@ -63,8 +63,8 @@ processo di pagamento e che svolgono i seguenti ruoli:
 |                                   | l’utilizzatore finale sia il      |
 |                                   | soggetto debitore                 |
 |                                   |                                   |
-|                                   | Si distingue infine il **soggetto |
-|                                   | versante**, ovvero come colui     |
+|                                   | Si distingue infine il *soggetto* |
+|                                   | *versante*, ovvero come colui     |
 |                                   | accede ai servizi informatici dal |
 |                                   | Prestatore dei Servizi di         |
 |                                   | Pagamento, e dispone il pagamento |
@@ -488,9 +488,9 @@ all’Ente Creditore di richiedere al PSP di sottoscrivere con firma
 digitale o firma elettronica qualificata il documento Ricevuta
 Telematica, indicando tale vincolo in un apposito elemento della RPT.
 
-**NB: Tale possibilità è deprecata e non potrà essere attuata dagli Enti
-Creditori aderenti al sistema pagoPA durante la vigenza delle presenti
-specifiche.**
+**NB: Tale possibilità è deprecata e non potrà essere attuata dagli Enti**
+**Creditori aderenti al sistema pagoPA durante la vigenza delle presenti**
+**specifiche.**
 
 **Gli EC che adottano tale modalità dovranno predisporre un piano in**
 **vista della dismissione.**
