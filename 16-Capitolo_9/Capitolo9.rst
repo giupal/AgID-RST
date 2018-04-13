@@ -3333,11 +3333,11 @@ sono specificati nella Tabella 41.
 |                                   |                                  |
 |                                   | Il parametro è obbligatorio      |
 |                                   | nel caso di utilizzo della       |
-|                                   | primitiva **nodoInviaRPT**,    |
+|                                   | primitiva **nodoInviaRPT**,      |
 |                                   | mentre non è presente nel        |
 |                                   | caso di utilizzo della           |
 |                                   | primitiva                        |
-|                                   | **nodoInviaCarrelloRPT**.      |
+|                                   | **nodoInviaCarrelloRPT**.        |
 +-----------------------------------+----------------------------------+
 | **parametriProfiloPagamento**     | *Query string* fornita al PSP    |
 |                                   | dal Nodo dei Pagamenti-SPC       |
@@ -3346,11 +3346,11 @@ sono specificati nella Tabella 41.
 |                                   | precedenza:                      |
 |                                   |                                  |
 |                                   | -  parametro **I-2-c** per       |
-|                                   |    **pspInviaRPT** (vedi §     |
+|                                   |    **pspInviaRPT** (vedi §       |
 |                                   |    9.2.1.1)                      |
 |                                   |                                  |
 |                                   | -  parametro **I-5** per         |
-|                                   |    **pspInviaCarrelloRPT**     |
+|                                   |    **pspInviaCarrelloRPT**       |
 |                                   |    (vedi § 9.2.1.2).             |
 +-----------------------------------+----------------------------------+
 | **idCarrello**                    |parametro opzionale, presente nel |
@@ -3359,11 +3359,11 @@ sono specificati nella Tabella 41.
 |                                   |invocata in precedenza:           |
 |                                   |                                  |
 |                                   |-  parametro **O-2** per          |
-|                                   |       **pspInviaRPT** (vedi §  |
+|                                   |       **pspInviaRPT** (vedi §    |
 |                                   |       9.2.1.1)                   |
 |                                   |                                  |
 |                                   |-  parametro **O-2** per          |
-|                                   |   **pspInviaCarrelloRPT**      |
+|                                   |   **pspInviaCarrelloRPT**        |
 |                                   |   (vedi § 9.2.1.2).              |
 +-----------------------------------+----------------------------------+
 | **lang** (opzionale)              |è la specifica del linguaggio     |
@@ -3710,25 +3710,25 @@ informazioni indicate in Tabella 43.
 |           |           |           |           |           | o         |
 |           |           |           |           |           | negativa. |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| MAC       | 1         | an        | 1..1      | 40        | *Message* |
+| MAC       | 1         | an        | 1..1      | 40        |*Message*  |
 |           |           |           |           |           |*Authentic*|
-|           |           |           |           |           | *ation*   |
-|           |           |           |           |           | *Code*:   |
-|           |           |           |           |           | rende     |
-|           |           |           |           |           | immodific |
-|           |           |           |           |           | abile     |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | dell'util |
-|           |           |           |           |           | izzatore  |
-|           |           |           |           |           | finale i  |
-|           |           |           |           |           | dati      |
-|           |           |           |           |           | dell'ordi |
-|           |           |           |           |           | ne.       |
+|           |           |           |           |           |*ation*    |
+|           |           |           |           |           |*Code*:    |
+|           |           |           |           |           |rende      |
+|           |           |           |           |           |immodific  |
+|           |           |           |           |           |abile      |
+|           |           |           |           |           |da parte   |
+|           |           |           |           |           |dell'util  |
+|           |           |           |           |           |izzatore   |
+|           |           |           |           |           |finale i   |
+|           |           |           |           |           |dati       |
+|           |           |           |           |           |dell'ordi  |
+|           |           |           |           |           |ne.        |
 |           |           |           |           |           |           |
-|           |           |           |           |           | Per il    |
-|           |           |           |           |           | calcolo   |
-|           |           |           |           |           | vedi §    |
-|           |           |           |           |           | 9.4.5.1.  |
+|           |           |           |           |           |Per il     |
+|           |           |           |           |           |calcolo    |
+|           |           |           |           |           |vedi §     |
+|           |           |           |           |           |9.4.5.1.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | DESCRORD  | 1         | an        | 1..1      | 25..140   | Descrizio |
 |           |           |           |           |           | ne        |
@@ -3904,21 +3904,21 @@ informazioni di Tabella 44.
 |           |           |           |           |           |*Authentic*|
 |           |           |           |           |           |*ation*    |
 |           |           |           |           |           |*Code*:    |
-|           |           |           |           |           | rende     |
-|           |           |           |           |           | immodific |
-|           |           |           |           |           | abile     |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | dell'util |
-|           |           |           |           |           | izzatore  |
-|           |           |           |           |           | finale i  |
-|           |           |           |           |           | dati      |
-|           |           |           |           |           | dell'esit |
-|           |           |           |           |           | o.        |
+|           |           |           |           |           |rende      |
+|           |           |           |           |           |immodific  |
+|           |           |           |           |           |abile      |
+|           |           |           |           |           |da parte   |
+|           |           |           |           |           |dell'util  |
+|           |           |           |           |           |izzatore   |
+|           |           |           |           |           |finale i   |
+|           |           |           |           |           |dati       |
+|           |           |           |           |           |dell'esit  |
+|           |           |           |           |           |o.         |
 |           |           |           |           |           |           |
-|           |           |           |           |           | Per il    |
-|           |           |           |           |           | calcolo   |
-|           |           |           |           |           | vedi §    |
-|           |           |           |           |           | 9.4.5.2.  |
+|           |           |           |           |           |Per il     |
+|           |           |           |           |           |calcolo    |
+|           |           |           |           |           |vedi §     |
+|           |           |           |           |           |9.4.5.2.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | ESITO     | 1         | n         | 1..1      | 2         | Codice    |
 |           |           |           |           |           | che       |
@@ -3994,11 +3994,11 @@ autorizzazione ad esso legate.
 |           |           |           |           |           | dTHH:mm:s |
 |           |           |           |           |           | s.SSS     |
 +-----------+-----------+-----------+-----------+-----------+-----------+
-| IDNEGOZIO | 1         | n         | 1..1      | 1..50     | Identific |
-|           |           |           |           |           | ativo     |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | negozio   |
-|           |           |           |           |           | del       |
+| IDNEGOZIO | 1         | n         | 1..1      | 1..50     |Identific  |
+|           |           |           |           |           |ativo      |
+|           |           |           |           |           |del        |
+|           |           |           |           |           |negozio    |
+|           |           |           |           |           |del        |
 |           |           |           |           |           |*merchant*.|
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | OPERATORE | 1         | an        | 1..1      | 8         | Indica    |
@@ -4071,20 +4071,20 @@ autorizzazione ad esso legate.
 |           |           |           |           |           |*Authentic*|
 |           |           |           |           |           |*ation*    |
 |           |           |           |           |           |*Code*:    |
-|           |           |           |           |           | rende     |
-|           |           |           |           |           | immodific |
-|           |           |           |           |           | abile     |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | dell'util |
-|           |           |           |           |           | izzatore  |
-|           |           |           |           |           | finale i  |
-|           |           |           |           |           | dati      |
-|           |           |           |           |           | dell'ordi |
-|           |           |           |           |           | ne.       |
-|           |           |           |           |           | Per il    |
-|           |           |           |           |           | calcolo   |
-|           |           |           |           |           | vedi §    |
-|           |           |           |           |           | 9.4.5.3.  |
+|           |           |           |           |           |rende      |
+|           |           |           |           |           |immodific  |
+|           |           |           |           |           |abile      |
+|           |           |           |           |           |da parte   |
+|           |           |           |           |           |dell'util  |
+|           |           |           |           |           |izzatore   |
+|           |           |           |           |           |finale i   |
+|           |           |           |           |           |dati       |
+|           |           |           |           |           |dell'ordi  |
+|           |           |           |           |           |ne.        |
+|           |           |           |           |           |Per il     |
+|           |           |           |           |           |calcolo    |
+|           |           |           |           |           |vedi §     |
+|           |           |           |           |           |9.4.5.3.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
 Il servizio restituisce una risposta in formato XML, con le
@@ -4135,20 +4135,20 @@ caratteristiche riportate in Tabella 47.
 |           |           |           |           |           |*Authentic*|
 |           |           |           |           |           |*ation*    |
 |           |           |           |           |           |*Code*:    |
-|           |           |           |           |           | rende     |
-|           |           |           |           |           | immodific |
-|           |           |           |           |           | abile     |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | dell'util |
-|           |           |           |           |           | izzatore  |
-|           |           |           |           |           | finale i  |
-|           |           |           |           |           | dati      |
-|           |           |           |           |           | dell'ordi |
-|           |           |           |           |           | ne.       |
-|           |           |           |           |           | Per il    |
-|           |           |           |           |           | calcolo   |
-|           |           |           |           |           | vedi §    |
-|           |           |           |           |           | 9.4.5.4.  |
+|           |           |           |           |           |rende      |
+|           |           |           |           |           |immodific  |
+|           |           |           |           |           |abile      |
+|           |           |           |           |           |da parte   |
+|           |           |           |           |           |dell'util  |
+|           |           |           |           |           |izzatore   |
+|           |           |           |           |           |finale i   |
+|           |           |           |           |           |dati       |
+|           |           |           |           |           |dell'ordi  |
+|           |           |           |           |           |ne.        |
+|           |           |           |           |           |Per il     |
+|           |           |           |           |           |calcolo    |
+|           |           |           |           |           |vedi §     |
+|           |           |           |           |           |9.4.5.4.   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | Dati      | 2         | s         | 1..1      |           | Struttura |
 |           |           |           |           |           | che       |
