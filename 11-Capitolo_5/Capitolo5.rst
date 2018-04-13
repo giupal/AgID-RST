@@ -3140,10 +3140,9 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | che     |
 |         |         |         |         |         |         | l’eleme |
 |         |         |         |         |         |         | nto     |
-|         |         |         |         |         |         | *singol |
-|         |         |         |         |         |         | oImport |
-|         |         |         |         |         |         | oPagato |
-|         |         |         |         |         |         | *       |
+|         |         |         |         |         |         |*singol* |
+|         |         |         |         |         |         |*oImport*|
+|         |         |         |         |         |         |*oPagato*|
 |         |         |         |         |         |         | sia     |
 |         |         |         |         |         |         | 0.00    |
 +---------+---------+---------+---------+---------+---------+---------+
