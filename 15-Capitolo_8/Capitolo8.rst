@@ -2301,11 +2301,11 @@ Parametri di input
 +-----------------------------------------------------------------------+
 | 3. identificativoIntermediarioPSP: contiene l'identificativo dello    |
 |    specifico intermediario del PSP che deve essere utilizzato nella   |
-|    primitiva **nodoInviaRPT**, parametro I-7                        |
+|    primitiva **nodoInviaRPT**, parametro I-7                          |
 |                                                                       |
 | 4. identificativoCanalePSP: contiene l'identificativo dello specifico |
 |    canale del PSP che deve essere utilizzato nella primitiva          |
-|    **nodoInviaRPT**, parametro I-8                                  |
+|    **nodoInviaRPT**, parametro I-8                                    |
 +-----------------------------------------------------------------------+
 
 Parametri di output
@@ -3514,7 +3514,7 @@ dove i parametri (tra parentesi quelli opzionali) sono indicati nella
 |                       | il pagamento          |                       |
 |                       | associato alla RPT    |                       |
 |                       | della                 |                       |
-|                       | **nodoInviaRPT**    |                       |
+|                       | **nodoInviaRPT**      |                       |
 |                       | (vedi § 8.3.1).       |                       |
 +-----------------------+-----------------------+-----------------------+
 | **esito**             | corrisponde alla      |                       |
