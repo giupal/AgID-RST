@@ -430,7 +430,7 @@ faultCode emessi dai vari soggetti:
 | trasportati in-line all’interno di specifici campi delle buste        |
 | SOAP (RPT, RT, flussi di rendicontazione, ecc.)                       |
 +-----------------------------------------------------------------------+
-| PPT_*_DISABILITATO/A significano che il NodoSPC ha                   |
+| PPT_*_DISABILITATO/A significano che il NodoSPC ha                    |
 | individuato, nei suoi archivi di configurazione interna, gli          |
 | elementi topologici associati a tali identificativi, ma che tali      |
 | elementi si trovano in stato "disabilitato" (sia essa momentanea      |
