@@ -366,50 +366,41 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | h]:[mm] |
 |         |         |          |         |         |         | :[ss]   |
 +---------+---------+----------+---------+---------+---------+---------+
-| aut     | 1       | an       | 1..1    | 4       | Proprie | Contien |
-| enticaz |         |          |         |         | tary    | e       |
-| ioneSog |         |          |         |         | Code    | la      |
-| getto   |         |          |         |         |         | modalit |
-|         |         |          |         |         |         | à       |
-|         |         |          |         |         |         | di      |
-|         |         |          |         |         |         | identif |
-|         |         |          |         |         |         | icazion |
-|         |         |          |         |         |         | e       |
-|         |         |          |         |         |         | applica |
-|         |         |          |         |         |         | ta      |
-|         |         |          |         |         |         | al      |
-|         |         |          |         |         |         | soggett |
-|         |         |          |         |         |         | o       |
-|         |         |          |         |         |         | che     |
-|         |         |          |         |         |         | deve    |
-|         |         |          |         |         |         | essere  |
-|         |         |          |         |         |         | addebit |
-|         |         |          |         |         |         | ato     |
-|         |         |          |         |         |         | per il  |
-|         |         |          |         |         |         | pagamen |
-|         |         |          |         |         |         | to      |
-|         |         |          |         |         |         | -       |
-|         |         |          |         |         |         | ‘CN     |
-|         |         |          |         |         |         | S’  \   |
-|         |         |          |         |         |         | =CIE/CNS|
-|         |         |          |         |         |         | -       |
-|         |         |          |         |         |         |   ‘US   |
-|         |         |          |         |         |         | R’\     |
-|         |         |          |         |         |         | =       |
-|         |         |          |         |         |         | Userid  |
-|         |         |          |         |         |         | e       |
-|         |         |          |         |         |         | passwor |
-|         |         |          |         |         |         | d       |
-|         |         |          |         |         |         | -  ‘O   |
-|         |         |          |         |         |         | TH’  \  |
-|         |         |          |         |         |         | =       |
-|         |         |          |         |         |         | Altro   |
-|         |         |          |         |         |         | -    ‘N |
-|         |         |          |         |         |         | /A’  \  |
-|         |         |          |         |         |         | =       |
-|         |         |          |         |         |         | Non     |
-|         |         |          |         |         |         | applica |
-|         |         |          |         |         |         | bile    |
+| aut     | 1       | an       | 1..1    | 4       | Proprie |Contien  |
+| enticaz |         |          |         |         | tary    |e        |
+| ioneSog |         |          |         |         | Code    |la       |
+| getto   |         |          |         |         |         |modalit  |
+|         |         |          |         |         |         |à        |
+|         |         |          |         |         |         |di       |
+|         |         |          |         |         |         |identif  |
+|         |         |          |         |         |         |icazion  |
+|         |         |          |         |         |         |e        |
+|         |         |          |         |         |         |applica  |
+|         |         |          |         |         |         |ta       |
+|         |         |          |         |         |         |al       |
+|         |         |          |         |         |         |soggett  |
+|         |         |          |         |         |         |o        |
+|         |         |          |         |         |         |che      |
+|         |         |          |         |         |         |deve     |
+|         |         |          |         |         |         |essere   |
+|         |         |          |         |         |         |addebit  |
+|         |         |          |         |         |         |ato      |
+|         |         |          |         |         |         |per il   |
+|         |         |          |         |         |         |pagamen  |
+|         |         |          |         |         |         |to       |
+|         |         |          |         |         |         |- ‘CNS’= |
+|         |         |          |         |         |         |CIE/CNS  |
+|         |         |          |         |         |         |- ‘USR’= |
+|         |         |          |         |         |         |Userid   |
+|         |         |          |         |         |         |e        |
+|         |         |          |         |         |         |passwor  |
+|         |         |          |         |         |         |d        |
+|         |         |          |         |         |         |- ‘OTH’= |
+|         |         |          |         |         |         |Altro    |
+|         |         |          |         |         |         |- ‘N/A’= |
+|         |         |          |         |         |         |Non      |
+|         |         |          |         |         |         |applica  |
+|         |         |          |         |         |         |bile     |
 +---------+---------+----------+---------+---------+---------+---------+
 | Sog     | 1       | s        | 0..1    |         | Debtor  | Aggrega |
 | gettoVe |         |          |         |         |         | zione   |
@@ -609,7 +600,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         | Debtor  | che     |
 |         |         |          |         |         | [1]_    | rappres |
 |         |         |          |         |         |         | enta    |
-|         |         |          |         |         |         |   il    |
+|         |         |          |         |         |         | il      |
 |         |         |          |         |         |         | soggett |
 |         |         |          |         |         |         | o       |
 |         |         |          |         |         |         | (Person |
@@ -1069,7 +1060,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ]-[MM]- |
 |         |         |          |         |         |         | [DD].   |
 |         |         |          |         |         |         |         |
-|         |         |          |         |         |         |   Non   |
+|         |         |          |         |         |         | Non     |
 |         |         |          |         |         |         | può     |
 |         |         |          |         |         |         | essere  |
 |         |         |          |         |         |         | anterio |
@@ -2005,7 +1996,7 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | ito     |
 |         |         |          |         |         |         | in      |
 |         |         |          |         |         |         | base64  |
-|         |         |          |         |         |         |   [2]_. |
+|         |         |          |         |         |         | [2]_.   |
 +---------+---------+----------+---------+---------+---------+---------+
 | pro     | 4       | an       | 1..1    | 2       | Proprie | Sigla   |
 | vinciaR |         |          |         |         | tary    | automob |
@@ -2079,8 +2070,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
-|         |         |         |         |         |         |         |
+|         |         |         |         |         |         | (**RPT**|
+|         |         |         |         |         |         | )       |
 +---------+---------+---------+---------+---------+---------+---------+
 | Dom     | 1       | s       | 1..1    |         | Initiat | Riporta |
 | inio    |         |         |         |         | ing     | le      |
@@ -2101,8 +2092,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
-|         |         |         |         |         |         |         |
+|         |         |         |         |         |         | (**RPT**|
+|         |         |         |         |         |         | )       |
 +---------+---------+---------+---------+---------+---------+---------+
 | ide     | 1       | an      | 1..1    | 1..35   | Message | Identif |
 | ntifica |         |         |         |         | Identif | icativo |
@@ -2191,8 +2182,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
-|         |         |         |         |         |         |         |
+|         |         |         |         |         |         | (**RPT**|
+|         |         |         |         |         |         | )       |
 +---------+---------+---------+---------+---------+---------+---------+
 | rif     | 1       | an      | 1..1    | 10      | Origina | Indica  |
 | eriment |         |         |         |         | l       | la data |
@@ -2393,15 +2384,15 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | 9).     |
 +---------+---------+---------+---------+---------+---------+---------+
 | cod     | 3       | an      | 1..1    | 1..35   | BIC |   | Campo   |
-| iceIden |         |         |         |         |         | alfanum |
-| tificat |         |         |         |         | Proprie | erico   |
-| ivoUniv |         |         |         |         | tary    | che può |
-| oco     |         |         |         |         |  |      | contene |
-|         |         |         |         |         |         | re      |
-|         |         |         |         |         | Tax     | il      |
-|         |         |         |         |         | Identif | codice  |
-|         |         |         |         |         | ication | fiscale |
-|         |         |         |         |         | Number  | o la    |
+| iceIden |         |         |         |         | Proprie | alfanum |
+| tificat |         |         |         |         | tary    | erico   |
+| ivoUniv |         |         |         |         | |       | che può |
+| oco     |         |         |         |         | Tax     | contene |
+|         |         |         |         |         | Identif | re      |
+|         |         |         |         |         | ication | il      |
+|         |         |         |         |         | Number  | codice  |
+|         |         |         |         |         |         | fiscale |
+|         |         |         |         |         |         | o la    |
 |         |         |         |         |         |         | partita |
 |         |         |         |         |         |         | IVA, o  |
 |         |         |         |         |         |         | il      |
@@ -2626,8 +2617,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
-|         |         |         |         |         |         |         |
+|         |         |         |         |         |         | (**RPT**|
+|         |         |         |         |         |         | )       |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -2660,8 +2651,8 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
-|         |         |         |         |         |         |         |
+|         |         |         |         |         |         | (**RPT**|
+|         |         |         |         |         |         | )       |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -2920,7 +2911,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         | **RPT** |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -2961,7 +2952,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         | **RPT** |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3118,33 +3109,33 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | pagamen |
 |         |         |         |         |         |         | to.     |
 +---------+---------+---------+---------+---------+---------+---------+
-| esi     | 3       | an      | 0..1    | 1..35   | Status  | Contien |
-| toSingo |         |         |         |         | Reason  | e       |
-| loPagam |         |         |         |         | Proprie | la      |
-| ento    |         |         |         |         | tary    | descriz |
-|         |         |         |         |         |         | ione    |
-|         |         |         |         |         |         | in      |
-|         |         |         |         |         |         | formato |
-|         |         |         |         |         |         | testo   |
-|         |         |         |         |         |         | dell’es |
-|         |         |         |         |         |         | ito     |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | singolo |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.     |
+| esi     | 3       | an      | 0..1    | 1..35   | Status  |Contien  |
+| toSingo |         |         |         |         | Reason  |e        |
+| loPagam |         |         |         |         | Proprie |la       |
+| ento    |         |         |         |         | tary    |descriz  |
+|         |         |         |         |         |         |ione     |
+|         |         |         |         |         |         |in       |
+|         |         |         |         |         |         |formato  |
+|         |         |         |         |         |         |testo    |
+|         |         |         |         |         |         |dell’es  |
+|         |         |         |         |         |         |ito      |
+|         |         |         |         |         |         |del      |
+|         |         |         |         |         |         |singolo  |
+|         |         |         |         |         |         |pagamen  |
+|         |         |         |         |         |         |to.      |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Obbli   |
-|         |         |         |         |         |         | gatorio |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | caso    |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | l’eleme |
-|         |         |         |         |         |         | nto     |
+|         |         |         |         |         |         |Obbli    |
+|         |         |         |         |         |         |gatorio  |
+|         |         |         |         |         |         |nel      |
+|         |         |         |         |         |         |caso     |
+|         |         |         |         |         |         |che      |
+|         |         |         |         |         |         |l’eleme  |
+|         |         |         |         |         |         |nto      |
 |         |         |         |         |         |         |*singol* |
 |         |         |         |         |         |         |*oImport*|
 |         |         |         |         |         |         |*oPagato*|
-|         |         |         |         |         |         | sia     |
-|         |         |         |         |         |         | 0.00    |
+|         |         |         |         |         |         |sia      |
+|         |         |         |         |         |         |0.00     |
 +---------+---------+---------+---------+---------+---------+---------+
 | dat     | 3       | an      | 1..1    | 10      | Accepta | Indica  |
 | aEsitoS |         |         |         |         | nce     | la data |
@@ -3313,7 +3304,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         | **RPT** |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3354,7 +3345,7 @@ pubblici su ordine dell'utilizzatore finale.
 |         |         |         |         |         |         | to      |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         |(**RPT**)|
+|         |         |         |         |         |         | **RPT** |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3575,7 +3566,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         |(**RT**) |
+|         |         |         |         |         |         | **RT**  |
 +---------+---------+---------+---------+---------+---------+---------+
 | Dom     | 1       | s       | 1..1    |         | Initiat | Riporta |
 | inio    |         |         |         |         | ing     | le      |
@@ -3593,7 +3584,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT**)|
+|         |         |         |         |         |         | **RT**  |
 +---------+---------+---------+---------+---------+---------+---------+
 | ide     | 1       | an      | 1..1    | 1..35   | Message | Identif |
 | ntifica |         |         |         |         | Identif | icativo |
@@ -3674,7 +3665,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT**)|
+|         |         |         |         |         |         | **RT**  |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3704,7 +3695,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT**)|
+|         |         |         |         |         |         | **RT**  |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -3735,7 +3726,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |         |         |         |         |         |         | a       |
 |         |         |         |         |         |         | Telemat |
 |         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT**)|
+|         |         |         |         |         |         | **RT**  |
 |         |         |         |         |         |         | cui si  |
 |         |         |         |         |         |         | riferis |
 |         |         |         |         |         |         | ce      |
@@ -5207,52 +5198,52 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |         |         |         |         |         | sito    |         |
 |         |         |         |         |         | AgID).  |         |
 +---------+---------+---------+---------+---------+---------+---------+
-| idNe    | 3       | an      | 0..1    | 15      | Identif |         |
-| gozio   |         |         |         |         | icativo |         |
-|         |         |         |         |         | da      |         |
-|         |         |         |         |         | utilizz |         |
-|         |         |         |         |         | are     |         |
-|         |         |         |         |         | nel     |         |
-|         |         |         |         |         | colloqu |         |
-|         |         |         |         |         | io      |         |
-|         |         |         |         |         | tra     |         |
+| idNe    | 3       | an      | 0..1    | 15      |Identif  |         |
+| gozio   |         |         |         |         |icativo  |         |
+|         |         |         |         |         |da       |         |
+|         |         |         |         |         |utilizz  |         |
+|         |         |         |         |         |are      |         |
+|         |         |         |         |         |nel      |         |
+|         |         |         |         |         |colloqu  |         |
+|         |         |         |         |         |io       |         |
+|         |         |         |         |         |tra      |         |
 |         |         |         |         |         |*Wrapper*|         |
-|         |         |         |         |         | MyBank  |         |
-|         |         |         |         |         | ed      |         |
-|         |         |         |         |         | Initiat |         |
-|         |         |         |         |         | ing     |         |
-|         |         |         |         |         | Party   |         |
-|         |         |         |         |         | della   |         |
-|         |         |         |         |         | Seller  |         |
-|         |         |         |         |         | Bank.   |         |
+|         |         |         |         |         |MyBank   |         |
+|         |         |         |         |         |ed       |         |
+|         |         |         |         |         |Initiat  |         |
+|         |         |         |         |         |ing      |         |
+|         |         |         |         |         |Party    |         |
+|         |         |         |         |         |della    |         |
+|         |         |         |         |         |Seller   |         |
+|         |         |         |         |         |Bank.    |         |
 |         |         |         |         |         |         |         |
-|         |         |         |         |         | Il dato |         |
-|         |         |         |         |         | può     |         |
-|         |         |         |         |         | essere  |         |
-|         |         |         |         |         | valoriz |         |
-|         |         |         |         |         | zato    |         |
-|         |         |         |         |         | o meno, |         |
-|         |         |         |         |         | a       |         |
-|         |         |         |         |         | seconda |         |
-|         |         |         |         |         | del     |         |
-|         |         |         |         |         | tipo di |         |
-|         |         |         |         |         | modalit |         |
-|         |         |         |         |         | à       |         |
-|         |         |         |         |         | di      |         |
-|         |         |         |         |         | attribu |         |
-|         |         |         |         |         | zione   |         |
-|         |         |         |         |         | di      |         |
-|         |         |         |         |         | detto   |         |
-|         |         |         |         |         | codice  |         |
-|         |         |         |         |         | (Standa |         |
-|         |         |         |         |         | rd      |         |
-|         |         |         |         |         | o       |         |
-|         |         |         |         |         | concord |         |
-|         |         |         |         |         | tra     |         |
-|         |         |         |         |         | ata     |         |
-|         |         |         |         |         | AgID e  |         |
-|         |         |         |         |         | Seller  |         |
-|         |         |         |         |         | Bank).  |         |
+|         |         |         |         |         |Il dato  |         |
+|         |         |         |         |         |può      |         |
+|         |         |         |         |         |essere   |         |
+|         |         |         |         |         |valoriz  |         |
+|         |         |         |         |         |zato     |         |
+|         |         |         |         |         |o meno,  |         |
+|         |         |         |         |         |a        |         |
+|         |         |         |         |         |seconda  |         |
+|         |         |         |         |         |del      |         |
+|         |         |         |         |         |tipo di  |         |
+|         |         |         |         |         |modalit  |         |
+|         |         |         |         |         |à        |         |
+|         |         |         |         |         |di       |         |
+|         |         |         |         |         |attribu  |         |
+|         |         |         |         |         |zione    |         |
+|         |         |         |         |         |di       |         |
+|         |         |         |         |         |detto    |         |
+|         |         |         |         |         |codice   |         |
+|         |         |         |         |         |(Standa  |         |
+|         |         |         |         |         |rd       |         |
+|         |         |         |         |         |o        |         |
+|         |         |         |         |         |concord  |         |
+|         |         |         |         |         |tra      |         |
+|         |         |         |         |         |ata      |         |
+|         |         |         |         |         |AgID e   |         |
+|         |         |         |         |         |Seller   |         |
+|         |         |         |         |         |Bank).   |         |
 +---------+---------+---------+---------+---------+---------+---------+
 
 Le informazioni sono codificate in un file XML secondo il tracciato di
