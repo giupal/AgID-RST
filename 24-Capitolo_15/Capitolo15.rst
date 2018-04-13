@@ -261,9 +261,9 @@ supporto di input, può assumere i valori indicati in Tabella 54.
 
 
 +-----------------------+-----------------------+-----------------------+
-| **supporto in input** |**Parametro**          | **Schema XSD da**     |
-|                       |**codificaInfrastruttur| utilizzare**          |
-|                       |**aPSP**               |                       |
+| **supporto in input** |**Parametrocodifica**  | **Schema XSD da**     |
+|                       |**InfrastrutturaPSP**  | **utilizzare**        |
+|                       |                       |                       |
 +=======================+=======================+=======================+
 | QR-Code o input da    | QR-CODE               | IdRPT_QR_Code_<versio |
 | terminale [1]_        |                       | ne>.xsd               |
