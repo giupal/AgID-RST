@@ -882,7 +882,7 @@ g) Causale del versamento indicata nella RPT.
 Nel caso del pagamento effettuato presso il PSP, quest’ultimo deve
 rendere disponibile, anche attraverso la stampa di un pre-scontrino, le
 indicazioni di dettaglio del pagamento previste dal
-§ **Errore. L'origine riferimento non è stata trovata.**.
+ `§ 7.4.5 <../13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__.
 
 Identificazione dell’utilizzatore finale
 ----------------------------------------
@@ -890,7 +890,7 @@ Identificazione dell’utilizzatore finale
 
 Nello schema di Figura 12 è rappresentato il circuito di “trust” che si
 viene a stabilire tra utilizzatore finale e PSP nel caso sia utilizzato
-il processo attivato presso l’Ente Creditore (cfr. § 1.1). Quest’ultimo,
+il processo attivato presso l’Ente Creditore (`§ cfr. § 2.1 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-lente-creditore>`__). Quest’ultimo,
 in piena autonomia, stabilisce se identificare il soggetto che effettua
 il pagamento. In tal caso la modalità principale di identificazione sarà
 SPID.
