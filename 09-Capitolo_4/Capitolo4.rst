@@ -384,7 +384,7 @@ sincrona (ad esempio: flussi di rendicontazione, totali di traffico,
 ecc.), in modalità file transfer sicuro (SFTP).
 
 **La funzione è al momento attiva solo per la ricezione dei flussi di**
-**rendicontazione (`vedi §** **5.3.5 <../11-Capitolo_5/Capitolo5.rst#flusso-di-rendicontazione>`__) da parte degli Enti Creditori.**
+**rendicontazione** (`vedi § 5.3.5 <../11-Capitolo_5/Capitolo5.rst#flusso-di-rendicontazione>`__) **da parte degli Enti Creditori.**
 
 Servizi applicativi opzionali
 -----------------------------
