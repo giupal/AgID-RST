@@ -270,7 +270,7 @@ Componente Wrapper MyBank
 .. _Componente Wrapper MyBank:
 
 Nell'ambito del collegamento tra il Nodo dei pagamenti-SPC ed il
-circuito *e-commerce* MyBank (vedi Capitolo 16 in Appendice 2), la
+circuito *e-commerce* MyBank (`vedi Capitolo 16 in Appendice 2 <../26-Capitolo_16/Capitolo16.rst>`__), la
 componente "Wrapper MyBank" si occupa di effettuare le necessarie
 conversioni di tracciati e gestire il colloquio tra il Nodo dei
 Pagamenti-SPC e la componente *Initiating Party* messa a disposizione
@@ -291,10 +291,10 @@ attraverso l'utilizzo di componenti del NodoSPC che consentono:
 
 -  agli Enti Creditori l'invio degli avvisi sia in modalità SFTP (File
        transfer sicuro), sia attraverso l'utilizzo di appositi *web service*
-       (vedi rispettivamente §§ 8.5 e 8.1.6);
+       (vedi rispettivamente `§§ 8.5 <../15-Capitolo_8/Capitolo8.rst#interfacce-per-il-servizio-di-file-transfer-sicuro>`_ e `8.1.6 <../15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__);
 
 -  ai PSP di inviare via *web service* al NodoSPC le richieste di
-       iscrizione al servizio (vedi § 9.2.7 della Sezione III);
+       iscrizione al servizio (`vedi § 9.2.7 della Sezione III <../16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__);
 
 -  al NodoSPC di:
 
