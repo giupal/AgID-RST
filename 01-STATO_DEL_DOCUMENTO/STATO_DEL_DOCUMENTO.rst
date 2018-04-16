@@ -92,6 +92,6 @@ Sintesi dei cambiamenti
 
 `Torna all'indice <../index.rst>`__
 
-.. |AGID_logo_carta_intestata-02.png| image:: ./media/heder.png
+.. |AGID_logo_carta_intestata-02.png| image:: ./media.png
    :width: 5.90551in
    :height: 1.30277in
