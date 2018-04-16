@@ -555,7 +555,7 @@ e PSP).
 
 L’elenco delle informazioni minime che ogni soggetto (Enti Creditori e
 PSP aderenti, Nodo dei Pagamenti-SPC) deve registrare nel proprio
-“Giornale degli Eventi” è indicato nel capitolo `5.3.11 <../11-Capitolo_5/Capitolo5.rst#catalogo-dei-servizi>`__della Sezione II.
+“Giornale degli Eventi” è indicato nel `capitolo 5.3.11 <../11-Capitolo_5/Capitolo5.rst#catalogo-dei-servizi>`_ della Sezione II.
 Tali informazioni devono essere fornite ai soggetti interessati sul
 supporto definito dal soggetto che registra tali informazioni. Il Nodo
 dei Pagamenti-SPC fornisce tali informazioni su supporto cartaceo e file
