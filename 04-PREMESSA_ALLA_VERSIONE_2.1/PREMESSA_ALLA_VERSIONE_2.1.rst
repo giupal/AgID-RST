@@ -42,6 +42,6 @@ anticipatamente della componente WISP 2.0.
 
 `Torna all'indice <../index.rst>`__
 
-.. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
+.. |AGID_logo_carta_intestata-02.png| image:: ../media/header.png
    :width: 5.90551in
    :height: 1.30277in
