@@ -344,7 +344,7 @@ disponibili dai partecipanti al Dominio, ognuno secondo il proprio
 ruolo.
 
 Il Nodo dei Pagamenti-SPC dovrà essere pertanto in grado di gestire
-diversi *workflow* applicativi (vedi successivo capitolo 2) che però, in
+diversi *workflow* applicativi (`vedi successivo capitolo 2 <../07-Capitolo_2/Capitolo2.rst>`_) che però, in
 tutti i casi, prevedono lo scambio di oggetti contenenti le informazioni
 necessarie a garantire la corretta gestione dei processi.
 
@@ -353,7 +353,7 @@ Oggetti scambiati
 .. _Oggetti scambiati:
 
 Nei ”*workflow*” applicativi gestiti dal Nodo dei Pagamenti-SPC
-(vedi capitolo 2) è previsto lo scambio di oggetti applicativi
+(`vedi capitolo 2 <../07-Capitolo_2/Capitolo2.rst>`_) è previsto lo scambio di oggetti applicativi
 costituiti da documenti informatici, in formato di file XML, le cui
 specifiche di dettaglio sono riportate nel Capitolo 5 del presente
 documento. Assumono particolare rilevanza le seguenti strutture
@@ -389,7 +389,7 @@ livello nazionale dalla seguente coppia di informazioni:
 Nell’ambito delle funzionalità esposte dal Nodo dei Pagamenti-SPC sono
 previsti ulteriori oggetti applicativi scambiati, tra lo stesso NodoSPC
 ed i soggetti aderenti, che riguardano le Strutture dati di supporto ed
-i Servizi applicativi opzionali (vedi anche capitolo 4).
+i Servizi applicativi opzionali (vedi anche capitolo 4 <../09-Capitolo_4/Capitolo4.rst>`_).
 
 Identificativo Univoco di Versamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -478,7 +478,7 @@ potranno sussistere incertezze circa l’integrità e la non ripudiabilità
 del documento stesso poiché il *workflow* del pagamento si sviluppa
 all’interno di un “circuito di trust” senza alcuna possibilità di
 ingerenza e/o manomissione da parte di terzi (vedi successivo paragrafo
-2.6); da qui l’inopportunità di garantire l’integrità e non
+2.6 <../07-Capitolo_2/Capitolo2.rst#identificazione-dellutilizzatore-finale>`_); da qui l’inopportunità di garantire l’integrità e non
 ripudiabilità del documento informatico RT attraverso la firma digitale
 o la firma elettronica qualificata dello stesso da parte del prestatore
 di servizi di pagamento.
@@ -518,7 +518,7 @@ In merito a quest'ultimo punto, si fa presente che il NodoSPC mette a
 disposizione degli Enti Creditori una funzione centralizzata che dà agli
 utilizzatori finali la possibilità di sperimentare, nella scelta del
 servizio di pagamento, la stessa *user experience* in modalità unificata
-a livello nazionale (vedi il § 2.1.3). Tale funzione mantiene inalterata
+a livello nazionale ( `vedi il § 2.1.3 <../07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`_). Tale funzione mantiene inalterata
 la facoltà in capo al PSP di stabilire commissioni specifiche e/o di
 maggior favore per il singolo utilizzatore finale. In merito, si precisa
 che resta in capo al PSP l’onere di promuovere e pubblicizzare alla
@@ -547,15 +547,15 @@ vista applicativo al fine di tenerne traccia.
 
 L’insieme di tali registrazioni, indipendentemente dalle peculiarità
 tecniche delle soluzioni adottate da ciascun soggetto che definisce in
-autonomia tali aspetti, costituisce il “Giornale degli Eventi” (vedi
-paragrafo 3.2.10) che riporta gli estremi di tutte le situazioni
+autonomia tali aspetti, costituisce il “Giornale degli Eventi” (`vedi
+paragrafo 3.2.10 <../08-Capitolo_3/Capitolo3.rst#giornale-degli-eventi>`__) che riporta gli estremi di tutte le situazioni
 verificatesi nell’esecuzione dell’operazione di pagamento nelle varie
 tratte coinvolte (tra Enti Creditori e NodoSPC, nel NodoSPC, tra NodoSPC
 e PSP).
 
 L’elenco delle informazioni minime che ogni soggetto (Enti Creditori e
 PSP aderenti, Nodo dei Pagamenti-SPC) deve registrare nel proprio
-“Giornale degli Eventi” è indicato nel capitolo 5.3.11 della Sezione II.
+“Giornale degli Eventi” è indicato nel capitolo `5.3.11 <../11-Capitolo_5/Capitolo5.rst#catalogo-dei-servizi>`__della Sezione II.
 Tali informazioni devono essere fornite ai soggetti interessati sul
 supporto definito dal soggetto che registra tali informazioni. Il Nodo
 dei Pagamenti-SPC fornisce tali informazioni su supporto cartaceo e file
@@ -582,8 +582,8 @@ all’utilizzatore finale, è formata sulla base degli oggetti scambiati
 attraverso il Nodo dei Pagamenti-SPC, si ritiene che, al fine di
 conservare traccia dell’intera transazione di pagamento, sia opportuno
 conservare a norma sia la Ricevuta Telematica, sia la Richiesta di
-Pagamento Telematico e non anche il Flusso di Rendicontazione (per il
-dettaglio su tali oggetti si veda il Capitolo 2).
+Pagamento Telematico e non anche il Flusso di Rendicontazione (`per il
+dettaglio su tali oggetti si veda il Capitolo 2 <../07-Capitolo_2/Capitolo2.rst>`_).
 
 `Torna all'indice <../index.rst>`__
 
