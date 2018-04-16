@@ -1031,7 +1031,7 @@ rendicontazione.
 
 Il Nodo dei Pagamenti-SPC fornisce apposite funzioni centralizzate a
 disposizione dei prestatori di servizi di pagamento e degli Enti
-Creditori ( `vedi § 4.4.6 <../09-Capitolo_4/Capitolo4.rst#rendicontazione-per-gli-enti-creditori>`__),
+Creditori (`vedi § 4.4.6 <../09-Capitolo_4/Capitolo4.rst#rendicontazione-per-gli-enti-creditori>`_),
 con le quali i primi possono inviare il Flusso di
 rendicontazione e gli altri ricevere i dati ivi contenuti.
 
@@ -1121,7 +1121,7 @@ acquisto consta dei seguenti passi:
 
    c. provincia di residenza del soggetto pagatore;
 
-5. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 <../07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`__) che
+5. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 <../07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`_) che
    gli consente di scegliere il servizio di pagamento che intende
    utilizzare NB: la PA deve porre attenzione alla composizione del
    carrello poiché in questa circostanza le opzioni disponibili saranno
@@ -1129,7 +1129,7 @@ acquisto consta dei seguenti passi:
    digitale;
 
 6. l’utilizzatore finale autorizza il pagamento (vedi passi 4 e 5 del
-   workflow di cui al `§ 2.1.1, pagina 29 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-re-indirizzamento-on-line>`__);
+   workflow di cui al `§ 2.1.1, pagina 29 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-re-indirizzamento-on-line>`_);
 
 7. il PSP, sulla base delle informazioni ricevute per mezzo della RPT,
    genera la marca da bollo digitale e la restituisce alla PA, per conto
@@ -1188,7 +1188,7 @@ Gli attori che intervengono nel processo sono:
 -  gli utilizzatori finali, che si iscrivono al servizio ed effettuano i
    pagamenti;
 
--  gli Enti Creditori, che detengono che, come indicato al `§ 2.4 <../07-Capitolo_2/Capitolo2.rst#avviso-di-pagamento>`__, devono
+-  gli Enti Creditori, che detengono che, come indicato al `§ 2.4 <../07-Capitolo_2/Capitolo2.rst#avviso-di-pagamento>`_, devono
    inviare gli avvisi digitali;
 
 -  il sistema pagoPA, in particolare il Nodo dei Pagamenti-SPC, che
@@ -1263,7 +1263,7 @@ L'iscrizione al servizio di avvisatura può essere effettuata
 dall'utilizzatore finale aderendo ad uno dei servizi messi a
 disposizione da parte dei Prestatori di servizi di pagamento, che
 possono scegliere di gestire il servizio sia in modalità *push*, sia in
-modalità *pull* (`vedi § 2.10 <../07-Capitolo_2/Capitolo2.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__).
+modalità *pull* (`vedi § 2.10 <../07-Capitolo_2/Capitolo2.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`_).
 
 L'utilizzatore finale usa le applicazioni predisposte dai PSP che
 potranno essere utilizzate su PC, *smartphone*, *tablet*. Il PSP può
@@ -1277,7 +1277,7 @@ servizio di avvisatura in modalità *push*.
 
 Il protocollo di colloquio tra NodoSPC e i PSP, previsto per la fase di
 *enrolment* presso i PSP e da utilizzare esclusivamente per la modalità
-di inoltro *push*, è descritto nel `§ 9.2.7 <../16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__ della Sezione III.
+di inoltro *push*, è descritto nel `§ 9.2.7 della Sezione III. <../16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
 Iscrizioni presso più Prestatori di servizi di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1322,8 +1322,7 @@ circa l'esito della presa in carico da parte del PSP: nel primo caso in
 modalità asincrona, sempre via file transfer; nel secondo in modalità
 sincrona all'interno della stessa chiamata SOAP.
 
-Il processo di invio degli avvisi è ampiamente dettagliato nel `§ 8.1.6 <../15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__ della Sezione
-III.
+Il processo di invio degli avvisi è ampiamente dettagliato nel `§ 8.1.6 della Sezione III. <../15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__ 
 
 Inoltro degli avvisi al debitore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1527,7 +1526,7 @@ Pagamento del dovuto
 
 Per quanto riguarda la fase del pagamento del dovuto, si ricorda che
 l'operazione potrà essere effettuato in modalità integrata con le
-modalità previste per il pagamento presso il PSP (vedi § 1.2), qualora
+modalità previste per il pagamento presso il PSP (`vedi § 2.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`__), qualora
 il Prestatore di servizi di pagamento dell'utilizzatore finale lo
 consenta.
 
