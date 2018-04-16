@@ -26,8 +26,8 @@ sono individuate come:
 -  *Esito Revoca* (**ER**)
 
 Nel presente capitolo sono inoltre riportate le informazioni relative a
-"Tabella delle Controparti" (§ 4.2.1), "Catalogo Dati Informativi" (§
-5.3.7) e flussi inerenti i “Totali di Traffico” (§ 4.5.1).
+"Tabella delle Controparti" (`§ 4.2.1 <../09-Capitolo_4/Capitolo4.rst#tabella-delle-controparti>`__), "Catalogo Dati Informativi" (`§
+5.3.7 <../11-Capitolo_5/Capitolo5.rst#catalogo-dati-informativi>`__) e flussi inerenti i “Totali di Traffico” (`§ 4.5.1 <../09-Capitolo_4/Capitolo4.rst#totali-di-traffico>`__).
 
 Formato dei messaggi
 --------------------
@@ -5249,7 +5249,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 Le informazioni sono codificate in un file XML secondo il tracciato di
 Tabella 6 e devono essere richieste dai singoli prestatori di servizi di
 pagamento al NodoSPC utilizzando le apposite funzioni allo scopo messe a
-disposizione (vedi § 9.2.10 della Sezione III).
+disposizione (`vedi § 9.2.10 della Sezione III <../16-Capitolo_9/Capitolo9.rst#interrogazione-delle-basi-dati-del-nodospc>`__).
 
 **Tabella** **6 - Formato file XML della “Tabella delle controparti”**
 
@@ -6356,7 +6356,7 @@ PSP.
 **stornoPagamento (+++):**
 
 Indica se il PSP è in grado di gestire il processo di storno di
-un pagamento (cfr. § 2.1.5 delle SANP).
+un pagamento (`cfr. § 2.1.4 delle SANP <../07-Capitolo_2/Capitolo2.rst#storno-del-pagamento>`__).
 
 Vale per tutti servizi indicati all’interno di
 **listaInformativaDetail.**
@@ -6414,8 +6414,8 @@ transazione.
 
 Tipo di versamento associato allo specifico servizio.
 
-Assume gli stessi valori dell’omonimo campo della RPT (cfr. §
-5.3.1 delle SANP).
+Assume gli stessi valori dell’omonimo campo della RPT (`cfr. §
+5.3.1 delle SANP <../11-Capitolo_5/Capitolo5.rst#richiesta-pagamento-telematico-rpt>`__).
 
 *Controlli:* Il dato deve essere un valore ammesso.
 
@@ -7696,7 +7696,7 @@ Messaggio di conferma ricezione della RT (ACK)
 
 È il documento informatico con il quale il Nodo dei Pagamenti-SPC
 conferma al prestatore di servizi di pagamento la ricezione della RT
-richiesta con l'apposita primitiva **pspInviaAckRT** (vedi § 9.2.2.3).
+richiesta con l'apposita primitiva **pspInviaAckRT** (`vedi § 9.2.2.3 <../16-Capitolo_9/Capitolo9.rst#pspinviaackrt>`__).
 
 Si precisa che il messaggio era già presente nelle versioni precedenti
 delle specifiche attuative, ma non erano stati formalmente specificati
@@ -7975,7 +7975,7 @@ Catalogo dei servizi
 Il “*Catalogo dei Servizi*” è il documento informatico che contiene
 l’elenco dei servizi, attivati dagli Enti Creditori, utilizzabili
 attraverso il modello di pagamento attivato presso i PSP in modalità
-spontanea (vedi § 2.2.3). Tale elenco ha valenza giornaliera: dalle ore
+spontanea (`vedi § 2.2.3 <../07-Capitolo_2/Capitolo2.rst#pagamento-spontaneo-presso-i-psp>`__). Tale elenco ha valenza giornaliera: dalle ore
 0 alle ore 24.
 
 Nella Tabella 16 sono specificate le informazioni che il Nodo dei
@@ -8108,8 +8108,8 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 Le informazioni del “*Catalogo dei Servizi*” sono codificate in un
 file XML secondo il tracciato di Tabella 17 e devono essere richieste
 dai singoli prestatori di servizi di pagamento al NodoSPC utilizzando
-l'apposita primitiva allo scopo messa a disposizione dal NodoSPC (vedi §
-8.2.6 Sezione III).
+l'apposita primitiva allo scopo messa a disposizione dal NodoSPC (`vedi §
+8.2.6 Sezione III <../15-Capitolo_8/Capitolo8.rst#ricezione-del-flusso-di-rendicontazione>`__).
 
 Le informazioni sono codificate in un file XML secondo lo schema di
 Tabella 12 e devono essere inviate al Nodo dei Pagamenti-SPC via PEC dal
@@ -8157,8 +8157,8 @@ Ad ogni servizio presente nel Catalogo dei Servizi è associato un
 insieme di dati, specifici del servizio, e necessari all'Ente Creditore
 per fornire al PSP il Numero Avviso: tale insieme di dati viene
 veicolato dal Nodo dei Pagamenti-SPC in forma di file XML (si vedano il
-parametro **I-7** della primitiva nodoChiediNumeroAvviso al § 9.2.3.4 e
-I-3 della primitiva paaChiediNumeroAvviso al § 8.2.3.4) a cui è
+parametro **I-7** della primitiva nodoChiediNumeroAvviso `al § 9.2.3.4 <../16-Capitolo_9/Capitolo9.rst#nodochiedinumeroavviso>`__ e
+I-3 della primitiva paaChiediNumeroAvviso `al § 8.2.3.4 <../15-Capitolo_8/Capitolo8.rst#paachiedinumeroavviso>`__) a cui è
 associato uno schema XSD che ne definisce il contenuto e permette il
 controllo delle informazioni presenti nel file XML stesso.
 
@@ -8174,7 +8174,7 @@ Dati specifici del servizio nel caso d'uso della Tassa Automobilistica
 Nella Tabella 18 sono specificate le informazioni che il PSP deve
 fornire per il pagamento della Tassa Automobilistica e che devono essere
 codificate nel file XML da inviare all'Ente Creditore tramite NodoSPC
-nel parametro datiSpecificiServizio (cfr. §§ 8.3.3.4 e 9.2.3.4).
+nel parametro datiSpecificiServizio (`cfr. §§ 8.2.3.4 <../15-Capitolo_8/Capitolo8.rst#paachiedinumeroavviso>`__ e `9.2.3.4 <../16-Capitolo_9/Capitolo9.rst#nodochiedinumeroavviso>`__).
 
 **Tabella** **18 - Struttura dati pagamento spontaneo nel caso d'uso Tassa Automobilistica**
 
@@ -9472,7 +9472,7 @@ Recapito dell’avviso digitale ai PSP
 
 Le informazioni elencate di seguito (vedi Tabella 26) definiscono il
 parametro avvisoDigitale presente nella *request* della primitiva
-**pspInviaAvvisoDigitale** (cfr. § 9.2.7.1); il livello della
+**pspInviaAvvisoDigitale** (`cfr. § 9.2.7.1 <../16-Capitolo_9/Capitolo9.rst#pspinviaavvisodigitale>`__); il livello della
 struttura così definita inizia da 2 in quanto descritta formalmente
 all'interno del WSDL del servizio.
 
@@ -9505,7 +9505,7 @@ Notifica dell’iscrizione al servizio di avvisatura digitale
 
 Le informazioni elencate di seguito definiscono la componente
 "datiNotifica" (parametro I-5) presente nella *request* della primitiva
-**nodoAggiornaIscrizioneAvvisatura** (cfr. § 9.2.7.2); il livello
+**nodoAggiornaIscrizioneAvvisatura** (`cfr. § 9.2.7.2 <../16-Capitolo_9/Capitolo9.rst#nodoaggiornaiscrizioniavvisatura>`__); il livello
 della struttura così definita inizia da 2 in quanto descritta
 formalmente all'interno del WSDL del servizio.
 
@@ -9649,8 +9649,8 @@ Le informazioni elencate in Tabella 28 definiscono il parametro O-2
 elencoAvvisiDigitali presente nella *response* della primitiva
 **nodoChiediElencoAvvisiDigitali** disponibile per i PSP che erogano
 il servizio di invio degli avvisi su iniziativa del PSP (modalità pull)
-e della correlata primitiva **paaChiediElencoAvvisiDigitali** (cfr. §
-8.2.8.1) messa a disposizione dall'Ente Creditore; il livello della
+e della correlata primitiva **paaChiediElencoAvvisiDigitali** (`cfr. §
+8.2.8.1 <../15-Capitolo_8/Capitolo8.rst#paachiedielencoavvisidigitali>`__) messa a disposizione dall'Ente Creditore; il livello della
 struttura così definita inizia da 2 in quanto descritta formalmente
 all'interno del WSDL del servizio.
 
