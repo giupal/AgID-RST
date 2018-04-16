@@ -581,7 +581,7 @@ rende disponibili tali informazioni all'utilizzatore finale.
    del processo di pagamento in quanto evita preventivamente la
    ricezione di risposte negative inviate dall’Ente Creditor
 
-.. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
+.. |AGID_logo_carta_intestata-02.png| image:: ../media/header.png
    :width: 5.90551in
    :height: 1.30277in
 .. |NuovoQR.png| image:: ./myMediaFolder/media/image2.png
