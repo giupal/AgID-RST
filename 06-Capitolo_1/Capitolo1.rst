@@ -213,7 +213,7 @@ un flusso (l’Ente Creditore o il PSP) dal suo tramite tecnico
 
 Tale utilizzo è subordinato alla preventiva comunicazione all’Agenzia
 per l’Italia Digitale (ai fini del corretto popolamento della Tabella
-delle controparti, `cfr. § 4.2.1 <../Capitolo4.rst#tabella-delle-controparti>`_) ed al riconoscimento da parte del Nodo
+delle controparti, `cfr. § 4.2.1 <../09-Capitolo_4/Capitolo4.rst#tabella-delle-controparti>`_) ed al riconoscimento da parte del Nodo
 dei Pagamenti-SPC.
 
 Nel Dominio, le attività di pertinenza di ogni soggetto sono effettuate
