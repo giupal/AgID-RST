@@ -406,8 +406,7 @@ attraverso il Nodo dei Pagamenti-SPC e di stretta pertinenza del singolo
 richiedente.
 
 Il Nodo dei Pagamenti-SPC mette a disposizione dell’Ente Creditore e del
-PSP gli strumenti per la ricezione di tali flussi (`vedi §§ 8.1.5 <../15-Capitolo_8/Capitolo8.rst#processo-di-riconciliazione-dei-pagamenti-eseguiti>`__ e
- `9.2.11 <../16-Capitolo_9/Capitolo9.rst#ricezione-totali-di-traffico>`__).
+PSP gli strumenti per la ricezione di tali flussi (`vedi §§ 8.1.5 <../15-Capitolo_8/Capitolo8.rst#processo-di-riconciliazione-dei-pagamenti-eseguiti>`__ e `9.2.11 <../16-Capitolo_9/Capitolo9.rst#ricezione-totali-di-traffico>`__).
 
 Il periodo temporale durante il quale saranno disponibili i flussi
 relativi ai “Totali di Traffico” non potrà superare i 10 giorni di
