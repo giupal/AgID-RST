@@ -31,12 +31,12 @@ Creditori ovvero attraverso dispositivi e funzioni dei PSP.
 Si fa presente che, nella gestione di tali *workflow* occorre tenere in
 considerazione i cosiddetti *Timeout*, ovvero i tempi massimi necessari
 a definire che un processo di pagamento ha avuto termine con un esito
-negativo, per i quali si rimanda al Capitolo 4 del documento “Indicatori di qualità per i Soggetti Aderenti” (si veda
-anche il `§ 12.6.1 </20-Capitolo_12/Capitolo12.rst#indicatori-di-qualità-del-nodo-dei-pagamenti-spc>`__ della Sezione IV).
+negativo, per i quali si rimanda al Capitolo 4 del documento “Indicatori di qualità per i Soggetti Aderenti” (`si veda
+anche il § 12.6.1 </20-Capitolo_12/Capitolo12.rst#indicatori-di-qualità-del-nodo-dei-pagamenti-spc>`__ della Sezione IV).
 
 I *workflow* di seguito descritti sono parte integrante delle
-implementazioni previste nel Nodo dei Pagamenti-SPC (vedi anche Sezione
-III).
+implementazioni previste nel Nodo dei Pagamenti-SPC (`vedi anche Sezione
+III </14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst>`__).
 
 Processo di pagamento attivato presso l’Ente Creditore
 ------------------------------------------------------
@@ -114,7 +114,7 @@ dell’Ente Creditore:
        Nodo dei Pagamenti-SPC la Richiesta di Pagamento Telematico (RPT)
        o il carrello di RPT;
 
-3. l’utilizzatore finale viene indirizzato sul WISP (vedi § 1.1.3) dove
+3. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 </07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`__) dove
        sceglie il servizio che intende utilizzare (PSP e canale di
        pagamento);
 
@@ -171,7 +171,7 @@ gli schemi OBeP (*On-line Banking ePayment*), si riproduce un caso
 particolare dello stesso processo di pagamento descritto in precedenza.
 
 Per ulteriori dettagli si rimanda al documento monografico “” pubblicato
-sul sito dell'Agenzia (vedi Appendice 4).
+sul sito dell'Agenzia (`vedi Appendice 2 <../25-APPENDICE2/APPENDICE2–TRANSAZIONI_MYBANK_ATTRAVERSO_IL%20NODO_DEI_PAGAMENTI_-_SPC.rst>`__).
 
 Si segnala comunque che questa modalità di pagamento è soggetta a
 restrizioni e può non essere sempre disponibile per tutte le tipologie
@@ -235,7 +235,7 @@ sceglie PSP e canale di pagamento che non prevedono interazioni on-line
 2. l’Ente Creditore trasmette al Nodo dei Pagamenti-SPC la Richiesta di
    Pagamento Telematico (RPT);
 
-3. l’utilizzatore finale viene indirizzato sul WISP (vedi § 1.1.3), dove
+3. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 </07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`__), dove
    sceglie il Servizio che intende utilizzare (PSP e canale di
    pagamento);
 
@@ -308,8 +308,8 @@ sulla base del PAN (Primary Account Number identificativo univoco di una
 carta), il PSP aderente a pagoPA.
 
 Gli utenti registrati che utilizzano il servizio di scelta e
-memorizzazione del pagamento messo a disposizione da AgID (vedi
-successivo § 1.1.3.1) saranno comunque liberi di modificare il PSP
+memorizzazione del pagamento messo a disposizione da AgID ( `vedi
+successivo § 2.1.3.1 <../07-Capitolo_2/Capitolo2.rst#servizio-di-scelta-e-memorizzazione-del-pagamento>`__) saranno comunque liberi di modificare il PSP
 abbinato alla propria carta accedendo alle funzioni offerte dalla
 componente WISP.
 
@@ -438,7 +438,7 @@ consapevole.
 Per questi motivi, i PSP che offrono tale servizio devono:
 
 a. indicare attraverso il *Catalogo Dati Informativi*
-   (vedi § **Errore. L'origine riferimento non è stata trovata.**) informazioni
+   (`vedi § 4.2.2 <../09-Capitolo_4/Capitolo4.rst#catalogo-dati-informativi>`__) informazioni
    diversificate per i pagamenti *on us* e i pagamenti *not* *on us*;
 
 b. inviare all’Agenzia, con le modalità da questa di volta in volta
@@ -470,7 +470,7 @@ Qualora l’utilizzatore finale chieda a vario titolo l’annullamento
 stato disposto, il sistema mette a disposizione dell’Ente Creditore e
 del PSP idonee funzionalità del Nodo dei Pagamenti-SPC per gestire detta
 operazione utilizzando la richiesta di una revoca della RT inviata in
-precedenza (vedi paragrafo **Errore. L'origine riferimento non è stata trovata.**).
+precedenza (`vedi paragrafo 4.4.5 <../09-Capitolo_4/Capitolo4.rst#storno-di-un-pagamento>`__).
 
 Come indicato dal modello esposto in Figura 7, lo “storno” del pagamento
 si esplica nell’invio di una richiesta di revoca (RR) da parte dell’Ente
@@ -508,8 +508,8 @@ Pagamenti in Attesa).
 Per rendere possibile il pagamento l’Ente Creditore ha l’obbligo di
 recapitare all’utilizzatore finale un avviso con gli estremi del
 pagamento da effettuare. Tale recapito deve obbligatoriamente avvenire
-sia in modalità analogica (tramite servizi postali), che digitale (vedi
-successivo § 1.9). L’Ente Creditore può inoltre adottare ulteriori
+sia in modalità analogica (tramite servizi postali), che digitale (`vedi
+successivo § 2.9 <../07-Capitolo_2/Capitolo2.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__). L’Ente Creditore può inoltre adottare ulteriori
 misure per la diffusione degli avvisi di pagamento, per esempio rendere
 disponibili funzioni di stampa on line tramite il proprio sito.
 
@@ -557,7 +557,7 @@ compone dei seguenti passi:
        (interrogando l’Archivio dei Pagamenti in Attesa). In questa fase
        l’Ente Creditore può comunicare all’utilizzatore finale
        informazioni aggiuntive sul pagamento stesso
-       (vedi § **Errore.L'origine riferimento non è stata trovata.**, Sezione II);
+       (`vedi § 7.4.5 Sezione II <../13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__);
 
 3. l’utilizzatore finale autorizza il pagamento presso le strutture
        messe a disposizione dal PSP;
@@ -663,12 +663,11 @@ sostituzione della iniziale richiesta di “*verifica del pagamento in attesa*�
 con la richiesta del “*numero dell'avviso*”.
 
 Il NodoSPC riceve la richiesta del numero di avviso dal PSP, controlla
-sul Catalogo dei servizi (vedi §§ **Errore. L'origine riferimento non è stata trovata.**
-e **Errore. L'origine riferimento non è stata trovata.**),
+sul Catalogo dei servizi (vedi §§ `4.2.4 <../09-Capitolo_4/Capitolo4.rst#catalogo-dei-servizi>`_ e `5.3.11 <../11-Capitolo_5/Capitolo5.rst#catalogo-dei-servizi>`_),
 la congruità della richiesta e la inoltra all'Ente
 Creditore che, accedendo ai propri archivi, assegna alla richiesta il
 corretto numero avviso. Da questo momento in poi, il processo di
-pagamento avviene con le stesse modalità indicate al precedente § 1.2.
+pagamento avviene con le stesse modalità indicate al precedente § `2.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`_.
 
 |image10|
 
@@ -689,9 +688,9 @@ decreto legislativo 27 gennaio 2010, n. 11, ovvero per richieste
 regolamentate connesse all’utilizzo di carte di pagamento (c.d.:
 procedura di *charge back*) chieda al proprio prestatore di servizi di
 pagamento il rimborso di un pagamento già completato oppure in caso di
-annullo tecnico (vedi § 1.3.1), il sistema pagoPA mette a disposizione
+annullo tecnico (`vedi § 2.3.1 <../07-Capitolo_2/Capitolo2.rst#annullo-tecnico>`_), il sistema pagoPA mette a disposizione
 di PSP e Enti Creditori idonee funzionalità per gestire la revoca della
-RT inviata in precedenza (vedi paragrafo **Errore. L'origine riferimento non è stata trovata.**).
+RT inviata in precedenza (`vedi paragrafo 4.4.4 <../09-Capitolo_4/Capitolo4.rst#revoca-della-ricevuta-telematica>`__).
 
 |image11|
 
@@ -710,7 +709,7 @@ sanitarie già eseguite, ecc.) inviando un ER di esito negativo.
 
 In caso contrario l’Ente Creditore si comporta come segue:
 
-a) nel caso di revoca per annullo tecnico (vedi § 1.3.1) invia un ER di
+a) nel caso di revoca per annullo tecnico (`vedi paragrafo vedi § 2.3.1  <../07-Capitolo_2/Capitolo2.rst#annullo-tecnico>`__) invia un ER di
    esito positivo, annulla l’esito del pagamento e aggiorna i propri
    archivi informatici ripristinando la posizione originale. L’Ente
    Creditore esegue tali operazioni tenendo conto della emergenza
@@ -742,7 +741,7 @@ a) Invio di una Ricevuta Telematica (RT) con esito **positivo**,
 b) Invio di una Ricevuta Telematica (RT) con esito **negativo**,
        tuttavia l’utilizzatore finale ha ricevuto un addebito e il PSP
        ha emesso un’attestazione di pagamento (scontrino, ricevuta,
-       e-mail, ecc. Vedi § 1.5).
+       e-mail, ecc. `Vedi § 2.5 <../07-Capitolo_2/Capitolo2.rst#attestazione-del-pagamento>`__).
 
 Al di fuori delle circostanze sopra descritte l’utilizzo dell’annullo
 tecnico non è ammesso.
@@ -828,8 +827,7 @@ presenti sull’avviso di pagamento.
 
 Per questo motivo tale documento è corredato, oltre che dati essenziali
 sopra riportati, anche da un insieme di elementi grafici facilmente
-leggibili e decodificabili da apposite apparecchiature (vedi anche il §
-**Errore. L'origine riferimento non è stata trovata.**).
+leggibili e decodificabili da apposite apparecchiature (`vedi anche il § 7.4.2 <../13-Capitolo_7/Capitolo7.rst#automazione-dellavviso-di-pagamento-analogico>`__).
 
 Avviso digitale
 ~~~~~~~~~~~~~~~
@@ -837,9 +835,8 @@ Avviso digitale
 
 Per i pagamenti per i quali sono messi a disposizione dell'utilizzatore
 finale avvisi di pagamento analogici, l’Ente Creditore deve generare
-corrispondenti avvisi digitali secondo il formato indicato al §
-**Errore. L'origine riferimento non è stata trovata.** e inviarli al
-NodoSPC con le modalità indicate al § **Errore. L'origine riferimento non è stata trovata.**.
+corrispondenti avvisi digitali secondo il formato indicato al `§ 5.4 <../11-Capitolo_5/Capitolo5.rst#avvisatura-digitale>`__nviarli al
+NodoSPC con le modalità indicate al  `§ 8.1.6 <../15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__.
 
 Attestazione del pagamento
 --------------------------
@@ -865,10 +862,8 @@ liberatoria, può essere utilizzata dall’utilizzatore finale per ottenere
 quietanza da parte dell’EC.
 
 Le copie analogiche prodotte dall’Ente Creditore o dai PSP devono
-necessariamente contenere, oltre al logo del sistema pagoPA (cfr. §
-**Errore. L'origine riferimento non è stata trovata.**) [2]_ almeno le
-seguenti informazioni, per il cui contenuto si rimanda al capitolo
-**Errore. L'origine riferimento non è stata trovata.** della Sezione II:
+necessariamente contenere, oltre al logo del sistema pagoPA (`cfr. § 11.5 <../19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`__ almeno le
+seguenti informazioni, per il cui contenuto si rimanda al capitolo 5 ella Sezione II:
 
 a) Data dell’operazione
 
