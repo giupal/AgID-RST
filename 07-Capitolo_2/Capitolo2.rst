@@ -616,7 +616,7 @@ documento stesso.
 
 Per comunicare al PSP tali variazioni o ulteriori informazioni legate al
 pagamento, utili per informare l'utilizzatore finale, l'Ente Creditore
-deve utilizzare le modalità indicate al § 7.4.5 della Sezione II.
+deve utilizzare le modalità indicate al `§ 7.4.5 Sezione II <../13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__
 
 Attivazione della richiesta di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
