@@ -98,7 +98,7 @@ pagamento attivato presso il PSP (cosiddetto "Modello 3").
 
 La “Tabella delle controparti” contiene inoltre l'elenco dei codici IBAN
 di accredito che gli Enti Creditori sono tenuti a comunicare al Nodo dei
-Pagamenti-SPC (vedi successivo § 4.2.3).
+Pagamenti-SPC (`vedi successivo § 4.2.3 <../09-Capitolo_4/Capitolo4.rst#tabella-dei-cc-di-accredito>`__).
 
 La “Tabella delle controparti” viene aggiornata e pubblicata con cadenza
 giornaliera.
@@ -140,8 +140,8 @@ Catalogo dei servizi
 
 Il Catalogo dei Servizi è il *repository* che contiene l’elenco dei
 servizi generalizzati, attivati dagli Enti Creditori, relativo al
-processo di pagamento attivato presso i PSP in modalità spontanea (vedi
-§ 2.2.3).
+processo di pagamento attivato presso i PSP in modalità spontanea (`vedi
+§ 2.2.3 <../07-Capitolo_2/Capitolo2.rst#pagamento-spontaneo-presso-i-psp>`__).
 
 Il Catalogo dei Servizi viene aggiornato e pubblicato con cadenza
 giornaliera.
@@ -240,7 +240,7 @@ Revoca della Ricevuta Telematica
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. _Revoca della Ricevuta Telematica:
 
-Come visto nel § 2.1.3.2 la Revoca della RT si esplica nell’invio di una
+`Come visto nel § 2.1.3.2 <../07-Capitolo_2/Capitolo2.rst#individuazione-del-psp-in-caso-di-pagamento-con-carta>`__ la Revoca della RT si esplica nell’invio di una
 richiesta di revoca (RR) da parte del PSP, contenente i riferimenti
 della RT oggetto della revoca, al quale corrisponde la valutazione
 dell’Ente Creditore e la restituzione al PSP dell’esito di revoca (ER)
@@ -271,7 +271,7 @@ Storno di un pagamento
 ~~~~~~~~~~~~~~~~~~~~~~
 .. _Storno di un pagamento:
 
-Come visto nel § 2.1.4 lo storno di un pagamento si esplica nell’invio
+`Come visto nel § 2.1.4 <../07-Capitolo_2/Capitolo2.rst#storno-del-pagamento>`__ lo storno di un pagamento si esplica nell’invio
 di una richiesta di revoca (RR) da parte dell’Ente Creditore, contenente
 i riferimenti della RT oggetto dello storno, al quale corrisponde la
 valutazione del PSP e la restituzione all’Ente Creditore dell’esito di
@@ -307,14 +307,13 @@ Rendicontazione per gli Enti Creditori
 .. _Rendicontazione per gli Enti Creditori:
 
 Il Servizio “Rendicontazione” mette a disposizione degli Enti Creditori
-un flusso, generato da ogni PSP (si confronti il § 2.7), che riporta le
+un flusso, generato da ogni PSP (`si confronti il § 2.7 <../07-Capitolo_2/Capitolo2.rst#riconciliazione-dei-pagamenti>`__), che riporta le
 informazioni necessarie per consentire all’Ente Creditore di procedere
 alla riconciliazione tra le RT ricevute e gli importi trasferiti dal PSP
 del debitore al PSP dell’Ente Creditore.
 
 Il Nodo dei Pagamenti-SPC mette a disposizione dell’Ente Creditore e del
-PSP gli strumenti per lo scambio di tali flussi (vedi anche §§ 8.1.5 e
-9.2.6).
+PSP gli strumenti per lo scambio di tali flussi (vedi anche `§§ 8.1.5 <../15-Capitolo_8/Capitolo8.rst#processo-di-riconciliazione-dei-pagamenti-eseguiti>`__ e `9.2.6 <../16-Capitolo_9/Capitolo9.rst#invio-flusso-di-rendicontazione>`__).
 
 Il periodo temporale durante il quale saranno disponibili le
 informazioni relative a tali flussi non sarà inferiore a quindici e non
@@ -324,20 +323,18 @@ Chiusura operazioni pendenti
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. _Chiusura operazioni pendenti:
 
-Con riferimento al modello di pagamento ad esecuzione differita (cfr. §
-2.1.2), ma applicabile a tutti i processi di pagamento previsti, è
+Con riferimento al modello di pagamento ad esecuzione differita (`cfr. § 2.1.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`__), ma applicabile a tutti i processi di pagamento previsti, è
 possibile che una Richiesta di pagamento Telematica (RPT) non abbia
 ricevuto la corrispondente Ricevuta Telematica nel periodo durante il
 quale il Nodo dei Pagamenti-SPC rende disponibili le RPT in attesa del
-relativo esito (si veda il paragrafo 12.3.1 "Periodo di ritenzione delle
+relativo esito (`si veda il paragrafo 12.3.1 <../20-Capitolo_12/Capitolo12.rst#periodo-di-ritenzione-delle-rpt-senza-esito>`__ "Periodo di ritenzione delle
 RPT senza esito" della Sezione IV).
 
 Al termine di detto periodo il Nodo dei Pagamenti-SPC genera in via
 automatica una RT avente esito del pagamento non determinato e la invia
 all’Ente Creditore che ha generato la RPT, nello stesso tempo
 interagisce con il PSP interessato per richiedere la cancellazione della
-RPT dall’archivio per decorrenza dei termini (vedi anche §§ 9.1.7 e
-9.2.9 nella Sezione III).
+RPT dall’archivio per decorrenza dei termini (vedi anche §§ 9.1.7 `vedi anche §§ 9.1.7 <../16-Capitolo_9/Capitolo9.rst#processo-di-notifica-di-chiusura-delle-operazioni-pendenti>`__ e `9.2.9 nella Sezione III <../16-Capitolo_9/Capitolo9.rst#notifica-di-chiusura-delle-operazioni-pendenti>`__).
 
 Modalità Unica d'Interazione - MUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -352,7 +349,7 @@ Creditore.
 
 In particolare, MUI normalizza i flussi operativi per realizzare il
 processo di pagamento attuato presso il Portale di Pagamento del PSP
-appositamente predisposto dal PSP stesso (cfr. anche §2.2).
+appositamente predisposto dal PSP stesso (`cfr. anche §2.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`__).
 
 Accentramento della scelta del PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -387,7 +384,7 @@ sincrona (ad esempio: flussi di rendicontazione, totali di traffico,
 ecc.), in modalità file transfer sicuro (SFTP).
 
 **La funzione è al momento attiva solo per la ricezione dei flussi di**
-**rendicontazione (vedi §** **5.3.5) da parte degli Enti Creditori.**
+**rendicontazione (`vedi §** **5.3.5 <../11-Capitolo_5/Capitolo5.rst#flusso-di-rendicontazione>`__) da parte degli Enti Creditori.**
 
 Servizi applicativi opzionali
 -----------------------------
@@ -409,8 +406,8 @@ attraverso il Nodo dei Pagamenti-SPC e di stretta pertinenza del singolo
 richiedente.
 
 Il Nodo dei Pagamenti-SPC mette a disposizione dell’Ente Creditore e del
-PSP gli strumenti per la ricezione di tali flussi (vedi §§ 8.1.5 e
-9.2.11).
+PSP gli strumenti per la ricezione di tali flussi (`vedi §§ 8.1.5 <../15-Capitolo_8/Capitolo8.rst#processo-di-riconciliazione-dei-pagamenti-eseguiti>`__ e
+ `9.2.11 <../16-Capitolo_9/Capitolo9.rst#ricezione-totali-di-traffico>`__).
 
 Il periodo temporale durante il quale saranno disponibili i flussi
 relativi ai “Totali di Traffico” non potrà superare i 10 giorni di
@@ -514,7 +511,7 @@ PSP, ciascuno per le informazioni di propria competenza, un documento
 contente l’elenco ed i relativi totali, per controparte, delle RPT
 scambiate nel mese di riferimento che contengono un valore non nullo nel
 dato commissioneCaricoPA presente nella struttura della RPT denominata
-datiSingoloVersamento (vedi § 5.3.1 della Sezione II).
+datiSingoloVersamento (`vedi § 5.3.1 della Sezione II <../11-Capitolo_5/Capitolo5.rst#richiesta-pagamento-telematico-rpt>`__).
 
 Per ogni coppia Ente Creditore / PSP sarà generata un elenco contenente
 il dettaglio delle RPT che hanno dato luogo ad una RT recepita dal Nodo
