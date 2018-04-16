@@ -389,7 +389,7 @@ livello nazionale dalla seguente coppia di informazioni:
 Nell’ambito delle funzionalità esposte dal Nodo dei Pagamenti-SPC sono
 previsti ulteriori oggetti applicativi scambiati, tra lo stesso NodoSPC
 ed i soggetti aderenti, che riguardano le Strutture dati di supporto ed
-i Servizi applicativi opzionali (vedi anche capitolo 4 <../09-Capitolo_4/Capitolo4.rst>`_).
+i Servizi applicativi opzionali (`vedi anche capitolo 4 <../09-Capitolo_4/Capitolo4.rst>`_).
 
 Identificativo Univoco di Versamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -477,7 +477,7 @@ dei Pagamenti-SPC, si evidenzia, sin da ora, agli Enti Creditori che non
 potranno sussistere incertezze circa l’integrità e la non ripudiabilità
 del documento stesso poiché il *workflow* del pagamento si sviluppa
 all’interno di un “circuito di trust” senza alcuna possibilità di
-ingerenza e/o manomissione da parte di terzi (vedi successivo paragrafo
+ingerenza e/o manomissione da parte di terzi (`vedi successivo paragrafo
 2.6 <../07-Capitolo_2/Capitolo2.rst#identificazione-dellutilizzatore-finale>`_); da qui l’inopportunità di garantire l’integrità e non
 ripudiabilità del documento informatico RT attraverso la firma digitale
 o la firma elettronica qualificata dello stesso da parte del prestatore
