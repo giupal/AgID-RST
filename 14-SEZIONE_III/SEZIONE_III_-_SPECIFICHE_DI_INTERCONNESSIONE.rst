@@ -16,7 +16,7 @@ modelli di pagamento forniti dal Nodo dei Pagamenti-SPC:
 | Modello 1                         | Pagamento attivato presso l’Ente  |
 |                                   | Creditore con re indirizzamento   |
 |                                   | on-line                           |
-+===================================+===================================+
++-----------------------------------+-----------------------------------+
 | Modello 2                         | Pagamento attivato presso l’Ente  |
 |                                   | Creditore con autorizzazione non  |
 |                                   | contestuale gestita dal PSP       |
