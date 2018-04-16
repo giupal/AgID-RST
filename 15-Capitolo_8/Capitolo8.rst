@@ -4406,7 +4406,7 @@ b) il numero di file strettamente necessari a contenere tutte le
    massima numerosità consentita, al momento prevista in 100 mila avvisi
    digitali.
 
-.. |AGID_logo_carta_intestata-02.png| image:: ./myMediaFolder/media/image1.png
+.. |AGID_logo_carta_intestata-02.png| image:: ../media/header.png
    :width: 5.90551in
    :height: 1.30277in
 .. |image1| image:: ./myMediaFolder/media/image2.png
