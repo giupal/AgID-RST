@@ -923,8 +923,8 @@ Riconciliazione dei pagamenti
 -----------------------------
 .. _Riconciliazione dei pagamenti:
 
-Con rifermento al “Ciclo di vita del pagamento” (vedi paragrafo
-**Errore. L'origine riferimento non è stata trovata.**), una volta
+Con rifermento al “Ciclo di vita del pagamento” ( `vedi paragrafo
+1.4 <../06-Capitolo_1/Capitolo1.rst#ciclo-di-vita-del-pagamento>`__), una volta
 effettuata la fase di “Regolamento contabile” tra i PSP, l’Ente
 Creditore provvede a riconciliare le Ricevute Telematiche (RT) con le
 informazioni contabili fornite dal proprio istituto tesoriere o da Poste
@@ -963,8 +963,7 @@ riconciliazione in modalità singola.
 
 L’operazione di riconciliazione in modalità singola viene effettuata
 dall’Ente Creditore sulla base della seguente coppia di informazioni
-(vedi paragrafo **Errore. L'origine riferimento non è stata trovata.**
-della Sezione II) presenti sulla RT inviata dal PSP all’Ente Creditore:
+(`vedi paragrafo 5.3.2 della Sezione II <../11-Capitolo_5/Capitolo5.rst#ricevuta-telematica-rt>`__) presenti sulla RT inviata dal PSP all’Ente Creditore:
 
 a. identificativoUnivocoVersamento (IUV) che deve coincidere con la
        componente <IUV> della causale della disposizione di accredito
@@ -1032,7 +1031,7 @@ rendicontazione.
 
 Il Nodo dei Pagamenti-SPC fornisce apposite funzioni centralizzate a
 disposizione dei prestatori di servizi di pagamento e degli Enti
-Creditori (vedi § **Errore. L'origine riferimento non è stata trovata.**),
+Creditori ( `vedi § 4.4.6 <../09-Capitolo_4/Capitolo4.rst#rendicontazione-per-gli-enti-creditori>`__),
 con le quali i primi possono inviare il Flusso di
 rendicontazione e gli altri ricevere i dati ivi contenuti.
 
@@ -1122,7 +1121,7 @@ acquisto consta dei seguenti passi:
 
    c. provincia di residenza del soggetto pagatore;
 
-5. l’utilizzatore finale viene indirizzato sul WISP (vedi § 1.1.3) che
+5. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 <../07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`__) che
    gli consente di scegliere il servizio di pagamento che intende
    utilizzare NB: la PA deve porre attenzione alla composizione del
    carrello poiché in questa circostanza le opzioni disponibili saranno
@@ -1130,7 +1129,7 @@ acquisto consta dei seguenti passi:
    digitale;
 
 6. l’utilizzatore finale autorizza il pagamento (vedi passi 4 e 5 del
-   workflow di cui al § 1.1.1, pagina 2);
+   workflow di cui al `§ 2.1.1, pagina 29 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-re-indirizzamento-on-line>`__);
 
 7. il PSP, sulla base delle informazioni ricevute per mezzo della RPT,
    genera la marca da bollo digitale e la restituisce alla PA, per conto
@@ -1189,7 +1188,7 @@ Gli attori che intervengono nel processo sono:
 -  gli utilizzatori finali, che si iscrivono al servizio ed effettuano i
    pagamenti;
 
--  gli Enti Creditori, che detengono che, come indicato al § 1.4, devono
+-  gli Enti Creditori, che detengono che, come indicato al `§ 2.4 <../07-Capitolo_2/Capitolo2.rst#avviso-di-pagamento>`__, devono
    inviare gli avvisi digitali;
 
 -  il sistema pagoPA, in particolare il Nodo dei Pagamenti-SPC, che
@@ -1264,7 +1263,7 @@ L'iscrizione al servizio di avvisatura può essere effettuata
 dall'utilizzatore finale aderendo ad uno dei servizi messi a
 disposizione da parte dei Prestatori di servizi di pagamento, che
 possono scegliere di gestire il servizio sia in modalità *push*, sia in
-modalità *pull* (vedi § 1.10).
+modalità *pull* (`vedi § 2.10 <../07-Capitolo_2/Capitolo2.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__).
 
 L'utilizzatore finale usa le applicazioni predisposte dai PSP che
 potranno essere utilizzate su PC, *smartphone*, *tablet*. Il PSP può
@@ -1278,8 +1277,7 @@ servizio di avvisatura in modalità *push*.
 
 Il protocollo di colloquio tra NodoSPC e i PSP, previsto per la fase di
 *enrolment* presso i PSP e da utilizzare esclusivamente per la modalità
-di inoltro *push*, è descritto nel § **Errore. L'origine riferimento non**
-**è stata trovata.** della Sezione III.
+di inoltro *push*, è descritto nel `§ 9.2.7 <../16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__ della Sezione III.
 
 Iscrizioni presso più Prestatori di servizi di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1324,8 +1322,7 @@ circa l'esito della presa in carico da parte del PSP: nel primo caso in
 modalità asincrona, sempre via file transfer; nel secondo in modalità
 sincrona all'interno della stessa chiamata SOAP.
 
-Il processo di invio degli avvisi è ampiamente dettagliato nel §
-**Errore. L'origine riferimento non è stata trovata.** della Sezione
+Il processo di invio degli avvisi è ampiamente dettagliato nel `§ 8.1.6 <../15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__ della Sezione
 III.
 
 Inoltro degli avvisi al debitore
@@ -1345,8 +1342,7 @@ contenente gli avvisi digitali che intende far recapitare ai propri
 utenti, attraverso il sistema di file transfer sicuro messo a
 disposizione.
 
-Completata la sotto fase di recapito dell'avviso digitale (vedi
-successivo § 1.9.2.3), nella quale la componente di avvisatura del
+Completata la sotto fase di recapito dell'avviso digitale (`vedi successivo § 2.9.2.3 <../07-Capitolo_2/Capitolo2.rst#recapito-dellavviso-al-debitore>`__), nella quale la componente di avvisatura del
 NodoSPC provvede ad effettuare l'operazione di recapito e a registrarne
 l'esito, il NodoSPC predispone un flusso contenente l'esito del recapito
 dei singoli avvisi di pagamento effettuato nella fase precedente e lo
