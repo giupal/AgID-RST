@@ -39,8 +39,8 @@ modo inequivocabile tali messaggi con il pagamento specifico.
 Nella Tabella 29 sono indicate le informazioni e le specifiche di
 rappresentazione dei dati che i soggetti appartenenti al Dominio sono
 tenuti a fornire per le verifiche di cui sopra. Questi dati sono altresì
-le informazioni "minime" da archiviare nel Giornale degli Eventi (cfr. §
-3.2.10). Tali informazioni devono essere memorizzate presso le strutture
+le informazioni "minime" da archiviare nel Giornale degli Eventi (`cfr. §
+3.2.10 <../08-Capitolo_3/Capitolo3.rst#giornale-degli-eventi>`__). Tali informazioni devono essere memorizzate presso le strutture
 che scambiano le informazioni (Enti Creditori, PSP, Intermediari
 tecnologici, Nodo dei Pagamenti-SPC) e devono essere accessibili a
 richiesta, nei formati che saranno concordati.
