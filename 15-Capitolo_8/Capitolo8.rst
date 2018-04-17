@@ -200,7 +200,7 @@ per questa fase del pagamento, che si compone dei seguenti passi:
 2. il Portale EC invoca la primitiva **nodoInviaCarrelloRPT** per
    trasmettere alla componente FESP del NodoSPC il carrello di RPT
    (per l'indicazione del PSP verso il quale richiedere il pagamento
-   sono utilizzati dati fissi, `vedi § 8.1.1.5 <../15-Capitolo_8/Capitolo8.rst#avvertenze-per-la-predisposizione-e-linvio-delle-richieste-di-pagamento-telematiche>`__);
+   sono utilizzati dati fissi, `vedi § 8.1.1.5 <../15-Capitolo_8/Capitolo8.rst#avvertenze-per-la-predisposizione-e-linvio-delle-          richieste-di-pagamento-telematiche>`__);
 
 3. alla ricezione della primitiva, la componente FESP del NodoSPC
    verifica che le RPT ricevute siano utilizzabili per il pagamento;
@@ -219,8 +219,8 @@ per questa fase del pagamento, che si compone dei seguenti passi:
    finale;
 
 7. il Portale EC reindirizza l’utilizzatore finale verso la componente
-   WISP 2.0 del NodoSPC utilizzando la *query string* definita al ` §
-   8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__(contenente anche il parametro idSessione);
+   WISP 2.0 del NodoSPC utilizzando la *query string* definita al 
+   ` §8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__ (contenente anche il parametro              idSessione);
 
 8. l'utilizzatore finale è reindirizzato nella *landing page* della
    componente WISP 2.0 del NodoSPC.
@@ -344,8 +344,8 @@ scenari di invio del carrello di RPT al PSP:
 
 7. la componente WFESP del NodoSPC reindirizza il browser
    dell'utilizzatore finale verso il Portale del PSP utilizzando la
-   *query string* definita al `paragrafo 8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__; (contiene il dato
-   parametriProfiloPagamento).
+   *query string* definita al `paragrafo 8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__ ;         (contiene il dato
+    parametriProfiloPagamento).
 
 8. a seguito del completamento delle operazioni di invio carrello, si
    prevede che il PSP ponga l'utilizzatore finale nelle condizioni
