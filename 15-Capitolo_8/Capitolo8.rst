@@ -3801,208 +3801,207 @@ di avvio del processo di selezione del PSP" è riportato nella colonna
 “contenuto” della tabella sopra riportata, di seguito sono fornite
 alcune precisazioni sui dati presenti da utilizzare:
 
-+----------------------------------------------------------------------+
-|**idDominio:**                                                        |
-+======================================================================+
-| Identificativo del soggetto che sta richiedendo l’accesso al         |
-| portale WISP. Nel caso in cui il parametro primitiva assuma il       |
-| valore **nodoInviaRPT**, va indicato il valore del dato              |
-| idDominio presente nella RPT che deve essere inviata; invece, nel    |
-| caso in cui il parametro primitiva assuma il valore                  |
-| **nodoInviaCarrelloRPT**, va indicato il valore del dato             |
-| idDominio presente nella prima RPT che compone il “carrello” di      |
-| RPT.                                                                 |
-+----------------------------------------------------------------------+
-|**enteCreditore:**                                                    |
-+----------------------------------------------------------------------+
-| Stringa alfanumerica contenente la denominazione del soggetto che    |
-| sta richiedendo l’accesso al portale WISP. nel caso in cui il        |
-| parametro primitiva assuma il valore **nodoInviaRPT**, va            |
-| indicato la denominazione dell’Ente Creditore che invia la RPT,      |
-| invece, nel caso in cui il parametro primitiva assuma il valore      |
-| **nodoInviaCarrelloRPT**, va indicata la denominazione della         |
-| piattaforma che compone il “carrello” di RPT (ad esempio: quello     |
-| della piattaforma regionale).                                        |
-+----------------------------------------------------------------------+
-|**keyPA:**                                                            |
-+----------------------------------------------------------------------+
-| Token generato dall'Ente Creditore rappresentativo della sessione    |
-| di scelta del PSP da parte dell’utente.                              |
-|                                                                      |
-| *Controlli:* deve essere univoco nel dominio dell'Ente Creditore.    |
-+----------------------------------------------------------------------+
-|**urlReturn:**                                                        |
-+----------------------------------------------------------------------+
-| URL a cui il portale WISP deve ritornare l’esito in caso di          |
-| scelta del PSP effettuata con successo.                              |
-+----------------------------------------------------------------------+
-|**urlBack:**                                                          |
-+----------------------------------------------------------------------+
-| URL a cui il portale WISP deve ritornare il controllo in caso di     |
-| annullamento, *timeout* della transazione oppure parametro           |
-| ibanAccredito non corretto per quell’Ente Creditore.                 |
-+----------------------------------------------------------------------+
-|**primitiva:**                                                        |
-+----------------------------------------------------------------------+
-|Primitiva che verrà utilizzata per effettuare il pagamento.           |
-|                                                                      |
-|*Valori ammessi:*                                                     |
-|                                                                      |
-|-  **nodoInviaRPT**                                                   |
-|                                                                      |
-|-  **nodoInviaCarrelloRPT**                                           |
-|                                                                      |
-|*Filtri attivati*: Nel caso in cui sia impostato il valore            |
-|**nodoInviaCarrello**, saranno selezionati solo i servizi di          |
-|pagamento dei PSP in grado di gestire tale primitiva e di             |
-|trattare più di un versamento nella stessa richiesta: pertanto, i     |
-|servizi di pagamento MyBank non saranno visualizzati.                 |
-+----------------------------------------------------------------------+
-|**numPagamentiRPT:**                                                  |
-+----------------------------------------------------------------------+
-| Numero dei pagamenti presenti nella singola RPT nel caso in cui      |
-| il parametro primitiva assuma il valore **nodoInviaRPT** oppure      |
-| numero complessivo dei pagamenti presenti in tutte le RPT            |
-| costituenti il “carrello” nel caso in cui il parametro primitiva     |
-| assuma il valore **nodoInviaCarrelloRPT**.                           |
-|                                                                      |
-| *Valori ammessi:* maggiore o uguale a 1.                             |
-+----------------------------------------------------------------------+
-|**stornoPagamento:**                                                  |
-+----------------------------------------------------------------------+
-| Filtro per mostrare solo i PSP che consentono lo storno del          |
-| pagamento immediato.                                                 |
-|                                                                      |
-| *Valori ammessi*:                                                    |
-|                                                                      |
-| **SI** l'Ente Creditore **ha implementato** la gestione dello        |
-| storno                                                               |
-|                                                                      |
-| **NO** l'Ente Creditore **non** **ha implementato** la gestione      |
-| dello storno                                                         |
-+----------------------------------------------------------------------+
-|**bolloDigitale**                                                     |
-+----------------------------------------------------------------------+
-| Filtro per mostrare solo i PSP che consentono il pagamento della     |
-| marca da bollo digitale.                                             |
-|                                                                      |
-| *Valori ammessi*:                                                    |
-|                                                                      |
-| **SI** la RPT **si riferisce** al pagamento della marca da bollo     |
-| digitale                                                             |
-|                                                                      |
-| **NO** la RPT **non si riferisce** al pagamento della marca da       |
-| bollo digitale                                                       |
-+----------------------------------------------------------------------+
-|**terzoModelloPagamento:**                                            |
-+----------------------------------------------------------------------+
-| Indica se mostrare o meno i servizi dei PSP che consentono il        |
-| pagamento attivato presso i PSP (cosiddetto modello 3,               |
-| `cfr. § 2.2 delle SANP <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`__)                                                |
-|                                                                      |
-| *Note*: Nella versione corrente delle funzionalità WISP, il          |
-| parametro è ignorato.                                                |
-+----------------------------------------------------------------------+
-|**idPSP:**                                                            |
-+----------------------------------------------------------------------+
-| Identificativo del PSP, eventualmente selezionato dall'utente in     |
-| sessioni precedenti e memorizzato a cura dell'Ente Creditore.        |
-| Corrisponde al parametro O-2 della primitiva                         |
-| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                           |
-+----------------------------------------------------------------------+
-|**tipoVersamento**                                                    |
-+----------------------------------------------------------------------+
-| Identificativo del tipo di versamento eventualmente selezionato      |
-| dall'utente in sessioni precedenti e memorizzato a cura dell'Ente    |
-| Creditore. Corrisponde al parametro O-5 della primitiva              |
-| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                           |
-|                                                                      |
-| *Controlli*: Può assumere gli stessi valori dell’omologo campo       |
-| della RPT (vedi § 5.3.1).                                            |
-+----------------------------------------------------------------------+
-|**importoTransazione**                                                |
-+----------------------------------------------------------------------+
-| Campo alfanumerico (due cifre per la parte decimale, il              |
-| separatore dei centesimi è il punto “.”), indicante l’importo        |
-| relativo alla transazione oggetto della scelta di pagamento.         |
-|                                                                      |
-| *Controlli*: Deve essere diverso da “0.00”. È obbligatorio se il     |
-| parametro **versioneInterfacciaWISP** assume il valore **1.3**.      |
-+----------------------------------------------------------------------+
-| *Note*: Questo campo deve essere valorizzato correttamente anche     |
-| dagli Enti Creditori che utilizzano la versione 1.2                  |
-| dell’interfaccia WISP, ossia nel caso in cui il parametro            |
-| **versioneInterfacciaWISP** assuma il valore **1.2**.                |
-+----------------------------------------------------------------------+
-|**versioneInterfacciaWISP**                                           |
-+----------------------------------------------------------------------+
-| Indica la versione di interfaccia utilizzata per il WISP.            |
-|                                                                      |
-| *Valori ammessi*:                                                    |
-|                                                                      |
-| **1.2** La versione 1.2 è deprecata in quanto l’utente               |
-| riceverebbe un errore dal WISP in assenza di indicazioni del         |
-| parametro **importoTransazione** (vedi parametro precedente).        |
-|                                                                      |
-| **1.3** versione da utilizzare.                                      |
-+----------------------------------------------------------------------+
-|**ibanAccredito**                                                     |
-+----------------------------------------------------------------------+
-| Indica il codice IBAN che sarà presente nella RPT e verso il         |
-| quale sarà effettuato il pagamento.                                  |
-|                                                                      |
-| *Controlli*: Se il parametro primitiva è impostato a                 |
-| **'nodoInviaCarrelloRPT** ' oppure il parametro numPagamentiRPT      |
-| è maggiore di 1, il parametro viene ignorato.                        |
-+----------------------------------------------------------------------+
-|**contoPoste**                                                        |
-+----------------------------------------------------------------------+
-| Indica se l'Ente Creditore beneficiario del pagamento dispone di     |
-| almeno un c/c postale censito nella Tabella dei c/c di accredito     |
-| di cui al § 4.3.3 delle SANP.                                        |
-|                                                                      |
-| *Valori ammessi*:                                                    |
-|                                                                      |
-| **SI** l'Ente Creditore **gestisce** per quel pagamento conti        |
-| correnti postali                                                     |
-|                                                                      |
-| **NO** l'Ente Creditore **non gestisce** conti correnti postali      |
-|                                                                      |
-| *Note:* Il parametro è obbligatorio ed efficace solo nel caso in     |
-| cui il campo ibanAccredito non sia valorizzato.                      |
-|                                                                      |
-| Nel caso in cui il parametro primitiva (vedi sopra) assuma il        |
-| valore **nodoInviaCarrelloRPT** (“carrello” di RPT), per             |
-| impostare a **SI** il parametro contoPoste **è necessario che**      |
-| **tutti** gli Enti Creditori beneficiari dei pagamenti presenti nel  |
-| "carrello" dispongano di almeno un c/c postale censito nella         |
-| Tabella dei c/c di accredito di cui al § 4.2.3. In caso contrario    |
-| (anche uno solo degli Enti Creditori presenti nel "carrello" non     |
-| dispone di un c/c postale) potrebbe essere scelto il PSP Poste,      |
-| che non potrebbe eseguire la transazione.                            |
-+----------------------------------------------------------------------+
-|**pagamentiModello2**                                                 |
-+----------------------------------------------------------------------+
-| Indica se mostrare o meno i servizi dei PSP che consentono il        |
-| pagamento con esecuzione differita (cosiddetto modello 2, cfr. §     |
-| 2.1.2 delle SANP).                                                   |
-+----------------------------------------------------------------------+
-|**codiceLingua:**                                                     |
-+----------------------------------------------------------------------+
-| Indica il codice della lingua da utilizzare per l’esposizione        |
-| delle pagine web.                                                    |
-|                                                                      |
-| *Valori ammessi*: vedi Tabella 11 a pagina 91.                       |
-|                                                                      |
-| *Valore di default:* **IT**                                          |
-|                                                                      |
-| *Note:* Il parametro è facoltativo, tuttavia **si raccomanda**       |
-| **di impostarlo correttamente**, sia per garantire la                |
-| visualizzazione della lingua coerente con il sito dell’Ente          |
-| Creditore, sia per consentire di visualizzare i PSP che offrono e    |
-| descrivono i loro servizi di pagamento nella lingua scelta           |
-| dall’utilizzatore finale.                                            |
-+----------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------+
+|**idDominio:**                                                                                                                      |
++====================================================================================================================================+
+| Identificativo del soggetto che sta richiedendo l’accesso al                                                                       |
+| portale WISP. Nel caso in cui il parametro primitiva assuma il                                                                     |
+| valore **nodoInviaRPT**, va indicato il valore del dato                                                                            |
+| idDominio presente nella RPT che deve essere inviata; invece, nel                                                                  |
+| caso in cui il parametro primitiva assuma il valore                                                                                |
+| **nodoInviaCarrelloRPT**, va indicato il valore del dato                                                                           |
+| idDominio presente nella prima RPT che compone il “carrello” di                                                                    |
+| RPT.                                                                                                                               |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**enteCreditore:**                                                                                                                  |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Stringa alfanumerica contenente la denominazione del soggetto che                                                                  |
+| sta richiedendo l’accesso al portale WISP. nel caso in cui il                                                                      |
+| parametro primitiva assuma il valore **nodoInviaRPT**, va                                                                          |
+| indicato la denominazione dell’Ente Creditore che invia la RPT,                                                                    |
+| invece, nel caso in cui il parametro primitiva assuma il valore                                                                    |
+| **nodoInviaCarrelloRPT**, va indicata la denominazione della                                                                       |
+| piattaforma che compone il “carrello” di RPT (ad esempio: quello                                                                   |
+| della piattaforma regionale).                                                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**keyPA:**                                                                                                                          |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Token generato dall'Ente Creditore rappresentativo della sessione                                                                  |
+| di scelta del PSP da parte dell’utente.                                                                                            |
+|                                                                                                                                    |
+| *Controlli:* deve essere univoco nel dominio dell'Ente Creditore.                                                                  |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**urlReturn:**                                                                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------+
+| URL a cui il portale WISP deve ritornare l’esito in caso di                                                                        |
+| scelta del PSP effettuata con successo.                                                                                            |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**urlBack:**                                                                                                                        |
++------------------------------------------------------------------------------------------------------------------------------------+
+| URL a cui il portale WISP deve ritornare il controllo in caso di                                                                   |
+| annullamento, *timeout* della transazione oppure parametro                                                                         |
+| ibanAccredito non corretto per quell’Ente Creditore.                                                                               |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**primitiva:**                                                                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------+
+|Primitiva che verrà utilizzata per effettuare il pagamento.                                                                         |
+|                                                                                                                                    |
+|*Valori ammessi:*                                                                                                                   |
+|                                                                                                                                    |
+|-  **nodoInviaRPT**                                                                                                                 |
+|                                                                                                                                    |
+|-  **nodoInviaCarrelloRPT**                                                                                                         |
+|                                                                                                                                    |
+|*Filtri attivati*: Nel caso in cui sia impostato il valore                                                                          |
+|**nodoInviaCarrello**, saranno selezionati solo i servizi di                                                                        |
+|pagamento dei PSP in grado di gestire tale primitiva e di                                                                           |
+|trattare più di un versamento nella stessa richiesta: pertanto, i                                                                   |
+|servizi di pagamento MyBank non saranno visualizzati.                                                                               |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**numPagamentiRPT:**                                                                                                                |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Numero dei pagamenti presenti nella singola RPT nel caso in cui                                                                    |
+| il parametro primitiva assuma il valore **nodoInviaRPT** oppure                                                                    |
+| numero complessivo dei pagamenti presenti in tutte le RPT                                                                          |
+| costituenti il “carrello” nel caso in cui il parametro primitiva                                                                   |
+| assuma il valore **nodoInviaCarrelloRPT**.                                                                                         |
+|                                                                                                                                    |
+| *Valori ammessi:* maggiore o uguale a 1.                                                                                           |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**stornoPagamento:**                                                                                                                |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Filtro per mostrare solo i PSP che consentono lo storno del                                                                        |
+| pagamento immediato.                                                                                                               |
+|                                                                                                                                    |
+| *Valori ammessi*:                                                                                                                  |
+|                                                                                                                                    |
+| **SI** l'Ente Creditore **ha implementato** la gestione dello                                                                      |
+| storno                                                                                                                             |
+|                                                                                                                                    |
+| **NO** l'Ente Creditore **non** **ha implementato** la gestione                                                                    |
+| dello storno                                                                                                                       |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**bolloDigitale**                                                                                                                   |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Filtro per mostrare solo i PSP che consentono il pagamento della                                                                   |
+| marca da bollo digitale.                                                                                                           |
+|                                                                                                                                    |
+| *Valori ammessi*:                                                                                                                  |
+|                                                                                                                                    |
+| **SI** la RPT **si riferisce** al pagamento della marca da bollo                                                                   |
+| digitale                                                                                                                           |
+|                                                                                                                                    |
+| **NO** la RPT **non si riferisce** al pagamento della marca da                                                                     |
+| bollo digitale                                                                                                                     |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**terzoModelloPagamento:**                                                                                                          |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Indica se mostrare o meno i servizi dei PSP che consentono il                                                                      |
+| pagamento attivato presso i PSP (cosiddetto modello 3,                                                                             |
+| `cfr. § 2.2 delle SANP <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`_)                            |
+| *Note*: Nella versione corrente delle funzionalità WISP, il                                                                        |
+| parametro è ignorato.                                                                                                              |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**idPSP:**                                                                                                                          |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Identificativo del PSP, eventualmente selezionato dall'utente in                                                                   |
+| sessioni precedenti e memorizzato a cura dell'Ente Creditore.                                                                      |
+| Corrisponde al parametro O-2 della primitiva                                                                                       |
+| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                                                                                         |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**tipoVersamento**                                                                                                                  |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Identificativo del tipo di versamento eventualmente selezionato                                                                    |
+| dall'utente in sessioni precedenti e memorizzato a cura dell'Ente                                                                  |
+| Creditore. Corrisponde al parametro O-5 della primitiva                                                                            |
+| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                                                                                         |
+|                                                                                                                                    |
+| *Controlli*: Può assumere gli stessi valori dell’omologo campo                                                                     |
+| della RPT (vedi § 5.3.1).                                                                                                          |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**importoTransazione**                                                                                                              |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Campo alfanumerico (due cifre per la parte decimale, il                                                                            |
+| separatore dei centesimi è il punto “.”), indicante l’importo                                                                      |
+| relativo alla transazione oggetto della scelta di pagamento.                                                                       |
+|                                                                                                                                    |
+| *Controlli*: Deve essere diverso da “0.00”. È obbligatorio se il                                                                   |
+| parametro **versioneInterfacciaWISP** assume il valore **1.3**.                                                                    |
++------------------------------------------------------------------------------------------------------------------------------------+
+| *Note*: Questo campo deve essere valorizzato correttamente anche                                                                   |
+| dagli Enti Creditori che utilizzano la versione 1.2                                                                                |
+| dell’interfaccia WISP, ossia nel caso in cui il parametro                                                                          |
+| **versioneInterfacciaWISP** assuma il valore **1.2**.                                                                              |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**versioneInterfacciaWISP**                                                                                                         |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Indica la versione di interfaccia utilizzata per il WISP.                                                                          |
+|                                                                                                                                    |
+| *Valori ammessi*:                                                                                                                  |
+|                                                                                                                                    |
+| **1.2** La versione 1.2 è deprecata in quanto l’utente                                                                             |
+| riceverebbe un errore dal WISP in assenza di indicazioni del                                                                       |
+| parametro **importoTransazione** (vedi parametro precedente).                                                                      |
+|                                                                                                                                    |
+| **1.3** versione da utilizzare.                                                                                                    |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**ibanAccredito**                                                                                                                   |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Indica il codice IBAN che sarà presente nella RPT e verso il                                                                       |
+| quale sarà effettuato il pagamento.                                                                                                |
+|                                                                                                                                    |
+| *Controlli*: Se il parametro primitiva è impostato a                                                                               |
+| **'nodoInviaCarrelloRPT** ' oppure il parametro numPagamentiRPT                                                                    |
+| è maggiore di 1, il parametro viene ignorato.                                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**contoPoste**                                                                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Indica se l'Ente Creditore beneficiario del pagamento dispone di                                                                   |
+| almeno un c/c postale censito nella Tabella dei c/c di accredito                                                                   |
+| di cui al § 4.3.3 delle SANP.                                                                                                      |
+|                                                                                                                                    |
+| *Valori ammessi*:                                                                                                                  |
+|                                                                                                                                    |
+| **SI** l'Ente Creditore **gestisce** per quel pagamento conti                                                                      |
+| correnti postali                                                                                                                   |
+|                                                                                                                                    |
+| **NO** l'Ente Creditore **non gestisce** conti correnti postali                                                                    |
+|                                                                                                                                    |
+| *Note:* Il parametro è obbligatorio ed efficace solo nel caso in                                                                   |
+| cui il campo ibanAccredito non sia valorizzato.                                                                                    |
+|                                                                                                                                    |
+| Nel caso in cui il parametro primitiva (vedi sopra) assuma il                                                                      |
+| valore **nodoInviaCarrelloRPT** (“carrello” di RPT), per                                                                           |
+| impostare a **SI** il parametro contoPoste **è necessario che**                                                                    |
+| **tutti** gli Enti Creditori beneficiari dei pagamenti presenti nel                                                                |
+| "carrello" dispongano di almeno un c/c postale censito nella                                                                       |
+| Tabella dei c/c di accredito di cui al § 4.2.3. In caso contrario                                                                  |
+| (anche uno solo degli Enti Creditori presenti nel "carrello" non                                                                   |
+| dispone di un c/c postale) potrebbe essere scelto il PSP Poste,                                                                    |
+| che non potrebbe eseguire la transazione.                                                                                          |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**pagamentiModello2**                                                                                                               |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Indica se mostrare o meno i servizi dei PSP che consentono il                                                                      |
+| pagamento con esecuzione differita (cosiddetto modello 2, cfr. §                                                                   |
+| 2.1.2 delle SANP).                                                                                                                 |
++------------------------------------------------------------------------------------------------------------------------------------+
+|**codiceLingua:**                                                                                                                   |
++------------------------------------------------------------------------------------------------------------------------------------+
+| Indica il codice della lingua da utilizzare per l’esposizione                                                                      |
+| delle pagine web.                                                                                                                  |
+|                                                                                                                                    |
+| *Valori ammessi*: vedi Tabella 11 a pagina 91.                                                                                     |
+|                                                                                                                                    |
+| *Valore di default:* **IT**                                                                                                        |
+|                                                                                                                                    |
+| *Note:* Il parametro è facoltativo, tuttavia **si raccomanda**                                                                     |
+| **di impostarlo correttamente**, sia per garantire la                                                                              |
+| visualizzazione della lingua coerente con il sito dell’Ente                                                                        |
+| Creditore, sia per consentire di visualizzare i PSP che offrono e                                                                  |
+| descrivono i loro servizi di pagamento nella lingua scelta                                                                         |
+| dall’utilizzatore finale.                                                                                                          |
++------------------------------------------------------------------------------------------------------------------------------------+
 
 Gli elementi opzionali idPSP e tipoVersamento rappresentano le scelte di
 pagamento dell’utente già profilato nel contesto del Portale dell'Ente
