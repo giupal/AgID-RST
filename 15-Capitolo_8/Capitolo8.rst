@@ -598,8 +598,8 @@ Il *workflow* del processo prevede i seguenti passi, indicati in Figura
 
 Questa funzionalità può essere utilizzata dalla componente di Back-end
 dell'Ente Creditore in modo autonomo, senza interazione con l'utenza,
-per risolvere problematiche di errore (si veda il successivo paragrafo
-8.1.1.6).
+per risolvere problematiche di errore (`si veda il successivo paragrafo
+8.1.1.6 <../15-Capitolo_8/Capitolo8.rst#casi-di-errore-e-strategie-di-ripristino-per-lente-creditore>`__).
 
 Avvertenze per la predisposizione e l’invio delle Richieste di Pagamento Telematiche
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -674,7 +674,7 @@ indeterminatezza circa lo stato del pagamento:
 2) esito della re-direzione sulla componente WISP 2.0 del NodoSPC: è uno
    stato temporaneo nel quale il portale dell'EC è in attesa di essere
    attivato dalla componente WFESP del NodoSPC a seguito di uno degli
-   eventi relativi ai tre scenari previsti nel § 8.1.1.3:
+   eventi relativi ai tre scenari previsti nel `§ 8.1.1.3 <../15-Capitolo_8/Capitolo8.rst#workflow-di-chiusura-della-transazione-          presso-ec>`__:
 
    a. abbandono della transazione,
 
@@ -694,8 +694,8 @@ pagamento, si rimanda al documento "*Indicatori di qualità per i Soggetti Adere
 pubblicato sul sito dell'Agenzia.
 
 Per gestire le situazioni di indeterminatezza sopra indicate, il NodoSPC
-mette a disposizione la primitiva *nodoChiediStatoRPT* (vedi §§ 8.1.1.4
-e 8.2.1.3) attraverso la quale è possibile ottenere lo stato
+mette a disposizione la primitiva *nodoChiediStatoRPT* (`vedi §§ 8.1.1.4 <../15-Capitolo_8/Capitolo8.rst#controllo-circa-lo-stato-di-avanzamento-di-un-pagamento>`__
+e `8.2.1.3 <../15-Capitolo_8/Capitolo8.rst#nodochiedistatorpt>`__) attraverso la quale è possibile ottenere lo stato
 dell'operazione, comprensivo delle informazioni per riattivare la re
 direzione.
 
@@ -721,7 +721,8 @@ Pagamento attivato presso il PSP
 .. _Pagamento attivato presso il PSP:
 
 Questo modello di pagamento, conosciuto anche come "Modello 3" e già
-descritto ai §§ 2.1.1 e 2.1.2, presuppone che l’utilizzatore finale sia
+descritto ai `§§ 2.1.1 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-re-indirizzamento-on-line>`__ e
+`2.1.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`__ , presuppone che l’utilizzatore finale sia
 in possesso di un avviso (analogico o digitale) contenente le
 indicazioni necessarie per effettuare il pagamento.
 
@@ -732,22 +733,18 @@ a) dell'archivio dei pagamenti in attesa (APA), contenente tutte le
    per effettuare il pagamento;
 
 b) di un’applicazione “*server*” dedicata necessaria per trattare le
-   richieste provenienti dai PSP, come meglio dettagliato nel §
-   8.2.3;
+   richieste provenienti dai PSP, come meglio dettagliato nel `§ 8.2.3 <../15-Capitolo_8/Capitolo8.rst#pagamenti-in-attesa-e-richiesta-    di-generazione-della-rpt>`__ ;
 
-c) capacità di trattare le Ricevute Telematiche (RT), così come indicato
-   nel § 8.2.2.
+c) capacità di trattare le Ricevute Telematiche (RT), così come indicato nel `§ 8.2.2 <../15-Capitolo_8/Capitolo8.rst#ricezione-delle-    rt-e-richiesta-di-copia>`__ .
 
-Per maggiori dettagli circa il *workflow* analitico si veda il § 9.1.2 a
-partire da pagina 173.
+Per maggiori dettagli circa il *workflow* analitico si `veda il § 9.1.2 <../16-Capitolo_9/Capitolo9.rst#pagamenti-attivati-presso-il-psp>`__ a partire da pagina 173.
 
 Pagamento spontaneo presso il PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. _Pagamento spontaneo presso il PSP:
 
 Questo modello di pagamento, conosciuto anche come "Modello 4" e già
-descritto al § 2.2.3, consente all’utilizzatore finale di effettuare
-pagamenti presso i PSP pur non essendo in possesso di un avviso
+descritto al  `§ 2.2.3 <../07-Capitolo_2/Capitolo2.rst#pagamento-spontaneo-presso-i-psp>`__ , consente all’utilizzatore finale di effettuare pagamenti presso i PSP pur non essendo in possesso di un avviso
 (analogico o digitale), ma sulla base di informazioni a lui note (ad
 esempio: la targa del veicolo nel caso di pagamento della tassa
 automobilistica).
