@@ -268,8 +268,7 @@ con emulazione, che si compone dei seguenti passi:
    **nodoChiediSceltaWISP**;
 
 6. la componente FESP del NodoSPC restituisce nella *response* dati PSP
-   fittizi (`vedi § 8.1.1.5 <../15-Capitolo_8/Capitolo8.rst#avvertenze-per-la-predisposizione-e-linvio-delle-richieste-di-pagamento-telematiche>`__), mantenuti unicamente per retro
-   compatibilità;
+   fittizi (`vedi § 8.1.1.5 <../15-Capitolo_8/Capitolo8.rst#avvertenze-per-la-predisposizione-e-linvio-delle-richieste-di-pagamento-   telematiche>`__), mantenuti unicamente per retro compatibilità;
 
 *Fine delle azioni della componente “Emulatore”*
 
