@@ -220,7 +220,7 @@ per questa fase del pagamento, che si compone dei seguenti passi:
 
 7. il Portale EC reindirizza l’utilizzatore finale verso la componente
    WISP 2.0 del NodoSPC utilizzando la *query string* definita al 
-   ` § 8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__ 
+   `§ 8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__ 
    (contenente anche il parametro idSessione);
 
 8. l'utilizzatore finale è reindirizzato nella *landing page* della
