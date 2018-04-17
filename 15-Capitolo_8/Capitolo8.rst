@@ -1327,18 +1327,18 @@ e. codiceContestoPagamento
 **Parametri di input**
 
 +-----------------------------------------------------------------------+
-| 10. password                                                          |
+| 5. password                                                           |
 +=======================================================================+
-| 5. identificativoPSP: per permettere di specificare il PSP            |
+| 6. identificativoPSP: per permettere di specificare il PSP            |
 +-----------------------------------------------------------------------+
-| 6. identificativoIntermediarioPSP                                     |
+| 7. identificativoIntermediarioPSP                                     |
 +-----------------------------------------------------------------------+
-| 7. identificativoCanale: per permettere di specificare il percorso    |
+| 8. identificativoCanale: per permettere di specificare il percorso    |
 |    verso il PSP                                                       |
 +-----------------------------------------------------------------------+
-| 8. tipoFirma: **parametro deprecato**                                 |
+| 9. tipoFirma: **parametro deprecato**                                 |
 +-----------------------------------------------------------------------+
-| 9. RPT: file XML codificato in formato base64 binary (vedi Tabella 1) |
+| 10. RPT: file XML codificato in formato base64 binary (vedi Tabella 1)|
 +-----------------------------------------------------------------------+
 
 **Parametri di output**
@@ -1352,7 +1352,7 @@ e. codiceContestoPagamento
    contenente anche una *query string* “idSession=<idSession>” che
    identifica univocamente l’operazione di pagamento
 
-Gestione degli errori
+**Gestione degli errori**
 
 in caso di errore: **faultBean** emesso dal **NodoSPC**.
 
@@ -3224,7 +3224,7 @@ Ricezione dei Totali di Traffico
 .. _Ricezione dei Totali di Traffico:
 
 Per la gestione dei meccanismi di ricezione dei flussi relativi ai
-"Totali di Traffico" (`vedi § 4.5.1 <../09-Capitolo_4/Capitolo4.rst#totali-di-traffico>`__) il Nodo dei Pagamenti-SPC rende
+"Totali di Traffico" (`vedi § 4.5.1 <../09-Capitolo_4/Capitolo4.rst#totali-di-traffico>`_) il Nodo dei Pagamenti-SPC rende
 disponibili i metodi SOAP descritti nel seguito e rappresentati nel
 diagramma di Figura 44 a pagina 163:
 
@@ -3244,8 +3244,7 @@ t. **nodoChiediQuadraturaPA**, con la quale l’Ente Creditore richiede
 **Figura** **44 – NodoSPC/EC: Metodi di invio dei "Totali di Traffico"**
 
 Il flusso contenente le informazioni in questione è costituito da un
-file XML, il cui tracciato è indicato al `§ 5.3.8 della Sezione II<../11-Capitolo_5/Capitolo5.rst#flusso-totali-di-traffico-per-gli-enti-creditori>`__, ed è
-individuato dalla coppia di informazioni idDominio e idFlusso.
+file XML, il cui tracciato è indicato al `§ 5.3.8 della Sezione II <../11-Capitolo_5/Capitolo5.rst#flusso-totali-di-traffico-per-gli-enti-creditori>`_, ed è individuato dalla coppia di informazioni idDominio e idFlusso.
 
 L’invio del flusso di quadratura avviene in modalità *pull*: è cioè
 compito dell'Ente Creditore richiedere al Nodo dei Pagamenti-SPC il file
@@ -3372,7 +3371,7 @@ Interfacce HTTP di re-direzione per il pagamento immediato
 Nel presente paragrafo saranno date indicazioni circa i parametri da
 utilizzare nella gestione della re-direzione del browser
 dell'utilizzatore finale nell'ambito del modello di pagamento con
-esecuzione immediata (vedi § 8.1.1).
+esecuzione immediata (`vedi § 8.1.1 <../15-Capitolo_8/Capitolo8.rst#pagamenti-attivati-presso-lente-creditore>`__).
 
 Tali indicazioni sono valide anche per la gestione del cosiddetto
 "carrello multi beneficiario".
