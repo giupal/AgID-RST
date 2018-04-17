@@ -58,7 +58,7 @@ e rispettando le indicazioni presenti nel documento "*Indicatori di*
 Per i pagamenti eseguiti presso l'Ente Creditore, l'invio delle Ricevute
 Telematiche è consentito esclusivamente in modalità *push* (primitiva
 **nodoInviaRT**), così come indicato nel *Workflow* di chiusura della
-transazione presso EC (`vedi § 8.1.1.3 <../15-Capitolo_8/Capitolo8.rst#workflow-di-chiusura-della-transazione-presso-ec>`__, passi da 3 a 6). Per l'invio della RT in modalità *push* si veda anche il `§ 9.2.2.1 <../16-Capitolo_9/Capitolo9.rst#nodoinviart>>`_.
+transazione presso EC (`vedi § 8.1.1.3 <../15-Capitolo_8/Capitolo8.rst#workflow-di-chiusura-della-transazione-presso-ec>`__, passi da 3 a 6). Per l'invio della RT in modalità *push* si veda anche il `§ 9.2.2.1 <../16-Capitolo_9/Capitolo9.rst#nodoinviart>`_.
 
 Si tenga presente che nel caso in cui il PSP riceva un carrello di RPT
 dovrà generare un insieme di RT e inviarle tutte con la primitiva
