@@ -344,8 +344,7 @@ scenari di invio del carrello di RPT al PSP:
 
 7. la componente WFESP del NodoSPC reindirizza il browser
    dell'utilizzatore finale verso il Portale del PSP utilizzando la
-   *query string* definita al `paragrafo 8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__ ;         (contiene il dato
-    parametriProfiloPagamento).
+   *query string* definita al `paragrafo 8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__;          (contiene il dato parametriProfiloPagamento).
 
 8. a seguito del completamento delle operazioni di invio carrello, si
    prevede che il PSP ponga l'utilizzatore finale nelle condizioni
@@ -407,8 +406,8 @@ scenario di "pagamento con carta", prevede i seguenti passi:
    (credito, debito, prepagata) attraverso il POS virtuale del NodoSPC,
    la componente WFESP del NodoSPC reindirizza il browser
    dell'utilizzatore finale verso il Portale EC utilizzando la *query string*
-   definita al `paragrafo 9.3.2 <../16-Capitolo_9/Capitolo9.rst#re-direzione-dal-portale-psp-verso-il-web-fesp>`__(contiene l'esito positivo del
-   pagamento);
+   definita al `paragrafo 9.3.2 <../16-Capitolo_9/Capitolo9.rst#re-direzione-dal-portale-psp-verso-il-web-fesp>`_ 
+   (contiene l'esito positivo del pagamento);
 
 2. la componente di *Back-end* del PSP, ricevuto il carrello di RPT (al
    passo 2 del paragrafo precedente) effettua eventuali controlli
@@ -510,7 +509,7 @@ pagina 126) prevede i seguenti passi:
 
 30. l'utilizzatore finale, avendo scelto la modalità con autorizzazione
     non contestuale presso il PSP (lettera di manleva, ecc.: `vedi §
-    2.1.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`_), completa la transazione sulle       pagine web messe a disposizione dalla componente WISP 2.0 del NodoSPC;
+    2.1.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`__), completa la transazione sulle     pagine web messe a disposizione dalla componente WISP 2.0 del NodoSPC;
 
 31. alla conclusione del pagamento, la componente WISP del NodoSPC
     presenta all'utente una *Thank you page* nella quale è presente un
@@ -521,8 +520,8 @@ pagina 126) prevede i seguenti passi:
 
 33. la componente WFESP del NodoSPC reindirizza il browser
     dell'utilizzatore finale verso il Portale EC utilizzando la *query string*
-    definita al `paragrafo 8.3.2 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-web-fesp-verso-il-portale-ec>`_ (contiene l'esito del pagamento
-    impostato al valore costante "DIFFERITO");
+    definita al `paragrafo 8.3.2 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-web-fesp-verso-il-portale-ec>`_ 
+    (contiene l'esito del pagamento impostato al valore costante "DIFFERITO");
 
     .... passi non tracciati ....
 
