@@ -20,8 +20,8 @@ servizi applicativi dal loro indirizzo fisico.
 Nel nostro contesto, il legame tra Ente Creditore e Nodo dei
 Pagamenti-SPC passa attraverso l’intermediarioPA (in molti casi potrebbe
 coincidere con l'EC stesso), che con il proprio sistema si connette
-direttamente al Nodo dei Pagamenti-SPC con le modalità indicate al §
-4.1.
+direttamente al Nodo dei Pagamenti-SPC con le modalità indicate al `§
+4.1 <../09-Capitolo_4/Capitolo4.rst#connessione-al-sistema-pagopa>`__.
 
 Il Nodo dei Pagamenti-SPC pone a fattor comune le infrastrutture
 tecniche di comunicazione, agendo quindi come normalizzatore dei
@@ -45,7 +45,7 @@ specificità dei protocolli di trust e comunicazione.
 I paragrafi seguenti descrivono a livello generale, valide quindi per
 tutti i soggetti coinvolti, le interazioni tra gli Enti Creditori, il
 Nodo dei Pagamenti-SPC ed i PSP necessarie per attuare i modelli di
-pagamento indicati nel Capitolo 2 della Sezione I, focalizzando però
+pagamento indicati nel `Capitolo 2 della Sezione I <../07-Capitolo_2/Capitolo2.rst>`__., focalizzando però
 l'attenzione sulle attività di pertinenza degli Enti Creditori.
 
 Pertanto, in questo paragrafo e nei successivi saranno analizzati nel
@@ -96,7 +96,7 @@ di Figura 23 a pagina 118, contempla i seguenti passi:
        processo.
 
        Per maggiori informazioni si veda il *workflow* di dettaglio al
-       paragrafo 8.1.1.1.
+       `paragrafo 8.1.1.1 <../15-Capitolo_8/Capitolo8.rst#workflow-di-check-out-e-pagamento>`__.
 
 2)  *Autenticazione*: il servizio di scelta e memorizzazione del
       pagamento (componente WISP 2.0 del NodoSPC) propone
@@ -108,9 +108,9 @@ di Figura 23 a pagina 118, contempla i seguenti passi:
 
 3)  *Scelta della modalità di pagamento*: l’utilizzatore finale sceglie
       un servizio di pagamento fra quelli disponibili o ne richiama
-      uno fra quelli memorizzati attraverso (vedi § 2.1.3.1). In base
+      uno fra quelli memorizzati attraverso (`vedi § 2.1.3.1 <../07-Capitolo_2/Capitolo2.rst#servizio-di-scelta-e-memorizzazione-del-pagamento>`_). In base
       a tale scelta, il pagamento viene indirizzato su uno dei modelli
-      descritti al paragrafo 2.1 della Sezione I.
+      descritti al `paragrafo 2.1 della Sezione I <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-lente-creditore>`__.
 
 4)  In funzione dello strumento utilizzato, il pagamento potrà avvenire:
 
@@ -127,7 +127,7 @@ di Figura 23 a pagina 118, contempla i seguenti passi:
 5)  *Invio carrello a PSP*: la componente FESP del NodoSPC invia il
       carrello di RPT al PSP in modalità diverse in funzione della
       scelta effettuata dall'utilizzatore finale. Per maggiori
-      informazioni si veda il *workflow* di dettaglio al § 8.1.1.2;
+      informazioni si veda il *workflow* di dettaglio `al § 8.1.1.2 <../15-Capitolo_8/Capitolo8.rst#invio-carrello-al-psp>`__;
 
 6)  *Gestione RPT*: il PSP gestisce le RPT pervenute raccogliendo le
       autorizzazioni del pagamento date dall’utilizzatore finale,
@@ -152,7 +152,7 @@ di Figura 23 a pagina 118, contempla i seguenti passi:
 9)  *Chiusura della transazione*: la componente FESP del Nodo SPC attiva
       la primitiva **paaInviaRT** presso l’Ente Creditore
       concludendo il processo di pagamento. Per maggiori informazioni
-      si veda il workflow di dettaglio al paragrafo 8.1.1.3;
+      si veda il workflow di dettaglio al `paragrafo 8.1.1.3 <../15-Capitolo_8/Capitolo8.rst#workflow-di-chiusura-della-transazione-presso-ec>`__;
 
 10) *Memorizzazione della scelta*: la componente WISP 2.0 del Nodo SPC
       consente agli utenti registrati di memorizzare il servizio di
@@ -200,7 +200,7 @@ per questa fase del pagamento, che si compone dei seguenti passi:
 2. il Portale EC invoca la primitiva **nodoInviaCarrelloRPT** per
    trasmettere alla componente FESP del NodoSPC il carrello di RPT
    (per l'indicazione del PSP verso il quale richiedere il pagamento
-   sono utilizzati dati fissi, vedi § 8.1.1.5);
+   sono utilizzati dati fissi, `vedi § 8.1.1.5 <../15-Capitolo_8/Capitolo8.rst#avvertenze-per-la-predisposizione-e-linvio-delle-richieste-di-pagamento-telematiche>`__);
 
 3. alla ricezione della primitiva, la componente FESP del NodoSPC
    verifica che le RPT ricevute siano utilizzabili per il pagamento;
@@ -219,8 +219,8 @@ per questa fase del pagamento, che si compone dei seguenti passi:
    finale;
 
 7. il Portale EC reindirizza l’utilizzatore finale verso la componente
-   WISP 2.0 del NodoSPC utilizzando la *query string* definita al §
-   8.3.1 (contenente anche il parametro idSessione);
+   WISP 2.0 del NodoSPC utilizzando la *query string* definita al ` §
+   8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__(contenente anche il parametro idSessione);
 
 8. l'utilizzatore finale è reindirizzato nella *landing page* della
    componente WISP 2.0 del NodoSPC.
@@ -254,8 +254,8 @@ con emulazione, che si compone dei seguenti passi:
 *Inizio delle azioni della componente “Emulatore”*
 
 3. il portale EC effettua tramite HTTP POST la *redirect* sulle pagine
-   WISP 1.3, passando come parametri le informazioni riportate nel §
-   8.4;
+   WISP 1.3, passando come parametri le informazioni riportate nel `§
+   8.4 <../15-Capitolo_8/Capitolo8.rst#interfacce-http-per-il-servizio-wisp>`__;
 
 4. la componente WISP del NodoSPC ritorna il controllo al portale
    dell'Ente Creditore, mediante re-direzione all’indirizzo
@@ -267,7 +267,7 @@ con emulazione, che si compone dei seguenti passi:
    **nodoChiediSceltaWISP**;
 
 6. la componente FESP del NodoSPC restituisce nella *response* dati PSP
-   fittizi (vedi § 8.1.1.5), mantenuti unicamente per retro
+   fittizi (`vedi § 8.1.1.5 <../15-Capitolo_8/Capitolo8.rst#avvertenze-per-la-predisposizione-e-linvio-delle-richieste-di-pagamento-telematiche>`__), mantenuti unicamente per retro
    compatibilità;
 
 *Fine delle azioni della componente “Emulatore”*
@@ -320,7 +320,7 @@ scenari di invio del carrello di RPT al PSP:
    parametri le informazioni relative all'identificativo della
    transazione (RRN) e al suo costo. Dette commissioni sono quelle che
    il PSP ha comunicato ad AgID attraverso il Catalogo Dati Informativi
-   (vedi §§ 4.2.2 e 5.3.7), differenziate tra costi "*on us*" e "*not on us*";
+   (`vedi §§ 4.2.2 <../09-Capitolo_4/Capitolo4.rst#catalogo-dati-informativi>`__ e `5.3.7 <../11-Capitolo_5/Capitolo5.rst#catalogo-dati-informativi>`__), differenziate tra costi "*on us*" e "*not on us*";
 
 2. la componente di *Back-end* del PSP prende in carico il carrello di
    RPT e invia la relativa *response*, completando le operazioni di
@@ -344,7 +344,7 @@ scenari di invio del carrello di RPT al PSP:
 
 7. la componente WFESP del NodoSPC reindirizza il browser
    dell'utilizzatore finale verso il Portale del PSP utilizzando la
-   *query string* definita al paragrafo 8.3.1; (contiene il dato
+   *query string* definita al `paragrafo 8.3.1 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__; (contiene il dato
    parametriProfiloPagamento).
 
 8. a seguito del completamento delle operazioni di invio carrello, si
@@ -407,7 +407,7 @@ scenario di "pagamento con carta", prevede i seguenti passi:
    (credito, debito, prepagata) attraverso il POS virtuale del NodoSPC,
    la componente WFESP del NodoSPC reindirizza il browser
    dell'utilizzatore finale verso il Portale EC utilizzando la *query string*
-   definita al paragrafo 9.3.2 (contiene l'esito positivo del
+   definita al `paragrafo 9.3.2 <../16-Capitolo_9/Capitolo9.rst#re-direzione-dal-portale-psp-verso-il-web-fesp>`__(contiene l'esito positivo del
    pagamento);
 
 2. la componente di *Back-end* del PSP, ricevuto il carrello di RPT (al
@@ -415,12 +415,12 @@ scenario di "pagamento con carta", prevede i seguenti passi:
    interni e genera la RT da inviare all'Ente Creditore;
 
 3. la componente di *Back-end* del PSP invia la RT alla componente FESP
-   del NodoSPC utilizzando la primitiva **nodoInviaRT** (vedi §
-   9.2.2.1);
+   del NodoSPC utilizzando la primitiva **nodoInviaRT** (`vedi §
+   9.2.2.1 <../16-Capitolo_9/Capitolo9.rst#nodoinviart>`__);
 
 4. la componente FESP del NodoSPC invia al Portale dell'Ente Creditore
    la RT pervenuta dal PSP utilizzando la primitiva **paaInviaRT**
-   (vedi § 8.2.2.1);
+   (`vedi § 8.2.2.1 <../15-Capitolo_8/Capitolo8.rst#paainviart>`__);
 
 5. il Portale EC invia la *response* della **paaInviaRT** alla
    componente di FESP del NodoSPC;
@@ -446,15 +446,14 @@ scenario di "pagamento con carta", prevede i seguenti passi:
 
 9.  **solo in caso di abbandono**, la componente WFESP del NodoSPC
     reindirizza il browser dell'utilizzatore finale verso il Portale EC
-    utilizzando la *query string* definita al paragrafo 9.3.2 (contiene
-    l'esito negativo del pagamento);
+    utilizzando la *query string* definita al `paragrafo 9.3.2 <../16-Capitolo_9/Capitolo9.rst#re-direzione-dal-portale-psp-verso-il-       web-fesp>`__ (contiene l'esito negativo del pagamento);
 
 10. la componente FESP del NodoSPC genera una RT negativa, indicandone
     il motivo (timeout o abbandono) nell'apposito campo;
 
 11. la componente FESP del NodoSPC invia al Portale dell'Ente Creditore
-    la RT NEGATIVA utilizzando la primitiva **paaInviaRT** (vedi §
-    8.2.2.1);
+    la RT NEGATIVA utilizzando la primitiva **paaInviaRT** (`vedi §
+    8.2.2.1 <../15-Capitolo_8/Capitolo8.rst#paainviart>`__);
 
 12. vedi precedente punto 5.
 
@@ -476,13 +475,12 @@ seguenti passi:
     componente WFESP del NodoSPC per segnalarne il risultato;
 
 22. la componente WFESP del NodoSPC riceve l’esito del pagamento nella
-    *query string* definita al paragrafo 9.3.2 (contenente il codice di
+    *query string* definita al `paragrafo 9.3.2 <../16-Capitolo_9/Capitolo9.rst#re-direzione-dal-portale-psp-verso-il-web-fesp>`_           (contenente il codice di
     ritorno circa l'esito della transazione);
 
 23. la componente WFESP del NodoSPC reindirizza il browser
     dell'utilizzatore finale verso il Portale EC utilizzando la *query string*
-    definita al paragrafo 8.3.2; (contiene l'esito del
-    pagamento);
+    definita al  `paragrafo 8.3.2 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-web-fesp-verso-il-portale-ec>`_ (contiene l'esito       del pagamento);
 
 24. il Portale del PSP segnala l'esito del pagamento alla propria
     componente di *Back-end*;
@@ -511,9 +509,8 @@ Il workflow legato a questo contesto (si veda lo schema di Figura 29 a
 pagina 126) prevede i seguenti passi:
 
 30. l'utilizzatore finale, avendo scelto la modalità con autorizzazione
-    non contestuale presso il PSP (lettera di manleva, ecc.: vedi §
-    2.1.2), completa la transazione sulle pagine web messe a
-    disposizione dalla componente WISP 2.0 del NodoSPC;
+    non contestuale presso il PSP (lettera di manleva, ecc.: `vedi §
+    2.1.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`_), completa la transazione sulle       pagine web messe a disposizione dalla componente WISP 2.0 del NodoSPC;
 
 31. alla conclusione del pagamento, la componente WISP del NodoSPC
     presenta all'utente una *Thank you page* nella quale è presente un
@@ -524,7 +521,7 @@ pagina 126) prevede i seguenti passi:
 
 33. la componente WFESP del NodoSPC reindirizza il browser
     dell'utilizzatore finale verso il Portale EC utilizzando la *query string*
-    definita al paragrafo 8.3.2 (contiene l'esito del pagamento
+    definita al `paragrafo 8.3.2 <../15-Capitolo_8/Capitolo8.rst#re-direzione-dal-web-fesp-verso-il-portale-ec>`_ (contiene l'esito del pagamento
     impostato al valore costante "DIFFERITO");
 
     .... passi non tracciati ....
