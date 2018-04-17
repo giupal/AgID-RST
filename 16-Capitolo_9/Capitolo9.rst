@@ -830,7 +830,7 @@ Figura 53 a pagina 187, nella quale:
 
 1) il *Back-office* del PSP richiede alla componente di *Back-end* del
    PSP di revocare una RT per un “annullo tecnico” oppure a seguito di
-   una richiesta effettuata da un proprio cliente ` vedi § 2.3 <../07-Capitolo_2/Capitolo2.rst#revoca-della-ricevuta-telematica>`_;
+   una richiesta effettuata da un proprio cliente `vedi § 2.3 <../07-Capitolo_2/Capitolo2.rst#revoca-della-ricevuta-telematica>`_;
 
 2) la componente di *Back-end* del PSP richiede la revoca di una RT
    inviando al NodoSPC la Richiesta Revoca (RR) tramite la primitiva
