@@ -1311,7 +1311,7 @@ L'utilizzo della primitiva **pspInviaRPT** è deprecato e mantenuto per
 retro compatibilità in quanto un carrello di pagamenti può essere
 costituito da un'unica e sola RPT.
 
-Parametri header
+**Parametri header**
 
 1. intestazionePPT
 
@@ -1325,7 +1325,7 @@ d. identificativoUnivocoVersamento
 
 e. codiceContestoPagamento
 
-Parametri di input
+**Parametri di input**
 
 +-----------------------------------------------------------------------+
 | 10. password                                                          |
@@ -1342,7 +1342,7 @@ Parametri di input
 | 9. RPT: file XML codificato in formato base64 binary (vedi Tabella 1) |
 +-----------------------------------------------------------------------+
 
-Parametri di output
+**Parametri di output**
 
 1. esito: OK oppure KO
 
@@ -1439,7 +1439,7 @@ oppure respinta per intero con errore.
 La *response* contiene l’URL di re-direzione per il pagamento online
 relativo all’intero “carrello”.
 
-Parametri Header
+**Parametri Header**
 
 1. intestazioneCarrelloPPT:
 
@@ -1449,7 +1449,7 @@ Parametri Header
 
    c. identificativoStazioneIntermediarioPA
 
-Parametri di input
+**Parametri di input**
 
 1. password
 
@@ -1471,7 +1471,7 @@ Parametri di input
 
    e. RPT: file XML in formato base64 binary (vedi Tabella 1)
 
-Parametri di output
+**Parametri di output**
 
 1. URL: a cui re-dirigere il browser dell’utilizzatore finale,
    contenente anche una *query string* “idSession=<idSession>” che
@@ -1479,7 +1479,7 @@ Parametri di output
 
 2. esitoComplessivoOperazione: OK oppure KO.
 
-Gestione degli errori
+**Gestione degli errori**
 
 Se il parametro esitoComplessivoOperazione non è **OK**, sarà presente
 un singolo **faultBean** nel formato specificato in Tabella 51, oppure
@@ -1569,7 +1569,7 @@ modo della primitiva **nodoInviaRPT**, questa primitiva consente di
 recuperare, se necessario, il caso in cui la *response* di una
 precedente **nodoInviaRPT** sia stata perduta.
 
-Parametri di input
+**Parametri di input**
 
 1. identificativoIntermediarioPA
 
@@ -1583,7 +1583,7 @@ Parametri di input
 
 6. codiceContestoPagamento
 
-Parametri di output
+**Parametri di output**
 
 1. Redirect: valori ammessi 0 | 1; specifica se il pagamento prescelto
    dall'utente prevede la re-direzione dell’utilizzatore finale
@@ -1622,7 +1622,7 @@ d. versamentiLista: struttura contenente una lista di elementi che
 
 4. descrizione: dello stato alla data
 
-Gestione degli errori
+**Gestione degli errori**
 
 in caso di errore: **faultBean** emesso da **NodoSPC** (faultBean.id
 “NodoDeiPagamentiSPC”).
@@ -1762,7 +1762,7 @@ inviate al PSP a cui non corrisponde la ricezione di una RT correlata.
 La lista restituisce l'elenco di tali transazioni al momento della
 richiesta effettuata da un singolo Ente Creditore.
 
-Parametri di input
+**Parametri di input**
 
 1. identificativoIntermediarioPA
 
@@ -1781,7 +1781,7 @@ Parametri di input
 6. dimensioneLista: numero massimo di elementi da restituire (intero
    numerico)
 
-Parametri di output
+**Parametri di output**
 
 1. totRestituiti: numero di occorrenze di rptPendente restituite
 
@@ -1866,7 +1866,7 @@ WISP al momento della chiusura del processo di scelta del PSP e del
 conseguente salvataggio in archivio dei parametri che identificano il
 PSP ed il relativo servizio.
 
-Parametri di output
+**Parametri di output**
 
 1. effettuazioneScelta: indica che la terna di dati
    idDominio+keyPA+keyWISP corrisponde ad una scelta effettuata e non
@@ -2036,7 +2036,7 @@ Request
 
 6. codiceContestoPagamento
 
-Parametri di output
+**Parametri di output**
 
 1. tipoFirma: **parametro deprecato**
 
@@ -2149,7 +2149,7 @@ Creditore e può, pertanto, essere reiterata.
 L'esito della verifica è restituito nella risposta del metodo al Nodo
 dei Pagamenti-SPC, che a sua volta la restituisce al PSP.
 
-Parametri header
+**Parametri header**
 
 1. intestazionePPT
 
@@ -2163,11 +2163,11 @@ d. identificativoUnivocoVersamento
 
 e. codiceContestoPagamento
 
-Parametri di input
+**Parametri di input**
 
 1. identificativoPSP
 
-Parametri di output
+**Parametri di output**
 
 1. esito: OK oppure KO
 
@@ -2267,7 +2267,7 @@ d. identificativoUnivocoVersamento
 
 e. codiceContestoPagamento
 
-Parametri di input
+**Parametri di input**
 
 1. identificativoPSP
 
@@ -2297,7 +2297,7 @@ Parametri di input
 |    **nodoInviaRPT**, parametro I-8                                    |
 +-----------------------------------------------------------------------+
 
-Parametri di output
+**Parametri di output**
 
 1. esito: OK oppure KO
 
@@ -2379,7 +2379,7 @@ d. identificativoUnivocoVersamento
 
 e. codiceContestoPagamento
 
-Parametri di input
+**Parametri di input**
 
 1. identificativoPSP
 
@@ -2399,7 +2399,7 @@ Parametri di input
 
    g. soggettoPagatore (opzionale): raggruppa dati anagrafici
 
-Parametri di output
+**Parametri di output**
 
 1. esito: OK oppure KO
 
@@ -2564,7 +2564,7 @@ Con questa primitiva il NodoSPC comunica all’Ente Creditore la richiesta
 di Revoca di una specifica RT precedentemente inviata allo stesso Ente
 Creditore.
 
-Parametri di input
+**Parametri di input**
 
 1. identificativoDominio
 
@@ -2575,7 +2575,7 @@ Parametri di input
 4. Richiesta di Revoca (RR): file XML codificato in formato base64
    binary (vedi Tabella 3)
 
-Parametri di output
+**Parametri di output**
 
 1. Esito
 
@@ -2601,7 +2601,7 @@ nodoInviaRispostaRevoca
 Con questa primitiva l’Ente Creditore invia al NodoSPC l’esito del
 processo di revoca richiesto con la primitiva precedente.
 
-Parametri di input
+**Parametri di input**
 
 1. identificativoIntermediarioPA
 
@@ -2618,7 +2618,7 @@ Parametri di input
 7. Esito richiesta di Revoca (ER): file XML codificato in formato base64
    binary (vedi Tabella 4)
 
-Parametri di output
+**Parametri di output**
 
 1. Esito
 
@@ -3082,7 +3082,7 @@ I parametri opzionali presenti nella primitiva per delimitare il
 perimetro della ricerca possono essere ignorati dall'Ente Creditore
 qualora lo ritenga opportuno.
 
-Parametri header
+**Parametri header**
 
 1. intestazionePPT
 
@@ -3092,7 +3092,7 @@ b. identificativoStazioneIntermediarioPA
 
 c. identificativoDominio
 
-Parametri di input
+**Parametri di input**
 
 1. identificativoPSP
 
@@ -3109,7 +3109,7 @@ Parametri di input
 
    b. annoA: anno di competenza del debito nel formato YYYY
 
-Parametri di output
+**Parametri di output**
 
 1. esitoOperazione: OK oppure KO
 
@@ -3907,17 +3907,17 @@ alcune precisazioni sui dati presenti da utilizzare:
 | Identificativo del PSP, eventualmente selezionato dall'utente in                                                                   |
 | sessioni precedenti e memorizzato a cura dell'Ente Creditore.                                                                      |
 | Corrisponde al parametro O-2 della primitiva                                                                                       |
-| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                                                                                         |
+| **nodoChiediSceltaWISP** (`vedi § 8.2.1.5 <../15-Capitolo_8/Capitolo8.rst#nodochiedisceltawisp>`__).                               |
 +------------------------------------------------------------------------------------------------------------------------------------+
 |**tipoVersamento**                                                                                                                  |
 +------------------------------------------------------------------------------------------------------------------------------------+
 | Identificativo del tipo di versamento eventualmente selezionato                                                                    |
 | dall'utente in sessioni precedenti e memorizzato a cura dell'Ente                                                                  |
 | Creditore. Corrisponde al parametro O-5 della primitiva                                                                            |
-| **nodoChiediSceltaWISP** (vedi § 8.2.1.5).                                                                                         |
+| **nodoChiediSceltaWISP** (`vedi § 8.2.1.5 <../15-Capitolo_8/Capitolo8.rst#nodochiedisceltawisp>`__).                               |
 |                                                                                                                                    |
 | *Controlli*: Può assumere gli stessi valori dell’omologo campo                                                                     |
-| della RPT (vedi § 5.3.1).                                                                                                          |
+| della RPT (`vedi § 5.3.1 <../11-Capitolo_5/Capitolo5.rst#richiesta-pagamento-telematico-rpt>`__).                                  |
 +------------------------------------------------------------------------------------------------------------------------------------+
 |**importoTransazione**                                                                                                              |
 +------------------------------------------------------------------------------------------------------------------------------------+
@@ -3958,7 +3958,7 @@ alcune precisazioni sui dati presenti da utilizzare:
 +------------------------------------------------------------------------------------------------------------------------------------+
 | Indica se l'Ente Creditore beneficiario del pagamento dispone di                                                                   |
 | almeno un c/c postale censito nella Tabella dei c/c di accredito                                                                   |
-| di cui al § 4.3.3 delle SANP.                                                                                                      |
+| di cui al `§ 4.2.3 delle SANP. <../09-Capitolo_4/Capitolo4.rst#tabella-dei-cc-di-accredito>`__                                     |
 |                                                                                                                                    |
 | *Valori ammessi*:                                                                                                                  |
 |                                                                                                                                    |
@@ -3975,7 +3975,8 @@ alcune precisazioni sui dati presenti da utilizzare:
 | impostare a **SI** il parametro contoPoste **è necessario che**                                                                    |
 | **tutti** gli Enti Creditori beneficiari dei pagamenti presenti nel                                                                |
 | "carrello" dispongano di almeno un c/c postale censito nella                                                                       |
-| Tabella dei c/c di accredito di cui al § 4.2.3. In caso contrario                                                                  |
+| Tabella dei c/c di accredito di cui al `§ 4.2.3 delle SANP. <../09-Capitolo_4/Capitolo4.rst#tabella-dei-cc-di-accredito>`_         | 
+| In caso contrario                                                                                                                  |
 | (anche uno solo degli Enti Creditori presenti nel "carrello" non                                                                   |
 | dispone di un c/c postale) potrebbe essere scelto il PSP Poste,                                                                    |
 | che non potrebbe eseguire la transazione.                                                                                          |
@@ -3983,8 +3984,8 @@ alcune precisazioni sui dati presenti da utilizzare:
 |**pagamentiModello2**                                                                                                               |
 +------------------------------------------------------------------------------------------------------------------------------------+
 | Indica se mostrare o meno i servizi dei PSP che consentono il                                                                      |
-| pagamento con esecuzione differita (cosiddetto modello 2, cfr. §                                                                   |
-| 2.1.2 delle SANP).                                                                                                                 |
+| pagamento con esecuzione differita (cosiddetto modello 2,                                                                          |
+|`cfr. § 2.1.2 delle SANP <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`__).             |
 +------------------------------------------------------------------------------------------------------------------------------------+
 |**codiceLingua:**                                                                                                                   |
 +------------------------------------------------------------------------------------------------------------------------------------+
@@ -4177,7 +4178,7 @@ Specifiche di interfaccia per il trasferimento dei flussi di rendicontazione
 .. _Specifiche di interfaccia per il trasferimento dei flussi di rendicontazione:
 
 Il *work flow* del processo di riconciliazione dei pagamenti eseguiti è
-indicato al § 8.1.5 (vedi anche Figura 32 a pagina 132).
+indicato al `§ 8.1.5 <../15-Capitolo_8/Capitolo8.rst#processo-di-riconciliazione-dei-pagamenti-eseguiti>`_ (vedi anche Figura 32 a pagina 132).
 
 L’effettiva operazione di trasmissione del file di rendicontazione dal
 NodoSPC all’EC avverrà secondo questa modalità: l’EC riceverà il flusso
@@ -4214,8 +4215,7 @@ file deve essere controllata dall’applicazione ricevente.
 
 Il nome del file completo nella cartella di destinazione è uguale al
 nome logico del flusso di rendicontazione (parametro I-6 della primitiva
-**nodoChiediFlussoRendicontazione**, vedi § 8.2.6.2) con un suffisso
-“.XML.ZIP”.
+**nodoChiediFlussoRendicontazione**, `vedi § 8.2.6.2 <../15-Capitolo_8/Capitolo8.rst#nodochiediflussorendicontazione>`_) con un suffisso “.XML.ZIP”.
 
 **Nome del file**:
 
