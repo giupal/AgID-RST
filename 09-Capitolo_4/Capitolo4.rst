@@ -157,10 +157,10 @@ Qualora fosse riscontrata una mancata conformità a detti Standard di
 Servizio, il soggetto ricevente ha l’obbligo:
 
 -  di bloccare l’esecuzione del relativo flusso elaborativo e di
-       trattamento i dati;
+   trattamento i dati;
 
 -  rendere disponibile un’evidenza dello stato del flusso a fronte di
-       una eventuale situazione di blocco del flusso stesso.
+   una eventuale situazione di blocco del flusso stesso.
 
 Servizi applicativi di base
 ---------------------------
@@ -185,8 +185,8 @@ ovvero secondo regole predefinite di instradamento.
 Il Servizio prevede due tipologie di interazione:
 
 -  Ente Creditore Aderente verso Nodo dei Pagamenti-SPC, per la
-       ricezione e il trattamento delle RPT inviate dagli Enti Creditori
-       aderenti
+   ricezione e il trattamento delle RPT inviate dagli Enti Creditori
+   aderenti
 
 -  Nodo dei Pagamenti-SPC verso il PSP, per la spedizione delle RPT ai
    PSP e il trattamento dell'esito di accettazione delle RPT.
@@ -307,8 +307,8 @@ Rendicontazione per gli Enti Creditori
 .. _Rendicontazione per gli Enti Creditori:
 
 Il Servizio “Rendicontazione” mette a disposizione degli Enti Creditori
-un flusso, generato da ogni PSP (`si confronti il § 2.7 <../07-Capitolo_2/Capitolo2.rst#riconciliazione-dei-pagamenti>`__), che riporta le
-informazioni necessarie per consentire all’Ente Creditore di procedere
+un flusso, generato da ogni PSP (`si confronti il § 2.7 <../07-Capitolo_2/Capitolo2.rst#riconciliazione-dei-pagamenti>`__), 
+che riporta le informazioni necessarie per consentire all’Ente Creditore di procedere
 alla riconciliazione tra le RT ricevute e gli importi trasferiti dal PSP
 del debitore al PSP dell’Ente Creditore.
 
@@ -323,7 +323,7 @@ Chiusura operazioni pendenti
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. _Chiusura operazioni pendenti:
 
-Con riferimento al modello di pagamento ad esecuzione differita (`cfr. § 2.1.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`__), ma applicabile a tutti i processi di pagamento previsti, è
+Con riferimento al modello di pagamento ad esecuzione differita (`cfr. § 2.1.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`_), ma applicabile a tutti i processi di pagamento previsti, è
 possibile che una Richiesta di pagamento Telematica (RPT) non abbia
 ricevuto la corrispondente Ricevuta Telematica nel periodo durante il
 quale il Nodo dei Pagamenti-SPC rende disponibili le RPT in attesa del
@@ -334,7 +334,7 @@ Al termine di detto periodo il Nodo dei Pagamenti-SPC genera in via
 automatica una RT avente esito del pagamento non determinato e la invia
 all’Ente Creditore che ha generato la RPT, nello stesso tempo
 interagisce con il PSP interessato per richiedere la cancellazione della
-RPT dall’archivio per decorrenza dei termini (vedi anche §§ 9.1.7 `vedi anche §§ 9.1.7 <../16-Capitolo_9/Capitolo9.rst#processo-di-notifica-di-chiusura-delle-operazioni-pendenti>`__ e `9.2.9 nella Sezione III <../16-Capitolo_9/Capitolo9.rst#notifica-di-chiusura-delle-operazioni-pendenti>`__).
+RPT dall’archivio per decorrenza dei termini (vedi anche §§ 9.1.7 `vedi anche §§ 9.1.7 <../16-Capitolo_9/Capitolo9.rst#processo-di-notifica-di-chiusura-delle-operazioni-pendenti>`__ e `9.2.9 nella Sezione III <../16-Capitolo_9/Capitolo9.rst#notifica-di-chiusura-delle-operazioni-pendenti>`_).
 
 Modalità Unica d'Interazione - MUI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -349,7 +349,7 @@ Creditore.
 
 In particolare, MUI normalizza i flussi operativi per realizzare il
 processo di pagamento attuato presso il Portale di Pagamento del PSP
-appositamente predisposto dal PSP stesso (`cfr. anche §2.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`__).
+appositamente predisposto dal PSP stesso (`cfr. anche §2.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`_).
 
 Accentramento della scelta del PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -484,8 +484,8 @@ l’esportazione di:
 -  dati da Giornale degli Eventi;
 
 -  statistiche sui flussi scambiati nell’ambito del Dominio, nel
-       rispetto delle regole di riservatezza e competenza delle
-       registrazioni.
+   rispetto delle regole di riservatezza e competenza delle
+   registrazioni.
 
 Report “Commissioni a carico PA”
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
