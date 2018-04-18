@@ -494,12 +494,12 @@ faultCode emessi dai vari soggetti:
 | precedente iscrizione è riportato nell'elemento                       |
 | faultBean.description.                                                |
 +-----------------------------------------------------------------------+
-| PPT_ULTERIORE_ISCRIZIONE                                              |
+| **PPT_ULTERIORE_ISCRIZIONE**                                          |
 |                                                                       |
 | Si sta richiedendo l'iscrizione al servizio di avvisatura per un      |
 | soggetto che ha già aderito in precedenza.                            |
 +-----------------------------------------------------------------------+
-| PPT_ISCRIZIONE_NON_PRESENTE                                           |
+| **PPT_ISCRIZIONE_NON_PRESENTE**                                       |
 |                                                                       |
 | Si sta richiedendo la disattivazione di un'iscrizione al servizio     |
 | di avvisatura per un soggetto sconosciuto.                            |
