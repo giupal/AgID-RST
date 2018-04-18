@@ -15,19 +15,19 @@ dei Pagamenti-SPC direttamente o per il tramite di un soggetto
 intermediario. La procedura di adesione:
 
 -  individua gli obblighi e le responsabilità inerenti l’utilizzo del
-       Nodo dei Pagamenti-SPC;
+   Nodo dei Pagamenti-SPC;
 
 -  consente il censimento dell’Ente Creditore e del prestatore di
-       servizi di pagamento aderenti nel dominio gestito dal Nodo dei
-       Pagamenti-SPC;
+   servizi di pagamento aderenti nel dominio gestito dal Nodo dei
+   Pagamenti-SPC;
 
 -  prevede la comunicazione da parte dell’Ente Creditore dei dati di
-       configurazione necessari alla fruizione del servizio, ivi inclusi
-       i codici IBAN dei conti di accredito dell’Ente Creditore;
+   configurazione necessari alla fruizione del servizio, ivi inclusi
+   i codici IBAN dei conti di accredito dell’Ente Creditore;
 
 -  prevede la comunicazione da parte del prestatore di servizi di
-       pagamento dei dati necessari alla fruizione del servizio, come
-       specificati nell’accordo di servizio.
+   pagamento dei dati necessari alla fruizione del servizio, come
+   specificati nell’accordo di servizio.
 
 Adesione di un Ente Creditore.
 ------------------------------
@@ -105,24 +105,24 @@ servizio da parte del Nodo dei Pagamenti-SPC, nella fase di adesione
 dovrà:
 
 1. operare per predisporre i necessari collegamenti tecnici, le
-       configurazioni e gli apparati atti a garantire l’accesso al
-       Servizio, secondo quanto indicato nella documentazione tecnica
-       fornita dall’Agenzia per l’Italia Digitale;
+   configurazioni e gli apparati atti a garantire l’accesso al
+   Servizio, secondo quanto indicato nella documentazione tecnica
+   fornita dall’Agenzia per l’Italia Digitale;
 
 2. operare per sviluppare e tenere aggiornate le componenti applicative
-       necessarie all’interoperabilità con il Nodo dei Pagamenti-SPC,
-       secondo quanto indicato nelle presenti specifiche attuative;
+   necessarie all’interoperabilità con il Nodo dei Pagamenti-SPC,
+   secondo quanto indicato nelle presenti specifiche attuative;
 
 3. avanzare l’eventuale richiesta di attivazione dei servizi opzionali,
-       corredata dai dati tecnici necessari per la loro fruizione, così
-       come sarà richiesto dall’Agenzia per l’Italia Digitale;
+   corredata dai dati tecnici necessari per la loro fruizione, così
+   come sarà richiesto dall’Agenzia per l’Italia Digitale;
 
 4. assicurarsi che il collegamento telematico non possa degradare il
-       livello di sicurezza del sistema;
+   livello di sicurezza del sistema;
 
 5. predisporre, comunicare tempestivamente e tenere costantemente
-       aggiornate le informazioni necessarie per la gestione del
-       sistema, quali:
+   aggiornate le informazioni necessarie per la gestione del
+   sistema, quali:
 
    a. i propri livelli di servizio intesi come tempi massimi entro cui
       deve essere fornita la risposta applicativa ad una richiesta di
@@ -158,14 +158,14 @@ funzionali a consentire alla controparte di autocertificare i
 seguenti adempimenti:
 
 1. predisposizione dei necessari collegamenti tecnici, delle
-       configurazioni e degli apparati atti a garantire l’accesso al
-       Servizio, secondo quanto indicato nella documentazione tecnica
-       fornita dall’Agenzia per l’Italia Digitale e pubblicata sul sito
-       web istituzionale;
+   configurazioni e degli apparati atti a garantire l’accesso al
+   Servizio, secondo quanto indicato nella documentazione tecnica
+   fornita dall’Agenzia per l’Italia Digitale e pubblicata sul sito
+   web istituzionale;
 
 2. sviluppo, manutenzione e aggiornamento delle componenti applicative
-       necessarie all’interoperabilità con il Nodo dei Pagamenti-SPC,
-       secondo quanto indicato nelle presenti specifiche attuative.
+   necessarie all’interoperabilità con il Nodo dei Pagamenti-SPC,
+   secondo quanto indicato nelle presenti specifiche attuative.
 
 
 L’Agenzia dell’Italia Digitale, a seguito della procedura di
@@ -254,14 +254,14 @@ dei Pagamenti-SPC, e precisamente, con l’accettazione di quanto
 stabilito nelle Linee guida e nei relativi allegati:
 
 1. dichiarano di avere preso visione del “Regolamento inerente l’uso del
-       marchio collettivo registrato pagoPA”, nella versione pubblicata
-       sul sito istituzionale dell’Agenzia per l’Italia Digitale e di
-       accettare incondizionatamente quanto in esso stabilito;
+   marchio collettivo registrato pagoPA”, nella versione pubblicata
+   sul sito istituzionale dell’Agenzia per l’Italia Digitale e di
+   accettare incondizionatamente quanto in esso stabilito;
 
 2. si obbligano a rispettare integralmente quanto previsto nel
-       “Regolamento inerente l’uso del marchio collettivo registrato
-       pagoPA”, nella versione pubblicata sul sito istituzionale
-       dell’Agenzia per l’Italia Digitale.
+   “Regolamento inerente l’uso del marchio collettivo registrato
+   pagoPA”, nella versione pubblicata sul sito istituzionale
+   dell’Agenzia per l’Italia Digitale.
 
 `Torna all'indice <../index.rst>`__
 
