@@ -14,7 +14,7 @@
 
 `Premessa alla Versione 2.1 </04-PREMESSA_ALLA_VERSIONE_2.1/PREMESSA_ALLA_VERSIONE_2.1.rst>`__
 
-`Sezione I - Regole e Funzionamento del sistema </05-SEZIONE_I/SEZIONE_I_-_REGOLE_E_FUNZIONAMENTO_DEL_SISTEMA.rst>`__
+`Sezione I - REGOLE E FUNZIONAMENTO DEL SISTEMA </05-SEZIONE_I/SEZIONE_I_-_REGOLE_E_FUNZIONAMENTO_DEL_SISTEMA.rst>`__
 
 `1. Modello di funzionamento </06-Capitolo_1/Capitolo1.rst>`__
 
@@ -265,7 +265,7 @@ pagamento <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-un-prestato
 `4.6.3.1 Report “Commissioni a carico PA” <09-Capitolo_4/Capitolo4.rst#report-commissioni-a-carico-pa>`__
 
 `Sezione II - COMPOSIZIONE DELLE INFORMAZIONI ATTINENTI ALLO SCAMBIO DI
-DATI TRA Enti creditori E PSP </10-SEZIONE_II/SEZIONE_II_-_COMPOSIZIONE_DELLE_INFORMAZIONI_ATTINENTI_ALLO_SCAMBIO_DI_DATI_TRA_ENTI_CREDITORI_E_PSP.rst>`__
+DATI TRA ENTI CREDITORI E PSP </10-SEZIONE_II/SEZIONE_II_-_COMPOSIZIONE_DELLE_INFORMAZIONI_ATTINENTI_ALLO_SCAMBIO_DI_DATI_TRA_ENTI_CREDITORI_E_PSP.rst>`__
 
 `5. Messaggi e flussi informativi </11-Capitolo_5/Capitolo5.rst>`__
 
@@ -364,7 +364,7 @@ Automobilistica <11-Capitolo_5/Capitolo5.rst#dati-specifici-del-servizio-nel-cas
 
 `7.4.5 Comunicazioni all'utilizzatore finale <13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__
 
-`Sezione III - Specifiche di interconnessione <14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst>`__
+`Sezione III - SPECIFICHE DI INTERCONNESSIONE <14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst>`__
 
 `8. Interazione tra Ente Creditore e NodoSPC </15-Capitolo_8/Capitolo8.rst>`__
 
@@ -721,7 +721,7 @@ debitoria) <16-Capitolo_9/Capitolo9.rst#processo-di-avvisatura-digitale-pull-ver
 `10.4 Errori nella gestione del messaggio di ackRT
 </17-Capitolo_10/Capitolo10.rst#errori-nella-gestione-del-messaggio-di-ackrt>`__
 
-`Sezione IV – Ruoli e responsabilità degli Aderenti
+`Sezione IV – RUOLI E RESPONSABILITÀ DEGLI ADERENTI
 </18-SEZIONE_IV/SEZIONE_IV_-_RUOLI_E_RESPONSABILITÀ_DEGLI_ADERENTI.rst>`__
 
 `11. Adesione al Nodo dei Pagamenti-SPC </19-Capitolo_11/Capitolo11.rst>`__
