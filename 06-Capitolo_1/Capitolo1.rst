@@ -271,10 +271,10 @@ controllo del sistema (*governance*) sono affidati ad organismi
 pubblici, in particolare:
 
 -  **l’Agenzia per l’Italia Digitale** assicura la gestione del sistema
-       attraverso la definizione di regole e standard, definisce
-       l’elenco delle Pubbliche Amministrazioni e dei PSP partecipanti
-       al sistema, provvede alla gestione ed al monitoraggio
-       dell’infrastruttura;
+   attraverso la definizione di regole e standard, definisce
+   l’elenco delle Pubbliche Amministrazioni e dei PSP partecipanti
+   al sistema, provvede alla gestione ed al monitoraggio
+   dell’infrastruttura;
 
 -  **il Comitato interministeriale di coordinamento**, evoluzione del
        comitato SIPA [3]_, al quale partecipano, oltre all’Agenzia per
