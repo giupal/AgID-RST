@@ -355,7 +355,7 @@ Oggetti scambiati
 Nei ”*workflow*” applicativi gestiti dal Nodo dei Pagamenti-SPC
 (`vedi capitolo 2 <../07-Capitolo_2/Capitolo2.rst>`_) è previsto lo scambio di oggetti applicativi
 costituiti da documenti informatici, in formato di file XML, le cui
-specifiche di dettaglio sono riportate nel Capitolo 5 del presente
+specifiche di dettaglio sono riportate nel `Capitolo 5 <../11-Capitolo_5/Capitolo5.rst>`_ del presente
 documento. Assumono particolare rilevanza le seguenti strutture
 standardizzate:
 
