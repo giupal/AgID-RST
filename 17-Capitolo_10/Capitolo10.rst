@@ -430,13 +430,13 @@ faultCode emessi dai vari soggetti:
 | trasportati in-line all’interno di specifici campi delle buste        |
 | SOAP (RPT, RT, flussi di rendicontazione, ecc.)                       |
 +-----------------------------------------------------------------------+
-| PPT_*_DISABILITATO/A significano che il NodoSPC ha                    |
+| **PPT_\*_DISABILITATO/A** significano che il NodoSPC ha               |
 | individuato, nei suoi archivi di configurazione interna, gli          |
 | elementi topologici associati a tali identificativi, ma che tali      |
 | elementi si trovano in stato "disabilitato" (sia essa momentanea      |
 | o definitiva).                                                        |
 +-----------------------------------------------------------------------+
-| PPT_*_SCONOSCIUTO/A significano che il NodoSPC non ha                 |
+| **PPT_\*_SCONOSCIUTO/A** significano che il NodoSPC non ha            |
 | individuato, nei suoi archivi di configurazione interna, gli          |
 | elementi topologici associati a tali identificativi.                  |
 +-----------------------------------------------------------------------+
@@ -513,8 +513,7 @@ Errori nella gestione del messaggio di ackRT
 In Tabella 53 sono riportati i codici di errore utilizzati per la
 valorizzazione dell’elemento codiceErrore qualora, nel messaggio di
 conferma di ricezione della RT al PSP, l'elemento
-statoMessaggioReferenziato assuma il valore **RJCT** (vedi §§ 5.3.10 e
-9.2.2.3).
+statoMessaggioReferenziato assuma il valore **RJCT** (`vedi §§ 5.3.10 <../11-Capitolo_5/Capitolo5.rst#messaggio-di-conferma-ricezione-della-rt-ack>`__ e `9.2.2.3 <../16-Capitolo_9/Capitolo9.rst#pspinviaackrt>`__).
 
 **Tabella** **53 - Valori dei codici di errore da utilizzare nella struttura XML ackRT**
 
