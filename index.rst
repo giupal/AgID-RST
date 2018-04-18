@@ -124,10 +124,10 @@ Evolution) <07-Capitolo_2/Capitolo2.rst#pacchetto-di-sviluppo-per-applicazioni-m
 
 `2.8.2 Riconciliazione delle Ricevute Telematiche <07-Capitolo_2/Capitolo2.rst#riconciliazione-delle-ricevute-telematiche>`__
 
-`2.9 Avvisatura digitale *push* (su iniziativa dell’Ente Creditore)
+`2.9 Avvisatura digitale push (su iniziativa dell’Ente Creditore)
 <07-Capitolo_2/Capitolo2.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
-`2.9.1 Iscrizione al servizio (*enrolment*) <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-enrolment>`__
+`2.9.1 Iscrizione al servizio (enrolment) <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-enrolment>`__
 
 `2.9.1.1 Iscrizione al servizio presso pagoPA <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-pagopa>`__
 
@@ -161,10 +161,10 @@ pagamento <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-un-prestato
 `2.9.4 Modifica e annullamento degli avvisi digitali
 <07-Capitolo_2/Capitolo2.rst#modifica-e-annullamento-degli-avvisi-digitali>`__
 
-`2.10 Avvisatura digitale *pull* (verifica della posizione debitoria)
+`2.10 Avvisatura digitale pull (verifica della posizione debitoria)
 <07-Capitolo_2/Capitolo2.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
-`2.10.1 Limitazioni all'utilizzo dell'avvisatura *pull*
+`2.10.1 Limitazioni all'utilizzo dell'avvisatura pull
 <07-Capitolo_2/Capitolo2.rst#limitazioni-allutilizzo-dellavvisatura-pull>`__
 
 `2.10.2 Pagamento del dovuto <07-Capitolo_2/Capitolo2.rst#pagamento-del-dovuto-1>`__
@@ -191,7 +191,7 @@ pagamento <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-un-prestato
 
 `3.2.7 Componente Wrapper MyBank <08-Capitolo_3/Capitolo3.rst#componente-wrapper-mybank>`__
 
-`3.2.8 Gestione dell'avvisatura digitale in modalità *push*
+`3.2.8 Gestione dell'avvisatura digitale in modalità push
 <08-Capitolo_3/Capitolo3.rst#gestione-dellavvisatura-digitale-in-modalità-push>`__
 
 `3.2.9 File Transfer sicuro <08-Capitolo_3/Capitolo3.rst#file-transfer-sicuro>`__
@@ -255,7 +255,7 @@ pagamento <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-un-prestato
 
 `4.6 Servizi operativi <09-Capitolo_4/Capitolo4.rst#servizi-operativi>`__
 
-`4.6.1 Tavolo Operativo e gestione delle anomalie (*Incident*)
+`4.6.1 Tavolo Operativo e gestione delle anomalie (Incident)
 <09-Capitolo_4/Capitolo4.rst#tavolo-operativo-e-gestione-delle-anomalie-incident>`__
 
 `4.6.2 Monitoring e controllo <09-Capitolo_4/Capitolo4.rst#monitoring-e-controllo>`__
@@ -402,7 +402,7 @@ Pagamento Telematiche <15-Capitolo_8/Capitolo8.rst#avvertenze-per-la-predisposiz
 `8.1.5 Processo di riconciliazione dei pagamenti eseguiti
 <15-Capitolo_8/Capitolo8.rst#processo-di-riconciliazione-dei-pagamenti-eseguiti>`__
 
-`8.1.6 Processo di avvisatura digitale *push* (su iniziativa dell'Ente
+`8.1.6 Processo di avvisatura digitale push (su iniziativa dell'Ente
 Creditore) <15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
 `8.1.6.1 Gestione del singolo avviso digitale <15-Capitolo_8/Capitolo8.rst#gestione-del-singolo-avviso-digitale>`__
@@ -416,7 +416,7 @@ Creditore) <15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-
 `8.1.6.4 Casi di errore e strategie di ripristino
 <15-Capitolo_8/Capitolo8.rst#casi-di-errore-e-strategie-di-ripristino>`__
 
-`8.1.7 Processo di avvisatura digitale *pull* (verifica della posizione
+`8.1.7 Processo di avvisatura digitale pull (verifica della posizione
 debitoria) <15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
 `8.1.8 Processo di notifica di chiusura delle "operazioni pendenti"
@@ -472,12 +472,12 @@ debitoria) <15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-pull-ver
 
 `8.2.6.2 nodoChiediFlussoRendicontazione <15-Capitolo_8/Capitolo8.rst#nodochiediflussorendicontazione>`__
 
-`8.2.7 Avvisatura digitale *push* (su iniziativa dell'Ente Creditore)
+`8.2.7 Avvisatura digitale push (su iniziativa dell'Ente Creditore)
 <15-Capitolo_8/Capitolo8.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
 `8.2.7.1 nodoInviaAvvisoDigitale <15-Capitolo_8/Capitolo8.rst#nodoinviaavvisodigitale>`__
 
-`8.2.8 Avvisatura digitale *pull* (verifica della posizione debitoria)
+`8.2.8 Avvisatura digitale pull (verifica della posizione debitoria)
 <15-Capitolo_8/Capitolo8.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
 `8.2.8.1 paaChiediElencoAvvisiDigitali <15-Capitolo_8/Capitolo8.rst#paachiedielencoavvisidigitali>`__
@@ -496,7 +496,7 @@ debitoria) <15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-pull-ver
 `8.3 Interfacce HTTP di re-direzione per il pagamento immediato
 <15-Capitolo_8/Capitolo8.rst#interfacce-http-di-re-direzione-per-il-pagamento-immediato>`__
 
-`8.3.1 Re-direzion\ *e* dal Portale EC verso il Web-FESP
+`8.3.1 Re-direzione dal Portale EC verso il Web-FESP
 <15-Capitolo_8/Capitolo8.rst#re-direzione-dal-portale-ec-verso-il-web-fesp>`__
 
 `8.3.2 Re-direzione dal Web-FESP verso il Portale EC
@@ -573,10 +573,10 @@ pagamento <16-Capitolo_9/Capitolo9.rst#presentazione-dellavviso-e-transcodifica-
 `9.1.4 Processo di revoca della Ricevuta Telematica
 <16-Capitolo_9/Capitolo9.rst#processo-di-revoca-della-ricevuta-telematica>`__
 
-`9.1.5 Processo di avvisatura digitale *push* (su iniziativa dell'Ente
+`9.1.5 Processo di avvisatura digitale push (su iniziativa dell'Ente
 Creditore) <16-Capitolo_9/Capitolo9.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
-`9.1.6 Processo di avvisatura digitale *pull* (verifica della posizione
+`9.1.6 Processo di avvisatura digitale pull (verifica della posizione
 debitoria) <16-Capitolo_9/Capitolo9.rst#processo-di-avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
 `9.1.7 Processo di notifica di chiusura delle operazioni pendenti
@@ -633,14 +633,14 @@ debitoria) <16-Capitolo_9/Capitolo9.rst#processo-di-avvisatura-digitale-pull-ver
 
 `9.2.6.1 nodoInviaFlussoRendicontazione <16-Capitolo_9/Capitolo9.rst#nodoinviaflussorendicontazione>`__
 
-`9.2.7 Avvisatura digitale *push* (su iniziativa dell'Ente Creditore)
+`9.2.7 Avvisatura digitale push (su iniziativa dell'Ente Creditore)
 <16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__
 
 `9.2.7.1 pspInviaAvvisoDigitale <16-Capitolo_9/Capitolo9.rst#pspinviaavvisodigitale>`__
 
 `9.2.7.2 nodoAggiornaIscrizioniAvvisatura <16-Capitolo_9/Capitolo9.rst#nodoaggiornaiscrizioniavvisatura>`__
 
-`9.2.8 Avvisatura digitale *pull* (verifica della posizione debitoria)
+`9.2.8 Avvisatura digitale pull (verifica della posizione debitoria)
 <16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-pull-verifica-della-posizione-debitoria>`__
 
 `9.2.8.1 nodoChiediElencoAvvisiDigitali <16-Capitolo_9/Capitolo9.rst#nodochiedielencoavvisidigitali>`__
@@ -679,21 +679,21 @@ debitoria) <16-Capitolo_9/Capitolo9.rst#processo-di-avvisatura-digitale-pull-ver
 `9.4.1 Colloquio con la componente “Wrapper MyBank”
 <16-Capitolo_9/Capitolo9.rst#colloquio-con-la-componente-wrapper-mybank>`__
 
-`9.4.2 Messaggio HTTP-redirect di avvio pagamento verso *Initiating
-Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-avvio-pagamento-verso-initiating-party>`__
+`9.4.2 Messaggio HTTP-redirect di avvio pagamento verso Initiating Party
+<16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-avvio-pagamento-verso-initiating-party>`__
 
 `9.4.2.1 Stringhe URL utilizzate per la "redirect".
 <16-Capitolo_9/Capitolo9.rst#stringhe-url-utilizzate-per-la-redirect>`__
 
 `9.4.2.2 Identificativo per Validation Service <16-Capitolo_9/Capitolo9.rst#identificativo-per-validation-service>`__
 
-`9.4.3 Messaggio HTTP-redirect di esito pagamento da *Initiating Party*
+`9.4.3 Messaggio HTTP-redirect di esito pagamento da Initiating Party
 <16-Capitolo_9/Capitolo9.rst#messaggio-http-redirect-di-esito-pagamento-da-initiating-party>`__
 
 `9.4.3.1 Composizione dei messaggi di risposta <16-Capitolo_9/Capitolo9.rst#composizione-dei-messaggi-di-risposta>`__
 
-`9.4.4 Messaggio HTTP di richiesta della situazione di un ordine verso
-*Initiating Party* <16-Capitolo_9/Capitolo9.rst#messaggio-http-di-richiesta-della-situazione-di-un-ordine-verso-initiating-party>`__
+`9.4.4 Messaggio HTTP di richiesta della situazione di un ordine verso Initiating Party
+<16-Capitolo_9/Capitolo9.rst#messaggio-http-di-richiesta-della-situazione-di-un-ordine-verso-initiating-party>`__
 
 `9.4.5 Calcolo e verifica del Message Authentication Code (MAC)
 <16-Capitolo_9/Capitolo9.rst#calcolo-e-verifica-del-message-authentication-code-mac>`__
@@ -803,7 +803,7 @@ digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-serviz
 
 `14.1.6 WSDL PaPerNodoChiediElencoAvvisiDigitali <23-Capitolo_14/Capitolo14.rst#wsdl-papernodochiedielencoavvisidigitali>`__
 
-`14.2 *Web service* tra Nodo dei Pagamenti-SPC e PSP
+`14.2 Web service tra Nodo dei Pagamenti-SPC e PSP
 <23-Capitolo_14/Capitolo14.rst#web-service-tra-nodo-dei-pagamenti-spc-e-psp>`__
 
 `14.2.1 WSDL PspPerNodo <23-Capitolo_14/Capitolo14.rst#wsdl-psppernodo>`__
@@ -856,7 +856,7 @@ digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-serviz
 
 `16.1 Relazioni tra i soggetti </26-Capitolo_16/Capitolo16.rst#relazioni-tra-i-soggetti>`__
 
-`16.2 *Mandatory requirements* tipici del servizio MyBank
+`16.2 Mandatory requirements tipici del servizio MyBank
 <26-Capitolo_16/Capitolo16.rst#mandatory-requirements-tipici-del-servizio-mybank>`__
 
 `16.3 Logotipo del servizio MyBank <26-Capitolo_16/Capitolo16.rst#logotipo-del-servizio-mybank>`__
