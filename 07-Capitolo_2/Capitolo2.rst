@@ -777,7 +777,7 @@ Avviso analogico
 .. _Avviso analogico:
 
 Per i pagamenti per i quali sono prodotti avvisi di pagamento analogici,
-oltre al logotipo del sistema pagoPA (cfr. § **Errore. L'origine riferimento non è stata trovata.**),
+oltre al logotipo del sistema pagoPA (`cfr. § 11.5 <../19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`_),
 risultano indispensabili per l'esecuzione del pagamento stesso le seguenti informazioni:
 
 a) Codice fiscale dell’Ente Creditore;
@@ -828,7 +828,7 @@ presenti sull’avviso di pagamento.
 
 Per questo motivo tale documento è corredato, oltre che dati essenziali
 sopra riportati, anche da un insieme di elementi grafici facilmente
-leggibili e decodificabili da apposite apparecchiature (`vedi anche il § 7.4.2 <../13-Capitolo_7/Capitolo7.rst#automazione-dellavviso-di-pagamento-analogico>`__).
+leggibili e decodificabili da apposite apparecchiature (`vedi anche il § 7.4.2 <../13-Capitolo_7/Capitolo7.rst#automazione-dellavviso-di-pagamento-analogico>`_).
 
 Avviso digitale
 ~~~~~~~~~~~~~~~
@@ -836,8 +836,8 @@ Avviso digitale
 
 Per i pagamenti per i quali sono messi a disposizione dell'utilizzatore
 finale avvisi di pagamento analogici, l’Ente Creditore deve generare
-corrispondenti avvisi digitali secondo il formato indicato al `§ 5.4 <../11-Capitolo_5/Capitolo5.rst#avvisatura-digitale>`__nviarli al
-NodoSPC con le modalità indicate al  `§ 8.1.6 <../15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__.
+corrispondenti avvisi digitali secondo il formato indicato al `§ 5.4 <../11-Capitolo_5/Capitolo5.rst#avvisatura-digitale>`_ 
+e inviarli al NodoSPC con le modalità indicate al  `§ 8.1.6 <../15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__.
 
 Attestazione del pagamento
 --------------------------
@@ -863,8 +863,7 @@ liberatoria, può essere utilizzata dall’utilizzatore finale per ottenere
 quietanza da parte dell’EC.
 
 Le copie analogiche prodotte dall’Ente Creditore o dai PSP devono
-necessariamente contenere, oltre al logo del sistema pagoPA (`cfr. § 11.5 <../19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`__ almeno le
-seguenti informazioni, per il cui contenuto si rimanda al capitolo 5 ella Sezione II:
+necessariamente contenere, oltre al logo del sistema pagoPA (`cfr. § 11.5 <../19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`_ almeno le seguenti informazioni, per il cui contenuto si rimanda al `capitolo 5 ella Sezione II <../11-Capitolo_5/Capitolo5.rst>`_:
 
 a) Data dell’operazione
 
@@ -942,8 +941,7 @@ due diverse modalità di riconciliazione.
 
 I dati in possesso dell’Ente Creditore, necessari per eseguire la
 riconciliazione con la disposizione di accredito inviata al PSP del
-debitore, sono definiti al paragrafo Errore. L'origine riferimento non è
-stata trovata. della Sezione II, per quanto riguarda la Ricevuta
+debitore, sono definiti al `paragrafo 5.3.2 della Sezione II <../11-Capitolo_5/Capitolo5.rst#ricevuta-telematica-rt>`_, per quanto riguarda la Ricevuta
 Telematica (RT) e nella Sezione II dell’Allegato A alle Linee guida per
 ciò che riguarda i dati del Flusso di rendicontazione.
 
