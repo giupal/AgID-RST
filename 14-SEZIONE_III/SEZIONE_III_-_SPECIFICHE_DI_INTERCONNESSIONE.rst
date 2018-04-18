@@ -37,19 +37,22 @@ instradamento del messaggio dal mittente al destinatario, devono
 pertanto tenere conto di tali soggetti. A tal proposito, nel seguito si
 utilizza la seguente nomenclatura tecnica:
 
--  **IntermediarioPA**, soggetto che opera come intermediario per un
+-  **IntermediarioPA**, 
+   soggetto che opera come intermediario per un
    Ente Creditore. Qualora l’Ente Creditore non si avvalga di un
    intermediario, rappresenta l’Ente Creditore stesso;
 
--  **Back-end EC** o **StazioneIntermediarioPA**, sistema software
-   gestito da un IntermediarioPA, che si interfaccia direttamente col
+-  **Back-end EC** o **StazioneIntermediarioPA**, 
+   sistema software gestito da un IntermediarioPA, che si interfaccia direttamente col
    Nodo dei Pagamenti-SPC tramite Porta di Dominio;
 
--  **IntermediarioPSP**, soggetto che opera come intermediario per un
+-  **IntermediarioPSP**, 
+   soggetto che opera come intermediario per un
    PSP. Qualora il PSP non si avvalga di un intermediario, rappresenta
    il PSP stesso;
 
--  **Back-end PSP** o **Canale**, sistema software gestito da un
+-  **Back-end PSP** o **Canale**, 
+   sistema software gestito da un
    IntermediarioPSP, che si interfaccia direttamente al Nodo dei
    Pagamenti-SPC con le modalità previste.
 
