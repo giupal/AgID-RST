@@ -81,36 +81,35 @@ dell’utilizzatore finale, avranno un impatto minimale nei confronti degli EC.
 Il flusso principale delle attività, vedi *activity diagram*
 di Figura 23 a pagina 118, contempla i seguenti passi:
 
-1) *Check-out e pagamento*: a completamento dei processi interni
-       all’Ente Creditore e sulla base delle proprie scelte,
-       l’utilizzatore finale compone il carrello e attiva la fase di
-       pagamento richiamando le funzionalità della componente WISP. Come
-       supporto a tale processo, il NodoSPC offre agli EC l’accesso a
-       una funzione di emulazione che assicura il retro compatibilità
-       con le precedenti versioni. Poiché la funzione di emulazione non
-       ha altri compiti specifici, il suo utilizzo è opzionale e
-       deprecato per i nuovi sviluppi.
-       Con l’invio del carrello al Nodo dei Pagamenti-SPC termina la fase
-       di inizializzazione del pagamento a carico dell’EC. L’utilizzo della
-       primitiva **nodoInviaRPT**, pur effettuabile, è deprecato per tale
-       processo.
+1)  *Check-out e pagamento*: a completamento dei processi interni
+    all’Ente Creditore e sulla base delle proprie scelte,
+    l’utilizzatore finale compone il carrello e attiva la fase di
+    pagamento richiamando le funzionalità della componente WISP. Come
+    supporto a tale processo, il NodoSPC offre agli EC l’accesso a
+    una funzione di emulazione che assicura il retro compatibilità
+    con le precedenti versioni. Poiché la funzione di emulazione non
+    ha altri compiti specifici, il suo utilizzo è opzionale e
+    deprecato per i nuovi sviluppi.
+    Con l’invio del carrello al Nodo dei Pagamenti-SPC termina la fase
+    di inizializzazione del pagamento a carico dell’EC. L’utilizzo della
+    primitiva **nodoInviaRPT**, pur effettuabile, è deprecato per tale
+    processo.
 
-       Per maggiori informazioni si veda il *workflow* di dettaglio al
-       `paragrafo 8.1.1.1 <../15-Capitolo_8/Capitolo8.rst#workflow-di-check-out-e-pagamento>`__.
+    Per maggiori informazioni si veda il *workflow* di dettaglio al
+    `paragrafo 8.1.1.1 <../15-Capitolo_8/Capitolo8.rst#workflow-di-check-out-e-pagamento>`__.
 
 2)  *Autenticazione*: il servizio di scelta e memorizzazione del
-      pagamento (componente WISP 2.0 del NodoSPC) propone
-      all’utilizzatore finale la possibilità di autenticarsi per poter
-      usufruire delle funzionalità avanzate. Nel caso che l’EC lo
-      abbia identificato con SPID, WISP 2.0 ne erediterà le
-      credenziali. L’identificazione non è obbligatoria e
-      l’utilizzatore finale potrà operare anche in forma anonima.
+    pagamento (componente WISP 2.0 del NodoSPC) propone
+    all’utilizzatore finale la possibilità di autenticarsi per poter
+    usufruire delle funzionalità avanzate. Nel caso che l’EC lo
+    abbia identificato con SPID, WISP 2.0 ne erediterà le
+    credenziali. L’identificazione non è obbligatoria e
+    l’utilizzatore finale potrà operare anche in forma anonima.
 
 3)  *Scelta della modalità di pagamento*: l’utilizzatore finale sceglie
-      un servizio di pagamento fra quelli disponibili o ne richiama
-      uno fra quelli memorizzati attraverso (`vedi § 2.1.3.1 <../07-Capitolo_2/Capitolo2.rst#servizio-di-scelta-e-memorizzazione-del-pagamento>`_). In base
-      a tale scelta, il pagamento viene indirizzato su uno dei modelli
-      descritti al `paragrafo 2.1 della Sezione I <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-lente-creditore>`__.
+    un servizio di pagamento fra quelli disponibili o ne richiama
+    uno fra quelli memorizzati attraverso (`vedi § 2.1.3.1 <../07-Capitolo_2/Capitolo2.rst#servizio-di-scelta-e-memorizzazione-del-  pagamento>`_). In base a tale scelta, il pagamento viene indirizzato su uno dei modelli
+    descritti al `paragrafo 2.1 della Sezione I <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-lente-creditore>`__.
 
 4)  In funzione dello strumento utilizzato, il pagamento potrà avvenire:
 
@@ -125,34 +124,34 @@ di Figura 23 a pagina 118, contempla i seguenti passi:
       FESP e WFESP del NodoSPC;
 
 5)  *Invio carrello a PSP*: la componente FESP del NodoSPC invia il
-      carrello di RPT al PSP in modalità diverse in funzione della
-      scelta effettuata dall'utilizzatore finale. Per maggiori
-      informazioni si veda il *workflow* di dettaglio `al § 8.1.1.2 <../15-Capitolo_8/Capitolo8.rst#invio-carrello-al-psp>`__;
+    carrello di RPT al PSP in modalità diverse in funzione della
+    scelta effettuata dall'utilizzatore finale. Per maggiori
+    informazioni si veda il *workflow* di dettaglio `al § 8.1.1.2 <../15-Capitolo_8/Capitolo8.rst#invio-carrello-al-psp>`__;
 
 6)  *Gestione RPT*: il PSP gestisce le RPT pervenute raccogliendo le
-      autorizzazioni del pagamento date dall’utilizzatore finale,
-      eventualmente mettendo a disposizione sui propri sistemi una
-      specifica *landing page*. Su tale pagina l’utilizzatore finale
-      viene reindirizzato dal WISP tramite una URL restituita dal PSP
-      al ricevimento del carrello. Per consentire agli utenti
-      registrati su WISP la successiva memorizzazione del servizio di
-      pagamento su WISP, al PSP è fatto divieto di offrire
-      funzionalità che possano modificare la scelta che l’utilizzatore
-      ha operato al precedente passo 3.
+    autorizzazioni del pagamento date dall’utilizzatore finale,
+    eventualmente mettendo a disposizione sui propri sistemi una
+    specifica *landing page*. Su tale pagina l’utilizzatore finale
+    viene reindirizzato dal WISP tramite una URL restituita dal PSP
+    al ricevimento del carrello. Per consentire agli utenti
+    registrati su WISP la successiva memorizzazione del servizio di
+    pagamento su WISP, al PSP è fatto divieto di offrire
+    funzionalità che possano modificare la scelta che l’utilizzatore
+    ha operato al precedente passo 3.
 
 7)  *Generazione RT*: il PSP genera la RT tenendo conto delle diverse
-      modalità di autorizzazione del pagamento, di inoltro del
-      carrello e dei dati presenti sulla RPT;
+    modalità di autorizzazione del pagamento, di inoltro del
+    carrello e dei dati presenti sulla RPT;
 
 8)  *Invio RT al NodoSPC*: il PSP invia le RT generate dal carrello
-      utilizzando la primitiva **nodoInviaRT**. La primitiva
-      **pspChiediListaRT** sarà utilizzata solo per indirizzare la
-      gestione delle eccezioni;
+    utilizzando la primitiva **nodoInviaRT**. La primitiva
+    **pspChiediListaRT** sarà utilizzata solo per indirizzare la
+    gestione delle eccezioni;
 
 9)  *Chiusura della transazione*: la componente FESP del Nodo SPC attiva
-      la primitiva **paaInviaRT** presso l’Ente Creditore
-      concludendo il processo di pagamento. Per maggiori informazioni
-      si veda il workflow di dettaglio al `paragrafo 8.1.1.3 <../15-Capitolo_8/Capitolo8.rst#workflow-di-chiusura-della-transazione-presso-ec>`__;
+    la primitiva **paaInviaRT** presso l’Ente Creditore
+    concludendo il processo di pagamento. Per maggiori informazioni
+    si veda il workflow di dettaglio al `paragrafo 8.1.1.3 <../15-Capitolo_8/Capitolo8.rst#workflow-di-chiusura-della-transazione-presso-ec>`__;
 
 10) *Memorizzazione della scelta*: la componente WISP 2.0 del Nodo SPC
       consente agli utenti registrati di memorizzare il servizio di
@@ -732,9 +731,9 @@ a) dell'archivio dei pagamenti in attesa (APA), contenente tutte le
    per effettuare il pagamento;
 
 b) di un’applicazione “*server*” dedicata necessaria per trattare le
-   richieste provenienti dai PSP, come meglio dettagliato nel `§ 8.2.3 <../15-Capitolo_8/Capitolo8.rst#pagamenti-in-attesa-e-richiesta-    di-generazione-della-rpt>`__ ;
+   richieste provenienti dai PSP, come meglio dettagliato nel `§ 8.2.3 <../15-Capitolo_8/Capitolo8.rst#pagamenti-in-attesa-e-richiesta-    di-generazione-della-rpt>`__;
 
-c) capacità di trattare le Ricevute Telematiche (RT), così come indicato nel `§ 8.2.2 <../15-Capitolo_8/Capitolo8.rst#ricezione-delle-    rt-e-richiesta-di-copia>`__ .
+c) capacità di trattare le Ricevute Telematiche (RT), così come indicato nel `§ 8.2.2 <../15-Capitolo_8/Capitolo8.rst#ricezione-delle-    rt-e-richiesta-di-copia>`__.
 
 Per maggiori dettagli circa il *workflow* analitico si `veda il § 9.1.2 <../16-Capitolo_9/Capitolo9.rst#pagamenti-attivati-presso-il-psp>`__ a partire da pagina 173.
 
@@ -761,7 +760,7 @@ b) la disponibilità di un archivio contenente le informazioni relative
 c) la predisposizione di un’applicazione “*server*” dedicata
    necessaria per trattare le richieste provenienti dai PSP, che sia in
    grado di associare la richiesta ad un pagamento in attesa oppure di
-   generarlo al momento, `vedi anche § 8.2.3 <../15-Capitolo_8/Capitolo8.rst#pagamenti-in-attesa-e-richiesta-di-generazione-della-        rpt>`__ .
+   generarlo al momento, `vedi anche § 8.2.3 <../15-Capitolo_8/Capitolo8.rst#pagamenti-in-attesa-e-richiesta-di-generazione-della-        rpt>`__.
 
 d) capacità di trattare le Ricevute Telematiche (RT), così come indicato
    `nel § 8.2.2 <../15-Capitolo_8/Capitolo8.rst#ricezione-delle-rt-e-richiesta-di-copia>`__ .
@@ -3801,7 +3800,7 @@ alcune precisazioni sui dati presenti da utilizzare:
 
 +------------------------------------------------------------------------------------------------------------------------------------+
 |**idDominio:**                                                                                                                      |
-+====================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------+
 | Identificativo del soggetto che sta richiedendo l’accesso al                                                                       |
 | portale WISP. Nel caso in cui il parametro primitiva assuma il                                                                     |
 | valore **nodoInviaRPT**, va indicato il valore del dato                                                                            |
