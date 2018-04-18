@@ -366,31 +366,31 @@ I dati personali raccolti saranno trattati per consentire agli utenti
 delle pubbliche amministrazioni e degli altri soggetti aderenti al
 Sistema pagoPA:
 
-   a. di eseguire on line e tramite il Sistema pagoPA le operazioni di
-      pagamento attraverso i PSP abilitati ad operare sul Sistema
-      pagoPA;
+a. di eseguire on line e tramite il Sistema pagoPA le operazioni di
+   pagamento attraverso i PSP abilitati ad operare sul Sistema
+   pagoPA;
 
-   b. di registrarsi sul Sistema pagoPA e ottenere un profilo identificato
-      da un proprio User ID e una propria password per la propria
-      identificazione sul sistema pagoPA, al fine di potere beneficiare
-      dei servizi accessori e strumentali che l’AgID mette a
-      disposizione degli utenti che vogliano eseguire con maggiore
-      facilitazione un pagamento elettronico sul sistema pagoPA;
+b. di registrarsi sul Sistema pagoPA e ottenere un profilo identificato
+   da un proprio User ID e una propria password per la propria
+   identificazione sul sistema pagoPA, al fine di potere beneficiare
+   dei servizi accessori e strumentali che l’AgID mette a
+   disposizione degli utenti che vogliano eseguire con maggiore
+   facilitazione un pagamento elettronico sul sistema pagoPA;
 
-   c. di memorizzare sul Sistema pagoPA alcune specifiche informazioni
-      inerenti le operazioni di pagamento e che sono necessarie per
-      finalizzare l’operazione di pagamento stessa, al fine di evitare,
-      per le operazioni di pagamento successive alla memorizzazione, di
-      dovere inserire nuovamente le stesse informazioni, e
-      segnatamente:
+c. di memorizzare sul Sistema pagoPA alcune specifiche informazioni
+   inerenti le operazioni di pagamento e che sono necessarie per
+   finalizzare l’operazione di pagamento stessa, al fine di evitare,
+   per le operazioni di pagamento successive alla memorizzazione, di
+   dovere inserire nuovamente le stesse informazioni, e
+   segnatamente:
 
-      i. i dati di cui ai punti (5) e (6) che precedono sono obbligatori per
-         l’erogazione in favore dell’utente pagatore del servizio di cui
-         alla lettera [a] che precede;
+   i. i dati di cui ai punti (5) e (6) che precedono sono obbligatori per
+      l’erogazione in favore dell’utente pagatore del servizio di cui
+      alla lettera [a] che precede;
 
-      ii. mentre l’insieme dei dati di cui ai punti da (1) a (6) che precedono
-          sono obbligatori per l’erogazione in favore dell’utente pagatore
-          dei servizi di cui alle lettere [b] e [c] che precedono.
+   ii. mentre l’insieme dei dati di cui ai punti da (1) a (6) che precedono
+       sono obbligatori per l’erogazione in favore dell’utente pagatore
+       dei servizi di cui alle lettere [b] e [c] che precedono.
 
 Pertanto, i dati personali raccolti saranno trattati esclusivamente per
 consentire agli utenti delle pubbliche amministrazioni e degli altri
@@ -437,13 +437,13 @@ consapevole.
 
 Per questi motivi, i PSP che offrono tale servizio devono:
 
-   a. indicare attraverso il *Catalogo Dati Informativi*
-      (`vedi § 4.2.2 <../09-Capitolo_4/Capitolo4.rst#catalogo-dati-informativi>`__) informazioni
-      diversificate per i pagamenti *on us* e i pagamenti *not* *on us*;
+a. indicare attraverso il *Catalogo Dati Informativi*
+   (`vedi § 4.2.2 <../09-Capitolo_4/Capitolo4.rst#catalogo-dati-informativi>`__) informazioni
+   diversificate per i pagamenti *on us* e i pagamenti *not* *on us*;
 
-   b. inviare all’Agenzia, con le modalità da questa di volta in volta
-      indicate, le informazioni necessarie ad eseguire i pagamenti
-      attraverso le proprie carte.
+b. inviare all’Agenzia, con le modalità da questa di volta in volta
+   indicate, le informazioni necessarie ad eseguire i pagamenti
+   attraverso le proprie carte.
 
 Pacchetto di sviluppo per applicazioni “mobile” (SDK pagoPA Evolution)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -709,17 +709,17 @@ sanitarie già eseguite, ecc.) inviando un ER di esito negativo.
 
 In caso contrario l’Ente Creditore si comporta come segue:
 
-   a) nel caso di revoca per annullo tecnico (`vedi paragrafo vedi § 2.3.1  <../07-Capitolo_2/Capitolo2.rst#annullo-tecnico>`__) 
-      invia un ER di
-      esito positivo, annulla l’esito del pagamento e aggiorna i propri
-      archivi informatici ripristinando la posizione originale. L’Ente
-      Creditore esegue tali operazioni tenendo conto della emergenza
-      determinata da tale circostanza;
+a) nel caso di revoca per annullo tecnico (`vedi paragrafo vedi § 2.3.1  <../07-Capitolo_2/Capitolo2.rst#annullo-tecnico>`__) 
+   invia un ER di
+   esito positivo, annulla l’esito del pagamento e aggiorna i propri
+   archivi informatici ripristinando la posizione originale. L’Ente
+   Creditore esegue tali operazioni tenendo conto della emergenza
+   determinata da tale circostanza;
 
-   b) nel caso di procedura di *charge back* o altro: entro tempi
-      compatibili con il procedimento richiesto esamina la richiesta e
-      invia l'esito della revoca, aggiornando o meno il pagamento ed i
-      propri archivi informatici.
+b) nel caso di procedura di *charge back* o altro: entro tempi
+   compatibili con il procedimento richiesto esamina la richiesta e
+   invia l'esito della revoca, aggiornando o meno il pagamento ed i
+   propri archivi informatici.
 
 In ogni caso, l’Ente Creditore deve predisporre - e darne evidenza sul
 proprio sito attraverso il quale sono effettuati i pagamenti - apposite
@@ -734,15 +734,15 @@ Annullo tecnico
 L’annullo tecnico è una casistica dell’invio di una richiesta di revoca
 che il PSP può invocare unicamente ricorra uno dei seguenti casi:
 
-   a) Invio di una Ricevuta Telematica (RT) con esito **positivo**,
-      tuttavia l’utilizzatore finale non ha ricevuto nessun addebito né
-      il PSP ha emesso alcuna attestazione di pagamento (scontrino,
-      ricevuta, e-mail, ecc.);
+a) Invio di una Ricevuta Telematica (RT) con esito **positivo**,
+   tuttavia l’utilizzatore finale non ha ricevuto nessun addebito né
+   il PSP ha emesso alcuna attestazione di pagamento (scontrino,
+   ricevuta, e-mail, ecc.);
 
-   b) Invio di una Ricevuta Telematica (RT) con esito **negativo**,
-      tuttavia l’utilizzatore finale ha ricevuto un addebito e il PSP
-      ha emesso un’attestazione di pagamento (scontrino, ricevuta,
-      e-mail, ecc. `Vedi § 2.5 <../07-Capitolo_2/Capitolo2.rst#attestazione-del-pagamento>`__).
+b) Invio di una Ricevuta Telematica (RT) con esito **negativo**,
+   tuttavia l’utilizzatore finale ha ricevuto un addebito e il PSP
+   ha emesso un’attestazione di pagamento (scontrino, ricevuta,
+   e-mail, ecc. `Vedi § 2.5 <../07-Capitolo_2/Capitolo2.rst#attestazione-del-pagamento>`__).
 
 Al di fuori delle circostanze sopra descritte l’utilizzo dell’annullo
 tecnico non è ammesso.
@@ -760,13 +760,13 @@ effettuare il pagamento.
 L’insieme di tali informazioni può dare luogo alla predisposizione di un
 avviso di pagamento:
 
-   a) **analogico**, che viene recapitato all’utilizzatore finale o che
-      questi stampa, se previsto, direttamente dal sito web dell’Ente
-      Creditore;
+a) **analogico**, che viene recapitato all’utilizzatore finale o che
+   questi stampa, se previsto, direttamente dal sito web dell’Ente
+   Creditore;
 
-   b) **digitale**, che viene inviato al Nodo dei Pagamenti SPC per essere
-      successivamente recapitato all’utilizzatore finale che ha richiesto
-      il servizio.
+b) **digitale**, che viene inviato al Nodo dei Pagamenti SPC per essere
+   successivamente recapitato all’utilizzatore finale che ha richiesto
+   il servizio.
 
 **Nel caso in cui l’Ente Creditore predisponga un avviso pagabile presso**
 **i PSP, questo deve essere sempre generato in modalità digitale ed in via**
@@ -780,13 +780,13 @@ Per i pagamenti per i quali sono prodotti avvisi di pagamento analogici,
 oltre al logotipo del sistema pagoPA (cfr. § **Errore. L'origine riferimento non è stata trovata.**),
 risultano indispensabili per l'esecuzione del pagamento stesso le seguenti informazioni:
 
-   a) Codice fiscale dell’Ente Creditore;
+a) Codice fiscale dell’Ente Creditore;
 
-   b) Codice dell'Avviso di pagamento, che contiene al suo interno il
-      codice IUV assegnato dall’Ente Creditore (vedi § 2.2
-      dell’Allegato A alle Linee guida);
+b) Codice dell'Avviso di pagamento, che contiene al suo interno il
+   codice IUV assegnato dall’Ente Creditore (vedi § 2.2
+   dell’Allegato A alle Linee guida);
 
-   c) Importo del versamento.
+c) Importo del versamento.
 
 Si ricorda che l’importo dell’avviso di pagamento è quello definito al
 momento della produzione del documento e quindi può essere soggetto a
@@ -797,18 +797,18 @@ sul documento.
 Sull’avviso di pagamento analogico deve essere inoltre indicato in
 chiaro:
 
-   d) Motivo per il quale è richiesto il pagamento;
+d) Motivo per il quale è richiesto il pagamento;
 
-   e) Data di scadenza (se presente).
+e) Data di scadenza (se presente).
 
 Al fine di favorire l’acquisizione dei dati presso i PSP, sull’avviso
 analogico potranno essere riportati, se ne ricorrono le circostanze:
 
-   f) Il codice interbancario per il pagamento attraverso il servizio
-      CBILL;
+f) Il codice interbancario per il pagamento attraverso il servizio
+   CBILL;
 
-   g) Il codice di conto corrente postale per il pagamento presso gli
-      uffici postali.
+g) Il codice di conto corrente postale per il pagamento presso gli
+   uffici postali.
 
 Le modalità di predisposizione dell’avviso analogico sono stabilite
 nella monografia “*L’Avviso di pagamento analogico nel sistema pagoPA*”,
@@ -866,19 +866,19 @@ Le copie analogiche prodotte dall’Ente Creditore o dai PSP devono
 necessariamente contenere, oltre al logo del sistema pagoPA (`cfr. § 11.5 <../19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`__ almeno le
 seguenti informazioni, per il cui contenuto si rimanda al capitolo 5 ella Sezione II:
 
-   a) Data dell’operazione
+a) Data dell’operazione
 
-   b) Codice fiscale e denominazione dell’Ente Creditore
+b) Codice fiscale e denominazione dell’Ente Creditore
 
-   c) IUV - Identificativo univoco assegnato dall’Ente Creditore
+c) IUV - Identificativo univoco assegnato dall’Ente Creditore
 
-   d) Codice identificativo del PSP
+d) Codice identificativo del PSP
 
-   e) Numero univoco assegnato al pagamento dal PSP
+e) Numero univoco assegnato al pagamento dal PSP
 
-   f) Importo dell’operazione
+f) Importo dell’operazione
 
-   g) Causale del versamento indicata nella RPT.
+g) Causale del versamento indicata nella RPT.
 
 Nel caso del pagamento effettuato presso il PSP, quest’ultimo deve
 rendere disponibile, anche attraverso la stampa di un pre-scontrino, le
@@ -966,15 +966,15 @@ L’operazione di riconciliazione in modalità singola viene effettuata
 dall’Ente Creditore sulla base della seguente coppia di informazioni
 (`vedi paragrafo 5.3.2 della Sezione II <../11-Capitolo_5/Capitolo5.rst#ricevuta-telematica-rt>`__) presenti sulla RT inviata dal PSP all’Ente Creditore:
 
-   a. identificativoUnivocoVersamento (IUV) che deve coincidere con la
-      componente <IUV> della causale della disposizione di accredito
-      inviata al PSP dell’Ente Creditore, secondo le indicazioni di cui
-      alla Sezione I dell’Allegato A alle Linee guida;
+a. identificativoUnivocoVersamento (IUV) che deve coincidere con la
+   componente <IUV> della causale della disposizione di accredito
+   inviata al PSP dell’Ente Creditore, secondo le indicazioni di cui
+   alla Sezione I dell’Allegato A alle Linee guida;
 
-   b. ì-esima occorrenza del dato singoloImportoPagato della struttura
-      datiSingoloPagamento che deve coincidere con il dato presente
-      nell’informazione *Amount* della disposizione di accredito
-      inviata dal PSP al PSP dell’Ente Creditore.
+b. ì-esima occorrenza del dato singoloImportoPagato della struttura
+   datiSingoloPagamento che deve coincidere con il dato presente
+   nell’informazione *Amount* della disposizione di accredito
+   inviata dal PSP al PSP dell’Ente Creditore.
 
 Se ritenuto opportuno, l’Ente Creditore può verificare che il dato
 identificativoUnivocoRiscossione della RT corrisponda o con il dato
@@ -1012,14 +1012,14 @@ dati contenuti nel Flusso di rendicontazione di cui sopra con i dati
 presenti nelle Ricevute Telematiche (RT) memorizzate presso di sé sulla
 base della seguente coppia di informazioni:
 
-   a. identificativoUnivocoVersamento (IUV) presente sulla RT inviata
-      all’Ente Creditore che deve coincidere con lo stesso dato
-      presente nella struttura datiSingoliPagamenti del Flusso di
-      rendicontazione;
+a. identificativoUnivocoVersamento (IUV) presente sulla RT inviata
+   all’Ente Creditore che deve coincidere con lo stesso dato
+   presente nella struttura datiSingoliPagamenti del Flusso di
+   rendicontazione;
 
-   b. singoloImportoPagato presente sulla RT inviata all’Ente Creditore che
-      deve coincidere con il dato omonimo presente nella struttura dati
-      datiSingoliPagamenti del Flusso di rendicontazione.
+b. singoloImportoPagato presente sulla RT inviata all’Ente Creditore che
+   deve coincidere con il dato omonimo presente nella struttura dati
+   datiSingoliPagamenti del Flusso di rendicontazione.
 
 |image14|
 
@@ -1122,7 +1122,7 @@ acquisto consta dei seguenti passi:
 
    c. provincia di residenza del soggetto pagatore;
 
-5. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 <../07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`_) che
+5. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 <../07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-    parte-dellutilizzatore-finale>`_) che
    gli consente di scegliere il servizio di pagamento che intende
    utilizzare NB: la PA deve porre attenzione alla composizione del
    carrello poiché in questa circostanza le opzioni disponibili saranno
