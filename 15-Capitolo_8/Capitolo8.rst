@@ -705,16 +705,16 @@ possibile definire i comportamenti da adottare in funzione di tali
 risultati:
 
 -  IUV sconosciuto (RPT non presente nel Nodo): l’Ente Creditore può
-       ripetere l’invio della RPT usando lo stesso IUV;
+   ripetere l’invio della RPT usando lo stesso IUV;
 
 -  stato indeterminato: l’Ente Creditore resta in attesa, ripetendo la
-       chiedi stato;
+   chiedi stato;
 
 -  operazione in errore (con RPT presente nel Nodo): l’Ente Creditore
-       può ripetere l’invio della RPT usando un nuovo IUV;
+   può ripetere l’invio della RPT usando un nuovo IUV;
 
 -  operazione di pagamento in corso o conclusa (positivamente o
-       negativamente): l’Ente Creditore attende la ricezione della RT.
+   negativamente): l’Ente Creditore attende la ricezione della RT.
 
 Pagamento attivato presso il PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
