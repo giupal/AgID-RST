@@ -652,11 +652,11 @@ b) usare la primitiva **nodoInviaCarrelloRPT** (in una prima fase è
    fissi:
 
 +-----------------------------------+--------------------+
-| 4. identificativoPSP              | **AGID_01**        |
-+===================================+====================+
-| 2. identificativoIntermediarioPSP | **97735020584**    |
+| 2. identificativoPSP              | **AGID_01**        |
 +-----------------------------------+--------------------+
-| 3. identificativoCanale           | **97735020584_02** |
+| 3. identificativoIntermediarioPSP | **97735020584**    |
++-----------------------------------+--------------------+
+| 4. identificativoCanale           | **97735020584_02** |
 +-----------------------------------+--------------------+
 
 Casi di errore e strategie di ripristino per l’Ente Creditore
