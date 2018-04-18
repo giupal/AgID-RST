@@ -828,7 +828,8 @@ presenti sull’avviso di pagamento.
 
 Per questo motivo tale documento è corredato, oltre che dati essenziali
 sopra riportati, anche da un insieme di elementi grafici facilmente
-leggibili e decodificabili da apposite apparecchiature (`vedi anche il § 7.4.2 <../13-Capitolo_7/Capitolo7.rst#automazione-dellavviso-di-pagamento-analogico>`_).
+leggibili e decodificabili da apposite apparecchiature 
+(`vedi anche il § 7.4.2 <../13-Capitolo_7/Capitolo7.rst#automazione-dellavviso-di-pagamento-analogico>`_).
 
 Avviso digitale
 ~~~~~~~~~~~~~~~
@@ -882,7 +883,7 @@ g) Causale del versamento indicata nella RPT.
 Nel caso del pagamento effettuato presso il PSP, quest’ultimo deve
 rendere disponibile, anche attraverso la stampa di un pre-scontrino, le
 indicazioni di dettaglio del pagamento previste dal
- `§ 7.4.5 <../13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__.
+`§ 7.4.5 <../13-Capitolo_7/Capitolo7.rst#comunicazioni-allutilizzatore-finale>`__.
 
 Identificazione dell’utilizzatore finale
 ----------------------------------------
@@ -923,8 +924,8 @@ Riconciliazione dei pagamenti
 -----------------------------
 .. _Riconciliazione dei pagamenti:
 
-Con rifermento al “Ciclo di vita del pagamento” ( `vedi paragrafo
-1.4 <../06-Capitolo_1/Capitolo1.rst#ciclo-di-vita-del-pagamento>`__), una volta
+Con rifermento al “Ciclo di vita del pagamento” 
+(`vedi paragrafo 1.4 <../06-Capitolo_1/Capitolo1.rst#ciclo-di-vita-del-pagamento>`__), una volta
 effettuata la fase di “Regolamento contabile” tra i PSP, l’Ente
 Creditore provvede a riconciliare le Ricevute Telematiche (RT) con le
 informazioni contabili fornite dal proprio istituto tesoriere o da Poste
