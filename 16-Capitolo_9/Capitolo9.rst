@@ -353,7 +353,7 @@ seguenti *step*:
     della RPT, che sarà riconosciuta in funzione di: idDominio
     dell'EC, codice IUV e Codice Contesto Pagamento (CCP);
 
-  **caso di risposta negativa:**
+**caso di risposta negativa:**
 
 22) la componente di *Back-end* dell'Ente Creditore invia una *response*
     KO per la primitiva **paaAttivaRPT** alla componente FESP del
