@@ -18,15 +18,13 @@ Responsabilità dell’Ente Creditore
 
 L’Ente Creditore è responsabile anche sotto il profilo giuridico:
 
--  della qualità, della correttezza e della completezza dei dati che
-       trasmette, ivi incluso l’IBAN del conto da accreditare;
+-  della qualità, della correttezza e della completezza dei dati che trasmette, ivi incluso l’IBAN del conto da accreditare;
 
 -  del corretto aggiornamento dei dati del proprio sistema informativo;
 
 -  della sicurezza all’interno del proprio dominio;
 
--  se del caso, dell’assegnazione delle firme digitali ai soggetti
-       autorizzati e del controllo del corretto utilizzo delle stesse.
+-  se del caso, dell’assegnazione delle firme digitali ai soggetti autorizzati e del controllo del corretto utilizzo delle stesse.
 
 L’Ente Creditore è altresì responsabile dell’errata e/o omessa
 indicazione dei dati comunicati all’utilizzatore finale e/o
