@@ -57,7 +57,7 @@ struttura **faultBean** composta così come indicato in Tabella 51.
 
 +-----------------------------------------------------------------------+
 | **id:**                                                               |
-+=======================================================================+
++-----------------------------------------------------------------------+
 | Soggetto che emette l'errore.                                         |
 |                                                                       |
 | *Formato:* stringa.                                                   |
@@ -155,7 +155,7 @@ dove <erogatore> può assumere uno dei seguenti valori:
 
 +----------+-----------------------------------------------------+
 | *PPT*    | errore emesso da Nodo dei Pagamenti-SPC             |
-+==========+=====================================================+
++----------+-----------------------------------------------------+
 | *PAA*    | errore emesso da Ente Creditore                     |
 +----------+-----------------------------------------------------+
 | *CANALE* | errore emesso da Prestatore di servizi di pagamento |
@@ -418,7 +418,7 @@ faultCode emessi dai vari soggetti:
 |                                                                       |
 | Oppure nel caso in cui il codiceContestoPagamento indicato non        |
 | sia conforme al tipo di versamento specificato nella RPT, ecc.        |
-+=======================================================================+
++-----------------------------------------------------------------------+
 | **<erogatore>_SINTASSI_EXTRAXSD** significa che il soggetto           |
 | erogatore è incorso in un errore di validazione delle buste SOAP      |
 | rappresentative di request applicative alle primitive che lo          |
