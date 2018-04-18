@@ -21,18 +21,14 @@ Nel grafico di Figura 66 sono rappresentati, nel lessico del servizio
 MyBank, i vari attori che interagiscono nel processo per consentire
 all’utilizzatore finale di effettuare il pagamento:
 
-a) *Buyer Bank*: è il PSP dell’utilizzatore finale, deve risultare
-       aderente al NodoSPC;
+a) *Buyer Bank*: è il PSP dell’utilizzatore finale, deve risultare aderente al NodoSPC;
 
-b) *Seller Bank*: è il PSP dell’Ente Creditore, deve risultare aderente
-       al NodoSPC;
+b) *Seller Bank*: è il PSP dell’Ente Creditore, deve risultare aderente al NodoSPC;
 
-c) *Collective Seller*: è l’AgID che mette a disposizione dei PSP che
-       propongono il servizio MyBank le funzionalità del Nodo dei
-       Pagamenti-SPC;
+c) *Collective Seller*: è l’AgID che mette a disposizione dei PSP che propongono il servizio MyBank le funzionalità del Nodo dei
+   Pagamenti-SPC;
 
-d) *Sub-Seller*: è l’Ente Creditore che, attraverso il Nodo dei
-   Pagamenti-SPC, consente ai propri utenti di utilizzare il servizio
+d) *Sub-Seller*: è l’Ente Creditore che, attraverso il Nodo dei Pagamenti-SPC, consente ai propri utenti di utilizzare il servizio
    MyBank proposto dal PSP dell’utente stesso.
 
 Relazioni tra i soggetti
@@ -43,38 +39,38 @@ Al fine di attivare il servizio di pagamento MyBank attraverso il Nodo
 dei Pagamenti-SPC è necessario che:
 
 1. il PSP dell’utilizzatore finale (*Buyer Bank*) sia aderente al Nodo
-       dei Pagamenti-SPC ed esponga, tra i servizi di pagamento che
-       mette a disposizione dell’utilizzatore finale, anche il servizio
-       MyBank. Tale adesione impegna il PSP a rispettare le Linee guida
-       AgID, compreso l’obbligo di esporre le commissioni applicate
-       all’utilizzatore finale per il servizio MyBank;
+   dei Pagamenti-SPC ed esponga, tra i servizi di pagamento che
+   mette a disposizione dell’utilizzatore finale, anche il servizio
+   MyBank. Tale adesione impegna il PSP a rispettare le Linee guida
+   AgID, compreso l’obbligo di esporre le commissioni applicate
+   all’utilizzatore finale per il servizio MyBank;
 
 2. il PSP dell’Ente Creditore (*Seller Bank*) sia aderente al Nodo dei
-       Pagamenti-SPC ed abbia sottoscritto con AgID un apposito
-       «addendum» all’accordo di servizio.
-       Tale «addendum» impegna il PSP a svolgere a titolo gratuito il ruolo
-       di Seller Bank per le operazioni di pagamento eseguite attraverso il
-       Nodo dei pagamenti-SPC, al fine di consentire agli Enti Creditori di
-       ricevere gli accrediti relativi alle operazioni di pagamento che
-       l’utilizzatore finale ha scelto di eseguire con l’uso del servizio
-       MyBank.
+   Pagamenti-SPC ed abbia sottoscritto con AgID un apposito
+   «addendum» all’accordo di servizio.
+   Tale «addendum» impegna il PSP a svolgere a titolo gratuito il ruolo
+   di Seller Bank per le operazioni di pagamento eseguite attraverso il
+   Nodo dei pagamenti-SPC, al fine di consentire agli Enti Creditori di
+   ricevere gli accrediti relativi alle operazioni di pagamento che
+   l’utilizzatore finale ha scelto di eseguire con l’uso del servizio
+   MyBank.
 
        Le **Seller Bank** sono tenute ad utilizzare le specifiche di
        interfacciamento della componente “Wrapper MyBank” indicate al § 9.4
        della Sezione III.
 
 3. AgID assuma il ruolo di “*Collective Seller*” per consentire un
-       più facile e regolare funzionamento del servizio. In tale veste
-       AgID si occupa dell’integrazione del circuito di pagamento MyBank
-       con il sistema dei pagamenti elettronici attraverso il Nodo dei
-       Pagamenti-SPC;
+   più facile e regolare funzionamento del servizio. In tale veste
+   AgID si occupa dell’integrazione del circuito di pagamento MyBank
+   con il sistema dei pagamenti elettronici attraverso il Nodo dei
+   Pagamenti-SPC;
 
 4. l’Ente Creditore individui, tra i PSP con i quali intrattiene
-       rapporti di conto corrente, quello da accreditare e dunque per
-       effetto individui la “Seller Bank” che potrà ricevere gli
-       accrediti relativi alle operazioni di pagamento che
-       l’utilizzatore finale ha scelto di eseguire con l’uso del
-       servizio MyBank;
+   rapporti di conto corrente, quello da accreditare e dunque per
+   effetto individui la “Seller Bank” che potrà ricevere gli
+   accrediti relativi alle operazioni di pagamento che
+   l’utilizzatore finale ha scelto di eseguire con l’uso del
+   servizio MyBank;
 
 5. l’Ente Creditore assumendo il ruolo di “*Sub Seller*”, si impegna
    in sede di adesione al Nodo dei Pagamenti-SPC a rispettare
@@ -129,32 +125,32 @@ requirements* è pubblicata sul sito dell’Agenzia. In particolare, ogni
 Ente Creditore si impegna a:
 
 1. rispettare e conformarsi a quanto indicato e previsto nel documento
-       “MyBank Style Guide for Businesses”, pubblicato sul sito
-       dell’Agenzia, ai fini della più ampia tutela dell'uso del Logo
-       MyBank e dei relativi diritti di proprietà intellettuale in capo
-       a Preta S.A.S;
+   “MyBank Style Guide for Businesses”, pubblicato sul sito
+   dell’Agenzia, ai fini della più ampia tutela dell'uso del Logo
+   MyBank e dei relativi diritti di proprietà intellettuale in capo
+   a Preta S.A.S;
 
 2. non alterare o modificare il Logo MyBank, ad eccezione di quanto
    previsto e autorizzato nell'allegato documento “MyBank Style Guide
    for Businesses”;
 
 3. non porre in essere alcuna attività, azione od omissione, atto o
-       fatto diretto a contestare, ostacolare, invalidare, alterare i
-       diritti di proprietà intellettuale in capo a Preta S.A.S. aventi
-       ad oggetto il Logo MyBank;
+   fatto diretto a contestare, ostacolare, invalidare, alterare i
+   diritti di proprietà intellettuale in capo a Preta S.A.S. aventi
+   ad oggetto il Logo MyBank;
 
 4. rispettare la normativa in materia di protezione dei dati personali;
 
 5. offrire agli utilizzatori finali i livelli di servizio minimi
-       definiti da Preta S.A.S.;
+   definiti da Preta S.A.S.;
 
 6. adeguarsi a eventuali modifiche al servizio MyBank entro le scadenze
-       specificate, se del caso, da AgID, previo accordo con Preta
-       S.A.S.;
+   specificate, se del caso, da AgID, previo accordo con Preta
+   S.A.S.;
 
 7. rispettare, in quanto applicabile all’uso del servizio MyBank da
-       parte degli Enti Creditori, ogni altra previsione stabilita nel
-       documento *Mandatory requirements* del servizio MyBank.
+   parte degli Enti Creditori, ogni altra previsione stabilita nel
+   documento *Mandatory requirements* del servizio MyBank.
 
 Logotipo del servizio MyBank
 ----------------------------
