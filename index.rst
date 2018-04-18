@@ -264,7 +264,7 @@ pagamento <07-Capitolo_2/Capitolo2.rst#iscrizione-al-servizio-presso-un-prestato
 
 `4.6.3.1 Report “Commissioni a carico PA” <09-Capitolo_4/Capitolo4.rst#report-commissioni-a-carico-pa>`__
 
-`Sezione II - Composizione DELLE INFORMAZIONI ATTINENTI ALLO SCAMBIO DI
+`Sezione II - COMPOSIZIONE DELLE INFORMAZIONI ATTINENTI ALLO SCAMBIO DI
 DATI TRA Enti creditori E PSP </10-SEZIONE_II/SEZIONE_II_-_COMPOSIZIONE_DELLE_INFORMAZIONI_ATTINENTI_ALLO_SCAMBIO_DI_DATI_TRA_ENTI_CREDITORI_E_PSP.rst>`__
 
 `5. Messaggi e flussi informativi </11-Capitolo_5/Capitolo5.rst>`__
