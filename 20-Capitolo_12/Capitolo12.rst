@@ -34,37 +34,37 @@ Durante l’erogazione del Servizio, l’Ente Creditore censito nel
 Dominio deve inoltre:
 
 -  comunicare al proprio utilizzatore finale gli eventuali vincoli,
-       disponibilità dei propri servizi con particolare riferimento ai
-       pagamenti attivati presso le strutture dei prestatori di servizi
-       di pagamento (`vedi § 2.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`_);
+   disponibilità dei propri servizi con particolare riferimento ai
+   pagamenti attivati presso le strutture dei prestatori di servizi
+   di pagamento (`vedi § 2.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`_);
 
 -  comunicare all’utilizzatore finale le caratteristiche tipiche dei
-       servizi di pagamento offerti attraverso il Nodo dei
-       Pagamenti-SPC;
+   servizi di pagamento offerti attraverso il Nodo dei
+   Pagamenti-SPC;
 
 -  utilizzare le funzionalità del sistema per comunicare
-       all’utilizzatore finale le condizioni economiche, gli eventuali
-       vincoli, la disponibilità e le relative caratteristiche dei
-       servizi di pagamento offerti dai PSP aderenti;
+   all’utilizzatore finale le condizioni economiche, gli eventuali
+   vincoli, la disponibilità e le relative caratteristiche dei
+   servizi di pagamento offerti dai PSP aderenti;
 
 -  essere in grado di attivare i servizi di pagamento richiesti
-       dall’utilizzatore finale attraverso il Nodo dei Pagamenti-SPC;
+   dall’utilizzatore finale attraverso il Nodo dei Pagamenti-SPC;
 
 -  eseguire i controlli formali e di validità previsti dalle presenti
-       specifiche attuative;
+   specifiche attuative;
 
 -  segnalare o rendere disponibile al soggetto che lo richiede
-       (prestatore di servizi di pagamento, utilizzatore finale, tavolo
-       operativo del Nodo dei Pagamenti-SPC) un’evidenza dello stato del
-       flusso elaborativo (giornale degli eventi) a fronte di una
-       eventuale situazione di blocco del flusso stesso;
+   (prestatore di servizi di pagamento, utilizzatore finale, tavolo
+   operativo del Nodo dei Pagamenti-SPC) un’evidenza dello stato del
+   flusso elaborativo (giornale degli eventi) a fronte di una
+   eventuale situazione di blocco del flusso stesso;
 
 -  rispettare le disponibilità di servizio indicate (`vedi § 12.5.2 <../20-Capitolo_12/Capitolo12.rst#enti-creditori>`_);
 
 -  mantenere disponibili le risorse richieste in fase di attivazione
-       (Referente Pagamenti, Referente Tecnico, Tavolo Operativo per la
-       gestione delle emergenze, ecc.) e provvedere ad aggiornare
-       l’Agenzia per l’Italia Digitale in caso di loro avvicendamento.
+   (Referente Pagamenti, Referente Tecnico, Tavolo Operativo per la
+   gestione delle emergenze, ecc.) e provvedere ad aggiornare
+   l’Agenzia per l’Italia Digitale in caso di loro avvicendamento.
 
 Adempimenti specifici relativi al circuito MyBank
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -117,30 +117,30 @@ Durante l’erogazione del Servizio, il prestatore di servizi di pagamento
 censito nel Dominio deve:
 
 -  eseguire i controlli formali e di validità previsti dagli presenti
-       specifiche attuative;
+   specifiche attuative;
 
 -  essere in grado di attivare i servizi di pagamento richiesti
-       dall’utilizzatore finale attraverso il Nodo dei Pagamenti-SPC;
+   dall’utilizzatore finale attraverso il Nodo dei Pagamenti-SPC;
 
 -  rispettare le disponibilità di servizio indicate (`vedi § 12.5.3 <../20-Capitolo_12/Capitolo12.rst#prestatori-di-servizi-di-pagamento-aderenti>`_);
 
 -  segnalare o rendere disponibile al soggetto che lo richiede (Ente
-       Creditore, utilizzatore finale, tavolo operativo del Nodo dei
-       Pagamenti-SPC) un’evidenza dello stato del flusso elaborativo
-       (giornale degli eventi) a fronte di una eventuale situazione di
-       blocco del flusso stesso;
+   Creditore, utilizzatore finale, tavolo operativo del Nodo dei
+   Pagamenti-SPC) un’evidenza dello stato del flusso elaborativo
+   (giornale degli eventi) a fronte di una eventuale situazione di
+   blocco del flusso stesso;
 
 -  pubblicare in una specifica pagina internet raggiungibile attraverso
-       la URL comunicata al gestore del Nodo dei Pagamenti-SPC le
-       condizioni economiche, gli eventuali vincoli, disponibilità di
-       servizio o caratteristiche tipiche dei servizi di pagamento
-       offerti attraverso il Nodo dei Pagamenti-SPC, in modo da renderle
-       trasparenti per l’utilizzatore finale;
+   la URL comunicata al gestore del Nodo dei Pagamenti-SPC le
+   condizioni economiche, gli eventuali vincoli, disponibilità di
+   servizio o caratteristiche tipiche dei servizi di pagamento
+   offerti attraverso il Nodo dei Pagamenti-SPC, in modo da renderle
+   trasparenti per l’utilizzatore finale;
 
 -  mantenere disponibili le risorse richieste in fase di attivazione
-       (Referente Pagamenti, Tavolo Operativo per la gestione delle
-       emergenze, ecc.) e provvedere ad aggiornare l’Agenzia per
-       l’Italia Digitale in caso di loro avvicendamento.
+   (Referente Pagamenti, Tavolo Operativo per la gestione delle
+   emergenze, ecc.) e provvedere ad aggiornare l’Agenzia per
+   l’Italia Digitale in caso di loro avvicendamento.
 
 I prestatori di servizi di pagamento che offrono servizi presso proprie
 strutture e/o punti di prossimità (`vedi paragrafo 2.2 <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-attivato-presso-il-psp>`_ Processo di pagamento attivato presso il PSP) dovranno comunicare agli utilizzatori
@@ -231,10 +231,10 @@ disponibilità:
 -  **Servizio Repository**: è reso in modalità on-line;
 
 -  **Servizio Ricezione totali di traffico**: è reso sulla base della
-       periodicità da definire con il fruitore;
+   periodicità da definire con il fruitore;
 
 -  **Servizio di Invio e ricezione dei flussi di rendicontazione**: è
-       reso in modalità on-line e in modalità File Transfer sicuro.
+   reso in modalità on-line e in modalità File Transfer sicuro.
 
 Il Tavolo Operativo è disponibile 24 ore per 7 giorni/settimana.
 
