@@ -59,7 +59,7 @@ Il prestatore di servizi di pagamento è responsabile anche sotto il
 profilo giuridico:
 
 -  della qualità, della correttezza e della completezza dei dati che
-       trasmette;
+   trasmette;
 
 -  del corretto aggiornamento dei dati del proprio sistema informativo;
 
