@@ -167,230 +167,229 @@ nella **Gestione degli errori** delle singole primitive.
 
 **Tabella** **52 - Valori da utilizzare nella struttura faultBean**
 
-+-----------------------------------+-----------------------------------+
-| **faultCode**                     | **faultString**                   |
-+===================================+===================================+
-| *CANALE_AVVISO_DUPLICATO*         | Messaggio di Warning per Avviso   |
-|                                   | duplicato                         |
-+-----------------------------------+-----------------------------------+
-| *CANALE_BUSTA_ERRATA*             | Messaggio dismesso                |
-+-----------------------------------+-----------------------------------+
-| *CANALE_ER_DUPLICATA*             | ER duplicata.                     |
-+-----------------------------------+-----------------------------------+
-| *CANALE_FIRMA_SCONOSCIUTA*        | Messaggio dismesso                |
-+-----------------------------------+-----------------------------------+
-| *CANALE_INDISPONIBILE*            | Servizio non disponibile.         |
-+-----------------------------------+-----------------------------------+
-| *CANALE_RICHIEDENTE_ERRATO*       | Identificativo richiedente non    |
-|                                   | valido.                           |
-+-----------------------------------+-----------------------------------+
-| *CANALE_RPT_DUPLICATA*            | RPT duplicata.                    |
-+-----------------------------------+-----------------------------------+
-| *CANALE_RPT_RIFIUTATA*            | RPT rifiutata.                    |
-+-----------------------------------+-----------------------------------+
-| *CANALE_RPT_SCONOSCIUTA*          | RPT sconosciuta.                  |
-+-----------------------------------+-----------------------------------+
-| *CANALE_RT_NON_DISPONIBILE*       | Vedi § 9.2.2.2  **pspChiediRT** e |
-|                                   | § 9.2.2.4                         |
-|                                   | **pspChiediListaRT**              |
-+-----------------------------------+-----------------------------------+
-| *CANALE_RT_SCONOSCIUTA*           | RT sconosciuta.                   |
-+-----------------------------------+-----------------------------------+
-| *CANALE_SEMANTICA*                | Errore semantico.                 |
-+-----------------------------------+-----------------------------------+
-| *CANALE_SINTASSI_EXTRAXSD*        | Errore di sintassi extra XSD.     |
-+-----------------------------------+-----------------------------------+
-| *CANALE_SINTASSI_XSD*             | Errore di sintassi XSD.           |
-+-----------------------------------+-----------------------------------+
-| *CANALE_SYSTEM_ERROR*             | Errore generico.                  |
-+-----------------------------------+-----------------------------------+
-|*PAA_ATTIVA_RPT_IMPORTO_NON_VALIDO*| L’importo del pagamento in attesa |
-|                                   | non è congruente con il dato      |
-|                                   | indicato dal PSP                  |
-+-----------------------------------+-----------------------------------+
-| *PAA_ER_DUPLICATA*                | Esito Revoca duplicato            |
-+-----------------------------------+-----------------------------------+
-| *PAA_ERRORE_FORMATO_BUSTA_FIRMATA*| Formato busta di firma errato o   |
-|                                   | non corrispondente al tipoFirma.  |
-+-----------------------------------+-----------------------------------+
-| *PAA_FIRMA_ERRATA*                | Errore di firma.                  |
-+-----------------------------------+-----------------------------------+
-| *PAA_FIRMA_INDISPONIBILE*         | Impossibile firmare.              |
-+-----------------------------------+-----------------------------------+
-| *PAA_ID_DOMINIO_ERRATO*           | La PAA non corrisponde al Dominio |
-|                                   | indicato.                         |
-+-----------------------------------+-----------------------------------+
-| *PAA_ID_INTERMEDIARIO_ERRATO*     | Identificativo intermediario non  |
-|                                   | corrispondente.                   |
-+-----------------------------------+-----------------------------------+
-| *PAA_PAGAMENTO_ANNULLATO*         | Pagamento in attesa risulta       |
-|                                   | annullato all’Ente Creditore.     |
-+-----------------------------------+-----------------------------------+
-| *PAA_PAGAMENTO_DUPLICATO*         | Pagamento in attesa risulta       |
-|                                   | concluso all’Ente Creditore.      |
-+-----------------------------------+-----------------------------------+
-| *PAA_PAGAMENTO_IN_CORSO*          | Pagamento in attesa risulta in    |
-|                                   | corso all’Ente Creditore.         |
-+-----------------------------------+-----------------------------------+
-| *PAA_PAGAMENTO_SCADUTO*           | Pagamento in attesa risulta       |
-|                                   | scaduto all’Ente Creditore.       |
-+-----------------------------------+-----------------------------------+
-| *PAA_PAGAMENTO_SCONOSCIUTO*       | Pagamento in attesa risulta       |
-|                                   | sconosciuto all’Ente Creditore.   |
-+-----------------------------------+-----------------------------------+
-| *PAA_RPT_SCONOSCIUTA*             | La RPT risulta sconosciuta.       |
-+-----------------------------------+-----------------------------------+
-| *PAA_RT_DUPLICATA*                | La RT è già stata accettata.      |
-+-----------------------------------+-----------------------------------+
-| *PAA_RT_SCONOSCIUTA*              | RT sconosciuta.                   |
-+-----------------------------------+-----------------------------------+
-| *PAA_SEMANTICA*                   | Errore semantico.                 |
-+-----------------------------------+-----------------------------------+
-| *PAA_SINTASSI_EXTRAXSD*           | Errore di sintassi extra XSD.     |
-+-----------------------------------+-----------------------------------+
-| *PAA_SINTASSI_XSD*                | Errore di sintassi XSD.           |
-+-----------------------------------+-----------------------------------+
-| *PAA_STAZIONE_INT_ERRATA*         | Stazione intermediario non        |
-|                                   | corrispondente.                   |
-+-----------------------------------+-----------------------------------+
-| *PAA_SYSTEM_ERROR*                | Errore generico.                  |
-+-----------------------------------+-----------------------------------+
-| *PAA_TIPOFIRMA_SCONOSCIUTO*       | Il campo tipoFirma non            |
-|                                   | corrisponde ad alcun valore       |
-|                                   | previsto.                         |
-+-----------------------------------+-----------------------------------+
-| *PPT_AUTENTICAZIONE*              | Errore di autenticazione.         |
-+-----------------------------------+-----------------------------------+
-| *PPT_AUTORIZZAZIONE*              | Il richiedente non ha i diritti   |
-|                                   | per l’operazione.                 |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_DISABILITATO*         | Canale conosciuto ma disabilitato |
-|                                   | da configurazione.                |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_ERR_PARAM_PAG_IMM*    | Parametri restituiti dal Canale   |
-|                                   | per identificare il pagamento non |
-|                                   | corretti                          |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_ERRORE*               | Errore restituito dal Canale.     |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_ERRORE_RESPONSE*      | La *response* ricevuta dal Canale |
-|                                   | è vuota o non corretta            |
-|                                   | sintatticamente o semanticamente  |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_INDISPONIBILE*        | Nessun canale utilizzabile e      |
-|                                   | abilitato.                        |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_IRRAGGIUNGIBILE*      | Errore di connessione verso il    |
-|                                   | Canale.                           |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_NONRISOLVIBILE*       | Il canale non è specificato, e    |
-|                                   | nessun canale risulta             |
-|                                   | utilizzabile secondo              |
-|                                   | configurazione.                   |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_SCONOSCIUTO*          | Canale sconosciuto.               |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_SERVIZIO_NONATTIVO*   | Il Servizio Applicativo del       |
-|                                   | Canale non è attivo.              |
-+-----------------------------------+-----------------------------------+
-| *PPT_CANALE_TIMEOUT*              | Timeout risposta dal Canale.      |
-+-----------------------------------+-----------------------------------+
-| *PPT_CODIFICA_PSP_SCONOSCIUTA*    | Valore di codificaInfrastruttura  |
-|                                   | PSP non censito.                  |
-+-----------------------------------+-----------------------------------+
-| *PPT_DOMINIO_DISABILITATO*        | Dominio disabilitato.             |
-+-----------------------------------+-----------------------------------+
-| *PPT_DOMINIO_SCONOSCIUTO*         | IdentificativoDominio             |
-|                                   | sconosciuto.                      |
-+-----------------------------------+-----------------------------------+
-| *PPT_ERRORE_EMESSO_DA_PAA*        | Errore restituito dall’Ente       |
-|                                   | Creditore.                        |
-+-----------------------------------+-----------------------------------+
-| *PPT_ERRORE_FORMATO_BUSTA_FIRMATA*| Formato busta di firma errato o   |
-|                                   | non corrispondente al tipoFirma.  |
-+-----------------------------------+-----------------------------------+
-| *PPT_FIRMA_INDISPONIBILE*         | Impossibile firmare.              |
-+-----------------------------------+-----------------------------------+
-| *PPT_IBAN_NON_CENSITO*            | Il codice IBAn indicato dal EC    |
-|                                   | non è presente nella lista degli  |
-|                                   | IBAN comunicati al sistema        |
-|                                   | pagoPA.                           |
-+-----------------------------------+-----------------------------------+
-| *PPT_ID_CARRELLO_DUPLICATO*       | Identificativo Carrello RPT       |
-|                                   | duplicato.                        |
-+-----------------------------------+-----------------------------------+
-| *PPT_ID_FLUSSO_SCONOSCIUTO*       | Identificativo flusso             |
-|                                   | sconosciuto.                      |
-+-----------------------------------+-----------------------------------+
-| *cPPT_ISCRIZIONE_NON_PRESENTE*    | Iscrizione non presente in        |
-|                                   | archivio.                         |
-+-----------------------------------+-----------------------------------+
-| *PPT_OPER_NON_REVOCABILE*         | Operazione non revocabile.        |
-+-----------------------------------+-----------------------------------+
-| *PPT_OPER_NON_STORNABILE*         | Operazione non stornabile.        |
-+-----------------------------------+-----------------------------------+
-| *PPT_PSP_DISABILITATO*            | PSP conosciuto ma disabilitato da |
-|                                   | configurazione                    |
-+-----------------------------------+-----------------------------------+
-| *PPT_PSP_SCONOSCIUTO*             | PSP sconosciuto                   |
-+-----------------------------------+-----------------------------------+
-| *PPT_RPT_DUPLICATA*               | RPT duplicata.                    |
-+-----------------------------------+-----------------------------------+
-| *PPT_RPT_NON_INOLTRABILE*         | La RPT richiesta e fornita dalla  |
-|                                   | PA non può essere inoltrata in    |
-|                                   | quanto non corretta formalmente.  |
-+-----------------------------------+-----------------------------------+
-| *PPT_RPT_SCONOSCIUTA*             | RPT sconosciuta.                  |
-+-----------------------------------+-----------------------------------+
-| *PPT_RT_DUPLICATA*                | La RT inviata dal PSP è già stata |
-|                                   | inviata (RT push).                |
-+-----------------------------------+-----------------------------------+
-| *PPT_RT_NONDISPONIBILE*           | RT non ancora pronta.             |
-+-----------------------------------+-----------------------------------+
-| *PPT_RT_SCONOSCIUTA*              | RT sconosciuta.                   |
-+-----------------------------------+-----------------------------------+
-| *PPT_SEMANTICA*                   | Errore semantico.                 |
-+-----------------------------------+-----------------------------------+
-| *PPT_SINTASSI_EXTRAXSD*           | Errore di sintassi extra XSD.     |
-+-----------------------------------+-----------------------------------+
-| *PPT_SINTASSI_XSD*                | Errore di sintassi XSD.           |
-+-----------------------------------+-----------------------------------+
-| *PPT_STAZIONE_INT_PA_DISABILITATA*| Stazione disabilitata.            |
-|                                   |                                   |
-+-----------------------------------+-----------------------------------+
-| *PPT_STAZIONE_INT_PA_IRRAGGIUNGIB*| Errore di connessione verso la    |
-| *ILE*                             | Stazione                          |
-+-----------------------------------+-----------------------------------+
-| *PPT_STAZIONE_INT_PA_SCONOSCIUTA* | IdentificativoStazioneRichiedente |
-|                                   | sconosciuto.                      |
-+-----------------------------------+-----------------------------------+
-| *PPT_STAZIONE_INT_PA_SERVIZIO_NON*| Il Servizio Applicativo della     |
-| *ATTIVO*                          | Stazione non è attivo             |
-+-----------------------------------+-----------------------------------+
-| *PPT_SUPERAMENTOSOGLIA*           | Una qualche soglia fissata per    |
-|                                   | PPT è temporaneamente superata e  |
-|                                   | la richiesta è quindi rifiutata.  |
-+-----------------------------------+-----------------------------------+
-| *PPT_SYSTEM_ERROR*                | Errore generico.                  |
-+-----------------------------------+-----------------------------------+
-| *PPT_TIPOFIRMA_SCONOSCIUTO*       | Il campo tipoFirma non            |
-|                                   | corrisponde ad alcun valore       |
-|                                   | previsto.                         |
-+-----------------------------------+-----------------------------------+
-| *PPT_ULTERIORE_ISCRIZIONE*        | Ulteriore iscrizione              |
-|                                   | precedentemente censita.          |
-+-----------------------------------+-----------------------------------+
-| *PPT_WISP_SESSIONE_SCONOSCIUTA*   | La tripletta                      |
-|                                   | idDominio+keyPA+keyWISP non       |
-|                                   | corrisponde ad alcuna sessione    |
-|                                   | memorizzata nella componente      |
-|                                   | WISP.                             |
-+-----------------------------------+-----------------------------------+
-| *PPT_WISP_TIMEOUT_RECUPERO_SCELTA*| La tripletta                      |
-|                                   | idDominio+keyPA+keyWISP è         |
-|                                   | relativa ad una scelta effettuata |
-|                                   | scaduta.                          |
-+-----------------------------------+-----------------------------------+
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| **faultCode**                     | **faultString**                                                                            |
++===================================+============================================================================================+
+| *CANALE_AVVISO_DUPLICATO*         | Messaggio di Warning per Avviso                                                            |
+|                                   | duplicato                                                                                  |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_BUSTA_ERRATA*             | Messaggio dismesso                                                                         |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_ER_DUPLICATA*             | ER duplicata.                                                                              |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_FIRMA_SCONOSCIUTA*        | Messaggio dismesso                                                                         |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_INDISPONIBILE*            | Servizio non disponibile.                                                                  |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_RICHIEDENTE_ERRATO*       | Identificativo richiedente non                                                             |
+|                                   | valido.                                                                                    |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_RPT_DUPLICATA*            | RPT duplicata.                                                                             |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_RPT_RIFIUTATA*            | RPT rifiutata.                                                                             |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_RPT_SCONOSCIUTA*          | RPT sconosciuta.                                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_RT_NON_DISPONIBILE*       | `Vedi § 9.2.2.2 <../16-Capitolo_9/Capitolo9.rst#pspchiedirt>`_  **pspChiediRT** e          |
+|                                   | `§ 9.2.2.4 <../16-Capitolo_9/Capitolo9.rst#pspchiedilistart>`_  **pspChiediListaRT**       |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_RT_SCONOSCIUTA*           | RT sconosciuta.                                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_SEMANTICA*                | Errore semantico.                                                                          |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_SINTASSI_EXTRAXSD*        | Errore di sintassi extra XSD.                                                              |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_SINTASSI_XSD*             | Errore di sintassi XSD.                                                                    |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *CANALE_SYSTEM_ERROR*             | Errore generico.                                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+|*PAA_ATTIVA_RPT_IMPORTO_NON_VALIDO*| L’importo del pagamento in attesa                                                          |
+|                                   | non è congruente con il dato                                                               |
+|                                   | indicato dal PSP                                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_ER_DUPLICATA*                | Esito Revoca duplicato                                                                     |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_ERRORE_FORMATO_BUSTA_FIRMATA*| Formato busta di firma errato o                                                            |
+|                                   | non corrispondente al tipoFirma.                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_FIRMA_ERRATA*                | Errore di firma.                                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_FIRMA_INDISPONIBILE*         | Impossibile firmare.                                                                       |
++-----------------------------------+-------------------------------------------------------------------------------------------+
+| *PAA_ID_DOMINIO_ERRATO*           | La PAA non corrisponde al Dominio                                                          |
+|                                   | indicato.                                                                                  |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_ID_INTERMEDIARIO_ERRATO*     | Identificativo intermediario non                                                           |
+|                                   | corrispondente.                                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_PAGAMENTO_ANNULLATO*         | Pagamento in attesa risulta                                                                |
+|                                   | annullato all’Ente Creditore.                                                              |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_PAGAMENTO_DUPLICATO*         | Pagamento in attesa risulta                                                                |
+|                                   | concluso all’Ente Creditore.                                                               |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_PAGAMENTO_IN_CORSO*          | Pagamento in attesa risulta in                                                             |
+|                                   | corso all’Ente Creditore.                                                                  |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_PAGAMENTO_SCADUTO*           | Pagamento in attesa risulta                                                                |
+|                                   | scaduto all’Ente Creditore.                                                                |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_PAGAMENTO_SCONOSCIUTO*       | Pagamento in attesa risulta                                                                |
+|                                   | sconosciuto all’Ente Creditore.                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_RPT_SCONOSCIUTA*             | La RPT risulta sconosciuta.                                                                |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_RT_DUPLICATA*                | La RT è già stata accettata.                                                               |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_RT_SCONOSCIUTA*              | RT sconosciuta.                                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_SEMANTICA*                   | Errore semantico.                                                                          |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_SINTASSI_EXTRAXSD*           | Errore di sintassi extra XSD.                                                              |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_SINTASSI_XSD*                | Errore di sintassi XSD.                                                                    |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_STAZIONE_INT_ERRATA*         | Stazione intermediario non                                                                 |
+|                                   | corrispondente.                                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_SYSTEM_ERROR*                | Errore generico.                                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PAA_TIPOFIRMA_SCONOSCIUTO*       | Il campo tipoFirma non                                                                     |
+|                                   | corrisponde ad alcun valore                                                                |
+|                                   | previsto.                                                                                  |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_AUTENTICAZIONE*              | Errore di autenticazione.                                                                  |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_AUTORIZZAZIONE*              | Il richiedente non ha i diritti                                                            |
+|                                   | per l’operazione.                                                                          |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_DISABILITATO*         | Canale conosciuto ma disabilitato                                                          |
+|                                   | da configurazione.                                                                         |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_ERR_PARAM_PAG_IMM*    | Parametri restituiti dal Canale                                                            |
+|                                   | per identificare il pagamento non                                                          |
+|                                   | corretti                                                                                   |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_ERRORE*               | Errore restituito dal Canale.                                                              |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_ERRORE_RESPONSE*      | La *response* ricevuta dal Canale                                                          |
+|                                   | è vuota o non corretta                                                                     |
+|                                   | sintatticamente o semanticamente                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_INDISPONIBILE*        | Nessun canale utilizzabile e                                                               |
+|                                   | abilitato.                                                                                 |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_IRRAGGIUNGIBILE*      | Errore di connessione verso il                                                             |
+|                                   | Canale.                                                                                    |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_NONRISOLVIBILE*       | Il canale non è specificato, e                                                             |
+|                                   | nessun canale risulta                                                                      |
+|                                   | utilizzabile secondo                                                                       |
+|                                   | configurazione.                                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_SCONOSCIUTO*          | Canale sconosciuto.                                                                        |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_SERVIZIO_NONATTIVO*   | Il Servizio Applicativo del                                                                |
+|                                   | Canale non è attivo.                                                                       |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CANALE_TIMEOUT*              | Timeout risposta dal Canale.                                                               |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_CODIFICA_PSP_SCONOSCIUTA*    | Valore di codificaInfrastruttura                                                           |
+|                                   | PSP non censito.                                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_DOMINIO_DISABILITATO*        | Dominio disabilitato.                                                                      |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_DOMINIO_SCONOSCIUTO*         | IdentificativoDominio                                                                      |
+|                                   | sconosciuto.                                                                               |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_ERRORE_EMESSO_DA_PAA*        | Errore restituito dall’Ente                                                                |
+|                                   | Creditore.                                                                                 |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_ERRORE_FORMATO_BUSTA_FIRMATA*| Formato busta di firma errato o                                                            |
+|                                   | non corrispondente al tipoFirma.                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_FIRMA_INDISPONIBILE*         | Impossibile firmare.                                                                       |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_IBAN_NON_CENSITO*            | Il codice IBAn indicato dal EC                                                             |
+|                                   | non è presente nella lista degli                                                           |
+|                                   | IBAN comunicati al sistema                                                                 |
+|                                   | pagoPA.                                                                                    |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_ID_CARRELLO_DUPLICATO*       | Identificativo Carrello RPT                                                                |
+|                                   | duplicato.                                                                                 |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_ID_FLUSSO_SCONOSCIUTO*       | Identificativo flusso                                                                      |
+|                                   | sconosciuto.                                                                               |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *cPPT_ISCRIZIONE_NON_PRESENTE*    | Iscrizione non presente in                                                                 |
+|                                   | archivio.                                                                                  |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_OPER_NON_REVOCABILE*         | Operazione non revocabile.                                                                 |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_OPER_NON_STORNABILE*         | Operazione non stornabile.                                                                 |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_PSP_DISABILITATO*            | PSP conosciuto ma disabilitato da                                                          |
+|                                   | configurazione                                                                             |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_PSP_SCONOSCIUTO*             | PSP sconosciuto                                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_RPT_DUPLICATA*               | RPT duplicata.                                                                             |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_RPT_NON_INOLTRABILE*         | La RPT richiesta e fornita dalla                                                           |
+|                                   | PA non può essere inoltrata in                                                             |
+|                                   | quanto non corretta formalmente.                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_RPT_SCONOSCIUTA*             | RPT sconosciuta.                                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_RT_DUPLICATA*                | La RT inviata dal PSP è già stata                                                          |
+|                                   | inviata (RT push).                                                                         |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_RT_NONDISPONIBILE*           | RT non ancora pronta.                                                                      |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_RT_SCONOSCIUTA*              | RT sconosciuta.                                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_SEMANTICA*                   | Errore semantico.                                                                          |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_SINTASSI_EXTRAXSD*           | Errore di sintassi extra XSD.                                                              |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_SINTASSI_XSD*                | Errore di sintassi XSD.                                                                    |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_STAZIONE_INT_PA_DISABILITATA*| Stazione disabilitata.                                                                     |
+|                                   |                                                                                            |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_STAZIONE_INT_PA_IRRAGGIUNGIB*| Errore di connessione verso la                                                             |
+| *ILE*                             | Stazione                                                                                   |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_STAZIONE_INT_PA_SCONOSCIUTA* | IdentificativoStazioneRichiedente                                                          |
+|                                   | sconosciuto.                                                                               |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_STAZIONE_INT_PA_SERVIZIO_NON*| Il Servizio Applicativo della                                                              |
+| *ATTIVO*                          | Stazione non è attivo                                                                      |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_SUPERAMENTOSOGLIA*           | Una qualche soglia fissata per                                                             |
+|                                   | PPT è temporaneamente superata e                                                           |
+|                                   | la richiesta è quindi rifiutata.                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_SYSTEM_ERROR*                | Errore generico.                                                                           |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_TIPOFIRMA_SCONOSCIUTO*       | Il campo tipoFirma non                                                                     |
+|                                   | corrisponde ad alcun valore                                                                |
+|                                   | previsto.                                                                                  |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_ULTERIORE_ISCRIZIONE*        | Ulteriore iscrizione                                                                       |
+|                                   | precedentemente censita.                                                                   |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_WISP_SESSIONE_SCONOSCIUTA*   | La tripletta                                                                               |
+|                                   | idDominio+keyPA+keyWISP non                                                                |
+|                                   | corrisponde ad alcuna sessione                                                             |
+|                                   | memorizzata nella componente                                                               |
+|                                   | WISP.                                                                                      |
++-----------------------------------+--------------------------------------------------------------------------------------------+
+| *PPT_WISP_TIMEOUT_RECUPERO_SCELTA*| La tripletta                                                                               |
+|                                   | idDominio+keyPA+keyWISP è                                                                  |
+|                                   | relativa ad una scelta effettuata                                                          |
+|                                   | scaduta.                                                                                   |
++-----------------------------------+--------------------------------------------------------------------------------------------+
 
 Spiegazione di alcuni faultCode
 -------------------------------
