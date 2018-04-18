@@ -203,13 +203,15 @@ per questa fase del pagamento, che si compone dei seguenti passi:
 
 3. alla ricezione della primitiva, la componente FESP del NodoSPC
    verifica che le RPT ricevute siano utilizzabili per il pagamento;
-   **se sono rilevati uno o più errori:**
+   
+**se sono rilevati uno o più errori:**
 
 4. la componente FESP del NodoSPC fornisce al Portale EC la *response*
    "KO" per la primitiva invocata al precedente punto 2;
 
 5. la componente FESP del NodoSPC termina la transazione;
-   **se non sono rilevati errori:**
+   
+**se non sono rilevati errori:**
 
 6. la componente FESP del NodoSPC fornisce al Portale EC la *response*
    "OK" per la primitiva invocata al precedente punto 2. La
