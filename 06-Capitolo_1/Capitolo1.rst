@@ -277,9 +277,9 @@ pubblici, in particolare:
    dell’infrastruttura;
 
 -  **il Comitato interministeriale di coordinamento**, evoluzione del
-       comitato SIPA [3]_, al quale partecipano, oltre all’Agenzia per
-       l’Italia Digitale, il Ministero dell’economia e delle finanze e
-       la Banca d’Italia, verifica:
+   comitato SIPA [3]_, al quale partecipano, oltre all’Agenzia per
+   l’Italia Digitale, il Ministero dell’economia e delle finanze e
+   la Banca d’Italia, verifica:
 
 -  le tipologie di operazioni adottate dalle amministrazioni;
 
@@ -360,16 +360,16 @@ documento. Assumono particolare rilevanza le seguenti strutture
 standardizzate:
 
 -  *Richiesta Pagamento Telematico* (da ora in avanti RPT) che è emessa
-       dall’Ente Creditore e definisce gli elementi necessari a
-       caratterizzare il pagamento da effettuare;
+   dall’Ente Creditore e definisce gli elementi necessari a
+   caratterizzare il pagamento da effettuare;
 
 -  *Ricevuta Telematica* (da ora in avanti RT), restituita da un PSP a
-       fronte di pagamento individuato da una RPT, che definisce gli
-       elementi necessari a qualificare l’esito del pagamento richiesto;
+   fronte di pagamento individuato da una RPT, che definisce gli
+   elementi necessari a qualificare l’esito del pagamento richiesto;
 
 -  *Richiesta Revoca* (da ora in avanti RR) che è emessa dall’ente
-       interessato e serve a chiedere alla controparte la revoca di una
-       RT o lo storno di un pagamento;
+   interessato e serve a chiedere alla controparte la revoca di una
+   RT o lo storno di un pagamento;
 
 -  *Esito Revoca* (da ora in avanti ER) che è emessa dall’ente cui è
    stata inviata una RT e serve a fornire alla controparte l’esito della
@@ -453,13 +453,13 @@ all’utilizzatore finale, attraverso opportuni servizi informatici
 offerti direttamente o tramite intermediari:
 
 -  le modalità per effettuare i pagamenti informatici e il trasferimento
-       di ogni altra informazione che abbia il fine di agevolarne
-       l’esecuzione;
+   di ogni altra informazione che abbia il fine di agevolarne
+   l’esecuzione;
 
 -  l’accesso all’archivio delle RT relativa ad ogni pagamento da questi
-       disposto. Fino a prescrizione, è fatto obbligo all’Ente Creditore
-       di conservare le informazioni di ogni RT in modo da poterla
-       riprodurre a richiesta anche su supporti cartaceo;
+   disposto. Fino a prescrizione, è fatto obbligo all’Ente Creditore
+   di conservare le informazioni di ogni RT in modo da poterla
+   riprodurre a richiesta anche su supporti cartaceo;
 
 -  le modalità di gestione, nel rispetto della normativa vigente, di
    possibili flussi secondari (reclami, rimborsi, storni), anche
@@ -506,13 +506,13 @@ servizio fornito: a tal fine il NodoSPC mette a disposizione apposite
 funzioni che consentono:
 
 -  ai PSP di comunicare tali costi, differenziati per strumento e/o
-       canale di pagamento;
+   canale di pagamento;
 
 -  agli Enti Creditori di reperire in modo centralizzato tali
-       informazioni;
+   informazioni;
 
 -  agli utilizzatori finali di scegliere il servizio che più si addice
-       alle proprie esigenze.
+   alle proprie esigenze.
 
 In merito a quest'ultimo punto, si fa presente che il NodoSPC mette a
 disposizione degli Enti Creditori una funzione centralizzata che dà agli
