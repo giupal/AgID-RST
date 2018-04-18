@@ -45,30 +45,30 @@ Il Nodo dei Pagamenti-SPC è strutturato per rispondere alle necessità
 di:
 
 -  consentire l’esecuzione delle operazioni di pagamento previste dalle
-       Linee guida di cui al comma 4 dell’articolo 5 del CAD;
+   Linee guida di cui al comma 4 dell’articolo 5 del CAD;
 
 -  adottare gli strumenti di pagamento esistenti, con particolare
-       riferimento a quelli previsti dalla SEPA e comunque nel rispetto
-       delle regole dettate dalla PSD;
+   riferimento a quelli previsti dalla SEPA e comunque nel rispetto
+   delle regole dettate dalla PSD;
 
 -  permettere all’utilizzatore finale di poter eseguire il pagamento
-       attraverso tutti i canali esistenti (ATM, POS, Internet Banking,
-       uffici postali, chioschi, Lottomatica, Grande Distribuzione
-       Organizzata, dispositivi mobili, ecc.) oppure direttamente per
-       mezzo delle applicazioni messe a disposizione dall’Ente
-       Creditore;
+   attraverso tutti i canali esistenti (ATM, POS, Internet Banking,
+   uffici postali, chioschi, Lottomatica, Grande Distribuzione
+   Organizzata, dispositivi mobili, ecc.) oppure direttamente per
+   mezzo delle applicazioni messe a disposizione dall’Ente
+   Creditore;
 
 -  configurarsi come una componente del SPC ed adottarne gli standard di
-       sicurezza e cooperazione per assicurare il colloquio con ogni
-       Prestatore di Servizi di Pagamento (sistema bancario, Poste
-       Italiane e altri prestatori di servizi di pagamento), senza
-       peraltro obbligare il PSP ad aderire al Sistema pubblico di
-       connettività;
+   sicurezza e cooperazione per assicurare il colloquio con ogni
+   Prestatore di Servizi di Pagamento (sistema bancario, Poste
+   Italiane e altri prestatori di servizi di pagamento), senza
+   peraltro obbligare il PSP ad aderire al Sistema pubblico di
+   connettività;
 
 -  interfacciarsi con i circuiti di pagamento esistenti;
 
 -  permettere agli aderenti al sistema di avvalersi di terze parti per
-       gestire i servizi;
+   gestire i servizi;
 
 -  mantenere inalterata l’attuale gestione dei mandati di pagamento per
    le PA centrali, garantendone l’evoluzione secondo i piani concordati
@@ -78,23 +78,23 @@ Il Nodo dei Pagamenti-SPC definisce modalità standard per la gestione
 dei flussi finanziari:
 
 -  adotta gli standard XML ISO 20022 per i tracciati dei flussi
-       finanziari correlati alle singole operazioni;
+   finanziari correlati alle singole operazioni;
 
 -  introduce uno standard per la richiesta di pagamento telematico (RPT)
-       e per la ricevuta telematica di pagamento (RT) adottato a livello
-       nazionale su qualunque canale di pagamento, al fine di
-       automatizzare la tratta G2B (*Government to Bank*);
+   e per la ricevuta telematica di pagamento (RT) adottato a livello
+   nazionale su qualunque canale di pagamento, al fine di
+   automatizzare la tratta G2B (*Government to Bank*);
 
 -  nell’ambito delle attività legate al commercio elettronico abilita
-       l’interconnessione con i circuiti internazionali di
-       autorizzazione di tali pagamenti;
+   l’interconnessione con i circuiti internazionali di
+   autorizzazione di tali pagamenti;
 
 -  assicura l’univocità del pagamento attraverso la definizione di un
-       codice identificativo del pagamento (IUV). Al suddetto
-       identificativo può essere associato uno o più oggetti grafici
-       (codice a barre, glifo, QR-code, ecc.), al fine di consentire e
-       facilitare l’effettuazione del pagamento attraverso qualunque
-       canale oggi esistente;
+   codice identificativo del pagamento (IUV). Al suddetto
+   identificativo può essere associato uno o più oggetti grafici
+   (codice a barre, glifo, QR-code, ecc.), al fine di consentire e
+   facilitare l’effettuazione del pagamento attraverso qualunque
+   canale oggi esistente;
 
 -  de-materializza tutte le ricevute di pagamento restituite all’EC;
 
@@ -126,18 +126,18 @@ Comprende degli agenti software tra cui i principali sono quelli che
 permettono:
 
 -  la gestione del “Giornale degli Eventi” dove sono registrati - per
-       ogni operazione - tutti gli scambi necessari alla corretta
-       esecuzione del processo;
+   ogni operazione - tutti gli scambi necessari alla corretta
+   esecuzione del processo;
 
 -  la gestione del “Tavolo Operativo” dove sono monitorati tutti i
-       componenti del sistema e lo stato di esecuzione delle operazioni;
+   componenti del sistema e lo stato di esecuzione delle operazioni;
 
 -  l’indirizzamento ai singoli servizi e/o sotto-servizi in funzione
-       delle richieste e delle risposte previste dai diversi modelli di
-       funzionamento;
+   delle richieste e delle risposte previste dai diversi modelli di
+   funzionamento;
 
 -  la memorizzazione e la gestione delle “richieste di servizio” per la
-       tracciatura delle operazioni e la gestione delle eccezioni;
+   tracciatura delle operazioni e la gestione delle eccezioni;
 
 -  la gestione degli errori;
 
@@ -159,24 +159,24 @@ Tra le principali attività svolte dalla componente si richiamano, a
 titolo esemplificativo:
 
 -  incapsulamento delle chiamate dei metodi *Web service*, rendendole
-       disponibili in forma mediata verso la Porta di Dominio;
+   disponibili in forma mediata verso la Porta di Dominio;
 
 -  memorizzazione temporanea e trattamento, secondo la priorità
-       indicata, dei messaggi verso la Porta di Dominio;
+   indicata, dei messaggi verso la Porta di Dominio;
 
 -  tracciamento dei riferimenti univoci dei messaggi;
 
 -  trattamento degli header dei messaggi scambiati via Porta di Dominio
-       ai fini della correlazione applicativa attuata dalla Porta di
-       Dominio stessa;
+   ai fini della correlazione applicativa attuata dalla Porta di
+   Dominio stessa;
 
 -  gestione degli errori e delle conferme di natura trasmissiva;
 
 -  generazione e propagazione dei messaggi d’errore di natura
-       applicativa;
+   applicativa;
 
 -  mantenimento di un proprio registro degli eventi finalizzato
-       all’aggiornamento del Giornale degli Eventi;
+   all’aggiornamento del Giornale degli Eventi;
 
 -  mantenimento del sincronismo temporale.
 
@@ -239,12 +239,12 @@ dal PSP.
 In questo caso:
 
 -  il PSP consente all’utilizzatore finale di eseguire il pagamento con
-       i diversi strumenti di pagamento;
+   i diversi strumenti di pagamento;
 
 -  la componente Web-FESP agisce da normalizzatore e provvede ad
-       uniformare le informazioni ricevute, re-inviandole attraverso il
-       Nodo dei Pagamenti-SPC all’Ente Creditore per consentire di
-       completare l’operazione di pagamento.
+   uniformare le informazioni ricevute, re-inviandole attraverso il
+   Nodo dei Pagamenti-SPC all’Ente Creditore per consentire di
+   completare l’operazione di pagamento.
 
 Componente WISP
 ~~~~~~~~~~~~~~~
@@ -290,21 +290,21 @@ La gestione dell'avvisatura digitale in modalità *push* avviene
 attraverso l'utilizzo di componenti del NodoSPC che consentono:
 
 -  agli Enti Creditori l'invio degli avvisi sia in modalità SFTP (File
-       transfer sicuro), sia attraverso l'utilizzo di appositi *web service*
-       (vedi rispettivamente `§§ 8.5 <../15-Capitolo_8/Capitolo8.rst#interfacce-per-il-servizio-di-file-transfer-sicuro>`_ e `8.1.6 <../15-Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__);
+   transfer sicuro), sia attraverso l'utilizzo di appositi *web service*
+   (vedi rispettivamente `§§ 8.5 <../15-Capitolo_8/Capitolo8.rst#interfacce-per-il-servizio-di-file-transfer-sicuro>`_ e `8.1.6 <../15-    Capitolo_8/Capitolo8.rst#processo-di-avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__);
 
 -  ai PSP di inviare via *web service* al NodoSPC le richieste di
-       iscrizione al servizio (`vedi § 9.2.7 della Sezione III <../16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-push-su-iniziativa-dellente-creditore>`__);
+   iscrizione al servizio (`vedi § 9.2.7 della Sezione III <../16-Capitolo_9/Capitolo9.rst#avvisatura-digitale-push-su-iniziativa-          dellente-creditore>`__);
 
 -  al NodoSPC di:
 
    -  inviare gli avvisi digitali ai PSP via *web service*;
 
    -  inviare gli avvisi digitali agli utilizzatori finali tramite
-          e-mail (protocollo SMTP);
+      e-mail (protocollo SMTP);
 
    -  notificare ai servizi di Italia Login gli avvisi digitali
-          (predisposizione per funzionalità future);
+      (predisposizione per funzionalità future);
 
 File Transfer sicuro
 ~~~~~~~~~~~~~~~~~~~~
@@ -329,7 +329,7 @@ singole componenti del Nodo dei Pagamenti-SPC: FESP; Web FESP;
 Le principali attività svolte dalla componente riguardano:
 
 -  la raccolta delle informazioni attinenti alle operazioni svolte dalle
-       componenti del Nodo dei Pagamenti-SPC:
+   componenti del Nodo dei Pagamenti-SPC:
 
 -  tipo di operazione (RPT; RT; …),
 
@@ -338,20 +338,20 @@ Le principali attività svolte dalla componente riguardano:
 -  *timestamp* dell’evento e della registrazione,
 
 -  componente in cui si verifica l’evento (FESP; Web-FESP;
-       *Repository*),
+   *Repository*),
 
 -  ecc.
 
 -  esposizione di un’interfaccia di interrogazione per l’accesso alle
-       registrazioni degli eventi che consenta:
+   registrazioni degli eventi che consenta:
 
 -  la selezione degli eventi in base a criteri di ricerca (tipo di
-       operazione, id, ecc.),
+   operazione, id, ecc.),
 
 -  l’esame nel dettaglio di un evento selezionato,
 
 -  la disponibilità di dati di sintesi (totali di tipo di operazione per
-       stato, per intervallo temporale, ecc.).
+   stato, per intervallo temporale, ecc.).
 
 Componenti di utilità
 ~~~~~~~~~~~~~~~~~~~~~
@@ -365,10 +365,10 @@ applicativi all'interno del Nodo dei Pagamenti-SPC:
 -  traduttore XML: struttura e assembla i messaggi XML dei servizi
 
 -  modulo crittografia: cifra/decifra informazioni e gestisce i
-       certificati crittografici
+   certificati crittografici
 
 -  modulo diagnostico: effettua controlli di natura sintattica e alcuni
-       controlli semantici
+   controlli semantici
 
 Ognuna delle componenti di utilità, oltre ad attività specifiche alla
 propria funzione, svolge le attività di interfacciamento ed integrazione
