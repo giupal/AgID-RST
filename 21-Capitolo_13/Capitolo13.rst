@@ -64,8 +64,7 @@ profilo giuridico:
 
 -  della sicurezza all’interno del proprio dominio;
 
--  se del caso, dell’assegnazione delle firme digitali ai soggetti autorizzati 
-e del controllo del corretto utilizzo delle stesse.
+-  se del caso, dell’assegnazione delle firme digitali ai soggetti autorizzati e del controllo del corretto utilizzo delle stesse.
 
 A prescindere dall’identificazione del pagatore eseguita dall’Ente
 Creditore, se del caso, anche per il tramite del proprio
