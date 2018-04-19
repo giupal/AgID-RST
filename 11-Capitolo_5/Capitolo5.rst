@@ -2035,10 +2035,6 @@ a favore dello stesso Ente Creditore.
 |         |         |          |         |         |         | Credito |
 |         |         |          |         |         |         | re.     |
 +---------+---------+----------+---------+---------+---------+---------+
-<<<<<<< HEAD
-=======
-
->>>>>>> e0df799af7235dfbb3ab63fa6911b074eba7417b
 
 Ricevuta Telematica (RT)
 ~~~~~~~~~~~~~~~~~~~~~~~~
