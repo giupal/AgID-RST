@@ -784,7 +784,7 @@ a) Codice fiscale dell’Ente Creditore;
 
 b) Codice dell'Avviso di pagamento, che contiene al suo interno il
    codice IUV assegnato dall’Ente Creditore (vedi § 2.2
-   dell’Allegato A alle Linee guida);
+   dell’Allegato A alle Linee guida "Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione");
 
 c) Importo del versamento.
 
