@@ -81,8 +81,7 @@ sistema sono riconducibili alle categorie appresso indicate:
    applicabile ai pagamenti contestuali alla richiesta di servizio, nei
    quali l’autorizzazione può essere gestita;
 
-   -  attraverso il re indirizzamento on line verso sistemi atti a
-          gestire la transazione,
+   -  attraverso il re indirizzamento on line verso sistemi atti a gestire la transazione,
 
    -  gestita dal PSP con modalità esterne al processo;
 
