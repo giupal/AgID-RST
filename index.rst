@@ -1,4 +1,4 @@
-﻿+-----------------------------------------------------------------------+
++-----------------------------------------------------------------------+
 | |AGID_logo_carta_intestata-02.png|                                    |
 +-----------------------------------------------------------------------+
 
@@ -710,166 +710,166 @@ debitoria) <_docs/16-Capitolo_9/Capitolo9.rst#processo-di-avvisatura-digitale-pu
 
 `9.4.6 Glossario informazioni <_docs/16-Capitolo_9/Capitolo9.rst#glossario-informazioni>`__
 
-`10. Gestione degli Errori </17-Capitolo_10/Capitolo10.rst>`__
+`10. Gestione degli Errori </_docs/_docs/17-Capitolo_10/Capitolo10.rst>`__
 
-`10.1 La struttura faultBean <17-Capitolo_10/Capitolo10.rst#la-struttura-faultbean>`__
+`10.1 La struttura faultBean <_docs/_docs/17-Capitolo_10/Capitolo10.rst#la-struttura-faultbean>`__
 
-`10.2 Codici di errore <17-Capitolo_10/Capitolo10.rst#codici-di-errore>`__
+`10.2 Codici di errore <_docs/_docs/17-Capitolo_10/Capitolo10.rst#codici-di-errore>`__
 
-`10.3 Spiegazione di alcuni faultCode <17-Capitolo_10/Capitolo10.rst#spiegazione-di-alcuni-faultcode>`__
+`10.3 Spiegazione di alcuni faultCode <_docs/17-Capitolo_10/Capitolo10.rst#spiegazione-di-alcuni-faultcode>`__
 
 `10.4 Errori nella gestione del messaggio di ackRT
-</17-Capitolo_10/Capitolo10.rst#errori-nella-gestione-del-messaggio-di-ackrt>`__
+</_docs/17-Capitolo_10/Capitolo10.rst#errori-nella-gestione-del-messaggio-di-ackrt>`__
 
 `Sezione IV – RUOLI E RESPONSABILITÀ DEGLI ADERENTI
 </18-SEZIONE_IV/SEZIONE_IV_-_RUOLI_E_RESPONSABILITÀ_DEGLI_ADERENTI.rst>`__
 
-`11. Adesione al Nodo dei Pagamenti-SPC </19-Capitolo_11/Capitolo11.rst>`__
+`11. Adesione al Nodo dei Pagamenti-SPC </_docs/19-Capitolo_11/Capitolo11.rst>`__
 
-`11.1 Adesione di un Ente Creditore. <19-Capitolo_11/Capitolo11.rst#adesione-di-un-ente-creditore>`__
+`11.1 Adesione di un Ente Creditore. <_docs/19-Capitolo_11/Capitolo11.rst#adesione-di-un-ente-creditore>`__
 
 `11.2 Adesione di un Prestatore di Servizi di pagamento
-<19-Capitolo_11/Capitolo11.rst#adesione-di-un-prestatore-di-servizi-di-pagamento>`__
+<_docs/19-Capitolo_11/Capitolo11.rst#adesione-di-un-prestatore-di-servizi-di-pagamento>`__
 
 `11.3 Qualificazione di Intermediari e Partner tecnologici
-<19-Capitolo_11/Capitolo11.rst#qualificazione-di-intermediari-e-partner-tecnologici>`__
+<_docs/19-Capitolo_11/Capitolo11.rst#qualificazione-di-intermediari-e-partner-tecnologici>`__
 
 `11.4 Completamento della procedura di avvio in esercizio.
-<19-Capitolo_11/Capitolo11.rst#completamento-della-procedura-di-avvio-in-esercizio>`__
+<_docs/19-Capitolo_11/Capitolo11.rst#completamento-della-procedura-di-avvio-in-esercizio>`__
 
-`11.5 Utilizzo del marchio pagoPA <19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`__
+`11.5 Utilizzo del marchio pagoPA <_docs/19-Capitolo_11/Capitolo11.rst#utilizzo-del-marchio-pagopa>`__
 
 `12. Adempimenti durante l’erogazione del Servizio
-<20-Capitolo_12/Capitolo12.rst>`__
+<_docs/20-Capitolo_12/Capitolo12.rst>`__
 
-`12.1 Adempimenti dell’Ente Creditore <20-Capitolo_12/Capitolo12.rst#adempimenti-dellente-creditore>`__
+`12.1 Adempimenti dell’Ente Creditore <_docs/20-Capitolo_12/Capitolo12.rst#adempimenti-dellente-creditore>`__
 
 `12.1.1 Adempimenti specifici relativi al circuito MyBank
-<20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-circuito-mybank>`__
+<_docs/20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-circuito-mybank>`__
 
 `12.1.2 Caratteristiche e adempimenti specifici relativi al servizio di
-avvisatura digitale <20-Capitolo_12/Capitolo12.rst#caratteristiche-e-adempimenti-specifici-relativi-al-servizio-di-avvisatura-digitale>`__
+avvisatura digitale <_docs/20-Capitolo_12/Capitolo12.rst#caratteristiche-e-adempimenti-specifici-relativi-al-servizio-di-avvisatura-digitale>`__
 
 `12.2 Adempimenti del prestatore di servizi di pagamento
-<20-Capitolo_12/Capitolo12.rst#adempimenti-del-prestatore-di-servizi-di-pagamento>`__
+<_docs/20-Capitolo_12/Capitolo12.rst#adempimenti-del-prestatore-di-servizi-di-pagamento>`__
 
 `12.2.1 Adempimenti specifici relativi al servizio di avvisatura
-digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-servizio-di-avvisatura-digitale>`__
+digitale <_docs/20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-servizio-di-avvisatura-digitale>`__
 
-`12.3 Archiviazione dei dati <20-Capitolo_12/Capitolo12.rst#archiviazione-dei-dati>`__
+`12.3 Archiviazione dei dati <_docs/20-Capitolo_12/Capitolo12.rst#archiviazione-dei-dati>`__
 
 `12.3.1 Periodo di ritenzione delle RPT senza esito
-<20-Capitolo_12/Capitolo12.rst#periodo-di-ritenzione-delle-rpt-senza-esito>`__
+<_docs/20-Capitolo_12/Capitolo12.rst#periodo-di-ritenzione-delle-rpt-senza-esito>`__
 
-`12.4 Business continuity e Disaster Recovery <20-Capitolo_12/Capitolo12.rst#business-continuity-e-disaster-recovery>`__
+`12.4 Business continuity e Disaster Recovery <_docs/20-Capitolo_12/Capitolo12.rst#business-continuity-e-disaster-recovery>`__
 
-`12.5 Disponibilità dei servizi <20-Capitolo_12/Capitolo12.rst#disponibilità-dei-servizi>`__
+`12.5 Disponibilità dei servizi <_docs/20-Capitolo_12/Capitolo12.rst#disponibilità-dei-servizi>`__
 
-`12.5.1 Nodo dei Pagamenti-SPC <20-Capitolo_12/Capitolo12.rst#nodo-dei-pagamenti-spc>`__
+`12.5.1 Nodo dei Pagamenti-SPC <_docs/20-Capitolo_12/Capitolo12.rst#nodo-dei-pagamenti-spc>`__
 
-`12.5.2 Enti Creditori <20-Capitolo_12/Capitolo12.rst#enti-creditori>`__
+`12.5.2 Enti Creditori <_docs/20-Capitolo_12/Capitolo12.rst#enti-creditori>`__
 
 `12.5.3 Prestatori di servizi di pagamento aderenti
-<20-Capitolo_12/Capitolo12.rst#prestatori-di-servizi-di-pagamento-aderenti>`__
+<_docs/20-Capitolo_12/Capitolo12.rst#prestatori-di-servizi-di-pagamento-aderenti>`__
 
-`12.6 Livelli di Servizio <20-Capitolo_12/Capitolo12.rst#livelli-di-servizio>`__
+`12.6 Livelli di Servizio <_docs/20-Capitolo_12/Capitolo12.rst#livelli-di-servizio>`__
 
 `12.6.1 Indicatori di qualità del Nodo dei Pagamenti-SPC
-<20-Capitolo_12/Capitolo12.rst#indicatori-di-qualità-del-nodo-dei-pagamenti-spc>`__
+<_docs/20-Capitolo_12/Capitolo12.rst#indicatori-di-qualità-del-nodo-dei-pagamenti-spc>`__
 
-`13. Responsabilità </21-Capitolo_13/Capitolo13.rst>`__
+`13. Responsabilità </_docs/21-Capitolo_13/Capitolo13.rst>`__
 
-`13.1 Responsabilità dell’Ente Creditore <21-Capitolo_13/Capitolo13.rst#responsabilità-dellente-creditore>`__
+`13.1 Responsabilità dell’Ente Creditore <_docs/21-Capitolo_13/Capitolo13.rst#responsabilità-dellente-creditore>`__
 
 `13.2 Responsabilità del prestatore di servizi di pagamento
-<21-Capitolo_13/Capitolo13.rst#responsabilità-del-prestatore-di-servizi-di-pagamento>`__
+<_docs/21-Capitolo_13/Capitolo13.rst#responsabilità-del-prestatore-di-servizi-di-pagamento>`__
 
-`Appendice 1 – WSDL e XSD </22-APPENDICE1/APPENDICE1–WSDLEXSD.rst>`__
+`Appendice 1 – WSDL e XSD </_docs/22-APPENDICE1/APPENDICE1–WSDLEXSD.rst>`__
 
-`14. Specifiche – WSDL </23-Capitolo_14/Capitolo14.rst>`__
+`14. Specifiche – WSDL </_docs/23-Capitolo_14/Capitolo14.rst>`__
 
 `14.1 Interazione tra Amministrazione e Nodo dei Pagamenti-SPC
-<23-Capitolo_14/Capitolo14.rst#interazione-tra-amministrazione-e-nodo-dei-pagamenti-spc>`__
+<_docs/23-Capitolo_14/Capitolo14.rst#interazione-tra-amministrazione-e-nodo-dei-pagamenti-spc>`__
 
-`14.1.1 WSDL NodoPerPa <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpa>`__
+`14.1.1 WSDL NodoPerPa <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpa>`__
 
-`14.1.2 WSDL PaPerNodo <23-Capitolo_14/Capitolo14.rst#wsdl-papernodo>`__
+`14.1.2 WSDL PaPerNodo <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-papernodo>`__
 
-`14.1.3 WSDL PaPerNodoPagamentoPSP <23-Capitolo_14/Capitolo14.rst#wsdl-papernodopagamentopsp>`__
+`14.1.3 WSDL PaPerNodoPagamentoPSP <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-papernodopagamentopsp>`__
 
-`14.1.4 WSDL PaPerNodoRichiestaAvvisi <23-Capitolo_14/Capitolo14.rst#wsdl-papernodorichiestaavvisi>`__
+`14.1.4 WSDL PaPerNodoRichiestaAvvisi <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-papernodorichiestaavvisi>`__
 
-`14.1.5 WSDL NodoPerPaAvvisiDigitali <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpaavvisidigitali>`__
+`14.1.5 WSDL NodoPerPaAvvisiDigitali <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpaavvisidigitali>`__
 
-`14.1.6 WSDL PaPerNodoChiediElencoAvvisiDigitali <23-Capitolo_14/Capitolo14.rst#wsdl-papernodochiedielencoavvisidigitali>`__
+`14.1.6 WSDL PaPerNodoChiediElencoAvvisiDigitali <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-papernodochiedielencoavvisidigitali>`__
 
 `14.2 Web service tra Nodo dei Pagamenti-SPC e PSP
-<23-Capitolo_14/Capitolo14.rst#web-service-tra-nodo-dei-pagamenti-spc-e-psp>`__
+<_docs/23-Capitolo_14/Capitolo14.rst#web-service-tra-nodo-dei-pagamenti-spc-e-psp>`__
 
-`14.2.1 WSDL PspPerNodo <23-Capitolo_14/Capitolo14.rst#wsdl-psppernodo>`__
+`14.2.1 WSDL PspPerNodo <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-psppernodo>`__
 
-`14.2.2 WSDL NodoPerPsp <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpsp>`__
+`14.2.2 WSDL NodoPerPsp <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpsp>`__
 
-`14.2.3 WSDL NodoPerPspRichiestaAvvisi <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpsprichiestaavvisi>`__
+`14.2.3 WSDL NodoPerPspRichiestaAvvisi <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpsprichiestaavvisi>`__
 
-`14.2.4 WSDL NodoPerPSPIscrizioniAvvisatura <23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpspiscrizioniavvisatura>`__
+`14.2.4 WSDL NodoPerPSPIscrizioniAvvisatura <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpspiscrizioniavvisatura>`__
 
-`14.2.5 WSDL PSPPerNodoAvvisiDigitali <23-Capitolo_14/Capitolo14.rst#wsdl-psppernodoavvisidigitali>`__
+`14.2.5 WSDL PSPPerNodoAvvisiDigitali <_docs/23-Capitolo_14/Capitolo14.rst#wsdl-psppernodoavvisidigitali>`__
 
 `14.2.6 WSDL NodoPerPSPChiediElencoAvvisiDigitali
-<23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpspchiedielencoavvisidigitali>`__
+<_docs/23-Capitolo_14/Capitolo14.rst#wsdl-nodoperpspchiedielencoavvisidigitali>`__
 
-`15. Specifiche – XSD </24-Capitolo_15/Capitolo15.rst>`__
+`15. Specifiche – XSD </_docs/24-Capitolo_15/Capitolo15.rst>`__
 
 `15.1 Oggetti scambiati per la gestione del processo di pagamento
-<24-Capitolo_15/Capitolo15.rst#oggetti-scambiati-per-la-gestione-del-processo-di-pagamento>`__
+<_docs/24-Capitolo_15/Capitolo15.rst#oggetti-scambiati-per-la-gestione-del-processo-di-pagamento>`__
 
-`15.2 Avvisatura digitale <24-Capitolo_15/Capitolo15.rst#avvisatura-digitale>`__
+`15.2 Avvisatura digitale <_docs/24-Capitolo_15/Capitolo15.rst#avvisatura-digitale>`__
 
-`15.3 Informazioni per gli aderenti al sistema <24-Capitolo_15/Capitolo15.rst#informazioni-per-gli-aderenti-al-sistema>`__
+`15.3 Informazioni per gli aderenti al sistema <_docs/24-Capitolo_15/Capitolo15.rst#informazioni-per-gli-aderenti-al-sistema>`__
 
-`15.3.1 Informativa da Ente Creditore <24-Capitolo_15/Capitolo15.rst#informativa-da-ente-creditore>`__
+`15.3.1 Informativa da Ente Creditore <_docs/24-Capitolo_15/Capitolo15.rst#informativa-da-ente-creditore>`__
 
-`15.3.2 Informativa fornita dal Nodo ai PSP <24-Capitolo_15/Capitolo15.rst#informativa-fornita-dal-nodo-ai-psp>`__
+`15.3.2 Informativa fornita dal Nodo ai PSP <_docs/24-Capitolo_15/Capitolo15.rst#informativa-fornita-dal-nodo-ai-psp>`__
 
-`15.3.3 Catalogo Dati Informativi <24-Capitolo_15/Capitolo15.rst#catalogo-dati-informativi>`__
+`15.3.3 Catalogo Dati Informativi <_docs/24-Capitolo_15/Capitolo15.rst#catalogo-dati-informativi>`__
 
 `15.3.4 Informativa fornita dal Nodo all’Ente Creditore
-<24-Capitolo_15/Capitolo15.rst#informativa-fornita-dal-nodo-allente-creditore>`__
+<_docs/24-Capitolo_15/Capitolo15.rst#informativa-fornita-dal-nodo-allente-creditore>`__
 
-`15.4 Totali dei flussi di traffico <24-Capitolo_15/Capitolo15.rst#totali-dei-flussi-di-traffico>`__
+`15.4 Totali dei flussi di traffico <_docs/24-Capitolo_15/Capitolo15.rst#totali-dei-flussi-di-traffico>`__
 
 `15.4.1 Flussi di traffico per gli Enti Creditori
-<24-Capitolo_15/Capitolo15.rst#flussi-di-traffico-per-gli-enti-creditori>`__
+<_docs/24-Capitolo_15/Capitolo15.rst#flussi-di-traffico-per-gli-enti-creditori>`__
 
-`15.4.2 Flussi di traffico per PSP <24-Capitolo_15/Capitolo15.rst#flussi-di-traffico-per-psp>`__
+`15.4.2 Flussi di traffico per PSP <_docs/24-Capitolo_15/Capitolo15.rst#flussi-di-traffico-per-psp>`__
 
-`15.5 Identificazione RPT in attesa <24-Capitolo_15/Capitolo15.rst#identificazione-rpt-in-attesa>`__
+`15.5 Identificazione RPT in attesa <_docs/24-Capitolo_15/Capitolo15.rst#identificazione-rpt-in-attesa>`__
 
-`15.6 Acknowledgement Pagamenti Telematici <24-Capitolo_15/Capitolo15.rst#acknowledgement-pagamenti-telematici>`__
+`15.6 Acknowledgement Pagamenti Telematici <_docs/24-Capitolo_15/Capitolo15.rst#acknowledgement-pagamenti-telematici>`__
 
 `Appendice 2 – Transazioni MyBank attraverso il Nodo dei Pagamenti-SPC
 <25-APPENDICE2/APPENDICE2–TRANSAZIONI_MYBANK_ATTRAVERSO_IL%20NODO_DEI_PAGAMENTI_-_SPC.rst>`__
 
 `16. Il modello di funzionamento del servizio MyBank
-</26-Capitolo_16/Capitolo16.rst>`__
+</_docs/26-Capitolo_16/Capitolo16.rst>`__
 
-`16.1 Relazioni tra i soggetti </26-Capitolo_16/Capitolo16.rst#relazioni-tra-i-soggetti>`__
+`16.1 Relazioni tra i soggetti </_docs/26-Capitolo_16/Capitolo16.rst#relazioni-tra-i-soggetti>`__
 
 `16.2 Mandatory requirements tipici del servizio MyBank
-<26-Capitolo_16/Capitolo16.rst#mandatory-requirements-tipici-del-servizio-mybank>`__
+<_docs/26-Capitolo_16/Capitolo16.rst#mandatory-requirements-tipici-del-servizio-mybank>`__
 
-`16.3 Logotipo del servizio MyBank <26-Capitolo_16/Capitolo16.rst#logotipo-del-servizio-mybank>`__
+`16.3 Logotipo del servizio MyBank <_docs/26-Capitolo_16/Capitolo16.rst#logotipo-del-servizio-mybank>`__
 
 `16.3.1 Esposizione del logotipo MyBank sul portale degli Enti Creditori
-<26-Capitolo_16/Capitolo16.rst#esposizione-del-logotipo-mybank-sul-portale-degli-enti-creditori>`__
+<_docs/26-Capitolo_16/Capitolo16.rst#esposizione-del-logotipo-mybank-sul-portale-degli-enti-creditori>`__
 
-`16.4 Causale del pagamento <26-Capitolo_16/Capitolo16.rst#causale-del-pagamento>`__
+`16.4 Causale del pagamento <_docs/26-Capitolo_16/Capitolo16.rst#causale-del-pagamento>`__
 
-`16.5 Vincoli nell’utilizzo del servizio MyBank <26-Capitolo_16/Capitolo16.rst#vincoli-nellutilizzo-del-servizio-mybank>`__
+`16.5 Vincoli nell’utilizzo del servizio MyBank <_docs/26-Capitolo_16/Capitolo16.rst#vincoli-nellutilizzo-del-servizio-mybank>`__
 
 `16.6 Controlli effettuati dal Nodo dei Pagamenti-SPC
-<26-Capitolo_16/Capitolo16.rst#controlli-effettuati-dal-nodo-dei-pagamenti-spc>`__
+<_docs/26-Capitolo_16/Capitolo16.rst#controlli-effettuati-dal-nodo-dei-pagamenti-spc>`__
 
 .. toctree::
 
@@ -889,16 +889,16 @@ digitale <20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-serviz
    _docs/14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst
    _docs/15-Capitolo_8/Capitolo8.rst
    _docs/16-Capitolo_9/Capitolo9.rst
-   _docs/17-Capitolo_10/Capitolo10.rst
+   _docs/_docs/17-Capitolo_10/Capitolo10.rst
    _docs/18-SEZIONE_IV/SEZIONE_IV_-_RUOLI_E_RESPONSABILITÀ_DEGLI_ADERENTI.rst
-   _docs/19-Capitolo_11/Capitolo11.rst
-   _docs/20-Capitolo_12/Capitolo12.rst
-   _docs/21-Capitolo_13/Capitolo13.rst
-   _docs/22-APPENDICE1/APPENDICE1–WSDLEXSD.rst
-   _docs/23-Capitolo_14/Capitolo14.rst
-   _docs/24-Capitolo_15/Capitolo15.rst
+   _docs/_docs/19-Capitolo_11/Capitolo11.rst
+   _docs/_docs/20-Capitolo_12/Capitolo12.rst
+   _docs/_docs/21-Capitolo_13/Capitolo13.rst
+   _docs/_docs/22-APPENDICE1/APPENDICE1–WSDLEXSD.rst
+   _docs/_docs/23-Capitolo_14/Capitolo14.rst
+   _docs/_docs/24-Capitolo_15/Capitolo15.rst
    _docs/25-APPENDICE2/APPENDICE2–TRANSAZIONI_MYBANK_ATTRAVERSO_IL%20NODO_DEI_PAGAMENTI_-_SPC.rst
-   _docs/26-Capitolo_16/Capitolo16.rst
+   _docs/_docs/26-Capitolo_16/Capitolo16.rst
 
 
 .. |AGID_logo_carta_intestata-02.png| image:: _docs/media/header.png
