@@ -308,8 +308,8 @@ sulla base del PAN (Primary Account Number identificativo univoco di una
 carta), il PSP aderente a pagoPA.
 
 Gli utenti registrati che utilizzano il servizio di scelta e
-memorizzazione del pagamento messo a disposizione da AgID ( `vedi
-successivo § 2.1.3.1 <../07-Capitolo_2/Capitolo2.rst#servizio-di-scelta-e-memorizzazione-del-pagamento>`__) saranno comunque liberi di modificare il PSP
+memorizzazione del pagamento messo a disposizione da AgID 
+(`vedi successivo § 2.1.3.1 <../07-Capitolo_2/Capitolo2.rst#servizio-di-scelta-e-memorizzazione-del-pagamento>`__) saranno comunque liberi di modificare il PSP
 abbinato alla propria carta accedendo alle funzioni offerte dalla
 componente WISP.
 
