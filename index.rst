@@ -1,4 +1,4 @@
-+-----------------------------------------------------------------------+
+﻿+-----------------------------------------------------------------------+
 | |AGID_logo_carta_intestata-02.png|                                    |
 +-----------------------------------------------------------------------+
 
@@ -6,7 +6,7 @@
 | **Indice** |
 +------------+
 
-`Stato del documento </01-STATO_DEL_DOCUMENTO/STATO_DEL_DOCUMENTO.rst>`__
+`Stato del documento <_docs/01-STATO_DEL_DOCUMENTO/STATO_DEL_DOCUMENTO.rst>`__
 
 `Definizioni e Acronimi </02-DEFINIZIONI_E_ACRONIMI/DEFINIZIONI_E_ACRONIMI.rst>`__
 
