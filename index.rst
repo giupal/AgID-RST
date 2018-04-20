@@ -889,16 +889,16 @@ digitale <_docs/20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-
    _docs/14-SEZIONE_III/SEZIONE_III_-_SPECIFICHE_DI_INTERCONNESSIONE.rst
    _docs/15-Capitolo_8/Capitolo8.rst
    _docs/16-Capitolo_9/Capitolo9.rst
-   _docs/_docs/17-Capitolo_10/Capitolo10.rst
+   _docs/17-Capitolo_10/Capitolo10.rst
    _docs/18-SEZIONE_IV/SEZIONE_IV_-_RUOLI_E_RESPONSABILITÀ_DEGLI_ADERENTI.rst
-   _docs/_docs/19-Capitolo_11/Capitolo11.rst
-   _docs/_docs/20-Capitolo_12/Capitolo12.rst
-   _docs/_docs/21-Capitolo_13/Capitolo13.rst
-   _docs/_docs/22-APPENDICE1/APPENDICE1–WSDLEXSD.rst
-   _docs/_docs/23-Capitolo_14/Capitolo14.rst
-   _docs/_docs/24-Capitolo_15/Capitolo15.rst
+   _docs/19-Capitolo_11/Capitolo11.rst
+   _docs/20-Capitolo_12/Capitolo12.rst
+   _docs/21-Capitolo_13/Capitolo13.rst
+   _docs/22-APPENDICE1/APPENDICE1–WSDLEXSD.rst
+   _docs/23-Capitolo_14/Capitolo14.rst
+   _docs/24-Capitolo_15/Capitolo15.rst
    _docs/25-APPENDICE2/APPENDICE2–TRANSAZIONI_MYBANK_ATTRAVERSO_IL%20NODO_DEI_PAGAMENTI_-_SPC.rst
-   _docs/_docs/26-Capitolo_16/Capitolo16.rst
+   _docs/26-Capitolo_16/Capitolo16.rst
 
 
 .. |AGID_logo_carta_intestata-02.png| image:: _docs/media/header.png
