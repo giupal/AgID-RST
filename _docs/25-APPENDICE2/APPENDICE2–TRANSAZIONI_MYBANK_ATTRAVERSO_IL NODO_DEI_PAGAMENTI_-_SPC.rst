@@ -29,7 +29,7 @@ La trattazione completa dell'argomento è consultabile nel documento
 monografico "*Transazioni MyBank attraverso il No* *do dei Pagamenti-SPC*"
 pubblicato sul sito dell'Agenzia.
 
-`Torna all'indice <../index.rst>`__
+`Torna all'indice <../../index.rst>`__
 
 .. |AGID_logo_carta_intestata-02.png| image:: ../media/header.png
    :width: 5.90551in

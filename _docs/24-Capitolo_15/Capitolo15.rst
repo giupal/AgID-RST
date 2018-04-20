@@ -307,7 +307,7 @@ Lo schema XSD di tale oggetto è disponibile con il file
 
 **ACK_PagamentiTelematici_<versione>.xsd.**
 
-`Torna all'indice <../index.rst>`__
+`Torna all'indice <../../index.rst>`__
 
 .. [1]
    Il terminale può essere un ATM, quello dell'operatore del PSP ovvero

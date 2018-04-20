@@ -4326,7 +4326,7 @@ b) il numero di file strettamente necessari a contenere tutte le
    richieste di avviso (ad esempio, se devo trasferire 250.000, saranno
    inviati 3 file).
 
-`Torna all'indice <../index.rst>`__
+`Torna all'indice <../../index.rst>`__
 
 .. [1]
    Questo URL contiene l’identificativo di sessione di cui sopra e il

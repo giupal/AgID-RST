@@ -263,7 +263,7 @@ stabilito nelle Linee guida e nei relativi allegati:
    pagoPA”, nella versione pubblicata sul sito istituzionale
    dell’Agenzia per l’Italia Digitale.
 
-`Torna all'indice <../index.rst>`__
+`Torna all'indice <../../index.rst>`__
 
 .. |AGID_logo_carta_intestata-02.png| image:: ../media/header.png
    :width: 5.90551in

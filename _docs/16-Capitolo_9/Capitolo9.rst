@@ -4549,7 +4549,7 @@ SCT01 Application Specification - E-authorisation for the execution of
 | IDVS                              | ParticipantID                     |
 +-----------------------------------+-----------------------------------+
 
-`Torna all'indice <../index.rst>`__
+`Torna all'indice <../../index.rst>`__
 
 .. [1]
    Si vedano i parametri delle primitive **nodoVerificaRPT**,

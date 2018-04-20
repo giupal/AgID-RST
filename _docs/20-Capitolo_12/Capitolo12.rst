@@ -293,7 +293,7 @@ documento “” pubblicato sul sito dell’Agenzia per l’Italia Digitale.
 Le statistiche relative a tali indicatori saranno rese disponibili
 attraverso il Servizio di Reporting del Nodo dei Pagamenti-SPC.
 
-`Torna all'indice <../index.rst>`__
+`Torna all'indice <../../index.rst>`__
 
 .. |AGID_logo_carta_intestata-02.png| image:: ../media/header.png
    :width: 5.90551in

@@ -1534,7 +1534,7 @@ dispositivi mobili ovvero altri servizi che consentono di ricevere i
 dati del dovuto e di effettuarne il pagamento contestualmente oppure in
 tempo successivo.
 
-`Torna all'indice <../index.rst>`__
+`Torna all'indice <../../index.rst>`__
 
 .. [1]
    Come per il processo di pagamento con re indirizzamento on-line, nel

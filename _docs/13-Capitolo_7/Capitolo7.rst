@@ -563,7 +563,7 @@ indicati in Tabella 33.
 L'Ente Creditore può scegliere quale tipo di formato utilizzare; il PSP
 rende disponibili tali informazioni all'utilizzatore finale.
 
-`Torna all'indice <../index.rst>`__
+`Torna all'indice <../../index.rst>`__
 
 .. [1]
    ad esempio: il GUID (Globally Unique IDentifier, identificatore unico
