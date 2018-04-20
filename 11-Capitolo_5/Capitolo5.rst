@@ -237,8 +237,8 @@ a favore dello stesso Ente Creditore.
 +-----------------------------------+---------+------------+---------+---------+---------------------------+------------------------------------------------------+
 | autenticazioneSoggetto            | 1       |            |         |         |                           | Contiene la modalità di identificazione              |
 |                                   |         |            |         |         |                           | applicata al soggetto che deve essere                |
-|                                   |         |            |         |         |                           | addebitato per il pagamento,                         |
-|                                   |         |            |         |         |                           | - **‘CNS’= CIE/CNS,**                                |
+|                                   |         |            |         |         |                           | addebitato per il pagamento:                         |
+|                                   |         |            |         |         |                           | - ‘CNS’= CIE/CNS,                                    |
 |                                   |         |            |         |         |                           | - ‘USR’= Userid e password,                          |
 |                                   |         |            |         |         |                           | - ‘OTH’= Altro,                                      |
 |                                   |         |            |         |         |                           | - ‘N/A’= Non applicabile                             |
