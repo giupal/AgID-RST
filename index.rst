@@ -849,7 +849,7 @@ digitale <_docs/20-Capitolo_12/Capitolo12.rst#adempimenti-specifici-relativi-al-
 `15.6 Acknowledgement Pagamenti Telematici <_docs/24-Capitolo_15/Capitolo15.rst#acknowledgement-pagamenti-telematici>`__
 
 `Appendice 2 – Transazioni MyBank attraverso il Nodo dei Pagamenti-SPC
-<25-APPENDICE2/APPENDICE2–TRANSAZIONI_MYBANK_ATTRAVERSO_IL%20NODO_DEI_PAGAMENTI_-_SPC.rst>`__
+<_docs/25-APPENDICE2/APPENDICE2–TRANSAZIONI_MYBANK_ATTRAVERSO_IL%20NODO_DEI_PAGAMENTI_-_SPC.rst>`__
 
 `16. Il modello di funzionamento del servizio MyBank
 </_docs/26-Capitolo_16/Capitolo16.rst>`__
