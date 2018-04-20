@@ -483,16 +483,12 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         |                 | valori:                                   |
 |                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 |                                           |
-|                         |         |            |         |         |                 | - **BBT**  Bonifico                       |
-|                         |         |            |         |         |                 |                     Bancario di Tesoreria |
-|                         |         |            |         |         |                 | - **BP**     Bollettino                   |
-|                         |         |            |         |         |                 |                      Postale              |
-|                         |         |            |         |         |                 | - **AD**     Addebito diretto             |
-|                         |         |            |         |         |                 | - **CP**      Carta di pagamento          |
-|                         |         |            |         |         |                 | - **PO**      Pagamento                   |
-|                         |         |            |         |         |                 |                      attivato presso PSP  |
-|                         |         |            |         |         |                 | - **OBEP**On-line banking                 |
-|                         |         |            |         |         |                 |                      e-payment            |
+|                         |         |            |         |         |                 | - **BBT**  Bonifico Bancario di Tesoreria |
+|                         |         |            |         |         |                 | - **BP**   Bollettino Postale             |
+|                         |         |            |         |         |                 | - **AD**   Addebito diretto               |
+|                         |         |            |         |         |                 | - **CP**   Carta di pagamento             |
+|                         |         |            |         |         |                 | - **PO**   Pagamento attivato presso PSP  |
+|                         |         |            |         |         |                 | - **OBEP** On-line banking e-payment      |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | identificativo          | 2       | an         |         | 1..35   | Creditor        | Riferimento univoco                       |
 | UnivocoVersamento       |         |            |         |         | Reference       | assegnato al                              |
@@ -676,21 +672,20 @@ a favore dello stesso Ente Creditore.
 | datiSpecifici           | 3       | an         |         | 1..140  | Additional      | Rappresenta l’indicazione                 |
 | Riscossione             |         |            |         |         | Remittance      | dell’imputazione della specifica          |
 |                         |         |            |         |         | Information     | entrata ed è così articolato:             |
-|                         |         |            |         |         |                 | **tipo contabilità”/”                     |
-|                         |         |            |         |         |                 | codice contabilità**                      |
+|                         |         |            |         |         |                 | **tipo contabilità”/”codice contabilità** |
+|                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 | Dove tipo contabilità                     |
 |                         |         |            |         |         |                 | ha il seguente                            |
 |                         |         |            |         |         |                 | significato:                              |
 |                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 | - **0** Capitolo e articolo di            |
-|                         |         |            |         |         |                 |               Entrata del Bilancio        |
-|                         |         |            |         |         |                 |              dello Stato                  |
-|                         |         |            |         |         |                 | - **1** Numero,della                      |
-|                         |         |            |         |         |                 |               contabilità speciale        |
+|                         |         |            |         |         |                 |         Entrata del Bilancio              |
+|                         |         |            |         |         |                 |         dello Stato                       |
+|                         |         |            |         |         |                 | - **1** Numero della contabilità speciale |
 |                         |         |            |         |         |                 | - **2** Codice,SIOPE                      |
 |                         |         |            |         |         |                 | - **9** Altro codice ad uso               |
-|                         |         |            |         |         |                 |              dell’Ente Creditore          |
+|                         |         |            |         |         |                 |         dell’Ente Creditore               |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | datiMarca               | 3       | s          |         |         |                 | Aggregazione che contiene                 |
 | BolloDigitale           |         |            |         |         |                 | le informazioni necessarie al             |
@@ -707,7 +702,6 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         | Code            | Bollo Digitale.                           |
 |                         |         |            |         |         |                 | Può assumere i seguenti                   |
 |                         |         |            |         |         |                 | valori:                                   |
-|                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 | **01 Imposta di bollo**                   |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
