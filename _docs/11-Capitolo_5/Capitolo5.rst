@@ -257,10 +257,10 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         |                 | applicata al soggetto che deve            |
 |                         |         |            |         |         |                 | essere addebitato per il pagamento:       |
 |                         |         |            |         |         |                 |                                           |
-|                         |         |            |         |         |                 | - **CNS**= CIE/CNS,                       |
-|                         |         |            |         |         |                 | - **USR**= Userid e password,             |
-|                         |         |            |         |         |                 | - **OTH**= Altro,                         |
-|                         |         |            |         |         |                 | - **N/A**= Non applicabile                |
+|                         |         |            |         |         |                 | - **CNS** = CIE/CNS,                      |
+|                         |         |            |         |         |                 | - **USR** = Userid e password,            |
+|                         |         |            |         |         |                 | - **OTH** = Altro,                        |
+|                         |         |            |         |         |                 | - **N/A** = Non applicabile               |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | SoggettoVersante        | 1       | s          |         |         | Debtor          | Aggregazione “versante” che               |
 |                         |         |            |         |         |                 | riporta le informazioni concernenti       |
@@ -279,8 +279,8 @@ a favore dello stesso Ente Creditore.
 | Univoco                 |         |            |         |         | Code            | natura del versante;                      |
 |                         |         |            |         |         |                 | può assumere i seguenti valori:           |
 |                         |         |            |         |         |                 |                                           |
-|                         |         |            |         |         |                 | - **F**= Persona fisica                   |
-|                         |         |            |         |         |                 | - **G**= Persona Giuridica.               |
+|                         |         |            |         |         |                 | - **F** = Persona fisica                  |
+|                         |         |            |         |         |                 | - **G** = Persona Giuridica.              |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | codiceIdentificativo    | 3       | an         |         | 1..35   | Tax             | Campo alfanumerico che può                |
 | Univoco                 |         |            |         |         | Identification  | contenere il,codice fiscale o,            |
@@ -338,8 +338,8 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         |                 | può assumere i seguenti                   |
 |                         |         |            |         |         |                 | valori:                                   |
 |                         |         |            |         |         |                 |                                           |
-|                         |         |            |         |         |                 | - **F**= Persona fisica,                  |
-|                         |         |            |         |         |                 | - **G**= Persona Giuridica.               |
+|                         |         |            |         |         |                 | - **F** = Persona fisica,                 |
+|                         |         |            |         |         |                 | - **G** = Persona Giuridica.              |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | codiceIdentificativo    | 3       | an         |         | 1..35   | Tax             | Campo alfanumerico che può                |
 | Univoco                 |         |            |         |         | Identification  | contenere il codice fiscale o,            |
