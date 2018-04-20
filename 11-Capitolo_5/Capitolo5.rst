@@ -239,7 +239,7 @@ a favore dello stesso Ente Creditore.
 |                                   |         |            |         |         |                           | applicata al soggetto che deve essere                |
 |                                   |         |            |         |         |                           | addebitato per il pagamento:                         |
 |                                   |         |            |         |         |                           |                                                      |
-|                                   |         |            |         |         |                           | - **'CNS'**= CIE/CNS,                                |
+|                                   |         |            |         |         |                           | - **\'CNS\'**= CIE/CNS,                              |
 |                                   |         |            |         |         |                           | - **'USR'**= Userid e password,                      |
 |                                   |         |            |         |         |                           | - **'OTH**= Altro,                                   |
 |                                   |         |            |         |         |                           | - **'N/A'**= Non applicabile                         |
