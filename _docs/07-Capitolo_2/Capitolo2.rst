@@ -114,7 +114,7 @@ dell’Ente Creditore:
    Nodo dei Pagamenti-SPC la Richiesta di Pagamento Telematico (RPT)
    o il carrello di RPT;
 
-3. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 </07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`__) dove
+3. l’utilizzatore finale viene indirizzato sul WISP (`vedi § 2.1.3 </07-Capitolo_2/Capitolo2.rst#scelta-del-servizio-di-pagamento-da-parte-dellutilizzatore-finale>`_) dove
    sceglie il servizio che intende utilizzare (PSP e canale di
    pagamento);
 
