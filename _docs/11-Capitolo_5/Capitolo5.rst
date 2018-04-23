@@ -1687,193 +1687,71 @@ in Tabella 7.
 
 **Tabella** **7 - Tracciato XML per comunicazione "Erogazione servizi EC"**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| infor     | 1         | s         | 1..n      |           | Struttura |
-| mativaCon |           |           |           |           | che       |
-| troparte  |           |           |           |           | raggruppa |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | inviate   |
-|           |           |           |           |           | dall’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | al Nodo   |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | Pagamenti |
-|           |           |           |           |           | -SPC      |
-|           |           |           |           |           | e rese    |
-|           |           |           |           |           | disponibi |
-|           |           |           |           |           | li        |
-|           |           |           |           |           | ai PSP.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 35        | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Flusso    |           |           |           |           | del       |
-|           |           |           |           |           | flusso    |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | con un    |
-|           |           |           |           |           | codice    |
-|           |           |           |           |           | utile ad  |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | are       |
-|           |           |           |           |           | univocame |
-|           |           |           |           |           | nte       |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | comunicaz |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | (es.      |
-|           |           |           |           |           | numero di |
-|           |           |           |           |           | protocoll |
-|           |           |           |           |           | o).       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 35        | identific |
-| ificativo |           |           |           |           | ativo     |
-| Dominio   |           |           |           |           | Dominio   |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | (codice   |
-|           |           |           |           |           | utilizzat |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | RPT).     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ragio     | 2         | an        | 1..1      | 70        | Ragione   |
-| neSociale |           |           |           |           | sociale   |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataP     | 2         | an        | 1..1      | 19        | Data e    |
-| ubblicazi |           |           |           |           | ora di    |
-| one       |           |           |           |           | “pubblica |
-|           |           |           |           |           | zione”    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | flusso    |
-|           |           |           |           |           | informati |
-|           |           |           |           |           | vo        |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601. |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Corrispon |
-|           |           |           |           |           | de        |
-|           |           |           |           |           | alla data |
-|           |           |           |           |           | e ora di  |
-|           |           |           |           |           | invio     |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | comunicaz |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | relativa  |
-|           |           |           |           |           | all’ident |
-|           |           |           |           |           | ificativo |
-|           |           |           |           |           | Flusso    |
-|           |           |           |           |           | corrente. |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Dev’esser |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | maggiore  |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | dataPubbl |
-|           |           |           |           |           | icazione  |
-|           |           |           |           |           | contenuta |
-|           |           |           |           |           | nell’ulti |
-|           |           |           |           |           | mo        |
-|           |           |           |           |           | flusso di |
-|           |           |           |           |           | informati |
-|           |           |           |           |           | va        |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | caricato  |
-|           |           |           |           |           | nel Nodo. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataI     | 2         | an        | 1..1      | 19        | Data in   |
-| nizioVali |           |           |           |           | cui       |
-| dita      |           |           |           |           | inizia la |
-|           |           |           |           |           | validità  |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | relative  |
-|           |           |           |           |           | all’Ente  |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601: |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| pagam     | 2         | n         | 1..1      | 1         | Indica se |
-| entiPress |           |           |           |           | l’Ente    |
-| oPSP      |           |           |           |           | Creditore |
-|           |           |           |           |           | consente  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | pagamenti |
-|           |           |           |           |           | presso i  |
-|           |           |           |           |           | PSP (vedi |
-|           |           |           |           |           | § 2.2);   |
-|           |           |           |           |           | può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 0. NON    |
-|           |           |           |           |           | consente  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | pagamenti |
-|           |           |           |           |           | c/o i PSP |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 1. CONSEN |
-|           |           |           |           |           | TE        |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | pagamenti |
-|           |           |           |           |           | c/o i PSP |
-|           |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| eroga     | 2         | s         | 0..1      |           | Aggregazi |
-| zioneServ |           |           |           |           | one       |
-| izio      |           |           |           |           | relativa  |
-|           |           |           |           |           | alle      |
-|           |           |           |           |           | fasce     |
-|           |           |           |           |           | orarie di |
-|           |           |           |           |           | erogazion |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | .         |
-|           |           |           |           |           |           |
-|           |           |           |           |           | L’infor   |
-|           |           |           |           |           | mazione   |
-|           |           |           |           |           | è         |
-|           |           |           |           |           | obbligato |
-|           |           |           |           |           | ria       |
-|           |           |           |           |           | nel caso  |
-|           |           |           |           |           | in cui il |
-|           |           |           |           |           | dato      |
-|           |           |           |           |           | pagamenti |
-|           |           |           |           |           | PressoPSP |
-|           |           |           |           |           | sia 1.    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+|        **Dato**        | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                               |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+| informativaControparte | 1       | s          | 1..n    |         | Struttura che raggruppa                     |
+|                        |         |            |         |         | le informazioni inviate                     |
+|                        |         |            |         |         | dall’Ente Creditore al                      |
+|                        |         |            |         |         | Nodo dei Pagamenti-SPC                      |
+|                        |         |            |         |         | e rese disponibili ai PSP.                  |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+| identificativoFlusso   | 2       | an         | 1..1    | 35      | Identificativo                              |
+|                        |         |            |         |         | del flusso dell’Ente Creditore,             |
+|                        |         |            |         |         | con un codice utile ad identificare         |
+|                        |         |            |         |         | univocamente la comunicazione               |
+|                        |         |            |         |         | (es. numero di protocollo).                 |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+| identificativoDominio  | 2       | an         | 1..1    | 35      | identificativo Dominio                      |
+|                        |         |            |         |         | dell’Ente Creditore                         |
+|                        |         |            |         |         | (codice utilizzato nella RPT).              |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+| ragioneSociale         | 2       | an         | 1..1    | 70      | Ragione sociale                             |
+|                        |         |            |         |         | dell’Ente Creditore.                        |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+| dataPubblicazione      | 2       | an         | 1..1    | 19      | Data e ora di “pubblicazione”               |
+|                        |         |            |         |         | del flusso informativo da parte             |
+|                        |         |            |         |         | dell’Ente Creditore secondo il              |
+|                        |         |            |         |         | formato ISO 8601.                           |
+|                        |         |            |         |         | Corrisponde alla data e ora di invio della  |
+|                        |         |            |         |         | comunicazione                               |
+|                        |         |            |         |         | relativa all’                               |
+|                        |         |            |         |         | identificativoFlusso                        |
+|                        |         |            |         |         |  corrente.                                  |
+|                        |         |            |         |         |                                             |
+|                        |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**         |
+|                        |         |            |         |         | Dev’essere maggiore della                   |
+|                        |         |            |         |         | dataPubblicazione                           |
+|                        |         |            |         |         |  contenuta nell’ultimo flusso di            |
+|                        |         |            |         |         | informativa dell’Ente Creditore             |
+|                        |         |            |         |         |  caricato nel Nodo.                         |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+| dataInizioValidita     | 2       | an         | 1..1    | 19      | Data in                                     |
+|                        |         |            |         |         | cui inizia la validità delle informazioni   |
+|                        |         |            |         |         | relative all’Ente Creditore nel             |
+|                        |         |            |         |         | formato ISO 8601:                           |
+|                        |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**         |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+| pagamentiPressoPSP     | 2       | n          | 1..1    | 1       | Indica se l’Ente Creditore                  |
+|                        |         |            |         |         | consente i pagamenti                        |
+|                        |         |            |         |         | pressoi PSP                                 |
+|                        |         |            |         |         | (vedi § 2.2)                                |
+|                        |         |            |         |         | può assumere i seguenti valori:             |
+|                        |         |            |         |         |                                             |
+|                        |         |            |         |         | - **0** NON consente i                      |
+|                        |         |            |         |         | pagamenti c/o i PSP                         |
+|                        |         |            |         |         |                                             |
+|                        |         |            |         |         | - **1** CONSENTE i                          |
+|                        |         |            |         |         | agamenti c/o i PSP                          |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
+| erogazioneServizio     | 2       | s          | 0..1    |         | Aggregazione relativa alle fasce orarie di  |
+|                        |         |            |         |         | erogazione del servizio da parte dell’Ente  |
+|                        |         |            |         |         | Creditore.                                  |
+|                        |         |            |         |         | **L’informazione**                          |
+|                        |         |            |         |         | **è obbligatoria nel caso in cui il dato**  |
+|                        |         |            |         |         | **pagamentiPressoPSP**                      |
+|                        |         |            |         |         | ** assuma il valore 1.**                    |
++------------------------+---------+------------+---------+---------+---------------------------------------------+
 
 Per ciò che attiene alla comunicazione le informazioni relative ai conti
 da accreditare, gli Enti Creditori inviano ad AgID il tracciato indicato
