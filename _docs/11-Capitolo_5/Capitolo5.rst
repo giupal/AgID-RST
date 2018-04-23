@@ -1555,7 +1555,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         | **L’informazione**                          |
 |                            |         |            |         |         | **è obbligatoria nel caso in cui il dato**  |
 |                            |         |            |         |         | **pagamentiPressoPSP**                      |
-|                            |         |            |         |         | ** assuma il valore 1.**                    |
+|                            |         |            |         |         | **assuma il valore 1.**                     |
 |                            |         |            |         |         |                                             |
 +----------------------------+---------+------------+---------+---------+---------------------------------------------+
 | disponibilita              | 3       | s          | 1..n    |         | Aggregazione                                |
@@ -1750,7 +1750,7 @@ in Tabella 7.
 |                        |         |            |         |         | **L’informazione**                          |
 |                        |         |            |         |         | **è obbligatoria nel caso in cui il dato**  |
 |                        |         |            |         |         | **pagamentiPressoPSP**                      |
-|                        |         |            |         |         | ** assuma il valore 1.**                    |
+|                        |         |            |         |         | **assuma il valore 1**                      |
 +------------------------+---------+------------+---------+---------+---------------------------------------------+
 
 Per ciò che attiene alla comunicazione le informazioni relative ai conti
@@ -1759,250 +1759,83 @@ in Tabella 8.
 
 **Tabella** **8 - Tracciato XML per comunicazione "IBAN di accredito"**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| infor     | 1         | s         | 1..1      |           | Informati |
-| mativaCon |           |           |           |           | va        |
-| toAccredi |           |           |           |           | inviata   |
-| to        |           |           |           |           | dall’ente |
-|           |           |           |           |           | creditore |
-|           |           |           |           |           | al Nodo   |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | Pagamenti |
-|           |           |           |           |           | -SPC      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 35        | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Flusso    |           |           |           |           | del       |
-|           |           |           |           |           | flusso    |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | con un    |
-|           |           |           |           |           | codice    |
-|           |           |           |           |           | utile ad  |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | are       |
-|           |           |           |           |           | univocame |
-|           |           |           |           |           | nte       |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | comunicaz |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | (es.      |
-|           |           |           |           |           | numero di |
-|           |           |           |           |           | protocoll |
-|           |           |           |           |           | o).       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 35        | identific |
-| ificativo |           |           |           |           | ativo     |
-| Dominio   |           |           |           |           | Dominio   |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | (codice   |
-|           |           |           |           |           | utilizzat |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | RPT)      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ragio     | 2         | an        | 1..1      | 35        | Ragione   |
-| neSociale |           |           |           |           | sociale   |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataP     | 2         | an        | 1..1      | 19        | Data e    |
-| ubblicazi |           |           |           |           | ora di    |
-| one..     |           |           |           |           | “pubblica |
-|           |           |           |           |           | zione”    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | flusso    |
-|           |           |           |           |           | informati |
-|           |           |           |           |           | vo        |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601. |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Corrispon |
-|           |           |           |           |           | de        |
-|           |           |           |           |           | alla data |
-|           |           |           |           |           | e ora di  |
-|           |           |           |           |           | invio     |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | comunicaz |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | relativa  |
-|           |           |           |           |           | all’ident |
-|           |           |           |           |           | ificativo |
-|           |           |           |           |           | Flusso    |
-|           |           |           |           |           | corrente. |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Dev’esser |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | maggiore  |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | dataPubbl |
-|           |           |           |           |           | icazione  |
-|           |           |           |           |           | contenuta |
-|           |           |           |           |           | nell’ulti |
-|           |           |           |           |           | mo        |
-|           |           |           |           |           | flusso di |
-|           |           |           |           |           | informati |
-|           |           |           |           |           | va        |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | caricato  |
-|           |           |           |           |           | nel Nodo. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataI     | 2         | an        | 1..1      | 19        | Data e    |
-| nizioVali |           |           |           |           | ora da    |
-| dita      |           |           |           |           | cui       |
-|           |           |           |           |           | saranno   |
-|           |           |           |           |           | considera |
-|           |           |           |           |           | ti        |
-|           |           |           |           |           | validi    |
-|           |           |           |           |           | dal Nodo  |
-|           |           |           |           |           | solamente |
-|           |           |           |           |           | gli IBAN  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | Accredito |
-|           |           |           |           |           | contenuti |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | flusso.   |
-|           |           |           |           |           | Deve      |
-|           |           |           |           |           | seguire   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601: |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Dev’esser |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | maggiore  |
-|           |           |           |           |           | o uguale  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | dataPubbl |
-|           |           |           |           |           | icazione  |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | maggiore  |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | data      |
-|           |           |           |           |           | corrente. |
-|           |           |           |           |           |           |
-|           |           |           |           |           | La        |
-|           |           |           |           |           | validità  |
-|           |           |           |           |           | parte     |
-|           |           |           |           |           | comunque  |
-|           |           |           |           |           | dalle     |
-|           |           |           |           |           | 00:00:00  |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | giorno    |
-|           |           |           |           |           | indicato. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| conti     | 2         | s         | 1..n      |           | Aggregazi |
-| DiAccredi |           |           |           |           | one       |
-| to        |           |           |           |           | relativa  |
-|           |           |           |           |           | agli IBAN |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | accredito |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pertinenz |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| iban      | 3         | an        | 0..1      | 1..35     | Identific |
-| Accredito |           |           |           |           | a         |
-|           |           |           |           |           | l’Interna |
-|           |           |           |           |           | tional    |
-|           |           |           |           |           | Bank      |
-|           |           |           |           |           | Account   |
-|           |           |           |           |           | Number,,  |
-|           |           |           |           |           | definito  |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | lo        |
-|           |           |           |           |           | standard  |
-|           |           |           |           |           | ISO       |
-|           |           |           |           |           | 13616,    |
-|           |           |           |           |           | del conto |
-|           |           |           |           |           | da        |
-|           |           |           |           |           | accredita |
-|           |           |           |           |           | re        |
-|           |           |           |           |           | presso la |
-|           |           |           |           |           | Banca di  |
-|           |           |           |           |           | accredito |
-|           |           |           |           |           | indicata  |
-|           |           |           |           |           | dall’ente |
-|           |           |           |           |           | creditore |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | di norma  |
-|           |           |           |           |           | la Banca  |
-|           |           |           |           |           | Tesoriera.|
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Oppure,   |                                                           |
-| in        |                                                           |
-| alternati |                                                           |
-| va,       |                                                           |
-| la        |                                                           |
-| struttura |                                                           |
-| sotto     |                                                           |
-| indicata  |                                                           |
-|           |                                                           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| infoC     | 3         | s         | 0..1      |           | Aggregazi |
-| ontoDiAcc |           |           |           |           | one       |
-| reditoPai |           |           |           |           | relativa  |
-| r         |           |           |           |           | agli IBAN |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | accredito |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pertinenz |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ibanA     | 4         | an        | 1..1      | 1..35     | Vedi      |
-| ccredito  |           |           |           |           | analogo   |
-|           |           |           |           |           | elemento  |
-|           |           |           |           |           | sopra     |
-|           |           |           |           |           | descritto |
-|           |           |           |           |           | ..        |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| idBan     | 4         | an        | 1..1      | 50        | Identific |
-| caSeller  |           |           |           |           | ativo     |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | *Seller   |
-|           |           |           |           |           | Bank*     |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | codifica  |
-|           |           |           |           |           | MyBank    |
-|           |           |           |           |           | (vedi     |
-|           |           |           |           |           | Elenco    |
-|           |           |           |           |           | dei PSP   |
-|           |           |           |           |           | aderenti  |
-|           |           |           |           |           | pubblicat |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | sul sito  |
-|           |           |           |           |           | AgID).    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+|             **Dato**            | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| informativaContoAccredito       | 1       | s          | 1..1    |         | Informativa                                  |
+|                                 |         |            |         |         | inviata dall’ente creditore al Nodo dei      |
+|                                 |         |            |         |         | Pagamenti-SPC                                |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| identificativoFlusso            | 2       | an         | 1..1    | 35      | Identificativo                               |
+|                                 |         |            |         |         | del flusso dell’Ente Creditore,              |
+|                                 |         |            |         |         | con un codice utile ad identificare          |
+|                                 |         |            |         |         | univocamente la comunicazione                |
+|                                 |         |            |         |         | (es. numero di protocollo).                  |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| identificativoDominio           | 2       | an         | 1..1    | 35      | identificativo Dominio                       |
+|                                 |         |            |         |         | dell’Ente Creditore                          |
+|                                 |         |            |         |         | (codice utilizzato nella RPT).               |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| ragioneSociale                  | 2       | an         | 1..1    | 35      | Ragione sociale                              |
+|                                 |         |            |         |         | dell’Ente Creditore.                         |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| dataPubblicazione               | 2       | an         | 1..1    | 19      | Data e ora di “pubblicazione”                |
+|                                 |         |            |         |         | del flusso informativo da parte              |
+|                                 |         |            |         |         | dell’Ente Creditore secondo il               |
+|                                 |         |            |         |         | formato ISO 8601.                            |
+|                                 |         |            |         |         | Corrisponde alla data e ora di invio della   |
+|                                 |         |            |         |         | comunicazione                                |
+|                                 |         |            |         |         | relativa all’identificativoFlusso corrente.  |
+|                                 |         |            |         |         |                                              |
+|                                 |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**          |
+|                                 |         |            |         |         | Dev’essere maggiore della                    |
+|                                 |         |            |         |         | dataPubblicazione                            |
+|                                 |         |            |         |         |  contenuta nell’ultimo flusso di             |
+|                                 |         |            |         |         | informativa dell’Ente Creditore              |
+|                                 |         |            |         |         |  caricato nel Nodo.                          |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| dataInizioValidita              | 2       | an         | 1..1    | 19      | Data e ora da cui saranno considerati validi |
+|                                 |         |            |         |         | dal Nodo solamente gli IBAN di Accredito     |
+|                                 |         |            |         |         | contenuti nel presente flusso. Deve          |
+|                                 |         |            |         |         | seguire il formato ISO 8601:                 |
+|                                 |         |            |         |         |                                              |
+|                                 |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**          |
+|                                 |         |            |         |         |                                              |
+|                                 |         |            |         |         | Dev’essere maggiore o uguale alla            |
+|                                 |         |            |         |         | dataPubblicazione                            |
+|                                 |         |            |         |         |  e maggiore della data                       |
+|                                 |         |            |         |         | corrente.                                    |
+|                                 |         |            |         |         | La validità parte comunque dalle 00:00:00    |
+|                                 |         |            |         |         | del giorno indicato.                         |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| contiDiAccredito                | 2       | s          | 1..n    |         | Aggregazione                                 |
+|                                 |         |            |         |         | relativa agli IBAN di accredito di           |
+|                                 |         |            |         |         | pertinenza dell’Ente Creditore.              |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| ibanAccredito                   | 3       | an         | 0..1    | 1..35   | Identifica                                   |
+|                                 |         |            |         |         | l’International Bank Account Number,         |
+|                                 |         |            |         |         | definito secondo lo standard ISO 13616,      |
+|                                 |         |            |         |         | del conto da accreditare presso la Banca     |
+|                                 |         |            |         |         | di accredito indicata dall’ente              |
+|                                 |         |            |         |         | creditore, di norma la Banca Tesoriera.      |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| **Oppure, in alternativa,**     |         |            |         |         |                                              |
+| **la struttura sotto indicata** |         |            |         |         |                                              |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| infoContoDiAccreditoPair        | 3       | s          | 0..1    |         | Aggregazione                                 |
+|                                 |         |            |         |         | relativa agli IBAN di accredito              |
+|                                 |         |            |         |         | di pertinenza                                |
+|                                 |         |            |         |         | dell’Ente Creditore                          |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| ibanAccredito                   | 4       | an         | 1..1    | 1..35   | Vedi analogo elemento sopra                  |
+|                                 |         |            |         |         | descritto..                                  |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| idBancaSeller                   | 4       | an         | 1..1    | 50      | Identificativo                               |
+|                                 |         |            |         |         | della Seller Bank secondo                    |
+|                                 |         |            |         |         | la codifica MyBank                           |
+|                                 |         |            |         |         | (vedi Elenco dei PSP aderenti                |
+|                                 |         |            |         |         | pubblicato sul sito AgID).                   |
++---------------------------------+---------+------------+---------+---------+----------------------------------------------+
 
 Catalogo Dati Informativi
 ~~~~~~~~~~~~~~~~~~~~~~~~~
