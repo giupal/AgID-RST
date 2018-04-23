@@ -1859,519 +1859,182 @@ catalogo:
 
 **Tabella** **9 - Elementi componenti il “Catalogo Dati Informativi”**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| informati | 1         | s         | 1..1      |           | Informati |
-| vaPSP     |           |           |           |           | va        |
-|           |           |           |           |           | fornita   |
-|           |           |           |           |           | dal PSP   |
-|           |           |           |           |           | al Nodo   |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | Pagamenti |
-|           |           |           |           |           | -SPC      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 35        | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Flusso    |           |           |           |           | dell’info |
-|           |           |           |           |           | rmativa   |
-|           |           |           |           |           | del PSP,  |
-|           |           |           |           |           | utile ad  |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | are       |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | versione  |
-|           |           |           |           |           | del set   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | fornite.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 35        | Identific |
-| ificativo |           |           |           |           | ativo     |
-| PSP       |           |           |           |           | del PSP a |
-|           |           |           |           |           | cui si    |
-|           |           |           |           |           | riferisce |
-|           |           |           |           |           | il set di |
-|           |           |           |           |           | dati      |
-|           |           |           |           |           | component |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | "Catalog  |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | Dati      |
-|           |           |           |           |           | Informati |
-|           |           |           |           |           | vi".      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ragio     | 2         | an        | 1..1      | 70        | Ragione   |
-| neSociale |           |           |           |           | sociale   |
-|           |           |           |           |           | del PSP.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| infor     | 2         | s         | 1..1      |           | Aggregazi |
-| mativaMas |           |           |           |           | one       |
-| ter       |           |           |           |           | corrispon |
-|           |           |           |           |           | dente     |
-|           |           |           |           |           | ai dati   |
-|           |           |           |           |           | comuni    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | flusso di |
-|           |           |           |           |           | informati |
-|           |           |           |           |           | va.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataP     | 3         | an        | 1..1      | 19        | Data e    |
-| ubblicazi |           |           |           |           | ora di    |
-| one       |           |           |           |           | pubblicaz |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | del set   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | fornite   |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | del PSP.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataI     | 3         | an        | 1..1      | 19        | Data e    |
-| nizioVali |           |           |           |           | ora in    |
-| dita      |           |           |           |           | cui       |
-|           |           |           |           |           | inizierà  |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | validità  |
-|           |           |           |           |           | del set   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | fornite   |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | del PSP.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| urlIn     | 3         | an        | 1..1      | 255       | URL di    |
-| formazion |           |           |           |           | una       |
-| iPSP      |           |           |           |           | pagina/si |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | web       |
-|           |           |           |           |           | contenent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | specifich |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | del PSP.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| storn     | 3         | n         | 1..1      | 1         | Indica se |
-| oPagament |           |           |           |           | il PSP è  |
-| o         |           |           |           |           | in grado  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | gestire   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | processo  |
-|           |           |           |           |           | di storno |
-|           |           |           |           |           | di un     |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | (cfr. §   |
-|           |           |           |           |           | 2.1.5     |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | SANP).    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| marca     | 3         | n         | 1..1      | 1         | Indica se |
-| BolloDigi |           |           |           |           | il PSP è  |
-| tale      |           |           |           |           | abilitato |
-|           |           |           |           |           | a vendere |
-|           |           |           |           |           | la marca  |
-|           |           |           |           |           | da bollo  |
-|           |           |           |           |           | digitale  |
-|           |           |           |           |           | (cfr.§    |
-|           |           |           |           |           | 2.7 delle |
-|           |           |           |           |           | SANP).    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| logoPSP   | 3         | an        | 1..1      |           | Logotipo  |
-|           |           |           |           |           | del PSP.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| lista     | 2         | s         | 1..1      |           | Aggregazi |
-| Informati |           |           |           |           | one       |
-| vaDetail  |           |           |           |           | corrispon |
-|           |           |           |           |           | dente     |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | lista di  |
-|           |           |           |           |           | informati |
-|           |           |           |           |           | ve        |
-|           |           |           |           |           | relative  |
-|           |           |           |           |           | ai        |
-|           |           |           |           |           | servizi   |
-|           |           |           |           |           | erogati   |
-|           |           |           |           |           | dal PSP.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| infor     | 3         | s         | 1..n      |           | Struttura |
-| mativaDet |           |           |           |           | contenent |
-| ail       |           |           |           |           | e         |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | relative  |
-|           |           |           |           |           | ai        |
-|           |           |           |           |           | singoli   |
-|           |           |           |           |           | servizi   |
-|           |           |           |           |           | erogati   |
-|           |           |           |           |           | dal PSP   |
-|           |           |           |           |           | attravers |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | Intermedi |
-|           |           |           |           |           | ari       |
-|           |           |           |           |           | e Canali. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 4         | an        | 1..1      | 35        | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Intermedi |           |           |           |           | dell’Inte |
-| ario      |           |           |           |           | rmediario |
-|           |           |           |           |           | del PSP   |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | fornisce  |
-|           |           |           |           |           | lo        |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | accesso   |
-|           |           |           |           |           | (Canale)  |
-|           |           |           |           |           | al PSP    |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | l'erogazi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | del.      |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 4         | an        | 1..1      | 35        | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Canale    |           |           |           |           | del       |
-|           |           |           |           |           | Canale    |
-|           |           |           |           |           | attravers |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | il quale  |
-|           |           |           |           |           | è erogato |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoV     | 4         | an        | 1..1      | 4         | Tipo di   |
-| ersamento |           |           |           |           | versament |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | associato |
-|           |           |           |           |           | allo      |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | (cfr. §   |
-|           |           |           |           |           | 5.3.1     |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | SANP).    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| model     | 4         | n         | 1..1      | 2         | Indica    |
-| loPagamen |           |           |           |           | quale     |
-| to        |           |           |           |           | modello   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | (cfr.     |
-|           |           |           |           |           | capitolo  |
-|           |           |           |           |           | 2 delle   |
-|           |           |           |           |           | SANP) è   |
-|           |           |           |           |           | gestito   |
-|           |           |           |           |           | attravers |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | il canale |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| prior     | 4         | n         | 1..1      | 2         | Numero    |
-| ita       |           |           |           |           | intero    |
-|           |           |           |           |           | indicante |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | priorità  |
-|           |           |           |           |           | con la    |
-|           |           |           |           |           | quale     |
-|           |           |           |           |           | viene     |
-|           |           |           |           |           | scelto    |
-|           |           |           |           |           | dal       |
-|           |           |           |           |           | NodoSPC   |
-|           |           |           |           |           | il Canale |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | l’invio   |
-|           |           |           |           |           | al PSP,   |
-|           |           |           |           |           | nel caso  |
-|           |           |           |           |           | in cui    |
-|           |           |           |           |           | quest'ult |
-|           |           |           |           |           | imo       |
-|           |           |           |           |           | non sia   |
-|           |           |           |           |           | specifica |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | dall’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| canal     | 4         | n         | 1..1      | 1         | Indica se |
-| eApp      |           |           |           |           | il        |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | è erogato |
-|           |           |           |           |           | attravers |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | una App.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| servi     | 4         | n         | 0..1      | 1         | Indica se |
-| zioAlleIm |           |           |           |           | il        |
-| prese     |           |           |           |           | servizio  |
-|           |           |           |           |           | erogato   |
-|           |           |           |           |           | dal PSP è |
-|           |           |           |           |           | destinato |
-|           |           |           |           |           | ad un     |
-|           |           |           |           |           | utilizzo  |
-|           |           |           |           |           | solo da   |
-|           |           |           |           |           | parte     |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | imprese.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 4         | s         | 0..1      |           | Struttura |
-| ificazion |           |           |           |           | che       |
-| eServizio |           |           |           |           | contiene  |
-|           |           |           |           |           | i dati    |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | ano       |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | nei       |
-|           |           |           |           |           | confronti |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | clientela |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| nomeS     | 5         | an        | 1..1      | 35        | Nome      |
-| ervizio   |           |           |           |           | commercia |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | / app.    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| logoS     | 5         | an        | 1..1      |           | Logotipo  |
-| ervizio   |           |           |           |           | del       |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | / app.    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| lista     | 4         | s         | 1..1      |           | Aggregazi |
-| Informazi |           |           |           |           | one       |
-| oniServiz |           |           |           |           | di        |
-| io        |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | relative  |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | erogato   |
-|           |           |           |           |           | dal PSP.. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| infor     | 5         | s         | 1..n      |           | Struttura |
-| mazioniSe |           |           |           |           | contenent |
-| rvizio    |           |           |           |           | e         |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | specifich |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | singolo   |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | espresse  |
-|           |           |           |           |           | in lingue |
-|           |           |           |           |           | diverse.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codic     | 6         | an        | 1..1      | 2         | Codifica  |
-| eLingua   |           |           |           |           | della     |
-|           |           |           |           |           | lingua    |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | quale     |
-|           |           |           |           |           | sono      |
-|           |           |           |           |           | fornite   |
-|           |           |           |           |           | tutte le  |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | di cui    |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oniServiz |
-|           |           |           |           |           | io.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| descr     | 6         | an        | 0..1      | 140       | Testo     |
-| izioneSer |           |           |           |           | libero in |
-| vizio     |           |           |           |           | cui è     |
-|           |           |           |           |           | possibile |
-|           |           |           |           |           | specifica |
-|           |           |           |           |           | re        |
-|           |           |           |           |           | natura e  |
-|           |           |           |           |           | condizion |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | (non      |
-|           |           |           |           |           | economich |
-|           |           |           |           |           | e)        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dispo     | 6         | an        | 1..1      | 140       | Testo     |
-| nibilitaS |           |           |           |           | libero in |
-| ervizio   |           |           |           |           | cui è     |
-|           |           |           |           |           | possibile |
-|           |           |           |           |           | specifica |
-|           |           |           |           |           | re        |
-|           |           |           |           |           | orari o   |
-|           |           |           |           |           | restrizio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| limit     | 6         | an        | 0..1      | 140       | Indica    |
-| azioniSer |           |           |           |           | eventuali |
-| vizio     |           |           |           |           | limitazio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | poste dal |
-|           |           |           |           |           | PSP       |
-|           |           |           |           |           | nell'erog |
-|           |           |           |           |           | azione    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| urlIn     | 6         | an        | 0..1      | 255       | URL di    |
-| formazion |           |           |           |           | una       |
-| iCanale   |           |           |           |           | pagina/si |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | web       |
-|           |           |           |           |           | contenent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | specifich |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| lista     | 4         | an        | 0..1      |           | Elenco di |
-| ParoleChi |           |           |           |           | parole    |
-| ave       |           |           |           |           | chiave.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| parol     | 5         | an        | 1..5      | 16        | Dato a    |
-| eChiave   |           |           |           |           | testo     |
-|           |           |           |           |           | libero in |
-|           |           |           |           |           | cui è     |
-|           |           |           |           |           | possibile |
-|           |           |           |           |           | inserire  |
-|           |           |           |           |           | termini   |
-|           |           |           |           |           | utili per |
-|           |           |           |           |           | facilitar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | ricerca   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| costi     | 4         | s         | 1..n      |           | Struttura |
-| Servizio  |           |           |           |           | che       |
-|           |           |           |           |           | contiene  |
-|           |           |           |           |           | i costi   |
-|           |           |           |           |           | associati |
-|           |           |           |           |           | alle      |
-|           |           |           |           |           | modalità  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | erogazion |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoC     | 5         | n         | 1..1      | 1         | Modalità  |
-| ostoTrans |           |           |           |           | di        |
-| azione    |           |           |           |           | calcolo   |
-|           |           |           |           |           | del costo |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | transazio |
-|           |           |           |           |           | ne.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoC     | 5         | n         | 1..1      | 1         | Tipo di   |
-| ommission |           |           |           |           | commissio |
-| e         |           |           |           |           | ne        |
-|           |           |           |           |           | da        |
-|           |           |           |           |           | utilizzar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | per il    |
-|           |           |           |           |           | calcolo   |
-|           |           |           |           |           | del costo |
-|           |           |           |           |           | da        |
-|           |           |           |           |           | applicare |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | transazio |
-|           |           |           |           |           | ne.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoC     | 5         | n         | 0..1      | 1         | Canale    |
-| analeServ |           |           |           |           | attravers |
-| izio      |           |           |           |           | o         |
-|           |           |           |           |           | il quale  |
-|           |           |           |           |           | è erogato |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| plate     | 5         | n         | 0..1      | 1         | Tipologia |
-| aErogazio |           |           |           |           | di        |
-| neServizi |           |           |           |           | clientela |
-| o         |           |           |           |           | verso la  |
-|           |           |           |           |           | quale     |
-|           |           |           |           |           | viene     |
-|           |           |           |           |           | erogato   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | servizio. |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| lista     | 5         | s         | 1..1      |           | Aggregazi |
-| FasceCost |           |           |           |           | one       |
-| oServizio |           |           |           |           | delle     |
-|           |           |           |           |           | fasce di  |
-|           |           |           |           |           | importo.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| fasci     | 6         | s         | 1..8      |           | Occorrenz |
-| aCostoSer |           |           |           |           | e         |
-| vizio     |           |           |           |           | di una    |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | indica,   |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | fascia di |
-|           |           |           |           |           | importo,  |
-|           |           |           |           |           | il costo  |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | transazio |
-|           |           |           |           |           | ne.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| impor     | 7         | an        | 1..1      | 12        | Importo   |
-| toMassimo |           |           |           |           | massimo   |
-| Fascia    |           |           |           |           | della     |
-|           |           |           |           |           | fascia.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| costo     | 7         | an        | 1..1      | 12        | Eventuale |
-| Fisso     |           |           |           |           | costo     |
-|           |           |           |           |           | fisso da  |
-|           |           |           |           |           | applicare |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | in        |
-|           |           |           |           |           | aggiunta  |
-|           |           |           |           |           | al costo  |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | commissio |
-|           |           |           |           |           | ne.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| valor     | 7         | an        | 1..1      | 12        | Valore    |
-| eCommissi |           |           |           |           | massimo   |
-| one       |           |           |           |           | del costo |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | commissio |
-|           |           |           |           |           | ne        |
-|           |           |           |           |           | applicabi |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | singolo   |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | o alla    |
-|           |           |           |           |           | transazio |
-|           |           |           |           |           | ne.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+|           **Dato**          | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                   |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| informativaPSP              | 1       | s          | 1..1    |         | Informativa                                     |
+|                             |         |            |         |         | fornita dal PSP al Nodo dei                     |
+|                             |         |            |         |         | Pagamenti-SPC                                   |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| identificativoFlusso        | 2       | an         | 1..1    | 35      | Identificativo                                  |
+|                             |         |            |         |         | del flusso dell’Ente Creditore,                 |
+|                             |         |            |         |         | con un codice utile ad identificare             |
+|                             |         |            |         |         | univocamente la comunicazione                   |
+|                             |         |            |         |         | (es. numero di protocollo).                     |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| identificativoPSP           | 2       | an         | 1..1    | 35      | Identificativo del PSP a cui si riferisce       |
+|                             |         |            |         |         | il set di dati componenti il "Catalogo Dati     |
+|                             |         |            |         |         | Informativi".                                   |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| ragioneSociale              | 2       | an         | 1..1    | 70      | Ragione sociale                                 |
+|                             |         |            |         |         | dell’Ente Creditore.                            |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| informativaMaster           | 2       | s          | 1..1    |         | Aggregazione                                    |
+|                             |         |            |         |         | corrispondente ai dati comuni del presente      |
+|                             |         |            |         |         | flusso di informativa.                          |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| dataPubblicazione           | 3       | an         | 1..1    | 19      | Data e                                          |
+|                             |         |            |         |         | ora di pubblicazione del set di informazioni    |
+|                             |         |            |         |         | fornite da parte del PSP.                       |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| dataInizioValidita          | 3       | an         | 1..1    | 19      | Data e                                          |
+|                             |         |            |         |         | ora in cui inizierà la validità del set di      |
+|                             |         |            |         |         | informazioni fornite da parte del               |
+|                             |         |            |         |         | PSP.                                            |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| urlInformazioniPSP          | 3       | an         | 1..1    | 255     | URL di                                          |
+|                             |         |            |         |         | una pagina/sito web contenente informazioni     |
+|                             |         |            |         |         | specifiche del PSP.                             |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| stornoPagamento             | 3       | n          | 1..1    | 1       | Indica se                                       |
+|                             |         |            |         |         | il PSP è in grado di gestire il processo di     |
+|                             |         |            |         |         | storno di un pagamento                          |
+|                             |         |            |         |         | (cfr. § 2.1.5 delle SANP).                      |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| marcaBolloDigitale          | 3       | n          | 1..1    | 1       | Indica se                                       |
+|                             |         |            |         |         | il PSP è abilitato a vendere la marca           |
+|                             |         |            |         |         | da bollo digitale                               |
+|                             |         |            |         |         | (cfr. § 2.7 delleSANP).                         |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| logoPSP                     | 3       | an         | 1..1    |         | Logotipo                                        |
+|                             |         |            |         |         | del PSP.                                        |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| listaInformativaDetail      | 2       | s          | 1..1    |         | Aggregazione                                    |
+|                             |         |            |         |         | corrispondente alla lista di informative        |
+|                             |         |            |         |         | relative ai servizi erogati dal PSP.            |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| informativaDetail           | 3       | s          | 1..n    |         | Struttura                                       |
+|                             |         |            |         |         | contenente le informazioni relative ai          |
+|                             |         |            |         |         | singoli servizi erogati dal PSP                 |
+|                             |         |            |         |         | attraverso Intermediari e Canali.               |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| identificativoIntermediario | 4       | an         | 1..1    | 35      | Identificativo                                  |
+|                             |         |            |         |         | dell’Intermediario del PSP che fornisce lo      |
+|                             |         |            |         |         | specifico accesso (Canale) al PSP               |
+|                             |         |            |         |         | per l'erogazione del. servizio.                 |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| identificativoCanale        | 4       | an         | 1..1    | 35      | Identificativo del Canale attraverso il quale è |
+|                             |         |            |         |         | erogato il servizio.                            |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| tipoVersamento              | 4       | an         | 1..1    | 4       | Tipo di versamento associato allo specifico     |
+|                             |         |            |         |         | servizio                                        |
+|                             |         |            |         |         | (cfr. § 5.3.1 delle SANP).                      |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| modelloPagamento            | 4       | n          | 1..1    | 2       | Indica quale modello di pagamento               |
+|                             |         |            |         |         | (cfr. capitolo 2                                |
+|                             |         |            |         |         | delle SANP)                                     |
+|                             |         |            |         |         | è gestito attraverso il canale specifico.       |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| priorita                    | 4       | n          | 1..1    | 2       | Numero intero indicante la priorità con la      |
+|                             |         |            |         |         | quale viene scelto dal NodoSPC il Canale        |
+|                             |         |            |         |         | per l’invio al PSP, nel caso in cui             |
+|                             |         |            |         |         | quest'ultimo non sia specificato                |
+|                             |         |            |         |         | dall’Ente Creditore.                            |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| canaleApp                   | 4       | n          | 1..1    | 1       | Indica se                                       |
+|                             |         |            |         |         | il servizio è erogato attraverso una App.       |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| servizioAlleImprese         | 4       | n          | 0..1    | 1       | Indica se                                       |
+|                             |         |            |         |         | il servizio erogato dal PSP è destinato         |
+|                             |         |            |         |         | ad un utilizzo solo da parte delle              |
+|                             |         |            |         |         | imprese.                                        |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| identificazioneServizio     | 4       | s          | 0..1    |         | Struttura                                       |
+|                             |         |            |         |         | che contiene i dati che identificano il         |
+|                             |         |            |         |         | servizio nei confronti della clientela.         |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| nomeServizio                | 5       | an         | 1..1    | 35      | Nome                                            |
+|                             |         |            |         |         | commerciale del servizio / app.                 |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| logoServizio                | 5       | an         | 1..1    |         | Logotipo                                        |
+|                             |         |            |         |         | del servizio / app.                             |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| listaInformazioniServizio   | 4       | s          | 1..1    |         | Aggregazione                                    |
+|                             |         |            |         |         | di informazioni relative al servizio            |
+|                             |         |            |         |         | erogato dal PSP..                               |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| informazioniServizio        | 5       | s          | 1..n    |         | Struttura                                       |
+|                             |         |            |         |         | contenente informazioni specifiche del          |
+|                             |         |            |         |         | singolo servizio espresse in lingue             |
+|                             |         |            |         |         | diverse.                                        |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| codiceLingua                | 6       | an         | 1..1    | 2       | Codifica                                        |
+|                             |         |            |         |         | della lingua nella quale sono fornite           |
+|                             |         |            |         |         | tutte le informazioni di cui alla               |
+|                             |         |            |         |         | struttura                                       |
+|                             |         |            |         |         | informazioniServizio                            |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| descrizioneServizio         | 6       | an         | 0..1    | 140     | Testo                                           |
+|                             |         |            |         |         | libero in cui è possibile specificare           |
+|                             |         |            |         |         | natura e condizioni (non economiche) del        |
+|                             |         |            |         |         | servizio                                        |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| disponibilitaServizio       | 6       | an         | 1..1    | 140     | Testo                                           |
+|                             |         |            |         |         | libero in cui è possibile specificare orari     |
+|                             |         |            |         |         | o restrizioni del servizio                      |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| limitazioniServizio         | 6       | an         | 0..1    | 140     |  Indica eventuali limitazioni poste dal PSP     |
+|                             |         |            |         |         |  nell'erogazione del servio                     |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| urlInformazioniCanale       | 6       | an         | 0..1    | 255     | URL di                                          |
+|                             |         |            |         |         | una pagina/sito web contenente                  |
+|                             |         |            |         |         | informazioni specifiche del servizio.           |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| listaParoleChiave           | 4       | an         | 0..1    |         | Elenco di parole chiave.                        |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| paroleChiave                | 5       | an         | 1..5    | 16      | Dato a testo libero in cui è possibile          |
+|                             |         |            |         |         | inserire termini utili per facilitare           |
+|                             |         |            |         |         | la ricerca del servizio.                        |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| costiServizio               | 4       | s          | 1..n    |         | Struttura                                       |
+|                             |         |            |         |         | che contiene i costi associati alle             |
+|                             |         |            |         |         | modalità di erogazione del servizio.            |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| tipoCostoTransazione        | 5       | n          | 1..1    | 1       | Modalità                                        |
+|                             |         |            |         |         | di calcolo del costo della transazione.         |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| tipoCommissione             | 5       | n          | 1..1    | 1       | Tipo di                                         |
+|                             |         |            |         |         | commissione da utilizzare per il                |
+|                             |         |            |         |         | calcolo del costo da applicare alla             |
+|                             |         |            |         |         | transazione.                                    |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| tipoCanaleServizio          | 5       | n          | 0..1    | 1       | Canale                                          |
+|                             |         |            |         |         | attraverso il quale è erogato il servizio.      |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| plateaErogazioneServizio    | 5       | n          | 0..1    | 1       | Tipologia                                       |
+|                             |         |            |         |         | di clientela verso la quale viene               |
+|                             |         |            |         |         | erogato il servizio..                           |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| listaFasceCostoServizio     | 5       | s          | 1..1    |         | Aggregazione                                    |
+|                             |         |            |         |         | delle fasce di importo.                         |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| fasciaCostoServizio         | 6       | s          | 1..8    |         | Occorrenze                                      |
+|                             |         |            |         |         | di una struttura che indica, per fascia         |
+|                             |         |            |         |         | di importo,                                     |
+|                             |         |            |         |         | il costo della transazione.                     |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| importoMassimoFascia        | 7       | an         | 1..1    | 12      | Importo                                         |
+|                             |         |            |         |         | massimo della fascia.                           |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| costoFisso                  | 7       | an         | 1..1    | 12      | Eventuale                                       |
+|                             |         |            |         |         | costo fisso da applicare al pagamento in        |
+|                             |         |            |         |         | aggiunta al costo della commissione.            |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
+| valoreCommissione           | 7       | an         | 1..1    | 12      | Valore                                          |
+|                             |         |            |         |         | massimo del costo della commissione             |
+|                             |         |            |         |         | applicabile al singolo pagamento o alla         |
+|                             |         |            |         |         | transazione.                                    |
++-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
 
 La semantica dei dati che devono essere forniti con il "*Catalogo Dati*
 *Informativi*" è riportata di seguito, specificando inoltre il formato
