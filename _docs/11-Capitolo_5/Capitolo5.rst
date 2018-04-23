@@ -1659,41 +1659,18 @@ disposizione (`vedi § 9.2.10 della Sezione III <../16-Capitolo_9/Capitolo9.rst#
 
 **Tabella** **6 - Formato file XML della “Tabella delle controparti”**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| lista     | 1         | s         | 1..1      |           | Lista     |
-| Informati |           |           |           |           | delle     |
-| vaControp |           |           |           |           | informati |
-| arte      |           |           |           |           | ve        |
-|           |           |           |           |           | Contropar |
-|           |           |           |           |           | te        |
-|           |           |           |           |           | valide    |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | giornata  |
-|           |           |           |           |           | corrente  |
-|           |           |           |           |           | (hh       |
-|           |           |           |           |           | 00-24)    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| infor     | 2         | s         | 1..n      |           | Numero    |
-| mativaCon |           |           |           |           | non       |
-| troparte  |           |           |           |           | definito  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | occorrenz |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | informati |
-|           |           |           |           |           | vaControp |
-|           |           |           |           |           | arte      |
-|           |           |           |           |           | definita  |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | precedent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 5.        |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++------------------------+---------+------------+----------+-----------+-----------------------------------------------------+
+| **Dato**               | **Liv** | **Genere** | **Occ**  | **Len**   |**Contenuto**                                        |
+|                        |         |            |          |           |                                                     |
++========================+=========+============+==========+===========+=====================================================+
+| listaInformativa       | 1       | s          | 1..1     |           | Lista delle informative Controparte valide nella    |
+| Controparte            |         |            |          |           | giornata corrente (hh 00-24)                        |
+|                        |         |            |          |           |                                                     |
++------------------------+---------+------------+----------+-----------+-----------------------------------------------------+
+| informativa            | 2       | s          | 1..n     |           | Numero non definito di occorrenze della struttura   |
+| Controparte            |         |            |          |           | informativaControparte definita nella precedente    |
+|                        |         |            |          |           | Tabella 5.                                          |
++------------------------+---------+------------+----------+-----------+-----------------------------------------------------+
 
 Informazioni inviate dagli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
