@@ -742,1493 +742,410 @@ pubblici su ordine dell'utilizzatore finale.
 
 **Tabella** **2 - Elementi componenti la RT**
 
-+---------+---------+---------+---------+---------+---------+---------+
-| **Dato**| **Liv** |**Gener**| **Occ** | **Len** |**UNIFI**|**Conte**|
-|         |         |**e**    |         |         |         |**nuto** |
-+=========+=========+=========+=========+=========+=========+=========+
-| ver     | 1       | an      | 1..1    | 1..16   | Version | Riporta |
-| sioneOg |         |         |         |         | Number  | la      |
-| getto   |         |         |         |         |         | stessa  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |         | zione   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | dato    |
-|         |         |         |         |         |         | “versio |
-|         |         |         |         |         |         | neOgget |
-|         |         |         |         |         |         | to”     |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RPT**|
-|         |         |         |         |         |         | )       |
-+---------+---------+---------+---------+---------+---------+---------+
-| Dom     | 1       | s       | 1..1    |         | Initiat | Riporta |
-| inio    |         |         |         |         | ing     | le      |
-|         |         |         |         |         | Party   | stesse  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |         | zioni   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | blocco  |
-|         |         |         |         |         |         | “Domini |
-|         |         |         |         |         |         | o”      |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RPT**|
-|         |         |         |         |         |         | )       |
-+---------+---------+---------+---------+---------+---------+---------+
-| ide     | 1       | an      | 1..1    | 1..35   | Message | Identif |
-| ntifica |         |         |         |         | Identif | icativo |
-| tivoMes |         |         |         |         | ication | legato  |
-| saggioR |         |         |         |         |         | alla    |
-| icevuta |         |         |         |         |         | trasmis |
-|         |         |         |         |         |         | sione   |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | telemat |
-|         |         |         |         |         |         | ica.    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | univoco |
-|         |         |         |         |         |         | nell’am |
-|         |         |         |         |         |         | bito    |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | stessa  |
-|         |         |         |         |         |         | data    |
-|         |         |         |         |         |         | riferit |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | all’ele |
-|         |         |         |         |         |         | mento   |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | dataOra |
-|         |         |         |         |         |         | Messagg |
-|         |         |         |         |         |         | ioRicev |
-|         |         |         |         |         |         | uta.    |
-|         |         |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 1       | an      | 1..1    | 19      | Creatio | Indica  |
-| aOraMes |         |         |         |         | n       | la data |
-| saggioR |         |         |         |         | Date    | e ora   |
-| icevuta |         |         |         |         | Time    | del     |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a,      |
-|         |         |         |         |         |         | secondo |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | formato |
-|         |         |         |         |         |         | ISO     |
-|         |         |         |         |         |         | 8601    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | [YYYY   |
-|         |         |         |         |         |         | ]-[MM]- |
-|         |         |         |         |         |         | [DD]T[h |
-|         |         |         |         |         |         | h]:[mm] |
-|         |         |         |         |         |         | :[ss]   |
-+---------+---------+---------+---------+---------+---------+---------+
-| rif     | 1       | an      | 1..1    | 1..35   | Origina | Con     |
-| eriment |         |         |         |         | l       | riferim |
-| oMessag |         |         |         |         | Message | ento    |
-| gioRich |         |         |         |         | Identif | al      |
-| iesta   |         |         |         |         | ication | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT**)|
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | l’eleme |
-|         |         |         |         |         |         | nto     |
-|         |         |         |         |         |         | contien |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | il dato |
-|         |         |         |         |         |         | identif |
-|         |         |         |         |         |         | icativo |
-|         |         |         |         |         |         | Messagg |
-|         |         |         |         |         |         | ioRichi |
-|         |         |         |         |         |         | esta    |
-|         |         |         |         |         |         | legato  |
-|         |         |         |         |         |         | alla    |
-|         |         |         |         |         |         | trasmis |
-|         |         |         |         |         |         | sione   |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RPT**|
-|         |         |         |         |         |         | )       |
-+---------+---------+---------+---------+---------+---------+---------+
-| rif     | 1       | an      | 1..1    | 10      | Origina | Indica  |
-| eriment |         |         |         |         | l       | la data |
-| oDataRi |         |         |         |         | Creatio | secondo |
-| chiesta |         |         |         |         | n       | il      |
-|         |         |         |         |         | Date    | formato |
-|         |         |         |         |         | Time    | ISO     |
-|         |         |         |         |         |         | 8601    |
-|         |         |         |         |         |         | [YYYY   |
-|         |         |         |         |         |         | ]-[MM]- |
-|         |         |         |         |         |         | [DD]    |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | generaz |
-|         |         |         |         |         |         | ione    |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | dato    |
-|         |         |         |         |         |         | riferim |
-|         |         |         |         |         |         | entoMes |
-|         |         |         |         |         |         | saggioR |
-|         |         |         |         |         |         | ichiest |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| ist     | 1       | s       | 1..1    |         | Debtor  | Aggrega |
-| itutoAt |         |         |         |         | Agent   | zione   |
-| testant |         |         |         |         |         | relativ |
-| e       |         |         |         |         |         | a       |
-|         |         |         |         |         |         | al      |
-|         |         |         |         |         |         | soggett |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | Prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | emette  |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | documen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | attesta |
-|         |         |         |         |         |         | zione   |
-|         |         |         |         |         |         | dell’av |
-|         |         |         |         |         |         | venuto  |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.     |
-+---------+---------+---------+---------+---------+---------+---------+
-| ide     | 2       | s       | 1..1    |         | Financi | Aggrega |
-| ntifica |         |         |         |         | al      | zione   |
-| tivoUni |         |         |         |         | Institu | che     |
-| vocoAtt |         |         |         |         | tion    | riporta |
-| estante |         |         |         |         | Identif | le      |
-|         |         |         |         |         | ication | informa |
-|         |         |         |         |         |         | zioni   |
-|         |         |         |         |         |         | concern |
-|         |         |         |         |         |         | enti    |
-|         |         |         |         |         |         | l’ident |
-|         |         |         |         |         |         | ificazi |
-|         |         |         |         |         |         | one     |
-|         |         |         |         |         |         | fiscale |
-|         |         |         |         |         |         | dell’Is |
-|         |         |         |         |         |         | tituto  |
-|         |         |         |         |         |         | attesta |
-|         |         |         |         |         |         | nte     |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.     |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Si      |
-|         |         |         |         |         |         | precisa |
-|         |         |         |         |         |         | inoltre |
-|         |         |         |         |         |         | che la  |
-|         |         |         |         |         |         | struttu |
-|         |         |         |         |         |         | ra      |
-|         |         |         |         |         |         | deve    |
-|         |         |         |         |         |         | coincid |
-|         |         |         |         |         |         | ere     |
-|         |         |         |         |         |         | con     |
-|         |         |         |         |         |         | quella  |
-|         |         |         |         |         |         | dell’el |
-|         |         |         |         |         |         | emento  |
-|         |         |         |         |         |         | identif |
-|         |         |         |         |         |         | icativo |
-|         |         |         |         |         |         | Univoco |
-|         |         |         |         |         |         | Mittent |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | indicat |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | Tabella |
-|         |         |         |         |         |         | 1       |
-|         |         |         |         |         |         | riporta |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | capitol |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | 7       |
-|         |         |         |         |         |         | dell’Al |
-|         |         |         |         |         |         | legato  |
-|         |         |         |         |         |         | A alle  |
-|         |         |         |         |         |         | Linee   |
-|         |         |         |         |         |         | guida.  |
-+---------+---------+---------+---------+---------+---------+---------+
-| tip     | 3       | an      | 1..1    | 1       | Proprie | Campo   |
-| oIdenti |         |         |         |         | taryCod | alfanum |
-| ficativ |         |         |         |         | e       | erico   |
-| oUnivoc |         |         |         |         |         | che     |
-| o       |         |         |         |         |         | descriv |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | codific |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | utilizz |
-|         |         |         |         |         |         | ata     |
-|         |         |         |         |         |         | per     |
-|         |         |         |         |         |         | individ |
-|         |         |         |         |         |         | uare    |
-|         |         |         |         |         |         | l’Istit |
-|         |         |         |         |         |         | uto     |
-|         |         |         |         |         |         | attesta |
-|         |         |         |         |         |         | nte     |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to;     |
-|         |         |         |         |         |         | se      |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | può     |
-|         |         |         |         |         |         | assumer |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | seguent |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | valori: |
-|         |         |         |         |         |         | - **‘G  |
-|         |         |         |         |         |         | ’**\ =  |
-|         |         |         |         |         |         | persona |
-|         |         |         |         |         |         | giuridi |
-|         |         |         |         |         |         | ca      |
-|         |         |         |         |         |         | - **‘A  |
-|         |         |         |         |         |         | ’**\ =  |
-|         |         |         |         |         |         | Codice  |
-|         |         |         |         |         |         | ABI     |
-|         |         |         |         |         |         | - **‘B  |
-|         |         |         |         |         |         | ’**\ =  |
-|         |         |         |         |         |         | Codice  |
-|         |         |         |         |         |         | BIC     |
-|         |         |         |         |         |         | (standa |
-|         |         |         |         |         |         | rd      |
-|         |         |         |         |         |         | ISO     |
-|         |         |         |         |         |         | 9362)   |
-|         |         |         |         |         |         | Si      |
-|         |         |         |         |         |         | precisa |
-|         |         |         |         |         |         | che il  |
-|         |         |         |         |         |         | valore  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | dato    |
-|         |         |         |         |         |         | deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | sempre  |
-|         |         |         |         |         |         | lo      |
-|         |         |         |         |         |         | stesso  |
-|         |         |         |         |         |         | per     |
-|         |         |         |         |         |         | tutte   |
-|         |         |         |         |         |         | le RT   |
-|         |         |         |         |         |         | generat |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | dal     |
-|         |         |         |         |         |         | PSP. A  |
-|         |         |         |         |         |         | tale    |
-|         |         |         |         |         |         | scopo   |
-|         |         |         |         |         |         | si      |
-|         |         |         |         |         |         | evidenz |
-|         |         |         |         |         |         | ia      |
-|         |         |         |         |         |         | che il  |
-|         |         |         |         |         |         | PSP è   |
-|         |         |         |         |         |         | quello  |
-|         |         |         |         |         |         | indicat |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | dato    |
-|         |         |         |         |         |         | identif |
-|         |         |         |         |         |         | icativo |
-|         |         |         |         |         |         | PSP     |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | Catalo  |
-|         |         |         |         |         |         | go      |
-|         |         |         |         |         |         | Dati    |
-|         |         |         |         |         |         | Informa |
-|         |         |         |         |         |         | tivi    |
-|         |         |         |         |         |         | (vedi   |
-|         |         |         |         |         |         | Tabella |
-|         |         |         |         |         |         | 9).     |
-+---------+---------+---------+---------+---------+---------+---------+
-| cod     | 3       | an      | 1..1    | 1..35   | BIC |   | Campo   |
-| iceIden |         |         |         |         | Proprie | alfanum |
-| tificat |         |         |         |         | tary    | erico   |
-| ivoUniv |         |         |         |         | |       | che può |
-| oco     |         |         |         |         | Tax     | contene |
-|         |         |         |         |         | Identif | re      |
-|         |         |         |         |         | ication | il      |
-|         |         |         |         |         | Number  | codice  |
-|         |         |         |         |         |         | fiscale |
-|         |         |         |         |         |         | o la    |
-|         |         |         |         |         |         | partita |
-|         |         |         |         |         |         | IVA, o  |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | codice  |
-|         |         |         |         |         |         | ABI o   |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | codice  |
-|         |         |         |         |         |         | BIC del |
-|         |         |         |         |         |         | prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | attesta |
-|         |         |         |         |         |         | nte.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| den     | 2       | an      | 1..1    | 1..70   | Name    | Contien |
-| ominazi |         |         |         |         |         | e       |
-| oneAtte |         |         |         |         |         | la      |
-| stante  |         |         |         |         |         | denomin |
-|         |         |         |         |         |         | azione  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-+---------+---------+---------+---------+---------+---------+---------+
-| cod     | 2       | an      | 0..1    | 1..35   |         | Indica  |
-| iceUnit |         |         |         |         |         | il      |
-| OperAtt |         |         |         |         |         | codice  |
-| estante |         |         |         |         |         | dell’un |
-|         |         |         |         |         |         | ità     |
-|         |         |         |         |         |         | operati |
-|         |         |         |         |         |         | va      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | rilasci |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| den     | 2       | an      | 0..1    | 1..70   |         | Indica  |
-| omUnitO |         |         |         |         |         | la      |
-| perAtte |         |         |         |         |         | denomin |
-| stante  |         |         |         |         |         | azione  |
-|         |         |         |         |         |         | dell’un |
-|         |         |         |         |         |         | ità     |
-|         |         |         |         |         |         | operati |
-|         |         |         |         |         |         | va      |
-|         |         |         |         |         |         | attesta |
-|         |         |         |         |         |         | nte.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| ind     | 2       | an      | 0..1    | 1..70   | Street  | Indica  |
-| irizzoA |         |         |         |         | Name    | l’indir |
-| ttestan |         |         |         |         |         | izzo    |
-| te      |         |         |         |         |         | dell’at |
-|         |         |         |         |         |         | testant |
-|         |         |         |         |         |         | e.      |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Può     |
-|         |         |         |         |         |         | coincid |
-|         |         |         |         |         |         | ere     |
-|         |         |         |         |         |         | con     |
-|         |         |         |         |         |         | quello  |
-|         |         |         |         |         |         | dell’un |
-|         |         |         |         |         |         | ità     |
-|         |         |         |         |         |         | operati |
-|         |         |         |         |         |         | va      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | rilasci |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| civ     | 2       | an      | 0..1    | 1..16   | Buildin | Indica  |
-| icoAtte |         |         |         |         | g       | il      |
-| stante  |         |         |         |         | Number  | numero  |
-|         |         |         |         |         |         | civico  |
-|         |         |         |         |         |         | dell’at |
-|         |         |         |         |         |         | testant |
-|         |         |         |         |         |         | e.      |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Può     |
-|         |         |         |         |         |         | coincid |
-|         |         |         |         |         |         | ere     |
-|         |         |         |         |         |         | con     |
-|         |         |         |         |         |         | quello  |
-|         |         |         |         |         |         | dell’un |
-|         |         |         |         |         |         | ità     |
-|         |         |         |         |         |         | operati |
-|         |         |         |         |         |         | va      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | rilasci |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| cap     | 2       | an      | 0..1    | 1..16   | Postal  | Indica  |
-| Attesta |         |         |         |         | Code    | il CAP  |
-| nte     |         |         |         |         |         | dell’at |
-|         |         |         |         |         |         | testant |
-|         |         |         |         |         |         | e.      |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Può     |
-|         |         |         |         |         |         | coincid |
-|         |         |         |         |         |         | ere     |
-|         |         |         |         |         |         | con     |
-|         |         |         |         |         |         | quello  |
-|         |         |         |         |         |         | dell’un |
-|         |         |         |         |         |         | ità     |
-|         |         |         |         |         |         | operati |
-|         |         |         |         |         |         | va      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | rilasci |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| loc     | 2       | an      | 0..1    | 1..35   | Town    | Indica  |
-| alitaAt |         |         |         |         | Name    | la      |
-| testant |         |         |         |         |         | localit |
-| e       |         |         |         |         |         | à       |
-|         |         |         |         |         |         | dell’at |
-|         |         |         |         |         |         | testant |
-|         |         |         |         |         |         | e.      |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Può     |
-|         |         |         |         |         |         | coincid |
-|         |         |         |         |         |         | ere     |
-|         |         |         |         |         |         | con     |
-|         |         |         |         |         |         | quello  |
-|         |         |         |         |         |         | dell’un |
-|         |         |         |         |         |         | ità     |
-|         |         |         |         |         |         | operati |
-|         |         |         |         |         |         | va      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | rilasci |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| pro     | 2       | an      | 0..1    | 1..35   | Country | Indica  |
-| vinciaA |         |         |         |         | SubDivi | la      |
-| ttestan |         |         |         |         | sion    | provinc |
-| te      |         |         |         |         |         | ia      |
-|         |         |         |         |         |         | dell’at |
-|         |         |         |         |         |         | testant |
-|         |         |         |         |         |         | e.      |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Può     |
-|         |         |         |         |         |         | coincid |
-|         |         |         |         |         |         | ere     |
-|         |         |         |         |         |         | con     |
-|         |         |         |         |         |         | quello  |
-|         |         |         |         |         |         | dell’un |
-|         |         |         |         |         |         | ità     |
-|         |         |         |         |         |         | operati |
-|         |         |         |         |         |         | va      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | rilasci |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| naz     | 2       | an      | 0..1    | 2       | Country | Indica  |
-| ioneAtt |         |         |         |         |         | il      |
-| estante |         |         |         |         |         | codice  |
-|         |         |         |         |         |         | nazione |
-|         |         |         |         |         |         | dell’at |
-|         |         |         |         |         |         | testant |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | secondo |
-|         |         |         |         |         |         | lo      |
-|         |         |         |         |         |         | standar |
-|         |         |         |         |         |         | d       |
-|         |         |         |         |         |         | ISO     |
-|         |         |         |         |         |         | 3166.   |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Può     |
-|         |         |         |         |         |         | coincid |
-|         |         |         |         |         |         | ere     |
-|         |         |         |         |         |         | con     |
-|         |         |         |         |         |         | quello  |
-|         |         |         |         |         |         | dell’un |
-|         |         |         |         |         |         | ità     |
-|         |         |         |         |         |         | operati |
-|         |         |         |         |         |         | va      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | rilasci |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| ent     | 1       | s       | 1..1    |         | Credito | Riporta |
-| eBenefi |         |         |         |         | r       | le      |
-| ciario  |         |         |         |         |         | stesse  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |         | zioni   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | blocco  |
-|         |         |         |         |         |         | “enteBe |
-|         |         |         |         |         |         | neficia |
-|         |         |         |         |         |         | rio”    |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RPT**|
-|         |         |         |         |         |         | )       |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| sog     | 1       | s       | 0..1    |         | Debtor  | Riporta |
-| gettoVe |         |         |         |         |         | le      |
-| rsante  |         |         |         |         |         | stesse  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |         | zioni   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | blocco  |
-|         |         |         |         |         |         | “sogget |
-|         |         |         |         |         |         | toVersa |
-|         |         |         |         |         |         | nte”    |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (**RPT**|
-|         |         |         |         |         |         | )       |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| sog     | 1       | s       | 1..1    |         | Ultimat | Riporta |
-| gettoPa |         |         |         |         | e       | le      |
-| gatore  |         |         |         |         | Debtor  | stesse  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         | |       | zioni   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         | Debtor  | i       |
-|         |         |         |         |         | [3]_    | nel     |
-|         |         |         |         |         |         | blocco  |
-|         |         |         |         |         |         | “sogget |
-|         |         |         |         |         |         | toPagat |
-|         |         |         |         |         |         | ore”    |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | (RPT)   |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 1       | s       | 1..1    |         |         | Aggrega |
-| iPagame |         |         |         |         |         | zione   |
-| nto     |         |         |         |         |         | “dati   |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | versame |
-|         |         |         |         |         |         | nto”    |
-|         |         |         |         |         |         | costitu |
-|         |         |         |         |         |         | ita     |
-|         |         |         |         |         |         | dai     |
-|         |         |         |         |         |         | seguent |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | element |
-|         |         |         |         |         |         | i:      |
-+---------+---------+---------+---------+---------+---------+---------+
-| cod     | 2       | n       | 1..1    | 1       | Proprie | Campo   |
-| iceEsit |         |         |         |         | tary    | numeric |
-| oPagame |         |         |         |         | Code    | o       |
-| nto     |         |         |         |         |         | indican |
-|         |         |         |         |         |         | te      |
-|         |         |         |         |         |         | l’esito |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.     |
-|         |         |         |         |         |         | Può     |
-|         |         |         |         |         |         | assumer |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | seguent |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | valori: |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | 1. Paga |
-|         |         |         |         |         |         | mento   |
-|         |         |         |         |         |         | eseg    |
-|         |         |         |         |         |         | uito    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | 2. Paga |
-|         |         |         |         |         |         | mento   |
-|         |         |         |         |         |         | non     |
-|         |         |         |         |         |         | eseg    |
-|         |         |         |         |         |         | uito    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | 3. Paga |
-|         |         |         |         |         |         | mento   |
-|         |         |         |         |         |         | parz    |
-|         |         |         |         |         |         | ialment |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | eseg    |
-|         |         |         |         |         |         | uito    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | 4. Deco |
-|         |         |         |         |         |         | rrenza  |
-|         |         |         |         |         |         | term    |
-|         |         |         |         |         |         | ini     |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | 5. Deco |
-|         |         |         |         |         |         | rrenza  |
-|         |         |         |         |         |         | term    |
-|         |         |         |         |         |         | ini     |
-|         |         |         |         |         |         | parz    |
-|         |         |         |         |         |         | iale    |
-+---------+---------+---------+---------+---------+---------+---------+
-| imp     | 2       | an      | 1..1    | 3..12   | Amount  | Campo   |
-| ortoTot |         |         |         |         |         | numeric |
-| alePaga |         |         |         |         |         | o       |
-| to      |         |         |         |         |         | (due    |
-|         |         |         |         |         |         | cifre   |
-|         |         |         |         |         |         | per la  |
-|         |         |         |         |         |         | parte   |
-|         |         |         |         |         |         | decimal |
-|         |         |         |         |         |         | e,      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | separat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | centesi |
-|         |         |         |         |         |         | mi      |
-|         |         |         |         |         |         | è il    |
-|         |         |         |         |         |         | punto   |
-|         |         |         |         |         |         | “.”),   |
-|         |         |         |         |         |         | indican |
-|         |         |         |         |         |         | te      |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | relativ |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | al      |
-|         |         |         |         |         |         | totale  |
-|         |         |         |         |         |         | delle   |
-|         |         |         |         |         |         | somme   |
-|         |         |         |         |         |         | versate |
-|         |         |         |         |         |         | .       |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | uguale  |
-|         |         |         |         |         |         | alla    |
-|         |         |         |         |         |         | somma   |
-|         |         |         |         |         |         | delle   |
-|         |         |         |         |         |         | varie   |
-|         |         |         |         |         |         | occorre |
-|         |         |         |         |         |         | nze     |
-|         |         |         |         |         |         | (da 1 a |
-|         |         |         |         |         |         | 5)      |
-|         |         |         |         |         |         | dell’in |
-|         |         |         |         |         |         | formazi |
-|         |         |         |         |         |         | one     |
-|         |         |         |         |         |         | singolo |
-|         |         |         |         |         |         | Importo |
-|         |         |         |         |         |         | Versato |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | struttu |
-|         |         |         |         |         |         | ra      |
-|         |         |         |         |         |         | DatiSin |
-|         |         |         |         |         |         | goloVer |
-|         |         |         |         |         |         | samento |
-|         |         |         |         |         |         | .       |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Se      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | non è   |
-|         |         |         |         |         |         | stato   |
-|         |         |         |         |         |         | eseguit |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | (cod    |
-|         |         |         |         |         |         | iceEsit |
-|         |         |         |         |         |         | oPagame |
-|         |         |         |         |         |         | nto=    |
-|         |         |         |         |         |         | 1),     |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | imposta |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | 0.00    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Se la   |
-|         |         |         |         |         |         | RT      |
-|         |         |         |         |         |         | viene   |
-|         |         |         |         |         |         | generat |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | per     |
-|         |         |         |         |         |         | decorre |
-|         |         |         |         |         |         | nza     |
-|         |         |         |         |         |         | termini |
-|         |         |         |         |         |         | (codice |
-|         |         |         |         |         |         | EsitoPa |
-|         |         |         |         |         |         | gamento |
-|         |         |         |         |         |         | =3)     |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | imposta |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | a 0.00  |
-|         |         |         |         |         |         | anche   |
-|         |         |         |         |         |         | se non  |
-|         |         |         |         |         |         | se ne   |
-|         |         |         |         |         |         | conosce |
-|         |         |         |         |         |         | l’ammon |
-|         |         |         |         |         |         | tare    |
-|         |         |         |         |         |         | effetti |
-|         |         |         |         |         |         | vo,     |
-|         |         |         |         |         |         | in      |
-|         |         |         |         |         |         | quanto  |
-|         |         |         |         |         |         | non è   |
-|         |         |         |         |         |         | disponi |
-|         |         |         |         |         |         | bile    |
-|         |         |         |         |         |         | dal PSP |
-|         |         |         |         |         |         | l’esito |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.     |
-+---------+---------+---------+---------+---------+---------+---------+
-| ide     | 2       | an      | 1..1    | 1..35   | Credito | Il dato |
-| ntifica |         |         |         |         | r       | deve    |
-| tivoUni |         |         |         |         | Referen | essere  |
-| vocoVer |         |         |         |         | ce      | riporta |
-| samento |         |         |         |         |         | to      |
-|         |         |         |         |         |         | invaria |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | a cura  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | Prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | così    |
-|         |         |         |         |         |         | come    |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | **RPT** |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| Cod     | 2       | an      | 1..1    | 1..35   | Message | Il dato |
-| iceCont |         |         |         |         | Identif | deve    |
-| estoPag |         |         |         |         | ication | essere  |
-| amento  |         |         |         |         |         | riporta |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | invaria |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | a cura  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | Prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | così    |
-|         |         |         |         |         |         | come    |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | **RPT** |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 2       | s       | 0..5    |         |         | Aggrega |
-| iSingol |         |         |         |         |         | zione   |
-| oPagame |         |         |         |         |         | “dati   |
-| nto     |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | singoli |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | ti”,    |
-|         |         |         |         |         |         | sino ad |
-|         |         |         |         |         |         | un      |
-|         |         |         |         |         |         | massimo |
-|         |         |         |         |         |         | di 5    |
-|         |         |         |         |         |         | occorre |
-|         |         |         |         |         |         | nze     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | versame |
-|         |         |         |         |         |         | nto,    |
-|         |         |         |         |         |         | facenti |
-|         |         |         |         |         |         | capo ad |
-|         |         |         |         |         |         | un      |
-|         |         |         |         |         |         | unico   |
-|         |         |         |         |         |         | identif |
-|         |         |         |         |         |         | icativo |
-|         |         |         |         |         |         | Univoco |
-|         |         |         |         |         |         | Versame |
-|         |         |         |         |         |         | nto.    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Le      |
-|         |         |         |         |         |         | occorre |
-|         |         |         |         |         |         | nze     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | versame |
-|         |         |         |         |         |         | nto     |
-|         |         |         |         |         |         | devono  |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | riporta |
-|         |         |         |         |         |         | te      |
-|         |         |         |         |         |         | nello   |
-|         |         |         |         |         |         | stesso  |
-|         |         |         |         |         |         | ordine  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | relativ |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | RPT.    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Obbli   |
-|         |         |         |         |         |         | gatorio |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | caso in |
-|         |         |         |         |         |         | cui     |
-|         |         |         |         |         |         | l’eleme |
-|         |         |         |         |         |         | nto     |
-|         |         |         |         |         |         | codiceE |
-|         |         |         |         |         |         | sitoPag |
-|         |         |         |         |         |         | amento  |
-|         |         |         |         |         |         | assuma  |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | valore  |
-|         |         |         |         |         |         | 0, 2 o  |
-|         |         |         |         |         |         | 4       |
-+---------+---------+---------+---------+---------+---------+---------+
-| sin     | 3       | an      | 1..1    | 3..12   | Amount  | Campo   |
-| goloImp |         |         |         |         |         | numeric |
-| ortoPag |         |         |         |         |         | o       |
-| ato     |         |         |         |         |         | (due    |
-|         |         |         |         |         |         | cifre   |
-|         |         |         |         |         |         | per la  |
-|         |         |         |         |         |         | parte   |
-|         |         |         |         |         |         | decimal |
-|         |         |         |         |         |         | e,      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | separat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | centesi |
-|         |         |         |         |         |         | mi      |
-|         |         |         |         |         |         | è il    |
-|         |         |         |         |         |         | punto   |
-|         |         |         |         |         |         | “.”),   |
-|         |         |         |         |         |         | indican |
-|         |         |         |         |         |         | te      |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | relativ |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | alla    |
-|         |         |         |         |         |         | somma   |
-|         |         |         |         |         |         | pagata. |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Se il   |
-|         |         |         |         |         |         | singolo |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | non è   |
-|         |         |         |         |         |         | stato   |
-|         |         |         |         |         |         | effettu |
-|         |         |         |         |         |         | ato     |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | imposta |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | 0.00.   |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Se la   |
-|         |         |         |         |         |         | RT      |
-|         |         |         |         |         |         | viene   |
-|         |         |         |         |         |         | generat |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | per     |
-|         |         |         |         |         |         | decorre |
-|         |         |         |         |         |         | nza     |
-|         |         |         |         |         |         | termini |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | è       |
-|         |         |         |         |         |         | imposta |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | a 0.00  |
-|         |         |         |         |         |         | anche   |
-|         |         |         |         |         |         | se non  |
-|         |         |         |         |         |         | se ne   |
-|         |         |         |         |         |         | conosce |
-|         |         |         |         |         |         | l’ammon |
-|         |         |         |         |         |         | tare    |
-|         |         |         |         |         |         | effetti |
-|         |         |         |         |         |         | vo,     |
-|         |         |         |         |         |         | in      |
-|         |         |         |         |         |         | quanto  |
-|         |         |         |         |         |         | non è   |
-|         |         |         |         |         |         | disponi |
-|         |         |         |         |         |         | bile    |
-|         |         |         |         |         |         | dal PSP |
-|         |         |         |         |         |         | l’esito |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.     |
-+---------+---------+---------+---------+---------+---------+---------+
-| esi     | 3       | an      | 0..1    | 1..35   | Status  |Contien  |
-| toSingo |         |         |         |         | Reason  |e        |
-| loPagam |         |         |         |         | Proprie |la       |
-| ento    |         |         |         |         | tary    |descriz  |
-|         |         |         |         |         |         |ione     |
-|         |         |         |         |         |         |in       |
-|         |         |         |         |         |         |formato  |
-|         |         |         |         |         |         |testo    |
-|         |         |         |         |         |         |dell’es  |
-|         |         |         |         |         |         |ito      |
-|         |         |         |         |         |         |del      |
-|         |         |         |         |         |         |singolo  |
-|         |         |         |         |         |         |pagamen  |
-|         |         |         |         |         |         |to.      |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         |Obbli    |
-|         |         |         |         |         |         |gatorio  |
-|         |         |         |         |         |         |nel      |
-|         |         |         |         |         |         |caso     |
-|         |         |         |         |         |         |che      |
-|         |         |         |         |         |         |l’eleme  |
-|         |         |         |         |         |         |nto      |
-|         |         |         |         |         |         |*singol* |
-|         |         |         |         |         |         |*oImport*|
-|         |         |         |         |         |         |*oPagato*|
-|         |         |         |         |         |         |sia      |
-|         |         |         |         |         |         |0.00     |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 3       | an      | 1..1    | 10      | Accepta | Indica  |
-| aEsitoS |         |         |         |         | nce     | la data |
-| ingoloP |         |         |         |         | Date    | di      |
-| agament |         |         |         |         |         | esecuzi |
-| o       |         |         |         |         |         | one,    |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | rifiuto |
-|         |         |         |         |         |         | o di    |
-|         |         |         |         |         |         | revoca  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | formato |
-|         |         |         |         |         |         | ISO     |
-|         |         |         |         |         |         | 8601    |
-|         |         |         |         |         |         | [YYYY]- |
-|         |         |         |         |         |         | [MM]-[D |
-|         |         |         |         |         |         | D].     |
-+---------+---------+---------+---------+---------+---------+---------+
-| ide     | 3       | an      | 1..1    | 1..35   | Transac | Riferim |
-| ntifica |         |         |         |         | tion    | ento    |
-| tivoUni |         |         |         |         | Referen | univoco |
-| vocoRis |         |         |         |         | ce      | dell’op |
-| cossion |         |         |         |         | Number  | erazion |
-| e       |         |         |         |         |         | e       |
-|         |         |         |         |         |         | assegna |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | al      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | dal     |
-|         |         |         |         |         |         | Prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to.     |
-|         |         |         |         |         |         | Può     |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | rappres |
-|         |         |         |         |         |         | entato  |
-|         |         |         |         |         |         | dal CRO |
-|         |         |         |         |         |         | / TRN   |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | caso di |
-|         |         |         |         |         |         | Bonific |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | Bancari |
-|         |         |         |         |         |         | o,      |
-|         |         |         |         |         |         | dal     |
-|         |         |         |         |         |         | CODELIN |
-|         |         |         |         |         |         | E       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | caso di |
-|         |         |         |         |         |         | bollett |
-|         |         |         |         |         |         | ino     |
-|         |         |         |         |         |         | postale |
-|         |         |         |         |         |         | ,       |
-|         |         |         |         |         |         | ovvero  |
-|         |         |         |         |         |         | da      |
-|         |         |         |         |         |         | qualsia |
-|         |         |         |         |         |         | si      |
-|         |         |         |         |         |         | altro   |
-|         |         |         |         |         |         | riferim |
-|         |         |         |         |         |         | ento    |
-|         |         |         |         |         |         | univoco |
-|         |         |         |         |         |         | attribu |
-|         |         |         |         |         |         | ito     |
-|         |         |         |         |         |         | al      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | dal     |
-|         |         |         |         |         |         | PSP.    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Il      |
-|         |         |         |         |         |         | riferim |
-|         |         |         |         |         |         | ento    |
-|         |         |         |         |         |         | può     |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | lo      |
-|         |         |         |         |         |         | stesso  |
-|         |         |         |         |         |         | per     |
-|         |         |         |         |         |         | tutte   |
-|         |         |         |         |         |         | le      |
-|         |         |         |         |         |         | occorre |
-|         |         |         |         |         |         | nze     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | datiSin |
-|         |         |         |         |         |         | goloPag |
-|         |         |         |         |         |         | amento  |
-|         |         |         |         |         |         | facenti |
-|         |         |         |         |         |         | capo ad |
-|         |         |         |         |         |         | un      |
-|         |         |         |         |         |         | unico   |
-|         |         |         |         |         |         | identif |
-|         |         |         |         |         |         | icativo |
-|         |         |         |         |         |         | Univoco |
-|         |         |         |         |         |         | Versame |
-|         |         |         |         |         |         | nto.    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Deve    |
-|         |         |         |         |         |         | coincid |
-|         |         |         |         |         |         | ere     |
-|         |         |         |         |         |         | con lo  |
-|         |         |         |         |         |         | stesso  |
-|         |         |         |         |         |         | dato    |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | flusso  |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | rendico |
-|         |         |         |         |         |         | ntazion |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | (vedi   |
-|         |         |         |         |         |         | Capitol |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | 7 delle |
-|         |         |         |         |         |         | SACI)   |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Se il   |
-|         |         |         |         |         |         | singolo |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | non è   |
-|         |         |         |         |         |         | stato   |
-|         |         |         |         |         |         | effettu |
-|         |         |         |         |         |         | ato     |
-|         |         |         |         |         |         | il dato |
-|         |         |         |         |         |         | deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | imposta |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | “n/a”.  |
-|         |         |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| cau     | 3       | an      | 1..1    | 1..140  | Unstruc | Il dato |
-| saleVer |         |         |         |         | tured   | deve    |
-| samento |         |         |         |         | Remitta | essere  |
-|         |         |         |         |         | nce     | riporta |
-|         |         |         |         |         | Informa | to      |
-|         |         |         |         |         | tion    | invaria |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | a cura  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | Prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | così    |
-|         |         |         |         |         |         | come    |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | **RPT** |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 3       | an      | 1..1    | 1..140  | Additio | Il dato |
-| iSpecif |         |         |         |         | nal     | deve    |
-| iciRisc |         |         |         |         | Remitta | essere  |
-| ossione |         |         |         |         | nce     | riporta |
-|         |         |         |         |         | Informa | to      |
-|         |         |         |         |         | tion    | invaria |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | a cura  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | Prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to,     |
-|         |         |         |         |         |         | così    |
-|         |         |         |         |         |         | come    |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ico     |
-|         |         |         |         |         |         | **RPT** |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| com     | 3       | an      | 0..1    | 3..12   | Charges | Campo   |
-| mission |         |         |         |         | Fees    | numeric |
-| iApplic |         |         |         |         |         | o       |
-| atePSP  |         |         |         |         |         | (due    |
-|         |         |         |         |         |         | cifre   |
-|         |         |         |         |         |         | per la  |
-|         |         |         |         |         |         | parte   |
-|         |         |         |         |         |         | decimal |
-|         |         |         |         |         |         | e,      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | separat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | centesi |
-|         |         |         |         |         |         | mi      |
-|         |         |         |         |         |         | è il    |
-|         |         |         |         |         |         | punto   |
-|         |         |         |         |         |         | “.”),   |
-|         |         |         |         |         |         | indican |
-|         |         |         |         |         |         | te      |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | commiss |
-|         |         |         |         |         |         | ione    |
-|         |         |         |         |         |         | applica |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | dal PSP |
-|         |         |         |         |         |         | al      |
-|         |         |         |         |         |         | proprio |
-|         |         |         |         |         |         | cliente |
-|         |         |         |         |         |         | (sogget |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | versant |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | soggett |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | pagator |
-|         |         |         |         |         |         | e).     |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Il dato |
-|         |         |         |         |         |         | diviene |
-|         |         |         |         |         |         | obbliga |
-|         |         |         |         |         |         | torio   |
-|         |         |         |         |         |         | qualora |
-|         |         |         |         |         |         | l'infor |
-|         |         |         |         |         |         | mazione |
-|         |         |         |         |         |         | si      |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ca      |
-|         |         |         |         |         |         | ad una  |
-|         |         |         |         |         |         | transaz |
-|         |         |         |         |         |         | ione    |
-|         |         |         |         |         |         | facente |
-|         |         |         |         |         |         | riferim |
-|         |         |         |         |         |         | ento    |
-|         |         |         |         |         |         | ad una  |
-|         |         |         |         |         |         | specifi |
-|         |         |         |         |         |         | ca      |
-|         |         |         |         |         |         | convenz |
-|         |         |         |         |         |         | ione    |
-|         |         |         |         |         |         | in      |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | tra il  |
-|         |         |         |         |         |         | PSP e   |
-|         |         |         |         |         |         | un Ente |
-|         |         |         |         |         |         | Credito |
-|         |         |         |         |         |         | r:      |
-|         |         |         |         |         |         | in      |
-|         |         |         |         |         |         | questo  |
-|         |         |         |         |         |         | caso    |
-|         |         |         |         |         |         | rappres |
-|         |         |         |         |         |         | enta    |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | commiss |
-|         |         |         |         |         |         | ione    |
-|         |         |         |         |         |         | che il  |
-|         |         |         |         |         |         | PSP     |
-|         |         |         |         |         |         | avrebbe |
-|         |         |         |         |         |         | applica |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | in      |
-|         |         |         |         |         |         | assenza |
-|         |         |         |         |         |         | di tale |
-|         |         |         |         |         |         | convenz |
-|         |         |         |         |         |         | ione.   |
-+---------+---------+---------+---------+---------+---------+---------+
-| all     | 3       | s       | 0..1    |         |         | Aggrega |
-| egatoRi |         |         |         |         |         | zione   |
-| cevuta  |         |         |         |         |         | contene |
-|         |         |         |         |         |         | nte     |
-|         |         |         |         |         |         | l'alleg |
-|         |         |         |         |         |         | ato     |
-|         |         |         |         |         |         | al      |
-|         |         |         |         |         |         | singolo |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to.     |
-+---------+---------+---------+---------+---------+---------+---------+
-| tip     | 4       | an      | 1..1    | 2       | Proprie | Identif |
-| oAllega |         |         |         |         | tary    | ica     |
-| toRicev |         |         |         |         | Code    | il tipo |
-| uta     |         |         |         |         |         | di      |
-|         |         |         |         |         |         | allegat |
-|         |         |         |         |         |         | o:      |
-|         |         |         |         |         |         | traspor |
-|         |         |         |         |         |         | tato    |
-|         |         |         |         |         |         | con la  |
-|         |         |         |         |         |         | RT e    |
-|         |         |         |         |         |         | può     |
-|         |         |         |         |         |         | assumer |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | seguent |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | valori: |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **ES**  |
-|         |         |         |         |         |         | esito   |
-|         |         |         |         |         |         | origina |
-|         |         |         |         |         |         | rio     |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | (come   |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | da PSP) |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | **BD**  |
-|         |         |         |         |         |         | Marca   |
-|         |         |         |         |         |         | da      |
-|         |         |         |         |         |         | bollo   |
-|         |         |         |         |         |         | digital |
-|         |         |         |         |         |         | e       |
-+---------+---------+---------+---------+---------+---------+---------+
-| tes     | 4       | an      | 1..1    |         |         | Contien |
-| toAlleg |         |         |         |         |         | e       |
-| ato     |         |         |         |         |         | l’alleg |
-|         |         |         |         |         |         | ato     |
-|         |         |         |         |         |         | vero e  |
-|         |         |         |         |         |         | proprio |
-|         |         |         |         |         |         | ,       |
-|         |         |         |         |         |         | il cui  |
-|         |         |         |         |         |         | signifi |
-|         |         |         |         |         |         | cato    |
-|         |         |         |         |         |         | è       |
-|         |         |         |         |         |         | indicat |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | dal     |
-|         |         |         |         |         |         | dato    |
-|         |         |         |         |         |         | tipoAll |
-|         |         |         |         |         |         | egatoRi |
-|         |         |         |         |         |         | cevuta. |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | L’eleme |
-|         |         |         |         |         |         | nto     |
-|         |         |         |         |         |         | testoAl |
-|         |         |         |         |         |         | legato  |
-|         |         |         |         |         |         | è       |
-|         |         |         |         |         |         | traspor |
-|         |         |         |         |         |         | tato    |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | secondo |
-|         |         |         |         |         |         | la      |
-|         |         |         |         |         |         | codific |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | in      |
-|         |         |         |         |         |         | “base64 |
-|         |         |         |         |         |         | binary” |
-|         |         |         |         |         |         | .       |
-+---------+---------+---------+---------+---------+---------+---------+
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+|       **Dato**       | **Liv** | **Genere** | **Occ** | **Len** | **UNIFI**              | **Contenuto**                        |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| versioneOggetto      | 1       | an         | 1..1    | 1..16   | VersionNumber          | Riporta la stessa informazione       |
+|                      |         |            |         |         |                        | presente nel dato                    |
+|                      |         |            |         |         |                        | “versioneOggetto” della              |
+|                      |         |            |         |         |                        | Richiesta di Pagamento               |
+|                      |         |            |         |         |                        | Telematico (RPT)                     |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| Dominio              | 1       | s          | 1..1    |         | Initiating             | Riporta le stesse informazioni       |
+|                      |         |            |         |         | Party                  | presenti nel blocco                  |
+|                      |         |            |         |         |                        | “Dominio” della Richiesta            |
+|                      |         |            |         |         |                        | di Pagamento Telematico (RPT)        |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| identificativo       | 1       | an         | 1..1    | 1..35   | Message                | Identificativo legato alla           |
+| Messaggio            |         |            |         |         | Identification         | trasmissione della                   |
+| Richiesta            |         |            |         |         |                        | ricevuta telematica.                 |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | Deve essere univoco                  |
+|                      |         |            |         |         |                        | nell’ambito della stessa             |
+|                      |         |            |         |         |                        | data riferita all’elemento           |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | *dataOraMessaggioRicevuta*           |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| dataOraMessaggio     | 1       | an         | 1..1    | 19      | Creation               | Indica la data e l’ora               |
+| Ricevuta             |         |            |         |         | Date                   | del messaggio di ricevuta,           |
+|                      |         |            |         |         | Time                   | secondo il formato                   |
+|                      |         |            |         |         |                        | ISO 8601                             |
+|                      |         |            |         |         |                        | [YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]      |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| riferimento          | 1       | an         | 1..1    | 1.35    | Original Message       | Con riferimento al                   |
+| Messaggio            |         |            |         |         | Identification         | messaggio di Ricevuta                |
+| Richiesta            |         |            |         |         |                        | Telematica                           |
+|                      |         |            |         |         |                        | **(RT)**                             |
+|                      |         |            |         |         |                        |  l’elemento contiene il dato         |
+|                      |         |            |         |         |                        | identificativoMessaggioRichiesta     |
+|                      |         |            |         |         |                        |  legato alla trasmissione della      |
+|                      |         |            |         |         |                        | Richiesta di Pagamento               |
+|                      |         |            |         |         |                        | Telematico                           |
+|                      |         |            |         |         |                        | **(RPT)**                            |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| riferimentoData      | 1       | an         | 1..1    | 10      | Original Creation      | Indica la data                       |
+| Richiesta            |         |            |         |         | Date Time              | secondo il formato ISO 8601          |
+|                      |         |            |         |         |                        | **[YYYY]-[MM]-[DD]**                 |
+|                      |         |            |         |         |                        | cui si riferisce la                  |
+|                      |         |            |         |         |                        | generazione del dato                 |
+|                      |         |            |         |         |                        | riferimentoMessaggioRichiesta.       |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| istitutoAttestante   | 1       | s          | 1..1    |         | Debtor Agent           | Aggregazione                         |
+|                      |         |            |         |         |                        | relativa al soggetto Prestatore      |
+|                      |         |            |         |         |                        | dei servizi di Pagamento che         |
+|                      |         |            |         |         |                        |  emette il documento di              |
+|                      |         |            |         |         |                        | attestazione                         |
+|                      |         |            |         |         |                        | dell’avvenuto pagamento.             |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| identificativo       | 2       | s          | 1..1    |         | Financial              | Aggregazione che riporta             |
+| Univoco              |         |            |         |         | Institution            | le informazioni                      |
+| Attestante           |         |            |         |         | Identification         | concernenti l’identificazione        |
+|                      |         |            |         |         |                        | fiscale dell’Istituto attestante     |
+|                      |         |            |         |         |                        | il pagamento.                        |
+|                      |         |            |         |         |                        | Si precisa inoltre che la struttura  |
+|                      |         |            |         |         |                        | deve coincidere                      |
+|                      |         |            |         |         |                        | con quella dell’elemento             |
+|                      |         |            |         |         |                        | identificativoUnivocoMittente        |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | indicato nella Tabella 1             |
+|                      |         |            |         |         |                        | riportata nel                        |
+|                      |         |            |         |         |                        | capitolo 7 dell’Allegato             |
+|                      |         |            |         |         |                        | A alle Linee guida.                  |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| tipoIdentificativo   | 3       | an         | 1..1    | 1       | ProprietaryCode        | Campo alfanumerico che               |
+| Univoco              |         |            |         |         |                        | descrive la codifica                 |
+|                      |         |            |         |         |                        | utilizzata per individuare           |
+|                      |         |            |         |         |                        | l’Istituto attestante il pagamento;  |
+|                      |         |            |         |         |                        | se presente può assumere i           |
+|                      |         |            |         |         |                        | seguenti valori:                     |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | - **‘G’** = persona giuridica        |
+|                      |         |            |         |         |                        | - **‘A’** = Codice ABI               |
+|                      |         |            |         |         |                        | - **‘B’** = Codice BIC               |
+|                      |         |            |         |         |                        | (standard ISO 9362)                  |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | Si precisa che il valore del dato    |
+|                      |         |            |         |         |                        | deve essere sempre lo stesso         |
+|                      |         |            |         |         |                        | per tutte le RT generate dal PSP.    |
+|                      |         |            |         |         |                        | A tale scopo si evidenzia            |
+|                      |         |            |         |         |                        | che il PSP è quello indicato         |
+|                      |         |            |         |         |                        | nel dato identificativoPSP           |
+|                      |         |            |         |         |                        |  del Catalogo Dati Informativi       |
+|                      |         |            |         |         |                        | (vedi Tabella 9).                    |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| codiceIdentificativo | 3       | an         | 1..1    | 1..35   | BIC / Proprietary /    | Campo                                |
+| Univoco              |         |            |         |         | Tax Identification     | alfanumerico che può contenere       |
+|                      |         |            |         |         | Number                 | il codice fiscale o la partita IVA,  |
+|                      |         |            |         |         |                        | o il codice ABI o il codice BIC      |
+|                      |         |            |         |         |                        | del prestatore di servizi di         |
+|                      |         |            |         |         |                        | pagamento attestante.                |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| denominazione        | 2       | an         | 1..1    | 1..70   | Name                   | Contiene la denominazione            |
+| Attestante           |         |            |         |         |                        | del prestatore di                    |
+|                      |         |            |         |         |                        | servizi di pagamento                 |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| codiceUnitOper       | 2       | an         | 0..1    | 1..35   |                        | Indica il codice dell’unità          |
+| Attestante           |         |            |         |         |                        | operativa che rilascia               |
+|                      |         |            |         |         |                        | la ricevuta.                         |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| denomUnitOper        | 2       | an         | 0..1    | 1..70   |                        | Indica la denominazione              |
+| Attestante           |         |            |         |         |                        | dell’unità operativa attestante.     |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| indirizzoAttestante  | 2       | an         | 0..1    | 1..70   | StreetName             | Indica l’indirizzo                   |
+|                      |         |            |         |         |                        | dell’attestante.                     |
+|                      |         |            |         |         |                        | Può coincidere con quello            |
+|                      |         |            |         |         |                        | dell’unità operativa                 |
+|                      |         |            |         |         |                        | che rilascia la ricevuta.            |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| civicoAttestante     | 2       | an         | 0..1    | 1..16   | Building               | Indica il numero civico              |
+|                      |         |            |         |         | Number                 | dell’attestante.                     |
+|                      |         |            |         |         |                        | Può coincidere con quello            |
+|                      |         |            |         |         |                        | dell’unità operativa                 |
+|                      |         |            |         |         |                        | che rilascia la ricevuta             |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| capAttestante        | 2       | an         | 0..1    | 1..16   | Postal Code            | Indica il CAP dell’attestante.       |
+|                      |         |            |         |         |                        | Può coincidere con quello            |
+|                      |         |            |         |         |                        | dell’unità operativa                 |
+|                      |         |            |         |         |                        | che rilascia la ricevuta.            |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| localitaAttestante   | 2       | an         | 0..1    | 1..35   | Town Name              | Indica la località                   |
+|                      |         |            |         |         |                        | dell’attestante.                     |
+|                      |         |            |         |         |                        | Può coincidere con quello            |
+|                      |         |            |         |         |                        | dell’unità operativa                 |
+|                      |         |            |         |         |                        | che rilascia la ricevuta.            |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| provinciaAttestante  | 2       | an         | 0..1    | 1..35   | Country                | Indica la provincia                  |
+|                      |         |            |         |         | SubDivision            | dell’attestante.                     |
+|                      |         |            |         |         |                        | Può coincidere con quello            |
+|                      |         |            |         |         |                        | dell’unità operativa                 |
+|                      |         |            |         |         |                        | che rilascia la ricevuta.            |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| nazioneAttestante    | 2       | an         | 0..1    | 2       | Country                | Indica il codice nazione             |
+|                      |         |            |         |         |                        | dell’attestante                      |
+|                      |         |            |         |         |                        | secondo lo standard ISO 3166.        |
+|                      |         |            |         |         |                        | Può coincidere con quello            |
+|                      |         |            |         |         |                        | dell’unità operativa                 |
+|                      |         |            |         |         |                        | che rilascia la ricevuta.            |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| enteBeneficiario     | 1       | s          | 1..1    |         | Creditor               | Riporta                              |
+|                      |         |            |         |         |                        | le stesse informazioni               |
+|                      |         |            |         |         |                        | presenti nel blocco “                |
+|                      |         |            |         |         |                        | enteBeneficiario                     |
+|                      |         |            |         |         |                        | ” della Richiesta di                 |
+|                      |         |            |         |         |                        | Pagamento Telematico                 |
+|                      |         |            |         |         |                        | **(RPT)** cui si riferisce           |
+|                      |         |            |         |         |                        | il messaggio di                      |
+|                      |         |            |         |         |                        | Ricevuta Telematica.                 |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| soggettoVersante     | 1       | s          | 0..1    |         | Debtor                 | Riporta                              |
+|                      |         |            |         |         |                        | le stesse informazioni               |
+|                      |         |            |         |         |                        | presenti nel blocco “                |
+|                      |         |            |         |         |                        | soggettoVersante                     |
+|                      |         |            |         |         |                        | ” della Richiesta di                 |
+|                      |         |            |         |         |                        | Pagamento Telematico                 |
+|                      |         |            |         |         |                        | **(RPT)** cui si riferisce           |
+|                      |         |            |         |         |                        | il messaggio di                      |
+|                      |         |            |         |         |                        | Ricevuta Telematica.                 |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| soggettoPagatore     | 1       | s          | 1..1    |         | Ultimate Debtor        | Riporta                              |
+|                      |         |            |         |         | /                      | le stesse informazioni               |
+|                      |         |            |         |         | Debtor [3]_            | presenti nel blocco “                |
+|                      |         |            |         |         |                        | soggettoPagatore                     |
+|                      |         |            |         |         |                        | ” della Richiesta di                 |
+|                      |         |            |         |         |                        | Pagamento Telematico                 |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | (RPT) cui si riferisce il            |
+|                      |         |            |         |         |                        | messaggio di Ricevuta                |
+|                      |         |            |         |         |                        | Telematica.                          |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| datiPagamento        | 1       | s          | 1..1    |         |                        | Aggregazione                         |
+|                      |         |            |         |         |                        | “dati del versamento” costituita     |
+|                      |         |            |         |         |                        | dai seguenti elementi:               |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| codiceEsito          | 2       | n          | 1..1    | 1       | Proprietary Code       | Campo numerico indicante             |
+| Pagamento            |         |            |         |         |                        | l’esito del pagamento.               |
+|                      |         |            |         |         |                        | Può assumere i                       |
+|                      |         |            |         |         |                        | seguenti valori:                     |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | **0** Pagamento eseguito             |
+|                      |         |            |         |         |                        | **1** Pagamento non eseguito         |
+|                      |         |            |         |         |                        | **2** Pagamento parzialmente         |
+|                      |         |            |         |         |                        |            eseguito                  |
+|                      |         |            |         |         |                        | **3** Decorrenza termini             |
+|                      |         |            |         |         |                        | **4** Decorrenza termini parziale    |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| importoTotale        | 2       | an         | 1..1    | 3..12   | Amount                 | Campo numerico                       |
+| Pagato               |         |            |         |         |                        | (due cifre per la parte decimale,    |
+|                      |         |            |         |         |                        | il separatore dei centesimi è il     |
+|                      |         |            |         |         |                        | punto “.”),                          |
+|                      |         |            |         |         |                        | indicante l’importo relativo al      |
+|                      |         |            |         |         |                        | totale delle somme versate.          |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | Deve essere uguale alla somma        |
+|                      |         |            |         |         |                        | delle varie occorrenze               |
+|                      |         |            |         |         |                        | (da 1 a 5) dell’informazione         |
+|                      |         |            |         |         |                        | *singoloImportoVersato*              |
+|                      |         |            |         |         |                        |  presente nella struttura            |
+|                      |         |            |         |         |                        | *DatiSingoloVersamento*              |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | Se il pagamento non è stato          |
+|                      |         |            |         |         |                        | eseguito                             |
+|                      |         |            |         |         |                        | (codiceEsitoPagamento=1)             |
+|                      |         |            |         |         |                        | l’importo deve essere                |
+|                      |         |            |         |         |                        | impostato a 0.00.                    |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | **Se la RT viene generata**          |
+|                      |         |            |         |         |                        | **per decorrenza termini**           |
+|                      |         |            |         |         |                        | **(codiceEsitoPagamento=3)**         |
+|                      |         |            |         |         |                        | **l’importo del pagamento**          |
+|                      |         |            |         |         |                        | **deve essere**                      |
+|                      |         |            |         |         |                        | **impostato a 0.00 anche se**        |
+|                      |         |            |         |         |                        | ** non se ne conosce**               |
+|                      |         |            |         |         |                        | **l’ammontare effettivo, **          |
+|                      |         |            |         |         |                        | **in quanto non è disponibile**      |
+|                      |         |            |         |         |                        | **dal PSP l’esito del**              |
+|                      |         |            |         |         |                        | **pagamento.**                       |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| identificativo       | 2       | an         | 1..1    | 1..35   | Creditor Reference     | Il dato                              |
+| Univoco              |         |            |         |         |                        | deve essere riportato invariato,     |
+| Versamento           |         |            |         |         |                        | a cura del Prestatore di servizi     |
+|                      |         |            |         |         |                        | di pagamento, così come presente     |
+|                      |         |            |         |         |                        | nella Richiesta di Pagamento         |
+|                      |         |            |         |         |                        | Telematico **(RPT)**                 |
+|                      |         |            |         |         |                        | cui si riferisce il messaggio di     |
+|                      |         |            |         |         |                        | Ricevuta Telematica.                 |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| CodiceContesto       | 2       | an         | 1..1    | 1..35   | Message                | Il dato                              |
+| Pagamento            |         |            |         |         | Identification         | deve essere riportato invariato,     |
+|                      |         |            |         |         |                        | a cura del Prestatore di servizi     |
+|                      |         |            |         |         |                        | di pagamento, così come              |
+|                      |         |            |         |         |                        | presente nella Richiesta di          |
+|                      |         |            |         |         |                        | Pagamento Telematico                 |
+|                      |         |            |         |         |                        | **(RPT)** cui si riferisce           |
+|                      |         |            |         |         |                        | il messaggio di                      |
+|                      |         |            |         |         |                        | Ricevuta Telematica.                 |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| datiSingolo          | 2       | s          | 0..5    |         |                        | Aggregazione                         |
+| Pagamento            |         |            |         |         |                        | “dati dei singoli pagamenti”,        |
+|                      |         |            |         |         |                        | sino ad un massimo di 5              |
+|                      |         |            |         |         |                        | occorrenze di                        |
+|                      |         |            |         |         |                        | versamento, facenti capo ad          |
+|                      |         |            |         |         |                        | un unico                             |
+|                      |         |            |         |         |                        | *identificativoUnivocoVersamento*    |
+|                      |         |            |         |         |                        | **Le occorrenze di versamento**      |
+|                      |         |            |         |         |                        | **devono essere riportate nello**    |
+|                      |         |            |         |         |                        | **stesso ordine**                    |
+|                      |         |            |         |         |                        | **del relativo messaggio RPT.**      |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | **Obbligatorio nel caso in cui**     |
+|                      |         |            |         |         |                        | **l’elemento**                       |
+|                      |         |            |         |         |                        | **codiceEsitoPagamento**             |
+|                      |         |            |         |         |                        |  **assuma il valore 0, 2 o 4**       |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| singoloImportoPagato | 3       | an         | 1..1    | 3..12   | Amount                 | Campo numerico                       |
+|                      |         |            |         |         |                        | (due cifre per la parte              |
+|                      |         |            |         |         |                        | decimale, il separatore dei          |
+|                      |         |            |         |         |                        | centesimi è il punto “.”),           |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | indicante l’importo                  |
+|                      |         |            |         |         |                        | relativo alla somma pagata.          |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | **Se il singolo pagamento**          |
+|                      |         |            |         |         |                        | **non è stato effettuato**           |
+|                      |         |            |         |         |                        | **l’importo deve essere**            |
+|                      |         |            |         |         |                        | **impostato a 0.00.**                |
+|                      |         |            |         |         |                        | **Se la RT viene generata**          |
+|                      |         |            |         |         |                        | **per decorrenza termini**           |
+|                      |         |            |         |         |                        | **l’importo del pagamento**          |
+|                      |         |            |         |         |                        | **è impostato a 0.00**               |
+|                      |         |            |         |         |                        | **anche se non se ne conosce**       |
+|                      |         |            |         |         |                        | **l’ammontare effettivo, in**        |
+|                      |         |            |         |         |                        | **quantonon è disponibile**          |
+|                      |         |            |         |         |                        | **dal PSP l’esito del**              |
+|                      |         |            |         |         |                        | **pagamento.**                       |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| esitoSingolo         | 3       | an         | 0..1    | 1..35   | Status Reason          | Contiene la descrizione in           |
+| Pagamento            |         |            |         |         | Proprietary            | formato testo                        |
+|                      |         |            |         |         |                        | dell’esito del singolo               |
+|                      |         |            |         |         |                        | pagamento.                           |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | **Obbligatorio nel caso che**        |
+|                      |         |            |         |         |                        | **l’elemento**                       |
+|                      |         |            |         |         |                        | **singoloImportoPagato**             |
+|                      |         |            |         |         |                        | **sia 0.00**                         |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| dataEsitoSingolo     | 3       | an         | 1..1    | 10      | Acceptance Date        | Indica la                            |
+| Pagamento            |         |            |         |         |                        | data di esecuzione, di rifiuto o     |
+|                      |         |            |         |         |                        | di revoca del pagamento,             |
+|                      |         |            |         |         |                        |  nel formato                         |
+|                      |         |            |         |         |                        | ISO 8601                             |
+|                      |         |            |         |         |                        | [YYYY]-[MM]-[DD].                    |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| identificativo       | 3       | an         | 1..1    | 1..35   | Transaction Reference  | Riferimento univoco                  |
+| Univoco              |         |            |         |         | Number                 | dell’operazione                      |
+| Riscossione          |         |            |         |         |                        | assegnato al pagamento               |
+|                      |         |            |         |         |                        | dal Prestatore                       |
+|                      |         |            |         |         |                        | dei servizi di Pagamento.            |
+|                      |         |            |         |         |                        | Può essere rappresentato dal         |
+|                      |         |            |         |         |                        | CRO / TRN nel caso                   |
+|                      |         |            |         |         |                        | di Bonifico Bancario,                |
+|                      |         |            |         |         |                        | dal CODELINE                         |
+|                      |         |            |         |         |                        | nel caso di bollettino postale,      |
+|                      |         |            |         |         |                        | ovvero da qualsiasi altro            |
+|                      |         |            |         |         |                        | riferimento univoco attribuito       |
+|                      |         |            |         |         |                        | al pagamento dal PSP.                |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | Il riferimento può essere lo         |
+|                      |         |            |         |         |                        | stesso per tutte                     |
+|                      |         |            |         |         |                        | le occorrenze di                     |
+|                      |         |            |         |         |                        | datiSingoloPagamento                 |
+|                      |         |            |         |         |                        |  facenti capo ad un unico            |
+|                      |         |            |         |         |                        | *identificativoUnivocoVersamento*    |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | **Deve coincidere con lo stesso**    |
+|                      |         |            |         |         |                        | **dato presente nel**                |
+|                      |         |            |         |         |                        | **flusso di rendicontazione          |
+|                      |         |            |         |         |                        | **(vedi Capitolo 7**                 |
+|                      |         |            |         |         |                        | **delle SACI)**                      |
+|                      |         |            |         |         |                        | **Se il singolo pagamento non**      |
+|                      |         |            |         |         |                        | **è stato effettuato il dato**       |
+|                      |         |            |         |         |                        | **deve essere impostato a “n/a”.**   |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| causaleVersamento    | 3       | an         | 1..1    | 1..140  | Unstructured           | Il dato deve essere riportato        |
+|                      |         |            |         |         | Remittance             | invariato, a cura del Prestatore     |
+|                      |         |            |         |         | Information            | di servizi di                        |
+|                      |         |            |         |         |                        | pagamento, così come presente        |
+|                      |         |            |         |         |                        | nella                                |
+|                      |         |            |         |         |                        | Richiesta di Pagamento               |
+|                      |         |            |         |         |                        | Telematico                           |
+|                      |         |            |         |         |                        | **(RPT)** cui si riferisceil         |
+|                      |         |            |         |         |                        | messaggio                            |
+|                      |         |            |         |         |                        | di Ricevuta Telematica.              |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| datiSpecifici        | 3       | an         | 1..1    | 1..140  | Additional             | Il dato                              |
+| Riscossione          |         |            |         |         | Remittance             | deve essere riportato invariato,     |
+|                      |         |            |         |         | Information            | a cura del Prestatore di servizi     |
+|                      |         |            |         |         |                        | di pagamento,                        |
+|                      |         |            |         |         |                        | così come presente nella             |
+|                      |         |            |         |         |                        | Richiesta di Pagamento               |
+|                      |         |            |         |         |                        | Telematico                           |
+|                      |         |            |         |         |                        | **(RPT)**                            |
+|                      |         |            |         |         |                        | cui si  riferisce il messaggio di    |
+|                      |         |            |         |         |                        | Ricevuta Telematica.                 |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| commissioni          | 3       | an         | 0..1    | 3..12   | Charges Fees           | Campo numerico                       |
+| ApplicatePSP         |         |            |         |         |                        | (due cifre per la parte              |
+|                      |         |            |         |         |                        | decimale,                            |
+|                      |         |            |         |         |                        | il separatore dei centesimi          |
+|                      |         |            |         |         |                        | è il punto “.”), indicante           |
+|                      |         |            |         |         |                        | l’importo della commissione          |
+|                      |         |            |         |         |                        | applicata                            |
+|                      |         |            |         |         |                        | dal PSP al proprio cliente           |
+|                      |         |            |         |         |                        | (soggetto versante o                 |
+|                      |         |            |         |         |                        | soggetto pagatore).                  |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | Il dato diviene obbligatorio         |
+|                      |         |            |         |         |                        | qualora l'informazione si            |
+|                      |         |            |         |         |                        | riferisca ad una transazione         |
+|                      |         |            |         |         |                        | facente                              |
+|                      |         |            |         |         |                        | riferimento ad una specifica         |
+|                      |         |            |         |         |                        | convenzione in essere                |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | tra il PSP e un Ente                 |
+|                      |         |            |         |         |                        | Creditor: in questo caso             |
+|                      |         |            |         |         |                        | rappresenta la commissione           |
+|                      |         |            |         |         |                        | che il PSP avrebbe                   |
+|                      |         |            |         |         |                        | applicato in assenza di tale         |
+|                      |         |            |         |         |                        | convenzione.                         |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| allegatoRicevuta     | 3       | s          | 0..1    |         |                        | Aggregazione                         |
+|                      |         |            |         |         |                        | contenente l'allegato al             |
+|                      |         |            |         |         |                        | singolo pagamento.                   |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| tipoAllegato         | 4       | an         | 1..1    | 2       | Proprietary Code       | dentifica il tipo di allegato:       |
+| Ricevuta             |         |            |         |         |                        | trasportato                          |
+|                      |         |            |         |         |                        | con la RT e può assumere i           |
+|                      |         |            |         |         |                        | seguenti valori:                     |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | **ES** esito originario              |
+|                      |         |            |         |         |                        | pagamento                            |
+|                      |         |            |         |         |                        | (come ricevuto da PSP)               |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | **BD** Marca da bollo digitale       |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
+| testoAllegato        | 4       | an         | 1..1    |         |                        | Contiene l’allegato vero             |
+|                      |         |            |         |         |                        | e proprio, il cui significato        |
+|                      |         |            |         |         |                        | è indicato dal dato                  |
+|                      |         |            |         |         |                        | tipoAllegatoRicevuta                 |
+|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | L’elemento                           |
+|                      |         |            |         |         |                        | testoAllegato                        |
+|                      |         |            |         |         |                        |  è trasportato nella                 |
+|                      |         |            |         |         |                        | ricevuta telematica secondo la       |
+|                      |         |            |         |         |                        | codifica in “base64 binary”.         |
++----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
 
 Richiesta di Revoca (RR)
 ~~~~~~~~~~~~~~~~~~~~~~~~
