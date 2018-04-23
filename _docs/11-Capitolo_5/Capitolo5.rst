@@ -1555,8 +1555,9 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         | (vedi § 2.10)                           |
 |                            |         |            |         |         |                                         |
 |                            |         |            |         |         |                                         |
-|                            |         |            |         |         | **0** NON consente avvisatura pull      |
-|                            |         |            |         |         | **1** CONSENTE avvisatura pull          |
+|                            |         |            |         |         | - **0** NON consente avvisatura pull    |
+|                            |         |            |         |         | - **1** CONSENTE avvisatura pull        |
+|                            |         |            |         |         |                                         |
 +----------------------------+---------+------------+---------+---------+-----------------------------------------+
 | disponibilita              | 3       | s          | 1..n    |         | Aggregazione relativa alle fasce        |
 |                            |         |            |         |         | orarie di erogazione del servizio da    |
@@ -1575,8 +1576,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         |                                         |
 |                            |         |            |         |         | - **settimanale**                       |
 |                            |         |            |         |         |                                         |
-|                            |         |            |         |         | -**mensile**                            |
-|                            |         |            |         |         |                                         |
+|                            |         |            |         |         | - **mensile**                           |
 |                            |         |            |         |         | - **annuale**                           |
 +----------------------------+---------+------------+---------+---------+-----------------------------------------+
 | giorno                     | 4       | an         | 0..1    | 35      | Descrizione in formato testo delle      |
