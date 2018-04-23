@@ -1491,8 +1491,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 | dataInizioValidita         | 2       | an         | 1..1    | 10      | Data in cui inizia la validità          |
 |                            |         |            |         |         | delle informazioni relative             |
 |                            |         |            |         |         | all’Ente Creditore nel                  |
-|                            |         |            |         |         | formato ISO 8601:                       |
-|                            |         |            |         |         | [YYYY]-[MM]-[DD]                        |
+|                            |         |            |         |         | formato ISO 8601: [YYYY]-[MM]-[DD]      |
 +----------------------------+---------+------------+---------+---------+-----------------------------------------+
 | pagamentiPressoPSP         | 2       | n          | 1..1    | 1       | Indica se l’Ente Creditore              |
 |                            |         |            |         |         | consente i pagamenti                    |
@@ -1501,10 +1500,10 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         | può assumere i                          |
 |                            |         |            |         |         | seguenti valori:                        |
 |                            |         |            |         |         |                                         |
-|                            |         |            |         |         | **0** NON consente i                    |
+|                            |         |            |         |         | - **0** NON consente i                  |
 |                            |         |            |         |         | pagamenti c/o i PSP                     |
 |                            |         |            |         |         |                                         |
-|                            |         |            |         |         | **1** CONSENTE i                        |
+|                            |         |            |         |         | - **1** CONSENTE i                      |
 |                            |         |            |         |         | agamenti c/o i PSP                      |
 +----------------------------+---------+------------+---------+---------+-----------------------------------------+
 | contactCenterEnteCreditore | 2       | an         | 1..1    | 255     | Recapiti dell'Ente Creditore            |
@@ -1546,7 +1545,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         | servizio da parte                       |
 |                            |         |            |         |         | dell’Ente Creditore                     |
 |                            |         |            |         |         | nel formato ISO 8601:                   |
-|                            |         |            |         |         |  [YYYY]-[MM]-[DD]                       |
+|                            |         |            |         |         | [YYYY]-[MM]-[DD]                        |
 +----------------------------+---------+------------+---------+---------+-----------------------------------------+
 | erogazioneServizio         | 2       | s          | 0..1    |         | Indica che l’Ente Creditore             |
 |                            |         |            |         |         | consente di attivare le                 |
@@ -1587,7 +1586,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         | - **giornaliera:**                      |
 |                            |         |            |         |         | il campo viene omesso                   |
 |                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - ** settimanale:**                     |
+|                            |         |            |         |         | - **settimanale:**                      |
 |                            |         |            |         |         | "lunedi”, oppure “martedi”, ...         |
 |                            |         |            |         |         |                                         |
 |                            |         |            |         |         | - **mensile:**                          |
@@ -1620,8 +1619,8 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         | del servizio dell’Ente Creditore.       |
 |                            |         |            |         |         | La strutturacontiene le stesse          |
 |                            |         |            |         |         | informazioni                            |
-|                            |         |            |         |         | della struttura “disponibilita          |
-|                            |         |            |         |         | ” con il significato attribuito         |
+|                            |         |            |         |         | della struttura “disponibilita”         |
+|                            |         |            |         |         | con il significato attribuito           |
 |                            |         |            |         |         | all’indisponibilità                     |
 |                            |         |            |         |         | del servizio.                           |
 +----------------------------+---------+------------+---------+---------+-----------------------------------------+
