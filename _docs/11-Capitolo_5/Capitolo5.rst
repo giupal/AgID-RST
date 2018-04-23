@@ -1161,7 +1161,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 +--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
 |      **Dato**      | **Liv** | **Genere** | **Occ** | **Len** | **UNIFI**        | **Contenuto**                           |
 +--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
-| versioneOggetto    | 1       | an         | o       | 1..16   | VersionNumber    | Riporta                                 |
+| versioneOggetto    | 1       | an         | 1..1    | 1..16   | VersionNumber    | Riporta                                 |
 |                    |         |            |         |         |                  | la stessa informazione presente         |
 |                    |         |            |         |         |                  | nel dato “versioneOggetto               |
 |                    |         |            |         |         |                  | ” della Ricevuta Telematica             |
