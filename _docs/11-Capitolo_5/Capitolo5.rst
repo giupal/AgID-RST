@@ -1472,188 +1472,185 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 
 **Tabella** **5 - Elementi componenti la “Tabella delle controparti”**
 
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-|          **Dato**          | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                           |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| informativaControparte     | 0       | s          | 1..n    |         | Struttura che raggruppa                 |
-|                            |         |            |         |         | le informazioni inviate                 |
-|                            |         |            |         |         | dall’Ente Creditore al                  |
-|                            |         |            |         |         | Nodo dei Pagamenti-SPC                  |
-|                            |         |            |         |         | e rese disponibili ai PSP.              |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| identificativoDominio      | 2       | an         | 1..1    | 35      | identificativo Dominio                  |
-|                            |         |            |         |         | dell’Ente Creditore                     |
-|                            |         |            |         |         | (codice utilizzato nella RPT).          |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| ragioneSociale             | 2       | an         | 1..1    | 70      | Ragione sociale                         |
-|                            |         |            |         |         | dell’Ente Creditore.                    |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| dataInizioValidita         | 2       | an         | 1..1    | 10      | Data in cui inizia la validità          |
-|                            |         |            |         |         | delle informazioni relative             |
-|                            |         |            |         |         | all’Ente Creditore nel                  |
-|                            |         |            |         |         | formato ISO 8601: [YYYY]-[MM]-[DD]      |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| pagamentiPressoPSP         | 2       | n          | 1..1    | 1       | Indica se l’Ente Creditore              |
-|                            |         |            |         |         | consente i pagamenti                    |
-|                            |         |            |         |         | pressoi PSP                             |
-|                            |         |            |         |         | (vedi § 2.2)                            |
-|                            |         |            |         |         | può assumere i                          |
-|                            |         |            |         |         | seguenti valori:                        |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **0** NON consente i                  |
-|                            |         |            |         |         | pagamenti c/o i PSP                     |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **1** CONSENTE i                      |
-|                            |         |            |         |         | agamenti c/o i PSP                      |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| contactCenterEnteCreditore | 2       | an         | 1..1    | 255     | Recapiti dell'Ente Creditore            |
-|                            |         |            |         |         | (Numero telefonico e/o                  |
-|                            |         |            |         |         | indirizzo e-mail)                       |
-|                            |         |            |         |         | presso il quale l'utilizzatore          |
-|                            |         |            |         |         | finale e il PSP                         |
-|                            |         |            |         |         | possono rivolgersi per                  |
-|                            |         |            |         |         | ottenere informazioni.                  |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| modelloTreSpontaneo        | 2       | s          | 0..1    |         | Struttura che, se presente,             |
-|                            |         |            |         |         | indica che l’Ente                       |
-|                            |         |            |         |         | Creditore consente ai                   |
-|                            |         |            |         |         | propri utenti di                        |
-|                            |         |            |         |         | effettuare pagamenti                    |
-|                            |         |            |         |         | spontanei presso i PSP                  |
-|                            |         |            |         |         | (vedi § 2.2.3)                          |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| serviziModelloTreSpontaneo | 3       | s          | 0..n    |         | Struttura contenente                    |
-|                            |         |            |         |         | l'elenco dei servizi che                |
-|                            |         |            |         |         | possono essere                          |
-|                            |         |            |         |         | pagati in modalità                      |
-|                            |         |            |         |         | spontanea                               |
-|                            |         |            |         |         | presso i PSP.                           |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| idServizio                 | 4       | an         | 1..1    | 5       | Codice                                  |
-|                            |         |            |         |         | numerico che identifica                 |
-|                            |         |            |         |         | il servizio che può essere              |
-|                            |         |            |         |         | pagato in modalità spontanea            |
-|                            |         |            |         |         | presso i PSP.                           |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| dataInizioAttivazione      | 4       | an         | 1..1    | 10      | Aggregazione                            |
-|                            |         |            |         |         | “dati del versamento”                   |
-|                            |         |            |         |         | costituita dai                          |
-|                            |         |            |         |         | seguenti elementi:                      |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| avvisaturaPull             | 2       | n          | 0..1    | 1       | Data da cui è attiva                    |
-|                            |         |            |         |         | l'erogazione dello specifico            |
-|                            |         |            |         |         | servizio da parte                       |
-|                            |         |            |         |         | dell’Ente Creditore                     |
-|                            |         |            |         |         | nel formato ISO 8601:                   |
-|                            |         |            |         |         | [YYYY]-[MM]-[DD]                        |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| erogazioneServizio         | 2       | s          | 0..1    |         | Indica che l’Ente Creditore             |
-|                            |         |            |         |         | consente di attivare le                 |
-|                            |         |            |         |         | funzionalità di avvisatura              |
-|                            |         |            |         |         | digitale pull                           |
-|                            |         |            |         |         | (vedi § 2.10)                           |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **0** NON consente avvisatura pull    |
-|                            |         |            |         |         | - **1** CONSENTE avvisatura pull        |
-|                            |         |            |         |         |                                         |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| disponibilita              | 3       | s          | 1..n    |         | Aggregazione relativa alle fasce        |
-|                            |         |            |         |         | orarie di erogazione del servizio da    |
-|                            |         |            |         |         | parte dell’Ente Creditore.              |
-|                            |         |            |         |         | L’informazione                          |
-|                            |         |            |         |         | è obbligatoria nel caso in cui il dato  |
-|                            |         |            |         |         | pagamentiPressoPSP                      |
-|                            |         |            |         |         |  assuma il valore 1.                    |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| tipoPeriodo                | 4       | an         | 0..1    | 7..11   | La periodicità con il quale il          |
-|                            |         |            |         |         | servizio è reso disponibile; può        |
-|                            |         |            |         |         | assumere i seguenti valori:             |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **giornaliera**                       |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **settimanale**                       |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **mensile**                           |
-|                            |         |            |         |         | - **annuale**                           |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| giorno                     | 4       | an         | 0..1    | 35      | Descrizione in formato testo delle      |
-|                            |         |            |         |         | iornate di disponibilità. Assume        |
-|                            |         |            |         |         | valori differenti in relazione al       |
-|                            |         |            |         |         | tipoPeriodo                             |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **giornaliera:**                      |
-|                            |         |            |         |         | il campo viene omesso                   |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **settimanale:**                      |
-|                            |         |            |         |         | "lunedi”, oppure “martedi”, ...         |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **mensile:**                          |
-|                            |         |            |         |         | giorno singolo di calendario es. “25”   |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | - **annuale:**                          |
-|                            |         |            |         |         | giorno singolo nella forma              |
-|                            |         |            |         |         | “gg-mm” es. “01-05”                     |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| fasciaOraria               | 4       | s          | 0..n    |         | Aggregazione                            |
-|                            |         |            |         |         | relativa alla fascia oraria di          |
-|                            |         |            |         |         | disponibilità del                       |
-|                            |         |            |         |         | servizio dall’Ente Creditore.           |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| fasciaOrariaDa             | 5       | an         | 0..1    | 8       | Orario di inizio disponibilità          |
-|                            |         |            |         |         | nell’ambito del                         |
-|                            |         |            |         |         | giorno nel formato                      |
-|                            |         |            |         |         | [hh]:[mm]:[ss].                         |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| fasciaOrariaA              | 5       | an         | 0..1    | 8       | Orario di fine disponibilità            |
-|                            |         |            |         |         | nell’ambito del giorno nel              |
-|                            |         |            |         |         | formato                                 |
-|                            |         |            |         |         | [hh]:[mm]:[ss].                         |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| indisponibilita            | 3       | s          | 0..n    |         | Aggregazione relativa al                |
-|                            |         |            |         |         | giorno della settimana,                 |
-|                            |         |            |         |         | del mese o dell’anno,                   |
-|                            |         |            |         |         | contenente le fasce                     |
-|                            |         |            |         |         | orarie di indisponibilità               |
-|                            |         |            |         |         | del servizio dell’Ente Creditore.       |
-|                            |         |            |         |         | La strutturacontiene le stesse          |
-|                            |         |            |         |         | informazioni                            |
-|                            |         |            |         |         | della struttura “disponibilita”         |
-|                            |         |            |         |         | con il significato attribuito           |
-|                            |         |            |         |         | all’indisponibilità                     |
-|                            |         |            |         |         | del servizio.                           |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| informativaContoAccredito  | 2       | s          | 0..n    |         | Elenco dei conti di accredito           |
-|                            |         |            |         |         | attivi per quell'Ente Creditore.        |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| dataAttivazioneIban        | 3       | an         | 1..1    | 10      | Indica la                               |
-|                            |         |            |         |         | data di attivazione dello specifico     |
-|                            |         |            |         |         | IBAN di accredito.                      |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| ibanAccredito              | 3       | an         | 1..1    | 35      | Identifica l’International              |
-|                            |         |            |         |         | Bank Account Number,                    |
-|                            |         |            |         |         | definito secondo lo standard            |
-|                            |         |            |         |         | ISO 13616.                              |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| sellerBank                 | 3       | an         | 1..1    | 50      | Identificativo                          |
-|                            |         |            |         |         | MyBank della Seller Bank                |
-|                            |         |            |         |         | prescelta dall'Ente Creditore           |
-|                            |         |            |         |         | (vedi Elenco dei PSP aderenti           |
-|                            |         |            |         |         | pubblicato sul sito AgID).              |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
-| idNegozio                  | 3       | an         | 0..1    | 15      | Identificativo da utilizzare nel        |
-|                            |         |            |         |         | colloquio tra                           |
-|                            |         |            |         |         | Wrapper MyBank ed Initiating            |
-|                            |         |            |         |         | Party della Seller Bank.                |
-|                            |         |            |         |         |                                         |
-|                            |         |            |         |         | Il dato può essere valorizzato o        |
-|                            |         |            |         |         | meno, a seconda del                     |
-|                            |         |            |         |         | tipo di modalità di                     |
-|                            |         |            |         |         | attribuzione di detto codice            |
-|                            |         |            |         |         | (Standard o concordata tra              |
-|                            |         |            |         |         | AgID e Seller Bank).                    |
-+----------------------------+---------+------------+---------+---------+-----------------------------------------+
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+|          **Dato**          | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                               |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| informativaControparte     | 0       | s          | 1..n    |         | Struttura che raggruppa                     |
+|                            |         |            |         |         | le informazioni inviate                     |
+|                            |         |            |         |         | dall’Ente Creditore al                      |
+|                            |         |            |         |         | Nodo dei Pagamenti-SPC                      |
+|                            |         |            |         |         | e rese disponibili ai PSP.                  |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| identificativoDominio      | 2       | an         | 1..1    | 35      | identificativo Dominio                      |
+|                            |         |            |         |         | dell’Ente Creditore                         |
+|                            |         |            |         |         | (codice utilizzato nella RPT).              |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| ragioneSociale             | 2       | an         | 1..1    | 70      | Ragione sociale                             |
+|                            |         |            |         |         | dell’Ente Creditore.                        |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| dataInizioValidita         | 2       | an         | 1..1    | 10      | Data in cui inizia la validità              |
+|                            |         |            |         |         | delle informazioni relative                 |
+|                            |         |            |         |         | all’Ente Creditore nel                      |
+|                            |         |            |         |         | formato ISO 8601: [YYYY]-[MM]-[DD]          |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| pagamentiPressoPSP         | 2       | n          | 1..1    | 1       | Indica se l’Ente Creditore                  |
+|                            |         |            |         |         | consente i pagamenti                        |
+|                            |         |            |         |         | pressoi PSP                                 |
+|                            |         |            |         |         | (vedi § 2.2)                                |
+|                            |         |            |         |         | può assumere i seguenti valori:             |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | - **0** NON consente i                      |
+|                            |         |            |         |         | pagamenti c/o i PSP                         |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | - **1** CONSENTE i                          |
+|                            |         |            |         |         | agamenti c/o i PSP                          |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| contactCenterEnteCreditore | 2       | an         | 1..1    | 255     | Recapiti dell'Ente Creditore                |
+|                            |         |            |         |         | (Numero telefonico e/o                      |
+|                            |         |            |         |         | indirizzo e-mail)                           |
+|                            |         |            |         |         | presso il quale l'utilizzatore              |
+|                            |         |            |         |         | finale e il PSP                             |
+|                            |         |            |         |         | possono rivolgersi per                      |
+|                            |         |            |         |         | ottenere informazioni.                      |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| modelloTreSpontaneo        | 2       | s          | 0..1    |         | Struttura che, se presente,                 |
+|                            |         |            |         |         | indica che l’Ente                           |
+|                            |         |            |         |         | Creditore consente ai                       |
+|                            |         |            |         |         | propri utenti di                            |
+|                            |         |            |         |         | effettuare pagamenti                        |
+|                            |         |            |         |         | spontanei presso i PSP                      |
+|                            |         |            |         |         | (vedi § 2.2.3)                              |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| serviziModelloTreSpontaneo | 3       | s          | 0..n    |         | Struttura contenente                        |
+|                            |         |            |         |         | l'elenco dei servizi che                    |
+|                            |         |            |         |         | possono essere                              |
+|                            |         |            |         |         | pagati in modalità                          |
+|                            |         |            |         |         | spontanea                                   |
+|                            |         |            |         |         | presso i PSP.                               |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| idServizio                 | 4       | an         | 1..1    | 5       | Codice                                      |
+|                            |         |            |         |         | numerico che identifica                     |
+|                            |         |            |         |         | il servizio che può essere                  |
+|                            |         |            |         |         | pagato in modalità spontanea                |
+|                            |         |            |         |         | presso i PSP.                               |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| dataInizioAttivazione      | 4       | an         | 1..1    | 10      | Data da                                     |
+|                            |         |            |         |         | cui è attiva l'erogazione dello specifico   |
+|                            |         |            |         |         | servizio da parte dell’Ente Creditore       |
+|                            |         |            |         |         | nel formato ISO 8601:                       |
+|                            |         |            |         |         | [YYYY]-[MM]-[DD]                            |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| avvisaturaPull             | 2       | n          | 0..1    | 1       | Indica                                      |
+|                            |         |            |         |         | che l’Ente Creditore consente di attivare   |
+|                            |         |            |         |         | le funzionalità di avvisatura               |
+|                            |         |            |         |         | digitale pull (vedi § 2.10)                 |
+|                            |         |            |         |         | può assumere i seguenti valori:             |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | - **0 NON consente avvisatura pull**        |
+|                            |         |            |         |         | - **1 CONSENTE avvisatura pull**            |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| erogazioneServizio         | 2       | s          | 0..1    |         | Aggregazione relativa alle fasce orarie di  |
+|                            |         |            |         |         | erogazione del servizio da parte dell’Ente  |
+|                            |         |            |         |         | Creditore.                                  |
+|                            |         |            |         |         | **L’informazione**                          |
+|                            |         |            |         |         | **è obbligatoria nel caso in cui il dato**  |
+|                            |         |            |         |         | **pagamentiPressoPSP**                      |
+|                            |         |            |         |         | ** assuma il valore 1.**                    |
+|                            |         |            |         |         |                                             |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| disponibilita              | 3       | s          | 1..n    |         | Aggregazione                                |
+|                            |         |            |         |         | relativa al giorno della settimana,         |
+|                            |         |            |         |         | del mese o dell’anno contenente             |
+|                            |         |            |         |         | le fasceorarie di disponibilità del         |
+|                            |         |            |         |         | servizio dell’Ente                          |
+|                            |         |            |         |         | Creditore.                                  |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| tipoPeriodo                | 4       | an         | 0..1    | 7..11   | La periodicità con il quale il              |
+|                            |         |            |         |         | servizio è reso disponibile; può            |
+|                            |         |            |         |         | assumere i seguenti valori:                 |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | - **giornaliera**                           |
+|                            |         |            |         |         | - **settimanale**                           |
+|                            |         |            |         |         | - **mensile**                               |
+|                            |         |            |         |         | - **annuale**                               |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| giorno                     | 4       | an         | 0..1    | 35      | Descrizione in formato testo delle          |
+|                            |         |            |         |         | iornate di disponibilità. Assume            |
+|                            |         |            |         |         | valori differenti in relazione al           |
+|                            |         |            |         |         | tipoPeriodo                                 |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | - **giornaliera:**                          |
+|                            |         |            |         |         | il campo viene omesso                       |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | - **settimanale:**                          |
+|                            |         |            |         |         | "lunedi”, oppure “martedi”, ...             |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | - **mensile:**                              |
+|                            |         |            |         |         | giorno singolo di calendario es. “25”       |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | - **annuale:**                              |
+|                            |         |            |         |         | giorno singolo nella forma                  |
+|                            |         |            |         |         | “gg-mm” es. “01-05”                         |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| fasciaOraria               | 4       | s          | 0..n    |         | Aggregazione                                |
+|                            |         |            |         |         | relativa alla fascia oraria di              |
+|                            |         |            |         |         | disponibilità del                           |
+|                            |         |            |         |         | servizio dall’Ente Creditore.               |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| fasciaOrariaDa             | 5       | an         | 0..1    | 8       | Orario di inizio disponibilità              |
+|                            |         |            |         |         | nell’ambito del                             |
+|                            |         |            |         |         | giorno nel formato                          |
+|                            |         |            |         |         | [hh]:[mm]:[ss].                             |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| fasciaOrariaA              | 5       | an         | 0..1    | 8       | Orario di fine disponibilità                |
+|                            |         |            |         |         | nell’ambito del giorno nel                  |
+|                            |         |            |         |         | formato                                     |
+|                            |         |            |         |         | [hh]:[mm]:[ss].                             |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| indisponibilita            | 3       | s          | 0..n    |         | Aggregazione relativa al                    |
+|                            |         |            |         |         | giorno della settimana,                     |
+|                            |         |            |         |         | del mese o dell’anno,                       |
+|                            |         |            |         |         | contenente le fasce                         |
+|                            |         |            |         |         | orarie di indisponibilità                   |
+|                            |         |            |         |         | del servizio dell’Ente Creditore.           |
+|                            |         |            |         |         | La strutturacontiene le stesse              |
+|                            |         |            |         |         | informazioni                                |
+|                            |         |            |         |         | della struttura “disponibilita”             |
+|                            |         |            |         |         | con il significato attribuito               |
+|                            |         |            |         |         | all’indisponibilità                         |
+|                            |         |            |         |         | del servizio.                               |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| informativaContoAccredito  | 2       | s          | 0..n    |         | Elenco dei conti di accredito               |
+|                            |         |            |         |         | attivi per quell'Ente Creditore.            |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| dataAttivazioneIban        | 3       | an         | 1..1    | 10      | Indica la                                   |
+|                            |         |            |         |         | data di attivazione dello specifico         |
+|                            |         |            |         |         | IBAN di accredito.                          |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| ibanAccredito              | 3       | an         | 1..1    | 35      | Identifica l’International                  |
+|                            |         |            |         |         | Bank Account Number,                        |
+|                            |         |            |         |         | definito secondo lo standard                |
+|                            |         |            |         |         | ISO 13616.                                  |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| sellerBank                 | 3       | an         | 1..1    | 50      | Identificativo                              |
+|                            |         |            |         |         | MyBank della Seller Bank                    |
+|                            |         |            |         |         | prescelta dall'Ente Creditore               |
+|                            |         |            |         |         | (vedi Elenco dei PSP aderenti               |
+|                            |         |            |         |         | pubblicato sul sito AgID).                  |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
+| idNegozio                  | 3       | an         | 0..1    | 15      | Identificativo da utilizzare nel            |
+|                            |         |            |         |         | colloquio tra                               |
+|                            |         |            |         |         | Wrapper MyBank ed Initiating                |
+|                            |         |            |         |         | Party della Seller Bank.                    |
+|                            |         |            |         |         |                                             |
+|                            |         |            |         |         | Il dato può essere valorizzato o            |
+|                            |         |            |         |         | meno, a seconda del                         |
+|                            |         |            |         |         | tipo di modalità di                         |
+|                            |         |            |         |         | attribuzione di detto codice                |
+|                            |         |            |         |         | (Standard o concordata tra                  |
+|                            |         |            |         |         | AgID e Seller Bank).                        |
++----------------------------+---------+------------+---------+---------+---------------------------------------------+
 
 Le informazioni sono codificate in un file XML secondo il tracciato di
 Tabella 6 e devono essere richieste dai singoli prestatori di servizi di
