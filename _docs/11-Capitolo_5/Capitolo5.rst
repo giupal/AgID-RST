@@ -1158,543 +1158,146 @@ di pagamento per richiedere lo “storno” di un pagamento.
 
 **Tabella** **3 - Elementi componenti la RR**
 
-+---------+---------+---------+---------+---------+---------+---------+
-| **Dato**| **Liv** |**Gener**| **Occ** | **Len** |**UNIFI**|**Conte**|
-|         |         |**e**    |         |         |         | **nuto**|
-+=========+=========+=========+=========+=========+=========+=========+
-| ver     | 1       | an      | o       | 1..16   | Version | Riporta |
-| sioneOg |         |         |         |         | Number  | la      |
-| getto   |         |         |         |         |         | stessa  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |         | zione   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | dato    |
-|         |         |         |         |         |         | “versio |
-|         |         |         |         |         |         | neOgget |
-|         |         |         |         |         |         | to”     |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | **RT**  |
-+---------+---------+---------+---------+---------+---------+---------+
-| Dom     | 1       | s       | 1..1    |         | Initiat | Riporta |
-| inio    |         |         |         |         | ing     | le      |
-|         |         |         |         |         | Party   | stesse  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |         | zioni   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | blocco  |
-|         |         |         |         |         |         | “Domini |
-|         |         |         |         |         |         | o”      |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | **RT**  |
-+---------+---------+---------+---------+---------+---------+---------+
-| ide     | 1       | an      | 1..1    | 1..35   | Message | Identif |
-| ntifica |         |         |         |         | Identif | icativo |
-| tivoMes |         |         |         |         | ication | legato  |
-| saggioR |         |         |         |         |         | alla    |
-| evoca   |         |         |         |         |         | trasmis |
-|         |         |         |         |         |         | sione   |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Revoca. |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | univoco |
-|         |         |         |         |         |         | nell’am |
-|         |         |         |         |         |         | bito    |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | stessa  |
-|         |         |         |         |         |         | data    |
-|         |         |         |         |         |         | riferit |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | all’ele |
-|         |         |         |         |         |         | mento   |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | dataMes |
-|         |         |         |         |         |         | saggioR |
-|         |         |         |         |         |         | evoca.  |
-|         |         |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 1       | an      | 1..1    | 19      | Creatio | Indica  |
-| aOraMes |         |         |         |         | n       | la data |
-| saggioR |         |         |         |         | Date    | e ora   |
-| evoca   |         |         |         |         | Time    | del     |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Revoca, |
-|         |         |         |         |         |         | secondo |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | formato |
-|         |         |         |         |         |         | ISO     |
-|         |         |         |         |         |         | 8601    |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | [YYYY   |
-|         |         |         |         |         |         | ]-[MM]- |
-|         |         |         |         |         |         | [DD]T[h |
-|         |         |         |         |         |         | h]:[mm] |
-|         |         |         |         |         |         | :[ss]   |
-+---------+---------+---------+---------+---------+---------+---------+
-| ist     | 1       | s       | 1..1    |         | Debtor  | Aggrega |
-| itutoAt |         |         |         |         | Agent   | zione   |
-| testant |         |         |         |         |         | relativ |
-| e       |         |         |         |         |         | a       |
-|         |         |         |         |         |         | al PSP  |
-|         |         |         |         |         |         | che ha  |
-|         |         |         |         |         |         | emesso  |
-|         |         |         |         |         |         | la RT   |
-|         |         |         |         |         |         | oggetto |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | revoca. |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Riporta |
-|         |         |         |         |         |         | le      |
-|         |         |         |         |         |         | stesse  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |         | zioni   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | blocco  |
-|         |         |         |         |         |         | “sogget |
-|         |         |         |         |         |         | toAttes |
-|         |         |         |         |         |         | tante”  |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | **RT**  |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Revoca. |
-+---------+---------+---------+---------+---------+---------+---------+
-| sog     | 1       | s       | 0..1    |         | Debtor  | Riporta |
-| gettoVe |         |         |         |         |         | le      |
-| rsante  |         |         |         |         |         | stesse  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |         | zioni   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | blocco  |
-|         |         |         |         |         |         | “sogget |
-|         |         |         |         |         |         | toVersa |
-|         |         |         |         |         |         | nte”    |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | **RT**  |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Revoca. |
-|         |         |         |         |         |         | .       |
-+---------+---------+---------+---------+---------+---------+---------+
-| sog     | 1       | s       | 1..1    |         | Ultimat | Riporta |
-| gettoPa |         |         |         |         | e       | le      |
-| gatore  |         |         |         |         | Debtor  | stesse  |
-|         |         |         |         |         |         | informa |
-|         |         |         |         |         |  |      | zioni   |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         | Debtor  | i       |
-|         |         |         |         |         | [4]_    | nel     |
-|         |         |         |         |         |         | blocco  |
-|         |         |         |         |         |         | “sogget |
-|         |         |         |         |         |         | toPagat |
-|         |         |         |         |         |         | ore”    |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | **RT**  |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Revoca. |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 1       | s       | 1..1    |         |         | Aggrega |
-| iRevoca |         |         |         |         |         | zione   |
-|         |         |         |         |         |         | “dati   |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | revoca” |
-|         |         |         |         |         |         | costitu |
-|         |         |         |         |         |         | ita     |
-|         |         |         |         |         |         | dai     |
-|         |         |         |         |         |         | seguent |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | element |
-|         |         |         |         |         |         | i:      |
-+---------+---------+---------+---------+---------+---------+---------+
-| imp     | 2       | an      | 1..1    | 3..12   | Amount  | Campo   |
-| ortoTot |         |         |         |         |         | numeric |
-| aleRevo |         |         |         |         |         | o       |
-| cato    |         |         |         |         |         | (due    |
-|         |         |         |         |         |         | cifre   |
-|         |         |         |         |         |         | per la  |
-|         |         |         |         |         |         | parte   |
-|         |         |         |         |         |         | decimal |
-|         |         |         |         |         |         | e,      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | separat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | centesi |
-|         |         |         |         |         |         | mi      |
-|         |         |         |         |         |         | è il    |
-|         |         |         |         |         |         | punto   |
-|         |         |         |         |         |         | “.”),   |
-|         |         |         |         |         |         | indican |
-|         |         |         |         |         |         | te      |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | relativ |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | al      |
-|         |         |         |         |         |         | totale  |
-|         |         |         |         |         |         | delle   |
-|         |         |         |         |         |         | somme   |
-|         |         |         |         |         |         | versate |
-|         |         |         |         |         |         | .       |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | uguale  |
-|         |         |         |         |         |         | alla    |
-|         |         |         |         |         |         | somma   |
-|         |         |         |         |         |         | delle   |
-|         |         |         |         |         |         | varie   |
-|         |         |         |         |         |         | occorre |
-|         |         |         |         |         |         | nze     |
-|         |         |         |         |         |         | (da 1 a |
-|         |         |         |         |         |         | 5)      |
-|         |         |         |         |         |         | dell’in |
-|         |         |         |         |         |         | formazi |
-|         |         |         |         |         |         | one     |
-|         |         |         |         |         |         | singolo |
-|         |         |         |         |         |         | Importo |
-|         |         |         |         |         |         | Revocat |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | struttu |
-|         |         |         |         |         |         | ra      |
-|         |         |         |         |         |         | DatiSin |
-|         |         |         |         |         |         | golaRev |
-|         |         |         |         |         |         | oca.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| ide     | 2       | an      | 1..1    | 1..35   | Credito | Il dato |
-| ntifica |         |         |         |         | r       | deve    |
-| tivoUni |         |         |         |         | Referen | essere  |
-| vocoVer |         |         |         |         | ce      | riporta |
-| samento |         |         |         |         |         | to      |
-|         |         |         |         |         |         | invaria |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | così    |
-|         |         |         |         |         |         | come    |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT** |
-|         |         |         |         |         |         | )       |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Revoca. |
-+---------+---------+---------+---------+---------+---------+---------+
-| cod     | 2       | an      | 1..1    | 1..35   | Message | Il dato |
-| iceCont |         |         |         |         | Identif | deve    |
-| estoPag |         |         |         |         | ication | essere  |
-| amento  |         |         |         |         |         | riporta |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | invaria |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | così    |
-|         |         |         |         |         |         | come    |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | nella   |
-|         |         |         |         |         |         | Ricevut |
-|         |         |         |         |         |         | a       |
-|         |         |         |         |         |         | Telemat |
-|         |         |         |         |         |         | ica     |
-|         |         |         |         |         |         | (**RT** |
-|         |         |         |         |         |         | )       |
-|         |         |         |         |         |         | cui si  |
-|         |         |         |         |         |         | riferis |
-|         |         |         |         |         |         | ce      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | messagg |
-|         |         |         |         |         |         | io      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Revoca. |
-|         |         |         |         |         |         | .       |
-+---------+---------+---------+---------+---------+---------+---------+
-| tip     | 2       | n       | 0..1    | 1..1    | Proprie | Contien |
-| oRevoca |         |         |         |         | tary    | e       |
-|         |         |         |         |         | Code    | il tipo |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | che     |
-|         |         |         |         |         |         | viene   |
-|         |         |         |         |         |         | utilizz |
-|         |         |         |         |         |         | ata     |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | process |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | revoca  |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | RT      |
-|         |         |         |         |         |         | (vedi § |
-|         |         |         |         |         |         | 2.3).   |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Il dato |
-|         |         |         |         |         |         | è       |
-|         |         |         |         |         |         | Obblig  |
-|         |         |         |         |         |         | atorio  |
-|         |         |         |         |         |         | in caso |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | utilizz |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | Revoca  |
-|         |         |         |         |         |         | da      |
-|         |         |         |         |         |         | parte   |
-|         |         |         |         |         |         | del PSP |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | process |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Revoca  |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | RT e    |
-|         |         |         |         |         |         | può     |
-|         |         |         |         |         |         | assumer |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | seguent |
-|         |         |         |         |         |         | i       |
-|         |         |         |         |         |         | valori: |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | 1. tipo |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | non     |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | codific |
-|         |         |         |         |         |         | ato     |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | 2. annu |
-|         |         |         |         |         |         | llo     |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | tecnico |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | 3. proc |
-|         |         |         |         |         |         | edura   |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | *charge |
-|         |         |         |         |         |         | back*   |
-|         |         |         |         |         |         |         |
-|         |         |         |         |         |         | Il dato |
-|         |         |         |         |         |         | non     |
-|         |         |         |         |         |         | deve    |
-|         |         |         |         |         |         | essere  |
-|         |         |         |         |         |         | present |
-|         |         |         |         |         |         | e       |
-|         |         |         |         |         |         | in caso |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | utilizz |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | Richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | Revoca  |
-|         |         |         |         |         |         | da      |
-|         |         |         |         |         |         | parte   |
-|         |         |         |         |         |         | dell'En |
-|         |         |         |         |         |         | te      |
-|         |         |         |         |         |         | Credito |
-|         |         |         |         |         |         | re      |
-|         |         |         |         |         |         | nel     |
-|         |         |         |         |         |         | process |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Storno  |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | (vedi § |
-|         |         |         |         |         |         | 2.1.4). |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 2       | s       | 1..1    |         |         | Aggrega |
-| iSingol |         |         |         |         |         | zione   |
-| aRevoca |         |         |         |         |         | “dati   |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | singoli |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | ti      |
-|         |         |         |         |         |         | revocat |
-|         |         |         |         |         |         | i”,     |
-|         |         |         |         |         |         | da un   |
-|         |         |         |         |         |         | minimo  |
-|         |         |         |         |         |         | di uno  |
-|         |         |         |         |         |         | ad un   |
-|         |         |         |         |         |         | massimo |
-|         |         |         |         |         |         | di 5    |
-|         |         |         |         |         |         | occorre |
-|         |         |         |         |         |         | nze     |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | revoca, |
-|         |         |         |         |         |         | facenti |
-|         |         |         |         |         |         | capo ad |
-|         |         |         |         |         |         | un      |
-|         |         |         |         |         |         | unico   |
-|         |         |         |         |         |         | identif |
-|         |         |         |         |         |         | icativo |
-|         |         |         |         |         |         | Univoco |
-|         |         |         |         |         |         | Versame |
-|         |         |         |         |         |         | nto.    |
-+---------+---------+---------+---------+---------+---------+---------+
-| sin     | 3       | an      | 1..1    | 3..12   | Amount  | Campo   |
-| goloImp |         |         |         |         |         | numeric |
-| ortoRev |         |         |         |         |         | o       |
-| ocato   |         |         |         |         |         | (due    |
-|         |         |         |         |         |         | cifre   |
-|         |         |         |         |         |         | per la  |
-|         |         |         |         |         |         | parte   |
-|         |         |         |         |         |         | decimal |
-|         |         |         |         |         |         | e,      |
-|         |         |         |         |         |         | il      |
-|         |         |         |         |         |         | separat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | centesi |
-|         |         |         |         |         |         | mi      |
-|         |         |         |         |         |         | è il    |
-|         |         |         |         |         |         | punto   |
-|         |         |         |         |         |         | “.”),   |
-|         |         |         |         |         |         | indican |
-|         |         |         |         |         |         | te      |
-|         |         |         |         |         |         | l’impor |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | relativ |
-|         |         |         |         |         |         | o       |
-|         |         |         |         |         |         | alla    |
-|         |         |         |         |         |         | somma   |
-|         |         |         |         |         |         | revocat |
-|         |         |         |         |         |         | a.      |
-+---------+---------+---------+---------+---------+---------+---------+
-| ide     | 3       | an      | 1..1    | 1..35   | Transac | Riferim |
-| ntifica |         |         |         |         | tion    | ento    |
-| tivoUni |         |         |         |         | Referen | univoco |
-| vocoRis |         |         |         |         | ce      | dell’op |
-| cossion |         |         |         |         | Number  | erazion |
-| e       |         |         |         |         |         | e       |
-|         |         |         |         |         |         | assegna |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | al      |
-|         |         |         |         |         |         | pagamen |
-|         |         |         |         |         |         | to      |
-|         |         |         |         |         |         | dal     |
-|         |         |         |         |         |         | Prestat |
-|         |         |         |         |         |         | ore     |
-|         |         |         |         |         |         | dei     |
-|         |         |         |         |         |         | servizi |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | Pagamen |
-|         |         |         |         |         |         | to.     |
-+---------+---------+---------+---------+---------+---------+---------+
-| cau     | 3       | an      | 1..1    | 1..140  | Unstruc | Rappres |
-| saleRev |         |         |         |         | tured   | enta    |
-| oca     |         |         |         |         |         | la      |
-|         |         |         |         |         | Remitta | descriz |
-|         |         |         |         |         | nce     | ione    |
-|         |         |         |         |         | Informa | del     |
-|         |         |         |         |         | tion    | motivo  |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | revoca. |
-+---------+---------+---------+---------+---------+---------+---------+
-| dat     | 3       | an      | 1..1    | 1..140  | Additio | Informa |
-| iAggiun |         |         |         |         | nal     | zioni   |
-| tiviRev |         |         |         |         | Remitta | aggiunt |
-| oca     |         |         |         |         | nce     | ive     |
-|         |         |         |         |         | Informa | circa   |
-|         |         |         |         |         | tion    | la      |
-|         |         |         |         |         |         | descriz |
-|         |         |         |         |         |         | ione    |
-|         |         |         |         |         |         | del     |
-|         |         |         |         |         |         | motivo  |
-|         |         |         |         |         |         | della   |
-|         |         |         |         |         |         | richies |
-|         |         |         |         |         |         | ta      |
-|         |         |         |         |         |         | di      |
-|         |         |         |         |         |         | revoca. |
-+---------+---------+---------+---------+---------+---------+---------+
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+|      **Dato**      | **Liv** | **Genere** | **Occ** | **Len** | **UNIFI**        | **Contenuto**                           |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| versioneOggetto    | 1       | an         | o       | 1..16   | VersionNumber    | Riporta                                 |
+|                    |         |            |         |         |                  | la stessa informazione presente         |
+|                    |         |            |         |         |                  | nel dato “versioneOggetto               |
+|                    |         |            |         |         |                  | ” della Ricevuta Telematica             |
+|                    |         |            |         |         |                  | **(RT).**                               |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| Dominio            | 1       | s          | 1..1    |         | Initiating       | Riporta le stesse informazioni          |
+|                    |         |            |         |         | Party            | presenti nel blocco                     |
+|                    |         |            |         |         |                  | “Dominio” della Ricevuta                |
+|                    |         |            |         |         |                  | di Pagamento Telematico                 |
+|                    |         |            |         |         |                  | **(RT)**                                |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| identificativo     | 1       | an         | 1..1    | 1..35   | Message          | Identificativo legato alla              |
+| Messaggio          |         |            |         |         | Identification   | trasmissione della                      |
+| Revoca             |         |            |         |         |                  | Richiesta di Revoca.                    |
+|                    |         |            |         |         |                  | Deve essere univoco                     |
+|                    |         |            |         |         |                  | nell’ambito della stessa                |
+|                    |         |            |         |         |                  | data riferita all’elemento              |
+|                    |         |            |         |         |                  | *dataMessaggioRevoca*                   |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| dataOraMessaggio   | 1       | an         | 1..1    | 19      | Creation         | Indica la data e l’ora                  |
+| Revoca             |         |            |         |         | Date             | del messaggio di Revoca,                |
+|                    |         |            |         |         | Time             | secondo il formato                      |
+|                    |         |            |         |         |                  | ISO 8601                                |
+|                    |         |            |         |         |                  | [YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]         |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| istitutoAttestante | 1       | s          | 1..1    |         | Debtor Agent     | Aggregazione relativa al PSP            |
+|                    |         |            |         |         |                  | che ha emesso la                        |
+|                    |         |            |         |         |                  | RT oggetto di revoca.                   |
+|                    |         |            |         |         |                  |                                         |
+|                    |         |            |         |         |                  | Riporta le stesse informazioni          |
+|                    |         |            |         |         |                  | presenti nel blocco                     |
+|                    |         |            |         |         |                  | “soggettoAttestante” della              |
+|                    |         |            |         |         |                  |  Ricevuta Telematica                    |
+|                    |         |            |         |         |                  | **(RT)** cui si riferisce il            |
+|                    |         |            |         |         |                  | messaggio di Richiesta di Revoca.       |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| soggettoVersante   | 1       | s          | 0..1    |         | Debtor           | Riporta                                 |
+|                    |         |            |         |         |                  | le stesse informazioni                  |
+|                    |         |            |         |         |                  | presenti nel blocco                     |
+|                    |         |            |         |         |                  | “soggettoVersante” della                |
+|                    |         |            |         |         |                  | Ricevuta di Telematica                  |
+|                    |         |            |         |         |                  | **(RT)** cui si riferisce               |
+|                    |         |            |         |         |                  | il messaggio di                         |
+|                    |         |            |         |         |                  | Richiesta di Revoca.                    |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| soggettoPagatore   | 1       | s          | 1..1    |         | Ultimate Debtor  | Riporta                                 |
+|                    |         |            |         |         | /                | le stesse informazioni                  |
+|                    |         |            |         |         | Debtor [3]_      | presenti nel blocco                     |
+|                    |         |            |         |         |                  | “soggettoPagatore”                      |
+|                    |         |            |         |         |                  | della Ricevuta Telematica               |
+|                    |         |            |         |         |                  | **(RT)** cui si riferisce il            |
+|                    |         |            |         |         |                  | messaggio di Richiesta                  |
+|                    |         |            |         |         |                  | di Revoca.                              |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| datiRevoca         | 1       | s          | 1..1    |         |                  | Aggregazione                            |
+|                    |         |            |         |         |                  | “dati della richiesta di revoca”        |
+|                    |         |            |         |         |                  | costituita dai seguenti elementi:       |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| importoTotale      | 2       | an         | 1..1    | 3..12   | Amount           | Campo numerico                          |
+| Revocato           |         |            |         |         |                  | (due cifre per la parte decimale,       |
+|                    |         |            |         |         |                  | il separatore dei centesimi è il        |
+|                    |         |            |         |         |                  | punto “.”),                             |
+|                    |         |            |         |         |                  | indicante l’importo relativo al         |
+|                    |         |            |         |         |                  | totale delle somme versate.             |
+|                    |         |            |         |         |                  |                                         |
+|                    |         |            |         |         |                  | Deve essere uguale alla somma           |
+|                    |         |            |         |         |                  | delle varie occorrenze                  |
+|                    |         |            |         |         |                  | (da 1 a 5) dell’informazione            |
+|                    |         |            |         |         |                  | *singoloImportoRevocato*                |
+|                    |         |            |         |         |                  |  presente nella struttura               |
+|                    |         |            |         |         |                  | *DatiSingolaRevoca.*                    |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| identificativo     | 2       | an         | 1..1    | 1..35   | Creditor         | l dato deve essere riportato            |
+| Univoco            |         |            |         |         | Reference        | invariato così come presente            |
+| Versamento         |         |            |         |         |                  | nella Ricevuta Telematica               |
+|                    |         |            |         |         |                  | **(RT)** cui si riferisce il messaggio  |
+|                    |         |            |         |         |                  | di Richiesta di Revoca.                 |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| CodiceContesto     | 2       | an         | 1..1    | 1..35   | Message          | Il dato                                 |
+| Pagamento          |         |            |         |         | Identification   | deve essere riportato invariato così    |
+|                    |         |            |         |         |                  | come presente nella Ricevuta            |
+|                    |         |            |         |         |                  | Telematica **(RT)** cui si riferisce    |
+|                    |         |            |         |         |                  | il messaggio di                         |
+|                    |         |            |         |         |                  | Richiesta di Revoca..                   |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| tipoRevoca         | 2       | n          | 0..1    |         | Proprietary Code | Contiene il tipo di richiesta che       |
+|                    |         |            |         |         |                  | viene utilizzata nel processo di        |
+|                    |         |            |         |         |                  | revoca della RT                         |
+|                    |         |            |         |         |                  | (vedi § 2.3).                           |
+|                    |         |            |         |         |                  | Il dato è **obbligatorio** in caso      |
+|                    |         |            |         |         |                  | di utilizzo della Richiesta Revoca da   |
+|                    |         |            |         |         |                  | parte del PSP nel processo di           |
+|                    |         |            |         |         |                  | Revoca della RT e può assumere          |
+|                    |         |            |         |         |                  | i seguenti valori:                      |
+|                    |         |            |         |         |                  |                                         |
+|                    |         |            |         |         |                  |                                         |
+|                    |         |            |         |         |                  |                                         |
+|                    |         |            |         |         |                  | **0** tipo non codificato               |
+|                    |         |            |         |         |                  | **1** annullo tecnico                   |
+|                    |         |            |         |         |                  | **2** procedura di charge back          |
+|                    |         |            |         |         |                  |                                         |
+|                    |         |            |         |         |                  |                                         |
+|                    |         |            |         |         |                  | Il dato **non deve essere presente**    |
+|                    |         |            |         |         |                  | in caso di utilizzo della               |
+|                    |         |            |         |         |                  | Richiesta Revoca da                     |
+|                    |         |            |         |         |                  | parte dell'Ente Creditore nel processo  |
+|                    |         |            |         |         |                  | di Storno del pagamento                 |
+|                    |         |            |         |         |                  | (vedi § 2.1.4).                         |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| datiSingolaRevoca  | 2       | s          | 1..1    |         |                  | Aggregazione                            |
+|                    |         |            |         |         |                  | “dati dei singoli pagamenti revocati”,  |
+|                    |         |            |         |         |                  | da un minimo di uno ad un massimo       |
+|                    |         |            |         |         |                  | di 5 occorrenze di revoca,              |
+|                    |         |            |         |         |                  | facenti capo ad un unico                |
+|                    |         |            |         |         |                  | *identificativoUnivocoVersamento*       |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| singoloImporto     | 3       | an         | 1..1    | 3..12   | Amount           | Campo numerico                          |
+| Revocato           |         |            |         |         |                  | (due cifre per la parte decimale,       |
+|                    |         |            |         |         |                  | il separatore dei centesimi è il        |
+|                    |         |            |         |         |                  | punto “.”), indicante l’importo         |
+|                    |         |            |         |         |                  | relativo alla somma revocata.           |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| identificativo     | 3       | an         | 1..1    | 1..35   | Transaction      | Riferimento                             |
+| Univoco            |         |            |         |         | Reference        | univoco dell’operazione assegnato       |
+| Riscossione        |         |            |         |         | Number           | al pagamento dal Prestatore             |
+|                    |         |            |         |         |                  | dei servizi di Pagamento.               |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| causaleRevoca      | 3       | an         | 1..1    | 1..140  | Unstructured     | Rappresenta                             |
+|                    |         |            |         |         | Remittance       | la descrizione del motivo della         |
+|                    |         |            |         |         | Information      | richiesta di revoca.                    |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
+| datiAggiuntivi     | 3       | an         | 1..1    | 1..140  | Additional       | Informazioni                            |
+| Revoca             |         |            |         |         | Remittance       | aggiuntive circa la descrizione         |
+|                    |         |            |         |         | Information      | del motivo della richiesta di revoca.   |
+|                    |         |            |         |         |                  |                                         |
++--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
 
 Esito della Revoca (ER)
 ~~~~~~~~~~~~~~~~~~~~~~~
