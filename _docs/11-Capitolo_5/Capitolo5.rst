@@ -1147,8 +1147,7 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        | testoAllegato                        |
 |                      |         |            |         |         |                        | è trasportato nella                  |
 |                      |         |            |         |         |                        | ricevuta telematica secondo la       |
-|                      |         |            |         |         |                        | codifica in “base64 binary”.         |
-|                      |         |            |         |         |                        |                                      |
+|                      |         |            |         |         |                        | codifica in “base64 binary”          |
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
 
 Richiesta di Revoca (RR)
