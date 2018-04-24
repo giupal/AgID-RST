@@ -909,9 +909,9 @@ pubblici su ordine dell'utilizzatore finale.
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
 | soggettoPagatore     | 1       | s          | 1..1    |         | Ultimate Debtor        | Riporta                              |
 |                      |         |            |         |         | /                      | le stesse informazioni               |
-|                      |         |            |         |         | Debtor [3]_            | presenti nel blocco “                |
-|                      |         |            |         |         |                        | soggettoPagatore                     |
-|                      |         |            |         |         |                        | ” della Richiesta di                 |
+|                      |         |            |         |         | Debtor [3]_            | presenti nel blocco                  |
+|                      |         |            |         |         |                        | “soggettoPagatore”                   |
+|                      |         |            |         |         |                        | della Richiesta di                   |
 |                      |         |            |         |         |                        | Pagamento Telematico                 |
 |                      |         |            |         |         |                        |                                      |
 |                      |         |            |         |         |                        | (RPT) cui si riferisce il            |
@@ -946,7 +946,7 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        | delle varie occorrenze               |
 |                      |         |            |         |         |                        | (da 1 a 5) dell’informazione         |
 |                      |         |            |         |         |                        | *singoloImportoVersato*              |
-|                      |         |            |         |         |                        |  presente nella struttura            |
+|                      |         |            |         |         |                        | presente nella struttura             |
 |                      |         |            |         |         |                        | *DatiSingoloVersamento*              |
 |                      |         |            |         |         |                        |                                      |
 |                      |         |            |         |         |                        | Se il pagamento non è stato          |
@@ -1065,7 +1065,7 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        |                                      |
 |                      |         |            |         |         |                        | **Deve coincidere con lo stesso**    |
 |                      |         |            |         |         |                        | **dato presente nel**                |
-|                      |         |            |         |         |                        | **flusso di rendicontazione          |
+|                      |         |            |         |         |                        | **flusso di rendicontazione**        |
 |                      |         |            |         |         |                        | **(vedi Capitolo 7**                 |
 |                      |         |            |         |         |                        | **delle SACI)**                      |
 |                      |         |            |         |         |                        | **Se il singolo pagamento non**      |
