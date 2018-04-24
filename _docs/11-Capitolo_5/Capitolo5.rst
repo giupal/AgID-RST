@@ -2968,7 +2968,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 +----------------------------+---------+------------+---------+---------+--------------------------------------------------+
 | denominazioneEnteCreditore | 3       | an         | 1..1    | 70      | Contiene                                         |
 |                            |         |            |         |         | la denominazione dell’Ente Creditore             |
-|                            |         |            |         |         |  che                                             |
+|                            |         |            |         |         | che                                              |
 |                            |         |            |         |         | eroga lo specifico servizio.                     |
 +----------------------------+---------+------------+---------+---------+--------------------------------------------------+
 | dataInizioValidita         | 3       | an         | 1..1    | 10      | Data da                                          |
@@ -2981,7 +2981,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         | congruenza dei dati forniti                      |
 |                            |         |            |         |         | per lo                                           |
 |                            |         |            |         |         | specifico servizio                               |
-|                            |         |            |         |         |  attraverso una apposita struttura XML.          |
+|                            |         |            |         |         | attraverso una apposita struttura XML.           |
 |                            |         |            |         |         | La struttura XML contiene i dati che             |
 |                            |         |            |         |         | consentono il pagamento spontaneo                |
 |                            |         |            |         |         | c/o PSP.                                         |
