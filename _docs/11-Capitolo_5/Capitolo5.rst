@@ -2947,127 +2947,45 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 
 **Tabella** **16 - Elementi componenti il “Catalogo dei Servizi”**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| idSer     | 1         | an        | 1..1      | 5         | Codice    |
-| vizio     |           |           |           |           | numerico  |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| descr     | 1         | an        | 1.1       | 70        | Descrizio |
-| izioneSer |           |           |           |           | ne        |
-| vizio     |           |           |           |           | del       |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | erogato.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| elenc     | 1         | s         | 1..1      |           | Struttura |
-| oSoggetti |           |           |           |           | che       |
-| Eroganti  |           |           |           |           | contiene  |
-|           |           |           |           |           | l’elenco  |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | Enti      |
-|           |           |           |           |           | Creditori |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | erogano   |
-|           |           |           |           |           | lo        |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| sogge     | 2         | s         | 1..n      |           | Struttura |
-| ttoErogan |           |           |           |           | che       |
-| te        |           |           |           |           | contiene  |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | che eroga |
-|           |           |           |           |           | lo        |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| idDom     | 3         | n         | 1.1       | 35        | Campo     |
-| inio      |           |           |           |           | alfanumer |
-|           |           |           |           |           | ico       |
-|           |           |           |           |           | contenent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | dell'Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | che eroga |
-|           |           |           |           |           | quel      |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| denom     | 3         | an        | 1..1      | 70        | Contiene  |
-| inazioneE |           |           |           |           | la        |
-| nteCredit |           |           |           |           | denominaz |
-| ore       |           |           |           |           | ione      |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | che eroga |
-|           |           |           |           |           | lo        |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | servizio. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataI     | 3         | an        | 1..1      | 10        | Data da   |
-| nizioVali |           |           |           |           | cui è     |
-| dita      |           |           |           |           | attiva    |
-|           |           |           |           |           | l'erogazi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601: |
-|           |           |           |           |           | [YYYY]    |
-|           |           |           |           |           | - [MM] -  |
-|           |           |           |           |           | [DD]      |
-|           |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| xsdRi     | 1         | an        | 1.1       | 35        | Nome      |
-| ferimento |           |           |           |           | dello XSD |
-|           |           |           |           |           | utilizzat |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | verificar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | congruenz |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | dei dati  |
-|           |           |           |           |           | forniti   |
-|           |           |           |           |           | per lo    |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | servizio  |
-|           |           |           |           |           | attravers |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | una       |
-|           |           |           |           |           | apposita  |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | XML.      |
-|           |           |           |           |           |           |
-|           |           |           |           |           | La        |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | XML       |
-|           |           |           |           |           | contiene  |
-|           |           |           |           |           | i dati    |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | consenton |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | spontaneo |
-|           |           |           |           |           | c/o PSP.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+|          **Dato**          | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                    |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| idServizio                 | 1       | an         | 1..1    | 5       | Codice                                           |
+|                            |         |            |         |         | numerico che identifica il servizio.             |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| descrizioneServizio        | 1       | an         | 1..1    | 70      | Descrizione del servizio erogato.                |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| elencoSoggettiEroganti     | 1       | s          | 1..1    |         | Struttura che contiene l’elenco degli Enti       |
+|                            |         |            |         |         | Creditori che erogano lo specifico servizio.     |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| soggettoErogante           | 2       | s          | 1..n    |         | Struttura che contiene le informazioni           |
+|                            |         |            |         |         | dell’Ente Creditore che eroga lo                 |
+|                            |         |            |         |         | specifico servizio.                              |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| idDominio                  | 3       | n          | 1..1    | 35      | Campo                                            |
+|                            |         |            |         |         | alfanumerico contenente il codice fiscale        |
+|                            |         |            |         |         | dell'Ente Creditore che eroga quel servizio.     |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| denominazioneEnteCreditore | 3       | an         | 1..1    | 70      | Contiene                                         |
+|                            |         |            |         |         | la denominazione dell’Ente Creditore             |
+|                            |         |            |         |         |  che                                             |
+|                            |         |            |         |         | eroga lo specifico servizio.                     |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| dataInizioValidita         | 3       | an         | 1..1    | 10      | Data da                                          |
+|                            |         |            |         |         | cui è attiva l'erogazione del servizio da parte  |
+|                            |         |            |         |         | dell’Ente Creditore nel formato                  |
+|                            |         |            |         |         | ISO 8601:                                        |
+|                            |         |            |         |         | **[YYYY]-[MM]-[DD]**                             |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| xsdRiferimento             | 1       | an         | 1..1    | 35      | Nome dello XSD utilizzato per verificare la      |
+|                            |         |            |         |         | congruenza dei dati forniti                      |
+|                            |         |            |         |         | per lo                                           |
+|                            |         |            |         |         | specifico servizio                               |
+|                            |         |            |         |         |  attraverso una apposita struttura XML.          |
+|                            |         |            |         |         | La struttura XML contiene i dati che             |
+|                            |         |            |         |         | consentono il pagamento spontaneo                |
+|                            |         |            |         |         | c/o PSP.                                         |
++----------------------------+---------+------------+---------+---------+--------------------------------------------------+
 
 Le informazioni del “*Catalogo dei Servizi*” sono codificate in un
 file XML secondo il tracciato di Tabella 17 e devono essere richieste
