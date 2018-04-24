@@ -3110,513 +3110,148 @@ in formato digitale.
 
 **Tabella** **19 - Elementi componenti l’Avviso digitale**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| avviso    | 1         | s         | 1..1      |           | Struttura |
-| Digitale  |           |           |           |           | che       |
-|           |           |           |           |           | contiene  |
-|           |           |           |           |           | i dati    |
-|           |           |           |           |           | dell'Avvi |
-|           |           |           |           |           | so        |
-|           |           |           |           |           | Digitale. |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..35     | Campo     |
-| ificativo |           |           |           |           | alfanumer |
-| Dominio   |           |           |           |           | ico       |
-|           |           |           |           |           | contenent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | che invia |
-|           |           |           |           |           | l'avviso  |
-|           |           |           |           |           | Digitale. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| anagr     | 2         | an        | 1..1      | 1..35     | Denominaz |
-| aficaBene |           |           |           |           | ione      |
-| ficiario  |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | che invia |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | richiesta |
-|           |           |           |           |           | di avviso |
-|           |           |           |           |           | digitale. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..20     | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Messaggio |           |           |           |           | univoco   |
-| Richiesta |           |           |           |           | dell'avvi |
-|           |           |           |           |           | so        |
-|           |           |           |           |           | digitale. |
-|           |           |           |           |           | Identific |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | lo        |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | avviso e  |
-|           |           |           |           |           | consente  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | riconosce |
-|           |           |           |           |           | re        |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | trasmissi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | duplicata |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Deve      |
-|           |           |           |           |           | essere    |
-|           |           |           |           |           | univoco   |
-|           |           |           |           |           | nell’ambi |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | di 365    |
-|           |           |           |           |           | giorni    |
-|           |           |           |           |           | consecuti |
-|           |           |           |           |           | vi.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tasso     | 2         | n         | 1..1      | 2         | Macro     |
-| nomiaAvvi |           |           |           |           | categoria |
-| so        |           |           |           |           | di        |
-|           |           |           |           |           | classific |
-|           |           |           |           |           | azione    |
-|           |           |           |           |           | dell'avvi |
-|           |           |           |           |           | so        |
-|           |           |           |           |           | ad uso    |
-|           |           |           |           |           | delle app |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dell'Util |
-|           |           |           |           |           | izzatore  |
-|           |           |           |           |           | finale.   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 0 -       |
-|           |           |           |           |           | Cartelle  |
-|           |           |           |           |           | esattoria |
-|           |           |           |           |           | li        |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 1 -       |
-|           |           |           |           |           | Diritti e |
-|           |           |           |           |           | concessio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 2 -       |
-|           |           |           |           |           | Imposte e |
-|           |           |           |           |           | tasse     |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 3 -       |
-|           |           |           |           |           | IMU, TASI |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | altre     |
-|           |           |           |           |           | tasse     |
-|           |           |           |           |           | comunali  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 4 -       |
-|           |           |           |           |           | Ingressi  |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | mostre e  |
-|           |           |           |           |           | musei     |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 5 -       |
-|           |           |           |           |           | Multe e   |
-|           |           |           |           |           | sanzioni  |
-|           |           |           |           |           | ammin     |
-|           |           |           |           |           | istrative |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 6 -       |
-|           |           |           |           |           | Previ     |
-|           |           |           |           |           | denza e   |
-|           |           |           |           |           | infortuni |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 7 -       |
-|           |           |           |           |           | Servizi   |
-|           |           |           |           |           | erogati   |
-|           |           |           |           |           | dal comun |
-|           |           |           |           |           | e         |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 8 -       |
-|           |           |           |           |           | Servizi   |
-|           |           |           |           |           | erogati   |
-|           |           |           |           |           | da        |
-|           |           |           |           |           | altri     |
-|           |           |           |           |           | enti      |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 9 -       |
-|           |           |           |           |           | Servizi   |
-|           |           |           |           |           | scolastici|
-|           |           |           |           |           |           |
-|           |           |           |           |           | 10 -      |
-|           |           |           |           |           | Tassa     |
-|           |           |           |           |           | automobili|
-|           |           |           |           |           | stica     |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 11 -      |
-|           |           |           |           |           | Ticket e  |
-|           |           |           |           |           | prestazio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | sanitarie |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 12 -      |
-|           |           |           |           |           | Trasporti,|
-|           |           |           |           |           | mobilità e|
-|           |           |           |           |           | parcheggi |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codic     | 2         | n         | 1..1      | 18        | Codice    |
-| eAvviso   |           |           |           |           | dell’avvi |
-|           |           |           |           |           | so        |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | predispos |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | quanto    |
-|           |           |           |           |           | indicato  |
-|           |           |           |           |           | al §      |
-|           |           |           |           |           | 7.4.1     |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | SANP.     |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Contiene  |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | IUV.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| soggetto  | 2         | s         | 1..1      |           | Aggregazi |
-| Pagatore  |           |           |           |           | one       |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | riporta   |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | concernen |
-|           |           |           |           |           | ti        |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | soggetto  |
-|           |           |           |           |           | pagatore  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| anagrafica| 3         | an        | 1..1      | 1..70     | Indica il |
-| Pagatore  |           |           |           |           | nominativ |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | o la      |
-|           |           |           |           |           | ragione   |
-|           |           |           |           |           | sociale   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagatore  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 3         | s         | 1..1      |           | Aggregazi |
-| ificativo |           |           |           |           | one       |
-| UnivocoPa |           |           |           |           | che       |
-| gatore    |           |           |           |           | riporta   |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | concernen |
-|           |           |           |           |           | ti        |
-|           |           |           |           |           | l’identif |
-|           |           |           |           |           | icazione  |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagatore. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoI     | 4         | an        | 1..1      | 1         | Dato      |
-| dentifica |           |           |           |           | alfanumer |
-| tivoUnivo |           |           |           |           | ico       |
-| co        |           |           |           |           | che       |
-|           |           |           |           |           | indica la |
-|           |           |           |           |           | natura    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagatore. |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘F’**\ =|
-|           |           |           |           |           |           |
-|           |           |           |           |           | Persona   |
-|           |           |           |           |           | fisica    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘G’**\ =|
-|           |           |           |           |           |           |
-|           |           |           |           |           | Persona   |
-|           |           |           |           |           | Giuridica.|
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codic     | 4         | an        | 1..1      | 1..35     | Campo     |
-| eIdentifi |           |           |           |           | alfanumer |
-| cativoUni |           |           |           |           | ico       |
-| voco      |           |           |           |           | che può   |
-|           |           |           |           |           | contenere |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | o, in     |
-|           |           |           |           |           | alternati |
-|           |           |           |           |           | va,       |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | partita   |
-|           |           |           |           |           | IVA del   |
-|           |           |           |           |           | pagatore. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataS     | 2         | an        | 1..1      | 10        | Indica la |
-| cadenzaPa |           |           |           |           | data      |
-| gamento   |           |           |           |           | entro la  |
-|           |           |           |           |           | quale si  |
-|           |           |           |           |           | richiede  |
-|           |           |           |           |           | che venga |
-|           |           |           |           |           | effettuat |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataS     | 2         | an        | 1..1      | 10        | Indica la |
-| cadenzaAv |           |           |           |           | data,     |
-| viso      |           |           |           |           | successiv |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | alla data |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | scadenza  |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | sino alla |
-|           |           |           |           |           | quale si  |
-|           |           |           |           |           | ritiene   |
-|           |           |           |           |           | valido    |
-|           |           |           |           |           | l'avviso, |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| impor     | 2         | an        | 1..1      | 3..12     | Campo     |
-| toAvviso  |           |           |           |           | numerico  |
-|           |           |           |           |           | (due      |
-|           |           |           |           |           | cifre per |
-|           |           |           |           |           | la parte  |
-|           |           |           |           |           | decimale, |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | separator |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | centesimi |
-|           |           |           |           |           | è il      |
-|           |           |           |           |           | punto     |
-|           |           |           |           |           | “.”),     |
-|           |           |           |           |           | indicante |
-|           |           |           |           |           | l’importo |
-|           |           |           |           |           | relativo  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | somma da  |
-|           |           |           |           |           | versare.  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Deve      |
-|           |           |           |           |           | essere    |
-|           |           |           |           |           | maggiore  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | “0.10”.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| eMail     | 2         | an        | 0..1      | 1..256    | Indirizzo |
-| Soggetto  |           |           |           |           | di posta  |
-|           |           |           |           |           | elettroni |
-|           |           |           |           |           | ca        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | soggetto  |
-|           |           |           |           |           | al quale  |
-|           |           |           |           |           | è         |
-|           |           |           |           |           | indirizza |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | l'avviso. |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Se        |
-|           |           |           |           |           | presente, |
-|           |           |           |           |           | l'avviso  |
-|           |           |           |           |           | sarà      |
-|           |           |           |           |           | inviato   |
-|           |           |           |           |           | anche     |
-|           |           |           |           |           | tramite   |
-|           |           |           |           |           | e-mail.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| cellulare | 2         | an        | 0..1      | 1..35     | Numero di |
-| Soggetto  |           |           |           |           | cellulare |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | soggetto  |
-|           |           |           |           |           | al quale  |
-|           |           |           |           |           | è         |
-|           |           |           |           |           | indirizza |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | l'avviso. |
-|           |           |           |           |           | Nel       |
-|           |           |           |           |           | formato:  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | +NN       |
-|           |           |           |           |           | NNN-NNNNN |
-|           |           |           |           |           | NN        |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Se        |
-|           |           |           |           |           | presente, |
-|           |           |           |           |           | l'avviso  |
-|           |           |           |           |           | sarà      |
-|           |           |           |           |           | inviato   |
-|           |           |           |           |           | anche     |
-|           |           |           |           |           | tramite   |
-|           |           |           |           |           | SMS.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| descrizio | 2         | an        | 1..1      | 1..140    | Testo     |
-| nePagamen |           |           |           |           | libero a  |
-| to        |           |           |           |           | disposizi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | descriver |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | motivazio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| urlAvviso | 2         | an        | 0..1      | 1..140    | URL di    |
-|           |           |           |           |           | una       |
-|           |           |           |           |           | pagina    |
-|           |           |           |           |           | web messa |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | disposizi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | dall'Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | dove      |
-|           |           |           |           |           | l'Utilizz |
-|           |           |           |           |           | atore     |
-|           |           |           |           |           | finale    |
-|           |           |           |           |           | può       |
-|           |           |           |           |           | consultar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | l'avviso  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| datiSingo | 2         | s         | 1..5      |           | Aggregazi |
-| loVersame |           |           |           |           | one       |
-| nto       |           |           |           |           | dei dati  |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | l’accredi |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | da un     |
-|           |           |           |           |           | minimo di |
-|           |           |           |           |           | uno ad un |
-|           |           |           |           |           | massimo   |
-|           |           |           |           |           | di 5      |
-|           |           |           |           |           | occorrenz |
-|           |           |           |           |           | e,        |
-|           |           |           |           |           | facenti   |
-|           |           |           |           |           | capo ad   |
-|           |           |           |           |           | un unico  |
-|           |           |           |           |           | avviso di |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ibanAccre | 3         | an        | 0..1      | 1..35     | Vedi      |
-| dito      |           |           |           |           | omonimo   |
-|           |           |           |           |           | dato      |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | della RPT |
-|           |           |           |           |           | (§        |
-|           |           |           |           |           | 5.3.1).   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ibanAppog | 3         | an        | 0..1      | 1..35     | Vedi      |
-| gio       |           |           |           |           | omonimo   |
-|           |           |           |           |           | dato      |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | della RPT |
-|           |           |           |           |           | (§        |
-|           |           |           |           |           | 5.3.1).   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoPaga  | 2         | n         | 1..1      | 1         | Dato      |
-| mento     |           |           |           |           | numerico  |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | indica la |
-|           |           |           |           |           | natura    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **0** =   |
-|           |           |           |           |           | Conte     |
-|           |           |           |           |           | stuale    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **1** =   |
-|           |           |           |           |           | Non       |
-|           |           |           |           |           | conte     |
-|           |           |           |           |           | stuale    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoOpera | 2         | an        | 1..1      | 1         | Dato      |
-| zione     |           |           |           |           | alfanumer |
-|           |           |           |           |           | ico       |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | indica il |
-|           |           |           |           |           | tipo di   |
-|           |           |           |           |           | operazion |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | connessa  |
-|           |           |           |           |           | con       |
-|           |           |           |           |           | l’avviso. |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘C’** = |
-|           |           |           |           |           | Creazione |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | di un     |
-|           |           |           |           |           | nuovo     |
-|           |           |           |           |           | avviso    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘U’**\ =|
-|           |           |           |           |           | Modifica  |
-|           |           |           |           |           | di un     |
-|           |           |           |           |           | avviso    |
-|           |           |           |           |           | esistente |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘D’**\ =|
-|           |           |           |           |           | Cance     |
-|           |           |           |           |           | llazione  |
-|           |           |           |           |           | di un     |
-|           |           |           |           |           | avviso    |
-|           |           |           |           |           | esistente |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+|             **Dato**             | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                    |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| avvisoDigitale                   | 1       | s          | 1..1    |         | Struttura che contiene i dati                    |
+|                                  |         |            |         |         | dell'Avviso Digitale..                           |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| identificativoDominio            | 2       | an         | 1..1    | 1..35   | Campo alfanumerico contenente                    |
+|                                  |         |            |         |         | il codice fiscale della struttura                |
+|                                  |         |            |         |         | che invia l'avviso Digitale.                     |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| anagraficaBeneficiario           | 2       | an         | 1..1    | 1..35   | Denominazione dell’Ente Creditore                |
+|                                  |         |            |         |         | che invia la richiesta di avviso digitale.       |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| identificativoMessaggioRichiesta | 2       | an         | 1..1    | 1..20   | Identificativo univoco dell'avviso               |
+|                                  |         |            |         |         | digitale. Identifica lo specifico                |
+|                                  |         |            |         |         | avviso e consente di riconoscere                 |
+|                                  |         |            |         |         | la trasmissione duplicata                        |
+|                                  |         |            |         |         | Deve essere univoco nell’ambito                  |
+|                                  |         |            |         |         | di 365 giorni consecutivi.                       |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| tassonomiaAvviso                 | 2       | n          | 1..1    | 2       | Macro categoria di classificazione               |
+|                                  |         |            |         |         | dell'avviso ad uso delle app e                   |
+|                                  |         |            |         |         | dell'Utilizzatore finale.                        |
+|                                  |         |            |         |         | Può assumere i seguenti valori:                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | 0 Cartelle esattoriali                           |
+|                                  |         |            |         |         | 1   Diritti e concessioni                        |
+|                                  |         |            |         |         | 2   Imposte e tasse                              |
+|                                  |         |            |         |         | 3   IMU, TASI e altre tasse comunali             |
+|                                  |         |            |         |         | 4   Ingressi a mostre e musei                    |
+|                                  |         |            |         |         | 5   Multe e sanzioni amministrative              |
+|                                  |         |            |         |         | 6   Previdenza e infortuni                       |
+|                                  |         |            |         |         | 7   Servizi erogati dal comune                   |
+|                                  |         |            |         |         | 8   Servizi erogati da altri enti                |
+|                                  |         |            |         |         | 9   Servizi scolastici                           |
+|                                  |         |            |         |         | 10 Tassa automobilistica                         |
+|                                  |         |            |         |         | 11 Ticket e prestazioni sanitarie                |
+|                                  |         |            |         |         | 12 Trasporti, mobilità e parcheggi               |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| codiceAvviso                     | 2       | n          | 1..1    | 18      | Codice dell’avviso di pagamento                  |
+|                                  |         |            |         |         | predisposto secondo quanto indicato al           |
+|                                  |         |            |         |         | § 7.4.1 delle SANP.                              |
+|                                  |         |            |         |         | Contiene il codice IUV.                          |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| soggetto Pagatore                | 2       | s          | 1..1    |         | Aggregazione che riporta le                      |
+|                                  |         |            |         |         | informazioni concernenti il                      |
+|                                  |         |            |         |         | soggetto pagatore                                |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| anagraficaPagatore               | 3       | an         | 1..1    | 1..70   | Indica il nominativo o la ragione                |
+|                                  |         |            |         |         | sociale del pagatore                             |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| identificativoUnivocoPagatore    | 3       | s          | 1..1    |         | Aggregazione che riporta le                      |
+|                                  |         |            |         |         | informazioni concernenti                         |
+|                                  |         |            |         |         | l’identificazione fiscale del pagatore.          |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| tipoIdentificativoUnivoco        | 4       | an         | 1..1    | 1       | Dato alfanumerico che indica                     |
+|                                  |         |            |         |         | la natura del pagatore.                          |
+|                                  |         |            |         |         | Può assumere i seguenti valori:                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | **‘F’** = Persona fisica                         |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | **‘G’** Persona Giuridica.                       |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| codiceIdentificativoUnivoco      | 4       | an         | 1..1    | 1..35   | Campo alfanumerico che può                       |
+|                                  |         |            |         |         | contenere il codice fiscale o,                   |
+|                                  |         |            |         |         | in alternativa, la partita                       |
+|                                  |         |            |         |         | IVA del pagatore.                                |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| dataScadenzaPagamento            | 2       | an         | 1..1    | 10      | Indica la                                        |
+|                                  |         |            |         |         | data entro la quale si richiede che              |
+|                                  |         |            |         |         | venga effettuato il pagamento secondo il         |
+|                                  |         |            |         |         | formato ISO 8601                                 |
+|                                  |         |            |         |         | **[YYYY]-[MM]-[DD].**                            |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| dataScadenzaAvviso               | 2       | an         | 1..1    | 10      | Indica la data, successiva alla data di          |
+|                                  |         |            |         |         | scadenza del pagamento, sino alla quale          |
+|                                  |         |            |         |         | si ritiene valido l'avviso, secondo il           |
+|                                  |         |            |         |         | formato ISO 8601                                 |
+|                                  |         |            |         |         | **[YYYY]-[MM]-[DD].**                            |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| importoAvviso                    | 2       | an         | 1..1    | 3..12   | Campo numerico (due cifre per la parte           |
+|                                  |         |            |         |         | decimale, il separatore dei centesimi            |
+|                                  |         |            |         |         | è il punto “.”), indicante l’importo             |
+|                                  |         |            |         |         | relativo alla somma da versare.                  |
+|                                  |         |            |         |         | **Deve essere maggiore di “0.10”.**              |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| eMailSoggetto                    | 2       | an         | 0..1    | 1..256  | Indirizzo di posta elettronica del               |
+|                                  |         |            |         |         | soggetto al quale è indirizzato l'avviso.        |
+|                                  |         |            |         |         | Se presente, l'avviso sarà inviato anche         |
+|                                  |         |            |         |         | tramite e-mail.                                  |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| cellulareSoggetto                | 2       | an         | 0..1    | 1..35   | Numero di cellulare del soggetto al quale è      |
+|                                  |         |            |         |         | indirizzato l'avviso. Nel formato:               |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | **+NN NNN-NNNNNNN**                              |
+|                                  |         |            |         |         | Se presente, l'avviso sarà inviato anche         |
+|                                  |         |            |         |         | tramite SMS.                                     |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| descrizionePagamento             | 2       | an         | 1..1    | 1..140  | Testo libero a disposizione dell’Ente            |
+|                                  |         |            |         |         | per descrivere le motivazioni del pagamento.     |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| urlAvviso                        | 2       | an         | 0..1    | 1..140  | URL di una pagina web messa a disposizione       |
+|                                  |         |            |         |         | dall'Ente Creditore dove l'Utilizzatore          |
+|                                  |         |            |         |         | finale può consultare l'avviso di pagamento.     |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| datiSingoloVersamento            | 2       | s          | 1..5    |         | Aggregazione dei dati per l’accredito            |
+|                                  |         |            |         |         | del pagamento, da un minimo di uno               |
+|                                  |         |            |         |         | ad un massimo di 5 occorrenze,                   |
+|                                  |         |            |         |         | facenti capo ad un unico avviso di pagamento.    |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| ibanAccredito                    | 3       | an         | 0..1    | 1..35   | Vedi omonimo dato presente nella                 |
+|                                  |         |            |         |         | struttura della RPT                              |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | (§ 5.3.1)                                        |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| ibanAppoggio                     | 3       | an         | 0..1    | 1..35   | Vedi omonimo dato presente nella                 |
+|                                  |         |            |         |         | struttura della RPT                              |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | (§ 5.3.1)                                        |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| tipoPagamento                    | 2       | n          | 1..1    | 1       | Dato numerico                                    |
+|                                  |         |            |         |         | che indica la natura del pagamento.              |
+|                                  |         |            |         |         | Può assumere i seguenti valori:                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | **0**  = Contestuale                             |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | **1** = Non contestuale                          |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
+| tipoOperazione                   | 2       | an         | 1..1    | 1       | Dato                                             |
+|                                  |         |            |         |         | alfanumerico che indica il tipo di operazione    |
+|                                  |         |            |         |         | connessa con l’avviso.                           |
+|                                  |         |            |         |         | Può assumere i seguenti valori:                  |
+|                                  |         |            |         |         |                                                  |
+|                                  |         |            |         |         | - **‘C’** = Creazione di un nuovo avviso         |
+|                                  |         |            |         |         | - **‘U’** = Modifica di un avviso esistente      |
+|                                  |         |            |         |         | - **‘D’** = Cancellazione di un avviso esistente |
++----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
 
 Esito inoltro di Avviso digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
