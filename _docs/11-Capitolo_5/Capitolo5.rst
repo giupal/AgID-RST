@@ -3288,11 +3288,15 @@ di avviso di pagamento in formato digitale.
 |                                  |         |            |         |         | Può assumer i seguenti valori:               |
 |                                  |         |            |         |         |                                              |
 |                                  |         |            |         |         |                                              |
-|                                  |         |            |         |         | **0** Nessun canale                          |
-|                                  |         |            |         |         | **1** SMS                                    |
-|                                  |         |            |         |         | **2** e-mail                                 |
-|                                  |         |            |         |         | **3** mobile-payment                         |
-|                                  |         |            |         |         | **4** altro canale del PSP                   |
+|                                  |         |            |         |         | **0.**     Nessun canale                     |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **1.**     SMS                               |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **2.**     e-mail                            |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **3.**     mobile-payment                    |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **4.**     altro canale del PSP              |
 +----------------------------------+---------+------------+---------+---------+----------------------------------------------+
 | IdentificativoCanale             | 3       | an         | 0..1    | 1..35   | identificativo del canale “mobile”           |
 |                                  |         |            |         |         | a cui si riferisce l’esito dell’avvisatura.  |
@@ -3311,9 +3315,13 @@ di avviso di pagamento in formato digitale.
 |                                  |         |            |         |         | Può assumere i seguenti valori:              |
 |                                  |         |            |         |         |                                              |
 |                                  |         |            |         |         |                                              |
-|                                  |         |            |         |         | **0** esito positivo                         |
-|                                  |         |            |         |         | **1** esito negativo                         |
-|                                  |         |            |         |         | **n>1** altri esiti da definire              |
+|                                  |         |            |         |         | **0.**     esito positivo                    |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **1.**     esito negativo                    |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **n>1.** altri esiti da definire             |
 +----------------------------------+---------+------------+---------+---------+----------------------------------------------+
 | descrizioneEsito                 | 3       | an         | 0..1    | 140     | Testo libero che, in caso di esito negativo  |
 |                                  |         |            |         |         | (codiceEsito<>0), descrive l’evento stesso   |
