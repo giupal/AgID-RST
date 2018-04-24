@@ -3378,63 +3378,28 @@ Creditore con il flusso di cui sopra è indicata in Tabella 22.
 
 **Tabella** **22 - Tracciato XML per comunicazione “Lista esito inoltro Avvisi digitali”**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| lista     | 1         | s         | 1..1      |           | Lista     |
-| EsitoAvvi |           |           |           |           | degli     |
-| siDigital |           |           |           |           | esiti di  |
-| i         |           |           |           |           | inoltro   |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | avvisi    |
-|           |           |           |           |           | digitali. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| versi     | 2         | an        | 1..1      | 1..16     | Versione  |
-| oneOggett |           |           |           |           | che       |
-| o         |           |           |           |           | identific |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | l’oggetto |
-|           |           |           |           |           | scambiato |
-|           |           |           |           |           | e lo      |
-|           |           |           |           |           | schema    |
-|           |           |           |           |           | XSD per   |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | verifica  |
-|           |           |           |           |           | sintattic |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | dell’avvi |
-|           |           |           |           |           | so.       |
-|           |           |           |           |           |           |
-|           |           |           |           |           | (Esempio: |
-|           |           |           |           |           | 1.0)      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..70     | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Flusso    |           |           |           |           | del       |
-|           |           |           |           |           | flusso    |
-|           |           |           |           |           | così come |
-|           |           |           |           |           | definito  |
-|           |           |           |           |           | al §      |
-|           |           |           |           |           | 8.5.2.1.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| esito     | 2         | s         | 1..10\ :s |           | Numero    |
-| AvvisoDig |           |           | up:`5`    |           | non       |
-| itale     |           |           |           |           | definito  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | occorrenz |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | esitoAvvi |
-|           |           |           |           |           | soDigital |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | così come |
-|           |           |           |           |           | definita  |
-|           |           |           |           |           | in        |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 20.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++--------------------------+---------+------------+---------+---------+---------------------------------+
+|         **Dato**         | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                   |
++--------------------------+---------+------------+---------+---------+---------------------------------+
+| listaEsitoAvvisiDigitali | 1       | s          | 1..1    |         | Lista degli esiti di inoltro    |
+|                          |         |            |         |         | degli avvisi digitali.          |
++--------------------------+---------+------------+---------+---------+---------------------------------+
+| versioneOggetto          | 2       | an         | 1..1    | 1..16   | Versione che identifica         |
+|                          |         |            |         |         | l’oggetto scambiato e lo        |
+|                          |         |            |         |         | schema XSD per la verifica      |
+|                          |         |            |         |         | sintattica dell’avviso.         |
+|                          |         |            |         |         | (Esempio: 1.0)                  |
++--------------------------+---------+------------+---------+---------+---------------------------------+
+| identificativoFlusso     | 2       | an         | 1..1    | 1..70   | Identificativo del flusso così  |
+|                          |         |            |         |         | come definito al                |
+|                          |         |            |         |         | § 8.5.2.1                       |
++--------------------------+---------+------------+---------+---------+---------------------------------+
+| esitoAvvisoDigitale      | 2       | s          | 1..10   |         | Numero non definito di          |
+|                          |         |            |         |         | occorrenze della struttura      |
+|                          |         |            |         |         | esitoAvvisoDigitale             |
+|                          |         |            |         |         |  così come definita in          |
+|                          |         |            |         |         | Tabella 20                      |
++--------------------------+---------+------------+---------+---------+---------------------------------+
 
 Si ricorda che, per problemi di gestibilità del servizio di avvisatura,
 il numero massimo delle occorrenze di esiti di avvisi digitali presenti
