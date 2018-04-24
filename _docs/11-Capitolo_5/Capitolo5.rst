@@ -321,7 +321,7 @@ a favore dello stesso Ente Creditore.
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | soggettoPagatore        | 1       | s          |         |         | Ultimate        | Aggregazione                              |
 |                         |         |            |         |         | Debtor/Debtor   | “soggetto pagatore”                       |
-|                         |         |            |         |         |                 | che rappresenta il                        |
+|                         |         |            |         |         | [1]_            | che rappresenta il                        |
 |                         |         |            |         |         |                 | **soggetto**                              |
 |                         |         |            |         |         |                 | (Persona Fisica 1..1 Giuridica)           |
 |                         |         |            |         |         |                 | debitore di somme di denaro nei           |
