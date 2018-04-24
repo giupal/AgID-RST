@@ -2852,268 +2852,85 @@ gli elementi componenti il messaggio stesso, ora indicati nella Tabella
 
 **Tabella** **15 - Elementi componenti il Messaggio di ACK**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| ident     | 1         | an        | 1..1      | 35        | Identific |
-| ificativo |           |           |           |           | ativo     |
-| ACK       |           |           |           |           | legato    |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | trasmissi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | del file  |
-|           |           |           |           |           | di ACK.   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Deve      |
-|           |           |           |           |           | essere    |
-|           |           |           |           |           | univoco   |
-|           |           |           |           |           | nell’ambi |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | stessa    |
-|           |           |           |           |           | data      |
-|           |           |           |           |           | definita  |
-|           |           |           |           |           | da        |
-|           |           |           |           |           | dataOraAC |
-|           |           |           |           |           | K.        |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataO     | 1         | an        | 1..1      | 19        | Data e    |
-| raACK     |           |           |           |           | ora di    |
-|           |           |           |           |           | generazio |
-|           |           |           |           |           | ne        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | messaggio |
-|           |           |           |           |           | di ACK    |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-[M |
-|           |           |           |           |           | M]-[DD]T[ |
-|           |           |           |           |           | hh]:[mm]: |
-|           |           |           |           |           | [ss]      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| mitte     | 1         | an        | 1..1      | 1..25     | Mittente  |
-| nteACK    |           |           |           |           | del       |
-|           |           |           |           |           | messaggio |
-|           |           |           |           |           | di ACK    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| datiM     | 1         | s         | 1..1      |           | Dati      |
-| essaggioR |           |           |           |           | relativi  |
-| eferenzia |           |           |           |           | al        |
-| to        |           |           |           |           | messaggio |
-|           |           |           |           |           | referenzi |
-|           |           |           |           |           | ato       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..35     | Campo     |
-| ificativo |           |           |           |           | alfanumer |
-| Dominio   |           |           |           |           | ico       |
-|           |           |           |           |           | contenent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | inoltra   |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | richiesta |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..35     | Riferimen |
-| ificativo |           |           |           |           | to        |
-| UnivocoVe |           |           |           |           | univoco   |
-| rsamento  |           |           |           |           | assegnato |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | versament |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | dall’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | .         |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Si faccia |
-|           |           |           |           |           | riferimen |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | capitolo  |
-|           |           |           |           |           | 7.1 della |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | Sezione.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Codic     | 2         | an        | 1..1      | 1..35     | Codice    |
-| eContesto |           |           |           |           | univoco   |
-| Pagamento |           |           |           |           | necessari |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | definire  |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | contesto  |
-|           |           |           |           |           | nel quale |
-|           |           |           |           |           | viene     |
-|           |           |           |           |           | effettuat |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | versament |
-|           |           |           |           |           | o.        |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..35     | Campo     |
-| ificativo |           |           |           |           | alfanumer |
-| Messaggio |           |           |           |           | ico       |
-| Referenzi |           |           |           |           | contenent |
-| ato       |           |           |           |           | e         |
-|           |           |           |           |           | l'identif |
-|           |           |           |           |           | icativo   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | messaggio |
-|           |           |           |           |           | referenzi |
-|           |           |           |           |           | ato,      |
-|           |           |           |           |           | legato    |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | trasmissi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | Ricevuta  |
-|           |           |           |           |           | Telematic |
-|           |           |           |           |           | a.        |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Si        |
-|           |           |           |           |           | riferisce |
-|           |           |           |           |           | al campo  |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | ativoMess |
-|           |           |           |           |           | aggio     |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | messaggio |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | riferimen |
-|           |           |           |           |           | to.       |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Risulta   |
-|           |           |           |           |           | univoco   |
-|           |           |           |           |           | nell’ambi |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | stessa    |
-|           |           |           |           |           | data      |
-|           |           |           |           |           | riferita  |
-|           |           |           |           |           | all’eleme |
-|           |           |           |           |           | nto       |
-|           |           |           |           |           | dataOraMe |
-|           |           |           |           |           | ssaggioRe |
-|           |           |           |           |           | ferenziat |
-|           |           |           |           |           | o.        |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataO     | 2         | an        | 1..1      | 19        | Data e    |
-| raMessagg |           |           |           |           | ora di    |
-| ioReferen |           |           |           |           | generazio |
-| ziato     |           |           |           |           | ne        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | messaggio |
-|           |           |           |           |           | referenzi |
-|           |           |           |           |           | ato       |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-[M |
-|           |           |           |           |           | M]-[DD]T[ |
-|           |           |           |           |           | hh]:[mm]: |
-|           |           |           |           |           | [ss]      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipol     | 2         | an        | 1..1      | 1..16     | Tipologia |
-| ogiaMessa |           |           |           |           | di        |
-| ggioRefer |           |           |           |           | messaggio |
-| enziato   |           |           |           |           | referenzi |
-|           |           |           |           |           | ato       |
-|           |           |           |           |           | può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | uno dei   |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **RPT**   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **RT**    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| mitte     | 2         | an        | 1..1      | 1..25     | Mittente  |
-| nteMessag |           |           |           |           | del       |
-| gioRefere |           |           |           |           | messaggio |
-| nziato    |           |           |           |           | al quale  |
-|           |           |           |           |           | l'ACK si  |
-|           |           |           |           |           | riferisce |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| infor     | 1         | s         | 1..1      |           | Informazi |
-| mazioniSt |           |           |           |           | oni       |
-| atoMessag |           |           |           |           | sullo     |
-| gioRefere |           |           |           |           | stato del |
-| nziato    |           |           |           |           | messaggio |
-|           |           |           |           |           | referenzi |
-|           |           |           |           |           | ato       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| stato     | 2         | an        | 1..1      | 1.16      | Stato del |
-| Messaggio |           |           |           |           | messaggio |
-| Referenzi |           |           |           |           | referenzi |
-| ato       |           |           |           |           | ato.      |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **ACTC**  |
-|           |           |           |           |           | (accettat |
-|           |           |           |           |           | o)        |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **RJCT**  |
-|           |           |           |           |           | (rifiutat |
-|           |           |           |           |           | o)        |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| motiv     | 2         | s         | 0..1      |           | Nel caso  |
-| azioneSta |           |           |           |           | di stato  |
-| toErrato  |           |           |           |           | rifiutato |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | dà        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | riguardo  |
-|           |           |           |           |           | all'error |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | riscontra |
-|           |           |           |           |           | to.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codic     | 3         | an        | 1..1      | 1..10     | Codice di |
-| eErrore   |           |           |           |           | errore.   |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i valori  |
-|           |           |           |           |           | indicati  |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 53 a      |
-|           |           |           |           |           | pagina    |
-|           |           |           |           |           | 234.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Eleme     | 3         | an        | 0..1      | 1..140    | Elemento  |
-| ntoRefere |           |           |           |           | sul quale |
-| nziato    |           |           |           |           | è stato   |
-|           |           |           |           |           | rilevato  |
-|           |           |           |           |           | l'errore. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Infor     | 3         | an        | 0..n      | 1..140    | Informazi |
-| mazioniAg |           |           |           |           | oni       |
-| giuntive  |           |           |           |           | aggiuntiv |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | sullo     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | errore.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+|                **Dato**                | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                  |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| identificativoACK                      | 1       | an         | 1..1    | 35      | Identificativo legato alla trasmissione        |
+|                                        |         |            |         |         | del file di ACK.                               |
+|                                        |         |            |         |         | Deve essere univoco nell’ambito della          |
+|                                        |         |            |         |         | stessa data definita da dataOraACK.            |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| dataOraACK                             | 1       | an         | 1..1    | 19      | Identificativo del Flusso specifico            |
+|                                        |         |            |         |         | di Quadratura                                  |
+|                                        |         |            |         |         | generato                                       |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| mittenteACK                            | 1       | an         | 1..1    | 1..25   | Data e ora di generazione del messaggio        |
+|                                        |         |            |         |         | di ACK secondo il formato ISO 8601             |
+|                                        |         |            |         |         | [YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]                |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| datiMessaggioReferenziato              | 1       | s          | 1..1    |         | Mittente del messaggio di ACK                  |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| identificativoDominio                  | 2       | an         | 1..1    | 1..35   | Dati relativi al messaggio referenziato        |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| identificativoUnivocoVersamento        | 2       | s          | 1..1    | 1..35   | Riferimento univoco assegnato                  |
+|                                        |         |            |         |         | al versamento dall’Ente Creditore.             |
+|                                        |         |            |         |         | Si faccia riferimento al                       |
+|                                        |         |            |         |         | capitolo 7.1                                   |
+|                                        |         |            |         |         | della presente Sezione.                        |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| CodiceContestoPagamento                | 2       | s          | 1..1    | 1..35   | Codice univoco                                 |
+|                                        |         |            |         |         | necessario a definire il contesto nel quale    |
+|                                        |         |            |         |         | viene effettuato il versamento.                |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| identificativoMessaggioReferenziato    | 2       | an         | 1..1    | 1..35   | Campo alfanumerico contenente                  |
+|                                        |         |            |         |         | l'identificativo del messaggio                 |
+|                                        |         |            |         |         | referenziato, legato alla trasmissione         |
+|                                        |         |            |         |         | della Ricevuta Telematica.                     |
+|                                        |         |            |         |         | Si riferisce al campo identificativoMessaggio  |
+|                                        |         |            |         |         | presente nel messaggio di                      |
+|                                        |         |            |         |         | riferimento.                                   |
+|                                        |         |            |         |         | Risulta univoco nell’ambito della stessa       |
+|                                        |         |            |         |         | data riferita all’elemento                     |
+|                                        |         |            |         |         | dataOraMessaggioReferenziato.                  |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| dataOraMessaggioReferenziato           | 2       | an         | 1..1    | 19      | Data e ora di generazione del messaggio        |
+|                                        |         |            |         |         | referenziato secondo il formato                |
+|                                        |         |            |         |         | ISO 8601                                       |
+|                                        |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**            |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| tipologiaMessaggioReferenziato         | 2       | s          | 1..1    | 1..16   | Tipologia di messaggio referenziato può        |
+|                                        |         |            |         |         | assumere uno dei seguenti valori:              |
+|                                        |         |            |         |         |                                                |
+|                                        |         |            |         |         | **RPT**                                        |
+|                                        |         |            |         |         | **RT**                                         |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| mittenteMessaggioReferenziato          | 2       | s          | 1..1    | 1..25   | Mittente del messaggio al quale                |
+|                                        |         |            |         |         | l'ACK si riferisce.                            |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| informazioniStatoMessaggioReferenziato | 1       | s          | 0..n    |         | Informazioni sullo stato del messaggio         |
+|                                        |         |            |         |         | referenziato                                   |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| statoMessaggioReferenziato             | 2       | s          | 1..1    | 1..16   | Stato del messaggio referenziato.              |
+|                                        |         |            |         |         | Può assumere i seguenti valori:                |
+|                                        |         |            |         |         |                                                |
+|                                        |         |            |         |         | - **ACTC** (accettato)                         |
+|                                        |         |            |         |         |                                                |
+|                                        |         |            |         |         | - **RJCT** (rifiutato)                         |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| motivazioneStatoErrato                 | 2       | s          | 1..1    |         | Nel caso di stato rifiutato, dà                |
+|                                        |         |            |         |         | informazioni riguardo all'errore               |
+|                                        |         |            |         |         | riscontrato.                                   |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| codiceErrore                           | 3       | s          | 1..1    | 1..10   | Codice di errore. Può assumere i               |
+|                                        |         |            |         |         | valori indicati                                |
+|                                        |         |            |         |         | nella Tabella 53 a pagina 234.                 |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| ElementoReferenziato                   | 3       | s          | 1..1    | 1..140  | Elemento sul quale è stato rilevato            |
+|                                        |         |            |         |         | l'errore.                                      |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
+| InformazioniAggiuntive                 | 3       | an         | 1..1    | 1..140  | Informazioni aggiuntive sullo                  |
+|                                        |         |            |         |         | stato di errore.                               |
++----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
 
 Catalogo dei servizi
 ~~~~~~~~~~~~~~~~~~~~
