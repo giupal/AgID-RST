@@ -2901,8 +2901,8 @@ gli elementi componenti il messaggio stesso, ora indicati nella Tabella
 | tipologiaMessaggioReferenziato         | 2       | s          | 1..1    | 1..16   | Tipologia di messaggio referenziato può        |
 |                                        |         |            |         |         | assumere uno dei seguenti valori:              |
 |                                        |         |            |         |         |                                                |
-|                                        |         |            |         |         | **RPT**                                        |
-|                                        |         |            |         |         | **RT**                                         |
+|                                        |         |            |         |         | - **RPT**                                      |
+|                                        |         |            |         |         | - **RT**                                       |
 +----------------------------------------+---------+------------+---------+---------+------------------------------------------------+
 | mittenteMessaggioReferenziato          | 2       | s          | 1..1    | 1..25   | Mittente del messaggio al quale                |
 |                                        |         |            |         |         | l'ACK si riferisce.                            |
