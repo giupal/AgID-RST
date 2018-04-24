@@ -2567,7 +2567,7 @@ richiedente.
 | identificativoIntermediarioPA          | 2       | an         | 1..1    | 1..35   | Identificativo                               |
 |                                        |         |            |         |         | dell’intermediario                           |
 |                                        |         |            |         |         | dell’Ente Creditore                          |
-|                                        |         |            |         |         |  che può richiedere il flusso                |
+|                                        |         |            |         |         | che può richiedere il flusso                 |
 +----------------------------------------+---------+------------+---------+---------+----------------------------------------------+
 | dataInizioPeriodo                      | 1       | an         | 1..1    | 19      | Data di inizio periodo di rilevazione dei    |
 |                                        |         |            |         |         | dati che fanno parte dei totali di traffico  |
@@ -2601,7 +2601,7 @@ richiedente.
 +----------------------------------------+---------+------------+---------+---------+----------------------------------------------+
 | identificativoStazioneIntermediario    | 4       | an         | 1..1    | 1..35   | identificativo della                         |
 | PAMittente                             |         |            |         |         | StazioneIntermediarioPA                      |
-|                                        |         |            |         |         |  mittente tecnico delle RPT                  |
+|                                        |         |            |         |         | mittente tecnico delle RPT                   |
 +----------------------------------------+---------+------------+---------+---------+----------------------------------------------+
 | identificativoIntermediario            | 4       | an         | 1..1    | 1..35   | identificativo                               |
 | PSPDestinatario                        |         |            |         |         | dell’Intermediario del PSP                   |
