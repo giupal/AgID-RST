@@ -680,7 +680,7 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 | - **0** Capitolo e articolo di            |
-|                         |         |            |         |         |                 | Entrata del Bilancio dello Stato          |
+|                         |         |            |         |         |                 |         Entrata del Bilancio dello Stato  |
 |                         |         |            |         |         |                 | - **1** Numero della contabilità speciale |
 |                         |         |            |         |         |                 | - **2** Codice,SIOPE                      |
 |                         |         |            |         |         |                 | - **9** Altro codice ad uso               |
