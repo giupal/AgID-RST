@@ -928,12 +928,12 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        | seguenti valori:                     |
 |                      |         |            |         |         |                        |                                      |
 |                      |         |            |         |         |                        |                                      |
-|                      |         |            |         |         |                        | **0** Pagamento eseguito             |
-|                      |         |            |         |         |                        | **1** Pagamento non eseguito         |
-|                      |         |            |         |         |                        | **2** Pagamento parzialmente         |
-|                      |         |            |         |         |                        |            eseguito                  |
-|                      |         |            |         |         |                        | **3** Decorrenza termini             |
-|                      |         |            |         |         |                        | **4** Decorrenza termini parziale    |
+|                      |         |            |         |         |                        | **0.** Pagamento eseguito            |
+|                      |         |            |         |         |                        | **1.** Pagamento non eseguito        |
+|                      |         |            |         |         |                        | **2.** Pagamento parzialmente        |
+|                      |         |            |         |         |                        |        eseguito                      |
+|                      |         |            |         |         |                        | **3.** Decorrenza termini            |
+|                      |         |            |         |         |                        | **4.** Decorrenza termini parziale   |
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
 | importoTotale        | 2       | an         | 1..1    | 3..12   | Amount                 | Campo numerico                       |
 | Pagato               |         |            |         |         |                        | (due cifre per la parte decimale,    |
