@@ -3412,99 +3412,22 @@ Creditore o dal Nodo dei Pagamenti-SPC, per segnalare alla controparte
 la presa in carico di un file relativo allo scambio di avvisi digitali o
 del loro esito.
 
-**Tabella** **23 - Tracciato XML per la segnalazione di “Presa in carico” (File di ACK)**
-
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| esito     | 1         | s         | 1..1      |           | Struttura |
-| PresaInCa |           |           |           |           | che       |
-| rico      |           |           |           |           | contiene  |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | relative  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | presa in  |
-|           |           |           |           |           | carico    |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | trasmesse |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..70     | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Flusso    |           |           |           |           | del       |
-|           |           |           |           |           | flusso    |
-|           |           |           |           |           | così come |
-|           |           |           |           |           | definito  |
-|           |           |           |           |           | al §      |
-|           |           |           |           |           | 8.5.2.1.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codic     | 2         | n         | 1..1      | 1         | Rappresen |
-| eEsitoPre |           |           |           |           | ta        |
-| saInCaric |           |           |           |           | il codice |
-| o         |           |           |           |           | circa     |
-|           |           |           |           |           | l’esito   |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | presa in  |
-|           |           |           |           |           | carico    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | flusso di |
-|           |           |           |           |           | avvisi    |
-|           |           |           |           |           | digitali. |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | uno dei   |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 1. Preso  |
-|           |           |           |           |           | in carico |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 2. File   |
-|           |           |           |           |           | compreso  |
-|           |           |           |           |           | illegibile|
-|           |           |           |           |           |           |
-|           |           |           |           |           | 3. Errori |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | *parsing* |
-|           |           |           |           |           | file      |
-|           |           |           |           |           | XML       |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 4. Errore |
-|           |           |           |           |           | di valida |
-|           |           |           |           |           | zione     |
-|           |           |           |           |           | con       |
-|           |           |           |           |           | XSD       |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 5. Errore |
-|           |           |           |           |           | di valida |
-|           |           |           |           |           | zione     |
-|           |           |           |           |           | extra     |
-|           |           |           |           |           | XSD       |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 6. Invio  |
-|           |           |           |           |           | duplicato |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 7. Altri  |
-|           |           |           |           |           | errori    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| descr     | 2         | an        | 0..1      | 1..140    | Testo     |
-| izioneEsi |           |           |           |           | descritti |
-| toPresaIn |           |           |           |           | vo        |
-| Carico    |           |           |           |           | dell’erro |
-|           |           |           |           |           | re        |
-|           |           |           |           |           | rilevato. |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Obbliga   |
-|           |           |           |           |           | torio     |
-|           |           |           |           |           | se        |
-|           |           |           |           |           | l'esito è |
-|           |           |           |           |           | diverso   |
-|           |           |           |           |           | da 0.     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
+.. csv-table:: **Tabella 23 - Tracciato XML per la segnalazione di “Presa in carico” (File di ACK)**
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   :widths: 15, 10, 30,10,10,10
+   
+   "esitoPresaInCarico",1,"s","1..1",,"Struttura che contiene le informazioni relative alla presa in carico delle informazioni trasmesse"
+   "identificativoFlusso",2,"an","1..1","1..70","Identificativo del flusso così come definito al § 8.5.2.1."
+   "codiceEsitoPresaInCarico",2,"n","1..1",1,"Rappresenta il codice circa l’esito della presa in carico del flusso di avvisi digitali. Può assumere uno dei seguenti valori:
+   
+   - 0  Preso in carico
+   - 1  File compresso illeggibile
+   - 2  Errori di parsing file XML
+   - 3  Errore di validazione con XSD
+   - 4  Errore di validazione extra XSD
+   - 5  Invio duplicato
+   - 6  Altri errori"
+   "descrizioneEsitoPresaInCarico",2,"an","0..1","1..140","Testo descrittivo dell’errore rilevato. Obbligatorio se l'esito è diverso da 0."
 
 Scambio informazioni via web service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3539,28 +3462,11 @@ parametro avvisoDigitaleWS presente nella *request* della primitiva
 inizia da 2 in quanto descritta formalmente all'interno del WSDL del
 servizio.
 
-**Tabella** **24 - Componenti del parametro avvisoDigitaleWS**
-
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| avvis     | 2         | s         | 1..1      |           | Contiene  |
-| oDigitale |           |           |           |           | le stesse |
-| WS        |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | definite  |
-|           |           |           |           |           | per la    |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | avvisoDig |
-|           |           |           |           |           | itale,    |
-|           |           |           |           |           | specifica |
-|           |           |           |           |           | ta        |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 19 al §   |
-|           |           |           |           |           | 5.4.1.    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
+.. csv-table:: **Tabella 24 - Componenti del parametro avvisoDigitaleWS**
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   :widths: 15, 10, 30,10,10,10
+   
+   "avvisoDigitaleWS",2,"S","1..1","","Contiene le stesse informazioni definite per la struttura avvisoDigitale, specificata nella Tabella 19 al § 5.4.1."
 
 In Tabella 25 sono elencate le informazioni che definiscono il parametro
 esitoAvvisoDigitaleWS presente nella *response* della primitiva
@@ -3568,29 +3474,11 @@ esitoAvvisoDigitaleWS presente nella *response* della primitiva
 inizia da 2 in quanto descritta formalmente all'interno del WSDL del
 servizio.
 
-**Tabella** **25 - Componenti del parametro esitoAvvisoDigitaleWS**
-
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| esito     | 2         | s         | 1..1      |           | Contiene  |
-| AvvisoDig |           |           |           |           | le stesse |
-| italeWS   |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | specifica |
-|           |           |           |           |           | te        |
-|           |           |           |           |           | per la    |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | esitoAvvi |
-|           |           |           |           |           | soDigital |
-|           |           |           |           |           | e,        |
-|           |           |           |           |           | definita  |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 20 al §   |
-|           |           |           |           |           | 5.4.1.    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
+.. csv-table:: **Tabella 25 - Componenti del parametro esitoAvvisoDigitaleWS**
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   :widths: 15, 10, 30,10,10,10
+   
+   "esitoAvvisoDigitaleWS",2,"S","1..1","","Contiene le stesse informazioni specificate per la struttura esitoAvvisoDigitale, definita nella Tabella 20 al § 5.4.1."
 
 Recapito dell’avviso digitale ai PSP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3602,28 +3490,11 @@ parametro avvisoDigitale presente nella *request* della primitiva
 struttura così definita inizia da 2 in quanto descritta formalmente
 all'interno del WSDL del servizio.
 
-**Tabella** **26 - Componenti del parametro avvisoDigitale**
-
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| avviso    | 2         | s         | 1..1      |           | Contiene  |
-| Digitale  |           |           |           |           | le stesse |
-| WS        |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | definite  |
-|           |           |           |           |           | per la    |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | avvisoDig |
-|           |           |           |           |           | itale,    |
-|           |           |           |           |           | specifica |
-|           |           |           |           |           | ta        |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 19 al §   |
-|           |           |           |           |           | 5.4.1.    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
+.. csv-table:: **Tabella 26 - Componenti del parametro avvisoDigitale**
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   :widths: 15, 10, 30,10,10,10
+   
+   "avvisoDigitaleWS",2,"S","1..1","","Contiene le stesse informazioni definite per la struttura avvisoDigitale, specificata nella Tabella 19 al § 5.4.1."
 
 Notifica dell’iscrizione al servizio di avvisatura digitale
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3635,137 +3506,22 @@ Le informazioni elencate di seguito definiscono la componente
 della struttura così definita inizia da 2 in quanto descritta
 formalmente all'interno del WSDL del servizio.
 
-**Tabella** **27 - Componenti del parametro datiNotifica**
+.. csv-table:: **Tabella 27 - Componenti del parametro datiNotifica**
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   :widths: 15, 10, 30,10,10,10
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| dataOra   | 2         | an        | 1..1      | 1..19     | Indica la |
-| Richiesta |           |           |           |           | data e    |
-|           |           |           |           |           | l’ora     |
-|           |           |           |           |           | dell’even |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | di invio  |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | richiesta |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601, |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | risoluzio |
-|           |           |           |           |           | ne        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | milliseco |
-|           |           |           |           |           | ndo       |
-|           |           |           |           |           | e sempre  |
-|           |           |           |           |           | riferito  |
-|           |           |           |           |           | al GMT.   |
-|           |           |           |           |           | Formato   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..20     | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Messaggio |           |           |           |           | legato    |
-| Richiesta |           |           |           |           | alla      |
-|           |           |           |           |           | trasmissi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | segnalazi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | digitale  |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | consente  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | riconosce |
-|           |           |           |           |           | re        |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | trasmissi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | duplicata |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Deve      |
-|           |           |           |           |           | essere    |
-|           |           |           |           |           | univoco   |
-|           |           |           |           |           | nell’ambi |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | di 365    |
-|           |           |           |           |           | giorni    |
-|           |           |           |           |           | consecuti |
-|           |           |           |           |           | vi.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | s         | 1..1      |           | Aggregazi |
-| ificativo |           |           |           |           | one       |
-| UnivocoSo |           |           |           |           | che       |
-| ggetto    |           |           |           |           | riporta   |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | concernen |
-|           |           |           |           |           | ti        |
-|           |           |           |           |           | l’identif |
-|           |           |           |           |           | icazione  |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagatore. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoI     | 3         | an        | 1..1      | 1         | Campo     |
-| dentifica |           |           |           |           | alfanumer |
-| tivoUnivo |           |           |           |           | ico       |
-| co        |           |           |           |           | che       |
-|           |           |           |           |           | indica la |
-|           |           |           |           |           | natura    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagatore, |
-|           |           |           |           |           | può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘F’**\ =|
-|           |           |           |           |           | Persona   |
-|           |           |           |           |           | fisica    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘G’**\ =|
-|           |           |           |           |           | Persona   |
-|           |           |           |           |           | Giuridica.|
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codic     | 3         | an        | 1..1      | 1..35     | Campo     |
-| eIdentifi |           |           |           |           | alfanumer |
-| cativoUni |           |           |           |           | ico       |
-| voco      |           |           |           |           | che può   |
-|           |           |           |           |           | contenere |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | o, in     |
-|           |           |           |           |           | alternati |
-|           |           |           |           |           | va,       |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | partita   |
-|           |           |           |           |           | IVA del   |
-|           |           |           |           |           | pagatore. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| azion     | 2         | an        | 1..1      | 1         | Indica il |
-| eDiAggior |           |           |           |           | tipo di   |
-| namento   |           |           |           |           | aggiornam |
-|           |           |           |           |           | ento      |
-|           |           |           |           |           | richiesto |
-|           |           |           |           |           | :         |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘A’**\ =|
-|           |           |           |           |           | Attivazio |
-|           |           |           |           |           | ne        |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **‘D’**\ =|
-|           |           |           |           |           | disattiva |
-|           |           |           |           |           | zione     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
+   "dataOraRichiesta",2,"an","1..1","1..19","Indica la data e l’ora dell’evento di invio della richiesta secondo il formato ISO 8601, alla risoluzione del millisecondo e sempre riferito al GMT. Formato **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**"
+   "identificativoMessaggioRichiesta",2,"an","1..1","1..20","Identificativo legato alla trasmissione della segnalazione digitale e consente di riconoscere la trasmissione duplicata. Deve essere univoco nell’ambito di 365 giorni consecutivi."
+   "identificativoUnivocoSoggetto",2,"s","1..1",,"Aggregazione che riporta le informazioni concernenti l’identificazione fiscale del pagatore."
+   "tipoIdentificativoUnivoco",3,"an","1..1",1,"Campo alfanumerico che indica la natura del pagatore, può assumere i seguenti valori:
+   
+   - **F** = Persona fisica
+   - **G** = Persona Giuridica."
+   "codiceIdentificativoUnivoco",3,"an","1..1","1..35","Campo alfanumerico che può contenere il codice fiscale o, in alternativa, la partita IVA del pagatore."
+   "azioneDiAggiornamento",2,"an","1..1",1,"Indica il tipo di aggiornamento richiesto:
+   
+   - **A** = Attivazione
+   - **D** = disattivazione"
 
 Richiesta posizione debitoria presso un Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3779,8 +3535,6 @@ e della correlata primitiva **paaChiediElencoAvvisiDigitali** (`cfr. §
 8.2.8.1 <../15-Capitolo_8/Capitolo8.rst#paachiedielencoavvisidigitali>`__) messa a disposizione dall'Ente Creditore; il livello della
 struttura così definita inizia da 2 in quanto descritta formalmente
 all'interno del WSDL del servizio.
-
-**Tabella** **28 - Componenti del parametro elencoAvvisiDigitali**
 
 .. csv-table:: **Tabella 28 - Componenti del parametro elencoAvvisiDigitali**
    :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
