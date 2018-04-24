@@ -583,7 +583,7 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         |                 | l’importo della eventuale                 |
 |                         |         |            |         |         |                 | commissione                               |
 |                         |         |            |         |         |                 | spettante al PSP di cui                   |
-|                         |         |            |         |         |                 |  si fa carico                             |
+|                         |         |            |         |         |                 | si fa carico                              |
 |                         |         |            |         |         |                 | l’Ente Creditore.                         |
 |                         |         |            |         |         |                 | Il dato è riportato a                     |
 |                         |         |            |         |         |                 | solo titolo                               |
@@ -595,7 +595,7 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         |                 | con uno o più                             |
 |                         |         |            |         |         |                 | Enti Creditori.                           |
 |                         |         |            |         |         |                 | Se presente deve essere                   |
-|                         |         |            |         |         |                 |  diverso da                               |
+|                         |         |            |         |         |                 | diverso da                                |
 |                         |         |            |         |         |                 | **“0.00”**.                               |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | ibanAccredito           | 3       | an         |         | 1..35   | Creditor        | Identifica l’International                |
@@ -603,7 +603,7 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         | IBAN            | Number,                                   |
 |                         |         |            |         |         |                 | definito secondo lo                       |
 |                         |         |            |         |         |                 | standard ISO 13616,                       |
-|                         |         |            |         |         |                 |  del conto corrente                       |
+|                         |         |            |         |         |                 | del conto corrente                        |
 |                         |         |            |         |         |                 | bancario o                                |
 |                         |         |            |         |         |                 | postale da                                |
 |                         |         |            |         |         |                 | accreditare, indicato                     |
@@ -776,9 +776,9 @@ pubblici su ordine dell'utilizzatore finale.
 | Messaggio            |         |            |         |         | Identification         | messaggio di Ricevuta                |
 | Richiesta            |         |            |         |         |                        | Telematica                           |
 |                      |         |            |         |         |                        | **(RT)**                             |
-|                      |         |            |         |         |                        |  l’elemento contiene il dato         |
+|                      |         |            |         |         |                        | l’elemento contiene il dato          |
 |                      |         |            |         |         |                        | identificativoMessaggioRichiesta     |
-|                      |         |            |         |         |                        |  legato alla trasmissione della      |
+|                      |         |            |         |         |                        | legato alla trasmissione della       |
 |                      |         |            |         |         |                        | Richiesta di Pagamento               |
 |                      |         |            |         |         |                        | Telematico                           |
 |                      |         |            |         |         |                        | **(RPT)**                            |
@@ -793,7 +793,7 @@ pubblici su ordine dell'utilizzatore finale.
 | istitutoAttestante   | 1       | s          | 1..1    |         | Debtor Agent           | Aggregazione                         |
 |                      |         |            |         |         |                        | relativa al soggetto Prestatore      |
 |                      |         |            |         |         |                        | dei servizi di Pagamento che         |
-|                      |         |            |         |         |                        |  emette il documento di              |
+|                      |         |            |         |         |                        | emette il documento di               |
 |                      |         |            |         |         |                        | attestazione                         |
 |                      |         |            |         |         |                        | dell’avvenuto pagamento.             |
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
@@ -831,7 +831,7 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        | A tale scopo si evidenzia            |
 |                      |         |            |         |         |                        | che il PSP è quello indicato         |
 |                      |         |            |         |         |                        | nel dato identificativoPSP           |
-|                      |         |            |         |         |                        |  del Catalogo Dati Informativi       |
+|                      |         |            |         |         |                        | del Catalogo Dati Informativi        |
 |                      |         |            |         |         |                        | (vedi Tabella 9).                    |
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
 | codiceIdentificativo | 3       | an         | 1..1    | 1..35   | BIC / Proprietary /    | Campo                                |
@@ -1002,7 +1002,7 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        | **Obbligatorio nel caso in cui**     |
 |                      |         |            |         |         |                        | **l’elemento**                       |
 |                      |         |            |         |         |                        | **codiceEsitoPagamento**             |
-|                      |         |            |         |         |                        |  **assuma il valore 0, 2 o 4**       |
+|                      |         |            |         |         |                        | **assuma il valore 0, 2 o 4**        |
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
 | singoloImportoPagato | 3       | an         | 1..1    | 3..12   | Amount                 | Campo numerico                       |
 |                      |         |            |         |         |                        | (due cifre per la parte              |
@@ -1061,7 +1061,7 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        | stesso per tutte                     |
 |                      |         |            |         |         |                        | le occorrenze di                     |
 |                      |         |            |         |         |                        | datiSingoloPagamento                 |
-|                      |         |            |         |         |                        |  facenti capo ad un unico            |
+|                      |         |            |         |         |                        | facenti capo ad un unico             |
 |                      |         |            |         |         |                        | *identificativoUnivocoVersamento*    |
 |                      |         |            |         |         |                        |                                      |
 |                      |         |            |         |         |                        | **Deve coincidere con lo stesso**    |
@@ -1142,7 +1142,7 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        |                                      |
 |                      |         |            |         |         |                        | L’elemento                           |
 |                      |         |            |         |         |                        | testoAllegato                        |
-|                      |         |            |         |         |                        |  è trasportato nella                 |
+|                      |         |            |         |         |                        | è trasportato nella                  |
 |                      |         |            |         |         |                        | ricevuta telematica secondo la       |
 |                      |         |            |         |         |                        | codifica in “base64 binary”.         |
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
@@ -1194,7 +1194,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |                    |         |            |         |         |                  | Riporta le stesse informazioni          |
 |                    |         |            |         |         |                  | presenti nel blocco                     |
 |                    |         |            |         |         |                  | “soggettoAttestante” della              |
-|                    |         |            |         |         |                  |  Ricevuta Telematica                    |
+|                    |         |            |         |         |                  | Ricevuta Telematica                     |
 |                    |         |            |         |         |                  | **(RT)** cui si riferisce il            |
 |                    |         |            |         |         |                  | messaggio di Richiesta di Revoca.       |
 +--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
@@ -1231,7 +1231,7 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |                    |         |            |         |         |                  | delle varie occorrenze                  |
 |                    |         |            |         |         |                  | (da 1 a 5) dell’informazione            |
 |                    |         |            |         |         |                  | *singoloImportoRevocato*                |
-|                    |         |            |         |         |                  |  presente nella struttura               |
+|                    |         |            |         |         |                  | presente nella struttura                |
 |                    |         |            |         |         |                  | *DatiSingolaRevoca.*                    |
 +--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
 | identificativo     | 2       | an         | 1..1    | 1..35   | Creditor         | l dato deve essere riportato            |
@@ -1342,7 +1342,7 @@ relativa allo “storno” di un pagamento.
 | Revoca                  |         |            |         |         | Identification     | di Esito Revoca **(ER)**                  |
 |                         |         |            |         |         |                    | l’elemento contiene il dato               |
 |                         |         |            |         |         |                    | identificativoMessaggioRevoca             |
-|                         |         |            |         |         |                    |  legato alla trasmissione della           |
+|                         |         |            |         |         |                    | legato alla trasmissione della            |
 |                         |         |            |         |         |                    | Richiesta di Revoca **(RR).**             |
 +-------------------------+---------+------------+---------+---------+--------------------+-------------------------------------------+
 | riferimentoData         | 1       | an         | 1..1    | 10      | Original Creation  | Indica la data                            |
@@ -1393,9 +1393,8 @@ relativa allo “storno” di un pagamento.
 |                         |         |            |         |         |                    | occorrenze                                |
 |                         |         |            |         |         |                    | (da 1 a 5) dell’informazione              |
 |                         |         |            |         |         |                    | singoloImportoRevocato                    |
-|                         |         |            |         |         |                    |  presente nella struttura                 |
-|                         |         |            |         |         |                    | DatiSingolaRevoca                         |
-|                         |         |            |         |         |                    | .                                         |
+|                         |         |            |         |         |                    | presente nella struttura                  |
+|                         |         |            |         |         |                    | DatiSingolaRevoca.                        |
 +-------------------------+---------+------------+---------+---------+--------------------+-------------------------------------------+
 | identificativo          | 2       | an         | 1..1    | 1..35   | Creditor Reference | Riporta la stessa informazione            |
 | Univoco                 |         |            |         |         |                    | presente nel dato                         |
@@ -1405,7 +1404,7 @@ relativa allo “storno” di un pagamento.
 | codiceContestoPagamento | 2       | an         | 1..1    | 1..35   | Message            | Riporta la stessa informazione            |
 |                         |         |            |         |         | Identification     | presente nel dato                         |
 |                         |         |            |         |         |                    | codiceContestoPagamento                   |
-|                         |         |            |         |         |                    |  della Richiesta di Revoca                |
+|                         |         |            |         |         |                    | della Richiesta di Revoca                 |
 |                         |         |            |         |         |                    | **(RR).**                                 |
 +-------------------------+---------+------------+---------+---------+--------------------+-------------------------------------------+
 | datiSingolaRevoca       | 2       | s          | 1..1    |         |                    | Aggregazione “dati dei singoli            |
@@ -1429,7 +1428,7 @@ relativa allo “storno” di un pagamento.
 | identificativo          | 3       | an         | 1..1    | 1..35   | Transaction        | Riporta la stessa informazione            |
 | Univoco                 |         |            |         |         | Reference          | presente nel dato                         |
 | Riscossione             |         |            |         |         | Number             | identificativoUnivocoRiscossione          |
-|                         |         |            |         |         |                    |  della Richiesta di Revoca                |
+|                         |         |            |         |         |                    | della Richiesta di Revoca                 |
 |                         |         |            |         |         |                    | **(RR).**                                 |
 +-------------------------+---------+------------+---------+---------+--------------------+-------------------------------------------+
 | causaleEsito            | 3       | an         | 1..1    | 1..140  | Unstructured       | Rappresenta                               |
@@ -1724,7 +1723,7 @@ in Tabella 7.
 |                        |         |            |         |         | dataPubblicazione                           |
 |                        |         |            |         |         |  contenuta nell’ultimo flusso di            |
 |                        |         |            |         |         | informativa dell’Ente Creditore             |
-|                        |         |            |         |         |  caricato nel Nodo.                         |
+|                        |         |            |         |         | caricato nel Nodo.                          |
 +------------------------+---------+------------+---------+---------+---------------------------------------------+
 | dataInizioValidita     | 2       | an         | 1..1    | 19      | Data in                                     |
 |                        |         |            |         |         | cui inizia la validità delle informazioni   |
@@ -1792,7 +1791,7 @@ in Tabella 8.
 |                                 |         |            |         |         | dataPubblicazione                            |
 |                                 |         |            |         |         |  contenuta nell’ultimo flusso di             |
 |                                 |         |            |         |         | informativa dell’Ente Creditore              |
-|                                 |         |            |         |         |  caricato nel Nodo.                          |
+|                                 |         |            |         |         | caricato nel Nodo.                           |
 +---------------------------------+---------+------------+---------+---------+----------------------------------------------+
 | dataInizioValidita              | 2       | an         | 1..1    | 19      | Data e ora da cui saranno considerati validi |
 |                                 |         |            |         |         | dal Nodo solamente gli IBAN di Accredito     |
@@ -1803,7 +1802,7 @@ in Tabella 8.
 |                                 |         |            |         |         |                                              |
 |                                 |         |            |         |         | Dev’essere maggiore o uguale alla            |
 |                                 |         |            |         |         | dataPubblicazione                            |
-|                                 |         |            |         |         |  e maggiore della data                       |
+|                                 |         |            |         |         | e maggiore della data                        |
 |                                 |         |            |         |         | corrente.                                    |
 |                                 |         |            |         |         | La validità parte comunque dalle 00:00:00    |
 |                                 |         |            |         |         | del giorno indicato.                         |
@@ -1983,8 +1982,8 @@ catalogo:
 |                             |         |            |         |         | libero in cui è possibile specificare orari     |
 |                             |         |            |         |         | o restrizioni del servizio                      |
 +-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
-| limitazioniServizio         | 6       | an         | 0..1    | 140     |  Indica eventuali limitazioni poste dal PSP     |
-|                             |         |            |         |         |  nell'erogazione del servio                     |
+| limitazioniServizio         | 6       | an         | 0..1    | 140     | Indica eventuali limitazioni poste dal PSP      |
+|                             |         |            |         |         | nell'erogazione del servio                      |
 +-----------------------------+---------+------------+---------+---------+-------------------------------------------------+
 | urlInformazioniCanale       | 6       | an         | 0..1    | 255     | URL di                                          |
 |                             |         |            |         |         | una pagina/sito web contenente                  |
@@ -2655,7 +2654,7 @@ richiedente.
 +----------------------------------------+---------+------------+---------+---------+----------------------------------------------+
 | identificativoStazioneIntermediario    | 4       | an         | 1..1    | 1..35   | identificativo                               |
 | PADestinatario                         |         |            |         |         | StazioneIntermediarioPA                      |
-|                                        |         |            |         |         |  destinatario delle RT transitate            |
+|                                        |         |            |         |         | destinatario delle RT transitate             |
 |                                        |         |            |         |         | dal Nodo                                     |
 +----------------------------------------+---------+------------+---------+---------+----------------------------------------------+
 | totaliInAttesa                         | 4       | s          | 1..1    |         | totali relativi agli oggetti RT di cui       |
