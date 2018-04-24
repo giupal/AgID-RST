@@ -3137,19 +3137,19 @@ in formato digitale.
 |                                  |         |            |         |         |                                                  |
 |                                  |         |            |         |         |                                                  |
 |                                  |         |            |         |         |                                                  |
-|                                  |         |            |         |         | 0 Cartelle esattoriali                           |
-|                                  |         |            |         |         | 1   Diritti e concessioni                        |
-|                                  |         |            |         |         | 2   Imposte e tasse                              |
-|                                  |         |            |         |         | 3   IMU, TASI e altre tasse comunali             |
-|                                  |         |            |         |         | 4   Ingressi a mostre e musei                    |
-|                                  |         |            |         |         | 5   Multe e sanzioni amministrative              |
-|                                  |         |            |         |         | 6   Previdenza e infortuni                       |
-|                                  |         |            |         |         | 7   Servizi erogati dal comune                   |
-|                                  |         |            |         |         | 8   Servizi erogati da altri enti                |
-|                                  |         |            |         |         | 9   Servizi scolastici                           |
-|                                  |         |            |         |         | 10 Tassa automobilistica                         |
-|                                  |         |            |         |         | 11 Ticket e prestazioni sanitarie                |
-|                                  |         |            |         |         | 12 Trasporti, mobilità e parcheggi               |
+|                                  |         |            |         |         | 0.  Cartelle esattoriali                         |
+|                                  |         |            |         |         | 1.  Diritti e concessioni                        |
+|                                  |         |            |         |         | 2.  Imposte e tasse                              |
+|                                  |         |            |         |         | 3.  IMU, TASI e altre tasse comunali             |
+|                                  |         |            |         |         | 4.  Ingressi a mostre e musei                    |
+|                                  |         |            |         |         | 5.  Multe e sanzioni amministrative              |
+|                                  |         |            |         |         | 6.  Previdenza e infortuni                       |
+|                                  |         |            |         |         | 7.  Servizi erogati dal comune                   |
+|                                  |         |            |         |         | 8.  Servizi erogati da altri enti                |
+|                                  |         |            |         |         | 9.  Servizi scolastici                           |
+|                                  |         |            |         |         | 10. Tassa automobilistica                        |
+|                                  |         |            |         |         | 11. Ticket e prestazioni sanitarie               |
+|                                  |         |            |         |         | 12. Trasporti, mobilità e parcheggi              |
 +----------------------------------+---------+------------+---------+---------+--------------------------------------------------+
 | codiceAvviso                     | 2       | n          | 1..1    | 18      | Codice dell’avviso di pagamento                  |
 |                                  |         |            |         |         | predisposto secondo quanto indicato al           |
