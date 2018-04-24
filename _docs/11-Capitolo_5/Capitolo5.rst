@@ -3397,7 +3397,7 @@ Creditore con il flusso di cui sopra è indicata in Tabella 22.
 | esitoAvvisoDigitale      | 2       | s          | 1..10   |         | Numero non definito di          |
 |                          |         |            |         |         | occorrenze della struttura      |
 |                          |         |            |         |         | esitoAvvisoDigitale             |
-|                          |         |            |         |         |  così come definita in          |
+|                          |         |            |         |         | così come definita in           |
 |                          |         |            |         |         | Tabella 20                      |
 +--------------------------+---------+------------+---------+---------+---------------------------------+
 
