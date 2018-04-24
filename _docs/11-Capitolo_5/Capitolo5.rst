@@ -3264,175 +3264,63 @@ di avviso di pagamento in formato digitale.
 
 **Tabella** **20 - Elementi componenti l’Esito Avviso digitale**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| esito     | 1         | s         | 1..1      |           | Struttura |
-| AvvisoDig |           |           |           |           | che       |
-| itale     |           |           |           |           | contiene  |
-|           |           |           |           |           | i dati    |
-|           |           |           |           |           | circa     |
-|           |           |           |           |           | l'esito   |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | avvisi    |
-|           |           |           |           |           | digitali. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..35     | Campo     |
-| ificativo |           |           |           |           | alfanumer |
-| Dominio   |           |           |           |           | ico       |
-|           |           |           |           |           | contenent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | che ha    |
-|           |           |           |           |           | inviato   |
-|           |           |           |           |           | l'avviso  |
-|           |           |           |           |           | Digitale  |
-|           |           |           |           |           | di cui il |
-|           |           |           |           |           | sistema   |
-|           |           |           |           |           | sta       |
-|           |           |           |           |           | fornendo  |
-|           |           |           |           |           | l’Esito.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..20     | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Messaggio |           |           |           |           | univoco   |
-| Richiesta |           |           |           |           | dell'avvi |
-|           |           |           |           |           | so        |
-|           |           |           |           |           | digitale  |
-|           |           |           |           |           | di cui il |
-|           |           |           |           |           | sistema   |
-|           |           |           |           |           | sta       |
-|           |           |           |           |           | fornendo  |
-|           |           |           |           |           | l’Esito.  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| esito     | 2         | s         | 0..n      |           | Struttura |
-| Avvisatur |           |           |           |           | che       |
-| a         |           |           |           |           | contiene  |
-|           |           |           |           |           | gli esiti |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | singolo   |
-|           |           |           |           |           | invio di  |
-|           |           |           |           |           | Avviso    |
-|           |           |           |           |           | Digitale. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoC     | 3         | n         | 1..1      | 1         | Tipologia |
-| analeEsit |           |           |           |           | di canale |
-| o         |           |           |           |           | usato per |
-|           |           |           |           |           | inviare   |
-|           |           |           |           |           | l’avviso  |
-|           |           |           |           |           | all'utent |
-|           |           |           |           |           | e.        |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumer i |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 1. Nessun |
-|           |           |           |           |           |    canale |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 2. SMS    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 3. e-mail |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 4. mobile |
-|           |           |           |           |           | -payment  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 5. altro  |
-|           |           |           |           |           |    canale |
-|           |           |           |           |           |    del    |
-|           |           |           |           |           |    PSP    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Ident     | 3         | an        | 0..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| Canale    |           |           |           |           | del       |
-|           |           |           |           |           | canale    |
-|           |           |           |           |           | “mobile”  |
-|           |           |           |           |           | a cui si  |
-|           |           |           |           |           | riferisce |
-|           |           |           |           |           | l’esito   |
-|           |           |           |           |           | dell’avvi |
-|           |           |           |           |           | satura.   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Deve      |
-|           |           |           |           |           | essere    |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | valorizza |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | nel caso  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | tipoCanal |
-|           |           |           |           |           | eEsito    |
-|           |           |           |           |           | = 2       |
-|           |           |           |           |           | oppure    |
-|           |           |           |           |           | 4         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataEsito | 3         | an        | 1..1      | 10        | Data di   |
-|           |           |           |           |           | produzion |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dell'esit |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | da parte  |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | NodoSPC o |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | canale di |
-|           |           |           |           |           | avvisatur |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | utilizzat |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codice    | 3         | n         | 1..1      | 5         | Esito     |
-| Esito     |           |           |           |           | dell'invi |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | riferito  |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | singolo   |
-|           |           |           |           |           | canale.   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **0**     |
-|           |           |           |           |           | esito     |
-|           |           |           |           |           | positivo  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **1**     |
-|           |           |           |           |           | esito     |
-|           |           |           |           |           | negativo  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | **n>1**   |
-|           |           |           |           |           | altri     |
-|           |           |           |           |           | esiti     |
-|           |           |           |           |           | da        |
-|           |           |           |           |           | definire  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| descr     | 3         | an        | 0..1      | 140       | Testo     |
-| izioneEsi |           |           |           |           | libero    |
-| to        |           |           |           |           | che, in   |
-|           |           |           |           |           | caso di   |
-|           |           |           |           |           | esito     |
-|           |           |           |           |           | negativo  |
-|           |           |           |           |           | (codiceEs |
-|           |           |           |           |           | ito<>0),  |
-|           |           |           |           |           | descrive  |
-|           |           |           |           |           | l’evento  |
-|           |           |           |           |           | stesso.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+|             **Dato**             | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| esitoAvvisoDigitale              | 1       | s          | 1..1    |         | Struttura                                    |
+|                                  |         |            |         |         | che contiene i dati circa l'esito degli      |
+|                                  |         |            |         |         | avvisi digitali.                             |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| identificativoDominio            | 2       | an         | 1..1    | 1..35   | Campo alfanumerico contenente                |
+|                                  |         |            |         |         | il codice fiscale della struttura            |
+|                                  |         |            |         |         | che invia l'avviso Digitale.                 |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| identificativoMessaggioRichiesta | 2       | an         | 1..1    | 1..20   | Identificativo                               |
+|                                  |         |            |         |         | univoco dell'avviso digitale di cui il       |
+|                                  |         |            |         |         | sistema sta fornendo l’Esito.                |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| esitoAvvisatura                  | 2       | s          | 0..n    |         | Struttura                                    |
+|                                  |         |            |         |         | che contiene gli esiti del singolo invio     |
+|                                  |         |            |         |         | di Avviso Digitale.                          |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| tipoCanaleEsito                  | 3       | n          | 1..1    | 1       | Tipologia di canale usato per                |
+|                                  |         |            |         |         | inviare l’avviso all'utente.                 |
+|                                  |         |            |         |         | Può assumer i seguenti valori:               |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **0.**     Nessun canale                     |
+|                                  |         |            |         |         | **1.**     SMS                               |
+|                                  |         |            |         |         | **2.**     e-mail                            |
+|                                  |         |            |         |         | **3.**     mobile-payment                    |
+|                                  |         |            |         |         | **4.**     altro canale del PSP              |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| IdentificativoCanale             | 3       | an         | 0..1    | 1..35   | identificativo del canale “mobile”           |
+|                                  |         |            |         |         | a cui si riferisce l’esito dell’avvisatura.  |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **Deve essere presente e**                   |
+|                                  |         |            |         |         | **valorizzato nel caso di**                  |
+|                                  |         |            |         |         | **tipoCanaleEsito = 2 oppure 4**             |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| dataEsito                        | 3       | an         | 1..1    | 10      | Data di produzione dell'esito da parte       |
+|                                  |         |            |         |         | del NodoSPC o del canale di avvisatura       |
+|                                  |         |            |         |         | utilizzato secondo il formato ISO 8601       |
+|                                  |         |            |         |         | **[YYYY]-[MM]-[DD].**                        |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| codiceEsito                      | 3       | n          | 1..1    | 5       | Esito dell'invio riferito al singolo         |
+|                                  |         |            |         |         | canale.                                      |
+|                                  |         |            |         |         | Può assumere i seguenti valori:              |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         |                                              |
+|                                  |         |            |         |         | **0.**     esito positivo                    |
+|                                  |         |            |         |         | **1.**     esito negativo                    |
+|                                  |         |            |         |         | **n>1.**   altri esiti da definire           |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
+| descrizioneEsito                 | 3       | an         | 0..1    | 140     | Testo libero che, in caso di esito negativo  |
+|                                  |         |            |         |         | (codiceEsito<>0), descrive l’evento stesso   |
++----------------------------------+---------+------------+---------+---------+----------------------------------------------+
 
 File XML scambiati con l’Ente Creditore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
