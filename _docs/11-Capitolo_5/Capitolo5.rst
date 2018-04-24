@@ -3000,40 +3000,16 @@ Digitale.
 
 **Tabella** **17 - Tracciato XML per comunicazione “Catalogo dei Servizi”**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| lista     | 1         | s         | 1..1      |           | Lista     |
-| CatalogoS |           |           |           |           | delle     |
-| ervizi    |           |           |           |           | informati |
-|           |           |           |           |           | ve        |
-|           |           |           |           |           | Contropar |
-|           |           |           |           |           | te        |
-|           |           |           |           |           | valide    |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | giornata  |
-|           |           |           |           |           | corrente  |
-|           |           |           |           |           | (hh       |
-|           |           |           |           |           | 00-24)    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| catal     | 2         | s         | 1..n      |           | Numero    |
-| ogoServiz |           |           |           |           | non       |
-| i         |           |           |           |           | definito  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | occorrenz |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | catalog   |
-|           |           |           |           |           | oServizi  |
-|           |           |           |           |           | definita  |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | precedent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 5.        |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++----------------------+---------+------------+---------+---------+-------------------------------------------+
+|       **Dato**       | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                             |
++----------------------+---------+------------+---------+---------+-------------------------------------------+
+| listaCatalogoServizi | 1       | s          | 1..1    |         | Lista delle informative Controparte       |
+|                      |         |            |         |         | valide nella giornata corrente (hh 00-24) |
++----------------------+---------+------------+---------+---------+-------------------------------------------+
+| catalogoServizi      | 2       | s          | 1..n    |         | Numero non definito di occorrenze della   |
+|                      |         |            |         |         | struttura catalogoServizi definita nella  |
+|                      |         |            |         |         | precedente Tabella 5.                     |
++----------------------+---------+------------+---------+---------+-------------------------------------------+
 
 Ad ogni servizio presente nel Catalogo dei Servizi è associato un
 insieme di dati, specifici del servizio, e necessari all'Ente Creditore
