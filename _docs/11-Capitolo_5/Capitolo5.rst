@@ -2693,436 +2693,141 @@ di stretta pertinenza del singolo richiedente.
 
 **Tabella** **14 - Tracciato XML del flusso "Totali di Traffico - PSP"**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| versi     | 1         | an        | 1..1      | 1..16     | Versione  |
-| oneOggett |           |           |           |           | che       |
-| o         |           |           |           |           | identific |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | l’oggetto |
-|           |           |           |           |           | scambiato |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 1         | an        | 1..1      | 1..35     | Identific |
-| ificativo |           |           |           |           | ativo     |
-| Flusso    |           |           |           |           | del       |
-|           |           |           |           |           | Flusso    |
-|           |           |           |           |           | specifico |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | Quadratur |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | generato  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataO     | 1         | an        | 1..1      | 19        | Data e    |
-| raFlusso  |           |           |           |           | ora di    |
-|           |           |           |           |           | generazio |
-|           |           |           |           |           | ne        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | flusso    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| sogge     | 1         | s         | 1..1      | 1..35     | Elemento  |
-| ttoRichie |           |           |           |           | che       |
-| denteFLus |           |           |           |           | contiene  |
-| so        |           |           |           |           | il        |
-|           |           |           |           |           | soggetto  |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | richiede  |
-|           |           |           |           |           | il flusso |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | quadratur |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | al Nodo   |
-|           |           |           |           |           | mediante  |
-|           |           |           |           |           | primitiva |
-|           |           |           |           |           | .         |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Questo    |
-|           |           |           |           |           | soggetto  |
-|           |           |           |           |           | è stato   |
-|           |           |           |           |           | specifica |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | richiesta |
-|           |           |           |           |           | PEC dal   |
-|           |           |           |           |           | destinata |
-|           |           |           |           |           | rio       |
-|           |           |           |           |           | finale    |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | flusso.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 2         | an        | 1..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| Intermedi |           |           |           |           | dell’inte |
-| arioPSP   |           |           |           |           | rmediario |
-|           |           |           |           |           | PSP che   |
-|           |           |           |           |           | può       |
-|           |           |           |           |           | richieder |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | il flusso |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| quadr     | 1         | s         | 1..1      |           | Aggregazi |
-| aturaRPT  |           |           |           |           | one       |
-|           |           |           |           |           | relativa  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | quadratur |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | RPT.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| lista     | 2         | s         | 1..1      |           | Aggregazi |
-| Totali    |           |           |           |           | one       |
-|           |           |           |           |           | corrispon |
-|           |           |           |           |           | dente     |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | lista dei |
-|           |           |           |           |           | totaliAgg |
-|           |           |           |           |           | regati    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataI     | 1         | an        | 1..1      | 19        | Data di   |
-| nizioPeri |           |           |           |           | inizio    |
-| odo       |           |           |           |           | periodo   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | rilevazio |
-|           |           |           |           |           | ne        |
-|           |           |           |           |           | dei dati  |
-|           |           |           |           |           | che fanno |
-|           |           |           |           |           | parte dei |
-|           |           |           |           |           | totali di |
-|           |           |           |           |           | traffico  |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataF     | 1         | an        | 1..1      | 19        | Data di   |
-| inePeriod |           |           |           |           | fine      |
-| o         |           |           |           |           | periodo   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | rilevazio |
-|           |           |           |           |           | ne        |
-|           |           |           |           |           | dei dati  |
-|           |           |           |           |           | che fanno |
-|           |           |           |           |           | parte dei |
-|           |           |           |           |           | totali di |
-|           |           |           |           |           | traffico  |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss]    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| quadr     | 1         | s         | 1..1      |           | Aggregazi |
-| aturaRPT  |           |           |           |           | one       |
-|           |           |           |           |           | relativa  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | quadratur |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | RPT.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| lista     | 2         | s         | 1..1      |           | Elemento  |
-| Totali    |           |           |           |           | che       |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | la lista  |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | totali    |
-|           |           |           |           |           | aggregati |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 3         | s         | 0..n      |           | Aggregazi |
-| iAggregat |           |           |           |           | one       |
-| i         |           |           |           |           | dei       |
-|           |           |           |           |           | totali,   |
-|           |           |           |           |           | relativi  |
-|           |           |           |           |           | alle RPT  |
-|           |           |           |           |           | inviate   |
-|           |           |           |           |           | dal       |
-|           |           |           |           |           | soggetto  |
-|           |           |           |           |           | a cui è   |
-|           |           |           |           |           | riferita  |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | quadratur |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | (PSP o    |
-|           |           |           |           |           | Intermedi |
-|           |           |           |           |           | ario      |
-|           |           |           |           |           | PSP).     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 4         | s         | 1..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| DominioMi |           |           |           |           | dell’Ente |
-| ttente    |           |           |           |           | Creditore |
-|           |           |           |           |           | che invia |
-|           |           |           |           |           | la RPT.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 4         | s         | 1..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| PSPDestin |           |           |           |           | della PSP |
-| atario    |           |           |           |           | destinata |
-|           |           |           |           |           | rio       |
-|           |           |           |           |           | finale    |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | RPT.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 4         | s         | 1..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| CanaleDes |           |           |           |           | del       |
-| tinatario |           |           |           |           | Canale    |
-|           |           |           |           |           | dell’Inte |
-|           |           |           |           |           | rmediario |
-|           |           |           |           |           | del PSP,  |
-|           |           |           |           |           | destinata |
-|           |           |           |           |           | rio       |
-|           |           |           |           |           | delle RPT |
-|           |           |           |           |           | transitat |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dal Nodo. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 4         | s         | 1..1      |           | totali    |
-| iInAttesa |           |           |           |           | relativi  |
-|           |           |           |           |           | agli      |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | RPT di    |
-|           |           |           |           |           | cui non   |
-|           |           |           |           |           | si è      |
-|           |           |           |           |           | ancora    |
-|           |           |           |           |           | ricevuta  |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | conferma  |
-|           |           |           |           |           | dal       |
-|           |           |           |           |           | destinata |
-|           |           |           |           |           | rio.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 5         | an        | 1..1      | 1..18     | totale    |
-| eImporti  |           |           |           |           | degli     |
-|           |           |           |           |           | importi   |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | nello     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | cui al    |
-|           |           |           |           |           | livello   |
-|           |           |           |           |           | superiore |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | aggregazi |
-|           |           |           |           |           | one       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 5         | an        | 1..1      | 1..15     | totale    |
-| eOggetti  |           |           |           |           | relativo  |
-|           |           |           |           |           | al numero |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | nello     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | cui al    |
-|           |           |           |           |           | livello   |
-|           |           |           |           |           | superiore |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | aggregazi |
-|           |           |           |           |           | one       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 4         | s         | 1..1      |           | totali    |
-| iConsegna |           |           |           |           | relativi  |
-| te        |           |           |           |           | agli      |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | RPT       |
-|           |           |           |           |           | confermat |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | dal       |
-|           |           |           |           |           | destinata |
-|           |           |           |           |           | rio       |
-|           |           |           |           |           | tecnico   |
-|           |           |           |           |           | (canale   |
-|           |           |           |           |           | dell’Inte |
-|           |           |           |           |           | rmediario |
-|           |           |           |           |           | )         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 5         | an        | 1..1      | 1..18     | totale    |
-| eImporti  |           |           |           |           | degli     |
-|           |           |           |           |           | importi   |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | nello     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | cui al    |
-|           |           |           |           |           | livello   |
-|           |           |           |           |           | superiore |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | aggregazi |
-|           |           |           |           |           | one       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 5         | an        | 1..1      | 1..15     | totale    |
-| eOggetti  |           |           |           |           | relativo  |
-|           |           |           |           |           | al numero |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | nello     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | cui al    |
-|           |           |           |           |           | livello   |
-|           |           |           |           |           | superiore |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | aggregazi |
-|           |           |           |           |           | one       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| quadr     | 1         | s         | 1..1      |           | Aggregazi |
-| aturaRT   |           |           |           |           | one       |
-|           |           |           |           |           | relativa  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | quadratur |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | delle RT. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| lista     | 2         | s         | 1..1      |           | Elemento  |
-| Totali    |           |           |           |           | che       |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | la lista  |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | totali    |
-|           |           |           |           |           | aggregati |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 3         | s         | 0..n      |           | Aggregazi |
-| iAggregat |           |           |           |           | one       |
-| i         |           |           |           |           | dei       |
-|           |           |           |           |           | totali,   |
-|           |           |           |           |           | relativi  |
-|           |           |           |           |           | alle RT   |
-|           |           |           |           |           | inviate   |
-|           |           |           |           |           | dal       |
-|           |           |           |           |           | soggetto  |
-|           |           |           |           |           | a cui è   |
-|           |           |           |           |           | riferita  |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | quadratur |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | (PSP o    |
-|           |           |           |           |           | Intermedi |
-|           |           |           |           |           | ario      |
-|           |           |           |           |           | PSP).     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 4         | an        | 1..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| PSPMitten |           |           |           |           | del PSP   |
-| te        |           |           |           |           | che ha    |
-|           |           |           |           |           | generato  |
-|           |           |           |           |           | la RT     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 4         | an        | 1..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| CanaleMit |           |           |           |           | del       |
-| tente     |           |           |           |           | Canale    |
-|           |           |           |           |           | dell’Inte |
-|           |           |           |           |           | rmediario |
-|           |           |           |           |           | PSP,      |
-|           |           |           |           |           | mittente  |
-|           |           |           |           |           | tecnico   |
-|           |           |           |           |           | della RT. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     |           | an        | 1..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| DominioDe |           |           |           |           | dell’Ente |
-| stinatari |           |           |           |           | Creditore |
-| o         |           |           |           |           | che       |
-|           |           |           |           |           | riceve la |
-|           |           |           |           |           | RT.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 4         | s         | 1..1      |           | totali    |
-| iInAttesa |           |           |           |           | relativi  |
-|           |           |           |           |           | agli      |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | RT di cui |
-|           |           |           |           |           | non si è  |
-|           |           |           |           |           | ancora    |
-|           |           |           |           |           | ricevuta  |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | conferma  |
-|           |           |           |           |           | dal       |
-|           |           |           |           |           | destinata |
-|           |           |           |           |           | rio       |
-|           |           |           |           |           | tecnico   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 5         | an        | 1..1      | 1..18     | totale    |
-| eImporti  |           |           |           |           | degli     |
-|           |           |           |           |           | importi   |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | nello     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | cui al    |
-|           |           |           |           |           | livello   |
-|           |           |           |           |           | superiore |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | aggregazi |
-|           |           |           |           |           | one       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 5         | an        | 1..1      | 1..15     | totale    |
-| eOggetti  |           |           |           |           | relativo  |
-|           |           |           |           |           | al numero |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | nello     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | cui al    |
-|           |           |           |           |           | livello   |
-|           |           |           |           |           | superiore |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | aggregazi |
-|           |           |           |           |           | one       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 4         | s         | 1..1      |           | totali    |
-| iConsegna |           |           |           |           | relativi  |
-| te        |           |           |           |           | agli      |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | RT        |
-|           |           |           |           |           | confermat |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dal       |
-|           |           |           |           |           | destinata |
-|           |           |           |           |           | rio       |
-|           |           |           |           |           | tecnico   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| total     | 5         | an        | 1..1      | 1..18     | totale    |
-| eImporti  |           |           |           |           | degli     |
-|           |           |           |           |           | importi   |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | nello     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | cui al    |
-|           |           |           |           |           | livello   |
-|           |           |           |           |           | superiore |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | aggregazi |
-|           |           |           |           |           | one       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| totale    | 5         | an        | 1..1      | 1..15     | totale    |
-| Oggetti   |           |           |           |           | relativo  |
-|           |           |           |           |           | al numero |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | oggetti   |
-|           |           |           |           |           | nello     |
-|           |           |           |           |           | stato di  |
-|           |           |           |           |           | cui al    |
-|           |           |           |           |           | livello   |
-|           |           |           |           |           | superiore |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | aggregazi |
-|           |           |           |           |           | one       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+|              **Dato**             | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                 |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| versioneOggetto                   | 1       | an         | 1..1    | 1..16   | Versione                                      |
+|                                   |         |            |         |         | che identifica l’oggetto scambiato.           |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| identificativoFlusso              | 1       | an         | 1..1    | 1..35   | Identificativo del Flusso specifico           |
+|                                   |         |            |         |         | di Quadratura                                 |
+|                                   |         |            |         |         | generato                                      |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| dataOraFlusso                     | 1       | an         | 1..1    | 19      | Data e ora di generazione del flusso,         |
+|                                   |         |            |         |         | secondo il formato ISO 8601                   |
+|                                   |         |            |         |         |                                               |
+|                                   |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**           |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| soggettoRichiedenteFlusso         | 1       | s          | 1..1    | 1..35   | Elemento che contiene il soggetto che         |
+|                                   |         |            |         |         | richiede il flusso di quadratura al           |
+|                                   |         |            |         |         | Nodo mediante primitiva.                      |
+|                                   |         |            |         |         | Questo soggetto è stato specificato           |
+|                                   |         |            |         |         | nella richiesta PEC dal destinatario          |
+|                                   |         |            |         |         | finale del flusso.                            |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| identificativoIntermediarioPSP    | 2       | an         | 1..1    | 1..35   | Identificativo                                |
+|                                   |         |            |         |         | dell’intermediario                            |
+|                                   |         |            |         |         | dell’Ente Creditore                           |
+|                                   |         |            |         |         | che può richiedere il flusso                  |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| quadraturaRPT                     | 1       | s          | 1..1    |         | Aggregazione                                  |
+|                                   |         |            |         |         | relativa alla quadratura delle RPT.           |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| listaTotali                       | 2       | s          | 1..1    |         | Aggregazione                                  |
+|                                   |         |            |         |         | corrispondente alla lista dei                 |
+|                                   |         |            |         |         | totaliAggregati                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| dataInizioPeriodo                 | 1       | an         | 1..1    | 19      | Data di inizio periodo di rilevazione dei     |
+|                                   |         |            |         |         | dati che fanno parte dei totali di traffico   |
+|                                   |         |            |         |         | secondo il formato ISO 8601                   |
+|                                   |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**           |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| dataFinePeriodo                   | 1       | an         | 1..1    | 19      | Data di fine periodo di rilevazione dei       |
+|                                   |         |            |         |         | dati che fanno parte dei totali di traffico   |
+|                                   |         |            |         |         | secondo il formato ISO 8601                   |
+|                                   |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**           |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| quadraturaRPT                     | 1       | s          | 1..1    |         | Aggregazione                                  |
+|                                   |         |            |         |         | relativa alla quadratura delle RPT.           |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| listaTotali                       | 2       | s          | 1..1    |         | Aggregazione                                  |
+|                                   |         |            |         |         | corrispondente alla lista dei                 |
+|                                   |         |            |         |         | totaliAggregati                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaliAggregati                   | 3       | s          | 0..n    |         | Aggregazione dei totali,                      |
+|                                   |         |            |         |         | relativi alle RPT inviate dal soggetto        |
+|                                   |         |            |         |         | a cui è riferita la quadratura                |
+|                                   |         |            |         |         | (Dominio o Intermediario dell’Ente            |
+|                                   |         |            |         |         | Creditore).                                   |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| identificativoDominioMittente     | 4       | s          | 1..1    | 1..35   | identificativo dell’Ente Creditore            |
+|                                   |         |            |         |         | che invia la RPT.                             |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| identificativoPSPDestinatario     | 4       | s          | 1..1    | 1..35   | identificativo della PSP                      |
+|                                   |         |            |         |         | destinatario finale della RPT.                |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| identificativoCanaleDestinatario  | 4       | s          | 1..1    | 1..35   | identificativo del Canale                     |
+|                                   |         |            |         |         | dell’Intermediario del PSP, destinatario      |
+|                                   |         |            |         |         | delle RPT transitate dal Nodo.                |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaliInAttesa                    | 4       | s          | 1..1    |         | totali relativi agli oggetti RPT di cui       |
+|                                   |         |            |         |         | non si è ancora ricevuta la conferma          |
+|                                   |         |            |         |         | dal destinatario                              |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaleImporti                     | 5       | an         | 1..1    | 1..18   | totale degli importi degli oggetti nello      |
+|                                   |         |            |         |         | stato di cui al livello superiore di          |
+|                                   |         |            |         |         | aggregazione                                  |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaleOggetti                     | 5       | an         | 1..1    | 1..15   | totale relativo al numero degli oggetti       |
+|                                   |         |            |         |         | nello stato di cui al livello superiore       |
+|                                   |         |            |         |         | di aggregazione                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaliConsegnate                  | 4       | s          | 1..1    |         | totali relativi agli oggetti RPT              |
+|                                   |         |            |         |         | confermati dal destinatario                   |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaleImporti                     | 5       | an         | 1..1    | 1..18   | totale degli importi degli oggetti nello      |
+|                                   |         |            |         |         | stato di cui al livello superiore             |
+|                                   |         |            |         |         | di aggregazione                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaleOggetti                     | 5       | an         | 1..1    | 1..15   | totale relativo al numero degli oggetti       |
+|                                   |         |            |         |         | nello stato di cui al livello superiore       |
+|                                   |         |            |         |         | di aggregazione                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| quadraturaRT                      | 1       | s          | 1..1    |         | Aggregazione                                  |
+|                                   |         |            |         |         | relativa alla quadratura delle RT.            |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| listaTotali                       | 2       | s          | 1..1    |         | Elemento                                      |
+|                                   |         |            |         |         | che identifica la lista dei totali            |
+|                                   |         |            |         |         | aggregati.                                    |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaliAggregati                   | 3       | s          | 0..1    |         | Aggregazione dei totali,                      |
+|                                   |         |            |         |         | relativi alle RT inviate dal soggetto a cui è |
+|                                   |         |            |         |         | riferita la quadratura                        |
+|                                   |         |            |         |         | (PSP o Intermediario PSP).                    |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| identificativoIntermediario       | 4       | an         | 1..1    | 1..35   | identificativo del PSP che ha                 |
+| PSPMittente                       |         |            |         |         | generato la RT                                |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| identificativoCanaleMittente      | 4       | an         | 1..1    | 1..35   | identificativo del Canale                     |
+|                                   |         |            |         |         | dell’Intermediario PSP, mittente tecnico      |
+|                                   |         |            |         |         | della RT.                                     |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| identificativoDominioDestinatario |         | an         | 1..1    | 1..35   | identificativo dell’Ente Creditore che        |
+|                                   |         |            |         |         | riceve la RT.                                 |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaliInAttesa                    | 4       | s          | 1..1    |         | totali relativi agli oggetti RT di cui        |
+|                                   |         |            |         |         | non si è ancora ricevuta la conferma          |
+|                                   |         |            |         |         | dal destinatario                              |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaleImporti                     | 5       | an         | 1..1    | 1..18   | totale degli importi degli oggetti nello      |
+|                                   |         |            |         |         | stato di cui al livello superiore             |
+|                                   |         |            |         |         | di aggregazione                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaleOggetti                     | 5       | an         | 1..1    | 1..15   | totale relativo al numero degli oggetti       |
+|                                   |         |            |         |         | nello stato di cui al livello superiore       |
+|                                   |         |            |         |         | di aggregazione                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaliConsegnate                  | 4       | s          | 1..1    |         | totali relativi agli oggetti RT confermati    |
+|                                   |         |            |         |         | dal destinatario                              |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaleImporti                     | 5       | an         | 1..1    | 1..18   | totale degli importi degli oggetti nello      |
+|                                   |         |            |         |         | stato di cui al livello superiore             |
+|                                   |         |            |         |         | di aggregazione                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
+| totaleOggetti                     | 5       | an         | 1..1    | 1..15   | totale relativo al numero degli oggetti       |
+|                                   |         |            |         |         | nello stato di cui al livello superiore       |
+|                                   |         |            |         |         | di aggregazione                               |
++-----------------------------------+---------+------------+---------+---------+-----------------------------------------------+
 
 Si noti che l'elemento identificativoIntermediarioPAMittente, presente
 nella versione 1.6.1, è stato sostituito con l'elemento
