@@ -1,52 +1,18 @@
 document:
-  name: Specifiche Attuative Nodo (SANP)
+  name: Specifiche Attuative del Nodo dei Pagamenti-SPC
   description: |
-    Il presente documento denominato ìSpecifiche Attuative 
-    del Nodo dei Pagamenti-SPCî rappresenta líAllegato B alle 
-    ìLinee guida per l'effettuazione dei pagamenti a favore  	
-    delle pubbliche amministrazioni e dei gestori di pubblici serviziî 
+    Il presente documento denominato ‚ÄúSpecifiche Attuative 
+    del Nodo dei Pagamenti-SPC‚Äù rappresenta l‚ÄôAllegato B alle 
+    ‚ÄúLinee guida per l'effettuazione dei pagamenti a favore  	
+    delle pubbliche amministrazioni e dei gestori di pubblici servizi‚Äù 
     e deve essere utilizzato in combinazione con il documento 
     "Specifiche attuative dei codici identificativi di versamento,
     riversamento e rendicontazione" 
-    (Allegato A), nonchÈ con le stesse Linee guida; 
+    (Allegato A), nonch√© con le stesse Linee guida; 
     documenti ai quali si rimanda per tutte le voci e gli 
     argomenti non specificatamente qui indicati.    
   tags:
-    - Guida per gli esercenti
-    - esercenti
-    - Piano di sviluppo
-    - DAF Dataportal
-    - DAF
-    - Linee guida Pubblica Amministrazione
-    - Pubblica Amministrazione
+    - SANP
     - pagoPA
     - PA
-    - Pagamenti-SPC
-    - Docs Italia
-    - Nodo dei Pagamenti-SPC
-    - SPC
-    - PSP
-    - AgID 
-    - SEPA
-    - SIPA
-    - SPCoop
-    - Web-FESP
-    - WISP
-    - FESP
-    - IUV
-    - SACI
-    - SANP
-    - Nodo
-    - CAD
-    - CCP
-    - Certificato digitale
-    - Ente Aggregatore
-    - ER
-    - Initiating Party
-    - PdD
-    - PdDE
-    - Bollo Digitale
-    - RT
-    - RPT
-    - Seller Bank
-    - Linee guida
+    - AgID
