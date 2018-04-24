@@ -1263,10 +1263,10 @@ di pagamento per richiedere lo “storno” di un pagamento.
 |                    |         |            |         |         |                  | Revoca della RT e può assumere          |
 |                    |         |            |         |         |                  | i seguenti valori:                      |
 |                    |         |            |         |         |                  |                                         |
-|                    |         |            |         |         |                  |                                         |
-|                    |         |            |         |         |                  |                                         |
 |                    |         |            |         |         |                  | **0** tipo non codificato               |
+|                    |         |            |         |         |                  |                                         |
 |                    |         |            |         |         |                  | **1** annullo tecnico                   |
+|                    |         |            |         |         |                  |                                         |
 |                    |         |            |         |         |                  | **2** procedura di charge back          |
 |                    |         |            |         |         |                  |                                         |
 |                    |         |            |         |         |                  |                                         |
@@ -1795,7 +1795,7 @@ in Tabella 8.
 |                                 |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**          |
 |                                 |         |            |         |         | Dev’essere maggiore della                    |
 |                                 |         |            |         |         | dataPubblicazione                            |
-|                                 |         |            |         |         |  contenuta nell’ultimo flusso di             |
+|                                 |         |            |         |         | contenuta nell’ultimo flusso di              |
 |                                 |         |            |         |         | informativa dell’Ente Creditore              |
 |                                 |         |            |         |         | caricato nel Nodo.                           |
 +---------------------------------+---------+------------+---------+---------+----------------------------------------------+
