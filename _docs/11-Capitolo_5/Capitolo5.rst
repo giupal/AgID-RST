@@ -3350,51 +3350,20 @@ degli avvisi.
 
 **Tabella** **21 - Tracciato XML per comunicazione “Lista Avvisi digitali”**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| lista     | 1         | s         | 1..1      |           | Lista     |
-| AvvisiDig |           |           |           |           | degli     |
-| itali     |           |           |           |           | avvisi    |
-|           |           |           |           |           | digitali  |
-|           |           |           |           |           | trasmessi |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| versi     | 2         | an        | 1..1      | 1..16     | Versione  |
-| oneOggett |           |           |           |           | che       |
-| o         |           |           |           |           | identific |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | l’oggetto |
-|           |           |           |           |           | scambiato |
-|           |           |           |           |           | e lo      |
-|           |           |           |           |           | schema    |
-|           |           |           |           |           | XSD per   |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | verifica  |
-|           |           |           |           |           | sintattic |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | dell’avvi |
-|           |           |           |           |           | so.       |
-|           |           |           |           |           |           |
-|           |           |           |           |           | (Esempio: |
-|           |           |           |           |           | 1.0)      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| avvis     | 2         | s         | 1..10\ :s |           | Numero    |
-| oDigitale |           |           | up:`5`    |           | non       |
-|           |           |           |           |           | definito  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | occorrenz |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | avvisoDig |
-|           |           |           |           |           | itale     |
-|           |           |           |           |           | così come |
-|           |           |           |           |           | definita  |
-|           |           |           |           |           | in        |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 19.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++---------------------+---------+------------+---------+---------+---------------------------------------+
+|       **Dato**      | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                         |
++---------------------+---------+------------+---------+---------+---------------------------------------+
+| listaAvvisiDigitali | 1       | s          | 1..1    |         | Lista degli avvisi digitali trasmessi |
++---------------------+---------+------------+---------+---------+---------------------------------------+
+| versioneOggetto     | 2       | an         | 1..1    | 1..16   | Versione che identifica l’oggetto     |
+|                     |         |            |         |         | scambiato e lo schema XSD per la      |
+|                     |         |            |         |         | verifica sintattica dell’avviso.      |
+|                     |         |            |         |         | (Esempio: 1.0)                        |
++---------------------+---------+------------+---------+---------+---------------------------------------+
+| avvisoDigitale      | 2       | s          | 1..10   |         | Numero non definito di occorrenze     |
+|                     |         |            |         |         | della struttura avvisoDigitale        |
+|                     |         |            |         |         |  così come definita in Tabella 19.    |
++---------------------+---------+------------+---------+---------+---------------------------------------+
 
 Per problemi di gestibilità del servizio di avvisatura, il numero
 massimo delle occorrenze di avvisi digitali presenti in un flusso
