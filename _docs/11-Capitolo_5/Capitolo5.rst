@@ -717,7 +717,7 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         |                 | ottetti) risultato di tale                |
 |                         |         |            |         |         |                 | algoritmo deve essere                     |
 |                         |         |            |         |         |                 | convertito                                |
-|                         |         |            |         |         |                 | in base64                                 |
+|                         |         |            |         |         |                 | in base64 [2]_                            |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | provinciaResidenza      | 4       | an         |         | 2       | Proprietary     | Sigla automobilistica                     |
 |                         |         |            |         |         | Code            | della provincia di                        |
@@ -909,8 +909,8 @@ pubblici su ordine dell'utilizzatore finale.
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
 | soggettoPagatore     | 1       | s          | 1..1    |         | Ultimate Debtor        | Riporta                              |
 |                      |         |            |         |         | /                      | le stesse informazioni               |
-|                      |         |            |         |         | Debtor [3]_            | presenti nel blocco                  |
-|                      |         |            |         |         |                        | “soggettoPagatore”                   |
+|                      |         |            |         |         | Debtor                 | presenti nel blocco                  |
+|                      |         |            |         |         | [3]_                   | “soggettoPagatore”                   |
 |                      |         |            |         |         |                        | della Richiesta di                   |
 |                      |         |            |         |         |                        | Pagamento Telematico                 |
 |                      |         |            |         |         |                        |                                      |
@@ -1212,8 +1212,8 @@ di pagamento per richiedere lo “storno” di un pagamento.
 +--------------------+---------+------------+---------+---------+------------------+-----------------------------------------+
 | soggettoPagatore   | 1       | s          | 1..1    |         | Ultimate Debtor  | Riporta                                 |
 |                    |         |            |         |         | /                | le stesse informazioni                  |
-|                    |         |            |         |         | Debtor [3]_      | presenti nel blocco                     |
-|                    |         |            |         |         |                  | “soggettoPagatore”                      |
+|                    |         |            |         |         | Debtor           | presenti nel blocco                     |
+|                    |         |            |         |         | [4]_             | “soggettoPagatore”                      |
 |                    |         |            |         |         |                  | della Ricevuta Telematica               |
 |                    |         |            |         |         |                  | **(RT)** cui si riferisce il            |
 |                    |         |            |         |         |                  | messaggio di Richiesta                  |
@@ -1373,8 +1373,8 @@ relativa allo “storno” di un pagamento.
 |                         |         |            |         |         |                    | le stesse informazioni presenti nel       |
 |                         |         |            |         |         | /                  | blocco “soggettoPagatore” del             |
 |                         |         |            |         |         |                    | messaggio Richiesta                       |
-|                         |         |            |         |         | Debtor [3]_        | di Revoca (RR)                            |
-|                         |         |            |         |         |                    | cui si riferisce il messaggio di          |
+|                         |         |            |         |         | Debtor             | di Revoca (RR)                            |
+|                         |         |            |         |         | [5]_               | cui si riferisce il messaggio di          |
 |                         |         |            |         |         |                    | Esito Revoca.                             |
 +-------------------------+---------+------------+---------+---------+--------------------+-------------------------------------------+
 | datiRevoca              | 1       | s          | 1..1    |         |                    | Aggregazione                              |
