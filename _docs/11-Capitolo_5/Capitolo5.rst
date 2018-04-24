@@ -2517,38 +2517,16 @@ Digitale.
 **Tabella** **12 - Tracciato XML per comunicazione “Catalogo Dati Informativi”**
 
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **c**     | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| lista     | 1         | s         | 1..1      |           | Lista     |
-| Informati |           |           |           |           | delle     |
-| vePSP     |           |           |           |           | informati |
-|           |           |           |           |           | ve        |
-|           |           |           |           |           | PSP       |
-|           |           |           |           |           | valide    |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | giornata  |
-|           |           |           |           |           | corrente  |
-|           |           |           |           |           | (hh       |
-|           |           |           |           |           | 00-24)    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| infor     | 1         | s         | 1..n      |           | Numero    |
-| mativaPSP |           |           |           |           | non       |
-|           |           |           |           |           | definito  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | occorrenz |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | informati |
-|           |           |           |           |           | vaPSP     |
-|           |           |           |           |           | definita  |
-|           |           |           |           |           | nella     |
-|           |           |           |           |           | tabella   |
-|           |           |           |           |           | precedent |
-|           |           |           |           |           | e         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++-----------------+----------+------------+----------+---------+---------------------------------------------+
+| **Dato**        | **Liv**  | **Genere** | **Occ**  | **Len** | **Contenuto**                               |
++=================+==========+============+==========+=========+=============================================+
+| listaInformati  | 1        | s          | 1..1     |         | Lista delle informative PSP valide nella    |
+|                 |          |            |          |         | giornata corrente (hh 00-24)                |
++-----------------+----------+------------+----------+---------+---------------------------------------------+
+| informativaPSP  | 1        | s          | 1..n     |         | Numero non definito di occorrenze della     |
+|                 |          |            |          |         | struttura *informativaPSP* definita nella   |
+|                 |          |            |          |         | tabella precedente                          |
++-----------------+----------+------------+----------+---------+---------------------------------------------+
 
 Flusso “Totali di Traffico” per gli Enti Creditori
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
