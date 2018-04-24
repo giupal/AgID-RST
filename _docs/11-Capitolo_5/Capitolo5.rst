@@ -680,11 +680,11 @@ a favore dello stesso Ente Creditore.
 |                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 |                                           |
 |                         |         |            |         |         |                 | - **0** Capitolo e articolo di            |
-|                         |         |            |         |         |                 |         Entrata del Bilancio dello Stato  |
+|                         |         |            |         |         |                 | Entrata del Bilancio dello Stato          |
 |                         |         |            |         |         |                 | - **1** Numero della contabilità speciale |
 |                         |         |            |         |         |                 | - **2** Codice,SIOPE                      |
 |                         |         |            |         |         |                 | - **9** Altro codice ad uso               |
-|                         |         |            |         |         |                 |         dell’Ente Creditore               |
+|                         |         |            |         |         |                 | dell’Ente Creditore                       |
 +-------------------------+---------+------------+---------+---------+-----------------+-------------------------------------------+
 | datiMarca               | 3       | s          |         |         |                 | Aggregazione che contiene                 |
 | BolloDigitale           |         |            |         |         |                 | le informazioni necessarie al             |
@@ -965,8 +965,8 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        | **l’importo del pagamento**          |
 |                      |         |            |         |         |                        | **deve essere**                      |
 |                      |         |            |         |         |                        | **impostato a 0.00 anche se**        |
-|                      |         |            |         |         |                        | ** non se ne conosce**               |
-|                      |         |            |         |         |                        | **l’ammontare effettivo, **          |
+|                      |         |            |         |         |                        | **non se ne conosce**                |
+|                      |         |            |         |         |                        | **l’ammontare effettivo,**           |
 |                      |         |            |         |         |                        | **in quanto non è disponibile**      |
 |                      |         |            |         |         |                        | **dal PSP l’esito del**              |
 |                      |         |            |         |         |                        | **pagamento.**                       |
@@ -1042,7 +1042,7 @@ pubblici su ordine dell'utilizzatore finale.
 | dataEsitoSingolo     | 3       | an         | 1..1    | 10      | Acceptance Date        | Indica la                            |
 | Pagamento            |         |            |         |         |                        | data di esecuzione, di rifiuto o     |
 |                      |         |            |         |         |                        | di revoca del pagamento,             |
-|                      |         |            |         |         |                        |  nel formato                         |
+|                      |         |            |         |         |                        | nel formato                          |
 |                      |         |            |         |         |                        | ISO 8601                             |
 |                      |         |            |         |         |                        | [YYYY]-[MM]-[DD].                    |
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
@@ -1148,6 +1148,7 @@ pubblici su ordine dell'utilizzatore finale.
 |                      |         |            |         |         |                        | è trasportato nella                  |
 |                      |         |            |         |         |                        | ricevuta telematica secondo la       |
 |                      |         |            |         |         |                        | codifica in “base64 binary”.         |
+|                      |         |            |         |         |                        |                                      |
 +----------------------+---------+------------+---------+---------+------------------------+--------------------------------------+
 
 Richiesta di Revoca (RR)
@@ -1505,7 +1506,7 @@ Pagamenti-SPC invia ad ogni prestatore di servizi di pagamento aderente.
 |                            |         |            |         |         | pagamenti c/o i PSP                         |
 |                            |         |            |         |         |                                             |
 |                            |         |            |         |         | - **1** CONSENTE i                          |
-|                            |         |            |         |         | agamenti c/o i PSP                          |
+|                            |         |            |         |         | pagamenti c/o i PSP                         |
 +----------------------------+---------+------------+---------+---------+---------------------------------------------+
 | contactCenterEnteCreditore | 2       | an         | 1..1    | 255     | Recapiti dell'Ente Creditore                |
 |                            |         |            |         |         | (Numero telefonico e/o                      |
@@ -1719,12 +1720,12 @@ in Tabella 7.
 |                        |         |            |         |         | comunicazione                               |
 |                        |         |            |         |         | relativa all’                               |
 |                        |         |            |         |         | identificativoFlusso                        |
-|                        |         |            |         |         |  corrente.                                  |
+|                        |         |            |         |         | corrente.                                   |
 |                        |         |            |         |         |                                             |
 |                        |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss]**         |
 |                        |         |            |         |         | Dev’essere maggiore della                   |
 |                        |         |            |         |         | dataPubblicazione                           |
-|                        |         |            |         |         |  contenuta nell’ultimo flusso di            |
+|                        |         |            |         |         | contenuta nell’ultimo flusso di             |
 |                        |         |            |         |         | informativa dell’Ente Creditore             |
 |                        |         |            |         |         | caricato nel Nodo.                          |
 +------------------------+---------+------------+---------+---------+---------------------------------------------+
