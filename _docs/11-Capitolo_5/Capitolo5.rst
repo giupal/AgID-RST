@@ -3782,185 +3782,26 @@ all'interno del WSDL del servizio.
 
 **Tabella** **28 - Componenti del parametro elencoAvvisiDigitali**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| ident     | 2         | an        | 1..1      | 1..35     | Campo     |
-| ificativo |           |           |           |           | alfanumer |
-| Dominio   |           |           |           |           | ico       |
-|           |           |           |           |           | contenent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | dell'Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | che invia |
-|           |           |           |           |           | l'elenco  |
-|           |           |           |           |           | degli     |
-|           |           |           |           |           | avvisi    |
-|           |           |           |           |           | Digitali. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| elenc     | 2         | n         | 1..1      | 1         | Indica se |
-| oCompleto |           |           |           |           | l'elenco  |
-|           |           |           |           |           | fornito   |
-|           |           |           |           |           | contiene  |
-|           |           |           |           |           | tutte le  |
-|           |           |           |           |           | posizioni |
-|           |           |           |           |           | di debito |
-|           |           |           |           |           | per quel  |
-|           |           |           |           |           | soggetto  |
-|           |           |           |           |           | debitore  |
-|           |           |           |           |           | presso    |
-|           |           |           |           |           | l'Ente    |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | .         |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | i         |
-|           |           |           |           |           | seguenti  |
-|           |           |           |           |           | valori:   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 1. Elenco |
-|           |           |           |           |           | completo  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 2. Elenco |
-|           |           |           |           |           | incompleto|
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| numer     | 2         | n         | 1..1      | 3         | Numero    |
-| oAvvisi   |           |           |           |           | avvisi    |
-|           |           |           |           |           | presenti  |
-|           |           |           |           |           | nell'elen |
-|           |           |           |           |           | co.       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| avvis     | 2         | s         | 0..n      |           | Struttura |
-| oDigitale |           |           |           |           | facoltati |
-|           |           |           |           |           | va        |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | contiene  |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | informazi |
-|           |           |           |           |           | oni       |
-|           |           |           |           |           | dell'avvi |
-|           |           |           |           |           | so        |
-|           |           |           |           |           | digitale  |
-|           |           |           |           |           | in        |
-|           |           |           |           |           | modalità  |
-|           |           |           |           |           | *pull*.   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | La        |
-|           |           |           |           |           | struttura |
-|           |           |           |           |           | è         |
-|           |           |           |           |           | obbliga   |
-|           |           |           |           |           | toria     |
-|           |           |           |           |           | se        |
-|           |           |           |           |           | l'element |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | numeroA   |
-|           |           |           |           |           | vvisi     |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | maggiore  |
-|           |           |           |           |           | di 0.     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codice    | 3         | an        | 1..1      | 18        | Codice    |
-| Avviso    |           |           |           |           | dell’avvi |
-|           |           |           |           |           | so        |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | predispos |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | quanto    |
-|           |           |           |           |           | indicato  |
-|           |           |           |           |           | al §      |
-|           |           |           |           |           | 7.4.1     |
-|           |           |           |           |           | delle     |
-|           |           |           |           |           | SANP.     |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Contiene  |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | IUV.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| stato     | 3         | an        | 1..1      | 1.2       | 00 –      |
-| Pagamento |           |           |           |           | L’avviso  |
-|           |           |           |           |           | è         |
-|           |           |           |           |           | pagabile  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 01 –      |
-|           |           |           |           |           | L’avviso  |
-|           |           |           |           |           | è già     |
-|           |           |           |           |           | stato     |
-|           |           |           |           |           | pagato    |
-|           |           |           |           |           |           |
-|           |           |           |           |           | 02 –      |
-|           |           |           |           |           | L’avviso  |
-|           |           |           |           |           | non è     |
-|           |           |           |           |           | pagabile  |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| dataScade | 3         | an        | 0..1      | 10        | Indica la |
-| nzaAvviso |           |           |           |           | data,     |
-|           |           |           |           |           | successiv |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | alla data |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | scadenza  |
-|           |           |           |           |           | sino alla |
-|           |           |           |           |           | quale si  |
-|           |           |           |           |           | ritiene   |
-|           |           |           |           |           | valido    |
-|           |           |           |           |           | l'avviso, |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY     |
-|           |           |           |           |           | ]-[MM]-[  |
-|           |           |           |           |           | DD]       |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| importo   | 3         | an        | 1..1      | 3..12     | Campo     |
-| Avviso    |           |           |           |           | numerico  |
-|           |           |           |           |           | (due      |
-|           |           |           |           |           | cifre per |
-|           |           |           |           |           | la parte  |
-|           |           |           |           |           | decimale, |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | separator |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | centesimi |
-|           |           |           |           |           | è il      |
-|           |           |           |           |           | punto     |
-|           |           |           |           |           | “.”),     |
-|           |           |           |           |           | indicante |
-|           |           |           |           |           | l’importo |
-|           |           |           |           |           | relativo  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | somma da  |
-|           |           |           |           |           | versare.  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Deve      |
-|           |           |           |           |           | essere    |
-|           |           |           |           |           | maggiore  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | “0.10”.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| descr     | 3         | an        | 1..1      | 1..249    | Testo     |
-| izionePag |           |           |           |           | libero a  |
-| amento    |           |           |           |           | disposizi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | descriver |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | motivazio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
+.. csv-table:: **Tabella 28 - Componenti del parametro elencoAvvisiDigitali**
+   :header: "**Dato**","**Liv**","**Genere**","**Occ**","**Len**","**Contenuto**"
+   :widths: 15, 10, 30,10,10,10
+   
+   "identificativoDominio",2,"an","1..1","1..35","Campo alfanumerico contenente il codice fiscale dell'Ente Creditore che invia l'elenco degli avvisi Digitali."
+   "elencoCompleto",2,"n","1..1",1,"Indica se l'elenco fornito contiene tutte le posizioni di debito per quel soggetto debitore presso l'Ente Creditore. Può assumere i seguenti valori:
+   
+   - 0 Elenco completo
+   - 1 Elenco incompleto"
+   "numeroAvvisi",2,"n","1..1",3,"Numero avvisi presenti nell'elenco."
+   "avvisoDigitale",2,"s","0..n",,"Struttura facoltativa che contiene le informazioni dell'avviso digitale in modalità pull. La struttura è **obbligatoria** se l'elemento **numeroAvvisi e maggiore di 0**."
+   "codiceAvviso",3,"an","1..1",18,"Codice dell’avviso di pagamento predisposto secondo quanto indicato al § 7.4.1 delle SANP. Contiene il codice IUV."
+   "statoPagamento",3,"an","1..1","1.2","
+   
+   - 00 L’avviso è pagabile 
+   - 01 L’avviso è già stato pagato
+   - 02 L’avviso non è pagabile"
+   "dataScadenzaAvviso",3,"an","0..1",10,"Indica la data, successiva alla data di scadenza sino alla quale si ritiene valido l'avviso, secondo il formato ISO 8601 **[YYYY]-[MM]-[DD]**"
+   "importoAvviso",3,"an","1..1","3..12","Campo numerico (due cifre per la parte decimale, il separatore dei centesimi è il punto “.”), indicante l’importo relativo alla somma da versare. **Deve essere maggiore di “0.10”**."
+   "descrizionePagamento",3,"an","1..1","1..249","Testo libero a disposizione dell’Ente per descrivere le motivazioni del pagamento."
 
 `Torna all'indice <../../index.rst>`__
 
