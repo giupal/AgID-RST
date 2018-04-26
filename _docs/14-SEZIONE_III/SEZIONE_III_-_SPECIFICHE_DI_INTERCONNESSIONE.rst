@@ -135,19 +135,20 @@ aderenti.
 
 **Tabella** **34 - Identificazione degli oggetti scambiati**
 
-+---------------------------------+-----------------------------------------+-----------------------------------+
-|             **Dato**            | **Pagamenti attivati presso EC**        | **Pagamenti attivati presso PSP** |
-|                                 | **(modello 1 e modello 2)**             | **(modello 3 e modello 4)**       |
-+---------------------------------+-----------------------------------------+-----------------------------------+
-| identificativoDominio           | Campo alfanumerico contenente il codice fiscale dell'Ente Creditore.        |
-|                                 |                                                                             |
-+---------------------------------+-----------------------------------------+-----------------------------------+
-| identificativoUnivocoVersamento | Riferimento univoco assegnato al pagamento dall’Ente Creditore.0            |
-|                                 |                                                                             |
-+---------------------------------+-----------------------------------------+-----------------------------------+
-| codiceContestoPagamento         | Assume il valore "n/a" oppure un codice | Codice univoco assegnato dal PSP. |
-|                                 | univoco assegnato dall'Ente Creditore.  |                                   |
-+---------------------------------+-----------------------------------------+-----------------------------------+
++---------------------------------+----------------------------------+-----------------------------------+
+|             **Dato**            | **Pagamenti attivati presso EC** | **Pagamenti attivati presso PSP** |
+|                                 | **(modello 1 e modello 2)**      | **(modello 3 e modello 4)**       |
++---------------------------------+----------------------------------+-----------------------------------+
+| identificativoDominio           | Campo alfanumerico contenente il codice fiscale dell'Ente Creditore. |
+|                                 |                                                                      |
++---------------------------------+----------------------------------+-----------------------------------+
+| identificativoUnivocoVersamento | Riferimento univoco assegnato al pagamento dall’Ente Creditore.0     |
+|                                 |                                                                      |
++---------------------------------+----------------------------------+-----------------------------------+
+| codiceContestoPagamento         | Assume il valore "n/a" oppure    | Codice univoco assegnato dal PSP. |
+|                                 | un codice univoco assegnato      |                                   |
+|                                 | dall'Ente Creditore.             |                                   |
++---------------------------------+----------------------------------+-----------------------------------+
 
 FINE DOCUMENTO
 
