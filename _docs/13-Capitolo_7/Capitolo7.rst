@@ -362,30 +362,29 @@ indicati in Tabella 33.
 
 **Formato B**
 
-+--------------------------------------+---------+------------+---------+---------+----------------------------------------+
-|               **Dato**               | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                          |
-+--------------------------------------+---------+------------+---------+---------+----------------------------------------+
-| spezzoniCausaleVersamento            | 1       | s          | 1..1    |         | Testo libero a disposizione dell’Ente  |
-|                                      |         |            |         |         | per descrivere le motivazioni del      |
-|                                      |         |            |         |         | pagamento.                             |
-+--------------------------------------+---------+------------+---------+---------+----------------------------------------+
-| spezzoneCausaleVersamento            | 2       | an         | 1..6    | 35      | Spezzone di testo libero.              |
-+--------------------------------------+---------+------------+---------+---------+----------------------------------------+
-| Oppure, in alternativa a             |         |            |         |         |                                        |
-| spezzoneCausaleVersamento,           |         |            |         |         |                                        |
-| la struttura sotto indicata          |         |            |         |         |                                        |
-+--------------------------------------+---------+------------+---------+---------+----------------------------------------+
-| spezzoneStrutturatoCausaleVersamento | 2       | s          | 1..6    |         | Spezzone strutturato.                  |
-+--------------------------------------+---------+------------+---------+---------+----------------------------------------+
-| causaleSpezzone                      | 3       | an         | 1..1    | 25      | Causale di pagamento legata al         |
-|                                      |         |            |         |         | singolo spezzone.                      |
-+--------------------------------------+---------+------------+---------+---------+----------------------------------------+
-| importoSpezzone                      | 3       | an         | 1..1    | 10      | Campo numerico (due cifre per la       |
-|                                      |         |            |         |         | parte decimale, il separatore dei      |
-|                                      |         |            |         |         | centesimi è il punto “.”), indicante   |
-|                                      |         |            |         |         | l’importo relativo alla somma facente  |
-|                                      |         |            |         |         | capo allo spezzone.                    |
-+--------------------------------------+---------+------------+---------+---------+----------------------------------------+
++-----------------------------+---------+------------+---------+---------+----------------------------------------+
+|               **Dato**      | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                          |
++-----------------------------+---------+------------+---------+---------+----------------------------------------+
+| spezzoniCausaleVersamento   | 1       | s          | 1..1    |         | Testo libero a disposizione dell’Ente  |
+|                             |         |            |         |         | per descrivere le motivazioni del      |
+|                             |         |            |         |         | pagamento.                             |
++-----------------------------+---------+------------+---------+---------+----------------------------------------+
+| spezzoneCausaleVersamento   | 2       | an         | 1..6    | 35      | Spezzone di testo libero.              |
++-----------------------------+---------+------------+---------+---------+----------------------------------------+
+| **Oppure, in alternativa a spezzoneCausaleVersamento, la struttura sotto indicata**                             |                      |                                                                                                                 |
++-----------------------------+---------+------------+---------+---------+----------------------------------------+
+| spezzoneStrutturato         | 2       | s          | 1..6    |         | Spezzone strutturato.                  |
+| CausaleVersamento           |         |            |         |         |                                        |
++-----------------------------+---------+------------+---------+---------+----------------------------------------+
+| causaleSpezzone             | 3       | an         | 1..1    | 25      | Causale di pagamento legata al         |
+|                             |         |            |         |         | singolo spezzone.                      |
++-----------------------------+---------+------------+---------+---------+----------------------------------------+
+| importoSpezzone             | 3       | an         | 1..1    | 10      | Campo numerico (due cifre per la       |
+|                             |         |            |         |         | parte decimale, il separatore dei      |
+|                             |         |            |         |         | centesimi è il punto “.”), indicante   |
+|                             |         |            |         |         | l’importo relativo alla somma facente  |
+|                             |         |            |         |         | capo allo spezzone.                    |
++-----------------------------+---------+------------+---------+---------+----------------------------------------+
 
 L'Ente Creditore può scegliere quale tipo di formato utilizzare; il PSP
 rende disponibili tali informazioni all'utilizzatore finale.
