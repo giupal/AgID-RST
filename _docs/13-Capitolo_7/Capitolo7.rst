@@ -371,7 +371,8 @@ indicati in Tabella 33.
 +-----------------------------+---------+------------+---------+---------+----------------------------------------+
 | spezzoneCausaleVersamento   | 2       | an         | 1..6    | 35      | Spezzone di testo libero.              |
 +-----------------------------+---------+------------+---------+---------+----------------------------------------+
-| **Oppure, in alternativa a spezzoneCausaleVersamento, la struttura sotto indicata**                             |                      |                                                                                                                 |
+| **Oppure, in alternativa a spezzoneCausaleVersamento, la struttura sotto indicata**                             |
+|                                                                                                                 |
 +-----------------------------+---------+------------+---------+---------+----------------------------------------+
 | spezzoneStrutturato         | 2       | s          | 1..6    |         | Spezzone strutturato.                  |
 | CausaleVersamento           |         |            |         |         |                                        |
