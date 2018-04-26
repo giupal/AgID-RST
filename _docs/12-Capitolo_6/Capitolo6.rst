@@ -101,7 +101,7 @@ richiesta, nei formati che saranno concordati.
 |                               |         |            |         |         | sistema del Soggetto richiedente nell’ambito        |
 |                               |         |            |         |         | del Dominio.                                        |
 |                               |         |            |         |         | (Es. *identificativoStazioneIntermediarioPA*        |
-|                               |         |            |         |         |  nel caso della *nodoInviaRPT*)                     |
+|                               |         |            |         |         | nel caso della *nodoInviaRPT*)                      |
 |                               |         |            |         |         |                                                     |
 |                               |         |            |         |         | Nel caso di eventi di tipo INTERNO, si può          |
 |                               |         |            |         |         | utilizzare un nome di componente o sotto            |
