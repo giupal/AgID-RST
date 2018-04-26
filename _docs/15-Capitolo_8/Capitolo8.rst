@@ -1327,20 +1327,12 @@ e. codiceContestoPagamento
 
 **Parametri di input**
 
-+-----------------------------------------------------------------------+
-| 5. password                                                           |
-+=======================================================================+
-| 6. identificativoPSP: per permettere di specificare il PSP            |
-+-----------------------------------------------------------------------+
-| 7. identificativoIntermediarioPSP                                     |
-+-----------------------------------------------------------------------+
-| 8. identificativoCanale: per permettere di specificare il percorso    |
-|    verso il PSP                                                       |
-+-----------------------------------------------------------------------+
-| 9. tipoFirma: **parametro deprecato**                                 |
-+-----------------------------------------------------------------------+
-| 10. RPT: file XML codificato in formato base64 binary (vedi Tabella 1)|
-+-----------------------------------------------------------------------+
+5. password                                                           
+6. identificativoPSP: per permettere di specificare il PSP     
+7. identificativoIntermediarioPSP                                     
+8. identificativoCanale: per permettere di specificare il percorso verso il PSP   
+9. tipoFirma: **parametro deprecato**                                 
+10. RPT: file XML codificato in formato base64 binary (vedi Tabella 1)
 
 **Parametri di output**
 
@@ -1655,103 +1647,103 @@ Di seguito i possibili valori del dato faultBean.faultCode:
 
 **Tabella** **35 - Possibili "stati" di una RPT**
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Stato**       | **Descrizione** | **Tipologia**   | **Riuso**       |
-|                 | **Stato**       | **stato RPT**   |                 |
-|                 |                 |                 | **IUV**   [7]_  |
-+=================+=================+=================+=================+
-| RPT_RICEVUTA_N  | RPT ricevuta    | Oper. aperta    | NO              |
-| ODO             | dal Nodo e in   |                 |                 |
-|                 | attesa di       |                 |                 |
-|                 | essere          |                 |                 |
-|                 | processata      |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RPT_RIFIUTATA_N | RPT rifiutata   | Oper. conclusa  | SI              |
-| ODO             | dal Nodo per    | (KO)            |                 |
-|                 | sintassi o      |                 |                 |
-|                 | semantica       |                 |                 |
-|                 | errata          |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RPT_ACCETTATA_N | RPT accettata   | Oper. aperta    | NO              |
-| ODO             | dal Nodo come   |                 |                 |
-|                 | valida          |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RPT_RIFIUTATA_P | RPT rifiutata   | Oper. conclusa  | NO              |
-| SP              | dall'Intermedia | (KO)            |                 |
-|                 | rio             |                 |                 |
-|                 | PSP per         |                 |                 |
-|                 | sintassi o      |                 |                 |
-|                 | semantica       |                 |                 |
-|                 | errata          |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RPT_ERRORE_INV  | RPT inviata     | Oper. conclusa  | SI              |
-| IO_A_PSP        | all'Intermediar | (KO)            |                 |
-|                 | io              |                 |                 |
-|                 | PSP -           |                 |                 |
-|                 | indisponibilità |                 |                 |
-|                 | del ricevente   |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RPT_INVIATA_A_P | RPT inviata     | Oper. aperta    | NO              |
-| SP              | all'Intermediar |                 |                 |
-|                 | io              |                 |                 |
-|                 | PSP - azione in |                 |                 |
-|                 | attesa di       |                 |                 |
-|                 | risposta        |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RPT_ACCETTATA_P | RPT ricevuta ed | Oper. aperta    | NO              |
-| SP              | accettata       |                 |                 |
-|                 | dall'Intermedia |                 |                 |
-|                 | rio             |                 |                 |
-|                 | PSP come valida |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RPT_DECORSI_TE  | RPT ha superato | Oper. conclusa  | SI              |
-| RMINI           | il periodo di   | (KO)            |                 |
-|                 | decorrenza      |                 |                 |
-|                 | termini nel     |                 |                 |
-|                 | Nodo            |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RT_RICEVUTA_NO  | RT ricevuta dal | Oper. aperta    | NO              |
-| DO              | Nodo            |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RT_RIFIUTATA_N  | RT rifiutata    | Oper. aperta    | NO              |
-| ODO             | dal Nodo per    |                 |                 |
-|                 | sintassi o      |                 |                 |
-|                 | semantica       |                 |                 |
-|                 | errata          |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RT_ACCETTATA_N  | RT accettata    | Oper. aperta    | NO              |
-| ODO             | dal Nodo come   |                 |                 |
-|                 | valida ed in    |                 |                 |
-|                 | corso di invio  |                 |                 |
-|                 | all'Intermediar |                 |                 |
-|                 | io              |                 |                 |
-|                 | dell’Ente       |                 |                 |
-|                 | Creditore       |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RT_ACCETTATA_P  | RT ricevuta     | Oper. conclusa  | NO              |
-| A               | dall'Intermedia | (OK)            |                 |
-|                 | rio             |                 |                 |
-|                 | dell’Ente       |                 |                 |
-|                 | Creditore ed    |                 |                 |
-|                 | accettata       |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RT_RIFIUTATA_P  | RT ricevuta     | Oper. aperta    | NO              |
-| A               | dall'Intermedia |                 |                 |
-|                 | rio             |                 |                 |
-|                 | dell’Ente       |                 |                 |
-|                 | Creditore e     |                 |                 |
-|                 | rifiutata       |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| RT_ESITO_SCONO  | Esito           | Oper. aperta    | NO              |
-| SCIUTO_PA       | dell'accettazio |                 |                 |
-|                 | ne              |                 |                 |
-|                 | RT              |                 |                 |
-|                 | dell'Intermedia |                 |                 |
-|                 | rio             |                 |                 |
-|                 | dell’Ente       |                 |                 |
-|                 | Creditore non   |                 |                 |
-|                 | interpretabile  |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
++---------------------------+-----------------+-----------------+-----------------+
+| **Stato**                 | **Descrizione** | **Tipologia**   | **Riuso**       |
+|                           | **Stato**       | **stato RPT**   |                 |
+|                           |                 |                 | **IUV**   [7]_  |
++===========================+=================+=================+=================+
+| RPT_RICEVUTA_NODO         | RPT ricevuta    | Oper. aperta    | NO              |
+|                           | dal Nodo e in   |                 |                 |
+|                           | attesa di       |                 |                 |
+|                           | essere          |                 |                 |
+|                           | processata      |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RPT_RIFIUTATA_NODO        | RPT rifiutata   | Oper. conclusa  | SI              |
+|                           | dal Nodo per    | (KO)            |                 |
+|                           | sintassi o      |                 |                 |
+|                           | semantica       |                 |                 |
+|                           | errata          |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RPT_ACCETTATA_NODO        | RPT accettata   | Oper. aperta    | NO              |
+|                           | dal Nodo come   |                 |                 |
+|                           | valida          |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RPT_RIFIUTATA_PSP         | RPT rifiutata   | Oper. conclusa  | NO              |
+|                           | dall'Intermedia | (KO)            |                 |
+|                           | rio             |                 |                 |
+|                           | PSP per         |                 |                 |
+|                           | sintassi o      |                 |                 |
+|                           | semantica       |                 |                 |
+|                           | errata          |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RPT_ERRORE_INVIO_A_PSP    | RPT inviata     | Oper. conclusa  | SI              |
+|                           | all'Intermediar | (KO)            |                 |
+|                           | io              |                 |                 |
+|                           | PSP -           |                 |                 |
+|                           | indisponibilità |                 |                 |
+|                           | del ricevente   |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RPT_INVIATA_A_PSP         | RPT inviata     | Oper. aperta    | NO              |
+|                           | all'Intermediar |                 |                 |
+|                           | io              |                 |                 |
+|                           | PSP - azione in |                 |                 |
+|                           | attesa di       |                 |                 |
+|                           | risposta        |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RPT_ACCETTATA_PSP         | RPT ricevuta ed | Oper. aperta    | NO              |
+|                           | accettata       |                 |                 |
+|                           | dall'Intermedia |                 |                 |
+|                           | rio             |                 |                 |
+|                           | PSP come valida |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RPT_DECORSI_TERMINI       | RPT ha superato | Oper. conclusa  | SI              |
+|                           | il periodo di   | (KO)            |                 |
+|                           | decorrenza      |                 |                 |
+|                           | termini nel     |                 |                 |
+|                           | Nodo            |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RT_RICEVUTA_NODO          | RT ricevuta dal | Oper. aperta    | NO              |
+|                           | Nodo            |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RT_RIFIUTATA_NODO         | RT rifiutata    | Oper. aperta    | NO              |
+|                           | dal Nodo per    |                 |                 |
+|                           | sintassi o      |                 |                 |
+|                           | semantica       |                 |                 |
+|                           | errata          |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RT_ACCETTATA_NODO         | RT accettata    | Oper. aperta    | NO              |
+|                           | dal Nodo come   |                 |                 |
+|                           | valida ed in    |                 |                 |
+|                           | corso di invio  |                 |                 |
+|                           | all'Intermediar |                 |                 |
+|                           | io              |                 |                 |
+|                           | dell’Ente       |                 |                 |
+|                           | Creditore       |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RT_ACCETTATA_PA           | RT ricevuta     | Oper. conclusa  | NO              |
+|                           | dall'Intermedia | (OK)            |                 |
+|                           | rio             |                 |                 |
+|                           | dell’Ente       |                 |                 |
+|                           | Creditore ed    |                 |                 |
+|                           | accettata       |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RT_RIFIUTATA_PA           | RT ricevuta     | Oper. aperta    | NO              |
+|                           | dall'Intermedia |                 |                 |
+|                           | rio             |                 |                 |
+|                           | dell’Ente       |                 |                 |
+|                           | Creditore e     |                 |                 |
+|                           | rifiutata       |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
+| RT_ESITO_SCONOSCIUTO_PA   | Esito           | Oper. aperta    | NO              |
+|                           | dell'accettazio |                 |                 |
+|                           | ne              |                 |                 |
+|                           | RT              |                 |                 |
+|                           | dell'Intermedia |                 |                 |
+|                           | rio             |                 |                 |
+|                           | dell’Ente       |                 |                 |
+|                           | Creditore non   |                 |                 |
+|                           | interpretabile  |                 |                 |
++---------------------------+-----------------+-----------------+-----------------+
 
 nodoChiediListaPendentiRPT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3582,218 +3574,77 @@ indicati in Tabella 38.
 
 **Tabella** **38 - Dati del Messaggio HTTP-POST**
 
-+-------------+-------------+-------------+-------------+-------------+
-| **Dato**    | **Genere**  | **Occ**     | **Len**     |**Contenuto**|
-|             |             |             |             |             |
-+=============+=============+=============+=============+=============+
-| idDominio   | an          | 1..1        | 35          | Identificat |
-|             |             |             |             | ivo         |
-|             |             |             |             | dell’ente   |
-|             |             |             |             | che sta     |
-|             |             |             |             | richiedendo |
-|             |             |             |             | le          |
-|             |             |             |             | funzionalit |
-|             |             |             |             | à           |
-|             |             |             |             | WISP.       |
-+-------------+-------------+-------------+-------------+-------------+
-| enteCredito | an          | 1..1        | 140         | Stringa     |
-| re          |             |             |             | alfanumeric |
-|             |             |             |             | a           |
-|             |             |             |             | contenente  |
-|             |             |             |             | la          |
-|             |             |             |             | denominazio |
-|             |             |             |             | ne          |
-|             |             |             |             | dell’ente   |
-|             |             |             |             | che sta     |
-|             |             |             |             | richiedendo |
-|             |             |             |             | le          |
-|             |             |             |             | funzionalit |
-|             |             |             |             | à           |
-|             |             |             |             | WISP.       |
-+-------------+-------------+-------------+-------------+-------------+
-| keyPA       | an          | 1..1        | 40          | Token       |
-|             |             |             |             | generato    |
-|             |             |             |             | dall'Ente   |
-|             |             |             |             | Creditore   |
-|             |             |             |             | rappresenta |
-|             |             |             |             | tivo        |
-|             |             |             |             | della       |
-|             |             |             |             | sessione di |
-|             |             |             |             | scelta del  |
-|             |             |             |             | PSP da      |
-|             |             |             |             | parte       |
-|             |             |             |             | dell’utente |
-|             |             |             |             | .           |
-|             |             |             |             | Deve essere |
-|             |             |             |             | univoco nel |
-|             |             |             |             | dominio     |
-|             |             |             |             | dell'Ente   |
-|             |             |             |             | Creditore.  |
-+-------------+-------------+-------------+-------------+-------------+
-| urlReturn   | an          | 1..1        | 255         | URL a cui   |
-|             |             |             |             | il portale  |
-|             |             |             |             | WISP deve   |
-|             |             |             |             | ritornare   |
-|             |             |             |             | l’esito in  |
-|             |             |             |             | caso di     |
-|             |             |             |             | scelta del  |
-|             |             |             |             | PSP         |
-|             |             |             |             | effettuata  |
-|             |             |             |             | con         |
-|             |             |             |             | successo.   |
-+-------------+-------------+-------------+-------------+-------------+
-| urlBack     | an          | 1..1        | 255         | URL a cui   |
-|             |             |             |             | il portale  |
-|             |             |             |             | WISP deve   |
-|             |             |             |             | ritornare   |
-|             |             |             |             | il          |
-|             |             |             |             | controllo   |
-|             |             |             |             | in caso di  |
-|             |             |             |             | annullament |
-|             |             |             |             | o           |
-|             |             |             |             | o timeout   |
-|             |             |             |             | della       |
-|             |             |             |             | transazione |
-|             |             |             |             | .           |
-+-------------+-------------+-------------+-------------+-------------+
-| primitiva   | an          | 1..1        | 30          | Primitiva   |
-|             |             |             |             | che verrà   |
-|             |             |             |             | utilizzata  |
-|             |             |             |             | per         |
-|             |             |             |             | effettuare  |
-|             |             |             |             | il          |
-|             |             |             |             | pagamento.  |
-+-------------+-------------+-------------+-------------+-------------+
-| numPagament | n           | 1..1        | 1           | Numero dei  |
-| iRPT        |             |             |             | pagamenti   |
-|             |             |             |             | presenti    |
-|             |             |             |             | nella RPT.  |
-+-------------+-------------+-------------+-------------+-------------+
-| stornoPagam | an          | 1..1        | 2           | Indica se   |
-| ento        |             |             |             | mostrare    |
-|             |             |             |             | solo i PSP  |
-|             |             |             |             | che         |
-|             |             |             |             | consentono  |
-|             |             |             |             | lo storno   |
-|             |             |             |             | del         |
-|             |             |             |             | pagamento   |
-|             |             |             |             | immediato.  |
-+-------------+-------------+-------------+-------------+-------------+
-| bolloDigita | an          | 1..1        | 2           | Richiesta   |
-| le          |             |             |             | del         |
-|             |             |             |             | pagamento   |
-|             |             |             |             | della marca |
-|             |             |             |             | da bollo    |
-|             |             |             |             | digitale.   |
-+-------------+-------------+-------------+-------------+-------------+
-| terzoModell | an          | 1..1        | 2           | Indica se   |
-| oPagamento  |             |             |             | mostrare o  |
-|             |             |             |             | meno i      |
-|             |             |             |             | servizi dei |
-|             |             |             |             | PSP che     |
-|             |             |             |             | consentono  |
-|             |             |             |             | il          |
-|             |             |             |             | pagamento   |
-|             |             |             |             | attivato    |
-|             |             |             |             | presso i    |
-|             |             |             |             | PSP         |
-|             |             |             |             | (cosiddetto |
-|             |             |             |             | modello 3,  |
-|             |             |             |             | cfr. § 2.2  |
-|             |             |             |             | delle SANP) |
-+-------------+-------------+-------------+-------------+-------------+
-| idPSP       | an          | 0..1        | 35          | Identificat |
-|             |             |             |             | ivo         |
-|             |             |             |             | del PSP,    |
-|             |             |             |             | eventualmen |
-|             |             |             |             | te          |
-|             |             |             |             | selezionato |
-|             |             |             |             | dall'utente |
-|             |             |             |             | in sessioni |
-|             |             |             |             | precedenti  |
-|             |             |             |             | e           |
-|             |             |             |             | memorizzato |
-|             |             |             |             | a cura      |
-|             |             |             |             | dell'Ente   |
-|             |             |             |             | Creditore.  |
-+-------------+-------------+-------------+-------------+-------------+
-| tipoVersame | an          | 0..1        | 4           | Identificat |
-| nto         |             |             |             | ivo         |
-|             |             |             |             | del tipo di |
-|             |             |             |             | versamento  |
-|             |             |             |             | eventualmen |
-|             |             |             |             | te          |
-|             |             |             |             | selezionato |
-|             |             |             |             | dall'utente |
-|             |             |             |             | in sessioni |
-|             |             |             |             | precedenti  |
-|             |             |             |             | e           |
-|             |             |             |             | memorizzato |
-|             |             |             |             | a cura      |
-|             |             |             |             | dell'Ente   |
-|             |             |             |             | Creditore.  |
-+-------------+-------------+-------------+-------------+-------------+
-| importoTran | an          | 1..1        | 3..12       | Importo     |
-| sazione     |             |             |             | relativo    |
-|             |             |             |             | alla        |
-|             |             |             |             | transazione |
-|             |             |             |             | oggetto     |
-|             |             |             |             | della       |
-|             |             |             |             | scelta di   |
-|             |             |             |             | pagamento.  |
-+-------------+-------------+-------------+-------------+-------------+
-| versioneInt | an          | 1..1        | 3           | Indica la   |
-| erfacciaWIS |             |             |             | versione di |
-| P           |             |             |             | interfaccia |
-|             |             |             |             | utilizzata  |
-|             |             |             |             | per il      |
-|             |             |             |             | WISP.       |
-+-------------+-------------+-------------+-------------+-------------+
-| ibanAccredi | an          | 0..1        | 27          | Indica il   |
-| to          |             |             |             | codice IBAN |
-|             |             |             |             | che sarà    |
-|             |             |             |             | presente    |
-|             |             |             |             | nella RPT e |
-|             |             |             |             | verso il    |
-|             |             |             |             | quale sarà  |
-|             |             |             |             | effettuato  |
-|             |             |             |             | il          |
-|             |             |             |             | pagamento.  |
-+-------------+-------------+-------------+-------------+-------------+
-| contoPoste  | an          | 1..1        | 2           | Indica se   |
-|             |             |             |             | mostrare o  |
-|             |             |             |             | meno gli    |
-|             |             |             |             | strumenti   |
-|             |             |             |             | di          |
-|             |             |             |             | pagamento   |
-|             |             |             |             | di Poste    |
-|             |             |             |             | Italiane.   |
-+-------------+-------------+-------------+-------------+-------------+
-| pagamentiMo | an          | 1..1        | 2           | Indica se   |
-| dello2      |             |             |             | mostrare o  |
-|             |             |             |             | meno i      |
-|             |             |             |             | servizi dei |
-|             |             |             |             | PSP che     |
-|             |             |             |             | consentono  |
-|             |             |             |             | il          |
-|             |             |             |             | pagamento   |
-|             |             |             |             | con         |
-|             |             |             |             | esecuzione  |
-|             |             |             |             | differita   |
-|             |             |             |             | (cosiddetto |
-|             |             |             |             | modello 2). |
-+-------------+-------------+-------------+-------------+-------------+
-| codiceLingu | an          | 0..1        | 2           | Indica il   |
-| a           |             |             |             | codice      |
-|             |             |             |             | della       |
-|             |             |             |             | lingua da   |
-|             |             |             |             | utilizzare  |
-|             |             |             |             | per         |
-|             |             |             |             | l’esposizio |
-|             |             |             |             | ne          |
-|             |             |             |             | delle       |
-|             |             |             |             | pagine web. |
-+-------------+-------------+-------------+-------------+-------------+
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| **Dato**                | **Genere** | **Occ** | **Len** | **Contenuto**                                 |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| idDominio               | an         | 1..1    | 35      | Identificativo dell’ente che sta richiedendo  |
+|                         |            |         |         | le funzionalità WISP.                         |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| enteCreditore           | an         | 1..1    | 140     | Stringa alfanumerica contenente la            |
+|                         |            |         |         | denominazione dell’ente che sta               |
+|                         |            |         |         | richiedendo le funzionalità WISP.             |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| keyPA                   | an         | 1..1    | 40      | Token generato dall'Ente Creditore            |
+|                         |            |         |         | rappresentativo della sessione di scelta      |
+|                         |            |         |         | del PSP da parte dell’utente. Deve essere     |
+|                         |            |         |         | univoco nel dominio dell'Ente Creditore.      |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| urlReturn               | an         | 1..1    | 255     | URL a cui il portale WISP deve ritornare      |
+|                         |            |         |         | l’esito in caso di scelta del PSP effettuata  |
+|                         |            |         |         | con successo.                                 |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| urlBack                 | an         | 1..1    | 255     | URL a cui il portale WISP deve ritornare      |
+|                         |            |         |         | il controllo in caso di annullamento o        |
+|                         |            |         |         | timeout della transazione.                    |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| primitiva               | an         | 1..1    | 30      | Primitiva che verrà utilizzata per            |
+|                         |            |         |         | effettuare il pagamento.                      |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| numPagamentiRPT         | n          | 1..1    | 1       | Numero dei pagamenti presenti nella RPT.      |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| stornoPagamento         | an         | 1..1    | 2       | Indica se mostrare solo i PSP che             |
+|                         |            |         |         | consentono lo storno del pagamento            |
+|                         |            |         |         | immediato.                                    |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| bolloDigitale           | an         | 1..1    | 2       | Richiesta del pagamento della marca da        |
+|                         |            |         |         | bollo digitale.                               |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| terzoModelloPagamento   | an         | 1..1    | 2       | Indica se mostrare o meno i servizi dei PSP   |
+|                         |            |         |         | che consentono il pagamento attivato presso   |
+|                         |            |         |         | i PSP (cosiddetto modello 3,                  |
+|                         |            |         |         | cfr. § 2.2 delle SANP)                        |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| idPSP                   | an         | 0..1    | 35      | Identificativo del PSP, eventualmente         |
+|                         |            |         |         | selezionato dall'utente in sessioni           |
+|                         |            |         |         | precedenti e memorizzato a cura               |
+|                         |            |         |         | dell'Ente Creditore.                          |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| tipoVersamento          | an         | 0..1    | 4       | Identificativo del tipo di versamento         |
+|                         |            |         |         | eventualmente selezionato dall'utente         |
+|                         |            |         |         | in sessioni precedenti e memorizzato          |
+|                         |            |         |         | a cura dell'Ente Creditore.                   |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| importoTransazione      | an         | 1..1    | 3..12   | Importo relativo alla transazione             |
+|                         |            |         |         | oggetto della scelta di pagamento.            |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| versioneInterfacciaWISP | an         | 1..1    | 3       | Indica la versione di interfaccia             |
+|                         |            |         |         | utilizzata per il WISP.                       |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| ibanAccredito           | an         | 0..1    | 27      | Indica il codice IBAN che sarà presente       |
+|                         |            |         |         | nella RPT e verso il quale sarà effettuato    |
+|                         |            |         |         | il pagamento.                                 |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| contoPoste              | an         | 1..1    | 2       | Indica se mostrare o meno gli strumenti       |
+|                         |            |         |         | di pagamento di Poste Italiane.               |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| pagamentiModello2       | an         | 1..1    | 2       | Indica se mostrare o meno i servizi dei       |
+|                         |            |         |         | PSP che consentono il pagamento con           |
+|                         |            |         |         | esecuzione differita                          |
+|                         |            |         |         | (cosiddetto modello 2).                       |
++-------------------------+------------+---------+---------+-----------------------------------------------+
+| codiceLingua            |            | 0..1    | 2       | Indica il codice della lingua da utilizzare   |
+|                         |            |         |         | per l’esposizione delle pagine web.           |
++-------------------------+------------+---------+---------+-----------------------------------------------+
 
 Tenuto presente che il significato dei dati richiesti per il "messaggio
 di avvio del processo di selezione del PSP" è riportato nella colonna
