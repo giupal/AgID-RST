@@ -187,78 +187,25 @@ codici grafici (mono o bidimensionali) sono quelle indicate in Tabella
 
 **Tabella** **30 - Dati per automazione dell'avviso di pagamento**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| codic     | 1         | n         | 1..1      | 11..13    | Identific |
-| eIdentifi |           |           |           |           | ativo     |
-| cativoEnt |           |           |           |           | dell’Ente |
-| e         |           |           |           |           | Creditore |
-|           |           |           |           |           | .         |
-|           |           |           |           |           | Può       |
-|           |           |           |           |           | assumere  |
-|           |           |           |           |           | il valore |
-|           |           |           |           |           | di Codice |
-|           |           |           |           |           | Fiscale,  |
-|           |           |           |           |           | ovvero un |
-|           |           |           |           |           | valore    |
-|           |           |           |           |           | definito  |
-|           |           |           |           |           | dalla     |
-|           |           |           |           |           | specifica |
-|           |           |           |           |           | codifica  |
-|           |           |           |           |           | adottata. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| numer     | 1         | n         | 1..1      | 8..18     | È il      |
-| oAvviso   |           |           |           |           | numero    |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | l’Ente    |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | attribuis |
-|           |           |           |           |           | ce        |
-|           |           |           |           |           | all’avvis |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-|           |           |           |           |           |           |
-|           |           |           |           |           | È         |
-|           |           |           |           |           | composto  |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | indicato  |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | paragrafo |
-|           |           |           |           |           | 7.4.1     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| impor     | 1         | an        | 1.1       | 3..12     | Campo     |
-| toVersame |           |           |           |           | numerico  |
-| nto       |           |           |           |           | (due      |
-|           |           |           |           |           | cifre per |
-|           |           |           |           |           | la parte  |
-|           |           |           |           |           | decimale, |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | separator |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | centesimi |
-|           |           |           |           |           | è il      |
-|           |           |           |           |           | punto     |
-|           |           |           |           |           | “.”),     |
-|           |           |           |           |           | indicante |
-|           |           |           |           |           | l’importo |
-|           |           |           |           |           | relativo  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | somma da  |
-|           |           |           |           |           | versare.  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Deve      |
-|           |           |           |           |           | essere    |
-|           |           |           |           |           | diverso   |
-|           |           |           |           |           | da        |
-|           |           |           |           |           | **“0.00”**|
-+-----------+-----------+-----------+-----------+-----------+-----------+
++--------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+|         **Dato**         | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                       |
++--------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| codiceIdentificativoEnte | 1       | n          | 1..1    | 11..13  | Identificativo dell’Ente Creditore.                 |
+|                          |         |            |         |         | Può assumere il valore di Codice Fiscale,           |
+|                          |         |            |         |         | ovvero un valore definito dalla specifica           |
+|                          |         |            |         |         | codifica adottata.                                  |
++--------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| numeroAvviso             | 1       | n          | 1..1    | 8..18   | È il numero che l’Ente Creditore attribuisce        |
+|                          |         |            |         |         | all’avviso di pagamento. È composto secondo         |
+|                          |         |            |         |         | il formato indicato al                              |
+|                          |         |            |         |         | paragrafo 7.4.1                                     |
++--------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| importoVersamento        | 1       | an         | 1..1    | 3..12   | Campo numerico (due cifre per la parte decimale,    |
+|                          |         |            |         |         | il separatore dei centesimi è il punto “.”),        |
+|                          |         |            |         |         | indicante l’importo relativo alla somma da versare. |
+|                          |         |            |         |         |                                                     |
+|                          |         |            |         |         | **Deve essere diverso da “0.00”.**                  |
++--------------------------+---------+------------+---------+---------+-----------------------------------------------------+
 
 Qualora l’importo del pagamento non sia conosciuto al momento della
 stampa dell’avviso, il dato importoVersamento sarà impostato al valore
@@ -287,88 +234,34 @@ Tabella 31.
 
 **Tabella** **31 - Dati per la stringa da inserire all’interno del QRcode**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| Codice    | 1         | an        | 1..1      | 6         | Assume il |
-| identifi  |           |           |           |           | valore    |
-| cativo    |           |           |           |           | fisso:    |
-|           |           |           |           |           | “PAGOPA”. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Separatore| 1         | an        | 1..1      | 1         | Separator |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dei dati: |
-|           |           |           |           |           | costituit |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | dalla     |
-|           |           |           |           |           | barra     |
-|           |           |           |           |           | verticale |
-|           |           |           |           |           | ("|"),    |
-|           |           |           |           |           | ASCII     |
-|           |           |           |           |           | 124.      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Versione  | 1         | an        | 1..1      | 3         | Assume il |
-|           |           |           |           |           | valore    |
-|           |           |           |           |           | fisso     |
-|           |           |           |           |           | “002”.    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Separatore| 1         | an        | 1..1      | 1         | Separator |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dei dati. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Numero    | 1         | an        | 1.1.      | 8..18     | Contiene  |
-| Avviso    |           |           |           |           | il Numero |
-|           |           |           |           |           | Avviso    |
-|           |           |           |           |           | composto  |
-|           |           |           |           |           | dalla     |
-|           |           |           |           |           | concatena |
-|           |           |           |           |           | zione     |
-|           |           |           |           |           | dei dati: |
-|           |           |           |           |           | aux,      |
-|           |           |           |           |           | digit,    |
-|           |           |           |           |           | applicati |
-|           |           |           |           |           | on        |
-|           |           |           |           |           | code,     |
-|           |           |           |           |           | codice    |
-|           |           |           |           |           | IUV (vedi |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 30).      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Separatore| 1         | an        | 1..1      | 1         | Separator |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dei dati. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Identifica| 1         | an        | 1..1      | 11        | Codice    |
-| tivoEnte  |           |           |           |           | fiscale   |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | ,         |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | corrispon |
-|           |           |           |           |           | de        |
-|           |           |           |           |           | al dato   |
-|           |           |           |           |           | codiceIde |
-|           |           |           |           |           | ntificati |
-|           |           |           |           |           | voEnte,   |
-|           |           |           |           |           | (vedi     |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 30).      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Separatore| 1         | an        | 1..1      | 1         | Separator |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dei dati. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Importo   | 1         | n         | 1..1      | 2..10     | Importo   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | in        |
-|           |           |           |           |           | centesimi |
-|           |           |           |           |           | di euro   |
-|           |           |           |           |           | (vedi     |
-|           |           |           |           |           | Tabella   |
-|           |           |           |           |           | 30).      |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+|       **Dato**       | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| Codiceidentificativo | 1       | an         | 1..1    | 6       | Assume il valore fisso: “PAGOPA”.            |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| Separatore           | 1       | an         | 1..1    | 1       | Separatore dei dati: costituito dalla barra  |
+|                      |         |            |         |         | verticale ("|"), ASCII 124.                  |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| Versione             | 1       | an         | 1..1    | 3       | Assume il valore fisso “002”.                |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| Separatore           | 1       | an         | 1..1    | 1       | Separatore dei dati.                         |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| NumeroAvviso         | 1       | an         | 1..1    | 8..18   | Contiene il Numero Avviso composto dalla     |
+|                      |         |            |         |         | concatenazione dei dati: aux, digit,         |
+|                      |         |            |         |         | application code, codice IUV                 |
+|                      |         |            |         |         | (vedi Tabella 30)                            |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| Separatore           | 1       | an         | 1..1    | 1       | Separatore dei dati.                         |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| IdentificativoEnte   | 1       | an         | 1..1    | 11      | Codice fiscale dell’Ente Creditore, che      |
+|                      |         |            |         |         | corrisponde al dato codiceIdentificativoEnte |
+|                      |         |            |         |         | (vedi Tabella 30)                            |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| Separatore           | 1       | an         | 1..1    | 1       | Separatore dei dati.                         |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
+| Importo              | 1       | n          | 1..1    | 2..10   | Importo del pagamento in centesimi di euro   |
+|                      |         |            |         |         | (vedi Tabella 30)                            |
++----------------------+---------+------------+---------+---------+----------------------------------------------+
 
 +-----------------------------------+-----------------------------------+
 | Stante quanto indicato nella      | |NuovoQR.png|                     |
@@ -392,19 +285,19 @@ essere applicate nella generazione del QRcode.
 
 **Tabella** **32 - Parametri per la generazione del QRcode**
 
-+----------------+-------------------------------+
-| Caratteristica | Valore da utilizzare          |
-+================+===============================+
-| Symbol Version | 4                             |
-+----------------+-------------------------------+
-| Modules        | 33x33                         |
-+----------------+-------------------------------+
-| Modules width  | 3 pixels                      |
-+----------------+-------------------------------+
-| ECC level      | M (correzione errore max 15%) |
-+----------------+-------------------------------+
-| Character set  | UTF-8                         |
-+----------------+-------------------------------+
++--------------------+-------------------------------+
+| **Caratteristica** | **Valore da utilizzare**      |
++====================+===============================+
+| Symbol Version     | 4                             |
++--------------------+-------------------------------+
+| Modules            | 33x33                         |
++--------------------+-------------------------------+
+| Modules width      | 3 pixels                      |
++--------------------+-------------------------------+
+| ECC level          | M (correzione errore max 15%) |
++--------------------+-------------------------------+
+| Character set      | UTF-8                         |
++--------------------+-------------------------------+
 
 Utilizzo del codice a barre sull’avviso di pagamento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -460,105 +353,39 @@ indicati in Tabella 33.
 
 **Formato A**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| causa     | 1         | an        | 1..1      | 140       | Testo     |
-| leVersame |           |           |           |           | libero a  |
-| nto       |           |           |           |           | disposizi |
-|           |           |           |           |           | one       |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | descriver |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | motivazio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++-------------------+---------+------------+---------+---------+----------------------------------------------+
+|      **Dato**     | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                |
++-------------------+---------+------------+---------+---------+----------------------------------------------+
+| causaleVersamento | 1       | an         | 1..1    | 140     | Testo libero a disposizione dell’Ente        |
+|                   |         |            |         |         | per descrivere le motivazioni del pagamento. |
++-------------------+---------+------------+---------+---------+----------------------------------------------+
 
 **Formato B**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| spezz     | 1         | s         | 1..1      |           | Struttura |
-| oniCausal |           |           |           |           | a         |
-| eVersamen |           |           |           |           | disposizi |
-| to        |           |           |           |           | one       |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | descriver |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | in modo   |
-|           |           |           |           |           | sistemati |
-|           |           |           |           |           | co        |
-|           |           |           |           |           | le        |
-|           |           |           |           |           | motivazio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| spezz     | 2         | an        | 1..6      | 35        | Spezzone  |
-| oneCausal |           |           |           |           | di testo  |
-| eVersamen |           |           |           |           | libero.   |
-| to        |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Oppure,   |                                                           |
-| in        |                                                           |
-| alternati |                                                           |
-| va        |                                                           |
-| a         |                                                           |
-| spezzoneC |                                                           |
-| ausaleVer |                                                           |
-| samento,  |                                                           |
-| la        |                                                           |
-| struttura |                                                           |
-| sotto     |                                                           |
-| indicata  |                                                           |
-|           |                                                           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| spezz     | 2         | s         | 1..6      |           | Spezzone  |
-| oneStrutt |           |           |           |           | struttura |
-| uratoCaus |           |           |           |           | to.       |
-| aleVersam |           |           |           |           |           |
-| ento      |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| causa     | 3         | an        | 1..1      | 25        | Causale   |
-| leSpezzon |           |           |           |           | di        |
-| e         |           |           |           |           | pagamento |
-|           |           |           |           |           | legata al |
-|           |           |           |           |           | singolo   |
-|           |           |           |           |           | spezzone. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| impor     | 3         | an        | 1.1       | 10        | Campo     |
-| toSpezzon |           |           |           |           | numerico  |
-| e         |           |           |           |           | (due      |
-|           |           |           |           |           | cifre per |
-|           |           |           |           |           | la parte  |
-|           |           |           |           |           | decimale, |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | separator |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | centesimi |
-|           |           |           |           |           | è il      |
-|           |           |           |           |           | punto     |
-|           |           |           |           |           | “.”),     |
-|           |           |           |           |           | indicante |
-|           |           |           |           |           | l’importo |
-|           |           |           |           |           | relativo  |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | somma     |
-|           |           |           |           |           | facente   |
-|           |           |           |           |           | capo allo |
-|           |           |           |           |           | spezzone. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++--------------------------------------+---------+------------+---------+---------+----------------------------------------+
+|               **Dato**               | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                          |
++--------------------------------------+---------+------------+---------+---------+----------------------------------------+
+| spezzoniCausaleVersamento            | 1       | s          | 1..1    |         | Testo libero a disposizione dell’Ente  |
+|                                      |         |            |         |         | per descrivere le motivazioni del      |
+|                                      |         |            |         |         | pagamento.                             |
++--------------------------------------+---------+------------+---------+---------+----------------------------------------+
+| spezzoneCausaleVersamento            | 2       | an         | 1..6    | 35      | Spezzone di testo libero.              |
++--------------------------------------+---------+------------+---------+---------+----------------------------------------+
+| Oppure, in alternativa a             |         |            |         |         |                                        |
+| spezzoneCausaleVersamento,           |         |            |         |         |                                        |
+| la struttura sotto indicata          |         |            |         |         |                                        |
++--------------------------------------+---------+------------+---------+---------+----------------------------------------+
+| spezzoneStrutturatoCausaleVersamento | 2       | s          | 1..6    |         | Spezzone strutturato.                  |
++--------------------------------------+---------+------------+---------+---------+----------------------------------------+
+| causaleSpezzone                      | 3       | an         | 1..1    | 25      | Causale di pagamento legata al         |
+|                                      |         |            |         |         | singolo spezzone.                      |
++--------------------------------------+---------+------------+---------+---------+----------------------------------------+
+| importoSpezzone                      | 3       | an         | 1..1    | 10      | Campo numerico (due cifre per la       |
+|                                      |         |            |         |         | parte decimale, il separatore dei      |
+|                                      |         |            |         |         | centesimi è il punto “.”), indicante   |
+|                                      |         |            |         |         | l’importo relativo alla somma facente  |
+|                                      |         |            |         |         | capo allo spezzone.                    |
++--------------------------------------+---------+------------+---------+---------+----------------------------------------+
 
 L'Ente Creditore può scegliere quale tipo di formato utilizzare; il PSP
 rende disponibili tali informazioni all'utilizzatore finale.
