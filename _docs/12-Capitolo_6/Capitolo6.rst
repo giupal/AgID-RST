@@ -47,388 +47,101 @@ richiesta, nei formati che saranno concordati.
 
 **Tabella** **29 - Informazioni "minime" da archiviare nel "Giornale degli Eventi "**
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| **Dato**  | **Liv**   | **Genere**| **Occ**   | **Len**   |**Contenu**|
-|           |           |           |           |           |**to**     |
-+===========+===========+===========+===========+===========+===========+
-| dataOra   | 1         | an        | 1..1      | 19        | Indica la |
-| Evento    |           |           |           |           | data e    |
-|           |           |           |           |           | l’ora     |
-|           |           |           |           |           | dell’even |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | secondo   |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | formato   |
-|           |           |           |           |           | ISO 8601, |
-|           |           |           |           |           | alla      |
-|           |           |           |           |           | risoluzio |
-|           |           |           |           |           | ne        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | milliseco |
-|           |           |           |           |           | ndo       |
-|           |           |           |           |           | e sempre  |
-|           |           |           |           |           | riferito  |
-|           |           |           |           |           | al GMT.   |
-|           |           |           |           |           | Formato   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | [YYYY]-   |
-|           |           |           |           |           | [MM]-[DD] |
-|           |           |           |           |           | T[hh]:[mm |
-|           |           |           |           |           | ]:[ss.sss |
-|           |           |           |           |           | ]         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 1         | an        | 1..1      | 1..35     | Campo     |
-| ificativo |           |           |           |           | alfanumer |
-| Dominio   |           |           |           |           | ico       |
-|           |           |           |           |           | contenent |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | il codice |
-|           |           |           |           |           | fiscale   |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | che invia |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | richiesta |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | .         |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| identific | 1         | an        | 1..1      | 1..35     | Riferimen |
-| ativoUniv |           |           |           |           | to        |
-| ocoVersam |           |           |           |           | univoco   |
-| ento      |           |           |           |           | assegnato |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | dall’ente |
-|           |           |           |           |           | beneficia |
-|           |           |           |           |           | rio       |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | messaggio |
-|           |           |           |           |           | che ha    |
-|           |           |           |           |           | originato |
-|           |           |           |           |           | l’evento. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| codiceCon | 1         | an        | 1..1      | 1..35     | Codice    |
-| testoPaga |           |           |           |           | univoco   |
-| mento     |           |           |           |           | necessari |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | definire  |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | contesto  |
-|           |           |           |           |           | nel quale |
-|           |           |           |           |           | viene     |
-|           |           |           |           |           | effettuat |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | il        |
-|           |           |           |           |           | versament |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | messaggio |
-|           |           |           |           |           | che ha    |
-|           |           |           |           |           | originato |
-|           |           |           |           |           | l’evento. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 1         | an        | 1..1      | 1..35     | identific |
-| ificativo |           |           |           |           | ativo     |
-| Prestator |           |           |           |           | del       |
-| eServiziP |           |           |           |           | Prestator |
-| agamento  |           |           |           |           | e         |
-|           |           |           |           |           | servizi   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | Pagamento |
-|           |           |           |           |           | univoco   |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | Dominio   |
-|           |           |           |           |           | scelto    |
-|           |           |           |           |           | dall’util |
-|           |           |           |           |           | izzatore  |
-|           |           |           |           |           | finale    |
-|           |           |           |           |           | e/o       |
-|           |           |           |           |           | dall’Ente |
-|           |           |           |           |           | Creditore |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoVersa | 1         | an        | 0..1      | 1..35     | Forma     |
-| mento     |           |           |           |           | tecnica   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | presente  |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | messaggio |
-|           |           |           |           |           | che ha    |
-|           |           |           |           |           | originato |
-|           |           |           |           |           | l’evento. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| compo     | 1         | an        | 1..1      | 1..35     | Sistema o |
-| nente     |           |           |           |           | sottosist |
-|           |           |           |           |           | ema       |
-|           |           |           |           |           | che ha    |
-|           |           |           |           |           | generato  |
-|           |           |           |           |           | l’evento  |
-|           |           |           |           |           | (es.      |
-|           |           |           |           |           | FESP,     |
-|           |           |           |           |           | WFESP)    |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| categ     | 1         | an        | 1..1      | 1..35     | INTERNO/I |
-| oriaEvent |           |           |           |           | NTERFACCI |
-| o         |           |           |           |           | A,        |
-|           |           |           |           |           | indica se |
-|           |           |           |           |           | l'evento  |
-|           |           |           |           |           | tracciato |
-|           |           |           |           |           | è         |
-|           |           |           |           |           | relativo  |
-|           |           |           |           |           | un'operaz |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | interfacc |
-|           |           |           |           |           | ia        |
-|           |           |           |           |           | con altri |
-|           |           |           |           |           | sistemi   |
-|           |           |           |           |           | oppure se |
-|           |           |           |           |           | rappresen |
-|           |           |           |           |           | ta        |
-|           |           |           |           |           | un'operaz |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | interna   |
-|           |           |           |           |           | (es.      |
-|           |           |           |           |           | cambio di |
-|           |           |           |           |           | stato) al |
-|           |           |           |           |           | proprio   |
-|           |           |           |           |           | sistema   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| tipoE     | 1         | an        | 1..1      | 1..35     | Identific |
-| vento     |           |           |           |           | ativo     |
-|           |           |           |           |           | del tipo  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | evento.   |
-|           |           |           |           |           | Nel caso  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | interazio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | SOAP è il |
-|           |           |           |           |           | nome del  |
-|           |           |           |           |           | metodo    |
-|           |           |           |           |           | SOAP.     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| sotto     | 1         | an        | 1..1      | 1..35     | Nel caso  |
-| TipoEvent |           |           |           |           | di        |
-| o         |           |           |           |           | interazio |
-|           |           |           |           |           | ni        |
-|           |           |           |           |           | SOAP      |
-|           |           |           |           |           | sincrone  |
-|           |           |           |           |           | assume i  |
-|           |           |           |           |           | valori    |
-|           |           |           |           |           | req/rsp   |
-|           |           |           |           |           | per       |
-|           |           |           |           |           | indicare  |
-|           |           |           |           |           | rispettiv |
-|           |           |           |           |           | amente    |
-|           |           |           |           |           | SOAP      |
-|           |           |           |           |           | Request e |
-|           |           |           |           |           | SOAP      |
-|           |           |           |           |           | *Response*|
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 1         | an        | 1..1      | 1..35     | Nel caso  |
-| ificativo |           |           |           |           | di eventi |
-| Fruitore  |           |           |           |           | di tipo   |
-|           |           |           |           |           | INTERFACC |
-|           |           |           |           |           | IA        |
-|           |           |           |           |           | si deve   |
-|           |           |           |           |           | utilizzar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | l’Identif |
-|           |           |           |           |           | icativo   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | sistema   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | Soggetto  |
-|           |           |           |           |           | richieden |
-|           |           |           |           |           | te        |
-|           |           |           |           |           | nell’ambi |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | Dominio.  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | (Es.      |
-|           |           |           |           |           | identific |
-|           |           |           |           |           | ativoStaz |
-|           |           |           |           |           | ioneInter |
-|           |           |           |           |           | mediarioP |
-|           |           |           |           |           | A         |
-|           |           |           |           |           | nel caso  |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | *nodoInvi*|
-|           |           |           |           |           | *aRPT*)   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Nel caso  |
-|           |           |           |           |           | di eventi |
-|           |           |           |           |           | di tipo   |
-|           |           |           |           |           | INTERNO,  |
-|           |           |           |           |           | si può    |
-|           |           |           |           |           | utilizzar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | un nome   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | component |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | o sotto   |
-|           |           |           |           |           | component |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | genera    |
-|           |           |           |           |           | l’evento. |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| ident     | 1         | an        | 1..1      | 1..35     | Nel caso  |
-| ificativo |           |           |           |           | di eventi |
-| Erogatore |           |           |           |           | di tipo   |
-|           |           |           |           |           | INTERFACC |
-|           |           |           |           |           | IA        |
-|           |           |           |           |           | si deve   |
-|           |           |           |           |           | utilizzar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | l’Identif |
-|           |           |           |           |           | icativo   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | sistema   |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | Soggetto  |
-|           |           |           |           |           | risponden |
-|           |           |           |           |           | te        |
-|           |           |           |           |           | nell’ambi |
-|           |           |           |           |           | to        |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | Dominio.  |
-|           |           |           |           |           |           |
-|           |           |           |           |           | (Es.      |
-|           |           |           |           |           | “NodoDeiP |
-|           |           |           |           |           | agamentiS |
-|           |           |           |           |           | PC”       |
-|           |           |           |           |           | nel caso  |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | *nodoInvi*|
-|           |           |           |           |           | *aRPT*)   |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Nel caso  |
-|           |           |           |           |           | di eventi |
-|           |           |           |           |           | di tipo   |
-|           |           |           |           |           | INTERNO,  |
-|           |           |           |           |           | si può    |
-|           |           |           |           |           | utilizzar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | un nome   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | component |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | o sotto   |
-|           |           |           |           |           | component |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | processa  |
-|           |           |           |           |           | l’evento. |
-|           |           |           |           |           | Per       |
-|           |           |           |           |           | quest’ult |
-|           |           |           |           |           | ima       |
-|           |           |           |           |           | tipologia |
-|           |           |           |           |           | il valore |
-|           |           |           |           |           | può       |
-|           |           |           |           |           | coincider |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | con       |
-|           |           |           |           |           | l’iden    |
-|           |           |           |           |           | tificativ |
-|           |           |           |           |           | oFruito   |
-|           |           |           |           |           | re,       |
-|           |           |           |           |           | qualora   |
-|           |           |           |           |           | non vi    |
-|           |           |           |           |           | sia un    |
-|           |           |           |           |           | component |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | che       |
-|           |           |           |           |           | risponde  |
-|           |           |           |           |           | all’event |
-|           |           |           |           |           | o         |
-|           |           |           |           |           | stesso.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| identific | 1         | an        | 0..1      | 1..35     | identific |
-| ativoStaz |           |           |           |           | ativo     |
-| ioneInter |           |           |           |           | della     |
-| mediarioP |           |           |           |           | Stazione  |
-| A         |           |           |           |           | dell’inte |
-|           |           |           |           |           | rmediario |
-|           |           |           |           |           | dell’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | sistema   |
-|           |           |           |           |           | del Nodo  |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | Pagamenti |
-|           |           |           |           |           | SPC, da   |
-|           |           |           |           |           | cui è     |
-|           |           |           |           |           | transitat |
-|           |           |           |           |           | a         |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | RPT/RT.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| canalePag | 1         | an        | 0..1      | 1..35     | identific |
-| amento    |           |           |           |           | ativo     |
-|           |           |           |           |           | del       |
-|           |           |           |           |           | Canale    |
-|           |           |           |           |           | del PSP   |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | sistema   |
-|           |           |           |           |           | del Nodo  |
-|           |           |           |           |           | dei       |
-|           |           |           |           |           | Pagamenti |
-|           |           |           |           |           | SPC da    |
-|           |           |           |           |           | cui è     |
-|           |           |           |           |           | transitat |
-|           |           |           |           |           | a/si      |
-|           |           |           |           |           | vuole far |
-|           |           |           |           |           | transitar |
-|           |           |           |           |           | e         |
-|           |           |           |           |           | la        |
-|           |           |           |           |           | RPT/RT.   |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| parametri | 1         | an        | 0..1      | 1..512    | parametri |
-| Specifici |           |           |           |           | specifici |
-| Interfacc |           |           |           |           | utilizzat |
-| ia        |           |           |           |           | i         |
-|           |           |           |           |           | nell’inte |
-|           |           |           |           |           | rfaccia   |
-|           |           |           |           |           | dal PSP o |
-|           |           |           |           |           | dall’Ente |
-|           |           |           |           |           | Creditore |
-|           |           |           |           |           | nel       |
-|           |           |           |           |           | modello   |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | pagamento |
-|           |           |           |           |           | 1 o 3     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| Esito     | 1         | an        | 0..1      | 1..35     | Campo     |
-|           |           |           |           |           | opzionale |
-|           |           |           |           |           | in base   |
-|           |           |           |           |           | allo      |
-|           |           |           |           |           | stato     |
-|           |           |           |           |           | dell’oper |
-|           |           |           |           |           | azione    |
-|           |           |           |           |           | al        |
-|           |           |           |           |           | momento   |
-|           |           |           |           |           | della     |
-|           |           |           |           |           | registraz |
-|           |           |           |           |           | ione      |
-|           |           |           |           |           | dell’even |
-|           |           |           |           |           | to.       |
-|           |           |           |           |           |           |
-|           |           |           |           |           | Obbliga   |
-|           |           |           |           |           | torio     |
-|           |           |           |           |           | nel caso  |
-|           |           |           |           |           | di        |
-|           |           |           |           |           | richieste |
-|           |           |           |           |           | SOAP.     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+|            **Dato**           | **Liv** | **Genere** | **Occ** | **Len** | **Contenuto**                                       |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| dataOraEvento                 | 1       | s          | 1..1    | 19      | Indica                                              |
+|                               |         |            |         |         | la data e l’ora dell’evento secondo il formato      |
+|                               |         |            |         |         | ISO 8601, alla risoluzione del                      |
+|                               |         |            |         |         | millisecondo e sempre riferito al GMT. Formato      |
+|                               |         |            |         |         | **[YYYY]-[MM]-[DD]T[hh]:[mm]:[ss.sss]**             |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| identificativoDominio         | 1       | an         | 1..1    | 1..35   | Campo alfanumerico contenente                       |
+|                               |         |            |         |         | il codice fiscale dell’Ente Creditore               |
+|                               |         |            |         |         | che invia la richiesta di pagamento.                |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| identificativoUnivoco         | 1       | an         | 1..1    | 1..35   | Riferimento univoco assegnato al                    |
+| Versamento                    |         |            |         |         | pagamento dall’ente beneficiario e                  |
+|                               |         |            |         |         | presente nel messaggio che ha originato             |
+|                               |         |            |         |         | l’evento.                                           |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| codiceContestoPagamento       | 1       | an         | 1..1    | 1..35   | Codice univoco necessario a                         |
+|                               |         |            |         |         | definire il contesto nel quale viene                |
+|                               |         |            |         |         | effettuato il versamento presente nel               |
+|                               |         |            |         |         | messaggio che ha originato l’evento.                |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| identificativoPrestatore      | 1       | an         | 1..1    | 1..35   | identificativo del Prestatore servizi               |
+| ServiziPagamento              |         |            |         |         | di Pagamento univoco nel Dominio                    |
+|                               |         |            |         |         | scelto dall’utilizzatore finale e/o                 |
+|                               |         |            |         |         | dall’Ente Creditore                                 |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| tipoVersamento                | 1       | an         | 0..1    | 1..35   | Forma tecnica di pagamento presente nel             |
+|                               |         |            |         |         | messaggio che ha originato l’evento.                |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| componente                    | 1       | an         | 1..1    | 1..35   | Sistema o sottosistema che ha                       |
+|                               |         |            |         |         | generato l’evento (es. FESP, WFESP)                 |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| categoriaEvento               | 1       | an         | 1..1    | 1..35   | INTERNO/INTERFACCIA, indica se                      |
+|                               |         |            |         |         | l'evento tracciato è relativo un'operazione         |
+|                               |         |            |         |         | di interfaccia con altri sistemi oppure se          |
+|                               |         |            |         |         | rappresenta un'operazione interna                   |
+|                               |         |            |         |         | (es. cambio di stato) al proprio sistema            |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| tipoEvento                    | 1       | an         | 1..1    | 1..35   | Identificativo del tipo di                          |
+|                               |         |            |         |         | evento. Nel caso di interazioni SOAP è              |
+|                               |         |            |         |         | il nome del metodo SOAP.                            |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| sottoTipoEvento               | 1       | an         | 1..1    | 1..35   | Nel caso di interazioni SOAP                        |
+|                               |         |            |         |         | sincrone assume i valori req/rsp per                |
+|                               |         |            |         |         | indicare rispettivamente SOAP Request e             |
+|                               |         |            |         |         | SOAP Response                                       |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| identificativoFruitore        | 1       | an         | 1..1    | 1..35   | Nel caso di eventi di tipo INTERFACCIA              |
+|                               |         |            |         |         | si deve utilizzare l’Identificativo del             |
+|                               |         |            |         |         | sistema del Soggetto richiedente nell’ambito        |
+|                               |         |            |         |         | del Dominio.                                        |
+|                               |         |            |         |         | (Es. *identificativoStazioneIntermediarioPA*        |
+|                               |         |            |         |         |  nel caso della *nodoInviaRPT*)                     |
+|                               |         |            |         |         |                                                     |
+|                               |         |            |         |         | Nel caso di eventi di tipo INTERNO, si può          |
+|                               |         |            |         |         | utilizzare un nome di componente o sotto            |
+|                               |         |            |         |         | componente che genera l’evento.                     |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| identificativoErogatore       | 1       | an         | 1..1    | 1..35   | Nel caso di eventi di tipo INTERFACCIA              |
+|                               |         |            |         |         | si deve utilizzare l’Identificativo del             |
+|                               |         |            |         |         | sistema del Soggetto rispondente nell’ambito        |
+|                               |         |            |         |         | del Dominio.                                        |
+|                               |         |            |         |         | (Es. *“NodoDeiPagamentiSPC”* nel caso della         |
+|                               |         |            |         |         | *nodoInviaRPT*)                                     |
+|                               |         |            |         |         |                                                     |
+|                               |         |            |         |         | Nel caso di eventi di tipo INTERNO, si può          |
+|                               |         |            |         |         | utilizzare un nome di componente o sotto            |
+|                               |         |            |         |         | componente che processa l’evento.                   |
+|                               |         |            |         |         | Per quest’ultima tipologia il valore può            |
+|                               |         |            |         |         | coincidere con l’*identificativoFruitore*,          |
+|                               |         |            |         |         | qualora non vi sia un                               |
+|                               |         |            |         |         | componente che risponde all’evento stesso.          |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| identificativoStazione        | 1       | an         | 0..1    | 1..35   | identificativo della Stazione                       |
+| IntermediarioPA               |         |            |         |         | dell’intermediario dell’Ente Creditore nel sistema  |
+|                               |         |            |         |         | del Nodo dei Pagamenti SPC,                         |
+|                               |         |            |         |         | da cui è transitata la RPT/RT.                      |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| canalePagamento               | 1       | an         | 0..1    | 1..35   | identificativo del Canale del                       |
+|                               |         |            |         |         | PSP nel sistema del Nodo dei Pagamenti              |
+|                               |         |            |         |         | SPC da cui è transitata/si vuole far transitare     |
+|                               |         |            |         |         | la RPT/RT.                                          |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| parametriSpecificiInterfaccia | 1       | an         | 0..1    | 1..512  | parametri specifici utilizzati                      |
+|                               |         |            |         |         | nell’interfaccia dal PSP o dall’Ente                |
+|                               |         |            |         |         | Creditore nel modello di pagamento                  |
+|                               |         |            |         |         | 1 o 3                                               |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
+| Esito                         | 1       | an         | 0..1    | 1..35   | Campo opzionale in base allo stato dell’operazione  |
+|                               |         |            |         |         | al momento della registrazione dell’evento.         |
+|                               |         |            |         |         |                                                     |
+|                               |         |            |         |         | **Obbligatorio nel caso di richieste SOAP.**        |
++-------------------------------+---------+------------+---------+---------+-----------------------------------------------------+
 
 Si precisa per i PSP che deve essere sempre registrato, all’interno del
 Giornale degli Eventi, l’evento relativo alla generazione della RT
