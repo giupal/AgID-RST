@@ -3835,7 +3835,7 @@ alcune precisazioni sui dati presenti da utilizzare:
 +------------------------------------------------------------------------------------------------------------------------------------+
 | Indica se mostrare o meno i servizi dei PSP che consentono il                                                                      |
 | pagamento con esecuzione differita (cosiddetto modello 2,                                                                          |
-|`cfr. § 2.1.2 delle SANP <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`__).             |
+| `cfr. § 2.1.2 delle SANP <../07-Capitolo_2/Capitolo2.rst#processo-di-pagamento-con-autorizzazione-gestita-dal-psp>`__).            |
 +------------------------------------------------------------------------------------------------------------------------------------+
 |**codiceLingua:**                                                                                                                   |
 +------------------------------------------------------------------------------------------------------------------------------------+
@@ -3874,87 +3874,33 @@ indicati in **Tabella 39**.
 
 **Tabella** **39 - Dati forniti nella re-direct su urlBack**
 
-+-------------+-------------+-------------+-------------+-------------+
-| **Dato**    | **Genere**  | **Occ**     | **Len**     |**Contenuto**|
-|             |             |             |             |             |
-+=============+=============+=============+=============+=============+
-| IdDominio   | an          | 1..1        | 35          | Identificat |
-|             |             |             |             | ivo         |
-|             |             |             |             | dell'Ente   |
-|             |             |             |             | Creditore   |
-|             |             |             |             | che sta     |
-|             |             |             |             | richiedendo |
-|             |             |             |             | l’accesso   |
-|             |             |             |             | in          |
-|             |             |             |             | re-direzion |
-|             |             |             |             | e           |
-|             |             |             |             | al portale  |
-|             |             |             |             | WISP.       |
-+-------------+-------------+-------------+-------------+-------------+
-| keyPA       | an          | 1..1        | 40          | Token       |
-|             |             |             |             | generato    |
-|             |             |             |             | dall'Ente   |
-|             |             |             |             | Creditore.  |
-|             |             |             |             | Contiene    |
-|             |             |             |             | l'identific |
-|             |             |             |             | ativo       |
-|             |             |             |             | della       |
-|             |             |             |             | sessione di |
-|             |             |             |             | scelta del  |
-|             |             |             |             | PSP         |
-|             |             |             |             | attivata    |
-|             |             |             |             | dell’utente |
-|             |             |             |             | .           |
-+-------------+-------------+-------------+-------------+-------------+
-| Type        | an          | 1..1        | 10          | **ANNULLO** |
-|             |             |             |             | ,           |
-|             |             |             |             | qualora     |
-|             |             |             |             | l’utente    |
-|             |             |             |             | abbia       |
-|             |             |             |             | cliccato in |
-|             |             |             |             | modo        |
-|             |             |             |             | esplicito   |
-|             |             |             |             | sul bottone |
-|             |             |             |             | di ritorno  |
-|             |             |             |             | esposto dal |
-|             |             |             |             | WISP        |
-|             |             |             |             |             |
-|             |             |             |             | **TIMEOUT** |
-|             |             |             |             | ,           |
-|             |             |             |             | qualora     |
-|             |             |             |             | dalla       |
-|             |             |             |             | re-direzion |
-|             |             |             |             | e           |
-|             |             |             |             | verso il    |
-|             |             |             |             | WISP sia    |
-|             |             |             |             | trascorso   |
-|             |             |             |             | il periodo  |
-|             |             |             |             | di tempo    |
-|             |             |             |             | previsto    |
-|             |             |             |             | per il      |
-|             |             |             |             | parametro   |
-|             |             |             |             | <timeout    |
-|             |             |             |             | Navigazione |
-|             |             |             |             | WISP>.      |
-|             |             |             |             |             |
-|             |             |             |             | **IBAN**,   |
-|             |             |             |             | qualora il  |
-|             |             |             |             | parametro   |
-|             |             |             |             | ibanAccredi |
-|             |             |             |             | to          |
-|             |             |             |             | sia         |
-|             |             |             |             | presente e  |
-|             |             |             |             | il codice   |
-|             |             |             |             | IBAN ivi    |
-|             |             |             |             | specificato |
-|             |             |             |             | non sia     |
-|             |             |             |             | presente    |
-|             |             |             |             | nella White |
-|             |             |             |             | List del    |
-|             |             |             |             | NodoSPC     |
-|             |             |             |             | (cfr. §     |
-|             |             |             |             | 4.2.3).>.   |
-+-------------+-------------+-------------+-------------+-------------+
++-------------+-------------+-------------+-------------+----------------------------------------------------+
+| **Dato**    | **Genere**  | **Occ**     | **Len**     |**Contenuto**                                       |
+|             |             |             |             |                                                    |
++=============+=============+=============+=============+====================================================+
+| IdDominio   | an          | 1..1        | 35          | Identificativo dell'Ente Creditore che sta         |
+|             |             |             |             | richiedendo l’accesso in re-direzione al           |
+|             |             |             |             | portale WISP.                                      |
++-------------+-------------+-------------+-------------+----------------------------------------------------+
+| keyPA       | an          | 1..1        | 40          | Token generato dall'Ente Creditore. Contiene       |
+|             |             |             |             | l'identificativo della sessione di scelta del c    |
+|             |             |             |             | PSP attivata dell’utente.                          |
++-------------+-------------+-------------+-------------+----------------------------------------------------+
+| Type        | an          | 1..1        | 10          | **ANNULLO,** qualora l’utente abbia cliccato in    |
+|             |             |             |             | modo esplicito sul bottone di ritorno esposto      |
+|             |             |             |             | dal WISP                                           |
+|             |             |             |             |                                                    |
+|             |             |             |             |                                                    |
+|             |             |             |             | **TIMEOUT,** qualora dalla re-direzione verso il   |
+|             |             |             |             | WISP sia trascorso il periodo di tempo previsto    |
+|             |             |             |             | per il parametro <timeout Navigazione WISP>.       |
+|             |             |             |             |                                                    |
+|             |             |             |             |                                                    |
+|             |             |             |             | **IBAN,** qualora il parametro ibanAccredito sia   |
+|             |             |             |             | presente e il codice IBAN ivi specificato non sia  |
+|             |             |             |             | presente nella White List del NodoSPC              |
+|             |             |             |             | (cfr. § 4.2.3                                      |
++-------------+-------------+-------------+-------------+----------------------------------------------------+
 
 Re-direzione HTTP da WISP verso il Portale dell'Ente Creditore - urlReturn
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3968,52 +3914,22 @@ viene trasferito in POST e contiene i dati indicati in Tabella 40.
 
 **Tabella** **40 - Dati forniti nella re-direct su urlReturn**
 
-+-------------+-------------+-------------+-------------+-------------+
-| **Dato**    | **Genere**  | **Occ**     | **Len**     |**Contenuto**|
-|             |             |             |             |             |
-+=============+=============+=============+=============+=============+
-| idDominio   | an          | 1..1        | 35          | Identificat |
-|             |             |             |             | ivo         |
-|             |             |             |             | dell'Ente   |
-|             |             |             |             | Creditore   |
-|             |             |             |             | che sta     |
-|             |             |             |             | richiedendo |
-|             |             |             |             | l’accesso   |
-|             |             |             |             | in          |
-|             |             |             |             | re-direzion |
-|             |             |             |             | e           |
-|             |             |             |             | al portale  |
-|             |             |             |             | WISP.       |
-+-------------+-------------+-------------+-------------+-------------+
-| keyPA       | an          | 1..1        | 40          | Token       |
-|             |             |             |             | generato    |
-|             |             |             |             | dall'Ente   |
-|             |             |             |             | Creditore.  |
-|             |             |             |             | Contiene    |
-|             |             |             |             | l'identific |
-|             |             |             |             | ativo       |
-|             |             |             |             | della       |
-|             |             |             |             | sessione di |
-|             |             |             |             | scelta del  |
-|             |             |             |             | PSP         |
-|             |             |             |             | attivata    |
-|             |             |             |             | dell’utente |
-|             |             |             |             | .           |
-+-------------+-------------+-------------+-------------+-------------+
-| keyWISP     | an          | 1..1        | 40          | Token       |
-|             |             |             |             | generato    |
-|             |             |             |             | dalla       |
-|             |             |             |             | componente  |
-|             |             |             |             | WISP del    |
-|             |             |             |             | NodoSPC al  |
-|             |             |             |             | momento     |
-|             |             |             |             | della       |
-|             |             |             |             | chiusura    |
-|             |             |             |             | del         |
-|             |             |             |             | processo di |
-|             |             |             |             | scelta del  |
-|             |             |             |             | PSP.        |
-+-------------+-------------+-------------+-------------+-------------+
++-------------+-------------+-------------+-------------+---------------------------------------------------+
+| **Dato**    | **Genere**  | **Occ**     | **Len**     |**Contenuto**                                      |
+|             |             |             |             |                                                   |
++=============+=============+=============+=============+===================================================+
+| idDominio   | an          | 1..1        | 35          | Identificatificativo dell'Ente Creditore che sta  |
+|             |             |             |             | richiedendo l'accesso in re-direzione al portale  |
+|             |             |             |             | WISP.                                             |
++-------------+-------------+-------------+-------------+---------------------------------------------------+
+| keyPA       | an          | 1..1        | 40          | Token generato dall'Ente Creditore. Contiene      |
+|             |             |             |             | l'identificativo della sessione di scelta del PSP |
+|             |             |             |             | attivata dell’utente.                             |
++-------------+-------------+-------------+-------------+---------------------------------------------------+
+| keyWISP     | an          | 1..1        | 40          | Token generato dalla componente WISP del          |
+|             |             |             |             | NodoSPC al momento della chiusura del processo di |
+|             |             |             |             | scelta del PSP                                    |
++-------------+-------------+-------------+-------------+---------------------------------------------------+
 
 Interfacce per il servizio di File Transfer Sicuro
 --------------------------------------------------
